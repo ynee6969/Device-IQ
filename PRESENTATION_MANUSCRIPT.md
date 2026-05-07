@@ -1,184 +1,83 @@
-# Website Presentation Manuscript
+# Dialed Presentation Manuscript
 
-## Project: Dialed - Phone Discovery Platform
+## 5-Minute Rationale-Focused Script
 
-**Presentation Duration:** 5 minutes  
-**Team:** [Your Team Name]  
-**Members:** [Your Names]
-
----
-
-## OPENING (30 seconds)
-
-> "Good morning/afternoon, Professor. Our team is [Team Name], and we're here to present our website project called 'Dialed' — a phone discovery and comparison platform."
+**Project:** Dialed  
+**Goal:** Explain the purpose of the whole website and why the design choices matter
 
 ---
 
-## PROJECT OVERVIEW (45 seconds)
+## 0:00-0:30 Opening
 
-> "Dialed is a web application that helps users discover, compare, and track their favorite phones. We built it to solve a real problem: with so many phone models available, users need an easy way to compare specifications and find the right device for their needs."
+"Good day. Our project is called Dialed, and it is a phone discovery website built to help users compare smartphones, explore their options, and keep track of the ones they like."
 
-**Key Features:**
-- Phone catalog with detailed specifications
-- Comparison tool to side-by-side evaluate devices
-- Favorites system to save preferred phones
-- Search and filtering capabilities
-- Responsive design that works on all devices
+"We chose this idea because buying a phone is often confusing. There are too many models, too many specs, and too many small details that are hard to compare if everything is spread across different websites."
 
 ---
 
-## TECHNOLOGY STACK (1 minute) — *CRITICAL SECTION*
+## 0:30-1:20 Why The Website Exists
 
-> "Now, I'd like to address the technology we used. Our project is built with **Next.js**, which is a React framework. I want to be clear about something important: **Next.js generates HTML**. It's not that we 'didn't use HTML' — we used a modern framework that compiles to HTML, just like how professional developers build websites in the real world."
+"The main rationale behind the website is simple: we want to make phone selection easier, faster, and more organized."
 
-**Key points to emphasize:**
+"Instead of forcing users to jump between many tabs, Dialed puts browsing, comparison, and account-based saving in one place. That saves time and reduces confusion."
 
-> "Here's how it works: Our `.tsx` files contain JSX — which is a syntax extension that looks like HTML. When we build the project, Next.js compiles this JSX into actual HTML that the browser renders. Let me demonstrate..."
-
-**Say this if asked about HTML:**
-> "If you right-click on our live site and select 'View Page Source,' you will see pure HTML. The browser receives and renders HTML — that's what the user sees. Our code just makes it easier to write and maintain."
-
-**Defense points:**
-- Next.js is industry-standard (used by Netflix, Uber, Starbucks, etc.)
-- The final output is HTML + CSS + JavaScript
-- All the HTML elements are there: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, `<form>`, `<input>`, `<button>`, etc.
-- We use semantic HTML throughout
+"The site is designed for two kinds of users: casual visitors who want to explore phones right away, and returning users who want to save favorites and continue comparing later."
 
 ---
 
-## DESIGN & LAYOUT (1 minute)
+## 1:20-2:10 Why The Structure Matters
 
-> "For the design, we focused on meeting all your requirements:
+"The website is organized so that the experience feels logical from top to bottom."
 
-**1. At Least 5 Pages**
-- Home, About, Services, Gallery, Contact
-- Plus: Dashboard, Favorites, Compare, Phone Details
-- That's 9 pages total
+"The home page introduces the brand and the purpose. The browsing pages focus on discovery. The compare page helps users make decisions. The login and signup pages support account features only when the user needs them."
 
-**2. Responsive Design**
-> "We used CSS Grid and Flexbox throughout. Here's an example from our code..."
-
-```css
-/* Grid layout */
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
-
-/* Flexbox for navigation */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-```
-
-> "We also used **container queries** for responsive components — a modern technique that makes components responsive to their container, not just the viewport."
-
-**3. Consistent Design System**
-> "All colors, fonts, and spacing are defined as CSS variables in `globals.css`:"
-
-```css
-:root {
-  --accent: #6366f1;
-  --surface: #0f172a;
-  --muted: #94a3b8;
-  --radius-lg: 16px;
-  --space-4: 1rem;
-}
-```
+"This structure matters because the site follows the natural decision flow of a buyer: discover, compare, save, and return."
 
 ---
 
-## FUNCTIONALITY (1 minute)
+## 2:10-3:00 Why The Design Looks The Way It Does
 
-> "Our website isn't just static — it has real functionality:
+"We used a clean, dark visual style with bright accents because the website should feel modern, premium, and easy to scan."
 
-**Navigation**
-- Working links between all pages
-- Mobile-responsive navigation with hamburger menu
-- Active state indicators
+"The layout uses clear spacing, large headings, cards, and strong contrast so the user can quickly understand each section."
 
-**Interactive Features**
-- Phone comparison tool that shows specs side-by-side
-- Favorites system that persists data
-- Search functionality
-- Theme toggle (light/dark mode)
-
-**Forms**
-- Contact form with validation
-- Login/Signup authentication forms
-
-> "All of this is built with HTML forms and CSS — just enhanced with JavaScript for better user experience."
+"We also made the interface responsive so it works on mobile and desktop. That is important because most users will browse on phones, but some will compare devices on larger screens."
 
 ---
 
-## CODE QUALITY (30 seconds)
+## 3:00-3:50 Why The Features Matter
 
-> "We followed best practices:
+"Each feature has a purpose."
 
-- **Semantic HTML** — Using proper tags like `<header>`, `<nav>`, `<main>`, `<article>`
-- **Modular CSS** — Each component has its own stylesheet
-- **CSS Variables** — For consistent theming
-- **Responsive-first** — Mobile design as a priority
-- **Accessibility** — Proper contrast, focus states, and labels
+"Search and filters help users narrow choices fast. The compare feature helps them see differences side by side. Favorites let users save options for later. Authentication is only used for account-based actions, not for basic browsing."
+
+"That is important because we do not want the website to feel restrictive. We want it to be helpful first, and account-based only when needed."
 
 ---
 
-## CLOSING (15 seconds)
+## 3:50-4:30 Why The Frontend Approach Was Chosen
 
-> "In summary, Dialed meets all your requirements: 9 responsive pages, consistent design with CSS Grid and Flexbox, working navigation, rich content with images, and proper HTML/CSS code. We've also added functionality that goes beyond the basic requirements.
+"The site is built with modern frontend structure so it stays maintainable."
 
-**Thank you for your time. We're ready for your questions."**
+"We use reusable components, semantic HTML, and CSS-based design rules so the layout can grow without becoming messy."
 
----
-
-## ANTICIPATED QUESTIONS & ANSWERS
-
-### Q: "Where is the HTML?"
-**A:** "The HTML is generated from our JSX files. When you build the project with `npm run build`, Next.js creates HTML files in the `.next` folder. You can also see the HTML by viewing the page source in your browser."
-
-### Q: "Can you show me the CSS?"
-**A:** "Absolutely. We have CSS modules for each component. For example, the header styles are in `components/marketing/SiteHeader.module.css`. Let me show you..."
-
-### Q: "What happens if you remove the JavaScript?"
-**A:** "The site will still work for basic viewing. Next.js provides server-side rendering, so the HTML is generated on the server. JavaScript adds interactivity like the theme toggle and favorites, but the core content is visible without it."
-
-### Q: "How do you handle mobile?"
-**A:** "We use media queries and container queries. Here's an example from our code..."
-
-```css
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-```
+"This approach makes the website easier to update, easier to debug, and easier to explain because every part has a clear role."
 
 ---
 
-## QUICK REFERENCE: Where Things Are
+## 4:30-5:00 Closing
 
-| What to show | File Location |
-|-------------|---------------|
-| CSS Variables | `app/globals.css` |
-| Header styles | `components/marketing/SiteHeader.module.css` |
-| Footer styles | `components/marketing/SiteFooter.module.css` |
-| Page layouts | `app/*/page.module.css` |
-| Card components | `components/phones/DeviceCard.module.css` |
-| Navigation | `components/navigation/InstantNavLink.module.css` |
-| Hero section | `components/marketing/hero-section.tsx` |
+"In summary, Dialed is not just a phone catalog. It is a decision-support website built to simplify phone discovery and comparison."
+
+"Its rationale is to reduce browsing friction, make information easier to understand, and give users a cleaner way to choose a phone that fits their needs."
+
+"Thank you, and we are ready for your questions."
 
 ---
 
-## PRACTICE TIPS
+## Presentation Reminders
 
-1. **Rehearse the technology defense** — Be confident explaining that Next.js generates HTML
-2. **Know where your files are** — Be able to quickly open any CSS file
-3. **Practice with DevTools** — Be comfortable making changes in the browser
-4. **Keep it natural** — Don't memorize word-for-word, understand the concepts
-
----
-
-*Good luck with your presentation! 🎉*
+- Keep the focus on purpose, not code details
+- Speak about the user problem first, then the solution
+- Use the site flow as your story: discover, compare, save, return
+- If asked about technology, explain that the frontend structure supports the rationale

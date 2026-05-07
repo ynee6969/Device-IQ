@@ -11,13 +11,16 @@ import {
   logServerFailure
 } from "@/lib/services/runtime-safety";
 
+const databaseConfigurationMessage =
+  "Database is not configured. Add DATABASE_URL in Vercel so accounts can be created.";
+
 export async function POST(request: Request) {
   if (!hasConfiguredAuthSecret()) {
     return NextResponse.json({ error: authConfigurationMessage }, { status: 503 });
   }
 
   if (!hasDatabaseUrl()) {
-    return NextResponse.json({ error: authServiceUnavailableMessage }, { status: 503 });
+    return NextResponse.json({ error: databaseConfigurationMessage }, { status: 503 });
   }
 
   try {
