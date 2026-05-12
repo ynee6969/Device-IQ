@@ -439,24 +439,28 @@ async function cacheReference(phoneId: string, reference: PhoneReference) {
     return;
   }
 
-  await prisma.phoneSource.upsert({
-    where: {
-      cacheKey: buildCacheKey(phoneId)
-    },
-    update: {
-      sourceUrl: reference.sourceUrl,
-      rawExtraction: reference as unknown as Prisma.InputJsonValue,
-      fetchedAt: new Date(reference.lastFetchedAt)
-    },
-    create: {
-      phoneId,
-      sourceKind: SourceKind.gsmarena,
-      sourceUrl: reference.sourceUrl,
-      cacheKey: buildCacheKey(phoneId),
-      rawExtraction: reference as unknown as Prisma.InputJsonValue,
-      fetchedAt: new Date(reference.lastFetchedAt)
-    }
-  });
+  try {
+    await prisma.phoneSource.upsert({
+      where: {
+        cacheKey: buildCacheKey(phoneId)
+      },
+      update: {
+        sourceUrl: reference.sourceUrl,
+        rawExtraction: reference as unknown as Prisma.InputJsonValue,
+        fetchedAt: new Date(reference.lastFetchedAt)
+      },
+      create: {
+        phoneId,
+        sourceKind: SourceKind.gsmarena,
+        sourceUrl: reference.sourceUrl,
+        cacheKey: buildCacheKey(phoneId),
+        rawExtraction: reference as unknown as Prisma.InputJsonValue,
+        fetchedAt: new Date(reference.lastFetchedAt)
+      }
+    });
+  } catch (error) {
+    logServerFailure("reference.cache", error);
+  }
 }
 
 function readCachedReference(

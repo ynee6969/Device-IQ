@@ -1,7 +1,7 @@
 import { unstable_cache } from "next/cache";
 import { type Phone } from "@prisma/client";
 
-import { getCachedPhoneReferenceForPhone } from "@/lib/services/gsmarena-reference";
+import { getPhoneReferenceBySlug } from "@/lib/services/gsmarena-reference";
 import { getPhoneBySlugWithPreviewSource, getPhonesByIds, listPhones } from "@/lib/services/phones";
 import { serializePhoneCard, type PhoneCardRecord } from "@/lib/types/phone-card";
 import type { PhoneReference } from "@/lib/types/phone-reference";
@@ -495,12 +495,15 @@ async function getDevice(slug: string | null) {
     return null;
   }
 
-  const phone = await getPhoneBySlugWithPreviewSource(slug);
-  if (!phone) {
+  const [phone, reference] = await Promise.all([
+    getPhoneBySlugWithPreviewSource(slug),
+    getPhoneReferenceBySlug(slug)
+  ]);
+
+  if (!phone || !reference) {
     return null;
   }
 
-  const reference = getCachedPhoneReferenceForPhone(phone);
   return buildDevice(phone, reference);
 }
 

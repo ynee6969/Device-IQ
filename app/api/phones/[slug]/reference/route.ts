@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { getCachedPhoneReferenceBySlug } from "@/lib/services/gsmarena-reference";
+import { getPhoneReferenceBySlug } from "@/lib/services/gsmarena-reference";
 import { getErrorMessage } from "@/lib/services/runtime-safety";
 
 export async function GET(
@@ -11,7 +11,7 @@ export async function GET(
   ) {
   try {
     const { slug } = await context.params;
-    const reference = await getCachedPhoneReferenceBySlug(slug);
+    const reference = await getPhoneReferenceBySlug(slug);
 
     if (!reference) {
       return NextResponse.json({ error: "Phone not found." }, { status: 404 });

@@ -28,7 +28,7 @@ import { notFound } from "next/navigation"; /* Server-side 404 redirect */
 import { unstable_cache } from "next/cache"; /* Next.js caching */
 
 import { FavoriteButton } from "@/components/phones/favorite-button";
-import { getCachedPhoneReferenceForPhone } from "@/lib/services/gsmarena-reference";
+import { getPhoneReferenceBySlug } from "@/lib/services/gsmarena-reference";
 import { getPhoneBySlugWithPreviewSource } from "@/lib/services/phones";
 import {
   buildPhoneMarketplaceLinks,
@@ -43,15 +43,19 @@ import styles from "./page.module.css";
 const getPhoneDetail = unstable_cache(
   async (slug: string) => {
     /* Fetch phone from database by URL slug */
-    const phone = await getPhoneBySlugWithPreviewSource(slug);
-    if (!phone) {
+    const [phone, reference] = await Promise.all([
+      getPhoneBySlugWithPreviewSource(slug),
+      getPhoneReferenceBySlug(slug)
+    ]);
+
+    if (!phone || !reference) {
       return null; /* Return null if phone not found (triggers 404) */
     }
 
     /* Bundle phone data with cached reference specs */
     return {
       phone,
-      reference: getCachedPhoneReferenceForPhone(phone) /* Cached GSMarena specs */
+      reference /* Full GSMArena specs, cached internally when available */
     };
   },
   ["phone-detail"],    /* Cache key */
