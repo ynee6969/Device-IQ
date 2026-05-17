@@ -51,5 +51,5 @@ AI Phone Matchmaker is a production-style SaaS starter built with Next.js App Ro
 
 - `.next/` is generated build output.
 - `node_modules/` contains installed packages.
-- `dev.db` is the local SQLite dev database.
+- `prisma/dev.db` is the local SQLite dev database.
 - `.next-dev.out.log` and `.next-dev.err.log` are local runtime logs.

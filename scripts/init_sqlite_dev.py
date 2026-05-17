@@ -93,7 +93,7 @@ def initialize_database(db_path: Path) -> None:
 
 
 def main() -> None:
-    database_paths = [Path("dev.db"), Path("prisma/dev.db")]
+    database_paths = [Path("prisma/dev.db")]
     for path in database_paths:
         initialize_database(path)
         print(f"initialized {path}")
