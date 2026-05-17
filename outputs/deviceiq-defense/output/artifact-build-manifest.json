@@ -1,0 +1,47 @@
+{
+  "output": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\output\\DeviceIQ-Defense-Deck.pptx",
+  "outputBytes": 25659,
+  "slideCount": 3,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\preview",
+  "previewPaths": [
+    "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\preview\\slide-01.png",
+    "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\preview\\slide-02.png",
+    "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\preview\\slide-03.png"
+  ],
+  "layoutDir": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\layout",
+  "layoutResults": [
+    {
+      "layoutPath": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\layout\\slide-01.layout.json"
+    },
+    {
+      "layoutPath": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\layout\\slide-02.layout.json"
+    },
+    {
+      "layoutPath": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\layout\\slide-03.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    },
+    {
+      "index": 2,
+      "requestedSlideNumber": 2,
+      "modulePath": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\slides\\slide-02.mjs",
+      "exportName": "slide02"
+    },
+    {
+      "index": 3,
+      "requestedSlideNumber": 3,
+      "modulePath": "C:\\Users\\Wayne\\Documents\\WEBSITE MELECT\\dialed\\outputs\\deviceiq-defense\\slides\\slide-03.mjs",
+      "exportName": "slide03"
+    }
+  ]
+}

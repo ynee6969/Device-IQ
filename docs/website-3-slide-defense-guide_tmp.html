@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>website-3-slide-defense-guide.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="deviceiq-3-slide-defense-guide">DeviceIQ 3-Slide Defense Guide</h1>
+<h2 id="presentation-style">Presentation Style</h2>
+<ul>
+<li>Professional, calm, and confident</li>
+<li>Short and easy to memorize</li>
+<li>Focus on design reasoning, not code explanation</li>
+<li>Use one screenshot per slide if possible</li>
+<li>Keep each slide visually clean with very few bullets</li>
+</ul>
+<hr>
+<h2 id="slide-1-what-the-website-is-for">Slide 1: What The Website Is For</h2>
+<h3 id="slide-title">Slide Title</h3>
+<p><code>DeviceIQ: A cleaner way to choose a phone</code></p>
+<h3 id="bullet-points">Bullet Points</h3>
+<ul>
+<li>Helps users browse and compare phones in one place</li>
+<li>Reduces confusion from too many tabs and spec sheets</li>
+<li>Designed for phone shoppers, students, and casual visitors</li>
+<li>Sign-in is optional for browsing, but useful for saving favorites</li>
+</ul>
+<h3 id="speaker-notes">Speaker Notes</h3>
+<p>Start by explaining the purpose of the website in simple terms. Say that the project was built to make phone searching easier because people usually compare phones across many sites and get overwhelmed. Mention that DeviceIQ organizes the process into one place: browse, compare, save, and return later. Emphasize that the site is meant to be helpful first, not complicated. If the professor asks why the project exists, answer that it solves information overload and makes phone selection faster.</p>
+<h3 id="possible-professor-questions">Possible Professor Questions</h3>
+<ul>
+<li>Why did you choose a phone comparison website?</li>
+<li>Who is the target user?</li>
+<li>Why is sign-in not required for browsing?</li>
+</ul>
+<h3 id="strong-suggested-answers">Strong Suggested Answers</h3>
+<ul>
+<li>We chose this idea because phone shopping is confusing and time-consuming.</li>
+<li>The main users are phone buyers, students, and people who want to compare models quickly.</li>
+<li>Browsing is open to everyone, while sign-in is only for saving favorites and account-based features.</li>
+</ul>
+<h3 id="slide-transition-line">Slide Transition Line</h3>
+<p><code>Now that the purpose is clear, I’ll explain how the layout and navigation support that goal.</code></p>
+<hr>
+<h2 id="slide-2-why-the-layout-and-navigation-look-this-way">Slide 2: Why The Layout And Navigation Look This Way</h2>
+<h3 id="slide-title-1">Slide Title</h3>
+<p><code>Simple navigation, clear flow</code></p>
+<h3 id="bullet-points-1">Bullet Points</h3>
+<ul>
+<li>Sticky header on desktop for easy navigation</li>
+<li>Bottom tab bar on mobile for thumb-friendly access</li>
+<li>Homepage introduces the idea, dashboard handles browsing, compare page handles decisions</li>
+<li>Card-based layout makes content easier to scan</li>
+<li>Clear sections help users move from browsing to comparing without confusion</li>
+</ul>
+<h3 id="speaker-notes-1">Speaker Notes</h3>
+<p>Explain that the navigation was designed around the user journey. The header stays visible on larger screens, while the bottom tab bar is easier to use on phones. Mention that the homepage is for introduction, the dashboard is for browsing, and the compare page is for serious decision-making. Say that the card-based layout was chosen because phones are easier to scan when information is broken into visual blocks. If asked why the layout is like this, answer that the site follows a natural decision flow: discover, compare, save.</p>
+<h3 id="possible-professor-questions-1">Possible Professor Questions</h3>
+<ul>
+<li>Why did you use two types of navigation?</li>
+<li>Why is the homepage different from the dashboard?</li>
+<li>Why are the phone items shown as cards?</li>
+</ul>
+<h3 id="strong-suggested-answers-1">Strong Suggested Answers</h3>
+<ul>
+<li>Desktop and mobile users behave differently, so the navigation was adjusted for each screen.</li>
+<li>The homepage introduces the project, while the dashboard is the main browsing area.</li>
+<li>Cards make the content easier to read, compare, and tap on small screens.</li>
+</ul>
+<h3 id="slide-transition-line-1">Slide Transition Line</h3>
+<p><code>After the structure, the last thing I want to explain is the visual style and responsiveness.</code></p>
+<hr>
+<h2 id="slide-3-why-the-design-feels-modern-and-responsive">Slide 3: Why The Design Feels Modern And Responsive</h2>
+<h3 id="slide-title-2">Slide Title</h3>
+<p><code>Style and responsiveness</code></p>
+<h3 id="bullet-points-2">Bullet Points</h3>
+<ul>
+<li>Dark background with green accent for a modern tech feel</li>
+<li>Glassmorphism panels and soft shadows create depth</li>
+<li>Manrope and Space Grotesk give clear body text and strong headings</li>
+<li>Grid and Flexbox help the layout adapt to different screen sizes</li>
+<li>Mobile layout stacks sections so the page stays readable</li>
+</ul>
+<h3 id="speaker-notes-2">Speaker Notes</h3>
+<p>Explain that the visual design was chosen to make the site feel clean, modern, and easy to focus on. The dark palette reduces visual noise, while the green accent highlights important actions. The typography gives a strong contrast between headings and body text, which helps users scan the page quickly. Mention that the responsiveness is not just about shrinking things; the layout changes so mobile users still get a clear and usable interface. If asked about HTML and CSS, explain that semantic HTML gives the content structure, and CSS handles the visual layout, spacing, and responsive behavior.</p>
+<h3 id="possible-professor-questions-2">Possible Professor Questions</h3>
+<ul>
+<li>Why did you choose a dark theme?</li>
+<li>Why is green the main accent color?</li>
+<li>How does the site become responsive?</li>
+<li>Why do you use Grid in some places and Flexbox in others?</li>
+</ul>
+<h3 id="strong-suggested-answers-2">Strong Suggested Answers</h3>
+<ul>
+<li>The dark theme makes the interface feel modern and keeps the focus on the phone cards.</li>
+<li>Green was used because it gives a clean, trustworthy tech look and works well for highlights.</li>
+<li>The layout uses media queries and flexible grids so sections stack or resize on smaller screens.</li>
+<li>Grid is used for page sections and card layouts, while Flexbox is used for rows, buttons, and navigation.</li>
+</ul>
+<h3 id="slide-transition-line-2">Slide Transition Line</h3>
+<p><code>That is the design idea behind the website, and I’m ready to answer questions about the HTML and CSS choices.</code></p>
+<hr>
+<h2 id="possible-html--css-defense-questions">Possible HTML &amp; CSS Defense Questions</h2>
+<h3 id="1-why-did-you-use-semantic-html">1. Why did you use semantic HTML?</h3>
+<p><strong>Short Answer:</strong><br>
+To make the page structure clear and easier to understand.</p>
+<p><strong>Key Talking Point:</strong><br>
+Use <code>header</code>, <code>main</code>, <code>section</code>, <code>nav</code>, and <code>footer</code> so the layout is readable for users and easier to defend.</p>
+<h3 id="2-why-is-the-homepage-built-with-sections-and-cards">2. Why is the homepage built with sections and cards?</h3>
+<p><strong>Short Answer:</strong><br>
+Because the content is easier to scan when it is grouped visually.</p>
+<p><strong>Key Talking Point:</strong><br>
+Cards help organize the introduction, features, and preview content into clear blocks.</p>
+<h3 id="3-why-did-you-use-a-sticky-header">3. Why did you use a sticky header?</h3>
+<p><strong>Short Answer:</strong><br>
+So navigation stays visible while users scroll.</p>
+<p><strong>Key Talking Point:</strong><br>
+It supports quick movement between pages without forcing users to go back to the top.</p>
+<h3 id="4-why-is-there-a-bottom-nav-on-mobile">4. Why is there a bottom nav on mobile?</h3>
+<p><strong>Short Answer:</strong><br>
+Because it is easier to tap on a phone.</p>
+<p><strong>Key Talking Point:</strong><br>
+Mobile users reach the bottom bar faster with their thumb, so it improves usability.</p>
+<h3 id="5-why-did-you-use-dark-colors">5. Why did you use dark colors?</h3>
+<p><strong>Short Answer:</strong><br>
+To make the site feel modern and keep attention on the content.</p>
+<p><strong>Key Talking Point:</strong><br>
+The dark base gives good contrast for white text and green highlights.</p>
+<h3 id="6-why-use-green-as-the-accent-color">6. Why use green as the accent color?</h3>
+<p><strong>Short Answer:</strong><br>
+To create a clean tech look and highlight important actions.</p>
+<p><strong>Key Talking Point:</strong><br>
+The accent color is used for buttons, labels, and important states.</p>
+<h3 id="7-why-did-you-use-grid-and-flexbox-both">7. Why did you use Grid and Flexbox both?</h3>
+<p><strong>Short Answer:</strong><br>
+Because they solve different layout problems.</p>
+<p><strong>Key Talking Point:</strong><br>
+Grid is good for full page and card layouts, while Flexbox is better for rows, navs, and button groups.</p>
+<h3 id="8-why-is-the-site-responsive">8. Why is the site responsive?</h3>
+<p><strong>Short Answer:</strong><br>
+So it works well on phone, tablet, and desktop.</p>
+<p><strong>Key Talking Point:</strong><br>
+The layout stacks or changes column count when the screen gets smaller.</p>
+<h3 id="9-why-are-the-buttons-styled-differently">9. Why are the buttons styled differently?</h3>
+<p><strong>Short Answer:</strong><br>
+To show which action is most important.</p>
+<p><strong>Key Talking Point:</strong><br>
+Primary buttons are stronger, secondary buttons are softer, and ghost buttons are lighter.</p>
+<h3 id="10-why-do-you-use-cards-instead-of-long-text-blocks">10. Why do you use cards instead of long text blocks?</h3>
+<p><strong>Short Answer:</strong><br>
+Cards are easier to read and compare quickly.</p>
+<p><strong>Key Talking Point:</strong><br>
+The site is about scanning options fast, so card layouts support that goal.</p>
+<h3 id="11-why-did-you-make-the-compare-page-visually-stronger">11. Why did you make the compare page visually stronger?</h3>
+<p><strong>Short Answer:</strong><br>
+Because it is the main decision page.</p>
+<p><strong>Key Talking Point:</strong><br>
+The compare page needs clearer contrast, bigger sections, and obvious side-by-side structure.</p>
+<h3 id="12-why-do-some-sections-stack-on-mobile">12. Why do some sections stack on mobile?</h3>
+<p><strong>Short Answer:</strong><br>
+Because narrow screens need a simpler layout.</p>
+<p><strong>Key Talking Point:</strong><br>
+Stacking prevents cramped text, broken alignment, and horizontal overflow.</p>
+
+</body>
+</html>
