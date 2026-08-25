@@ -1,12 +1,19 @@
 import { z } from "zod";
 
+const optionalNonEmptyString = z.preprocess(
+  (value) => (typeof value === "string" && value.trim() === "" ? undefined : value),
+  z.string().min(1).optional()
+);
+
 const envSchema = z.object({
-  DATABASE_URL: z.string().min(1).optional(),
-  AUTH_SECRET: z.string().min(1).optional(),
-  NEXTAUTH_SECRET: z.string().min(1).optional(),
-  NEXTAUTH_URL: z.string().min(1).optional(),
-  SUPABASE_URL: z.string().min(1).optional(),
-  SUPABASE_ANON_KEY: z.string().min(1).optional(),
+  // Vercel exposes an unset environment variable as an empty string. Treat it
+  // as absent so optional integrations do not make the build fail.
+  DATABASE_URL: optionalNonEmptyString,
+  AUTH_SECRET: optionalNonEmptyString,
+  NEXTAUTH_SECRET: optionalNonEmptyString,
+  NEXTAUTH_URL: optionalNonEmptyString,
+  SUPABASE_URL: optionalNonEmptyString,
+  SUPABASE_ANON_KEY: optionalNonEmptyString,
   OPENAI_API_KEY: z.string().optional(),
   OPENAI_MODEL: z.string().default("gpt-4.1-mini"),
   ANTHROPIC_API_KEY: z.string().optional(),
