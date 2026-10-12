@@ -29,11 +29,9 @@ import "./globals.css";
 
 import { SiteFooter } from "@/components/marketing/site-footer";
 import { SiteHeader } from "@/components/marketing/site-header";
-import { ThemeToggle } from "@/components/marketing/theme-toggle";
 import { MobileTabBar } from "@/components/marketing/mobile-tabbar";
 import { AppProviders } from "@/components/providers/app-providers";
 import { BootstrapProvider } from "@/components/providers/bootstrap-provider";
-import { ThemeProvider } from "@/components/providers/theme-provider";
 import { site } from "@/lib/site";
 
 /* Load Space_Grotesk font for display/heading typography
@@ -83,9 +81,8 @@ export default function RootLayout({
         <BootstrapProvider />
         
         {/* ThemeProvider: Manages dark/light theme state and data-theme attribute */}
-        <ThemeProvider>
-          {/* AppProviders: Additional context providers (Favorites, Auth, etc.) */}
-          <AppProviders>
+        {/* AppProviders: Additional context providers (Favorites, Auth, etc.) */}
+        <AppProviders>
             {/* SiteHeader: Sticky navigation with logo, links, and auth controls */}
             <SiteHeader />
             
@@ -98,10 +95,7 @@ export default function RootLayout({
             {/* MobileTabBar: Fixed bottom navigation visible only on mobile (<768px) */}
             <MobileTabBar />
             
-            {/* ThemeToggle: Floating action button to launch theme customization modal */}
-            <ThemeToggle />
-          </AppProviders>
-        </ThemeProvider>
+        </AppProviders>
       </body>
     </html>
   );
