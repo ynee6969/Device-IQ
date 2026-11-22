@@ -5,54 +5,66 @@ export { CRITERION_KEYS } from "@/lib/recommendation/types";
 export interface CriterionDefinition {
   key: Criterion;
   label: string;
+  unit: string;
   direction: "benefit" | "cost";
   description: string;
 }
 
 export const CRITERIA: readonly CriterionDefinition[] = [
   {
-    key: "performance",
-    label: "Performance",
-    direction: "benefit",
-    description: "Higher performance score is preferred."
+    key: "price",
+    label: "Price",
+    unit: "PHP",
+    direction: "cost",
+    description: "Price for the exact smartphone configuration; lower is preferred."
   },
   {
-    key: "camera",
-    label: "Camera",
+    key: "performance",
+    label: "Performance benchmark",
+    unit: "documented benchmark score",
     direction: "benefit",
-    description: "Higher camera score is preferred."
+    description: "One benchmark name, version, configuration, and traceable source; higher is preferred."
   },
   {
     key: "battery",
-    label: "Battery",
+    label: "Battery capacity",
+    unit: "mAh",
     direction: "benefit",
-    description: "Higher battery/endurance score is preferred."
+    description: "Manufacturer-listed capacity; this is not a battery-endurance measure."
   },
   {
-    key: "value",
-    label: "Value",
-    direction: "cost",
-    description: "Lower price is preferred within the eligible set."
+    key: "camera",
+    label: "Camera capability",
+    unit: "documented camera score",
+    direction: "benefit",
+    description: "A common documented camera score or reproducible composite; megapixels alone are insufficient."
   }
 ] as const;
 
-export const DEFAULT_WEIGHTS: CriterionWeight = {
-  performance: 0.4,
-  camera: 0.2,
-  battery: 0.25,
-  value: 0.15
+/**
+ * The current catalog has no approved, field-level evidence for benchmark or
+ * camera measures. Price and listed battery capacity are used only to
+ * demonstrate the calculation; a site-wide notice identifies catalog records
+ * as illustrative until their sources and retrieval dates are verified.
+ */
+export const ACTIVE_RECOMMENDATION_CRITERIA: readonly Criterion[] = ["price", "battery"];
+
+export const UNAVAILABLE_CRITERIA: Readonly<Record<"performance" | "camera", string>> = {
+  performance:
+    "Unavailable: the catalog does not contain a documented benchmark name, version, device configuration, and traceable source.",
+  camera:
+    "Unavailable: the catalog does not contain a common documented camera score or reproducible composite. Megapixels alone are not used as camera quality."
 };
 
-export const USE_CASE_PRESETS: Readonly<Record<string, CriterionWeight>> = {
-  balanced: DEFAULT_WEIGHTS,
-  gaming: { performance: 0.5, camera: 0.15, battery: 0.2, value: 0.15 },
-  camera: { performance: 0.2, camera: 0.5, battery: 0.15, value: 0.15 },
-  battery: { performance: 0.2, camera: 0.15, battery: 0.45, value: 0.2 },
-  value: { performance: 0.25, camera: 0.2, battery: 0.2, value: 0.35 }
+export const DEFAULT_WEIGHTS: CriterionWeight = {
+  price: 0.5,
+  performance: 0,
+  battery: 0.5,
+  camera: 0
 };
 
 export function sumWeights(weights: CriterionWeight) {
-  return Object.values(weights).reduce((total, weight) => total + weight, 0);
+  return CRITERION_KEYS.reduce((total, criterion) => total + weights[criterion], 0);
 }
 
 export function roundScore(value: number, decimals = 6) {

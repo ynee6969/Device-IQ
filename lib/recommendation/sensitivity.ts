@@ -1,4 +1,4 @@
-import { CRITERION_KEYS, roundScore, sumWeights } from "@/lib/recommendation/criteria";
+import { CRITERION_KEYS } from "@/lib/recommendation/criteria";
 import { calculateWeightedScore } from "@/lib/recommendation/scoring";
 import type {
   Criterion,
@@ -8,67 +8,116 @@ import type {
   SensitivityScenario
 } from "@/lib/recommendation/types";
 
+export const RANK_TIE_TOLERANCE = 0.000001;
+
 export interface SensitivityInput {
   id: string;
+  label: string;
   normalizedScores: NormalizedCriterionScore;
 }
 
-function adjustedWeights(base: CriterionWeight, changedCriterion: Criterion, delta: number) {
-  const target = Math.max(0, Math.min(1, base[changedCriterion] + delta));
-  const otherCriteria = CRITERION_KEYS.filter((criterion) => criterion !== changedCriterion);
-  const otherTotal = otherCriteria.reduce((total, criterion) => total + base[criterion], 0);
-
-  if (otherTotal === 0 && target < 1) {
-    throw new Error("Cannot redistribute a sensitivity change from zero-weight criteria.");
-  }
-
-  const next = { ...base, [changedCriterion]: target };
-  for (const criterion of otherCriteria) {
-    next[criterion] = otherTotal === 0 ? 0 : base[criterion] * ((1 - target) / otherTotal);
-  }
-
-  const correction = 1 - sumWeights(next);
-  next[otherCriteria[0]] += correction;
-  return next;
-}
-
-function rankIds(items: readonly SensitivityInput[], weights: CriterionWeight) {
-  return [...items]
+export function rankUnderWeights(
+  items: readonly SensitivityInput[],
+  weights: CriterionWeight,
+  activeCriteria: readonly Criterion[]
+) {
+  const scoreSorted = items
     .map((item) => ({
       id: item.id,
-      score: calculateWeightedScore(item.normalizedScores, weights).overall
+      label: item.label,
+      score: calculateWeightedScore(item.normalizedScores, weights, activeCriteria).overall
     }))
-    .sort((left, right) => right.score - left.score || left.id.localeCompare(right.id))
-    .map((item) => item.id);
-}
+    .sort((left, right) => right.score - left.score);
 
-export function analyzeWeightSensitivity(
-  items: readonly SensitivityInput[],
-  baseWeights: CriterionWeight,
-  step = 0.1
-): SensitivityAnalysis {
-  if (!Number.isFinite(step) || step <= 0 || step > 0.5) {
-    throw new Error("Sensitivity step must be greater than 0 and at most 0.5.");
+  const ranked: Array<(typeof scoreSorted)[number] & { rank: number }> = [];
+  for (let start = 0; start < scoreSorted.length;) {
+    let end = start + 1;
+    while (
+      end < scoreSorted.length &&
+      Math.abs(scoreSorted[start].score - scoreSorted[end].score) <= RANK_TIE_TOLERANCE
+    ) {
+      end += 1;
+    }
+
+    const tieGroup = scoreSorted.slice(start, end).sort((left, right) => left.label.localeCompare(right.label));
+    tieGroup.forEach((item) => ranked.push({ ...item, rank: start + 1 }));
+    start = end;
   }
 
-  const baseRanking = rankIds(items, baseWeights);
-  const scenarios: SensitivityScenario[] = [];
+  return ranked;
+}
 
-  for (const criterion of CRITERION_KEYS) {
-    for (const direction of ["increase", "decrease"] as const) {
-      const delta = direction === "increase" ? step : -step;
-      const weights = adjustedWeights(baseWeights, criterion, delta);
-      const ranking = rankIds(items, weights);
-      scenarios.push({
-        label: `${criterion} ${direction} by ${roundScore(step * 100, 2)} percentage points`,
-        changedCriterion: criterion,
-        direction,
-        weights,
-        ranking,
-        topRankChanged: ranking[0] !== baseRanking[0]
-      });
+function createScenario(
+  id: SensitivityScenario["id"],
+  label: string,
+  focusCriterion: Criterion | null,
+  items: readonly SensitivityInput[],
+  activeCriteria: readonly Criterion[]
+): SensitivityScenario {
+  if (focusCriterion !== null && !activeCriteria.includes(focusCriterion)) {
+    return {
+      id,
+      label,
+      focusCriterion,
+      status: "not_assessable",
+      reason: `${label} cannot be assessed because ${focusCriterion} is unavailable in the active smartphone data.`,
+      weights: null,
+      results: []
+    };
+  }
+
+  if (focusCriterion !== null && activeCriteria.length < 2) {
+    return {
+      id,
+      label,
+      focusCriterion,
+      status: "not_assessable",
+      reason: `${label} requires at least two active criteria.`,
+      weights: null,
+      results: []
+    };
+  }
+
+  const weights = Object.fromEntries(CRITERION_KEYS.map((criterion) => [criterion, 0])) as CriterionWeight;
+  if (focusCriterion === null) {
+    for (const criterion of activeCriteria) {
+      weights[criterion] = 1 / activeCriteria.length;
+    }
+  } else {
+    weights[focusCriterion] = 0.6;
+    const remainder = 0.4 / (activeCriteria.length - 1);
+    for (const criterion of activeCriteria) {
+      if (criterion !== focusCriterion) {
+        weights[criterion] = remainder;
+      }
     }
   }
 
-  return { step, baseRanking, scenarios };
+  return {
+    id,
+    label,
+    focusCriterion,
+    status: "available",
+    reason: null,
+    weights,
+    results: rankUnderWeights(items, weights, activeCriteria)
+  };
+}
+
+/** Applies the three proposal-defined scenarios to the same scored dataset. */
+export function analyzePreferenceScenarios(
+  items: readonly SensitivityInput[],
+  activeCriteria: readonly Criterion[]
+): SensitivityAnalysis {
+  if (activeCriteria.length === 0) {
+    throw new Error("Preference scenarios require at least one active criterion.");
+  }
+
+  return {
+    scenarios: [
+      createScenario("equal", "Equal-weight baseline", null, items, activeCriteria),
+      createScenario("affordability", "Affordability-focused", "price", items, activeCriteria),
+      createScenario("performance", "Performance-focused", "performance", items, activeCriteria)
+    ]
+  };
 }

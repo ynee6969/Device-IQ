@@ -1,11 +1,15 @@
 import { z } from "zod";
 
-import { CRITERION_KEYS, DEFAULT_WEIGHTS, USE_CASE_PRESETS } from "@/lib/recommendation/criteria";
+import {
+  ACTIVE_RECOMMENDATION_CRITERIA,
+  DEFAULT_WEIGHTS,
+  UNAVAILABLE_CRITERIA
+} from "@/lib/recommendation/criteria";
 import { normalizePhoneCriteria } from "@/lib/recommendation/normalization";
-import { calculateWeightedScore, validateWeights } from "@/lib/recommendation/scoring";
-import { analyzeWeightSensitivity } from "@/lib/recommendation/sensitivity";
+import { calculateWeightedScore, normalizeWeights } from "@/lib/recommendation/scoring";
+import { analyzePreferenceScenarios, rankUnderWeights } from "@/lib/recommendation/sensitivity";
+import { filterEligibleSmartphones } from "@/lib/recommendation/eligibility";
 import type {
-  CriterionWeight,
   DecisionConstraints,
   RecommendationResult,
   UserPreference
@@ -13,10 +17,10 @@ import type {
 import { listPhones } from "@/lib/services/phones";
 
 const weightSchema = z.object({
-  performance: z.number().finite().min(0).max(1),
-  camera: z.number().finite().min(0).max(1),
-  battery: z.number().finite().min(0).max(1),
-  value: z.number().finite().min(0).max(1)
+  price: z.number().finite().min(0),
+  performance: z.number().finite().min(0),
+  battery: z.number().finite().min(0),
+  camera: z.number().finite().min(0)
 });
 
 const recommendationSchema = z
@@ -25,12 +29,9 @@ const recommendationSchema = z
     minBudget: z.number().finite().positive().optional(),
     brands: z.array(z.string().min(1)).default([]),
     osPreference: z.enum(["any", "android", "ios"]).default("any"),
-    useCase: z.enum(["balanced", "gaming", "camera", "battery", "value"]).default("balanced"),
     minBattery: z.number().finite().positive().optional(),
     minRam: z.number().finite().positive().optional(),
     weights: weightSchema.optional(),
-    /** Legacy request name retained as an explicit user-weight alias. */
-    priorities: weightSchema.optional(),
     limit: z.number().int().min(1).max(10).default(5),
     includeSensitivity: z.boolean().default(false)
   })
@@ -47,71 +48,24 @@ const recommendationSchema = z
 export type RecommendationInput = z.infer<typeof recommendationSchema>;
 
 function resolvePreference(input: RecommendationInput): UserPreference {
-  const explicitWeights = input.weights ?? input.priorities;
-  if (explicitWeights) {
-    validateWeights(explicitWeights);
-    return { weights: explicitWeights, source: "user", preset: null };
-  }
-
-  const preset = USE_CASE_PRESETS[input.useCase] ?? DEFAULT_WEIGHTS;
-  validateWeights(preset);
+  const enteredWeights = input.weights ?? DEFAULT_WEIGHTS;
+  const weights = normalizeWeights(enteredWeights, ACTIVE_RECOMMENDATION_CRITERIA);
   return {
-    weights: preset,
-    source: input.useCase === "balanced" ? "default" : "preset",
-    preset: input.useCase === "balanced" ? null : input.useCase
+    weights,
+    source: input.weights ? "user" : "default",
+    preset: null
   };
 }
 
-function inferOs(phone: { brand: string; os: string | null }) {
-  if (phone.brand.toLowerCase() === "apple" || phone.os?.toLowerCase().includes("ios")) {
-    return "ios";
-  }
-
-  return "android";
-}
-
-function matchesConstraints(
-  phone: {
-    brand: string;
-    os: string | null;
-    price: number;
-    battery: number | null;
-    ram: number | null;
-  },
-  constraints: DecisionConstraints
-) {
-  if (constraints.brands.length > 0 && !constraints.brands.includes(phone.brand)) {
-    return false;
-  }
-
-  if (constraints.minPrice !== undefined && phone.price < constraints.minPrice) {
-    return false;
-  }
-
-  if (constraints.maxPrice !== undefined && phone.price > constraints.maxPrice) {
-    return false;
-  }
-
-  if (constraints.minBattery !== undefined && (phone.battery === null || phone.battery < constraints.minBattery)) {
-    return false;
-  }
-
-  if (constraints.minRam !== undefined && (phone.ram === null || phone.ram < constraints.minRam)) {
-    return false;
-  }
-
-  return constraints.os === "any" || inferOs(phone) === constraints.os;
-}
-
 function buildReasons(score: ReturnType<typeof calculateWeightedScore>) {
-  return Object.entries(score.criteria)
-    .sort((left, right) => right[1].weightedContribution - left[1].weightedContribution)
-    .slice(0, 3)
+  return Object.values(score.criteria)
+    .filter((criterion): criterion is NonNullable<typeof criterion> => Boolean(criterion))
+    .sort((left, right) => right.weightedContribution - left.weightedContribution)
     .map(
-      ([, criterion]) =>
-        `${criterion.label} contributes ${criterion.weightedContribution.toFixed(3)} (${(
+      (criterion) =>
+        `${criterion.label} contributes ${criterion.weightedContribution.toFixed(2)} (${(
           criterion.normalizedScore * 100
-        ).toFixed(1)}% score × ${(criterion.weight * 100).toFixed(1)}% weight).`
+        ).toFixed(1)}% normalized score × ${(criterion.weight * 100).toFixed(1)}% effective weight).`
     );
 }
 
@@ -127,8 +81,7 @@ export async function recommendPhones(rawInput: unknown) {
     minRam: input.minRam
   };
 
-  // Constraints are applied before normalization so Value is comparable within
-  // the same eligible decision set and never changes eligibility after ranking.
+  // Mandatory filters are applied before the comparison set and its ranges are built.
   const catalog = await listPhones({
     minPrice: input.minBudget,
     maxPrice: input.budget,
@@ -136,19 +89,61 @@ export async function recommendPhones(rawInput: unknown) {
     minRam: input.minRam,
     take: 1000
   });
-  const eligiblePhones = catalog.phones.filter((phone) => matchesConstraints(phone, constraints));
-  const normalizedScores = normalizePhoneCriteria(eligiblePhones);
+  const filterEligiblePhones = filterEligibleSmartphones(catalog.phones, constraints);
+  const normalization = normalizePhoneCriteria(
+    filterEligiblePhones,
+    ACTIVE_RECOMMENDATION_CRITERIA
+  );
 
-  const ranked = eligiblePhones
-    .map((phone) => {
+  if (normalization.comparisonPhones.length > 0 && normalization.activeCriteria.length === 0) {
+    throw new Error("Every active criterion is constant for this eligible set, so it cannot distinguish smartphones.");
+  }
+
+  const weightsBeforeConstantRemoval = input.weights ?? DEFAULT_WEIGHTS;
+  const scoringWeightInput = { ...weightsBeforeConstantRemoval };
+  for (const criterion of normalization.constantCriteria) {
+    scoringWeightInput[criterion] = 0;
+  }
+  const weights = normalizeWeights(
+    scoringWeightInput,
+    normalization.activeCriteria,
+    normalization.constantCriteria
+  );
+  const normalizedScores = normalization.normalizedScores;
+  const scoredPhones = normalization.comparisonPhones;
+  const scoreById = new Map(
+    scoredPhones.map((phone) => {
       const normalized = normalizedScores.get(phone.id);
       if (!normalized) {
-        throw new Error(`Missing normalized scores for phone ${phone.id}.`);
+        throw new Error(`Missing normalized values for smartphone ${phone.id}.`);
+      }
+      return [phone.id, calculateWeightedScore(normalized, weights, normalization.activeCriteria)];
+    })
+  );
+  const labels = new Map(
+    scoredPhones.map((phone) => [phone.id, `${phone.brand} ${phone.model}`])
+  );
+  const rankedRows = rankUnderWeights(
+    scoredPhones.flatMap((phone) => {
+      const normalized = normalizedScores.get(phone.id);
+      return normalized
+        ? [{ id: phone.id, label: labels.get(phone.id)!, normalizedScores: normalized }]
+        : [];
+    }),
+    weights,
+    normalization.activeCriteria
+  );
+  const phoneById = new Map(scoredPhones.map((phone) => [phone.id, phone]));
+  const ranked = rankedRows
+    .map(({ id, rank }) => {
+      const phone = phoneById.get(id);
+      const score = scoreById.get(id);
+      if (!phone || !score) {
+        throw new Error(`Could not map ranked smartphone ${id} to its score and record.`);
       }
 
-      const score = calculateWeightedScore(normalized, preference.weights);
       return {
-        rank: 0,
+        rank,
         phone,
         finalScore: score.overallPercentage,
         personalizedScore: score.overallPercentage,
@@ -156,32 +151,34 @@ export async function recommendPhones(rawInput: unknown) {
         reasons: buildReasons(score)
       };
     })
-    .sort(
-      (left, right) =>
-        right.score.overall - left.score.overall ||
-        left.phone.price - right.phone.price ||
-        left.phone.model.localeCompare(right.phone.model)
-    )
-    .map((match, index) => ({ ...match, rank: index + 1 }))
     .slice(0, input.limit);
 
-  const sensitivityItems = eligiblePhones.flatMap((phone) => {
+  const sensitivityItems = scoredPhones.flatMap((phone) => {
     const normalized = normalizedScores.get(phone.id);
-    return normalized ? [{ id: phone.id, normalizedScores: normalized }] : [];
+    return normalized
+      ? [{ id: phone.id, label: labels.get(phone.id)!, normalizedScores: normalized }]
+      : [];
   });
   const sensitivity = input.includeSensitivity
-    ? analyzeWeightSensitivity(sensitivityItems, preference.weights)
+    ? analyzePreferenceScenarios(sensitivityItems, normalization.activeCriteria)
     : undefined;
 
   const result: RecommendationResult<typeof ranked[number]["phone"]> = {
     methodology: "weighted_scoring",
     formula: "S_j = Σ(w_i × r_ij)",
-    criteria: CRITERION_KEYS,
-    preferences: preference,
-    // Retained at the top level for clients using the previous API shape.
-    weights: preference.weights,
+    criteria: normalization.activeCriteria,
+    unavailableCriteria: Object.entries(UNAVAILABLE_CRITERIA).map(([criterion, reason]) => ({
+      criterion: criterion as "performance" | "camera",
+      reason
+    })),
+    preferences: { ...preference, weights },
+    weights,
     constraints,
-    eligibleCount: eligiblePhones.length,
+    dataStatus: "illustrative_demo",
+    eligibleCount: scoredPhones.length,
+    filterEligibleCount: filterEligiblePhones.length,
+    excludedMissingCount: normalization.missingValueCount,
+    constantCriteriaRemoved: normalization.constantCriteria,
     matches: ranked,
     ...(sensitivity ? { sensitivity } : {})
   };

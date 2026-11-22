@@ -42,6 +42,7 @@ export interface PhoneFilters {
 
 export interface PhonePreviewSource {
   sourceUrl: string;
+  fetchedAt: Date | null;
   rawExtraction: Prisma.JsonValue | null;
 }
 
@@ -60,6 +61,7 @@ export const phonePreviewSourceInclude = {
     take: 1,
     select: {
       sourceUrl: true,
+      fetchedAt: true,
       rawExtraction: true
     }
   }

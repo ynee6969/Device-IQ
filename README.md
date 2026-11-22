@@ -1,6 +1,6 @@
-# AI Phone Matchmaker
+# DeviceIQ Smartphone Recommendation System
 
-AI Phone Matchmaker is a production-style SaaS starter built with Next.js App Router, Prisma, PostgreSQL, and an AI-first phone enrichment pipeline. It seeds a base smartphone catalog, queues missing specs for enrichment, normalizes extracted data, and powers a recommendation dashboard.
+DeviceIQ is a smartphone decision-support website built with Next.js App Router, Prisma, and PostgreSQL. Its catalog includes seeded illustrative values and does not yet have a complete field-level source and retrieval-date audit. Recommendation scores demonstrate the calculation and are not verified market findings or completed research results.
 
 ## Stack
 
@@ -35,6 +35,15 @@ AI Phone Matchmaker is a production-style SaaS starter built with Next.js App Ro
 - `app/api/`: production-style route handlers
 - `app/dashboard`: interactive recommendation and compare UI
 
+## Recommendation method and research status
+
+- The recommendation flow applies mandatory filters before calculating min–max ranges.
+- Price is a cost criterion in Philippine pesos. Battery is manufacturer-listed capacity in mAh, not endurance.
+- The current demo scores only price and battery capacity. Performance benchmark and camera criteria remain unavailable until their operational definitions and source records are approved and present.
+- Weights are non-negative relative points; active weights are divided by their total. Missing active values exclude a phone from scoring, and constant criteria are removed before the remaining weights are rescaled.
+- Preference analysis uses the proposal's equal-weight, affordability-focused, and performance-focused scenarios. An unavailable scenario is reported as not assessable.
+- See [`docs/THESIS_ALIGNMENT.md`](docs/THESIS_ALIGNMENT.md) for the SOP traceability map, scope conflicts, data limits, and verification procedure.
+
 ## Folder Guide
 
 - Website pages: `app/`
@@ -45,7 +54,7 @@ AI Phone Matchmaker is a production-style SaaS starter built with Next.js App Ro
 - AI integrations: `lib/ai/`
 - Database schema and seed setup: `prisma/`
 - Dev scripts: `scripts/`
-- Project map: `docs/PROJECT_MAP.md`
+- Thesis alignment: `docs/THESIS_ALIGNMENT.md`
 
 ## Generated And Runtime Files
 

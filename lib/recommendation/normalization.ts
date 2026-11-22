@@ -1,62 +1,130 @@
-import { CRITERION_KEYS, roundScore } from "@/lib/recommendation/criteria";
-import type { NormalizedCriterionScore } from "@/lib/recommendation/types";
+import { CRITERION_KEYS } from "@/lib/recommendation/criteria";
+import type { Criterion, NormalizedCriterionScore } from "@/lib/recommendation/types";
 
 export interface RecommendationPhoneData {
   id: string;
-  price: number;
-  performanceScore: number | null;
-  cameraScore: number | null;
-  batteryScore: number | null;
+  price: number | null;
+  benchmarkScore?: number | null;
+  cameraScore?: number | null;
+  battery?: number | null;
 }
 
-function normalizeStoredScore(value: number | null) {
-  if (value === null || !Number.isFinite(value)) {
-    return 0;
+export interface NormalizationResult<TPhone extends RecommendationPhoneData> {
+  comparisonPhones: TPhone[];
+  normalizedScores: ReadonlyMap<string, NormalizedCriterionScore>;
+  activeCriteria: Criterion[];
+  constantCriteria: Criterion[];
+  missingValueCount: number;
+}
+
+function rawValue(phone: RecommendationPhoneData, criterion: Criterion) {
+  switch (criterion) {
+    case "price":
+      return phone.price;
+    case "performance":
+      return phone.benchmarkScore;
+    case "battery":
+      return phone.battery;
+    case "camera":
+      return phone.cameraScore;
   }
-
-  return roundScore(Math.max(0, Math.min(100, value)) / 100);
 }
 
-export function normalizeCost(value: number, minimum: number, maximum: number) {
-  if (maximum <= minimum) {
-    return 1;
-  }
-
-  return roundScore(1 - (value - minimum) / (maximum - minimum));
-}
-
-/**
- * Converts persisted 0–100 benefit scores and price into reproducible [0, 1]
- * criterion scores. Value is a cost criterion: price is normalized within the
- * already eligible set, which avoids double-counting Performance.
- */
-export function normalizePhoneCriteria(
-  phones: readonly RecommendationPhoneData[]
-): ReadonlyMap<string, NormalizedCriterionScore> {
-  const prices = phones.map((phone) => phone.price);
-  const minimumPrice = Math.min(...prices);
-  const maximumPrice = Math.max(...prices);
-
-  return new Map(
-    phones.map((phone) => [
-      phone.id,
-      {
-        performance: normalizeStoredScore(phone.performanceScore),
-        camera: normalizeStoredScore(phone.cameraScore),
-        battery: normalizeStoredScore(phone.batteryScore),
-        value: normalizeCost(phone.price, minimumPrice, maximumPrice)
-      }
-    ])
+function isUsableValue(value: number | null | undefined, criterion: Criterion) {
+  return (
+    typeof value === "number" &&
+    Number.isFinite(value) &&
+    value >= 0 &&
+    ((criterion !== "price" && criterion !== "battery") || value > 0)
   );
 }
 
+export function normalizeBenefit(value: number, minimum: number, maximum: number) {
+  return (value - minimum) / (maximum - minimum);
+}
+
+export function normalizeCost(value: number, minimum: number, maximum: number) {
+  return (maximum - value) / (maximum - minimum);
+}
+
+/**
+ * Applies missing-value exclusion before deriving min–max ranges. Constant
+ * criteria are omitted from the returned score set so their weights can be
+ * redistributed proportionally by the scoring layer.
+ */
+export function normalizePhoneCriteria<TPhone extends RecommendationPhoneData>(
+  phones: readonly TPhone[],
+  criteria: readonly Criterion[]
+): NormalizationResult<TPhone> {
+  const comparisonPhones = phones.filter((phone) =>
+    criteria.every((criterion) => isUsableValue(rawValue(phone, criterion), criterion))
+  );
+  const missingValueCount = phones.length - comparisonPhones.length;
+  const constants: Criterion[] = [];
+  const ranges = new Map<Criterion, { minimum: number; maximum: number }>();
+
+  for (const criterion of criteria) {
+    const values = comparisonPhones.map((phone) => rawValue(phone, criterion) as number);
+    if (!values.length) {
+      continue;
+    }
+
+    const minimum = Math.min(...values);
+    const maximum = Math.max(...values);
+    if (minimum === maximum) {
+      constants.push(criterion);
+    } else {
+      ranges.set(criterion, { minimum, maximum });
+    }
+  }
+
+  const activeCriteria = comparisonPhones.length
+    ? criteria.filter((criterion) => ranges.has(criterion))
+    : [...criteria];
+
+  const normalizedScores = new Map<string, NormalizedCriterionScore>();
+  for (const phone of comparisonPhones) {
+    const normalized: NormalizedCriterionScore = {};
+    for (const criterion of activeCriteria) {
+      const range = ranges.get(criterion);
+      const value = rawValue(phone, criterion);
+      if (!range || typeof value !== "number") {
+        continue;
+      }
+
+      const score =
+        criterion === "price"
+          ? normalizeCost(value, range.minimum, range.maximum)
+          : normalizeBenefit(value, range.minimum, range.maximum);
+      normalized[criterion] = score;
+    }
+    normalizedScores.set(phone.id, normalized);
+  }
+
+  return {
+    comparisonPhones,
+    normalizedScores,
+    activeCriteria,
+    constantCriteria: constants,
+    missingValueCount
+  };
+}
+
 export function isNormalizedCriterionScore(value: unknown): value is NormalizedCriterionScore {
+  if (typeof value !== "object" || value === null) {
+    return false;
+  }
+
+  const entries = Object.entries(value as Record<string, unknown>);
   return (
-    typeof value === "object" &&
-    value !== null &&
-    CRITERION_KEYS.every((criterion) => {
-      const score = (value as Record<string, unknown>)[criterion];
-      return typeof score === "number" && score >= 0 && score <= 1;
-    })
+    entries.length > 0 &&
+    entries.every(
+      ([criterion, score]) =>
+        CRITERION_KEYS.includes(criterion as Criterion) &&
+        typeof score === "number" &&
+        Number.isFinite(score) &&
+        score >= 0 &&
+        score <= 1
+    )
   );
 }

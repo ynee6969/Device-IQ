@@ -1,6 +1,4 @@
 import type { SeedPhone } from "@/lib/data/seed-phones";
-import { DEFAULT_WEIGHTS } from "@/lib/recommendation/criteria";
-import type { CriterionWeight } from "@/lib/recommendation/types";
 
 export interface ScoreBreakdown {
   performanceScore: number;
@@ -9,6 +7,20 @@ export interface ScoreBreakdown {
   valueScore: number;
   finalScore: number;
 }
+
+interface LegacyCriterionWeight {
+  performance: number;
+  camera: number;
+  battery: number;
+  value: number;
+}
+
+const LEGACY_DEFAULT_WEIGHTS: LegacyCriterionWeight = {
+  performance: 0.4,
+  camera: 0.2,
+  battery: 0.25,
+  value: 0.15
+};
 
 export function clampScore(value: number, min = 0, max = 100) {
   return Math.max(min, Math.min(max, Number(value.toFixed(2))));
@@ -53,8 +65,8 @@ export function computeFinalScore({
   cameraScore,
   batteryScore,
   valueScore,
-  weights = DEFAULT_WEIGHTS
-}: Omit<ScoreBreakdown, "finalScore"> & { weights?: CriterionWeight }) {
+  weights = LEGACY_DEFAULT_WEIGHTS
+}: Omit<ScoreBreakdown, "finalScore"> & { weights?: LegacyCriterionWeight }) {
   return clampScore(
     performanceScore * weights.performance +
       cameraScore * weights.camera +
