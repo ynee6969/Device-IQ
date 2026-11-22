@@ -1,4 +1,4 @@
-import generatedThemePresets from "@/monkeytype-theme-presets.generated.json";
+import generatedThemePresets from "./monkeytype-theme-presets.generated.json";
 
 export interface ThemePreset {
   id: string;
