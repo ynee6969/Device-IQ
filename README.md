@@ -1,6 +1,6 @@
 # DeviceIQ Smartphone Recommendation System
 
-DeviceIQ is a smartphone decision-support website built with Next.js App Router, Prisma, and PostgreSQL. Its catalog includes seeded illustrative values and does not yet have a complete field-level source and retrieval-date audit. Recommendation scores demonstrate the calculation and are not verified market findings or completed research results.
+DeviceIQ helps people browse phones, compare specifications, and build a shortlist around their budget and priorities.
 
 ## Stack
 
@@ -35,14 +35,11 @@ DeviceIQ is a smartphone decision-support website built with Next.js App Router,
 - `app/api/`: production-style route handlers
 - `app/dashboard`: interactive recommendation and compare UI
 
-## Recommendation method and research status
+## Recommendations
 
-- The recommendation flow applies mandatory filters before calculating min–max ranges.
-- Price is a cost criterion in Philippine pesos. Battery is manufacturer-listed capacity in mAh, not endurance.
-- The current demo scores only price and battery capacity. Performance benchmark and camera criteria remain unavailable until their operational definitions and source records are approved and present.
-- Weights are non-negative relative points; active weights are divided by their total. Missing active values exclude a phone from scoring, and constant criteria are removed before the remaining weights are rescaled.
-- Preference analysis uses the proposal's equal-weight, affordability-focused, and performance-focused scenarios. An unavailable scenario is reported as not assessable.
-- See [`docs/THESIS_ALIGNMENT.md`](docs/THESIS_ALIGNMENT.md) for the SOP traceability map, scope conflicts, data limits, and verification procedure.
+- Filter by price, brand, operating system, RAM, or battery capacity.
+- Set percentages for price, DeviceIQ performance rating, battery capacity, and DeviceIQ camera rating. Presets provide a quick starting point, and the sliders always total 100%.
+- Matches are ranked against the phones that meet the selected filters. Phones missing any of the four values are left out of that shortlist.
 
 ## Folder Guide
 

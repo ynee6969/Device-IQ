@@ -24,7 +24,6 @@ export interface PhoneRanking<TPhone = unknown> {
   finalScore: number;
   personalizedScore: number;
   score: RecommendationScore;
-  reasons: string[];
 }
 
 export interface UserPreference {
@@ -42,33 +41,12 @@ export interface DecisionConstraints {
   minRam?: number;
 }
 
-export interface SensitivityScenario {
-  id: "equal" | "affordability" | "performance";
-  label: string;
-  focusCriterion: Criterion | null;
-  status: "available" | "not_assessable";
-  reason: string | null;
-  weights: CriterionWeight | null;
-  results: Array<{ id: string; label: string; score: number; rank: number }>;
-}
-
-export interface SensitivityAnalysis {
-  scenarios: SensitivityScenario[];
-}
-
 export interface RecommendationResult<TPhone = unknown> {
-  methodology: "weighted_scoring";
-  formula: "S_j = Σ(w_i × r_ij)";
   criteria: readonly Criterion[];
-  unavailableCriteria: Array<{ criterion: Criterion; reason: string }>;
   preferences: UserPreference;
   weights: CriterionWeight;
   constraints: DecisionConstraints;
-  dataStatus: "illustrative_demo";
   eligibleCount: number;
-  filterEligibleCount: number;
   excludedMissingCount: number;
-  constantCriteriaRemoved: readonly Criterion[];
   matches: PhoneRanking<TPhone>[];
-  sensitivity?: SensitivityAnalysis;
 }

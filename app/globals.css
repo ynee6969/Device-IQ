@@ -154,44 +154,7 @@
   transition-duration: 0.1s;
 }
 
-/* Form validation styles */
-input:invalid {
-  border-color: var(--danger);
-  box-shadow: 0 0 0 2px rgba(255, 141, 141, 0.2);
-}
-
-input:valid {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.2);
-}
-
 /* Dark mode keeps the default palette active. */
-
-.catalog-status-notice {
-  border-bottom: 1px solid var(--border);
-  background: var(--surface-soft);
-  color: var(--muted);
-  font-size: var(--text-xs);
-  line-height: 1.5;
-}
-
-.catalog-status-notice__content {
-  display: flex;
-  gap: 10px;
-  padding-block: 10px;
-}
-
-.catalog-status-notice strong {
-  flex: 0 0 auto;
-  color: var(--text);
-}
-
-@media (max-width: 620px) {
-  .catalog-status-notice__content {
-    flex-direction: column;
-    gap: 3px;
-  }
-}
 
 html[data-theme="dark"] {
   /* color-scheme: dark tells the browser to style built-in elements (scrollbars, inputs)

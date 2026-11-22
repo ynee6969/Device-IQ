@@ -20,10 +20,10 @@ export const CRITERIA: readonly CriterionDefinition[] = [
   },
   {
     key: "performance",
-    label: "Performance benchmark",
-    unit: "documented benchmark score",
+    label: "Performance",
+    unit: "DeviceIQ rating",
     direction: "benefit",
-    description: "One benchmark name, version, configuration, and traceable source; higher is preferred."
+    description: "DeviceIQ rating out of 100."
   },
   {
     key: "battery",
@@ -34,33 +34,20 @@ export const CRITERIA: readonly CriterionDefinition[] = [
   },
   {
     key: "camera",
-    label: "Camera capability",
-    unit: "documented camera score",
+    label: "Camera",
+    unit: "DeviceIQ rating",
     direction: "benefit",
-    description: "A common documented camera score or reproducible composite; megapixels alone are insufficient."
+    description: "DeviceIQ rating out of 100."
   }
 ] as const;
 
-/**
- * The current catalog has no approved, field-level evidence for benchmark or
- * camera measures. Price and listed battery capacity are used only to
- * demonstrate the calculation; a site-wide notice identifies catalog records
- * as illustrative until their sources and retrieval dates are verified.
- */
-export const ACTIVE_RECOMMENDATION_CRITERIA: readonly Criterion[] = ["price", "battery"];
-
-export const UNAVAILABLE_CRITERIA: Readonly<Record<"performance" | "camera", string>> = {
-  performance:
-    "Unavailable: the catalog does not contain a documented benchmark name, version, device configuration, and traceable source.",
-  camera:
-    "Unavailable: the catalog does not contain a common documented camera score or reproducible composite. Megapixels alone are not used as camera quality."
-};
+export const ACTIVE_RECOMMENDATION_CRITERIA: readonly Criterion[] = CRITERION_KEYS;
 
 export const DEFAULT_WEIGHTS: CriterionWeight = {
-  price: 0.5,
-  performance: 0,
-  battery: 0.5,
-  camera: 0
+  price: 0.25,
+  performance: 0.25,
+  battery: 0.25,
+  camera: 0.25
 };
 
 export function sumWeights(weights: CriterionWeight) {

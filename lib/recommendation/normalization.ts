@@ -4,7 +4,7 @@ import type { Criterion, NormalizedCriterionScore } from "@/lib/recommendation/t
 export interface RecommendationPhoneData {
   id: string;
   price: number | null;
-  benchmarkScore?: number | null;
+  performanceScore?: number | null;
   cameraScore?: number | null;
   battery?: number | null;
 }
@@ -22,7 +22,7 @@ function rawValue(phone: RecommendationPhoneData, criterion: Criterion) {
     case "price":
       return phone.price;
     case "performance":
-      return phone.benchmarkScore;
+      return phone.performanceScore;
     case "battery":
       return phone.battery;
     case "camera":
@@ -35,7 +35,8 @@ function isUsableValue(value: number | null | undefined, criterion: Criterion) {
     typeof value === "number" &&
     Number.isFinite(value) &&
     value >= 0 &&
-    ((criterion !== "price" && criterion !== "battery") || value > 0)
+    ((criterion !== "price" && criterion !== "battery") || value > 0) &&
+    ((criterion !== "performance" && criterion !== "camera") || value <= 100)
   );
 }
 
@@ -48,9 +49,9 @@ export function normalizeCost(value: number, minimum: number, maximum: number) {
 }
 
 /**
- * Applies missing-value exclusion before deriving min–max ranges. Constant
- * criteria are omitted from the returned score set so their weights can be
- * redistributed proportionally by the scoring layer.
+ * Applies missing-value exclusion before deriving min–max ranges. When all
+ * shortlisted phones share a value, each receives the same full match for
+ * that criterion, so the field does not change their relative order.
  */
 export function normalizePhoneCriteria<TPhone extends RecommendationPhoneData>(
   phones: readonly TPhone[],
@@ -78,9 +79,7 @@ export function normalizePhoneCriteria<TPhone extends RecommendationPhoneData>(
     }
   }
 
-  const activeCriteria = comparisonPhones.length
-    ? criteria.filter((criterion) => ranges.has(criterion))
-    : [...criteria];
+  const activeCriteria = [...criteria];
 
   const normalizedScores = new Map<string, NormalizedCriterionScore>();
   for (const phone of comparisonPhones) {
@@ -88,12 +87,13 @@ export function normalizePhoneCriteria<TPhone extends RecommendationPhoneData>(
     for (const criterion of activeCriteria) {
       const range = ranges.get(criterion);
       const value = rawValue(phone, criterion);
-      if (!range || typeof value !== "number") {
+      if (typeof value !== "number") {
         continue;
       }
 
-      const score =
-        criterion === "price"
+      const score = !range
+        ? 1
+        : criterion === "price"
           ? normalizeCost(value, range.minimum, range.maximum)
           : normalizeBenefit(value, range.minimum, range.maximum);
       normalized[criterion] = score;

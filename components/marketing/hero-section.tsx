@@ -190,7 +190,7 @@ export function HeroSection({ catalogSize, segmentCount }: HeroSectionProps) {
 
           <div className="hero-stats-grid">
             <CountMetric label="Phones" value={catalogSize} />
-            <CountMetric label="Price bands" value={segmentCount} />
+            <CountMetric label="Phone categories" value={segmentCount} />
           </div>
 
           <div className="glass-panel hero-feature-list">

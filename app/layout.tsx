@@ -29,7 +29,6 @@ import "./globals.css";
 
 import { SiteFooter } from "@/components/marketing/site-footer";
 import { SiteHeader } from "@/components/marketing/site-header";
-import { CatalogStatusNotice } from "@/components/marketing/catalog-status-notice";
 import { MobileTabBar } from "@/components/marketing/mobile-tabbar";
 import { AppProviders } from "@/components/providers/app-providers";
 import { BootstrapProvider } from "@/components/providers/bootstrap-provider";
@@ -86,8 +85,6 @@ export default function RootLayout({
         <AppProviders>
             {/* SiteHeader: Sticky navigation with logo, links, and auth controls */}
             <SiteHeader />
-
-            <CatalogStatusNotice />
             
             {/* Main content area: Children (individual pages) render here */}
             <main>{children}</main>

@@ -27,13 +27,11 @@ export function validateWeights(weights: CriterionWeight, activeCriteria: readon
 }
 
 /**
- * Converts entered relative points to effective weights. The proposal permits
- * proportional normalization and requires the active weights to total one.
+ * Converts slider percentages to normalized values for the scoring formula.
  */
 export function normalizeWeights(
   enteredWeights: CriterionWeight,
-  activeCriteria: readonly Criterion[],
-  removedConstantCriteria: readonly Criterion[] = []
+  activeCriteria: readonly Criterion[]
 ) {
   if (CRITERION_KEYS.some((criterion) => !Number.isFinite(enteredWeights[criterion]) || enteredWeights[criterion] < 0)) {
     throw new Error("Weights must be finite, non-negative numbers.");
@@ -43,7 +41,6 @@ export function normalizeWeights(
     CRITERION_KEYS.some(
       (criterion) =>
         !activeCriteria.includes(criterion) &&
-        !removedConstantCriteria.includes(criterion) &&
         enteredWeights[criterion] > 0
     )
   ) {

@@ -1,10 +1,10 @@
 /* Core principles/pillars that define the app's philosophy and approach
    These values guide design decisions and feature prioritization */
 const pillars = [
-  "The catalog remains usable while some specifications are being updated.",
-  "Each phone includes links to check prices on Lazada or Shopee.",
-  "Scores use four criteria: performance, camera, battery, and value.",
-  "The interface works on phones, tablets, and desktop computers."
+  "Browse phones across a range of brands and budgets.",
+  "Compare performance, camera, battery, and price side by side.",
+  "Adjust recommendations to match your priorities.",
+  "Save favorites and return to them whenever you like."
 ];
 
 /**

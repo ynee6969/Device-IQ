@@ -32,7 +32,7 @@ export default function ServicesPage() {
         <span className="section-label">DeviceIQ tools</span>
         <h1 className="section-title">Browse, get recommendations, and compare phone specifications.</h1>
         <p className="section-copy">
-          Set requirements and priorities to receive a ranked shortlist, then compare the phones in detail.
+          Everything you need to narrow the list, compare key details, and save your favorites.
         </p>
 
         {/* Asymmetric 3-column grid: featured card + 2 smaller cards
@@ -41,7 +41,7 @@ export default function ServicesPage() {
           <article className="glass-panel service-card">
             <div className="service-card-icon"><SlidersHorizontal size={18} /></div>
             <h3>Recommendation</h3>
-            <p className="muted">Set your requirements and priorities to get a ranked shortlist with an explainable score breakdown.</p>
+            <p className="muted">Choose a budget and set priorities for performance, camera, and battery.</p>
             <Link href="/recommend" className="button magnetic-button">Get recommendations <ArrowRight size={16} /></Link>
           </article>
           {/* FEATURED CARD: Compare Lab - The signature experience */}
