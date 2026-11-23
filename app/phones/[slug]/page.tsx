@@ -28,13 +28,12 @@ import { notFound } from "next/navigation"; /* Server-side 404 redirect */
 import { unstable_cache } from "next/cache"; /* Next.js caching */
 
 import { FavoriteButton } from "@/components/phones/favorite-button";
-import { getPhoneReferenceBySlug } from "@/lib/services/gsmarena-reference";
+import { getCachedPhoneReferenceForPhone } from "@/lib/services/gsmarena-reference";
 import { getPhoneBySlugWithPreviewSource } from "@/lib/services/phones";
 import {
-  buildPhoneMarketplaceLinks,
   getPhoneDisplayName
 } from "@/lib/utils/phone-presentation";
-import { formatPhp, formatScore } from "@/lib/utils/format";
+import { formatPhp } from "@/lib/utils/format";
 import styles from "./page.module.css";
 
 /* Cache function: Fetches phone data + specs
@@ -43,20 +42,8 @@ import styles from "./page.module.css";
 const getPhoneDetail = unstable_cache(
   async (slug: string) => {
     /* Fetch phone from database by URL slug */
-    const [phone, reference] = await Promise.all([
-      getPhoneBySlugWithPreviewSource(slug),
-      getPhoneReferenceBySlug(slug)
-    ]);
-
-    if (!phone || !reference) {
-      return null; /* Return null if phone not found (triggers 404) */
-    }
-
-    /* Bundle phone data with cached reference specs */
-    return {
-      phone,
-      reference /* Full GSMArena specs, cached internally when available */
-    };
+    const phone = await getPhoneBySlugWithPreviewSource(slug);
+    return phone ? { phone, reference: getCachedPhoneReferenceForPhone(phone) } : null;
   },
   ["phone-detail"],    /* Cache key */
   {
@@ -90,7 +77,7 @@ export default async function PhoneDetailPage({
   const { phone, reference } = detail as NonNullable<typeof detail>;
 
   const detailTitle = getPhoneDisplayName(phone.brand, reference.title);
-  const marketplaceLinks = buildPhoneMarketplaceLinks(phone);
+
 
   return (
     <section className={`section ${styles.page}`}>
@@ -113,13 +100,13 @@ export default async function PhoneDetailPage({
               </p>
             ) : null}
 
-            <div className="chip-row">
-              <span className="chip">{formatPhp(phone.price)}</span>
-              <span className="chip">Overall {formatScore(phone.finalScore)}</span>
-              <span className="chip">Performance {formatScore(phone.performanceScore)}</span>
-              <span className="chip">Camera {formatScore(phone.cameraScore)}</span>
-              <span className="chip">Battery {formatScore(phone.batteryScore)}</span>
-            </div>
+            <p><strong>{formatPhp(phone.price)}</strong> · Illustrative catalog price</p>
+            <details><summary>Record and sources</summary>
+              <p>Configuration: {phone.ram ? phone.ram + " GB RAM" : "RAM unrecorded"} · {phone.storage ? phone.storage + " GB storage" : "Storage unrecorded"}</p>
+              <p>Release: {phone.releaseDate ? new Date(phone.releaseDate).toISOString().slice(0, 10) : phone.releaseYear ?? "Unrecorded"} · Philippine market evidence unverified</p>
+              <p>Price and battery capacity lack field-level source and retrieval records.</p>
+              {reference.lastFetchedAt && reference.sourceUrl && !reference.sourceUrl.includes("results.php3") && <p><a href={reference.sourceUrl}>Specification reference</a> · Retrieved {reference.lastFetchedAt.slice(0, 10)}</p>}
+            </details>
 
             <div className="detail-summary-grid">
               {Object.entries(reference.summary)
@@ -136,19 +123,11 @@ export default async function PhoneDetailPage({
               <div className="card-primary-actions">
                 <FavoriteButton phoneId={phone.id} variant="full" />
                 <Link href={`/compare?left=${phone.slug}`} className="button">
-                  Compare in lab
+                  Compare phones
                 </Link>
               </div>
-              <div className="marketplace-actions">
-                <a href={marketplaceLinks.lazada} target="_blank" rel="noreferrer noopener" className="button">
-                  Lazada
-                </a>
-                <a href={marketplaceLinks.shopee} target="_blank" rel="noreferrer noopener" className="button-ghost">
-                  Shopee
-                </a>
-              </div>
               <Link href="/dashboard" className="button-secondary">
-                Back to dashboard
+                Browse phones
               </Link>
             </div>
           </div>
@@ -158,11 +137,11 @@ export default async function PhoneDetailPage({
         <div className="glass-panel specs-table-card">
           {/* Map spec sections (Display, Camera, Battery, Performance, etc.) */}
           <div className="specs-table">
-            {reference.sections.map((section: any) => (
+            {reference.sections.map((section) => (
               <section key={section.title} className="specs-section">
                 <div className="specs-section-title">{section.title}</div>
                 <div className="specs-section-body">
-                  {section.items.map((item: any, index: number) => (
+                  {section.items.map((item, index) => (
                     <div key={`${section.title}-${item.label}-${index}`} className="spec-row">
                       <div className="spec-label">{item.label || " "}</div>
                       <div className="spec-value">{item.value}</div>

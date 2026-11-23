@@ -26,5 +26,5 @@ export interface PhoneReference {
   alternativeNames: string[];
   summary: PhoneReferenceSummary;
   sections: PhoneReferenceSection[];
-  lastFetchedAt: string;
+  lastFetchedAt: string | null;
 }

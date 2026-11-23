@@ -32,7 +32,8 @@ import {
   rememberComparisonSnapshot
 } from "@/lib/services/comparison-history";
 import { buildDetailedComparison } from "@/lib/services/comparison";
-import { formatPhp, formatScore } from "@/lib/utils/format";
+import { formatPhp } from "@/lib/utils/format";
+import { getPhoneDisplayName } from "@/lib/utils/phone-presentation";
 import styles from "./page.module.css";
 
 /* force-dynamic: Prevents caching of this page
@@ -79,27 +80,17 @@ export default async function ComparePage({
   return (
     <section className={`section ${styles.page}`}>
       <div className="page-shell compare-page">
-        <span className="section-label">Compare phones</span>
-        <h1 className="section-title">Compare phone specifications side by side.</h1>
-        <p className="section-copy">
-          Pick two phones to review their scores, specifications, and key differences.
-        </p>
-
+        <h1 className="section-title">Compare smartphones</h1>
+        <p className="section-copy">Catalog prices and ratings are illustrative. Open a model’s specifications for source details.</p>
         <div className="glass-panel card compare-selector-card">
-          <div className="compare-selector-copy">
-            <h2 className="feature-title">Choose the phones to compare.</h2>
-            <p className="muted" style={{ marginBottom: 0 }}>
-              Choose two phones to review their specifications side by side.
-            </p>
-          </div>
-
+          {params.left && params.left === params.right && <p role="alert">Choose two different models.</p>}
           <form className="compare-selector-grid">
             <div className="field">
               <label htmlFor="left">Phone A</label>
               <select id="left" name="left" className="select" defaultValue={comparison.selectedLeftSlug ?? ""}>
                 {comparison.catalog.map((phone) => (
                   <option key={phone.id} value={phone.slug}>
-                    {phone.brand} {phone.model}
+                    {getPhoneDisplayName(phone.brand, phone.model)}
                   </option>
                 ))}
               </select>
@@ -110,7 +101,7 @@ export default async function ComparePage({
               <select id="right" name="right" className="select" defaultValue={comparison.selectedRightSlug ?? ""}>
                 {comparison.catalog.map((phone) => (
                   <option key={phone.id} value={phone.slug}>
-                    {phone.brand} {phone.model}
+                    {getPhoneDisplayName(phone.brand, phone.model)}
                   </option>
                 ))}
               </select>
@@ -145,14 +136,13 @@ export default async function ComparePage({
           </div>
         ) : null}
 
-        {leftDevice && rightDevice ? (
+        {params.left && params.left === params.right ? null : leftDevice && rightDevice ? (
           <>
             <div className="glass-panel compare-hero-card">
               <div className="compare-hero-phones">
                 {[leftDevice, rightDevice].map((device, index) => (
                   <article key={device.phone.id} className="compare-phone-hero">
                     <span className="compare-phone-label">Phone {index === 0 ? "A" : "B"}</span>
-                    <div className="compare-hero-score">{formatScore(device.phone.finalScore)}</div>
                     <div className="compare-phone-media">
                       {device.reference.imageUrl ? (
                         <img src={device.reference.imageUrl} alt={device.displayName} />
@@ -177,30 +167,8 @@ export default async function ComparePage({
               <div className="compare-versus-badge">VS</div>
             </div>
 
-              <div className="compare-highlights-grid">
-                <div className="glass-panel card compare-highlight-card">
-                <span className="section-label">{leftDevice.displayName}</span>
-                <h3>Highlights</h3>
-                <ul className="insight-list" style={{ marginTop: 18 }}>
-                  {comparison.highlights.left.map((highlight) => (
-                    <li key={highlight}>{highlight}</li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="glass-panel card compare-highlight-card">
-                <span className="section-label">{rightDevice.displayName}</span>
-                <h3>Highlights</h3>
-                <ul className="insight-list" style={{ marginTop: 18 }}>
-                  {comparison.highlights.right.map((highlight) => (
-                    <li key={highlight}>{highlight}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
             <div className="glass-panel card compare-score-card">
-              <span className="section-label">Score summary</span>
+              <span className="section-label">Illustrative catalog ratings</span>
               <div className="compare-score-rows">
                 {comparison.summaryRows.map((row) => (
                   <div key={row.label} className="compare-score-row">

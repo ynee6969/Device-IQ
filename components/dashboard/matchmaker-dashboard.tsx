@@ -23,7 +23,7 @@ import {
   RotateCcw,
   X
 } from "lucide-react";
-import { useCallback, useEffect, useState, type Dispatch, type SetStateAction } from "react";
+import { useCallback, useEffect, useId, useRef, useState, type Dispatch, type SetStateAction } from "react";
 
 import { DeviceCard } from "@/components/phones/device-card";
 import type { PhoneCardRecord } from "@/lib/types/phone-card";
@@ -102,14 +102,15 @@ function DashboardFilters({
   setFilters: Dispatch<SetStateAction<FiltersState>>;
   brands: string[];
 }) {
+  const prefix = useId();
   const hasActiveFilters = Object.values(filters).some(Boolean);
 
   return (
     <div className="stack sidebar-filter-stack">
       <div className="field">
-        <label htmlFor="brand">Brand</label>
+        <label htmlFor={prefix + "-brand"}>Brand</label>
         <select
-          id="brand"
+          id={prefix + "-brand"}
           className="select"
           value={filters.brand}
           onChange={(event) => setFilters((current) => ({ ...current, brand: event.target.value }))}
@@ -124,7 +125,7 @@ function DashboardFilters({
       </div>
 
       <FilterSelect
-        id="priceRange"
+        id={prefix + "-priceRange"}
         label="Price range"
         value={filters.priceRange}
         onChange={(value) => setFilters((current) => ({ ...current, priceRange: value }))}
@@ -132,23 +133,23 @@ function DashboardFilters({
       />
 
       <FilterSelect
-        id="performanceTier"
-        label="Performance tier"
+        id={prefix + "-performanceTier"}
+        label="Catalog performance rating"
         value={filters.performanceTier}
         onChange={(value) => setFilters((current) => ({ ...current, performanceTier: value }))}
         options={[...performanceTierOptions]}
       />
 
       <FilterSelect
-        id="cameraQuality"
-        label="Camera quality"
+        id={prefix + "-cameraQuality"}
+        label="Catalog camera rating"
         value={filters.cameraQuality}
         onChange={(value) => setFilters((current) => ({ ...current, cameraQuality: value }))}
         options={[...cameraQualityOptions]}
       />
 
       <FilterSelect
-        id="batteryCapacity"
+        id={prefix + "-batteryCapacity"}
         label="Battery capacity"
         value={filters.batteryCapacity}
         onChange={(value) => setFilters((current) => ({ ...current, batteryCapacity: value }))}
@@ -178,24 +179,28 @@ function MobileSheet({
   onClose: () => void;
   children: React.ReactNode;
 }) {
+  const dialog = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    const element = dialog.current;
+    element?.showModal();
+    return () => element?.close();
+  }, []);
   return (
-    <div className={`sheet-overlay ${styles.sheetOverlay}`} role="presentation" onClick={onClose}>
+    <dialog ref={dialog} aria-label={title} className={`sheet-overlay ${styles.sheetOverlay}`} style={{ width: "100vw", height: "100dvh", maxWidth: "none", maxHeight: "none", border: 0 }} onCancel={onClose} onClick={onClose}>
       <div
         className={`sheet-panel ${styles.sheetPanel}`}
-        role="dialog"
-        aria-modal="true"
         onClick={(event) => event.stopPropagation()}
       >
         <div className="sheet-header">
           <strong>{title}</strong>
-          <button type="button" className="theme-toggle" onClick={onClose}>
+          <button type="button" className="button-secondary" onClick={onClose}>
             <X size={16} />
             <span>Close</span>
           </button>
         </div>
         {children}
       </div>
-    </div>
+    </dialog>
   );
 }
 
@@ -239,6 +244,7 @@ export function MatchmakerDashboard({
   const pageSize = 10;
 
   /* Convert the current filter state into URLSearchParams for the `/api/phones` endpoint. */
+  const pageRequest = useRef<AbortController | null>(null);
   const buildParams = useCallback(
     (skip = 0) => {
       const params = new URLSearchParams();
@@ -258,6 +264,8 @@ export function MatchmakerDashboard({
   useEffect(() => {
     /* Every filter change starts a small delayed refresh to avoid excessive API chatter. */
     const params = buildParams(0);
+    setLoading(true);
+    setLoadingMore(false);
 
     let ignore = false;
     const controller = new AbortController();
@@ -286,6 +294,8 @@ export function MatchmakerDashboard({
         })
         .catch((error) => {
           if (!ignore && error.name !== "AbortError") {
+            setPhones([]);
+            setTotal(0);
             setStatus("Could not reload the phone list right now.");
           }
         })
@@ -298,6 +308,7 @@ export function MatchmakerDashboard({
 
     return () => {
       ignore = true;
+      pageRequest.current?.abort();
       window.clearTimeout(timeoutId);
       controller.abort();
     };
@@ -305,16 +316,20 @@ export function MatchmakerDashboard({
 
   async function handleShowMore() {
     /* Pagination is append-only: fetch the next 10 phones and merge unique ids. */
+    const controller = new AbortController();
+    pageRequest.current?.abort();
+    pageRequest.current = controller;
     setLoadingMore(true);
     setStatus(null);
 
     try {
-      const response = await fetch(`/api/phones?${buildParams(phones.length).toString()}`);
+      const response = await fetch(`/api/phones?${buildParams(phones.length).toString()}`, { signal: controller.signal });
       if (!response.ok) {
         throw new Error("Could not load more phones.");
       }
 
       const data = await response.json();
+      if (controller.signal.aborted) return;
       const nextPhones = (data.phones ?? []) as DashboardPhone[];
 
       setPhones((current) => {
@@ -324,9 +339,9 @@ export function MatchmakerDashboard({
       setBrands((current) => (data.brands?.length ? data.brands : current));
       setTotal((current) => data.total ?? current);
     } catch {
-      setStatus("Could not load more phones right now.");
+      if (!controller.signal.aborted) setStatus("Could not load more phones right now.");
     } finally {
-      setLoadingMore(false);
+      if (!controller.signal.aborted) setLoadingMore(false);
     }
   }
 
@@ -346,9 +361,6 @@ export function MatchmakerDashboard({
           >
             <div>
               <span className="section-label">Filters</span>
-              <p className="muted dashboard-filter-copy">
-                Brand, budget, performance, camera, and battery in one compact stack.
-              </p>
             </div>
             {desktopFiltersExpanded ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
           </button>
@@ -369,15 +381,13 @@ export function MatchmakerDashboard({
         {/* Hero copy keeps the browsing route understandable even before users interact with filters. */}
         <div className="dashboard-topbar dashboard-topbar-split">
           <div className="stack dashboard-copy-stack">
-            <span className="section-label">Dashboard</span>
+            <h1 className="dashboard-title">Smartphone catalog</h1>
             <div className="dashboard-hero-meta">
               <span className="chip">{stats.catalogSize} phones in the catalog</span>
               <span className="chip">{activeFilterCount} filters active</span>
-              <span className="chip">Sign-in is optional</span>
             </div>
-            <h1 className="dashboard-title">Browse phones and filter by your requirements.</h1>
             <p className="muted dashboard-copy">
-              Use the filters to narrow the catalog, open specifications, and compare phones you are considering.
+              Prices and ratings are illustrative. Rank phones to apply your own priorities.
             </p>
           </div>
 
@@ -422,9 +432,9 @@ export function MatchmakerDashboard({
         <div className={`phone-grid dashboard-grid ${loading ? "is-dimmed" : ""}`}>
           {phones.length ? (
             phones.map((phone) => <DeviceCard key={phone.id} phone={phone} />)
-          ) : (
+          ) : !status && !loading ? (
             <div className="glass-panel empty-state">No phones match the current filters.</div>
-          )}
+          ) : null}
         </div>
 
         {hasMore ? (
@@ -433,7 +443,7 @@ export function MatchmakerDashboard({
               type="button"
               className="button-secondary magnetic-button"
               onClick={() => void handleShowMore()}
-              disabled={loadingMore}
+              disabled={loading || loadingMore}
             >
               {loadingMore ? (
                 <>

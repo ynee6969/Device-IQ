@@ -23,13 +23,10 @@ import { HeaderAuthControls } from "@/components/marketing/header-auth-controls"
 import styles from "./SiteHeader.module.css";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
+  { href: "/dashboard", label: "Browse" },
+  { href: "/recommend", label: "Rank phones" },
   { href: "/compare", label: "Compare" },
-  { href: "/recommend", label: "Recommend" },
-  { href: "/services", label: "Services" },
-  { href: "/contact", label: "Contact" },
-  { href: "/dashboard", label: "Dashboard" }
+  { href: "/about", label: "Method and sources" }
 ] satisfies Array<{ href: Route; label: string }>;
 
 /* Shared helper for desktop nav highlighting. */

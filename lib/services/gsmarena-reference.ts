@@ -184,7 +184,7 @@ export function buildLocalPhoneReference(phone: Phone): PhoneReference {
   return {
     title: displayName,
     imageUrl: resolvePhoneImageUrl(phone.slug, null),
-    sourceUrl: `${GSM_ARENA_BASE}results.php3?sQuickSearch=yes&sName=${encodeURIComponent(displayName)}`,
+    sourceUrl: "",
     alternativeNames: [],
     summary: {
       displaySize: extractDisplaySize(phone.display),
@@ -211,7 +211,7 @@ export function buildLocalPhoneReference(phone: Phone): PhoneReference {
         ]
       }
     ],
-    lastFetchedAt: new Date().toISOString()
+    lastFetchedAt: null
   };
 }
 
@@ -227,7 +227,7 @@ function isPhoneReference(value: Prisma.JsonValue | null | undefined): value is 
 }
 
 function shouldRefreshReference(reference: PhoneReference) {
-  if (reference.sourceUrl.includes("results.php3")) {
+  if (!reference.sourceUrl || reference.sourceUrl.includes("results.php3")) {
     return true;
   }
 
@@ -447,7 +447,7 @@ async function cacheReference(phoneId: string, reference: PhoneReference) {
       update: {
         sourceUrl: reference.sourceUrl,
         rawExtraction: reference as unknown as Prisma.InputJsonValue,
-        fetchedAt: new Date(reference.lastFetchedAt)
+        fetchedAt: reference.lastFetchedAt ? new Date(reference.lastFetchedAt) : null
       },
       create: {
         phoneId,
@@ -455,7 +455,7 @@ async function cacheReference(phoneId: string, reference: PhoneReference) {
         sourceUrl: reference.sourceUrl,
         cacheKey: buildCacheKey(phoneId),
         rawExtraction: reference as unknown as Prisma.InputJsonValue,
-        fetchedAt: new Date(reference.lastFetchedAt)
+        fetchedAt: reference.lastFetchedAt ? new Date(reference.lastFetchedAt) : null
       }
     });
   } catch (error) {

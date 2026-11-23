@@ -36,7 +36,7 @@ export interface PhoneFilters {
   cameraQuality?: CameraQualityFilter;
   batteryCapacity?: BatteryCapacityFilter;
   sort?: "top" | "price_asc" | "price_desc" | "camera" | "battery" | "performance";
-  take?: number;
+  take?: number | "all";
   skip?: number;
 }
 
@@ -167,7 +167,7 @@ export async function listPhones(filters: PhoneFilters = {}): Promise<PhoneListR
         where,
         include: phonePreviewSourceInclude,
         orderBy: buildOrderBy(filters.sort),
-        take: filters.take ?? 100,
+        take: filters.take === "all" ? undefined : filters.take ?? 100,
         skip: filters.skip ?? 0
       }),
       prisma.phone.count({ where }),

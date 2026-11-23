@@ -31,7 +31,7 @@ export interface FallbackPhoneFilters {
   cameraQuality?: CameraQualityFilter;
   batteryCapacity?: BatteryCapacityFilter;
   sort?: CatalogSort;
-  take?: number;
+  take?: number | "all";
   skip?: number;
 }
 
@@ -143,7 +143,7 @@ export function listFallbackPhones(filters: FallbackPhoneFilters = {}) {
         return false;
       }
 
-      if (filters.minRam !== undefined && phone.ram !== null && phone.ram < filters.minRam) {
+      if (filters.minRam !== undefined && (phone.ram === null || phone.ram < filters.minRam)) {
         return false;
       }
 
@@ -160,7 +160,7 @@ export function listFallbackPhones(filters: FallbackPhoneFilters = {}) {
     .sort((left, right) => compareBySort(left, right, filters.sort));
 
   const skip = filters.skip ?? 0;
-  const take = filters.take ?? 100;
+  const take = filters.take === "all" ? phones.length : filters.take ?? 100;
 
   return {
     phones: phones.slice(skip, skip + take),

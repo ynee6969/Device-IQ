@@ -1,109 +1,75 @@
 import assert from "node:assert/strict";
 
-import { ACTIVE_RECOMMENDATION_CRITERIA, DEFAULT_WEIGHTS } from "@/lib/recommendation/criteria";
-import { filterEligibleSmartphones } from "@/lib/recommendation/eligibility";
-import { normalizePhoneCriteria, normalizeCost } from "@/lib/recommendation/normalization";
+import { evaluatePhones, recommendationInput } from "@/lib/services/recommendations";
+import { normalizePhoneCriteria } from "@/lib/recommendation/normalization";
+import { analyzePreferenceScenarios } from "@/lib/recommendation/sensitivity";
 import { rankUnderWeights } from "@/lib/recommendation/ranking";
-import { calculateWeightedScore, normalizeWeights } from "@/lib/recommendation/scoring";
-import type { CriterionWeight, DecisionConstraints } from "@/lib/recommendation/types";
+import { normalizeWeights } from "@/lib/recommendation/scoring";
 
-const phones = [
-  { id: "a", label: "Aster One", brand: "Aster", model: "One", os: "Android", price: 10_000, performanceScore: 80, cameraScore: 60, battery: 4_000, ram: 8 },
-  { id: "b", label: "Beryl Two", brand: "Beryl", model: "Two", os: "Android", price: 20_000, performanceScore: 70, cameraScore: 90, battery: 5_000, ram: 12 },
-  { id: "c", label: "Cedar Three", brand: "Cedar", model: "Three", os: "iOS", price: 30_000, performanceScore: 90, cameraScore: 80, battery: 5_000, ram: 8 },
-  { id: "missing", label: "Dune Four", brand: "Dune", model: "Four", os: "Android", price: 15_000, performanceScore: 75, cameraScore: 80, battery: null, ram: 8 }
-];
+const tolerance = 0.000001;
+function near(actual: number | undefined, expected: number) {
+  assert.ok(actual !== undefined && Math.abs(actual - expected) <= tolerance, `Expected ${expected}, received ${actual}`);
+}
+const common = { brand: "Example", os: "Android 14", ram: 8, storage: 128 };
+const A = { ...common, id: "a", slug: "a", model: "A", price: 10000, battery: 4000 };
+const B = { ...common, id: "b", slug: "b", model: "B", price: 20000, battery: 5000 };
+const C = { ...common, id: "c", slug: "c", model: "C", price: 30000, battery: 4500 };
+const missing = { ...A, id: "d", model: "D", battery: null };
+const catalog = [A, B, C, missing];
+const weights = { price: 3, battery: 2, camera: 0, performance: 0 };
+const run = (input: object, devices = catalog) => evaluatePhones(devices, recommendationInput.parse(input));
 
-const constraints: DecisionConstraints = {
-  minPrice: 10_000,
-  maxPrice: 20_000,
-  brands: [],
-  os: "any"
-};
-const eligible = filterEligibleSmartphones(phones, constraints);
-assert.deepEqual(eligible.map((phone) => phone.id), ["a", "b", "missing"]);
+// Price range 10k–30k gives A/B/C = 1, 1/2, 0. Capacity gives 0, 1, 1/2.
+// At 3:2 the totals are .60, .70, .20. D is excluded before finding ranges.
+const result = run({ weights });
+assert.deepEqual(result.matches.map(r => [r.phone.id, r.rank]), [["b", 1], ["a", 2], ["c", 3]]);
+assert.deepEqual(result.excluded.map(p => p.name), ["Example D"]);
+const best = result.matches[0].score;
+near(best.criteria.price?.normalizedScore, 0.5);
+near(best.criteria.battery?.normalizedScore, 1);
+near(best.criteria.price?.weightedContribution, 0.3);
+near(best.criteria.battery?.weightedContribution, 0.4);
+[result.matches[0], result.matches[1], result.matches[2]].forEach((row, i) => near(row.score.overall, [0.7, 0.6, 0.2][i]));
 
-const normalized = normalizePhoneCriteria(eligible, ACTIVE_RECOMMENDATION_CRITERIA);
-assert.deepEqual(normalized.comparisonPhones.map((phone) => phone.id), ["a", "b"]);
-assert.equal(normalized.missingValueCount, 1);
-assert.deepEqual(normalized.activeCriteria, ["price", "performance", "battery", "camera"]);
-assert.equal(normalized.normalizedScores.get("a")?.price, 1);
-assert.equal(normalized.normalizedScores.get("a")?.performance, 1);
-assert.equal(normalized.normalizedScores.get("a")?.battery, 0);
-assert.equal(normalized.normalizedScores.get("a")?.camera, 0);
-assert.equal(normalized.normalizedScores.get("b")?.price, 0);
-assert.equal(normalized.normalizedScores.get("b")?.performance, 0);
-assert.equal(normalized.normalizedScores.get("b")?.battery, 1);
-assert.equal(normalized.normalizedScores.get("b")?.camera, 1);
+const boundary = run({ minBudget: 10000, budget: 20000, minRam: 8, minBattery: 4000, osPreference: "android", brands: ["Example"] });
+assert.deepEqual(boundary.matches.map(row => [row.phone.id, row.rank]), [["a", 1], ["b", 1]]);
+assert.equal(run({ budget: 9999 }).eligibleCount, 0);
+const unknown = { ...A, os: null, ram: null };
+assert.equal(evaluatePhones([unknown], recommendationInput.parse({ osPreference: "android" })).eligibleCount, 0);
+assert.equal(evaluatePhones([unknown], recommendationInput.parse({ minRam: 1 })).eligibleCount, 0);
+assert.equal(run({ brands: ["Other"] }).eligibleCount, 0);
+const singleton = run({ budget: 10000 });
+assert.deepEqual(singleton.unranked.map(p => p.id), ["a"]);
+assert.equal(singleton.matches.length, 0);
+const constant = run({ weights }, [A, { ...B, price: A.price }]);
+assert.deepEqual(constant.constants, ["price"]);
+near(constant.weights.battery, 1);
+near(constant.matches[0].score.overall, 1);
+assert.equal(constant.scenarios[1].status, "not_assessable");
+assert.throws(() => run({ weights: { ...weights, battery: 0 } }, [A, { ...B, price: A.price }]), /same value/);
+assert.throws(() => run({ weights: { ...weights, camera: 1 } }), /unavailable/);
+assert.throws(() => run({ weights: { ...weights, price: 0, battery: 0 } }), /positive/);
+for (const price of [-1, NaN, Infinity, undefined]) {
+  assert.equal(recommendationInput.safeParse({ weights: { ...weights, price } }).success, false);
+}
+assert.equal(recommendationInput.safeParse({ budget: 1, minBudget: 2 }).success, false);
+near(normalizeWeights({ ...weights, price: Number.MAX_VALUE, battery: Number.MAX_VALUE }, ["price", "battery"]).price, 0.5);
 
-assert.equal(normalizeCost(10_000, 10_000, 20_000), 1);
-assert.equal(normalizeCost(20_000, 10_000, 20_000), 0);
-
-const enteredWeights: CriterionWeight = { price: 40, performance: 30, battery: 20, camera: 10 };
-const effectiveWeights = normalizeWeights(enteredWeights, ACTIVE_RECOMMENDATION_CRITERIA);
-assert.equal(effectiveWeights.price, 0.4);
-assert.equal(effectiveWeights.performance, 0.3);
-assert.equal(effectiveWeights.battery, 0.2);
-assert.equal(effectiveWeights.camera, 0.1);
-
-const scoreA = calculateWeightedScore(normalized.normalizedScores.get("a")!, effectiveWeights, ACTIVE_RECOMMENDATION_CRITERIA);
-const scoreB = calculateWeightedScore(normalized.normalizedScores.get("b")!, effectiveWeights, ACTIVE_RECOMMENDATION_CRITERIA);
-assert.equal(scoreA.overall, 0.7);
-assert.equal(scoreA.criteria.price?.weightedContribution, 0.4);
-assert.equal(scoreA.criteria.performance?.weightedContribution, 0.3);
-assert.equal(scoreA.criteria.battery?.weightedContribution, 0);
-assert.equal(scoreB.overall, 0.3);
-
-// Equal values receive the same score and do not change a phone's relative rank.
-const constantData = normalizePhoneCriteria(
-  [
-    { id: "east", price: 12_000, battery: 4_000 },
-    { id: "west", price: 12_000, battery: 5_000 }
-  ],
-  ["price", "battery"]
-);
-assert.deepEqual(constantData.constantCriteria, ["price"]);
-assert.deepEqual(constantData.activeCriteria, ["price", "battery"]);
-assert.equal(constantData.normalizedScores.get("east")?.price, 1);
-assert.equal(constantData.normalizedScores.get("west")?.price, 1);
-const batteryOnlyWeights = normalizeWeights({ price: 0, performance: 0, battery: 100, camera: 0 }, ["battery"]);
-assert.equal(batteryOnlyWeights.battery, 1);
-assert.equal(
-  calculateWeightedScore(constantData.normalizedScores.get("west")!, batteryOnlyWeights, ["battery"]).overall,
-  1
-);
-
-assert.throws(
-  () => normalizeWeights({ price: 0, performance: 0, battery: 0, camera: 0 }, ACTIVE_RECOMMENDATION_CRITERIA),
-  /positive weight/
-);
-assert.throws(
-  () => normalizeWeights({ price: -1, performance: 0, battery: 2, camera: 0 }, ACTIVE_RECOMMENDATION_CRITERIA),
-  /non-negative/
-);
-assert.throws(
-  () => normalizeWeights({ price: 50, performance: 1, battery: 50, camera: 0 }, ["price", "battery"]),
-  /unavailable/
-);
-assert.equal(DEFAULT_WEIGHTS.price, 0.25);
-assert.equal(DEFAULT_WEIGHTS.performance, 0.25);
-assert.equal(DEFAULT_WEIGHTS.battery, 0.25);
-assert.equal(DEFAULT_WEIGHTS.camera, 0.25);
-
-const tied = rankUnderWeights(
-  [
-    { id: "z", label: "Zeta", normalizedScores: { price: 0.5 } },
-    { id: "a", label: "Alpha", normalizedScores: { price: 0.5000005 } }
-  ],
-  { price: 1, performance: 0, battery: 0, camera: 0 },
-  ["price"]
-);
-assert.deepEqual(tied.map((row) => row.label), ["Alpha", "Zeta"]);
-assert.deepEqual(tied.map((row) => row.rank), [1, 1]);
-
-assert.throws(
-  () => normalizeWeights({ ...DEFAULT_WEIGHTS, price: Number.NaN }, ACTIVE_RECOMMENDATION_CRITERIA),
-  /finite/
-);
-
-console.log("Smartphone recommendation checks passed: filters, catalog ratings, normalization, weights, scores, and ties.");
+// Equal baseline B=.75, A=.50, C=.25. At 60% price the order is unchanged, but scores change.
+assert.deepEqual(result.scenarios.map(s => s.status), ["available", "available", "not_assessable"]);
+for (const [i, expected] of [[0, [.75, .5, .25]], [1, [.7, .6, .2]]] as const) {
+  assert.deepEqual(result.scenarios[i].results.map(r => [r.id, r.rank]), [["b", 1], ["a", 2], ["c", 3]]);
+  result.scenarios[i].results.forEach((r, j) => near(r.score, expected[j]));
+}
+// Manuscript appendix: hypothetical prices 20k/30k, benchmark 80/100.
+const example = normalizePhoneCriteria([{ id: "a", price: 20000, benchmarkScore: 80 }, { id: "b", price: 30000, benchmarkScore: 100 }], ["price", "performance"]);
+const rows = example.comparisonPhones.map(p => ({ id: p.id, label: p.id, normalizedScores: example.normalizedScores.get(p.id)! }));
+const scenarios = analyzePreferenceScenarios(rows, example.activeCriteria).scenarios;
+assert.deepEqual(scenarios[0].results.map(r => r.rank), [1, 1]);
+assert.deepEqual(scenarios[1].results.map(r => [r.id, r.rank]), [["a", 1], ["b", 2]]);
+assert.deepEqual(scenarios[2].results.map(r => [r.id, r.rank]), [["b", 1], ["a", 2]]);
+near(scenarios[1].results[0].score, .6);
+near(scenarios[2].results[1].score, .4);
+const ties = rankUnderWeights([.2, .2000005, .19999].map((price, i) => ({ id: String(i), label: String(i), normalizedScores: { price } })), { ...weights, price: 1, battery: 0 }, ["price"]);
+assert.deepEqual(ties.map(r => [r.id, r.rank]), [["0", 1], ["1", 1], ["2", 3]]);
+console.log("Passed smartphone eligibility, validation, independent calculations, ties and scenario checks.");

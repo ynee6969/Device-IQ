@@ -10,6 +10,7 @@
  * The footer stays intentionally small so the app still feels product-focused,
  * especially on catalog-heavy routes like dashboard and compare.
  */
+import Link from "next/link";
 import { BrandLockup } from "@/components/marketing/brand-lockup";
 import styles from "./SiteFooter.module.css";
 
@@ -21,7 +22,7 @@ export function SiteFooter() {
           <BrandLockup subtitle="Browse, compare, and save phones." />
         </div>
         <p className={styles.note}>
-          Browse phones, review specifications, and compare models in one place.
+          <Link href="/about">Method and sources</Link> · <Link href="/services">Tools</Link> · <Link href="/contact">Contact</Link>
         </p>
       </div>
     </footer>

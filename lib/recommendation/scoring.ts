@@ -6,6 +6,8 @@ import type {
   RecommendationScore
 } from "@/lib/recommendation/types";
 
+export class PreferenceError extends Error {}
+
 const WEIGHT_TOLERANCE = 0.000001;
 
 export function validateWeights(weights: CriterionWeight, activeCriteria: readonly Criterion[]) {
@@ -27,35 +29,40 @@ export function validateWeights(weights: CriterionWeight, activeCriteria: readon
 }
 
 /**
- * Converts slider percentages to normalized values for the scoring formula.
+ * Converts entered relative points to effective weights. The proposal permits
+ * proportional normalization and requires the active weights to total one.
  */
 export function normalizeWeights(
   enteredWeights: CriterionWeight,
-  activeCriteria: readonly Criterion[]
+  activeCriteria: readonly Criterion[],
+  removedConstantCriteria: readonly Criterion[] = []
 ) {
   if (CRITERION_KEYS.some((criterion) => !Number.isFinite(enteredWeights[criterion]) || enteredWeights[criterion] < 0)) {
-    throw new Error("Weights must be finite, non-negative numbers.");
+    throw new PreferenceError("Weights must be finite, non-negative numbers.");
   }
 
   if (
     CRITERION_KEYS.some(
       (criterion) =>
         !activeCriteria.includes(criterion) &&
+        !removedConstantCriteria.includes(criterion) &&
         enteredWeights[criterion] > 0
     )
   ) {
-    throw new Error("A weight was assigned to a criterion that is unavailable for this comparison.");
+    throw new PreferenceError("A weight was assigned to a criterion that is unavailable for this comparison.");
   }
 
-  const activeTotal = activeCriteria.reduce((total, criterion) => total + enteredWeights[criterion], 0);
-  if (activeTotal <= 0) {
-    throw new Error("Enter a positive weight for at least one available criterion.");
+  const largest = Math.max(...activeCriteria.map(key => enteredWeights[key]));
+  if (!(largest > 0)) {
+    throw new PreferenceError("Enter a positive weight for at least one available criterion.");
   }
+  // Divide by the largest input first so finite relative weights cannot overflow their sum.
+  const activeTotal = activeCriteria.reduce((sum, key) => sum + enteredWeights[key] / largest, 0);
 
   const normalized = Object.fromEntries(
     CRITERION_KEYS.map((criterion) => [
       criterion,
-      activeCriteria.includes(criterion) ? enteredWeights[criterion] / activeTotal : 0
+      activeCriteria.includes(criterion) ? (enteredWeights[criterion] / largest) / activeTotal : 0
     ])
   ) as CriterionWeight;
 

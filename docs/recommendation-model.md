@@ -1,29 +1,11 @@
-# DeviceIQ recommendation model
+# Smartphone scoring
 
-## Audited implementation before the refactor
+The illustrative ranking uses PHP price as a cost and battery capacity in mAh as a benefit. A hard filter is inclusive. Unknown specifications fail a requirement on that field. Each excluded phone carries the first unmet requirement or the missing-data reason.
 
-The recommendation endpoint queried phones using price, battery, and RAM filters, then filtered brands and operating system in `lib/services/recommendations.ts`. It combined persisted 0–100 `performanceScore`, `cameraScore`, `batteryScore`, and `valueScore` values with fixed weights. A selected use case silently replaced the submitted priorities, and the result contained only a personalized score plus heuristic reasons. There was no normalized criterion breakdown, explicit eligibility result, or sensitivity analysis.
+Only records with complete scored fields enter the ranges. For eligible minimum L, maximum H, and raw value x, price uses (H − x) / (H − L) and capacity uses (x − L) / (H − L). A constant field contributes nothing and is omitted before the remaining weights are rescaled. If the remaining weights sum to zero, another input is required.
 
-The old catalog `valueScore` was calculated as `performance / price`, which counted Performance again when both criteria were aggregated.
+Each contribution is the normalized value multiplied by the effective weight. The sum is ranked in descending order at full precision. Scores within 0.000001 of the leader of a tie group share the same competition rank, with alphabetical display inside the group. Two-decimal display can hide small differences between distinct ranks.
 
-## Canonical implementation after the refactor
+The three scenarios reuse the same normalized values. The equal-weight baseline assigns 1/m to each of m active criteria. In each focused scenario, price or performance receives 0.60 and the others divide 0.40 equally. A focus needs at least two active criteria including its focus measure. The current example catalog lacks comparable benchmark records, so the performance scenario is not assessable.
 
-The active recommendation path is:
-
-```text
-request preferences and constraints
-  -> validate explicit weights
-  -> filter eligible phones
-  -> normalize Performance, Camera, Battery, and Value
-  -> calculate S_j = Σ(w_i × r_ij)
-  -> rank deterministically
-  -> return score contributions and applied constraints
-```
-
-The criteria are centralized in `lib/recommendation/criteria.ts`. Stored 0–100 benefit scores are converted to `[0, 1]`. Value is a cost criterion normalized from price within the eligible set: the lowest eligible price scores 1 and the highest scores 0. This removes the old Performance/Value double-counting while keeping the initial four criteria manageable.
-
-Weights must be non-negative and sum to 1. Explicit `weights` (or the backwards-compatible `priorities` field) always win. Use-case presets are defaults only when the user does not provide weights.
-
-AI enrichment remains responsible for extracting and structuring phone data. It does not provide weights, calculate final recommendation scores, or determine ranking.
-
-`lib/recommendation/sensitivity.ts` provides eight small perturbation scenarios (each criterion increased and decreased by a configurable step) and proportionally redistributes the remaining weight so the total remains 1.
+See [thesis alignment](THESIS_ALIGNMENT.md) for data limits and verification.

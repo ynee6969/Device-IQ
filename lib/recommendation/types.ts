@@ -41,12 +41,16 @@ export interface DecisionConstraints {
   minRam?: number;
 }
 
-export interface RecommendationResult<TPhone = unknown> {
-  criteria: readonly Criterion[];
-  preferences: UserPreference;
-  weights: CriterionWeight;
-  constraints: DecisionConstraints;
-  eligibleCount: number;
-  excludedMissingCount: number;
-  matches: PhoneRanking<TPhone>[];
+export interface SensitivityScenario {
+  id: "equal" | "affordability" | "performance";
+  label: string;
+  focusCriterion: Criterion | null;
+  status: "available" | "not_assessable";
+  reason: string | null;
+  weights: CriterionWeight | null;
+  results: Array<{ id: string; label: string; score: number; rank: number }>;
+}
+
+export interface SensitivityAnalysis {
+  scenarios: SensitivityScenario[];
 }

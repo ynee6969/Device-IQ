@@ -1,7 +1,7 @@
 import { unstable_cache } from "next/cache";
 import { type Phone } from "@prisma/client";
 
-import { getPhoneReferenceBySlug } from "@/lib/services/gsmarena-reference";
+import { getCachedPhoneReferenceForPhone } from "@/lib/services/gsmarena-reference";
 import { getPhoneBySlugWithPreviewSource, getPhonesByIds, listPhones } from "@/lib/services/phones";
 import { serializePhoneCard, type PhoneCardRecord } from "@/lib/types/phone-card";
 import type { PhoneReference } from "@/lib/types/phone-reference";
@@ -477,12 +477,11 @@ function buildHighlights(
 }
 
 function resolveSelection(catalog: PhoneCardRecord[], requestedLeft?: string, requestedRight?: string) {
-  const leftSlug = catalog.some((phone) => phone.slug === requestedLeft)
-    ? requestedLeft ?? null
-    : catalog[0]?.slug ?? null;
-  const rightSlug = catalog.some((phone) => phone.slug === requestedRight && phone.slug !== leftSlug)
-    ? requestedRight ?? null
-    : catalog.find((phone) => phone.slug !== leftSlug)?.slug ?? null;
+  const hasSlug = (slug: string) => catalog.some(phone => phone.slug === slug);
+  const leftSlug = requestedLeft === undefined ? catalog[0]?.slug ?? null
+    : hasSlug(requestedLeft) ? requestedLeft : null;
+  const rightSlug = requestedRight === undefined ? catalog.find(phone => phone.slug !== leftSlug)?.slug ?? null
+    : hasSlug(requestedRight) ? requestedRight : null;
 
   return {
     leftSlug,
@@ -495,16 +494,8 @@ async function getDevice(slug: string | null) {
     return null;
   }
 
-  const [phone, reference] = await Promise.all([
-    getPhoneBySlugWithPreviewSource(slug),
-    getPhoneReferenceBySlug(slug)
-  ]);
-
-  if (!phone || !reference) {
-    return null;
-  }
-
-  return buildDevice(phone, reference);
+  const phone = await getPhoneBySlugWithPreviewSource(slug);
+  return phone ? buildDevice(phone, getCachedPhoneReferenceForPhone(phone)) : null;
 }
 
 export async function comparePhones(ids: string[]) {
@@ -528,7 +519,7 @@ export async function comparePhones(ids: string[]) {
 
 const buildDetailedComparisonCached = unstable_cache(
   async (leftSlug?: string, rightSlug?: string): Promise<DetailedComparisonView> => {
-    const catalogResult = await listPhones({ take: 120, sort: "top" });
+    const catalogResult = await listPhones({ take: "all", sort: "top" });
     const catalog = catalogResult.phones.map(serializePhoneCard);
     const selection = resolveSelection(catalog, leftSlug, rightSlug);
 
@@ -537,7 +528,7 @@ const buildDetailedComparisonCached = unstable_cache(
       getDevice(selection.rightSlug)
     ]);
 
-    if (!left || !right) {
+    if (!left || !right || left.phone.id === right.phone.id) {
       return {
         catalog,
         selectedLeftSlug: selection.leftSlug,

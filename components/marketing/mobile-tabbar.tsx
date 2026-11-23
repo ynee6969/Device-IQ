@@ -22,7 +22,7 @@ import styles from "./MobileTabBar.module.css";
 
 const tabs = [
   { href: "/", label: "Home", icon: House },
-  { href: "/recommend", label: "Recommend", icon: SlidersHorizontal },
+  { href: "/recommend", label: "Rank", icon: SlidersHorizontal },
   { href: "/compare", label: "Compare", icon: GitCompareArrows },
   { href: "/dashboard", label: "Browse", icon: LayoutDashboard },
   { href: "/favorites", label: "Saved", icon: Heart }

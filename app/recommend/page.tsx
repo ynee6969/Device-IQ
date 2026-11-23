@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 export default async function RecommendPage() {
-  const catalog = await listPhones({ take: 1000 });
+  const catalog = await listPhones({ take: 1 });
 
   return (
     <section className="section">

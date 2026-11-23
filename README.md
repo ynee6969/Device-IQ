@@ -37,9 +37,9 @@ DeviceIQ helps people browse phones, compare specifications, and build a shortli
 
 ## Recommendations
 
-- Filter by price, brand, operating system, RAM, or battery capacity.
-- Set percentages for price, DeviceIQ performance rating, battery capacity, and DeviceIQ camera rating. Presets provide a quick starting point, and the sliders always total 100%.
-- Matches are ranked against the phones that meet the selected filters. Phones missing any of the four values are left out of that shortlist.
+- Browse illustrative smartphone records and filter by budget, brand, recorded OS, RAM or capacity.
+- Rank by relative price and battery-capacity priorities. Inspect normalized values, contributions and the three proposal scenarios.
+- See [the scoring method](docs/recommendation-model.md) and [scope and verification](docs/THESIS_ALIGNMENT.md). Run `npm run test:recommendation` for the fixed calculation cases.
 
 ## Folder Guide
 

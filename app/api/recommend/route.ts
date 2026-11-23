@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { RateLimitError, enforceRateLimit } from "@/lib/services/rate-limit";
+import { PreferenceError } from "@/lib/recommendation/scoring";
 import { recommendPhones } from "@/lib/services/recommendations";
 
 export async function POST(request: NextRequest) {
@@ -20,9 +21,10 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: error.message }, { status: 429 });
     }
 
-    return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Recommendation failed." },
-      { status: 400 }
-    );
+    if (error instanceof PreferenceError || error instanceof SyntaxError) {
+      return NextResponse.json({ error: error instanceof SyntaxError ? "Send a valid JSON object." : error.message }, { status: 400 });
+    }
+    console.error("[recommend]", error);
+    return NextResponse.json({ error: "Could not load the catalog. Please try again." }, { status: 503 });
   }
 }

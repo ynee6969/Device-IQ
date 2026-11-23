@@ -33,6 +33,8 @@ export function FavoriteButton({
   const saved = isFavorite(phoneId);
   const pending = isPending(phoneId);
 
+  if (phoneId.startsWith("seed-")) return null;
+
   return (
     <button
       type="button"

@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { listPhones } from "@/lib/services/phones";
-import { getErrorMessage } from "@/lib/services/runtime-safety";
 import { serializePhoneCard } from "@/lib/types/phone-card";
 import {
   batteryCapacityOptions,
@@ -68,15 +67,15 @@ export async function GET(request: NextRequest) {
         }
       }
     );
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       {
         phones: [],
         total: 0,
         brands: [],
-        error: getErrorMessage(error, "Could not load phones.")
+        error: "Could not load phones."
       },
-      { status: 200 }
+      { status: 503 }
     );
   }
 }

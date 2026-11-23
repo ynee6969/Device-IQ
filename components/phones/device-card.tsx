@@ -19,7 +19,7 @@ import { BatteryCharging, Camera, Cpu, Sparkles, Zap } from "lucide-react";
 import { FavoriteButton } from "@/components/phones/favorite-button";
 import type { PhoneCardRecord } from "@/lib/types/phone-card";
 import { formatPhp, formatScore } from "@/lib/utils/format";
-import { buildPhoneMarketplaceLinks, getPhoneDisplayName } from "@/lib/utils/phone-presentation";
+import { getPhoneDisplayName } from "@/lib/utils/phone-presentation";
 import styles from "./DeviceCard.module.css";
 
 interface DeviceCardProps {
@@ -65,7 +65,6 @@ function buildDetailCards(phone: PhoneCardRecord) {
 
 export function DeviceCard({ phone }: DeviceCardProps) {
   const displayName = getPhoneDisplayName(phone.brand, phone.model);
-  const marketplaceLinks = buildPhoneMarketplaceLinks(phone);
   const specChips = buildSpecChips(phone);
   const detailCards = buildDetailCards(phone);
   const statRows: StatRow[] = [
@@ -89,11 +88,11 @@ export function DeviceCard({ phone }: DeviceCardProps) {
       {/* Quick score + price snapshot before the user reads the rest of the card. */}
       <div className="phone-card-score-strip">
         <div className="phone-card-score-panel">
-          <span>DeviceIQ score</span>
+          <span>Catalog rating</span>
           <strong>{formatScore(phone.finalScore)}</strong>
         </div>
         <div className="phone-card-price-panel">
-          <span>Starts at</span>
+          <span>Example price</span>
           <strong>{formatPhp(phone.price)}</strong>
         </div>
       </div>
@@ -112,9 +111,6 @@ export function DeviceCard({ phone }: DeviceCardProps) {
         <div className="phone-headline">
           <div>
             <h3>{displayName}</h3>
-            <p className="muted phone-card-subcopy">
-              Compare it side by side, save it for later, or drill into the full spec sheet.
-            </p>
           </div>
         </div>
 
@@ -127,7 +123,7 @@ export function DeviceCard({ phone }: DeviceCardProps) {
               </span>
             ))
           ) : (
-            <span className="chip phone-card-chip">Preview specs ready after sync</span>
+            <span className="chip phone-card-chip">Specifications unrecorded</span>
           )}
         </div>
 
@@ -175,14 +171,6 @@ export function DeviceCard({ phone }: DeviceCardProps) {
             <Link href={`/compare?left=${phone.slug}`} className="button magnetic-button">
               Compare
             </Link>
-          </div>
-          <div className="marketplace-actions">
-            <a href={marketplaceLinks.lazada} target="_blank" rel="noreferrer noopener" className="button-ghost">
-              Lazada
-            </a>
-            <a href={marketplaceLinks.shopee} target="_blank" rel="noreferrer noopener" className="button-ghost">
-              Shopee
-            </a>
           </div>
         </div>
       </div>
