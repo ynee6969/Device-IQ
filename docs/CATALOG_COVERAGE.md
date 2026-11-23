@@ -8,6 +8,10 @@ Checked 23 November 2026. The target is all qualifying models officially release
 | Tablets | 10 | Exact listed configurations and selected specifications recorded; Philippine prices unavailable. |
 | Laptops | 10 | Exact Acer SKUs and listed new prices recorded; launch dates and broader brand/type coverage pending. |
 
+## Product images
+
+All 30 pilot records have locally stored product images for the browse, saved, and detail pages. `lib/catalog/image-manifest.json` records the page and original asset URL for each image. Images establish appearance only; specifications, price, and Philippine availability remain grounded in the sources below. Two Acer images show the model family rather than the exact listed configuration: Aspire Lite AL15-33P and Swift Air 14 AI. The detail page labels those cases and links to the image source.
+
 ## Smartphone sources
 
 The selected configurations appear on official Philippine manufacturer pages. These sources establish availability when observed, but the original local launch date, current Philippine price, and lifecycle status still need evidence.

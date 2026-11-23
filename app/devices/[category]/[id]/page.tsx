@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { devicesForCategory } from "@/lib/catalog/data";
 import type { DeviceSpecs, SpecKey } from "@/lib/catalog/types";
 import { CatalogSaveButton } from "@/components/catalog/CatalogSaveButton";
+import { CatalogProductImage } from "@/components/catalog/CatalogProductImage";
+import { catalogImage } from "@/lib/catalog/images";
 import styles from "@/components/catalog/catalog.module.css";
 
 const sections: { title: string; fields: [SpecKey, string][] }[] = [
@@ -30,10 +32,14 @@ export default async function DevicePage({ params, searchParams }: { params: Pro
   const variant = device.variants.find((item) => item.id === variantId) ?? device.variants[0];
   const categoryTitle = category.charAt(0).toUpperCase() + category.slice(1);
   const source = device.sources[0];
+  const image = catalogImage(device.id);
   const sourceLine = <p className={styles.sourceLine}>Source: <a href={source.url} target="_blank" rel="noreferrer">{source.organization}</a> · checked {source.observedAt}</p>;
   return <section className={`page-shell section ${styles.browser}`}>
     <nav className={styles.breadcrumb} aria-label="Breadcrumb"><Link href="/browse">Categories</Link><span>/</span><Link href={`/browse/${category}`}>{categoryTitle}</Link><span>/</span><span>{device.model}</span></nav>
-    <header className={styles.detailHero}><span className={styles.eyebrow}>{category.slice(0, -1)}</span><h1>{device.brand} {device.model}</h1><p>Configuration: <strong>{variant.label}</strong></p><div><CatalogSaveButton variantId={variant.id} /></div></header>
+    <header className={styles.detailHero}>
+      <div className={styles.detailImage}><CatalogProductImage device={device} sizes="(max-width: 800px) 90vw, 520px" priority /></div>
+      <div className={styles.detailIntro}><span className={styles.eyebrow}>{category.slice(0, -1)}</span><h1>{device.brand} {device.model}</h1><p className={styles.variant}>{variant.label}</p><strong className={styles.detailPrice}>{variant.pricePhp === null ? "Price not verified" : new Intl.NumberFormat("en-PH", { style: "currency", currency: "PHP", maximumFractionDigits: 0 }).format(variant.pricePhp)}</strong><div className={styles.detailActions}><CatalogSaveButton variantId={variant.id} /><Link className="button" href={`/compare?category=${category}&first=${encodeURIComponent(variant.id)}`}>Compare</Link></div>{image && <p className={styles.sourceLine}>Product image: <a href={image.sourcePage} target="_blank" rel="noreferrer">{image.scope}</a>{image.scope !== "Exact model" ? " · appearance may vary by configuration or color" : ""}</p>}</div>
+    </header>
     {device.variants.length > 1 && <nav aria-label="Configurations" className={styles.categories}>{device.variants.map((item) => <Link key={item.id} href={`?variant=${item.id}`}>{item.label}</Link>)}</nav>}
     <div className={styles.detailGrid}>
       <section className={styles.detailSection}><h2>Launch and availability</h2><dl className={styles.specList}><div><dt>Model release date</dt><dd>{device.releaseDate ?? "Not verified"}</dd></div><div><dt>Philippine availability date</dt><dd>{device.philippineAvailabilityDate ?? "Not verified"}</dd></div><div><dt>Local evidence</dt><dd>{device.philippineAvailability}</dd></div><div><dt>Lifecycle</dt><dd>{device.discontinued === true ? "Discontinued" : device.discontinued === false ? "Current" : "Not verified"}</dd></div><div><dt>Store status</dt><dd>{variant.listingStatus}</dd></div></dl>{sourceLine}</section>

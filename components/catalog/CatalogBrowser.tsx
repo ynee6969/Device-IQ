@@ -4,15 +4,11 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { CatalogRow, DeviceCategory } from "@/lib/catalog/types";
 import { fieldOptions, filterDefinitions, filterRows, pageRows, sortRows, type CatalogSort, type FilterDefinition, type FilterSelections } from "@/lib/catalog/filtering";
-import { CatalogSaveButton } from "./CatalogSaveButton";
+import { CatalogCard } from "./CatalogCard";
 import styles from "./catalog.module.css";
 
 const categoryLabels: Record<DeviceCategory, string> = { smartphones: "Smartphones", tablets: "Tablets", laptops: "Laptops" };
 const groups = ["Basics", "Price and condition", "Performance", "Display", "Camera and video", "Battery and portability", "Connectivity and compatibility"];
-
-function formatPrice(price: number | null) {
-  return price === null ? "Price not verified" : new Intl.NumberFormat("en-PH", { style: "currency", currency: "PHP", maximumFractionDigits: 0 }).format(price);
-}
 
 function FilterControl({ definition, rows, selections, setSelections }: { definition: FilterDefinition; rows: CatalogRow[]; selections: FilterSelections; setSelections: React.Dispatch<React.SetStateAction<FilterSelections>> }) {
   const id = `${definition.key}:${definition.kind}`;
@@ -69,8 +65,7 @@ export function CatalogBrowser({ category, rows }: { category: DeviceCategory; r
 
   return <div className={`page-shell section ${styles.browser}`}>
     <nav className={styles.breadcrumb} aria-label="Breadcrumb"><Link href="/browse">Choose a category</Link><span>/</span><span>{categoryLabels[category]}</span></nav>
-    <header className={styles.heading}><div><span className={styles.eyebrow}>Browse</span><h1>{categoryLabels[category]}</h1><p>Filter recorded configurations and open a model for source details.</p></div><span className={styles.count}>{rows.length} recorded {rows.length === 1 ? "configuration" : "configurations"}</span></header>
-    {category === "smartphones" && <div className={styles.notice}>This starter catalog uses official Philippine product pages. Older illustrative phone examples remain outside this catalog pending source review.</div>}
+    <header className={styles.heading}><div><span className={styles.eyebrow}>Browse</span><h1>{categoryLabels[category]}</h1><p>Explore models, narrow your options, and compare the details.</p></div><span className={styles.count}>{rows.length} {rows.length === 1 ? "model" : "models"}</span></header>
     <button className={`button-secondary ${styles.mobileFiltersToggle}`} type="button" aria-expanded={filtersOpen} aria-controls="catalog-filters" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Hide filters" : `Show filters${activeCount ? ` (${activeCount})` : ""}`}</button>
     <div className={styles.layout}>
       <aside id="catalog-filters" className={`${styles.filters} ${filtersOpen ? styles.filtersOpen : ""}`} aria-label="Catalog filters">
@@ -82,13 +77,7 @@ export function CatalogBrowser({ category, rows }: { category: DeviceCategory; r
       </aside>
       <section className={styles.results} aria-label="Catalog results">
         <div className={styles.toolbar}><p aria-live="polite">{matched.length} {matched.length === 1 ? "match" : "matches"}{activeCount ? ` · ${activeCount} active filters` : ""}</p><label>Sort by <select className="select" value={sort} onChange={(event) => { setSort(event.target.value as CatalogSort); setPage(0); }}><option value="name_asc">Name A–Z{category !== "laptops" ? " (default)" : ""}</option><option value="name_desc">Name Z–A</option>{rows.some((row) => row.variant.pricePhp !== null) && <><option value="price_asc">Price: low to high{category === "laptops" ? " (default)" : ""}</option><option value="price_desc">Price: high to low</option></>}{rows.some((row) => typeof row.variant.specs.ramGb === "number") && <option value="ram_desc">RAM: high to low</option>}{rows.some((row) => row.device.releaseDate) && <option value="release_desc">Release: newest first</option>}</select></label></div>
-        {visible.length ? <div className={styles.grid}>{visible.map(({ device, variant }) => <article className={styles.card} key={variant.id}>
-          <div className={styles.cardTop}><span className={styles.category}>{category.slice(0, -1)}</span><CatalogSaveButton variantId={variant.id} /></div>
-          <h2>{device.brand} {device.model}</h2><p className={styles.variant}>{variant.label}</p>
-          <strong className={styles.price}>{formatPrice(variant.pricePhp)}</strong><span className={styles.hint}>{variant.priceCondition === "used" ? "Used price" : variant.priceCondition === "new" ? "New price" : "Price unavailable"}{variant.priceObservedAt ? ` · observed ${variant.priceObservedAt}` : ""}</span>
-          <dl className={styles.quickSpecs}><div><dt>{category === "laptops" ? "Processor" : "Chipset"}</dt><dd>{String(variant.specs.cpu ?? variant.specs.chipset ?? "Not verified")}</dd></div><div><dt>Memory</dt><dd>{variant.specs.ramGb ? `${variant.specs.ramGb} GB RAM` : "Not verified"}{variant.specs.storageGb ? ` · ${variant.specs.storageGb} GB storage` : ""}</dd></div><div><dt>Display</dt><dd>{variant.specs.displayInches ? `${variant.specs.displayInches} in` : "Not verified"}{variant.specs.displayType ? ` · ${variant.specs.displayType}` : ""}</dd></div></dl>
-          <Link className="button-secondary" href={`/devices/${category}/${device.id}`}>View specifications</Link>
-        </article>)}</div> : <div className={styles.empty}><h2>No matching configurations</h2><p>{rows.length ? "Try removing a filter or choosing a different value. Your selections will stay in place until you change them." : "No eligible records are available in this category yet."}</p>{activeCount > 0 && <button className="button-secondary" type="button" onClick={() => { setSelections({}); setSearch(""); setPage(0); }}>Clear filters</button>}</div>}
+        {visible.length ? <div className={styles.grid}>{visible.map((row, index) => <CatalogCard row={row} priority={index < 2} key={row.variant.id} />)}</div> : <div className={styles.empty}><h2>No matching configurations</h2><p>{rows.length ? "Try removing a filter or choosing a different value. Your selections will stay in place until you change them." : "No eligible records are available in this category yet."}</p>{activeCount > 0 && <button className="button-secondary" type="button" onClick={() => { setSelections({}); setSearch(""); setPage(0); }}>Clear filters</button>}</div>}
         {matched.length > 10 && <nav className={styles.pagination} aria-label="Result pages"><button className="button-secondary" type="button" disabled={page === 0} onClick={() => setPage((value) => value - 1)}>Previous</button><span>Page {page + 1} of {Math.ceil(matched.length / 10)}</span><button className="button-secondary" type="button" disabled={(page + 1) * 10 >= matched.length} onClick={() => setPage((value) => value + 1)}>Next</button></nav>}
       </section>
     </div>

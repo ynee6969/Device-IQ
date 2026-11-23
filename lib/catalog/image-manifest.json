@@ -1,0 +1,182 @@
+{
+  "poco-f7": {
+    "path": "/catalog-images/poco-f7.webp",
+    "sourcePage": "https://www.mi.com/ph/product/poco-f7/specs/",
+    "assetUrl": "https://i02.appmifile.com/374_operator_sg/10/06/2025/b9f8f21862a0c7fc641ac7169d377d86.png",
+    "scope": "Exact model"
+  },
+  "poco-f7-pro": {
+    "path": "/catalog-images/poco-f7-pro.webp",
+    "sourcePage": "https://www.mi.com/ph/product/poco-f7-pro/specs/",
+    "assetUrl": "https://i02.appmifile.com/551_operator_sg/12/03/2025/de183c9fe0f4b74c5eeaf488d552601d.png",
+    "scope": "Exact model"
+  },
+  "poco-f7-ultra": {
+    "path": "/catalog-images/poco-f7-ultra.webp",
+    "sourcePage": "https://www.mi.com/ph/product/poco-f7-ultra/specs/",
+    "assetUrl": "https://i02.appmifile.com/465_operator_sg/12/03/2025/31acf858b93dd16ef13a9cc878d926c0.png",
+    "scope": "Exact model"
+  },
+  "poco-x7-pro": {
+    "path": "/catalog-images/poco-x7-pro.webp",
+    "sourcePage": "https://www.mi.com/ph/product/poco-x7-pro/specs/",
+    "assetUrl": "https://i02.appmifile.com/764_operator_sg/16/12/2024/e1ac4e4cd470a6eeba65765ec7fc8f2b.png",
+    "scope": "Exact model"
+  },
+  "xiaomi-15": {
+    "path": "/catalog-images/xiaomi-15.webp",
+    "sourcePage": "https://www.mi.com/ph/product/xiaomi-15/specs/",
+    "assetUrl": "https://i02.appmifile.com/870_operator_sg/26/02/2025/284d8b19d8fe25e9da457af1814be782.png",
+    "scope": "Exact model"
+  },
+  "xiaomi-15-ultra": {
+    "path": "/catalog-images/xiaomi-15-ultra.webp",
+    "sourcePage": "https://www.mi.com/ph/product/xiaomi-15-ultra/specs/",
+    "assetUrl": "https://i02.appmifile.com/427_operator_sg/19/02/2025/0c3f10239cafb5c1524422a9ac8aade8.png",
+    "scope": "Exact model"
+  },
+  "redmi-note-14": {
+    "path": "/catalog-images/redmi-note-14.webp",
+    "sourcePage": "https://www.mi.com/ph/product/redmi-note-14/specs/",
+    "assetUrl": "https://i02.appmifile.com/428_operator_sg/31/12/2024/0303cb5b1e57dd62ba287162983a288f.png",
+    "scope": "Exact model"
+  },
+  "redmi-note-14-5g": {
+    "path": "/catalog-images/redmi-note-14-5g.webp",
+    "sourcePage": "https://www.mi.com/ph/product/redmi-note-14-5g/specs/",
+    "assetUrl": "https://i02.appmifile.com/98_operator_sg/31/12/2024/ad40037176bc694a2b4dc321a2bf3e00.png",
+    "scope": "Exact model"
+  },
+  "redmi-note-14-pro-5g": {
+    "path": "/catalog-images/redmi-note-14-pro-5g.webp",
+    "sourcePage": "https://www.mi.com/ph/product/redmi-note-14-pro-5g/specs/",
+    "assetUrl": "https://i02.appmifile.com/271_operator_sg/31/12/2024/e73d38508a897cf26189cf4195f7c4c7.png",
+    "scope": "Exact model"
+  },
+  "xiaomi-pad-7": {
+    "path": "/catalog-images/xiaomi-pad-7.webp",
+    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-7/specs/",
+    "assetUrl": "https://i02.appmifile.com/603_operator_sg/28/02/2025/3a1977bd13ab44d01273c6512fab01df.png",
+    "scope": "Exact model"
+  },
+  "xiaomi-pad-7-pro": {
+    "path": "/catalog-images/xiaomi-pad-7-pro.webp",
+    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-7-pro/specs/",
+    "assetUrl": "https://i02.appmifile.com/149_operator_sg/19/02/2025/5f0e3fbf0973079fc48af2a82819c602.png",
+    "scope": "Exact model"
+  },
+  "xiaomi-pad-8": {
+    "path": "/catalog-images/xiaomi-pad-8.webp",
+    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-8/specs/",
+    "assetUrl": "https://i02.appmifile.com/739_operator_sg/09/02/2026/16ac1e23cfff3a6d61355e14c376299a.png",
+    "scope": "Exact model"
+  },
+  "xiaomi-pad-8-pro": {
+    "path": "/catalog-images/xiaomi-pad-8-pro.webp",
+    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-8-pro/specs/",
+    "assetUrl": "https://i02.appmifile.com/925_operator_sg/26/01/2026/c5e223caa19caa68758faf2bb646162c.png",
+    "scope": "Exact model"
+  },
+  "xiaomi-pad-mini": {
+    "path": "/catalog-images/xiaomi-pad-mini.webp",
+    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-mini/specs/",
+    "assetUrl": "https://i02.appmifile.com/574_operator_sg/02/09/2025/d0f5906acb1f164a44372ce27d8ba548.jpg",
+    "scope": "Exact model"
+  },
+  "poco-pad-m1": {
+    "path": "/catalog-images/poco-pad-m1.webp",
+    "sourcePage": "https://www.mi.com/ph/product/poco-pad-m1/specs/",
+    "assetUrl": "https://i02.appmifile.com/119_operator_sg/11/11/2025/2df07e6f9167e9dc618159f2d3b0d529.png",
+    "scope": "Exact model"
+  },
+  "poco-pad-x1": {
+    "path": "/catalog-images/poco-pad-x1.webp",
+    "sourcePage": "https://www.mi.com/ph/product/poco-pad-x1/specs/",
+    "assetUrl": "https://i02.appmifile.com/422_operator_sg/21/11/2025/e34c93f69a635eb733e657def3a55ab7.jpg",
+    "scope": "Exact model"
+  },
+  "redmi-pad-se-87-4g": {
+    "path": "/catalog-images/redmi-pad-se-87-4g.webp",
+    "sourcePage": "https://www.mi.com/ph/product/redmi-pad-se-8-7-inch-4g/specs/",
+    "assetUrl": "https://i02.appmifile.com/996_operator_sg/12/07/2024/acec6fc54aca76e084e2a27bca7ed053.png",
+    "scope": "Exact model"
+  },
+  "redmi-pad-2-pro": {
+    "path": "/catalog-images/redmi-pad-2-pro.webp",
+    "sourcePage": "https://www.mi.com/ph/product/redmi-pad-2-pro/specs/",
+    "assetUrl": "https://i02.appmifile.com/788_operator_sg/04/09/2025/e4cee5114cb66379c6b26a9419dffa75.png",
+    "scope": "Exact model"
+  },
+  "samsung-galaxy-a56-5g": {
+    "path": "/catalog-images/samsung-galaxy-a56-5g.webp",
+    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a56-5g-awesome-graphite-128gb-sm-a566bzksphl/",
+    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-a566bzksphl/gallery/ph-galaxy-a56-5g-sm-a566-sm-a566bzksphl-thumb-545321110",
+    "scope": "Exact model"
+  },
+  "samsung-tab-s10-fe": {
+    "path": "/catalog-images/samsung-tab-s10-fe.webp",
+    "sourcePage": "https://www.samsungebiz.com/event/galaxycampus/tablets/galaxy-tab-s10fe-wifi-x520/SM-X520NZAAKOO",
+    "assetUrl": "https://images.samsung.com/kdp/goods/2025/07/03/4b69e758-c578-46b7-a3f6-70a38dfe0051.jpg",
+    "scope": "Exact model, available Philippine color"
+  },
+  "acer-swift-go-sfg14-75": {
+    "path": "/catalog-images/acer-swift-go-sfg14-75.webp",
+    "sourcePage": "https://www.gigahertz.com.ph/products/acer-swift-go-sfg14-75-55mb-14-wuxga-intel-core-ultra-5-processor-16gb-ram-512gb-ssd-intel%C2%AE-arc%E2%84%A2-graphics-130v-win11",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-swift-go-sfg14-75-55mb-14-wuxga-intel-core-ultra-5-processor-16gb-ram-512gb-ssd-intel-arc-graphics-130v-win11-gigahertz-gigahertz-9079915.jpg?v=1790231053",
+    "scope": "Exact model"
+  },
+  "acer-swift-go-sfg14-01": {
+    "path": "/catalog-images/acer-swift-go-sfg14-01.webp",
+    "sourcePage": "https://www.gigahertz.com.ph/products/acer-swift-go-14-sfg14-01-x2px-opi-14-5-16gb-ram-1tb-ssd-win-11",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-swift-go-sfg14-01-x2px-steel-gray-145inch-wuxga-qualcomm-snapdragon-x-plus-qualcomm-adreno-16gb-ram-1tb-ssd-win-11-gigahertz-gigahertz-8558669.png?v=1790231116",
+    "scope": "Exact model"
+  },
+  "acer-swift-sf14-51": {
+    "path": "/catalog-images/acer-swift-sf14-51.webp",
+    "sourcePage": "https://ecommerce.datablitz.com.ph/products/acer-swift-14-ai-sf14-51-553d-laptop-frost-blue-14-wqxga-2880x1800-oled-ultra-5-228v-32gb-ram-1tb-ssd-intel-arc-graphics-windows-11-home-ms-office-home-2024-ms-365-basic-acer-entry-run-rate-backpack-e-1620-p",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ags45s4d5gs4adg.jpg?v=1777596106",
+    "scope": "Exact model"
+  },
+  "acer-aspire-lite-al15-33p": {
+    "path": "/catalog-images/acer-aspire-lite-al15-33p.webp",
+    "sourcePage": "https://ee.co.uk/products/acer-aspire-lite-al15-33p",
+    "assetUrl": "https://dam.ee.co.uk/image/786263124743/image_ar4ivevds16tb5e2uf5olaeb17/-S1568x1568-FWEBP",
+    "scope": "Model family"
+  },
+  "acer-aspire-go-ag15-43p": {
+    "path": "/catalog-images/acer-aspire-go-ag15-43p.webp",
+    "sourcePage": "https://ecommerce.datablitz.com.ph/products/acer-aspire-go-15-ag15-43p-r19x-laptop-pure-silver-15-6-fhd-1920x1080-ips-ryzen-5-7640hs-16gb-ram-512gb-ssd-amd-radeon-680m-graphics-windows-11-home-ms-office-home-2024-acer-bpkm6-b12-backpack",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/tnsryndtyh.jpg?v=1777003933",
+    "scope": "Exact model"
+  },
+  "acer-aspire-lite-al14-42p": {
+    "path": "/catalog-images/acer-aspire-lite-al14-42p.webp",
+    "sourcePage": "https://www.octagon.com.ph/products/acer-aspire-lite-al14-42p-r1lf-ryzen-3-5300u-8gb-512gb-ssd-14-wuxga-ips-office-h-s-2024-m365-win-11-natural-titanium",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/5_c7a2518e-babc-4181-aec7-55546378a543.jpg?v=1768272402",
+    "scope": "Exact model"
+  },
+  "acer-predator-phn16-73": {
+    "path": "/catalog-images/acer-predator-phn16-73.webp",
+    "sourcePage": "https://www.gigahertz.com.ph/products/acer-predator-helios-neo-16-phn16-73-93y5-16in-wqxga-240hz-core-ultra-9-275hx-32gb-ram-1tb-ssd-rtx-5070ti-12gb-140w",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-predator-helios-neo-16-phn16-73-93y5-16in-wqxga-240hz-core-ultra-9-275hx-32gb-ram-1tb-ssd-rtx-5070ti-12gb-140w-gigahertz-gigahertz-5753367.webp?v=1790231058",
+    "scope": "Exact model"
+  },
+  "acer-swift-air-sfa14": {
+    "path": "/catalog-images/acer-swift-air-sfa14.webp",
+    "sourcePage": "https://news.acer.com/acer-launches-new-swift-air-14-powered-by-latest-intel-core-series-3-processors",
+    "assetUrl": "https://cdn.assets.prezly.com/34850561-cd26-4e01-8e83-ef24bccd7fb5/-/preview/1000x1000/-/resize/800/Acer-Swift-Air-14-SFA14-I31-Family-01.jpg",
+    "scope": "Exact model family, pictured colors may vary"
+  },
+  "acer-predator-phn16s-71": {
+    "path": "/catalog-images/acer-predator-phn16s-71.webp",
+    "sourcePage": "https://www.gigahertz.com.ph/products/lap-acer-phn16s-71-9269-16-wqxga-intel-core-ultra-9-275hx-geforce-rtx-5070-32gb-ram-1tb-ssd-win-11",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-helios-neo-slim-16-phn16s-71-9269-16-wqxga-intel-core-ultra-9-275hx-geforce-rtx-5070-32gb-ram-1tb-ssd-win-11-acer-gigahertz-6965689.webp?v=1790231170",
+    "scope": "Exact model"
+  },
+  "acer-predator-phn16-72": {
+    "path": "/catalog-images/acer-predator-phn16-72.webp",
+    "sourcePage": "https://www.gigahertz.com.ph/products/acer-predator-helios-neo-16-phn16-72-99k9-gaming-laptop",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-predator-helios-neo-16-phn16-72-99k9-gaming-laptop-acer-laptop-gigahertz-986745.webp?v=1721024071",
+    "scope": "Exact model"
+  }
+}

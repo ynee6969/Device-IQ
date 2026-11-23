@@ -1,15 +1,19 @@
 import Link from "next/link";
-import { catalogRows } from "@/lib/catalog/data";
+import { catalogDevices, catalogRows } from "@/lib/catalog/data";
+import { CatalogProductImage } from "@/components/catalog/CatalogProductImage";
 import styles from "@/components/catalog/catalog.module.css";
 
 const categories = [
-  { slug: "smartphones", title: "Smartphones", copy: "Explore chipset, memory, cameras and battery." },
-  { slug: "tablets", title: "Tablets", copy: "Explore display, chipset, battery, cameras and connectivity." },
-  { slug: "laptops", title: "Laptops", copy: "Explore exact configurations, processors, memory and prices." }
+  { slug: "smartphones", title: "Smartphones", copy: "Chipset, camera, memory and battery", featuredId: "xiaomi-15-ultra" },
+  { slug: "tablets", title: "Tablets", copy: "Display, performance and portability", featuredId: "xiaomi-pad-7" },
+  { slug: "laptops", title: "Laptops", copy: "Processors, graphics and configurations", featuredId: "acer-swift-go-sfg14-75" }
 ] as const;
 
 export default function BrowsePage() {
   return <section className={`page-shell section ${styles.browser}`}><header className={styles.heading}><div><span className={styles.eyebrow}>Catalog</span><h1>Choose a device category</h1><p>Each category has its own filters and results.</p></div></header>
-    <div className={styles.categories}>{categories.map((category) => <Link className={styles.categoryCard} href={`/browse/${category.slug}`} key={category.slug}><strong>{category.title}</strong><span>{category.copy}</span><span>{catalogRows(category.slug).length} recorded configurations</span></Link>)}</div>
+    <div className={styles.categories}>{categories.map((category) => {
+      const featured = catalogDevices.find((device) => device.id === category.featuredId);
+      return <Link className={styles.categoryCard} href={`/browse/${category.slug}`} key={category.slug}>{featured && <CatalogProductImage device={featured} sizes="(max-width: 650px) 90vw, 30vw" />}<div className={styles.categoryCardBody}><span>{catalogRows(category.slug).length} models</span><strong>{category.title}</strong><p>{category.copy}</p><b>Browse {category.title.toLowerCase()} <span aria-hidden="true">→</span></b></div></Link>;
+    })}</div>
   </section>;
 }

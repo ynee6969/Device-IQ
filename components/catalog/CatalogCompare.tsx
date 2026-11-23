@@ -8,9 +8,9 @@ import styles from "./catalog.module.css";
 
 const fields: [SpecKey, string][] = [["laptopType", "Type"], ["os", "Operating system"], ["chipset", "Chipset"], ["cpu", "CPU"], ["gpu", "GPU"], ["ramGb", "RAM (GB)"], ["storageGb", "Storage (GB)"], ["displayInches", "Display (in)"], ["displayType", "Display type"], ["resolution", "Resolution"], ["refreshHz", "Refresh rate (Hz)"], ["rearCameraMp", "Rear camera (MP)"], ["frontCameraMp", "Front camera (MP)"], ["batteryMah", "Battery (mAh)"], ["batteryWh", "Battery (Wh)"], ["weightG", "Weight (g)"], ["wifi", "Wi-Fi"]];
 
-export function CatalogCompare() {
-  const [category, setCategory] = useState<DeviceCategory>("tablets");
-  const [left, setLeft] = useState("");
+export function CatalogCompare({ initialCategory = "tablets", initialFirst = "" }: { initialCategory?: DeviceCategory; initialFirst?: string }) {
+  const [category, setCategory] = useState<DeviceCategory>(initialCategory);
+  const [left, setLeft] = useState(initialFirst);
   const [right, setRight] = useState("");
   const rows = catalogRows(category);
   const leftRow = rows.find((row) => row.variant.id === left);
