@@ -1,7 +1,7 @@
 export const site = {
   name: "DeviceIQ",
   shortName: "DeviceIQ",
-  tagline: "Find the right phone faster.",
-  description: "Compare phones by price, camera, battery, and performance without bouncing between tabs.",
+  tagline: "Explore devices with clear filters.",
+  description: "Browse sourced smartphones, tablets, and laptops by category, specifications, and price.",
   email: "hello@deviceiq.app"
 } as const;

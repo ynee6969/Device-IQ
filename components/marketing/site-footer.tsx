@@ -19,7 +19,7 @@ export function SiteFooter() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div>
-          <BrandLockup subtitle="Browse, compare, and save phones." />
+          <BrandLockup subtitle="Browse, compare, and save devices." />
         </div>
         <p className={styles.note}>
           <Link href="/about">Method and sources</Link> · <Link href="/services">Tools</Link> · <Link href="/contact">Contact</Link>

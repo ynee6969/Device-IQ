@@ -8,7 +8,7 @@
  *
  * Why this matters:
  * Instead of crashing the page, the app explains what is missing and gives the user
- * a safe way back to the public dashboard.
+ * a way back to the public catalog.
  */
 import Link from "next/link";
 
@@ -25,11 +25,11 @@ export function AuthConfigNotice() {
           {authConfigurationMessage}
         </p>
         <p className="muted" style={{ marginBottom: 0 }}>
-          Add the required secret in Vercel and redeploy before using the login and sign-up forms.
+          Account access will be available after the site administrator configures authentication.
         </p>
         <div className="button-row" style={{ marginTop: 20 }}>
-          <Link href="/dashboard" className="button-secondary">
-            Back to dashboard
+          <Link href="/browse" className="button-secondary">
+            Browse devices
           </Link>
         </div>
       </div>

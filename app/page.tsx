@@ -1,26 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
-import { HeroSection } from "@/components/marketing/hero-section";
-import { curatedGallery } from "@/lib/data/seed-phones";
-import { getLocalPhoneImageUrl } from "@/lib/services/phone-images";
-import { formatPhp, slugify } from "@/lib/utils/format";
-import { getPhoneDisplayName } from "@/lib/utils/phone-presentation";
-import styles from "./page.module.css";
+import styles from "@/components/catalog/catalog.module.css";
 
 export default function HomePage() {
-  return <div className={`page-shell section ${styles.home}`}>
-    <HeroSection />
-    <section aria-labelledby="examples"><div className={styles.heading}>
-      <div><h2 id="examples">From the smartphone catalog</h2><p className="muted">Illustrative prices and specifications</p></div>
-      <Link href="/dashboard">Browse all phones</Link></div>
-      <div className={styles.grid}>{curatedGallery.slice(0, 3).map(phone => {
-        const slug = slugify(phone.brand + "-" + phone.model);
-        const image = getLocalPhoneImageUrl(slug);
-        return <Link href={`/phones/${slug}`} key={slug} className={`glass-panel ${styles.phone}`}>
-          {image && <Image alt="" src={image} width={110} height={134} />}
-          <div><h3>{getPhoneDisplayName(phone.brand, phone.model)}</h3>
-          <p>{formatPhp(phone.price)} · {phone.battery.toLocaleString("en-PH")} mAh</p></div></Link>;
-      })}</div>
-    </section>
+  return <div className="page-shell section"><header className={styles.heading}><div><span className={styles.eyebrow}>DeviceIQ</span><h1>Find the details that matter.</h1><p>Browse smartphones, tablets and laptops in separate catalogs. Apply clear filters, inspect configurations and check the sources behind each record.</p><div className="button-row" style={{ marginTop: "1.5rem" }}><Link className="button" href="/browse">Browse devices</Link><Link className="button-secondary" href="/compare">Compare configurations</Link></div></div></header>
+    <div className={styles.categories}><Link className={styles.categoryCard} href="/browse/smartphones"><strong>Smartphones</strong><span>10 sourced configurations</span></Link><Link className={styles.categoryCard} href="/browse/tablets"><strong>Tablets</strong><span>10 sourced configurations</span></Link><Link className={styles.categoryCard} href="/browse/laptops"><strong>Laptops</strong><span>10 sourced configurations</span></Link></div>
   </div>;
 }

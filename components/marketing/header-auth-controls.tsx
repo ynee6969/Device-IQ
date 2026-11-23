@@ -10,22 +10,20 @@
  *
  * Responsibilities:
  * - Show login/signup for guests.
- * - Show favorites count and sign-out for authenticated users.
+ * - Show account actions for authenticated users.
  * - Collapse those actions into a centered mobile sheet on small screens.
  */
 import Link from "next/link";
-import { Heart, LoaderCircle, LogIn, LogOut, Menu, UserPlus, X } from "lucide-react";
+import { LoaderCircle, LogIn, LogOut, Menu, UserPlus, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { signOut, useSession } from "next-auth/react";
 
-import { useFavorites } from "@/components/providers/favorites-provider";
 import styles from "./HeaderAuthControls.module.css";
 
 export function HeaderAuthControls() {
   const pathname = usePathname();
   const { data: session, status } = useSession();
-  const { favoritesCount, favoritesReady } = useFavorites();
   /* Local state controls the mobile action sheet. */
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -34,10 +32,6 @@ export function HeaderAuthControls() {
   useEffect(() => {
     setMobileOpen(false);
   }, [pathname, status]);
-
-  /* Only show the favorites badge when the user is signed in and the favorites list
-     has finished loading for that exact account. */
-  const mobileCount = status === "authenticated" && favoritesReady ? favoritesCount : null;
 
   function closeMobileSheet() {
     setMobileOpen(false);
@@ -59,11 +53,6 @@ export function HeaderAuthControls() {
           </span>
         ) : status === "authenticated" ? (
           <div className="header-auth-group">
-            <Link href="/favorites" className="button-secondary header-auth-button">
-              <Heart size={16} />
-              <span>Favorites</span>
-              {favoritesReady ? <span className="header-auth-count">{favoritesCount}</span> : null}
-            </Link>
             <button
               type="button"
               className="button-ghost header-auth-button"
@@ -94,7 +83,6 @@ export function HeaderAuthControls() {
           aria-label="Open account actions"
         >
           {status === "loading" ? <LoaderCircle size={17} className="spin" /> : <Menu size={18} />}
-          {mobileCount ? <span className="header-mobile-count">{mobileCount}</span> : null}
         </button>
       </div>
 
@@ -118,7 +106,7 @@ export function HeaderAuthControls() {
                 <p className="muted">
                   {status === "authenticated"
                     ? `Signed in as ${session?.user?.name ?? session?.user?.email ?? "your account"}.`
-                    : "Sign in only when you want saved phones and account-level history."}
+                    : "Browse without an account, or sign in to manage your account."}
                 </p>
               </div>
 
@@ -130,11 +118,6 @@ export function HeaderAuthControls() {
             {/* Authenticated and guest actions share the same layout shell for consistency. */}
             {status === "authenticated" ? (
               <div className="header-account-actions">
-                <Link href="/favorites" className="button-secondary header-account-link" onClick={closeMobileSheet}>
-                  <Heart size={16} />
-                  <span>Favorites</span>
-                  {favoritesReady ? <span className="header-auth-count">{favoritesCount}</span> : null}
-                </Link>
                 <button type="button" className="button-ghost header-account-link" onClick={() => void handleSignOut()}>
                   <LogOut size={16} />
                   <span>Sign out</span>

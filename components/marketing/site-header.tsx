@@ -23,9 +23,9 @@ import { HeaderAuthControls } from "@/components/marketing/header-auth-controls"
 import styles from "./SiteHeader.module.css";
 
 const links = [
-  { href: "/dashboard", label: "Browse" },
-  { href: "/recommend", label: "Rank phones" },
+  { href: "/browse", label: "Browse" },
   { href: "/compare", label: "Compare" },
+  { href: "/favorites", label: "Saved" },
   { href: "/about", label: "Method and sources" }
 ] satisfies Array<{ href: Route; label: string }>;
 

@@ -14,7 +14,7 @@
  * - Provides multiple action buttons:
  *   • Try again: Resets error and retries the route
  *   • Go home: Returns to homepage
- *   • Open dashboard: Navigates to a known working page
+ *   • Browse devices: Opens the catalog
  * 
  * User Experience: Instead of showing a blank page or console errors,
  * users see a clear message and recovery options.
@@ -59,8 +59,8 @@ export default function GlobalRouteError({
             <Link href="/" className="button-secondary">
               Go home
             </Link>
-            <Link href="/dashboard" className="button-ghost">
-              Open dashboard
+            <Link href="/browse" className="button-ghost">
+              Browse devices
             </Link>
           </div>
         </div>

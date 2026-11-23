@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:recommendation": "tsx scripts/test-recommendation.ts",
+    "test:catalog": "tsx scripts/test-catalog.ts",
     "postinstall": "node scripts/generate-prisma-client.mjs",
     "prisma:generate": "prisma generate",
     "prisma:migrate:dev": "prisma migrate dev",

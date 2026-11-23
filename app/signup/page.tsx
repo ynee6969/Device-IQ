@@ -38,7 +38,7 @@ export default async function SignupPage({
   searchParams: Promise<{ callbackUrl?: string }>;
 }) {
   const params = await searchParams;
-  const callbackUrl = params.callbackUrl || "/dashboard";
+  const callbackUrl = params.callbackUrl || "/browse";
 
   if (!hasConfiguredAuthSecret()) {
     return (

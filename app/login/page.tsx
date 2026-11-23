@@ -37,7 +37,7 @@ export default async function LoginPage({
   searchParams: Promise<{ callbackUrl?: string }>;
 }) {
   const params = await searchParams;
-  const callbackUrl = params.callbackUrl || "/dashboard";
+  const callbackUrl = params.callbackUrl || "/browse";
 
   if (!hasConfiguredAuthSecret()) {
     return (

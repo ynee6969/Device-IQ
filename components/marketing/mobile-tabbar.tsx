@@ -15,16 +15,14 @@
 import type { Route } from "next";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { GitCompareArrows, Heart, House, LayoutDashboard, SlidersHorizontal } from "lucide-react";
+import { GitCompareArrows, Heart, House, LayoutDashboard } from "lucide-react";
 
-import { InstantNavLink } from "@/components/navigation/instant-nav-link";
 import styles from "./MobileTabBar.module.css";
 
 const tabs = [
   { href: "/", label: "Home", icon: House },
-  { href: "/recommend", label: "Rank", icon: SlidersHorizontal },
+  { href: "/browse", label: "Browse", icon: LayoutDashboard },
   { href: "/compare", label: "Compare", icon: GitCompareArrows },
-  { href: "/dashboard", label: "Browse", icon: LayoutDashboard },
   { href: "/favorites", label: "Saved", icon: Heart }
 ] satisfies Array<{ href: Route; label: string; icon: typeof House }>;
 
@@ -47,24 +45,6 @@ export function MobileTabBar() {
         const Icon = tab.icon;
         const active = isActivePath(pathname, tab.href);
 
-        /* Dashboard uses the instant navigation wrapper because that route is the
-           most data-heavy and benefits from prefetch + loading feedback. */
-        if (tab.href === "/dashboard") {
-          return (
-            <InstantNavLink
-              key={tab.href}
-              href={tab.href}
-              className={`mobile-tablink ${active ? "is-active" : ""}`.trim()}
-              loadingLabel="Opening dashboard..."
-              prefetchOnMount
-            >
-              <Icon size={16} />
-              <span>{tab.label}</span>
-            </InstantNavLink>
-          );
-        }
-
-        /* All other tabs can use a normal Link because they are much lighter routes. */
         return (
           <Link key={tab.href} href={tab.href} className={`mobile-tablink ${active ? "is-active" : ""}`.trim()}>
             <Icon size={16} />
