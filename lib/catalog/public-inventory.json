@@ -1,0 +1,1368 @@
+[
+  {
+    "id": "device_18a6b6ab548a94",
+    "category": "laptops",
+    "brand": "ASUS",
+    "model": "Zenbook 14 (UM3406GA)",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2026-03-03",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-03-05",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "ASUS Philippines dates the local announcement 3 March 2026 and says both named laptops were available in ASUS Stores nationwide by publication on 5 March. The initial retail sale date is not given.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "ASUS Philippines",
+        "url": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-03-05",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "config_2b0cd196931eaf",
+        "label": "UM3406GA-QD123WSM",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "OLED",
+          "cpu": "AMD Ryzen AI 7 445",
+          "ramGb": 16,
+          "storageGb": 1024,
+          "resolution": "WUXGA OLED 16:10",
+          "os": "Windows 11 Home"
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "displayType": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "cpu": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "ramGb": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "storageGb": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "resolution": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "os": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/"
+        },
+        "pricePhp": 79995.0,
+        "priceCondition": "new",
+        "priceObservedAt": "2026-03-05",
+        "priceSourceUrl": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_a07417c32a861d",
+    "category": "laptops",
+    "brand": "ASUS",
+    "model": "Zenbook 14 (UX3480)",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2026-10-07",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-10-07",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "ASUS Philippines states that Zenbook 14 UX3480 Intel, AMD, and Snapdragon configurations became available locally starting 7 October 2026; a later Snapdragon color marked coming soon is excluded from configurations.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "ASUS Philippines",
+        "url": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-10-07",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "config_2104cbd53025ef",
+        "label": "UX3480AA-U2489WSM",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "OLED touchscreen",
+          "cpu": "Intel Core Ultra 9 386H",
+          "ramGb": 24,
+          "storageGb": 512,
+          "resolution": "WUXGA OLED 16:10"
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "displayType": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "cpu": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "ramGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "storageGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "resolution": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/"
+        },
+        "pricePhp": 129995.0,
+        "priceCondition": "new",
+        "priceObservedAt": "2026-10-07",
+        "priceSourceUrl": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      },
+      {
+        "id": "config_18ad6d3f8d0f8e",
+        "label": "UX3480AA-U2477WSM",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "OLED touchscreen",
+          "cpu": "Intel Core Ultra 7 355",
+          "ramGb": 16,
+          "storageGb": 512,
+          "resolution": "WUXGA OLED 16:10"
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "displayType": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "cpu": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "ramGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "storageGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "resolution": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/"
+        },
+        "pricePhp": 106995.0,
+        "priceCondition": "new",
+        "priceObservedAt": "2026-10-07",
+        "priceSourceUrl": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      },
+      {
+        "id": "config_f66f082a33d7c7",
+        "label": "UX3480KA-U1137WSM",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "OLED",
+          "cpu": "AMD Ryzen AI 7 345",
+          "ramGb": 16,
+          "storageGb": 512,
+          "resolution": "WUXGA OLED 16:10"
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "displayType": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "cpu": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "ramGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "storageGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "resolution": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/"
+        },
+        "pricePhp": 94995.0,
+        "priceCondition": "new",
+        "priceObservedAt": "2026-10-07",
+        "priceSourceUrl": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      },
+      {
+        "id": "config_4cc45014b7ad2d",
+        "label": "UX3480KA-U1135WSM",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "OLED",
+          "cpu": "AMD Ryzen AI 5 330",
+          "ramGb": 16,
+          "storageGb": 512,
+          "resolution": "WUXGA OLED 16:10"
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "displayType": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "cpu": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "ramGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "storageGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "resolution": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/"
+        },
+        "pricePhp": 86995.0,
+        "priceCondition": "new",
+        "priceObservedAt": "2026-10-07",
+        "priceSourceUrl": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      },
+      {
+        "id": "config_5104406ef8b646",
+        "label": "UX3480QA-U1004WSM",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "OLED",
+          "cpu": "Snapdragon X X1 26 100",
+          "ramGb": 16,
+          "storageGb": 512,
+          "resolution": "WUXGA OLED 16:10"
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "displayType": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "cpu": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "ramGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "storageGb": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+          "resolution": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/"
+        },
+        "pricePhp": 76995.0,
+        "priceCondition": "new",
+        "priceObservedAt": "2026-10-07",
+        "priceSourceUrl": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_fc5e931cb8adc4",
+    "category": "laptops",
+    "brand": "ASUS",
+    "model": "Zenbook DUO (UX8407)",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2026-03-25",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-03-25",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "ASUS Philippines announces local availability and pricing of the Zenbook DUO UX8407 and Zenbook S14 UX5406 on 25 March 2026. The Zenbook A16 in the same announcement was coming soon and is not verified as available.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "ASUS Philippines",
+        "url": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-03-25",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_fc5e931cb8adc4-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "Dual OLED touchscreen",
+          "refreshHz": 144
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/",
+          "displayType": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/",
+          "refreshHz": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_686411caae8d78",
+    "category": "laptops",
+    "brand": "ASUS",
+    "model": "Zenbook S14 (UX5406)",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2026-03-25",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-03-25",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "ASUS Philippines announces local availability and pricing of the Zenbook DUO UX8407 and Zenbook S14 UX5406 on 25 March 2026. The Zenbook A16 in the same announcement was coming soon and is not verified as available.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "ASUS Philippines",
+        "url": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-03-25",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_686411caae8d78-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 14,
+          "displayType": "OLED touchscreen",
+          "refreshHz": 120
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/",
+          "displayType": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/",
+          "refreshHz": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_a3b6d7e737c365",
+    "category": "laptops",
+    "brand": "ASUS",
+    "model": "Zenbook S16 (UM5606GA)",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2026-03-03",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-03-05",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "ASUS Philippines dates the local announcement 3 March 2026 and says both named laptops were available in ASUS Stores nationwide by publication on 5 March. The initial retail sale date is not given.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "ASUS Philippines",
+        "url": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-03-05",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "config_166ca092fbd09a",
+        "label": "UM5606GA-SR368WSM",
+        "specs": {
+          "displayInches": 16,
+          "displayType": "OLED",
+          "cpu": "AMD Ryzen AI 9 465",
+          "ramGb": 32,
+          "storageGb": 1024,
+          "resolution": "3K OLED 16:10",
+          "gpu": "AMD Radeon Graphics",
+          "os": "Windows 11 Home"
+        },
+        "specSources": {
+          "displayInches": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "displayType": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "cpu": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "ramGb": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "storageGb": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "resolution": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "gpu": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+          "os": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/"
+        },
+        "pricePhp": 134995.0,
+        "priceCondition": "new",
+        "priceObservedAt": "2026-03-05",
+        "priceSourceUrl": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_408426b533b92e",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S21 5G",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2021,
+    "localEvidenceObservedAt": "2021-04-16",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineAvailability": "Samsung Philippines listed these three models as available through its store and authorized channels by 16 April 2021. The first local sale date was not stated.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2021-04-16",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "config_07943b6753bcc7",
+        "label": "256 GB storage; RAM not verified",
+        "specs": {
+          "batteryMah": 4000,
+          "storageGb": 256
+        },
+        "specSources": {
+          "batteryMah": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g",
+          "storageGb": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_7327b88b5fe9d6",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S21 Ultra 5G",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2021,
+    "localEvidenceObservedAt": "2021-04-16",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineAvailability": "Samsung Philippines listed these three models as available through its store and authorized channels by 16 April 2021. The first local sale date was not stated.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2021-04-16",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "config_aec7e905ce4e48",
+        "label": "256 GB storage; RAM not verified",
+        "specs": {
+          "batteryMah": 5000,
+          "storageGb": 256
+        },
+        "specSources": {
+          "batteryMah": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g",
+          "storageGb": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_2abcf9948e9239",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S21+ 5G",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2021,
+    "localEvidenceObservedAt": "2021-04-16",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineAvailability": "Samsung Philippines listed these three models as available through its store and authorized channels by 16 April 2021. The first local sale date was not stated.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2021-04-16",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "config_13d4c1daf696b2",
+        "label": "256 GB storage; RAM not verified",
+        "specs": {
+          "batteryMah": 4800,
+          "storageGb": 256
+        },
+        "specSources": {
+          "batteryMah": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g",
+          "storageGb": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Only source-backed fields recorded; other variants may exist."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_043c45f5f5aaea",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2023-02-14",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-03-01",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung reports a Philippine launch event on 14 February 2023 for the three S23 models; preorders were still open.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/experience-and-share-the-epic-samsung-debuts-the-new-galaxy-s23-series-locally-with-an-epic-launch-party",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-03-01",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_043c45f5f5aaea-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "chipset": "Snapdragon 8 Gen 2 for Galaxy"
+        },
+        "specSources": {
+          "chipset": "https://news.samsung.com/ph/experience-and-share-the-epic-samsung-debuts-the-new-galaxy-s23-series-locally-with-an-epic-launch-party"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_df7fc1f337d112",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S23 FE",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2023-10-20",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-10-11",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the Galaxy S23 FE and Galaxy Tab S9 FE series would become available locally on 20 October 2023.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-10-11",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_df7fc1f337d112-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_2fdccd7c04cdf9",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2023-02-14",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-03-01",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung reports a Philippine launch event on 14 February 2023 for the three S23 models; preorders were still open.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/experience-and-share-the-epic-samsung-debuts-the-new-galaxy-s23-series-locally-with-an-epic-launch-party",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-03-01",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_2fdccd7c04cdf9-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "chipset": "Snapdragon 8 Gen 2 for Galaxy"
+        },
+        "specSources": {
+          "chipset": "https://news.samsung.com/ph/experience-and-share-the-epic-samsung-debuts-the-new-galaxy-s23-series-locally-with-an-epic-launch-party"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_9b51cd23075357",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S23+",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2023-02-14",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-03-01",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung reports a Philippine launch event on 14 February 2023 for the three S23 models; preorders were still open.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/experience-and-share-the-epic-samsung-debuts-the-new-galaxy-s23-series-locally-with-an-epic-launch-party",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-03-01",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_9b51cd23075357-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "chipset": "Snapdragon 8 Gen 2 for Galaxy"
+        },
+        "specSources": {
+          "chipset": "https://news.samsung.com/ph/experience-and-share-the-epic-samsung-debuts-the-new-galaxy-s23-series-locally-with-an-epic-launch-party"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_f1fa8c58ea3104",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S24",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2024-01-29",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2024,
+    "localEvidenceObservedAt": "2024-01-29",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines reports a Philippine launch event and lists local purchase channels for the S24 series on 29 January 2024.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsungs-galaxy-s24-series-takes-the-stage-at-the-galaxy-ai-festival-for-its-ph-launch",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2024-01-29",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_f1fa8c58ea3104-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_32624044543da4",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2024-01-29",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2024,
+    "localEvidenceObservedAt": "2024-01-29",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines reports a Philippine launch event and lists local purchase channels for the S24 series on 29 January 2024.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsungs-galaxy-s24-series-takes-the-stage-at-the-galaxy-ai-festival-for-its-ph-launch",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2024-01-29",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_32624044543da4-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_af72f6e6d0b475",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S24+",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2024-01-29",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2024,
+    "localEvidenceObservedAt": "2024-01-29",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines reports a Philippine launch event and lists local purchase channels for the S24 series on 29 January 2024.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsungs-galaxy-s24-series-takes-the-stage-at-the-galaxy-ai-festival-for-its-ph-launch",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2024-01-29",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_af72f6e6d0b475-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_9d2bde71f611d2",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S26",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-03-23",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the three S26 models had officially launched locally by 23 March 2026; the first sale date is not specified.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/what-if-your-phone-just-knew-say-hello-to-the-samsung-galaxy-s26-series",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-03-23",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_9d2bde71f611d2-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_6c173ec56f86ac",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S26 FE",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-09-01",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineAvailability": "Samsung Philippines states the Galaxy S26 FE was available in Experience Stores by 1 September 2026; the exact first sale date is not stated.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/your-galaxy-s-moment-has-arrived-with-the-galaxy-s26-fe",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-09-01",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_6c173ec56f86ac-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_172f055ffd379c",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S26 Ultra",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-03-23",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the three S26 models had officially launched locally by 23 March 2026; the first sale date is not specified.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/what-if-your-phone-just-knew-say-hello-to-the-samsung-galaxy-s26-series",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-03-23",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_172f055ffd379c-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "chipset": "Snapdragon 8 Elite Gen 5"
+        },
+        "specSources": {
+          "chipset": "https://news.samsung.com/ph/what-if-your-phone-just-knew-say-hello-to-the-samsung-galaxy-s26-series"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_f7d2b14d45c9bb",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S26+",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-03-23",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the three S26 models had officially launched locally by 23 March 2026; the first sale date is not specified.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/what-if-your-phone-just-knew-say-hello-to-the-samsung-galaxy-s26-series",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-03-23",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_f7d2b14d45c9bb-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_c206565e222965",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S10 FE",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2025-05-15",
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2025,
+    "localEvidenceObservedAt": "2026-11-23",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung announced Philippine availability starting 15 May 2025.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Philippines",
+        "url": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2025-04-02",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "config_0879d9d92c6c34",
+        "label": "Wi-Fi / 8 GB / 128 GB",
+        "specs": {
+          "os": "Android 15",
+          "chipset": "Exynos 1580",
+          "ramGb": 8,
+          "storageGb": 128,
+          "displayInches": 10.9,
+          "displayType": "LCD",
+          "refreshHz": 90,
+          "rearCameraMp": 13,
+          "frontCameraMp": 12,
+          "batteryMah": 8000,
+          "chargingW": 45,
+          "weightG": 497,
+          "wifi": "Wi-Fi 6",
+          "stylus": "S Pen included",
+          "keyboard": "Book Cover Keyboard compatible",
+          "dimensions": "254.3 Ã— 165.8 Ã— 6.0 mm"
+        },
+        "specSources": {
+          "os": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "chipset": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "ramGb": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "storageGb": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "displayInches": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "displayType": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "refreshHz": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "rearCameraMp": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "frontCameraMp": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "batteryMah": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "chargingW": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "weightG": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "wifi": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "stylus": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "keyboard": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "dimensions": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Philippine price and lifecycle status have not been verified."
+      }
+    ],
+    "imageId": "samsung-tab-s10-fe"
+  },
+  {
+    "id": "device_8a813e7f0aaaae",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S10 FE+",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2025-05-15",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2025,
+    "localEvidenceObservedAt": "2025-04-02",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines specifies local availability beginning 15 May 2025 for the Tab S10 FE and FE+ configurations.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Philippines",
+        "url": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2025-04-02",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_8a813e7f0aaaae-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 13.1,
+          "displayType": "LCD",
+          "refreshHz": 90,
+          "chipset": "Exynos 1580"
+        },
+        "specSources": {
+          "displayInches": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "displayType": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "refreshHz": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "chipset": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_3c3b3adfeb221f",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S12 Ultra",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2026-10-21",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-09-30",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the Galaxy Tab S12 Ultra and S12+ would launch online locally on 21 October 2026 and in stores on 28 October.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-09-30",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_3c3b3adfeb221f-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 14.6,
+          "resolution": "2960 × 1848",
+          "refreshHz": 120,
+          "displayType": "Dynamic AMOLED 2X",
+          "chipset": "MediaTek Dimensity 9500",
+          "batteryMah": 11600,
+          "chargingW": 45
+        },
+        "specSources": {
+          "displayInches": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "resolution": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "refreshHz": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "displayType": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "chipset": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "batteryMah": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "chargingW": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_c1720f94c84582",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S12+",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2026-10-21",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2026,
+    "localEvidenceObservedAt": "2026-09-30",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the Galaxy Tab S12 Ultra and S12+ would launch online locally on 21 October 2026 and in stores on 28 October.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2026-09-30",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_c1720f94c84582-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 12.6,
+          "resolution": "2800 × 1752",
+          "refreshHz": 120,
+          "displayType": "Dynamic AMOLED 2X",
+          "chipset": "MediaTek Dimensity 9500",
+          "batteryMah": 10600,
+          "chargingW": 45
+        },
+        "specSources": {
+          "displayInches": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "resolution": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "refreshHz": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "displayType": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "chipset": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "batteryMah": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+          "chargingW": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_7867f6ebccc2fa",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S9",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-09-06",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineAvailability": "Samsung Philippines lists the Tab S9, S9+, and S9 Ultra as available in participating local stores and online channels by 6 September 2023.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-09-06",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_7867f6ebccc2fa-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 11,
+          "displayType": "Dynamic AMOLED 2X",
+          "refreshHz": 120
+        },
+        "specSources": {
+          "displayInches": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "displayType": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "refreshHz": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_33bf4ec88cc229",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S9 FE",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2023-10-20",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-10-11",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the Galaxy S23 FE and Galaxy Tab S9 FE series would become available locally on 20 October 2023.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-10-11",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_33bf4ec88cc229-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_ca40d8c136e83b",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S9 FE+",
+    "releaseDate": null,
+    "philippineAvailabilityDate": "2023-10-20",
+    "philippineDateLabel": "Philippine launch date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-10-11",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineAvailability": "Samsung Philippines states that the Galaxy S23 FE and Galaxy Tab S9 FE series would become available locally on 20 October 2023.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-10-11",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_ca40d8c136e83b-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {},
+        "specSources": {},
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_82e9616b879292",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S9 Ultra",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-09-06",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineAvailability": "Samsung Philippines lists the Tab S9, S9+, and S9 Ultra as available in participating local stores and online channels by 6 September 2023.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-09-06",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_82e9616b879292-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 14.6,
+          "displayType": "Dynamic AMOLED 2X",
+          "refreshHz": 120
+        },
+        "specSources": {
+          "displayInches": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "displayType": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "refreshHz": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  },
+  {
+    "id": "device_3bdcbc7b1b3d1b",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S9+",
+    "releaseDate": null,
+    "philippineAvailabilityDate": null,
+    "philippineDateLabel": "Philippine availability date",
+    "philippineReleaseYear": 2023,
+    "localEvidenceObservedAt": "2023-09-06",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineAvailability": "Samsung Philippines lists the Tab S9, S9+, and S9 Ultra as available in participating local stores and online channels by 6 September 2023.",
+    "discontinued": null,
+    "sources": [
+      {
+        "organization": "Samsung Newsroom Philippines",
+        "url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+        "observedAt": "2026-11-24",
+        "publishedAt": "2023-09-06",
+        "purpose": "Specifications and availability"
+      }
+    ],
+    "variants": [
+      {
+        "id": "device_3bdcbc7b1b3d1b-unrecorded",
+        "label": "Configuration not recorded",
+        "specs": {
+          "displayInches": 12.4,
+          "displayType": "Dynamic AMOLED 2X",
+          "refreshHz": 120
+        },
+        "specSources": {
+          "displayInches": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "displayType": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "refreshHz": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Configuration details have not been recorded."
+      }
+    ],
+    "imageId": null
+  }
+]

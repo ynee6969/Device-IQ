@@ -14,6 +14,7 @@ export interface CatalogSource {
   organization: string;
   url: string;
   observedAt: string;
+  publishedAt?: string | null;
   purpose: "Philippine availability" | "Specifications and availability" | "Specifications" | "Price";
   note?: string;
 }
@@ -22,6 +23,7 @@ export interface DeviceVariant {
   id: string;
   label: string;
   specs: DeviceSpecs;
+  specSources?: Partial<Record<SpecKey, string>>;
   pricePhp: number | null;
   priceCondition: "new" | "used" | null;
   priceObservedAt: string | null;
@@ -37,6 +39,11 @@ export interface CatalogDevice {
   model: string;
   releaseDate: string | null;
   philippineAvailabilityDate: string | null;
+  philippineDateLabel?: string;
+  philippineReleaseYear?: number | null;
+  localEvidenceObservedAt?: string | null;
+  verificationStatus?: string;
+  imageId?: string | null;
   philippineAvailability: string;
   discontinued: boolean | null;
   sources: CatalogSource[];

@@ -4,7 +4,7 @@ import { catalogImage } from "@/lib/catalog/images";
 import styles from "./catalog.module.css";
 
 export function CatalogProductImage({ device, sizes = "(max-width: 650px) 90vw, 420px", priority = false }: { device: CatalogDevice; sizes?: string; priority?: boolean }) {
-  const image = catalogImage(device.id);
+  const image = catalogImage(device.imageId ?? device.id);
   return <div className={styles.productImage}>
     {image ? <Image
       src={image.path}

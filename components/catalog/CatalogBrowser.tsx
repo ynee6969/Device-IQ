@@ -65,7 +65,7 @@ export function CatalogBrowser({ category, rows }: { category: DeviceCategory; r
 
   return <div className={`page-shell section ${styles.browser}`}>
     <nav className={styles.breadcrumb} aria-label="Breadcrumb"><Link href="/browse">Choose a category</Link><span>/</span><span>{categoryLabels[category]}</span></nav>
-    <header className={styles.heading}><div><span className={styles.eyebrow}>Browse</span><h1>{categoryLabels[category]}</h1><p>Explore models, narrow your options, and compare the details.</p></div><span className={styles.count}>{rows.length} {rows.length === 1 ? "model" : "models"}</span></header>
+    <header className={styles.heading}><div><span className={styles.eyebrow}>Browse</span><h1>{categoryLabels[category]}</h1><p>Official Philippine evidence within the study period. The research inventory is provisional; specifications and prices appear only where recorded.</p></div><span className={styles.count}>{new Set(rows.map((row) => row.device.id)).size} models</span></header>
     <button className={`button-secondary ${styles.mobileFiltersToggle}`} type="button" aria-expanded={filtersOpen} aria-controls="catalog-filters" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Hide filters" : `Show filters${activeCount ? ` (${activeCount})` : ""}`}</button>
     <div className={styles.layout}>
       <aside id="catalog-filters" className={`${styles.filters} ${filtersOpen ? styles.filtersOpen : ""}`} aria-label="Catalog filters">

@@ -213,7 +213,9 @@ def ensure_brand(db: sqlite3.Connection, raw: str) -> str:
 def ensure_source(db: sqlite3.Connection, title: str, publisher: str, url: str, source_type: str,
                   publication_date: str | None = None, note: str | None = None) -> str:
     source_id = stable_id("source", url)
-    db.execute("INSERT OR IGNORE INTO data_sources VALUES (?,?,?,?,?,?,?,?,?)",
+    db.execute("""INSERT INTO data_sources VALUES (?,?,?,?,?,?,?,?,?)
+        ON CONFLICT(source_id) DO UPDATE SET
+          publication_date=COALESCE(excluded.publication_date, data_sources.publication_date)""",
                (source_id, title, publisher, url, source_type, publication_date, AS_OF, "Official Philippine source", note))
     return source_id
 

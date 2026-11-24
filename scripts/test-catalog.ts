@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
-import { CATALOG_VERSION, catalogDevices, catalogRows } from "../lib/catalog/data";
+import { CATALOG_VERSION, catalogDevices, catalogRows } from "../lib/catalog/pilot";
+import { catalogDevices as publicDevices, catalogRows as publicRows } from "../lib/catalog/data";
 import { fieldOptions, filterDefinitions, filterRows, pageRows, sortRows, type FilterSelections } from "../lib/catalog/filtering";
 import type { CatalogRow, DeviceCategory } from "../lib/catalog/types";
 import packageJson from "../package.json";
@@ -61,6 +62,22 @@ const fixture: CatalogRow[] = Array.from({ length: 12 }, (_, index) => ({ device
 assert.equal(pageRows(fixture, 0).length, 10);
 assert.deepEqual(pageRows(fixture, 1).map(({ device }) => device.id), ["fixture-10", "fixture-11"]);
 console.log("First 10 and second page fixture: pass");
+passed++;
+
+assert.equal(publicDevices.length, 28);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
+  publicDevices.filter((device) => device.category === category).length), [14, 9, 5]);
+assert.ok(publicDevices.every((device) => device.sources.length && device.variants.length &&
+  device.sources.every((source) => source.url.startsWith("https://"))));
+assert.ok(publicDevices.every((device) => device.variants.every((variant) =>
+  variant.pricePhp === null || Boolean(variant.priceCondition && variant.priceSourceUrl && variant.priceObservedAt))));
+assert.ok(publicDevices.every((device) => device.variants.every((variant) =>
+  Object.keys(variant.specs).every((key) => variant.specSources?.[key as keyof typeof variant.specSources]))));
+assert.ok(publicDevices.some((device) => device.model === "Galaxy S21 5G"));
+assert.ok(!publicDevices.some((device) => device.model.startsWith("ProArt")));
+assert.equal(pageRows(sortRows(publicRows("smartphones"), "name_asc"), 0).length, 10);
+assert.equal(pageRows(sortRows(publicRows("smartphones"), "name_asc"), 1).length, 4);
+console.log("Public inventory eligibility, provenance, variants and real pagination: pass");
 passed++;
 
 console.log(`${passed} passed, 0 failed, 0 not assessed`);

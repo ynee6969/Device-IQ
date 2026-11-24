@@ -1,5 +1,13 @@
 # Catalog source coverage
 
+## Current public inventory
+
+The website now uses the 24 November 2026 research snapshot through `scripts/build_public_catalog.py`. It publishes **28 source-linked models and 32 configurations**: 14 smartphones, 9 tablets, and 5 laptops. These are not an exhaustive Philippine market census. Eligibility uses official Philippine launch or availability evidence inside the website's 1 January 2021 to 24 November 2026 observed period. The three Galaxy S21 models are eligible under that window even though they are outside the research workbook's narrower rolling window.
+
+The research database retains 396 pending model candidates, 29 otherwise source-linked models with unresolved local dates, seven explicit held-out cases, and three announced ProArt laptops with retail availability still unconfirmed by the cited source. They are not in public browse, filters, comparisons, or saved-item results. Missing prices and specifications remain unrecorded. Exact model-level sources, publication dates, configuration sources and observed PHP prices are preserved in the public snapshot and linked from the detail pages. The existing 30-record pilot described below is retained as research input and a regression fixture, not as the current public catalog.
+
+## Prior pilot record
+
 Checked 23 November 2026. The target is all qualifying models officially released or made available in the Philippines from 1 January 2021 through the planned 30 November 2026 cutoff. **Coverage is not complete.** The source pages below establish an official Philippine product page or store listing on the observation date. Except for the Samsung Galaxy Tab S10 FE, original local availability dates still need dated evidence. The model release dates and discontinued status also need review. Each page in the site links to its source.
 
 | Category | Verified starter configurations | Coverage state |
