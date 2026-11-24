@@ -426,6 +426,34 @@ def add_laptop_research_queue(db: sqlite3.Connection) -> None:
                         "High", "Open", "Discovery task, not a device record"))
 
 
+def add_explicit_holdouts(db: sqlite3.Connection) -> None:
+    """Preserve the supplied 2026 note's explicit non-inclusion cases."""
+    filename = "philippine_2026_research_notes.txt"
+    lines = (SOURCE_DIR / filename).read_text(encoding="utf-8-sig").splitlines()
+    holdouts = [
+        ("ASUS Pad", "ASUS", "tablets", "International announcement only; Philippine retail release unestablished"),
+        ("Acer Iconia Duo", "Acer", "tablets", "Unveiled internationally; Philippine release unconfirmed"),
+        ("vivo Pad6 Pro", "vivo", "tablets", "Philippine release unconfirmed"),
+        ("REDMAGIC 12 Pro+", "REDMAGIC", "smartphones", "China unveiling only; Philippine availability unannounced"),
+        ("Xiaomi 18 Pro series", "Xiaomi", "smartphones", "Local launch described as scheduled after the 2026-11-24 cutoff"),
+        ("Samsung Galaxy A18", "Samsung", "smartphones", "Local availability described as scheduled after the 2026-11-24 cutoff"),
+        ("OPPO Reno17 series", "OPPO", "smartphones", "China announcement only; Philippine release unconfirmed"),
+    ]
+    for name, brand, category, reason in holdouts:
+        line_no = next((i for i, line in enumerate(lines, 1) if line.strip() == name), None)
+        if line_no is None:
+            raise ValueError(f"Explicit holdout not found in original note: {name}")
+        claim_id = stable_id("claim", filename, line_no)
+        db.execute("INSERT OR IGNORE INTO excluded_records VALUES (?,?,?,?,?,?,?,?,?)",
+                   (stable_id("exclude", "note-holdout", name), claim_id, name, name, brand, category,
+                    f"Hold out: {reason}", f"Supplied 2026 research note, line {line_no}; direct local source still needed", AS_OF))
+        db.execute("INSERT OR IGNORE INTO research_queue VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                   (stable_id("queue", "note-holdout", name), claim_id, None, name, brand, category, 2026,
+                    "Direct official Philippine release or availability evidence", reason,
+                    "Reassess after the cutoff using a dated Philippine source; do not count in this snapshot",
+                    "High", "Open", "Explicitly held out in supplied 2026 note"))
+
+
 def add_missing_date_queue(db: sqlite3.Connection) -> None:
     rows = db.execute("""SELECT m.device_id, m.model_name, m.category_id, b.brand_name, r.philippine_release_year,
                              r.philippine_release_date, r.verification_status, r.inclusion_status
@@ -501,6 +529,8 @@ def report(db: sqlite3.Connection, errors: list[str]) -> None:
         "pending_models": q("SELECT COUNT(*) FROM philippines_market_releases WHERE verification_status='PENDING_VERIFICATION'"),
         "pending_date": q("SELECT COUNT(*) FROM philippines_market_releases WHERE inclusion_status='Pending date'"),
         "excluded": q("SELECT COUNT(*) FROM excluded_records"),
+        "held_out": q("SELECT COUNT(*) FROM excluded_records WHERE exclusion_reason LIKE 'Hold out:%'"),
+        "outside_window": q("SELECT COUNT(*) FROM excluded_records WHERE exclusion_reason NOT LIKE 'Hold out:%'"),
         "manufacturers": q("SELECT COUNT(*) FROM manufacturers"),
         "brands": q("SELECT COUNT(*) FROM brands"),
         "open_queue": q("SELECT COUNT(*) FROM research_queue WHERE current_status='Open'"),
@@ -528,7 +558,9 @@ Snapshot cutoff: {CUTOFF}. This is a provisional inventory, not an exhaustive Ph
 | Models included in provisional rolling window | {stats['included_models']} |
 | Pending model verification | {stats['pending_models']} |
 | Verified local presence but local date unresolved | {stats['pending_date']} |
-| Excluded historical records outside rolling window | {stats['excluded']} |
+| Excluded or held-out research records | {stats['excluded']} |
+| Of those: explicit 2026 holdouts | {stats['held_out']} |
+| Of those: outside rolling window | {stats['outside_window']} |
 | Manufacturers with a recorded corporate mapping | {stats['manufacturers']} |
 | Consumer-facing brand labels | {stats['brands']} |
 | Open research actions | {stats['open_queue']} |
@@ -542,7 +574,7 @@ Snapshot cutoff: {CUTOFF}. This is a provisional inventory, not an exhaustive Ph
 """ + "".join(f"| {category.title()} | {by_category.get(category, 0)} | {verified_by_category.get(category, 0)} |\n" for category in ["smartphones", "tablets", "laptops"]) + """
 ## Interpretation
 
-The supplied annual notes list brands and examples, not all individual releases. Candidate names parsed from those examples remain pending until a model-level Philippine source is linked. Series claims remain in the verification queue until their individual models are established. The 2026 note repeats much of the annual list; duplicates are retained in raw claims and not counted twice as base models. The 2021 Galaxy S21 records have official local availability evidence before the provisional rolling-window start and remain in the historical inventory with an exclusion flag.
+The supplied annual notes list brands and examples, not all individual releases. Candidate names parsed from those examples remain pending until a model-level Philippine source is linked. Series claims remain in the verification queue until their individual models are established. The 2026 note repeats much of the annual list; duplicates are retained in raw claims and not counted twice as base models. Seven explicitly excluded or future-availability cases from that note are held out pending source review. The three 2021 Galaxy S21 records have official local availability evidence before the provisional rolling-window start and remain in the historical inventory with an exclusion flag.
 
 Most original Philippine release dates and many configuration specifications are missing. The existing 30 catalog records establish official Philippine product or store listings, but 29 lack a dated original local launch; those remain pending for rolling-window eligibility. No live application database was reset or populated.
 """, encoding="utf-8")
@@ -566,6 +598,7 @@ def main() -> None:
         add_raw_and_candidates(db, raw, structured)
         add_existing_catalog(db, catalog_seed())
         add_researched_models(db)
+        add_explicit_holdouts(db)
         add_laptop_research_queue(db)
         add_missing_date_queue(db)
         db.commit()
