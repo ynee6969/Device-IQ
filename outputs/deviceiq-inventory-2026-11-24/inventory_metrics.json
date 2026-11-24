@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "raw_lines": 558,
+    "structured_claims": 228,
+    "duplicate_claims": 33,
+    "candidate_models": 456,
+    "verified_models": 60,
+    "included_models": 28,
+    "pending_models": 396,
+    "pending_date": 29,
+    "excluded": 3,
+    "manufacturers": 5,
+    "brands": 49,
+    "open_queue": 627,
+    "missing_specs": 405,
+    "missing_source": 396
+  },
+  "by_category": {
+    "laptops": 18,
+    "smartphones": 288,
+    "tablets": 150
+  },
+  "verified_by_category": {
+    "laptops": 18,
+    "smartphones": 24,
+    "tablets": 18
+  },
+  "validation_errors": []
+}

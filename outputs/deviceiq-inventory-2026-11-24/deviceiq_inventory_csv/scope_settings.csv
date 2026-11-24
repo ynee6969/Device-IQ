@@ -1,0 +1,6 @@
+﻿setting_key,setting_value,description
+historical_start,2021-01-01,Start of retained calendar-year research history
+rolling_start,2021-11-24,Current provisional rolling five-year start
+research_cutoff,2026-11-24,Last date researched in this snapshot
+prior_panel_start,2021-01-01,Earlier approved website study start
+prior_panel_planned_end,2026-11-30,Earlier planned cutoff; later than this snapshot

@@ -6,6 +6,8 @@ coverage
 dist
 prisma/dev.db
 *.log
+*.tsbuildinfo
+*.inspect.ndjson
 
 .vercel
 .env*.local

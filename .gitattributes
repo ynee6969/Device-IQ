@@ -1,0 +1,2 @@
+# Keep the supplied research notes byte-for-byte, including original trailing spaces.
+research/source_notes/*.txt -text whitespace=-blank-at-eol,-blank-at-eof

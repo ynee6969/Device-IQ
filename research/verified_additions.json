@@ -1,0 +1,186 @@
+[
+  {
+    "sourceTitle": "Samsung offers Galaxy 14-Day Trial Program for the Galaxy S21 Series 5G",
+    "sourceUrl": "https://news.samsung.com/ph/samsung-offers-galaxy-14-day-trial-program-for-the-galaxy-s21-series-5g",
+    "publishedAt": "2021-04-16",
+    "evidence": "Samsung Philippines listed these three models as available through its store and authorized channels by 16 April 2021. The first local sale date was not stated.",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineYear": 2021,
+    "models": [
+      { "category": "smartphones", "name": "Galaxy S21 5G", "storageGb": 256, "specs": { "batteryMah": 4000 } },
+      { "category": "smartphones", "name": "Galaxy S21+ 5G", "storageGb": 256, "specs": { "batteryMah": 4800 } },
+      { "category": "smartphones", "name": "Galaxy S21 Ultra 5G", "storageGb": 256, "specs": { "batteryMah": 5000 } }
+    ]
+  },
+  {
+    "sourceTitle": "Samsung debuts the Galaxy S23 series locally",
+    "sourceUrl": "https://news.samsung.com/ph/experience-and-share-the-epic-samsung-debuts-the-new-galaxy-s23-series-locally-with-an-epic-launch-party",
+    "publishedAt": "2023-03-01",
+    "philippineLaunchDate": "2023-02-14",
+    "evidence": "Samsung reports a Philippine launch event on 14 February 2023 for the three S23 models; preorders were still open.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "smartphones", "name": "Galaxy S23", "specs": { "chipset": "Snapdragon 8 Gen 2 for Galaxy" } },
+      { "category": "smartphones", "name": "Galaxy S23+", "specs": { "chipset": "Snapdragon 8 Gen 2 for Galaxy" } },
+      { "category": "smartphones", "name": "Galaxy S23 Ultra", "specs": { "chipset": "Snapdragon 8 Gen 2 for Galaxy" } }
+    ]
+  },
+  {
+    "sourceTitle": "Samsung Galaxy Tab S9 series available in Philippine retail channels",
+    "sourceUrl": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+    "publishedAt": "2023-09-06",
+    "evidence": "Samsung Philippines lists the Tab S9, S9+, and S9 Ultra as available in participating local stores and online channels by 6 September 2023.",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineYear": 2023,
+    "models": [
+      { "category": "tablets", "name": "Galaxy Tab S9", "specs": { "displayInches": 11, "displayType": "Dynamic AMOLED 2X", "refreshHz": 120 } },
+      { "category": "tablets", "name": "Galaxy Tab S9+", "specs": { "displayInches": 12.4, "displayType": "Dynamic AMOLED 2X", "refreshHz": 120 } },
+      { "category": "tablets", "name": "Galaxy Tab S9 Ultra", "specs": { "displayInches": 14.6, "displayType": "Dynamic AMOLED 2X", "refreshHz": 120 } }
+    ]
+  },
+  {
+    "sourceTitle": "Galaxy S23 FE and Galaxy Tab S9 FE Philippine availability",
+    "sourceUrl": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+    "publishedAt": "2023-10-11",
+    "philippineLaunchDate": "2023-10-20",
+    "evidence": "Samsung Philippines states that the Galaxy S23 FE and Galaxy Tab S9 FE series would become available locally on 20 October 2023.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "smartphones", "name": "Galaxy S23 FE" },
+      { "category": "tablets", "name": "Galaxy Tab S9 FE" },
+      { "category": "tablets", "name": "Galaxy Tab S9 FE+" }
+    ]
+  },
+  {
+    "sourceTitle": "Samsung Galaxy S24 series Philippine launch",
+    "sourceUrl": "https://news.samsung.com/ph/samsungs-galaxy-s24-series-takes-the-stage-at-the-galaxy-ai-festival-for-its-ph-launch",
+    "publishedAt": "2024-01-29",
+    "philippineLaunchDate": "2024-01-29",
+    "evidence": "Samsung Philippines reports a Philippine launch event and lists local purchase channels for the S24 series on 29 January 2024.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "smartphones", "name": "Galaxy S24" },
+      { "category": "smartphones", "name": "Galaxy S24+" },
+      { "category": "smartphones", "name": "Galaxy S24 Ultra" }
+    ]
+  },
+  {
+    "sourceTitle": "Galaxy Tab S10 FE series Philippine availability",
+    "sourceUrl": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+    "publishedAt": "2025-04-02",
+    "philippineLaunchDate": "2025-05-15",
+    "evidence": "Samsung Philippines specifies local availability beginning 15 May 2025 for the Tab S10 FE and FE+ configurations.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "tablets", "name": "Galaxy Tab S10 FE+", "specs": { "displayInches": 13.1, "displayType": "LCD", "refreshHz": 90, "chipset": "Exynos 1580" } }
+    ]
+  },
+  {
+    "sourceTitle": "Samsung Galaxy S26 series launched in the Philippines",
+    "sourceUrl": "https://news.samsung.com/ph/what-if-your-phone-just-knew-say-hello-to-the-samsung-galaxy-s26-series",
+    "publishedAt": "2026-03-23",
+    "evidence": "Samsung Philippines states that the three S26 models had officially launched locally by 23 March 2026; the first sale date is not specified.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "philippineYear": 2026,
+    "models": [
+      { "category": "smartphones", "name": "Galaxy S26" },
+      { "category": "smartphones", "name": "Galaxy S26+" },
+      { "category": "smartphones", "name": "Galaxy S26 Ultra", "specs": { "chipset": "Snapdragon 8 Elite Gen 5" } }
+    ]
+  },
+  {
+    "sourceTitle": "Galaxy S26 FE Philippine store availability",
+    "sourceUrl": "https://news.samsung.com/ph/your-galaxy-s-moment-has-arrived-with-the-galaxy-s26-fe",
+    "publishedAt": "2026-09-01",
+    "evidence": "Samsung Philippines states the Galaxy S26 FE was available in Experience Stores by 1 September 2026; the exact first sale date is not stated.",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+    "philippineYear": 2026,
+    "models": [
+      { "category": "smartphones", "name": "Galaxy S26 FE" }
+    ]
+  },
+  {
+    "sourceTitle": "Galaxy Tab S12 series Philippine online launch",
+    "sourceUrl": "https://news.samsung.com/ph/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+    "publishedAt": "2026-09-30",
+    "philippineLaunchDate": "2026-10-21",
+    "evidence": "Samsung Philippines states that the Galaxy Tab S12 Ultra and S12+ would launch online locally on 21 October 2026 and in stores on 28 October.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "tablets", "name": "Galaxy Tab S12 Ultra", "specs": { "displayInches": 14.6, "resolution": "2960 × 1848", "refreshHz": 120, "displayType": "Dynamic AMOLED 2X", "chipset": "MediaTek Dimensity 9500", "batteryMah": 11600, "chargingW": 45 } },
+      { "category": "tablets", "name": "Galaxy Tab S12+", "specs": { "displayInches": 12.6, "resolution": "2800 × 1752", "refreshHz": 120, "displayType": "Dynamic AMOLED 2X", "chipset": "MediaTek Dimensity 9500", "batteryMah": 10600, "chargingW": 45 } }
+    ]
+  },
+  {
+    "sourceTitle": "ASUS launches Zenbook S16 and Zenbook 14 in the Philippines",
+    "sourceUrl": "https://www.asus.com/ph/news/wqgfp0vt7mvywde4/",
+    "publisher": "ASUS Philippines",
+    "brand": "ASUS",
+    "publishedAt": "2026-03-05",
+    "philippineLaunchDate": "2026-03-03",
+    "availabilityStatus": "Available by publication date",
+    "evidence": "ASUS Philippines dates the local announcement 3 March 2026 and says both named laptops were available in ASUS Stores nationwide by publication on 5 March. The initial retail sale date is not given.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "laptops", "name": "Zenbook S16 (UM5606GA)", "specs": { "displayInches": 16, "displayType": "OLED" }, "configurations": [
+        { "label": "UM5606GA-SR368WSM", "sku": "UM5606GA-SR368WSM", "modelCode": "UM5606GA", "specs": { "cpu": "AMD Ryzen AI 9 465", "ramGb": 32, "storageGb": 1024, "displayInches": 16, "resolution": "3K OLED 16:10", "displayType": "OLED", "gpu": "AMD Radeon Graphics", "os": "Windows 11 Home" }, "pricePhp": 134995, "priceCondition": "Official SRP", "priceObservedAt": "2026-03-05" }
+      ] },
+      { "category": "laptops", "name": "Zenbook 14 (UM3406GA)", "specs": { "displayInches": 14, "displayType": "OLED" }, "configurations": [
+        { "label": "UM3406GA-QD123WSM", "sku": "UM3406GA-QD123WSM", "modelCode": "UM3406GA", "specs": { "cpu": "AMD Ryzen AI 7 445", "ramGb": 16, "storageGb": 1024, "displayInches": 14, "resolution": "WUXGA OLED 16:10", "displayType": "OLED", "os": "Windows 11 Home" }, "pricePhp": 79995, "priceCondition": "Official SRP", "priceObservedAt": "2026-03-05" }
+      ] }
+    ]
+  },
+  {
+    "sourceTitle": "ASUS Zenbook DUO and S14 Philippine launch and availability",
+    "sourceUrl": "https://www.asus.com/ph/news/6v9jkea7qhr8ro33/",
+    "publisher": "ASUS Philippines",
+    "brand": "ASUS",
+    "publishedAt": "2026-03-25",
+    "philippineLaunchDate": "2026-03-25",
+    "availabilityStatus": "Available by publication date",
+    "evidence": "ASUS Philippines announces local availability and pricing of the Zenbook DUO UX8407 and Zenbook S14 UX5406 on 25 March 2026. The Zenbook A16 in the same announcement was coming soon and is not verified as available.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "laptops", "name": "Zenbook DUO (UX8407)", "specs": { "displayInches": 14, "displayType": "Dual OLED touchscreen", "refreshHz": 144 } },
+      { "category": "laptops", "name": "Zenbook S14 (UX5406)", "specs": { "displayInches": 14, "displayType": "OLED touchscreen", "refreshHz": 120 } }
+    ]
+  },
+  {
+    "sourceTitle": "ASUS Zenbook 14 UX3480 Philippine availability and configurations",
+    "sourceUrl": "https://www.asus.com/ph/news/asus-zenbook-14-ux3480-launches-in-the-philippines/",
+    "publisher": "ASUS Philippines",
+    "brand": "ASUS",
+    "publishedAt": "2026-10-07",
+    "philippineLaunchDate": "2026-10-07",
+    "availabilityStatus": "Available",
+    "evidence": "ASUS Philippines states that Zenbook 14 UX3480 Intel, AMD, and Snapdragon configurations became available locally starting 7 October 2026; a later Snapdragon color marked coming soon is excluded from configurations.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "laptops", "name": "Zenbook 14 (UX3480)", "specs": { "displayInches": 14, "displayType": "OLED" }, "configurations": [
+        { "label": "UX3480AA-U2489WSM", "sku": "UX3480AA-U2489WSM", "modelCode": "UX3480AA", "specs": { "cpu": "Intel Core Ultra 9 386H", "ramGb": 24, "storageGb": 512, "displayInches": 14, "resolution": "WUXGA OLED 16:10", "displayType": "OLED touchscreen" }, "pricePhp": 129995, "priceCondition": "Introductory SRP", "priceObservedAt": "2026-10-07" },
+        { "label": "UX3480AA-U2477WSM", "sku": "UX3480AA-U2477WSM", "modelCode": "UX3480AA", "specs": { "cpu": "Intel Core Ultra 7 355", "ramGb": 16, "storageGb": 512, "displayInches": 14, "resolution": "WUXGA OLED 16:10", "displayType": "OLED touchscreen" }, "pricePhp": 106995, "priceCondition": "Introductory SRP", "priceObservedAt": "2026-10-07" },
+        { "label": "UX3480KA-U1137WSM", "sku": "UX3480KA-U1137WSM", "modelCode": "UX3480KA", "specs": { "cpu": "AMD Ryzen AI 7 345", "ramGb": 16, "storageGb": 512, "displayInches": 14, "resolution": "WUXGA OLED 16:10", "displayType": "OLED" }, "pricePhp": 94995, "priceCondition": "Introductory SRP", "priceObservedAt": "2026-10-07" },
+        { "label": "UX3480KA-U1135WSM", "sku": "UX3480KA-U1135WSM", "modelCode": "UX3480KA", "specs": { "cpu": "AMD Ryzen AI 5 330", "ramGb": 16, "storageGb": 512, "displayInches": 14, "resolution": "WUXGA OLED 16:10", "displayType": "OLED" }, "pricePhp": 86995, "priceCondition": "Introductory SRP", "priceObservedAt": "2026-10-07" },
+        { "label": "UX3480QA-U1004WSM", "sku": "UX3480QA-U1004WSM", "modelCode": "UX3480QA", "specs": { "cpu": "Snapdragon X X1 26 100", "ramGb": 16, "storageGb": 512, "resolution": "WUXGA OLED 16:10", "displayType": "OLED" }, "pricePhp": 76995, "priceCondition": "Introductory SRP", "priceObservedAt": "2026-10-07" }
+      ] }
+    ]
+  },
+  {
+    "sourceTitle": "ASUS ProArt laptop series Philippine launch",
+    "sourceUrl": "https://www.asus.com/ph/news/6b8nlidlxkjioucl/",
+    "publisher": "ASUS Philippines",
+    "brand": "ASUS",
+    "publishedAt": "2026-04-20",
+    "philippineLaunchDate": "2026-04-20",
+    "availabilityStatus": "Announced; first retail availability unconfirmed",
+    "evidence": "ASUS Philippines locally launched three named ProArt models on 20 April 2026 and stated authorized-store availability would follow in coming weeks; the first sale date remains unconfirmed.",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+    "models": [
+      { "category": "laptops", "name": "ProArt P16 (H7606)", "specs": { "cpu": "AMD Ryzen AI 9 HX370", "displayType": "OLED" } },
+      { "category": "laptops", "name": "ProArt GoPro Edition (PX13)", "specs": { "displayInches": 13.3 } },
+      { "category": "laptops", "name": "ProArt PX13 (HN7306)", "specs": { "displayInches": 13.3 }, "configurations": [
+        { "label": "HN7306EA-LX054WSM", "sku": "HN7306EA-LX054WSM", "modelCode": "HN7306EA", "specs": { "cpu": "AMD Ryzen AI Max+ 395", "ramGb": 32, "storageGb": 1024, "displayInches": 13.3, "resolution": "2880 x 1800", "displayType": "OLED" }, "pricePhp": 164995, "priceCondition": "Introductory price; retail date unconfirmed", "priceObservedAt": "2026-04-20" }
+      ] }
+    ]
+  }
+]

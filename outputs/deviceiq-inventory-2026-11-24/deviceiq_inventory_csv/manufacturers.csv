@@ -1,0 +1,6 @@
+﻿manufacturer_id,manufacturer_name,official_website,country_of_origin,parent_company_id,verification_status,created_at,updated_at
+manufacturer_c369c5f6bb846e,Apple Inc.,https://www.apple.com/ph/,United States,,VERIFIED_FROM_OFFICIAL_SITE,2026-11-24,2026-11-24
+manufacturer_76023f0e1f7cf9,ASUSTeK Computer Inc.,https://www.asus.com/ph/,Taiwan,,VERIFIED_FROM_OFFICIAL_SITE,2026-11-24,2026-11-24
+manufacturer_e0cc42e96b9950,Xiaomi Corporation,https://www.mi.com/ph/,China,,VERIFIED_FROM_OFFICIAL_SITE,2026-11-24,2026-11-24
+manufacturer_a899f716555ee8,"Samsung Electronics Co., Ltd.",https://www.samsung.com/ph/,South Korea,,VERIFIED_FROM_OFFICIAL_SITE,2026-11-24,2026-11-24
+manufacturer_987bab515b1e08,Acer Incorporated,https://www.acer.com/ph-en/,Taiwan,,VERIFIED_FROM_OFFICIAL_SITE,2026-11-24,2026-11-24
