@@ -251,15 +251,53 @@ for review in manual_reviews.get("records", []):
     device = catalog_by_id.get(review["deviceId"])
     if not device or device.get("recordType") != "device":
         raise ValueError(f"Manual specification review references unknown device: {review['deviceId']}")
+    replacement_variants = review.get("replacementVariants")
+    if replacement_variants:
+        current_variants = device["variants"]
+        if (len(current_variants) != 1 or not current_variants[0]["id"].endswith("-unrecorded")
+                or current_variants[0].get("specs")):
+            raise ValueError(f"Cannot replace a non-empty/unexpected variant set: {device['id']}")
+        template = current_variants[0]
+        ids = [item.get("id") for item in replacement_variants]
+        if len(ids) != len(set(ids)) or any(not item for item in ids):
+            raise ValueError(f"Replacement variant IDs must be unique: {device['id']}")
+        device["variants"] = [{
+            **template, "id": item["id"], "label": item["label"],
+            "sku": item.get("sku"), "modelCode": item.get("modelCode"),
+            "specs": {}, "specSources": {}, "pricePhp": None,
+            "priceCondition": None, "priceType": None, "priceObservedAt": None,
+            "priceSourceUrl": None, "notes": item.get("notes") or template.get("notes"),
+        } for item in replacement_variants]
+    additional_variants = review.get("additionalVariants") or []
+    if additional_variants:
+        existing_ids = {item["id"] for item in device["variants"]}
+        new_ids = [item.get("id") for item in additional_variants]
+        if len(new_ids) != len(set(new_ids)) or any(not item or item in existing_ids for item in new_ids):
+            raise ValueError(f"Additional variant IDs must be unique: {device['id']}")
+        template = device["variants"][0]
+        for item in additional_variants:
+            device["variants"].append({
+                **template, "id": item["id"], "label": item["label"],
+                "sku": item.get("sku"), "modelCode": item.get("modelCode"),
+                "specs": {}, "specSources": {}, "pricePhp": None,
+                "priceCondition": None, "priceType": None, "priceObservedAt": None,
+                "priceSourceUrl": None, "notes": item.get("notes"),
+            })
     variant = next((item for item in device["variants"] if item["id"] == review["configurationId"]), None)
     if not variant:
         raise ValueError(f"Manual specification review references unknown configuration: {review['configurationId']}")
+    if review.get("configurationLabel"):
+        variant["label"] = review["configurationLabel"]
+    if review.get("sku"):
+        variant["sku"] = review["sku"]
+    if review.get("modelCode"):
+        variant["modelCode"] = review["modelCode"]
     sources_by_id = {item["id"]: item for item in review.get("sources", [])}
     for reviewed_field in review.get("fields", []):
         source = sources_by_id.get(reviewed_field.get("sourceId"))
         if not source or not source.get("url", "").startswith("https://"):
             raise ValueError(f"Manual field lacks a valid source: {device['id']} {reviewed_field.get('fieldId')}")
-        if reviewed_field.get("status") != "VERIFIED":
+        if reviewed_field.get("status") not in {"VERIFIED", "VERIFIED_SECONDARY"}:
             continue
         catalog_key = reviewed_field.get("catalogKey")
         catalog_value = reviewed_field.get("catalogValue")
@@ -278,9 +316,14 @@ for review in manual_reviews.get("records", []):
             variant.update({
                 "pricePhp": value, "priceCondition": reviewed_field.get("priceCondition") or "new",
                 "priceType": reviewed_field.get("priceType") or "manufacturer starting price",
-                "priceObservedAt": source.get("accessDate"), "priceSourceUrl": source["url"],
+                "priceObservedAt": reviewed_field.get("priceObservedAt") or source.get("publicationDate") or source.get("accessDate"), "priceSourceUrl": source["url"],
                 "notes": reviewed_field.get("note") or variant.get("notes"),
             })
+        if reviewed_field.get("fieldId") == "philippine_release_date" and reviewed_field.get("normalizedValue"):
+            if reviewed_field.get("status") in {"VERIFIED", "VERIFIED_SECONDARY"}:
+                device["philippineAvailabilityDate"] = reviewed_field["normalizedValue"]
+        elif reviewed_field.get("fieldId") == "philippine_release_date" and reviewed_field.get("status") == "CONFLICTING_INFORMATION":
+            device["philippineAvailabilityDate"] = None
     for source in review.get("sources", []):
         if not any(existing.get("url") == source["url"] for existing in device["sources"]):
             device["sources"].append({

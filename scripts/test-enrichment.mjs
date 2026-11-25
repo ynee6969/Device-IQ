@@ -72,3 +72,34 @@ test('records a single tablet price without inventing a configuration', () => {
   assert.equal(result.prices[0].amount_php, 15999);
   assert.equal(result.prices[0].configuration_match, 'unspecified');
 });
+
+test('extracts the published PTG display, camera, build, and connectivity rows', () => {
+  const html = `<title>ASUS Zenfone 8 – Full Specs and Official Price in the Philippines</title>
+    <h1>ASUS Zenfone 8 – Full Specs and Official Price in the Philippines</h1>
+    <table>
+      <tr><td>Display</td><td>5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels) with Corning Gorilla Glass Victus, 120Hz Refresh Rate</td></tr>
+      <tr><td>Build Materials</td><td>Gorilla Glass Victus Front and Gorilla Glass 3 Back with Aluminum Frame</td></tr>
+      <tr><td>Durability</td><td>IP68 Water &amp; Dust Resistance</td></tr>
+      <tr><td>Rear Camera</td><td>Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture) 12MP Ultra-wide (Sony IMX363, f/2.2 Aperture) Up to 8K@24fps Video Recording</td></tr>
+      <tr><td>Front Camera</td><td>12 Megapixels (Sony IMX663)</td></tr>
+      <tr><td>Cellular</td><td>5G, 4G LTE, 3G HSPA+, 2G EDGE</td></tr>
+      <tr><td>Location</td><td>GPS, GLONASS, GALILEO, BeiDou</td></tr>
+      <tr><td>Sound</td><td>Hi-Res Audio with dual stereo speakers and 3.5mm audio jack</td></tr>
+      <tr><td>Battery</td><td>4,000mAh Li-Po Battery (Non-removable)</td></tr>
+    </table>`;
+  const result = extractPage(html, { model_name: 'Zenfone 8' }, [], 'independent_ph_reference');
+  const fields = Object.fromEntries(result.specs.map(field => [field.key, field.value]));
+  assert.equal(fields.display_inches, '5.9');
+  assert.equal(fields.display_technology, 'Super AMOLED');
+  assert.equal(fields.resolution, '1080 x 2400');
+  assert.equal(fields.refresh_hz, '120');
+  assert.equal(fields.display_protection, 'Corning Gorilla Glass Victus');
+  assert.match(fields.main_camera_sensor, /Sony IMX686/);
+  assert.match(fields.ultrawide_camera, /Sony IMX363/);
+  assert.equal(fields.front_camera, '12');
+  assert.match(fields.video_recording, /8K/);
+  assert.match(fields.cellular, /5G/);
+  assert.match(fields.gnss, /BeiDou/);
+  assert.match(fields.audio, /3\.5mm/);
+  assert.match(fields.battery_technology, /Li-Po/);
+});

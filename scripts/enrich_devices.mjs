@@ -124,16 +124,26 @@ function officialUrl(value) {
 }
 
 const fieldAliases = [
+  [/^(?:display technology|display type|screen type|panel type)\b/i, 'display_technology'],
+  [/^(?:display brightness|brightness)\b/i, 'display_brightness'],
+  [/^(?:display protection|screen protection|glass protection)\b/i, 'display_protection'],
+  [/^(?:display color|colour gamut|color gamut)\b/i, 'display_color'],
+  [/^(?:display resolution|resolution)\b/i, 'resolution'],
+  [/^(?:display refresh rate|refresh rate|refresh)\b/i, 'refresh_hz'],
+  [/^(?:battery type|battery chemistry)\b/i, 'battery_technology'],
+  [/^(?:battery life|maximum battery run time)\b/i, 'battery_life'],
+  [/^(?:ram type|memory type)\b/i, 'ram_type'],
+  [/^(?:storage type|storage technology)\b/i, 'storage_type'],
   [/^(?:battery(?: capacity)?|typical battery)\b/i, 'battery_capacity'],
   [/^(?:ram|memory)\b/i, 'ram_gb'],
   [/^(?:storage|internal storage|rom)\b/i, 'internal_storage_gb'],
+  [/^(?:expansion|expandable storage|card slot)\b/i, 'storage_expansion'],
   [/^(?:display size|screen size|display)\b/i, 'display_inches'],
   [/^(?:processor|chipset|soc)\b/i, 'processor'],
   [/^(?:cpu)\b/i, 'cpu'],
   [/^(?:gpu|graphics|graphics card)\b/i, 'gpu'],
   [/^(?:operating system|os)\b/i, 'operating_system'],
   [/^(?:display )?resolution\b/i, 'resolution'],
-  [/^(?:refresh rate|refresh)\b/i, 'refresh_hz'],
   [/^(?:weight)\b/i, 'weight'],
   [/^(?:dimensions|dimension)\b/i, 'dimensions'],
   [/^(?:charging|wired charging)\b/i, 'charging'],
@@ -141,9 +151,28 @@ const fieldAliases = [
   [/^(?:bluetooth)\b/i, 'bluetooth'],
   [/^(?:nfc)\b/i, 'nfc'],
   [/^(?:sim|sim card)\b/i, 'sim'],
+  [/^(?:main camera sensor)\b/i, 'main_camera_sensor'],
+  [/^(?:ultrawide camera|ultra-wide camera)\b/i, 'ultrawide_camera'],
+  [/^(?:telephoto camera|periscope camera)\b/i, 'telephoto_camera'],
   [/^(?:front camera|selfie camera)\b/i, 'front_camera'],
+  [/^(?:webcam|camera resolution)\b/i, 'webcam'],
   [/^(?:rear camera|main camera|camera)\b/i, 'rear_camera'],
+  [/^(?:video recording|video)\b/i, 'video_recording'],
+  [/^(?:build materials|materials|build)\b/i, 'materials'],
   [/^(?:water resistance|waterproof|ip rating)\b/i, 'ip_rating'],
+  [/^(?:durability)\b/i, 'ip_rating'],
+  [/^(?:cellular|network|mobile network)\b/i, 'cellular'],
+  [/^(?:location|positioning|gnss)\b/i, 'gnss'],
+  [/^(?:sound|audio|speaker)\b/i, 'audio'],
+  [/^(?:sensors|sensor)\b/i, 'sensors'],
+  [/^(?:stylus|pen support)\b/i, 'tablet_stylus'],
+  [/^(?:keyboard compatibility|keyboard support)\b/i, 'tablet_keyboard'],
+  [/^(?:keyboard)\b/i, 'keyboard'],
+  [/^(?:touchpad|trackpad)\b/i, 'touchpad'],
+  [/^(?:ethernet|wired lan)\b/i, 'ethernet'],
+  [/^(?:warranty)\b/i, 'warranty'],
+  [/^(?:touchscreen)\b/i, 'touchscreen'],
+  [/^(?:usb port|usb|usb connector)\b/i, 'usb'],
   [/^(?:ports|interface)\b/i, 'ports'],
 ];
 function parseField(label, value, category = 'smartphones') {
@@ -179,8 +208,50 @@ function parseField(label, value, category = 'smartphones') {
     const found = result.match(/\b(\d+(?:\.\d+)?)\s*(kg|g)\b/i);
     if (found) { result = found[1]; unit = found[2].toLowerCase(); }
   }
+  if (key === 'dimensions' && !/\b\d+(?:\.\d+)?\s*(?:mm|cm)?\s*[x×]\s*\d+(?:\.\d+)?\s*(?:mm|cm)?\s*[x×]\s*\d+(?:\.\d+)?\s*(?:mm|cm)?\b/i.test(result)) return null;
+  if (key === 'front_camera') {
+    const found = result.match(/\b(\d+(?:\.\d+)?)\s*(?:MP|megapixels?)\b/i);
+    if (!found) return null;
+    result = found[1]; unit = 'MP';
+  }
   if (!result) return null;
   return { key, value: result, unit, excerpt: `${clean(label)}: ${clean(value)}`.slice(0, 240) };
+}
+
+function extractCompositeSpecs(label, value) {
+  const result = [];
+  const text = clean(value);
+  const add = (key, found, unit = null) => { if (found) result.push({ key, value: clean(found), unit, excerpt: `${clean(label)}: ${text}`.slice(0, 240) }); };
+  if (/^(?:display|display specifications|screen)$/i.test(clean(label))) {
+    const technology = text.match(/\b(Dynamic AMOLED(?:\s+\d+X?)?|Super AMOLED(?:\s+Plus)?|LTPO AMOLED|AMOLED|P-OLED|OLED|IPS(?: LCD)?|TFT(?: LCD)?|LCD|Liquid Retina(?: XDR)?|Mini-LED)\b/i)?.[1];
+    add('display_technology', technology);
+    const resolution = text.match(/\b(\d{3,4})\s*[x×]\s*(\d{3,4})\b/i);
+    add('resolution', resolution ? `${resolution[1]} x ${resolution[2]}` : null);
+    const refresh = text.match(/\b(\d{2,3}(?:\.\d+)?)\s*Hz\b/i)?.[1];
+    add('refresh_hz', refresh, 'Hz');
+    const brightness = text.match(/\b([\d,]+(?:\.\d+)?\s*(?:nits?|cd\/m(?:2|²)))\b/i)?.[1];
+    add('display_brightness', brightness);
+    const protection = text.match(/\b(Corning Gorilla Glass(?:\s+[\w.-]+)?|Panda Glass(?:\s+[\w.-]+)?|Dragontrail Glass(?:\s+[\w.-]+)?)\b/i)?.[1];
+    add('display_protection', protection);
+    const color = text.match(/\b(\d+%\s*(?:DCI-P3|sRGB|NTSC|Adobe RGB)|DCI-P3|sRGB)\b/i)?.[1];
+    add('display_color', color);
+  }
+  if (/^(?:rear camera|main camera|camera)$/i.test(clean(label))) {
+    const segments = [...text.matchAll(/(\d+(?:\.\d+)?\s*MP\b.*?)(?=\s+\d+(?:\.\d+)?\s*MP\b|$)/gi)].map(match => clean(match[1]));
+    const main = segments.find(x => /\bmain\b/i.test(x));
+    const ultra = segments.find(x => /ultra[- ]?wide/i.test(x));
+    const tele = segments.find(x => /telephoto|periscope/i.test(x));
+    add('main_camera_sensor', main);
+    add('ultrawide_camera', ultra);
+    add('telephoto_camera', tele);
+    const video = text.match(/\b(?:up to\s*)?\d{3,4}p(?:\s*@\s*\d+\s*fps)?[^.;,]*|\b(?:up to\s*)?\d+[Kk](?:\s*@\s*\d+\s*fps)?[^.;,]*/i)?.[0];
+    add('video_recording', video);
+  }
+  if (/^(?:battery|typical battery)$/i.test(clean(label))) {
+    const chemistry = text.match(/\b(Li[- ]?(?:Po|Ion)|Lithium[- ](?:ion|polymer))\b[^,;]*/i)?.[0];
+    add('battery_technology', chemistry);
+  }
+  return result;
 }
 
 function jsonLdObjects(value) {
@@ -206,7 +277,11 @@ export function extractPage(html, device, configurations = [], sourceKind = 'off
   const specs = [];
   $('tr').each((_, row) => {
     const cells = $(row).find('th,td').map((__, el) => clean($(el).text())).get();
-    if (cells.length === 2) { const field = parseField(cells[0], cells[1], device.category_id); if (field) specs.push(field); }
+    if (cells.length === 2) {
+      const field = parseField(cells[0], cells[1], device.category_id);
+      if (field) specs.push(field);
+      specs.push(...extractCompositeSpecs(cells[0], cells[1]));
+    }
   });
   // Xiaomi's official specification pages use paired label/value blocks, not tables.
   $('span.f-bold').each((_, labelElement) => {

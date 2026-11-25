@@ -333,6 +333,17 @@ def main():
     audit_rows: list[dict] = []
     public_variants: dict[str, dict] = {}
     device_rows = [d for d in devices if d.get("recordType", "device") == "device"]
+    device_by_id = {d["id"]: d for d in device_rows}
+    manually_verified_configurations = {
+        (record["deviceId"], record["configurationId"])
+        for record in manual_reviews.get("records", [])
+        if any(field.get("status") in VERIFIED_STATUSES for field in record.get("fields", []))
+    }
+    manually_verified_models = {device_id for device_id, _ in manually_verified_configurations}
+    laptop_device_ids = {d["id"] for d in device_rows if d.get("category") == "laptops"}
+    laptop_reviewed_configurations = {
+        key for key in manually_verified_configurations if key[0] in laptop_device_ids
+    }
     assignment_totals = Counter()
     brand_year_groups: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
     for device in device_rows:
@@ -405,9 +416,18 @@ def main():
                     manual_source = manual_field["_sources"].get(manual_field.get("sourceId"))
                     if not manual_source:
                         raise ValueError(f"Manual verification has no source: {device['id']} {field_id}")
+                    for manual_candidate in manual_field.get("candidateEvidence", []):
+                        candidate_evidence.append({
+                            "value": clean(manual_candidate.get("value")), "unit": manual_candidate.get("unit"),
+                            "source_url": manual_candidate.get("sourceUrl"), "source_kind": manual_candidate.get("sourceKind", "manual_secondary"),
+                            "observed_at": manual_candidate.get("observedAt"), "excerpt": clean(manual_candidate.get("excerpt")),
+                            "configuration_match": manual_candidate.get("configurationMatch", "exact"),
+                            "review_status": manual_candidate.get("reviewStatus", STATUS_PENDING),
+                            "local_availability_verified": bool(manual_candidate.get("localAvailabilityVerified", False)),
+                        })
                     if manual_field.get("status") in VERIFIED_STATUSES:
                         verification_status = manual_field["status"]
-                        confidence_level = "HIGH_MANUFACTURER_PRIMARY"
+                        confidence_level = "HIGH_MANUFACTURER_PRIMARY" if manual_field["status"] == "VERIFIED" else "MEDIUM_SECONDARY_SOURCE"
                         original_source_value = clean(manual_field.get("sourceValue"))
                         normalized_value = clean(manual_field.get("normalizedValue"))
                         value_text = normalized_value
@@ -418,6 +438,19 @@ def main():
                         publication_date = manual_source.get("publicationDate")
                         access_date = manual_source.get("accessDate")
                         notes = manual_field.get("note") or "Manually checked against the official manufacturer specification page."
+                    elif manual_field.get("status") in ASSESSED_STATUSES:
+                        verification_status = manual_field["status"]
+                        confidence_level = "SOURCE_CONFLICT" if verification_status == "CONFLICTING_INFORMATION" else "RESEARCHED_STATUS"
+                        original_source_value = clean(manual_field.get("sourceValue"))
+                        normalized_value = clean(manual_field.get("normalizedValue"))
+                        value_text = normalized_value
+                        audit_unit = manual_field.get("unit") or audit_unit
+                        source_id = manual_source["id"]
+                        source_url = manual_source["url"]
+                        source_record = manual_source
+                        publication_date = manual_source.get("publicationDate")
+                        access_date = manual_source.get("accessDate")
+                        notes = manual_field.get("note") or "Field status was explicitly assessed from the cited source evidence."
                     elif manual_field.get("normalizedValue") is not None:
                         candidate_evidence = [*candidate_evidence, {
                             "value": clean(manual_field.get("normalizedValue")),
@@ -428,6 +461,18 @@ def main():
                             "review_status": STATUS_PENDING,
                         }]
                         notes = manual_field.get("note") or "Manual source candidate; exact field/configuration relationship remains under review."
+                    elif manual_field.get("status") == STATUS_PENDING:
+                        verification_status = STATUS_PENDING
+                        confidence_level = "UNREVIEWED"
+                        original_source_value = clean(manual_field.get("sourceValue"))
+                        normalized_value = None
+                        value_text = None
+                        source_id = manual_source["id"]
+                        source_url = manual_source["url"]
+                        source_record = manual_source
+                        publication_date = manual_source.get("publicationDate")
+                        access_date = manual_source.get("accessDate")
+                        notes = manual_field.get("note") or "A source was checked, but this field remains unresolved."
                 row = {
                     "evidence_id": f"evidence_{stable_id(device['id'], variant_id, field_id)}",
                     "device_id": device["id"], "configuration_id": variant_id, "category": category,
@@ -557,6 +602,10 @@ def main():
     metrics = [
         ("Models", len(device_rows), "Device records; seven held-out claims are summarized separately."),
         ("Configurations", len(public_variants), "Separate catalog configuration records audited."),
+        ("Models with manually verified source fields", len(manually_verified_models), "At least one exact-model or exact-configuration field has an accepted source review."),
+        ("Configurations with manually verified source fields", len(manually_verified_configurations), "Distinct model/configuration pairs with at least one manually reviewed verified field."),
+        ("Laptop models with official-source reviews", f"{len({key[0] for key in laptop_reviewed_configurations})}/{len(laptop_device_ids)}", "All 18 laptop model records have official manufacturer evidence; all remain incomplete because many fields are still pending."),
+        ("Laptop configurations with reviewed source fields", len(laptop_reviewed_configurations), "Exact SKU/configuration rows reviewed across the laptop records."),
         ("Models with all fields assessed", all_assessed_models, "Every applicable field across every configuration has an assessed status."),
         ("Specification-complete models", complete_models, "Every applicable field is verified with no disclosed gaps or conflicts."),
         ("Complete with disclosed gaps", disclosed_gap_models, "All applicable fields are assessed; one or more are explicitly disclosed or not applicable."),
@@ -564,7 +613,7 @@ def main():
         ("Conflicting specification records", sum(1 for r in audit_rows if r["verification_status"] == "CONFLICTING_INFORMATION"), "No conflicts are promoted; candidate conflicts remain a review task."),
         ("Assessed specification fields", assessed_field_count, "Fields with a reviewed status, including verified values and justified disclosed gaps."),
         ("Verified specification fields", verified_field_count, "Candidate observations are not counted as verified."),
-        ("Unavailable fields", status_counts["UNAVAILABLE_AFTER_RESEARCH"] + status_counts["NOT_DISCLOSED"], "No field has completed the required negative-source review."),
+        ("Unavailable fields", status_counts["UNAVAILABLE_AFTER_RESEARCH"] + status_counts["NOT_DISCLOSED"], "These fields were reviewed in sources that omit them; values remain blank rather than being zero-filled."),
         ("Not applicable fields", status_counts["NOT_APPLICABLE"], "Category templates list applicable fields only; configuration-dependent N/A decisions await review."),
         ("Pending verification fields", status_counts[STATUS_PENDING], "Each current value and missing field is explicit in the audit."),
         ("Manually reviewed price candidates", manual_pending_price_count, "Source evidence is retained, but configuration ambiguity keeps the amount out of the public price."),
@@ -646,7 +695,7 @@ def main():
                      f"- Fetch attempts by category: `{dict(fetch_attempts_by_category)}`; unsuccessful attempts by category: `{dict(fetch_errors_by_category)}`.",
                      f"- Candidate field observations by source type: `{dict(candidate_source_counts)}`.",
                      f"- Candidate prices: {len(latest.get('prices', [])) + manual_pending_price_count}; discovery links: {len(latest.get('discovery', []))}.",
-                     "- Existing source values and extracted observations are shown for human review. They do not change public catalog values or verification status.", "",
+                     "- Automated source observations and discovery links remain separate from manually reviewed fields; candidates are not promoted on their own.", "",
                      "## Field backlog", "",
                      "Every category template field is enumerated in `research/enrichment/specification-fields.json`. The full configuration-level evidence matrix is in `research/enrichment/specification-field-audit.json`; a review copy is appended to the supplied workbook when it is available.", "",
                      "| Group | Applicable rows | Assessed | Verified | Pending |", "| --- | ---: | ---: | ---: | ---: |"]
@@ -679,7 +728,7 @@ def main():
         report_lines.append(f"- **{label}** (`{source['id']}`): {source.get('automatedUse', '')} {source.get('promotionRule', '')}")
     report_lines += ["", "## Scope and limitations", "",
                      "- NanoReview and Kimovil are included as manual discovery/reference links. No NanoReview specifications were collected because its published robots rules disallow GPT/ChatGPT automated access. Kimovil specifications and images were not extracted because its terms restrict copying or transformation without express authorization.",
-                     "- Candidate web observations are not field-reviewed, not configuration-complete, and not used to fill missing values. All 18 laptops were included in this run's queue and had 18 official-source fetch attempts, but none yielded an extractable specifications page. Two ASUS laptop configurations received manual, official-source field reviews; the remaining fields and all other laptop records remain pending, so all 18 laptop models remain incomplete overall.",
+                     f"- The automated collector made {fetch_attempts_by_category.get('laptops', 0)} laptop-page attempts without extracting structured laptop specifications. A separate manual review added official manufacturer evidence for {len({key[0] for key in laptop_reviewed_configurations})}/{len(laptop_device_ids)} laptop models across {len(laptop_reviewed_configurations)} exact configurations; the laptop records remain incomplete where fields are still pending.",
                      "- `NOT_DISCLOSED`, `UNAVAILABLE_AFTER_RESEARCH`, `CONFLICTING_INFORMATION`, and `NOT_APPLICABLE` are reserved for field decisions supported by actual research. They are not assigned by guesswork.",
                      "- `DEVICEIQ_RESEARCH_PROGRESS.md` records actual source-extraction counts and remaining work by claimed year, category, and brand.", ""]
     REPORT.write_text("\n".join(report_lines), encoding="utf-8")
@@ -689,6 +738,10 @@ def main():
         "> Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.", "",
         "## Actual run totals", "", "| Measure | Count |", "| --- | ---: |",
         f"| Device models | {len(device_rows)} |", f"| Configurations | {len(public_variants)} |",
+        f"| Models with manually verified source fields | {len(manually_verified_models)} |",
+        f"| Configurations with manually verified source fields | {len(manually_verified_configurations)} |",
+        f"| Laptop models with official-source reviews | {len({key[0] for key in laptop_reviewed_configurations})}/{len(laptop_device_ids)} |",
+        f"| Laptop configurations with reviewed source fields | {len(laptop_reviewed_configurations)} |",
         f"| Models with all fields assessed | {all_assessed_models} |", f"| Specification-complete models | {complete_models} |",
         f"| Incomplete models | {incomplete_models} |", f"| Applicable field assignments | {len(audit_rows)} |",
         f"| Fields assessed | {assessed_field_count} |", f"| Verified fields | {verified_field_count} |", f"| Pending fields | {status_counts[STATUS_PENDING]} |",
@@ -706,7 +759,7 @@ def main():
     progress_lines += ["", "## Current blockers and next actions", "",
                        "1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.",
                        f"2. Review the {len(latest.get('observations', []))} source-derived field observations and {len(latest.get('prices', [])) + manual_pending_price_count} dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.",
-                       "3. Expand source coverage for the 456 queued smartphone, tablet, and laptop models; this collection run still yielded no extractable laptop specification pages.",
+                       f"3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover {len({key[0] for key in laptop_reviewed_configurations})}/{len(laptop_device_ids)} laptop models and {len(laptop_reviewed_configurations)} exact configurations.",
                        "4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.",
                        "5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.",
                        "6. Complete model/configuration image matching and preserve image source, license, and attribution metadata.", "",
@@ -747,6 +800,8 @@ def main():
 
     print(json.dumps({
         "models": len(device_rows), "heldOutClaims": held_out_count, "configurations": len(public_variants),
+        "manuallyVerifiedModels": len(manually_verified_models), "manuallyVerifiedConfigurations": len(manually_verified_configurations),
+        "laptopModelsReviewed": len({key[0] for key in laptop_reviewed_configurations}), "laptopConfigurationsReviewed": len(laptop_reviewed_configurations),
         "fieldRows": len(audit_rows), "assessedFields": assessed_field_count,
         "verifiedFields": verified_field_count, "pendingFields": status_counts[STATUS_PENDING],
         "candidateObservations": len(latest.get("observations", [])), "candidatePrices": len(latest.get("prices", [])) + manual_pending_price_count,

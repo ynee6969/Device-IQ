@@ -67,8 +67,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [285, 150, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 467);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [342, 154, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 529);
 assert.deepEqual(Object.fromEntries(["Included", "Pending date", "Pending", "Excluded", "Held out"].map((status) => [status, publicDevices.filter((device) => device.scopeStatus === status).length])), { Included: 28, "Pending date": 29, Pending: 396, Excluded: 3, "Held out": 7 });
 assert.ok(publicDevices.every((device) => device.variants.length &&
   device.sources.every((source) => source.url.startsWith("https://"))));
