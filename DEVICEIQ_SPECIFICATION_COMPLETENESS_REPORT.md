@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-26T00:46:35+08:00
+Generated: 2026-11-26T00:59:50+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -28,7 +28,7 @@ Generated: 2026-11-26T00:46:35+08:00
 | Assessment coverage | 39.98% |
 | Verified coverage | 38.81% |
 | Candidate field observations | 5824 |
-| Candidate prices | 154 |
+| Candidate prices | 275 |
 | Candidate source links | 203 |
 | Image-matched models | 48 |
 | Models with image unavailable | 408 |
@@ -47,12 +47,12 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 
 ## Collection snapshot (candidate evidence, not verified facts)
 
-- Snapshot timestamp: `2026-11-25T16:17:11.455Z`.
+- Snapshot timestamp: `2026-11-25T16:52:43.928Z`.
 - Fetch attempts: 263; successful page extractions: 221.
 - Extracted pages by source type: `{'independent_ph_reference': 202, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 202, 'official': 19}`.
 - Fetch attempts by category: `{'smartphones': 190, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
-- Candidate field observations by source type: `{'independent_ph_reference': 5830, 'local_technology_publication': 6, 'official': 144}`.
-- Candidate prices: 154; discovery links: 203.
+- Candidate field observations by source type: `{'independent_ph_reference': 5951, 'local_technology_publication': 6, 'official': 144}`.
+- Candidate prices: 275; discovery links: 203.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
 - 14602 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 

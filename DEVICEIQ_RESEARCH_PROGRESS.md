@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T00:46:35+08:00
+Updated: 2026-11-26T00:59:50+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -230,7 +230,7 @@ The table counts the existing records and this run's review state; it does not m
 ## Current blockers and next actions
 
 1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.
-2. Review the 5824 source-derived field observations and 154 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
+2. Review the 5824 source-derived field observations and 275 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
 3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover 18/18 laptop models and 22 exact configurations.
 4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.
 5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.
