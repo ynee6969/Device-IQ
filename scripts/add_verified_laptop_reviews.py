@@ -63,9 +63,14 @@ def add_manual_field(manual, existing_catalog, device_id, configuration_id, reco
     for s in record.get("sources", []):
         if not any(x.get("id") == s["id"] for x in review["sources"]):
             review["sources"].append(s)
-    existing_fields = {r.get("fieldId") for r in review.get("fields", [])}
+    existing_fields = {r.get("fieldId"): index for index, r in enumerate(review.get("fields", []))}
     for f in record.get("fields", []):
         if f["fieldId"] in existing_fields:
+            previous = review["fields"][existing_fields[f["fieldId"]]]
+            # A later exact-SKU review may add a public catalog mapping to a
+            # previously audit-only field. Keep the source-backed refinement.
+            if f.get("catalogKey") and not previous.get("catalogKey"):
+                review["fields"][existing_fields[f["fieldId"]]] = f
             continue
         if f.get("catalogKey") and variant:
             old = (variant.get("specs") or {}).get(f["catalogKey"])
@@ -73,7 +78,7 @@ def add_manual_field(manual, existing_catalog, device_id, configuration_id, reco
                 # This replacement is backed by the exact SKU's official page.
                 f["replaceExisting"] = True
         review["fields"].append(f)
-        existing_fields.add(f["fieldId"])
+        existing_fields[f["fieldId"]] = len(review["fields"]) - 1
     if record.get("replacementVariants"):
         review["replacementVariants"] = record["replacementVariants"]
 
@@ -467,10 +472,177 @@ def asus_records():
     return records
 
 
+def supplemental_laptop_records():
+    """Add exact-SKU details found in the official technical tables.
+
+    These fields were still pending after the first review because they are
+    outside the abbreviated product summaries. Values remain tied to the exact
+    Acer part number or ASUS model-code column.
+    """
+    acer_store = "https://store.acer.com/en-ph/intel-corei9-predator-helios-neo-16-phn16-72-99k9-opi-black"
+    acer_specs = "https://www.acer.com/ph-en/predator/laptops/helios/helios-neo-16/pdp/NH.QNNSP.003"
+    intel_specs = "https://www.intel.com/content/www/us/en/products/sku/235995/intel-core-i9-processor-14900hx-36m-cache-up-to-5-80-ghz/specifications.html"
+    asus_specs = "https://www.asus.com/ph/laptops/for-creators/proart/proart-p16-h7606/techspec/"
+    asus_product = "https://www.asus.com/ph/laptops/for-creators/proart/proart-p16-h7606/"
+    asus_launch = "https://www.asus.com/ph/news/6b8nlidlxkjioucl/"
+
+    acer_review = {
+        "deviceId": "device_498860a23a9561",
+        "configurationId": "config_7e6c1ccdc91313",
+        "brand": "Acer",
+        "model": "Predator Helios Neo 16 PHN16-72-99K9",
+        "configuration": "NH.QNNSP.003",
+        "sources": [
+            source("acer_phn16_72_99k9_specs", "Acer Philippines", acer_specs,
+                   "Exact NH.QNNSP.003 technical specifications",
+                   "Acer Philippines product specification page is titled PHN16-72-99K9 and identifies part NH.QNNSP.003."),
+            source("acer_phn16_72_99k9_store_details", "Acer Philippines Official Store", acer_store,
+                   "Exact Philippine SKU detailed specifications",
+                   "Official store page identifies product PHN16-72-99K9 and reference NH.QNNSP.003."),
+            source("intel_i9_14900hx_specs", "Intel", intel_specs,
+                   "Processor core and thread count",
+                   "Intel ARK specification page for the exact Intel Core i9-14900HX CPU installed in this Acer SKU."),
+        ],
+        "fields": [
+            field("cpu_cores_threads", "intel_i9_14900hx_specs",
+                  "24 total cores (8 performance + 16 efficient); 32 threads",
+                  "24 cores / 32 threads",
+                  note="Intel ARK data for the i9-14900HX named on the exact Acer listing."),
+            field("display_color", "acer_phn16_72_99k9_specs",
+                  "100% sRGB color gamut", "100% sRGB",
+                  note="Exact PHN16-72-99K9 manufacturer specification page."),
+            field("touchscreen", "acer_phn16_72_99k9_specs",
+                  "Touchscreen: No", False, key="touchscreen",
+                  note="Explicitly listed as non-touch on the exact part-number specification page."),
+            field("gpu_tgp", "acer_phn16_72_99k9_specs",
+                  "Maximum Graphics Power: up to 140 W", 140, unit="W",
+                  note="Acer's technical specification for NH.QNNSP.003; this is the listed maximum graphics power."),
+            field("battery_life", "acer_phn16_72_99k9_specs",
+                  "Maximum Battery Run Time: 6 Hours",
+                  "Up to 6 hours; test conditions not stated",
+                  note="Acer's published maximum-runtime figure; actual runtime varies by configuration and use."),
+            field("audio", "acer_phn16_72_99k9_store_details",
+                  "HD Audio: Yes; Speakers: Yes; Microphone: Yes",
+                  "HD audio; speakers and microphone included",
+                  key="sound"),
+            field("keyboard", "acer_phn16_72_99k9_store_details",
+                  "FineTip RGB-backlight keyboard with independent standard numeric keypad",
+                  "RGB-backlit FineTip keyboard with numeric keypad",
+                  key="keyboard"),
+            field("touchpad", "acer_phn16_72_99k9_store_details",
+                  "Multi-gesture touchpad, supporting two-finger scroll",
+                  "Multi-gesture touchpad with two-finger scrolling"),
+            field("ports", "acer_phn16_72_99k9_store_details",
+                  "HDMI x1; USB 3.2 Gen 1 Type-A x1; USB 3.2 Gen 2 Type-A x2; USB 3.2 Type-C x2; RJ-45; audio line-in; headphone",
+                  "HDMI; 1 x USB-A Gen 1; 2 x USB-A Gen 2; 2 x USB-C; RJ-45; audio line-in; headphone",
+                  key="ports"),
+            field("ethernet", "acer_phn16_72_99k9_store_details",
+                  "Killer Ethernet E3100G; 2.5 Gigabit Ethernet",
+                  "Killer E3100G 2.5 Gigabit Ethernet"),
+            field("charging", "acer_phn16_72_99k9_store_details",
+                  "3-pin 330 W AC adapter", "330 W AC adapter"),
+            field("weight", "acer_phn16_72_99k9_store_details",
+                  "Weight (approximate): 2.80 kg", 2800, key="weightG", unit="g"),
+            field("security", "acer_phn16_72_99k9_specs",
+                  "Kensington lock slot; Firmware Trusted Platform Module (TPM) solution",
+                  "Kensington lock slot; firmware TPM"),
+            field("warranty", "acer_phn16_72_99k9_store_details",
+                  "2 Years Warranty", "2-year warranty"),
+        ],
+    }
+
+    asus_review = {
+        "deviceId": "device_8cef5fb897991d",
+        "configurationId": "device_8cef5fb897991d-h7606ww-se021wsm",
+        "brand": "ASUS",
+        "model": "ProArt P16 (H7606)",
+        "configuration": "H7606WW-SE021WSM",
+        "sources": [
+            source("asus_proart_p16_specs", "ASUS Philippines", asus_specs,
+                   "Exact H7606WW technical specifications",
+                   "ASUS technical table distinguishes H7606WW from H7606WI; values below use the H7606WW column."),
+            source("asus_proart_p16_product", "ASUS Philippines", asus_product,
+                   "Exact H7606WW Philippine product and warranty details",
+                   "Philippine product page identifies H7606WW-SE021WSM, its PHP starting price and local warranty terms."),
+            source("asus_proart_launch_20260420", "ASUS Philippines", asus_launch,
+                   "Philippine launch announcement",
+                   "ASUS announced the local launch on 2026-04-20 and said authorized-store availability would follow in the coming weeks; first retail date is not inferred.",
+                   "2026-04-20"),
+        ],
+        "fields": [
+            field("philippine_release_date", "asus_proart_launch_20260420",
+                  "ASUS announced the Philippine launch of ProArt P16 on 2026-04-20; authorized-store availability was to follow later",
+                  "2026-04-20",
+                  note="This is the official Philippine launch announcement date, not an inferred first retail-sale date."),
+            field("ram_upgradeability", "asus_proart_p16_specs",
+                  "64GB LPDDR5X on board; maximum total system memory up to 64GB",
+                  64, key="ramMaxGb", unit="GB",
+                  note="All 64GB is onboard; ASUS lists 64GB as the maximum total system memory."),
+            field("storage_slots", "asus_proart_p16_specs",
+                  "1 x M.2 2280 PCIe 4.0 x4 + 1 x M.2 2280 PCIe 4.0 x2",
+                  "2 x M.2 2280 slots (PCIe 4.0 x4 and PCIe 4.0 x2)"),
+            field("battery_capacity", "asus_proart_p16_specs",
+                  "90WHrs, 4S1P, 4-cell Li-ion", 90, key="batteryWh", unit="Wh"),
+            field("charging", "asus_proart_p16_specs",
+                  "240W AC adapter; charger inclusion varies by country, region, and model",
+                  "240 W AC adapter specification; in-box inclusion varies by region"),
+            field("webcam", "asus_proart_p16_specs",
+                  "FHD camera with IR function to support Windows Hello",
+                  "FHD infrared camera; Windows Hello support"),
+            field("audio", "asus_proart_p16_specs",
+                  "Built-in array microphone; built-in speaker; Smart Amp Technology",
+                  "Built-in speaker and array microphone; Smart Amp",
+                  key="sound"),
+            field("keyboard", "asus_proart_p16_specs",
+                  "Backlit Chiclet Keyboard; 1.7 mm key travel; Copilot key",
+                  "Backlit chiclet keyboard; 1.7 mm travel; Copilot key",
+                  key="keyboard"),
+            field("touchpad", "asus_proart_p16_specs",
+                  "Precision touchpad, support DialPad",
+                  "Precision touchpad with DialPad support"),
+            field("ports", "asus_proart_p16_specs",
+                  "2 x USB 3.2 Gen 2 Type-A; 1 x USB4 Gen 3 Type-C (up to 40Gbps, display/power delivery); 1 x USB 3.2 Gen 2 Type-C (up to 10Gbps, display/power delivery); DC-in; 3.5mm combo audio; HDMI 2.1 FRL; SD Express 7.0 card reader",
+                  "2 x USB-A 10Gbps; USB4 Type-C 40Gbps; USB-C 10Gbps; DC-in; 3.5 mm combo; HDMI 2.1 FRL; SD Express 7.0",
+                  key="ports"),
+            field("wifi", "asus_proart_p16_specs",
+                  "Wi-Fi 7 (802.11be), triple-band, 2x2",
+                  "Wi-Fi 7, triple-band 2x2", key="wifi"),
+            field("bluetooth", "asus_proart_p16_specs",
+                  "Bluetooth 5.4 wireless card; version may vary with OS and driver support",
+                  "Bluetooth 5.4 (version may vary with OS and driver availability)"),
+            field("dimensions", "asus_proart_p16_specs",
+                  "35.49 x 24.69 x 1.49–1.83 cm", "35.49 x 24.69 x 1.49–1.83 cm",
+                  key="dimensions"),
+            field("weight", "asus_proart_p16_specs", "1.95 kg", 1950, key="weightG", unit="g"),
+            field("security", "asus_proart_p16_specs",
+                  "Firmware TPM; Microsoft Pluton security processor; IR webcam with Windows Hello support",
+                  "Firmware TPM; Microsoft Pluton; IR Windows Hello camera"),
+            field("warranty", "asus_proart_p16_product",
+                  "3Y Warranty; 1 Year Local Accidental Damage Protection + Local On-site Support",
+                  "3-year warranty; 1-year local accidental damage protection and local on-site support"),
+            {
+                "fieldId": "battery_life", "status": "NOT_DISCLOSED",
+                "sourceId": "asus_proart_p16_specs",
+                "sourceValue": "ASUS Philippines technical specification table lists battery capacity but no runtime estimate for H7606WW.",
+                "normalizedValue": None, "unit": "hours",
+                "note": "Runtime is not stated on the cited H7606WW technical table; no endurance figure was inferred.",
+            },
+            {
+                "fieldId": "gpu_tgp", "status": "NOT_DISCLOSED",
+                "sourceId": "asus_proart_p16_specs",
+                "sourceValue": "ASUS Philippines technical specification table identifies the GPU and VRAM but does not state a total graphics power value for H7606WW.",
+                "normalizedValue": None, "unit": "W",
+                "note": "No TGP value is published in the cited H7606WW technical table; none was inferred from the GPU model.",
+            },
+        ],
+    }
+    return [acer_review, asus_review]
+
+
 def main():
     manual = json.loads(MANUAL.read_text(encoding="utf-8"))
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
-    reviews = acer_records() + asus_records()
+    reviews = acer_records() + asus_records() + supplemental_laptop_records()
     for record in reviews:
         add_manual_field(manual, catalog, record["deviceId"], record["configurationId"], record)
     manual["reviewedAt"] = OBSERVED

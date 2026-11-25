@@ -20,6 +20,7 @@ OUTPUT = ROOT / "lib/catalog/public-inventory.json"
 METADATA = ROOT / "research/catalog-workbook-source.json"
 MANIFEST = ROOT / "lib/catalog/image-manifest.json"
 ALIASES = ROOT / "research/catalog-image-aliases.json"
+UNAVAILABLE_IMAGES = ROOT / "research/catalog-image-unavailable.json"
 MANUAL_REVIEWS = ROOT / "research/enrichment/manual-field-reviews.json"
 
 parser = argparse.ArgumentParser()
@@ -106,6 +107,7 @@ excluded_rows = rows("EXCLUDED RECORDS")
 excluded_by_identity = {(row["Category"], row["Brand"], row["Device Name"]): row for row in excluded_rows}
 manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
 aliases = json.loads(ALIASES.read_text(encoding="utf-8")) if ALIASES.exists() else {}
+unavailable_images = json.loads(UNAVAILABLE_IMAGES.read_text(encoding="utf-8")) if UNAVAILABLE_IMAGES.exists() else {}
 
 
 def sources_for(device_id, primary_url):
@@ -133,7 +135,11 @@ def sources_for(device_id, primary_url):
 def image_id_for(device_id):
     candidate = device_id if device_id in manifest else aliases.get(device_id)
     if candidate and candidate not in manifest:
-        raise ValueError(f"Image alias not in manifest: {device_id} -> {candidate}")
+        if device_id in unavailable_images:
+            return None
+        raise ValueError(f"Image alias not in manifest and has no rights/match review: {device_id} -> {candidate}")
+    if not candidate and device_id not in unavailable_images:
+        raise ValueError(f"Image status is missing for catalog device: {device_id}")
     return candidate
 
 
@@ -254,9 +260,14 @@ for review in manual_reviews.get("records", []):
     replacement_variants = review.get("replacementVariants")
     if replacement_variants:
         current_variants = device["variants"]
-        if (len(current_variants) != 1 or not current_variants[0]["id"].endswith("-unrecorded")
-                or current_variants[0].get("specs")):
+        is_unrecorded_placeholder = (
+            len(current_variants) == 1
+            and current_variants[0]["id"].endswith("-unrecorded")
+        )
+        if not is_unrecorded_placeholder:
             raise ValueError(f"Cannot replace a non-empty/unexpected variant set: {device['id']}")
+        if current_variants[0].get("specs") and not review.get("replaceUnrecordedPlaceholder"):
+            raise ValueError(f"Replacing a populated placeholder needs explicit source-backed approval: {device['id']}")
         template = current_variants[0]
         ids = [item.get("id") for item in replacement_variants]
         if len(ids) != len(set(ids)) or any(not item for item in ids):
@@ -285,7 +296,7 @@ for review in manual_reviews.get("records", []):
             })
     variant = next((item for item in device["variants"] if item["id"] == review["configurationId"]), None)
     if not variant:
-        raise ValueError(f"Manual specification review references unknown configuration: {review['configurationId']}")
+        raise ValueError(f"Manual specification review references unknown configuration: {review['configurationId']} for {device['id']}; available={[item['id'] for item in device['variants']]}")
     if review.get("configurationLabel"):
         variant["label"] = review["configurationLabel"]
     if review.get("sku"):
@@ -297,6 +308,20 @@ for review in manual_reviews.get("records", []):
         source = sources_by_id.get(reviewed_field.get("sourceId"))
         if not source or not source.get("url", "").startswith("https://"):
             raise ValueError(f"Manual field lacks a valid source: {device['id']} {reviewed_field.get('fieldId')}")
+        clear_catalog_key = reviewed_field.get("clearCatalogKey")
+        if clear_catalog_key:
+            # A reviewed field can be valid at model level while not having one
+            # value for an unidentified variant. Clear the old scalar and keep
+            # the evidence row as a source-backed range in the public audit.
+            variant["specs"][clear_catalog_key] = None
+            variant.setdefault("specSources", {}).pop(clear_catalog_key, None)
+        if reviewed_field.get("status") == "CONFLICTING_INFORMATION" and reviewed_field.get("catalogKey"):
+            # Do not keep a previously populated public value when the reviewed
+            # primary sources disagree. The field audit carries the conflict;
+            # the catalog shows the field as unavailable until it is resolved.
+            variant["specs"][reviewed_field["catalogKey"]] = None
+            variant.setdefault("specSources", {}).pop(reviewed_field["catalogKey"], None)
+            continue
         if reviewed_field.get("status") not in {"VERIFIED", "VERIFIED_SECONDARY"}:
             continue
         catalog_key = reviewed_field.get("catalogKey")
@@ -304,7 +329,7 @@ for review in manual_reviews.get("records", []):
         if catalog_key:
             previous = variant["specs"].get(catalog_key)
             if previous is not None and str(previous) != str(catalog_value) and not reviewed_field.get("replaceExisting"):
-                raise ValueError(f"Manual review conflicts with inventory value: {device['id']} {reviewed_field['fieldId']}")
+                raise ValueError(f"Manual review conflicts with inventory value: {device['id']} {reviewed_field['fieldId']} ({previous!r} != {catalog_value!r})")
             variant["specs"][catalog_key] = catalog_value
             variant["specSources"][catalog_key] = source["url"]
         if reviewed_field.get("fieldId") == "current_price_php":
@@ -332,6 +357,19 @@ for review in manual_reviews.get("records", []):
                 "publishedAt": source.get("publicationDate"), "purpose": source.get("purpose") or "Variant specifications",
                 "note": source.get("note"),
             })
+    availability = review.get("availabilityEvidence")
+    if availability:
+        device["verificationStatus"] = availability.get("verificationStatus", device["verificationStatus"])
+        device["availabilityStatus"] = availability.get("availabilityStatus", device["availabilityStatus"])
+        device["philippineAvailability"] = availability.get("philippineAvailability", device["philippineAvailability"])
+        device["localEvidenceObservedAt"] = availability.get("observedAt", device.get("localEvidenceObservedAt"))
+        device["qualityFlag"] = availability.get("qualityFlag", device.get("qualityFlag"))
+        # The source confirms local listing but not launch/first-sale date; keep
+        # the workbook's eligibility scope and surface this remaining issue.
+        device["openIssues"] = [{
+            "issue": "Philippine launch or first authorized sale date not recorded",
+            "action": "Find a dated Philippine launch or authorized-sale notice; do not infer it from a general product launch date.",
+        }]
 
 if len(master) != 456 or len(catalog) != 463:
     raise ValueError(f"Unexpected workbook inventory counts: {len(master)} master, {len(catalog)} public")

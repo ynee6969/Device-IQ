@@ -15,6 +15,16 @@ const selectedId = process.argv.includes('--device-id') ? process.argv[process.a
 const agent = 'DeviceIQResearchBot/1.0 (+https://github.com/ynee6969/Device-IQ; catalog imagery)';
 const allowedHosts = new Set(['images.samsung.com', 'dlcdnwebimgs.asus.com']);
 
+function reusableRights(source) {
+  if (source.rightsStatus === 'LICENSED') {
+    return Boolean(source.licenseUrl && source.usageTerms && source.credit);
+  }
+  if (source.rightsStatus === 'PERMISSION_GRANTED') {
+    return Boolean(source.permissionEvidenceUrl && source.usageTerms && source.credit);
+  }
+  return false;
+}
+
 async function get(url, maxBytes, wantImage = false) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
@@ -75,9 +85,13 @@ async function main() {
     seen.add(source.deviceId);
     const file = resolve(root, `public/catalog-images/${source.deviceId}.webp`);
     try {
+      if (source.method !== 'existing' && !reusableRights(source)) {
+        throw new Error('Image reuse rights are not documented; add an approved license or written permission first');
+      }
       if (source.method === 'existing') {
         const prior = manifest[source.existingImageId];
         if (!prior) throw new Error(`Missing existing image ${source.existingImageId}`);
+        if (!prior.licenseUrl && !prior.permissionEvidenceUrl) throw new Error('Existing image has no documented reuse license or written permission');
         await access(resolve(root, `public${prior.path}`));
         manifest[source.deviceId] = prior;
         console.log(`Existing: ${device.brand} ${device.model}`);
@@ -97,7 +111,10 @@ async function main() {
       await mkdir(dirname(file), { recursive: true });
       await sharp(image.bytes).rotate().resize({ width: 900, height: 650, fit: 'inside', withoutEnlargement: true }).webp({ quality: 84 }).toFile(file);
       manifest[source.deviceId] = { path: `/catalog-images/${source.deviceId}.webp`, sourcePage: source.pageUrl, assetUrl: asset.href, scope: source.scope,
-        ...(source.credit ? { credit: source.credit } : {}), ...(source.usageTerms ? { usageTerms: source.usageTerms } : {}) };
+        credit: source.credit, usageTerms: source.usageTerms,
+        ...(source.licenseUrl ? { licenseUrl: source.licenseUrl } : {}),
+        ...(source.rightsCheckedAt ? { rightsCheckedAt: source.rightsCheckedAt } : {}),
+        ...(source.permissionEvidenceUrl ? { permissionEvidenceUrl: source.permissionEvidenceUrl } : {}) };
       console.log(`Added: ${device.brand} ${device.model} (${meta.width}×${meta.height})`);
     } catch (error) { failures.push({ device: `${device.brand} ${device.model}`, error: String(error.message || error) }); console.error(`Failed: ${device.brand} ${device.model}: ${error.message || error}`); }
   }

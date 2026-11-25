@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import shutil
 from collections import Counter, defaultdict
@@ -142,6 +143,14 @@ OBSERVATION_TO_FIELD = {
     "dimensions": "dimensions", "charging": "wired_charging", "wifi": "wifi", "bluetooth": "bluetooth",
     "nfc": "nfc", "sim": "sim_esim", "front_camera": "front_camera", "rear_camera": "rear_camera_system",
     "ip_rating": "ingress_protection", "ports": "ports",
+    "cellular": "cellular_bands", "display_technology": "display_technology",
+    "display_brightness": "display_brightness", "display_protection": "display_protection",
+    "storage_expansion": "storage_expansion", "storage_type": "storage_type",
+    "ram_type": "ram_type", "battery_technology": "battery_technology",
+    "main_camera_sensor": "main_camera_sensor", "ultrawide_camera": "ultrawide_camera",
+    "telephoto_camera": "telephoto_camera", "video_recording": "video_recording",
+    "materials": "materials", "audio": "audio", "sensors": "sensors", "gnss": "gnss",
+    "tablet_stylus": "tablet_stylus", "keyboard": "tablet_keyboard", "usb": "usb",
 }
 STATUS_PENDING = "PENDING_VERIFICATION"
 ASSESSED_STATUSES = {"VERIFIED", "VERIFIED_SECONDARY", "NOT_DISCLOSED", "NOT_APPLICABLE", "UNAVAILABLE_AFTER_RESEARCH", "CONFLICTING_INFORMATION"}
@@ -201,7 +210,16 @@ def style_sheet(ws, header_row=1):
         ws.column_dimensions[letter].width = max(12, max_len + 2)
 
 
-def make_workbook_copy(source: Path, target: Path, audit_rows: list[dict], summaries: list[dict], lookups: list[dict], prices: list[dict], devices_by_id: dict[str, dict], image_manifest: dict[str, dict]):
+def write_large_text(path: Path, text: str) -> None:
+    """Write large JSON artifacts in bounded chunks and replace atomically."""
+    temporary = path.with_name(path.name + ".tmp")
+    with temporary.open("w", encoding="utf-8", newline="\n") as output:
+        for start in range(0, len(text), 1024 * 1024):
+            output.write(text[start:start + 1024 * 1024])
+    os.replace(temporary, path)
+
+
+def make_workbook_copy(source: Path, target: Path, audit_rows: list[dict], summaries: list[dict], lookups: list[dict], prices: list[dict], devices_by_id: dict[str, dict], image_manifest: dict[str, dict], unavailable_images: dict[str, dict]):
     from openpyxl import load_workbook
     from openpyxl.utils import get_column_letter
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -262,22 +280,32 @@ def make_workbook_copy(source: Path, target: Path, audit_rows: list[dict], summa
     price_ws.column_dimensions["N"].width = 60
 
     image_ws = wb.create_sheet("IMAGE AUDIT")
-    image_ws.append(["Device ID", "Category", "Brand", "Exact model", "Claimed research year", "Image status", "Match scope", "Asset path", "Source page", "Image asset URL", "Credit", "Usage terms", "License URL", "Changes / attribution note", "Alt text", "Manual image lookup"])
+    image_ws.append(["Device ID", "Category", "Brand", "Exact model", "Claimed research year", "Image status", "Match scope", "Asset path", "Source page", "Image asset URL", "Credit", "Usage terms", "License URL", "Rights checked date", "Rights status / reason", "Rights terms URL", "Changes / attribution note", "Alt text", "Manual image lookup"])
     for device in devices_by_id.values():
         image_key = device.get("imageId") or device.get("id")
         image = image_manifest.get(image_key)
+        unavailable = unavailable_images.get(device.get("id"), {})
+        display_status = {
+            "REUSE_PERMISSION_REQUIRED": "Image unavailable - reuse permission required",
+            "REUSE_RIGHTS_NOT_ESTABLISHED": "Image unavailable - reuse rights not established",
+            "NO_RELIABLE_MATCH": "Image unavailable - no reliable exact match",
+        }
+        image_status = "Reviewed image with reusable license" if image else display_status.get(
+            unavailable.get("status"), unavailable.get("status", "Image status not recorded"))
         query = quote_plus(f'"{device.get("brand", "")}" "{device.get("model", "")}" official product image')
         image_ws.append([
             device.get("id"), device.get("category"), device.get("brand"), device.get("model"), year_for(device),
-            "Reviewed image assigned" if image else "Image unavailable - research pending",
+            image_status,
             (image or {}).get("scope"), (image or {}).get("path"), (image or {}).get("sourcePage"),
             (image or {}).get("assetUrl"), (image or {}).get("credit"), (image or {}).get("usageTerms"),
-            (image or {}).get("licenseUrl"), (image or {}).get("changes"),
+            (image or {}).get("licenseUrl"), (image or {}).get("rightsCheckedAt"),
+            unavailable.get("reason") if not image else None, unavailable.get("rightsTermsUrl") if not image else None,
+            (image or {}).get("changes"),
             f"{device.get('brand', '')} {device.get('model', '')} product image" if image else f"Image unavailable for {device.get('brand', '')} {device.get('model', '')}",
             f"https://www.google.com/search?q={query}",
         ])
     style_sheet(image_ws)
-    for column, width in {"I": 70, "J": 70, "N": 55, "P": 82}.items():
+    for column, width in {"I": 70, "J": 70, "O": 65, "P": 65, "Q": 55, "S": 82}.items():
         image_ws.column_dimensions[column].width = width
     wb.save(target)
 
@@ -295,6 +323,7 @@ def main():
     latest = json.loads(args.latest.read_text(encoding="utf-8")) if args.latest.exists() else {"observations": [], "prices": [], "fetches": [], "discovery": []}
     source_policy = json.loads(args.source_policy.read_text(encoding="utf-8"))
     image_manifest = json.loads((ROOT / "lib/catalog/image-manifest.json").read_text(encoding="utf-8"))
+    unavailable_images = json.loads((ROOT / "research/catalog-image-unavailable.json").read_text(encoding="utf-8")) if (ROOT / "research/catalog-image-unavailable.json").exists() else {}
     manual_reviews = json.loads((AUDIT_DIR / "manual-field-reviews.json").read_text(encoding="utf-8")) if (AUDIT_DIR / "manual-field-reviews.json").exists() else {"records": []}
     manual_by_key = {}
     manual_source_by_id = {}
@@ -528,7 +557,7 @@ def main():
         "recordCount": len(device_rows), "configurationCount": len(public_variants), "fieldRowCount": len(audit_rows),
         "records": audit_rows,
     }
-    (AUDIT_DIR / "specification-field-audit.json").write_text(json.dumps(full_audit, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    write_large_text(AUDIT_DIR / "specification-field-audit.json", json.dumps(full_audit, ensure_ascii=False, separators=(",", ":")) + "\n")
     public = {
         "generatedAt": full_audit["generatedAt"], "fieldDefinitions": fields_json,
         "sourcePolicies": [
@@ -538,7 +567,7 @@ def main():
         ],
         "variants": public_variants,
     }
-    PUBLIC_AUDIT.write_text(json.dumps(public, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    write_large_text(PUBLIC_AUDIT, json.dumps(public, ensure_ascii=False, separators=(",", ":")) + "\n")
 
     status_counts = Counter(row["verification_status"] for row in audit_rows)
     category_summary = {}
@@ -580,6 +609,10 @@ def main():
         if item.get("status") != "extracted":
             unextracted_by_id[item.get("device_id")] += 1
     image_count = sum(bool(image_manifest.get(d.get("imageId") or d.get("id"))) for d in device_rows)
+    image_unavailable_counts = Counter(
+        unavailable_images.get(d["id"], {}).get("status", "NO_RELIABLE_MATCH")
+        for d in device_rows if not image_manifest.get(d.get("imageId") or d.get("id"))
+    )
     held_out_count = sum(d.get("recordType") == "held_out_claim" for d in devices)
     excluded_count = sum(d.get("scopeStatus") == "Excluded" for d in device_rows)
     held_record_count = sum(d.get("scopeStatus") == "Held out" for d in device_rows) + held_out_count
@@ -656,7 +689,7 @@ def main():
             "unsuccessful_fetch_attempts": sum(unextracted_by_id[d["id"]] for d in grouped),
             "independent_technical_references_checked": 0, "approved_images": images,
             "pending_images": len(grouped) - images,
-            "status": "COMPLETE" if all(model_statuses.get(d["id"]) == "SPECIFICATION_COMPLETE" for d in models) else "COMPLETE_WITH_PENDING_RECORDS",
+            "status": "COMPLETE" if all(model_statuses.get(d["id"]) == "SPECIFICATION_COMPLETE" for d in models) else "PARTIAL_WITH_PENDING_FIELDS",
         })
     by_device = []
     for device in sorted(device_rows, key=lambda d: (d.get("category", ""), d.get("brand", ""), d.get("model", ""))):
@@ -695,7 +728,8 @@ def main():
                      f"- Fetch attempts by category: `{dict(fetch_attempts_by_category)}`; unsuccessful attempts by category: `{dict(fetch_errors_by_category)}`.",
                      f"- Candidate field observations by source type: `{dict(candidate_source_counts)}`.",
                      f"- Candidate prices: {len(latest.get('prices', [])) + manual_pending_price_count}; discovery links: {len(latest.get('discovery', []))}.",
-                     "- Automated source observations and discovery links remain separate from manually reviewed fields; candidates are not promoted on their own.", "",
+                     "- Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.",
+                     f"- {status_counts[STATUS_PENDING]} applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.", "",
                      "## Field backlog", "",
                      "Every category template field is enumerated in `research/enrichment/specification-fields.json`. The full configuration-level evidence matrix is in `research/enrichment/specification-field-audit.json`; a review copy is appended to the supplied workbook when it is available.", "",
                      "| Group | Applicable rows | Assessed | Verified | Pending |", "| --- | ---: | ---: | ---: | ---: |"]
@@ -711,8 +745,9 @@ def main():
     for row in sorted(by_device, key=lambda item: (-item["pending_fields"], -item["missing_catalog_values"], item["year"], item["category"], item["brand"], item["model"])):
         report_lines.append(f"| {row['year']} | {row['category']} | {row['brand']} | {row['model']} | {row['configuration']} | `{row['configuration_id']}` | {row['missing_catalog_values']} | {row['applicable_fields']} | {row['model_status']} |")
     report_lines += ["", "## Philippine market and image coverage", "",
-                     f"- Models with an existing reviewed catalog image assignment: {image_count}/{len(device_rows)}. The remaining {len(device_rows)-image_count} continue to show the neutral unavailable-image placeholder and remain in the image research queue.",
-                     "- This audit added no new images. Exact model match, source page, asset URL, credit, and license/usage notes for existing assignments are listed in the workbook copy's `IMAGE AUDIT` sheet.",
+                     f"- Models with an exact-match catalog image carrying a reusable license: {image_count}/{len(device_rows)}. The remaining {len(device_rows)-image_count} show the neutral unavailable-image placeholder.",
+                     f"- Of those unavailable images, {image_unavailable_counts['REUSE_PERMISSION_REQUIRED']} require reuse permission, {image_unavailable_counts['REUSE_RIGHTS_NOT_ESTABLISHED']} have reuse rights that are not established, and {image_unavailable_counts['NO_RELIABLE_MATCH']} have no reliable exact-model match recorded.",
+                     "- The workbook copy's `IMAGE AUDIT` sheet records each image's source, credit, license, rights-check date, and the reason an image is unavailable. Images without documented reuse rights are not published.",
                      f"- Excluded master records: {excluded_count}; held-out records/claims: {held_record_count}. These are visible with explicit labels but stay outside eligible searches/recommendations.",
                      "- The public site retains each record's existing verification and scope status. This specification audit does not upgrade Philippine availability status.", "",
                      "## Reference source policy", ""]
@@ -793,7 +828,7 @@ def main():
                     "source_url": source.get("url"), "excerpt": reviewed_field.get("sourceValue"),
                 })
         make_workbook_copy(args.workbook, WORKBOOK_COPY, audit_rows, workbook_summaries, lookups,
-                           workbook_prices, {d["id"]: d for d in device_rows}, image_manifest)
+                           workbook_prices, {d["id"]: d for d in device_rows}, image_manifest, unavailable_images)
         print(f"Enriched workbook copy: {WORKBOOK_COPY}")
     elif not args.skip_workbook:
         print(f"Workbook not found; original was not modified: {args.workbook}")

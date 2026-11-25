@@ -1,851 +1,530 @@
 {
-  "poco-f7": {
-    "path": "/catalog-images/poco-f7.webp",
-    "sourcePage": "https://www.mi.com/ph/product/poco-f7/specs/",
-    "assetUrl": "https://i02.appmifile.com/374_operator_sg/10/06/2025/b9f8f21862a0c7fc641ac7169d377d86.png",
-    "scope": "Exact model"
-  },
-  "poco-f7-pro": {
-    "path": "/catalog-images/poco-f7-pro.webp",
-    "sourcePage": "https://www.mi.com/ph/product/poco-f7-pro/specs/",
-    "assetUrl": "https://i02.appmifile.com/551_operator_sg/12/03/2025/de183c9fe0f4b74c5eeaf488d552601d.png",
-    "scope": "Exact model"
-  },
-  "poco-f7-ultra": {
-    "path": "/catalog-images/poco-f7-ultra.webp",
-    "sourcePage": "https://www.mi.com/ph/product/poco-f7-ultra/specs/",
-    "assetUrl": "https://i02.appmifile.com/465_operator_sg/12/03/2025/31acf858b93dd16ef13a9cc878d926c0.png",
-    "scope": "Exact model"
-  },
-  "poco-x7-pro": {
-    "path": "/catalog-images/poco-x7-pro.webp",
-    "sourcePage": "https://www.mi.com/ph/product/poco-x7-pro/specs/",
-    "assetUrl": "https://i02.appmifile.com/764_operator_sg/16/12/2024/e1ac4e4cd470a6eeba65765ec7fc8f2b.png",
-    "scope": "Exact model"
-  },
-  "xiaomi-15": {
-    "path": "/catalog-images/xiaomi-15.webp",
-    "sourcePage": "https://www.mi.com/ph/product/xiaomi-15/specs/",
-    "assetUrl": "https://i02.appmifile.com/870_operator_sg/26/02/2025/284d8b19d8fe25e9da457af1814be782.png",
-    "scope": "Exact model"
-  },
-  "xiaomi-15-ultra": {
-    "path": "/catalog-images/xiaomi-15-ultra.webp",
-    "sourcePage": "https://www.mi.com/ph/product/xiaomi-15-ultra/specs/",
-    "assetUrl": "https://i02.appmifile.com/427_operator_sg/19/02/2025/0c3f10239cafb5c1524422a9ac8aade8.png",
-    "scope": "Exact model"
-  },
-  "redmi-note-14": {
-    "path": "/catalog-images/redmi-note-14.webp",
-    "sourcePage": "https://www.mi.com/ph/product/redmi-note-14/specs/",
-    "assetUrl": "https://i02.appmifile.com/428_operator_sg/31/12/2024/0303cb5b1e57dd62ba287162983a288f.png",
-    "scope": "Exact model"
-  },
-  "redmi-note-14-5g": {
-    "path": "/catalog-images/redmi-note-14-5g.webp",
-    "sourcePage": "https://www.mi.com/ph/product/redmi-note-14-5g/specs/",
-    "assetUrl": "https://i02.appmifile.com/98_operator_sg/31/12/2024/ad40037176bc694a2b4dc321a2bf3e00.png",
-    "scope": "Exact model"
-  },
-  "redmi-note-14-pro-5g": {
-    "path": "/catalog-images/redmi-note-14-pro-5g.webp",
-    "sourcePage": "https://www.mi.com/ph/product/redmi-note-14-pro-5g/specs/",
-    "assetUrl": "https://i02.appmifile.com/271_operator_sg/31/12/2024/e73d38508a897cf26189cf4195f7c4c7.png",
-    "scope": "Exact model"
-  },
-  "xiaomi-pad-7": {
-    "path": "/catalog-images/xiaomi-pad-7.webp",
-    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-7/specs/",
-    "assetUrl": "https://i02.appmifile.com/603_operator_sg/28/02/2025/3a1977bd13ab44d01273c6512fab01df.png",
-    "scope": "Exact model"
-  },
-  "xiaomi-pad-7-pro": {
-    "path": "/catalog-images/xiaomi-pad-7-pro.webp",
-    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-7-pro/specs/",
-    "assetUrl": "https://i02.appmifile.com/149_operator_sg/19/02/2025/5f0e3fbf0973079fc48af2a82819c602.png",
-    "scope": "Exact model"
-  },
-  "xiaomi-pad-8": {
-    "path": "/catalog-images/xiaomi-pad-8.webp",
-    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-8/specs/",
-    "assetUrl": "https://i02.appmifile.com/739_operator_sg/09/02/2026/16ac1e23cfff3a6d61355e14c376299a.png",
-    "scope": "Exact model"
-  },
-  "xiaomi-pad-8-pro": {
-    "path": "/catalog-images/xiaomi-pad-8-pro.webp",
-    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-8-pro/specs/",
-    "assetUrl": "https://i02.appmifile.com/925_operator_sg/26/01/2026/c5e223caa19caa68758faf2bb646162c.png",
-    "scope": "Exact model"
-  },
-  "xiaomi-pad-mini": {
-    "path": "/catalog-images/xiaomi-pad-mini.webp",
-    "sourcePage": "https://www.mi.com/ph/product/xiaomi-pad-mini/specs/",
-    "assetUrl": "https://i02.appmifile.com/574_operator_sg/02/09/2025/d0f5906acb1f164a44372ce27d8ba548.jpg",
-    "scope": "Exact model"
-  },
-  "poco-pad-m1": {
-    "path": "/catalog-images/poco-pad-m1.webp",
-    "sourcePage": "https://www.mi.com/ph/product/poco-pad-m1/specs/",
-    "assetUrl": "https://i02.appmifile.com/119_operator_sg/11/11/2025/2df07e6f9167e9dc618159f2d3b0d529.png",
-    "scope": "Exact model"
-  },
-  "poco-pad-x1": {
-    "path": "/catalog-images/poco-pad-x1.webp",
-    "sourcePage": "https://www.mi.com/ph/product/poco-pad-x1/specs/",
-    "assetUrl": "https://i02.appmifile.com/422_operator_sg/21/11/2025/e34c93f69a635eb733e657def3a55ab7.jpg",
-    "scope": "Exact model"
-  },
-  "redmi-pad-se-87-4g": {
-    "path": "/catalog-images/redmi-pad-se-87-4g.webp",
-    "sourcePage": "https://www.mi.com/ph/product/redmi-pad-se-8-7-inch-4g/specs/",
-    "assetUrl": "https://i02.appmifile.com/996_operator_sg/12/07/2024/acec6fc54aca76e084e2a27bca7ed053.png",
-    "scope": "Exact model"
-  },
-  "redmi-pad-2-pro": {
-    "path": "/catalog-images/redmi-pad-2-pro.webp",
-    "sourcePage": "https://www.mi.com/ph/product/redmi-pad-2-pro/specs/",
-    "assetUrl": "https://i02.appmifile.com/788_operator_sg/04/09/2025/e4cee5114cb66379c6b26a9419dffa75.png",
-    "scope": "Exact model"
-  },
-  "samsung-galaxy-a56-5g": {
-    "path": "/catalog-images/samsung-galaxy-a56-5g.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a56-5g-awesome-graphite-128gb-sm-a566bzksphl/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-a566bzksphl/gallery/ph-galaxy-a56-5g-sm-a566-sm-a566bzksphl-thumb-545321110",
-    "scope": "Exact model"
-  },
-  "samsung-tab-s10-fe": {
-    "path": "/catalog-images/samsung-tab-s10-fe.webp",
-    "sourcePage": "https://www.samsungebiz.com/event/galaxycampus/tablets/galaxy-tab-s10fe-wifi-x520/SM-X520NZAAKOO",
-    "assetUrl": "https://images.samsung.com/kdp/goods/2025/07/03/4b69e758-c578-46b7-a3f6-70a38dfe0051.jpg",
-    "scope": "Exact model, available Philippine color"
-  },
-  "acer-swift-go-sfg14-75": {
-    "path": "/catalog-images/acer-swift-go-sfg14-75.webp",
-    "sourcePage": "https://www.gigahertz.com.ph/products/acer-swift-go-sfg14-75-55mb-14-wuxga-intel-core-ultra-5-processor-16gb-ram-512gb-ssd-intel%C2%AE-arc%E2%84%A2-graphics-130v-win11",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-swift-go-sfg14-75-55mb-14-wuxga-intel-core-ultra-5-processor-16gb-ram-512gb-ssd-intel-arc-graphics-130v-win11-gigahertz-gigahertz-9079915.jpg?v=1790231053",
-    "scope": "Exact model"
-  },
-  "acer-swift-go-sfg14-01": {
-    "path": "/catalog-images/acer-swift-go-sfg14-01.webp",
-    "sourcePage": "https://www.gigahertz.com.ph/products/acer-swift-go-14-sfg14-01-x2px-opi-14-5-16gb-ram-1tb-ssd-win-11",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-swift-go-sfg14-01-x2px-steel-gray-145inch-wuxga-qualcomm-snapdragon-x-plus-qualcomm-adreno-16gb-ram-1tb-ssd-win-11-gigahertz-gigahertz-8558669.png?v=1790231116",
-    "scope": "Exact model"
-  },
-  "acer-swift-sf14-51": {
-    "path": "/catalog-images/acer-swift-sf14-51.webp",
-    "sourcePage": "https://ecommerce.datablitz.com.ph/products/acer-swift-14-ai-sf14-51-553d-laptop-frost-blue-14-wqxga-2880x1800-oled-ultra-5-228v-32gb-ram-1tb-ssd-intel-arc-graphics-windows-11-home-ms-office-home-2024-ms-365-basic-acer-entry-run-rate-backpack-e-1620-p",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ags45s4d5gs4adg.jpg?v=1777596106",
-    "scope": "Exact model"
-  },
-  "acer-aspire-lite-al15-33p": {
-    "path": "/catalog-images/acer-aspire-lite-al15-33p.webp",
-    "sourcePage": "https://ee.co.uk/products/acer-aspire-lite-al15-33p",
-    "assetUrl": "https://dam.ee.co.uk/image/786263124743/image_ar4ivevds16tb5e2uf5olaeb17/-S1568x1568-FWEBP",
-    "scope": "Model family"
-  },
-  "acer-aspire-go-ag15-43p": {
-    "path": "/catalog-images/acer-aspire-go-ag15-43p.webp",
-    "sourcePage": "https://ecommerce.datablitz.com.ph/products/acer-aspire-go-15-ag15-43p-r19x-laptop-pure-silver-15-6-fhd-1920x1080-ips-ryzen-5-7640hs-16gb-ram-512gb-ssd-amd-radeon-680m-graphics-windows-11-home-ms-office-home-2024-acer-bpkm6-b12-backpack",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/tnsryndtyh.jpg?v=1777003933",
-    "scope": "Exact model"
-  },
-  "acer-aspire-lite-al14-42p": {
-    "path": "/catalog-images/acer-aspire-lite-al14-42p.webp",
-    "sourcePage": "https://www.octagon.com.ph/products/acer-aspire-lite-al14-42p-r1lf-ryzen-3-5300u-8gb-512gb-ssd-14-wuxga-ips-office-h-s-2024-m365-win-11-natural-titanium",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/5_c7a2518e-babc-4181-aec7-55546378a543.jpg?v=1768272402",
-    "scope": "Exact model"
-  },
-  "acer-predator-phn16-73": {
-    "path": "/catalog-images/acer-predator-phn16-73.webp",
-    "sourcePage": "https://www.gigahertz.com.ph/products/acer-predator-helios-neo-16-phn16-73-93y5-16in-wqxga-240hz-core-ultra-9-275hx-32gb-ram-1tb-ssd-rtx-5070ti-12gb-140w",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-predator-helios-neo-16-phn16-73-93y5-16in-wqxga-240hz-core-ultra-9-275hx-32gb-ram-1tb-ssd-rtx-5070ti-12gb-140w-gigahertz-gigahertz-5753367.webp?v=1790231058",
-    "scope": "Exact model"
-  },
-  "acer-swift-air-sfa14": {
-    "path": "/catalog-images/acer-swift-air-sfa14.webp",
-    "sourcePage": "https://news.acer.com/acer-launches-new-swift-air-14-powered-by-latest-intel-core-series-3-processors",
-    "assetUrl": "https://cdn.assets.prezly.com/34850561-cd26-4e01-8e83-ef24bccd7fb5/-/preview/1000x1000/-/resize/800/Acer-Swift-Air-14-SFA14-I31-Family-01.jpg",
-    "scope": "Exact model family, pictured colors may vary"
-  },
-  "acer-predator-phn16s-71": {
-    "path": "/catalog-images/acer-predator-phn16s-71.webp",
-    "sourcePage": "https://www.gigahertz.com.ph/products/lap-acer-phn16s-71-9269-16-wqxga-intel-core-ultra-9-275hx-geforce-rtx-5070-32gb-ram-1tb-ssd-win-11",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-helios-neo-slim-16-phn16s-71-9269-16-wqxga-intel-core-ultra-9-275hx-geforce-rtx-5070-32gb-ram-1tb-ssd-win-11-acer-gigahertz-6965689.webp?v=1790231170",
-    "scope": "Exact model"
-  },
-  "acer-predator-phn16-72": {
-    "path": "/catalog-images/acer-predator-phn16-72.webp",
-    "sourcePage": "https://www.gigahertz.com.ph/products/acer-predator-helios-neo-16-phn16-72-99k9-gaming-laptop",
-    "assetUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-predator-helios-neo-16-phn16-72-99k9-gaming-laptop-acer-laptop-gigahertz-986745.webp?v=1721024071",
-    "scope": "Exact model"
-  },
-  "device_408426b533b92e": {
-    "path": "/catalog-images/device_408426b533b92e.webp",
-    "sourcePage": "https://www.samsung.com/lt/smartphones/galaxy-s21-5g/buy/",
-    "assetUrl": "https://images.samsung.com/lt/smartphones/galaxy-s21/buy/02_ImageCarousel/04_GroupShot-O1/S21_Group_KV_PC_img.jpg",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_7327b88b5fe9d6": {
-    "path": "/catalog-images/device_7327b88b5fe9d6.webp",
-    "sourcePage": "https://www.samsung.com/lt/smartphones/galaxy-s21-5g/buy/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/assets/lt/S21_Ultra_BasicGroup_KV_PC_img_MWC_awards.jpg",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_2abcf9948e9239": {
-    "path": "/catalog-images/device_2abcf9948e9239.webp",
-    "sourcePage": "https://www.samsung.com/lt/smartphones/galaxy-s21-5g/buy/",
-    "assetUrl": "https://images.samsung.com/lt/smartphones/galaxy-s21/buy/02_ImageCarousel/03_GroupShot-T2/S21plus_BasicGroup_KV_PC_img.jpg",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_043c45f5f5aaea": {
-    "path": "/catalog-images/device_043c45f5f5aaea.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s/galaxy-s23-cream-128gb-sm-s911bzebphl/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/2302/gallery/ph-galaxy-s23-s911-sm-s911bzebphl-thumb-534851716",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_df7fc1f337d112": {
-    "path": "/catalog-images/device_df7fc1f337d112.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s/galaxy-s23-fe-graphite-128gb-sm-s711bzabphl/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-s711bzabphl/gallery/ph-galaxy-s23-fe-s711-sm-s711bzabphl-thumb-538436862",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_2fdccd7c04cdf9": {
-    "path": "/catalog-images/device_2fdccd7c04cdf9.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s/galaxy-s23-ultra-phantom-black-256gb-sm-s918bzkcphl/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/2302/gallery/ph-galaxy-s23-s918-sm-s918bzkcphl-thumb-534856195",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_9b51cd23075357": {
-    "path": "/catalog-images/device_9b51cd23075357.webp",
-    "sourcePage": "https://www.samsung.com/py/business/smartphones/galaxy-s/galaxy-s23-plus-sm-s916blijlty/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/py/2302/gallery/py-galaxy-s23-s916-sm-s916blijlty-534845145?fmt=jpg&wid=960",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_f1fa8c58ea3104": {
-    "path": "/catalog-images/device_f1fa8c58ea3104.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s24/",
-    "assetUrl": "https://images.samsung.com/ph/smartphones/galaxy-s24/images/galaxy-s24-highlights-color-cobalt-violet-back.jpg",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_32624044543da4": {
-    "path": "/catalog-images/device_32624044543da4.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s24-ultra/",
-    "assetUrl": "https://images.samsung.com/ph/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-share-image.jpg",
-    "scope": "Exact model"
-  },
-  "device_af72f6e6d0b475": {
-    "path": "/catalog-images/device_af72f6e6d0b475.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s24/",
-    "assetUrl": "https://images.samsung.com/ph/smartphones/galaxy-s24/images/galaxy-s24-highlights-color-accordion-item2.jpg",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_9d2bde71f611d2": {
-    "path": "/catalog-images/device_9d2bde71f611d2.webp",
-    "sourcePage": "https://www.samsung.com/ph/business/smartphones/galaxy-s/galaxy-s26-black-256gb-sm-s942bzkcphl/buy/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/s2602/gallery/ph-galaxy-s26-s942-sm-s942bzkcphl-550886167?$Q90_684_547_JPG$",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_6c173ec56f86ac": {
-    "path": "/catalog-images/device_6c173ec56f86ac.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgbphl/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/feature/167550040/ph-feature-galaxy-s26-fe-sm-s741-554456390?$900_N_JPG$",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_172f055ffd379c": {
-    "path": "/catalog-images/device_172f055ffd379c.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s26-ultra/",
-    "assetUrl": "https://images.samsung.com/ph/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-cobalt-violet.jpg",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_f7d2b14d45c9bb": {
-    "path": "/catalog-images/device_f7d2b14d45c9bb.webp",
-    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-s26/",
-    "assetUrl": "https://images.samsung.com/ph/smartphones/galaxy-s26/images/galaxy-s26-features-colors-sky-blue.jpg",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_c206565e222965": {
-    "path": "/catalog-images/samsung-tab-s10-fe.webp",
-    "sourcePage": "https://www.samsungebiz.com/event/galaxycampus/tablets/galaxy-tab-s10fe-wifi-x520/SM-X520NZAAKOO",
-    "assetUrl": "https://images.samsung.com/kdp/goods/2025/07/03/4b69e758-c578-46b7-a3f6-70a38dfe0051.jpg",
-    "scope": "Exact model, available Philippine color"
-  },
-  "device_8a813e7f0aaaae": {
-    "path": "/catalog-images/device_8a813e7f0aaaae.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x626bzaaxtc/gallery/ph-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaaxtc-thumb-546320819",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_3c3b3adfeb221f": {
-    "path": "/catalog-images/device_3c3b3adfeb221f.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-5g-gray-512gb-sm-x946bzaextc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x946bzaextc/gallery/ph-galaxy-tab-s-sm-x946bzaextc-galaxy-tab-s---ultra--g-gray-thumb-554863399",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_c1720f94c84582": {
-    "path": "/catalog-images/device_c1720f94c84582.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s12-plus-5g-gray-256gb-sm-x846bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x846bzaaxtc/gallery/ph-galaxy-tab-s12-plus-sm-x846-sm-x846bzaaxtc-thumb-554861695",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_7867f6ebccc2fa": {
-    "path": "/catalog-images/device_7867f6ebccc2fa.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-128gb-sm-x716bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x716bzaaxtc/gallery/ph-galaxy-tab-s9-5g-x716-sm-x716bzaaxtc-thumb-538124101",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_33bf4ec88cc229": {
-    "path": "/catalog-images/device_33bf4ec88cc229.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x516bzaaxtc/gallery/ph-galaxy-tab-s9-fe-sm-x516-sm-x516bzaaxtc-thumb-538474968",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_ca40d8c136e83b": {
-    "path": "/catalog-images/device_ca40d8c136e83b.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-5g-light-green-128gb-sm-x616blgaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x616blgaxtc/gallery/ph-galaxy-tab-s9-fe-plus-sm-x616-sm-x616blgaxtc-thumb-538476781",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_82e9616b879292": {
-    "path": "/catalog-images/device_82e9616b879292.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-ultra-5g-graphite-256gb-sm-x916bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x916bzaaxtc/gallery/ph-galaxy-tab-s9-ultra-5g-x916-sm-x916bzaaxtc-thumb-538124151",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_3bdcbc7b1b3d1b": {
-    "path": "/catalog-images/device_3bdcbc7b1b3d1b.webp",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-plus-5g-graphite-256gb-sm-x816bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x816bzaaxtc/gallery/ph-galaxy-tab-s9-plus-5g-x816-sm-x816bzaaxtc-thumb-538123602",
-    "scope": "Exact model; pictured colors may vary"
-  },
-  "device_18a6b6ab548a94": {
-    "path": "/catalog-images/device_18a6b6ab548a94.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-14-oled-um3406/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/cd742192-929c-468c-b55d-6eee83d29425/",
-    "scope": "Exact model family"
-  },
-  "device_a07417c32a861d": {
-    "path": "/catalog-images/device_a07417c32a861d.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-14-ux3480-intel/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/231b8451-6207-4dcc-82ce-3fffa330f229/",
-    "scope": "Model family; pictured configuration may vary"
-  },
-  "device_fc5e931cb8adc4": {
-    "path": "/catalog-images/device_fc5e931cb8adc4.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-duo-ux8407/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/22fc5874-0bcf-435e-836d-59c15c409258/",
-    "scope": "Exact model"
-  },
-  "device_686411caae8d78": {
-    "path": "/catalog-images/device_686411caae8d78.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-s-14-ux5406/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/12bea46b-8c0a-4078-b6c5-263b6c722848/",
-    "scope": "Exact model family"
-  },
-  "device_a3b6d7e737c365": {
-    "path": "/catalog-images/device_a3b6d7e737c365.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-s-16-um5606/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/f34d32c6-c387-4d9f-a3ae-b7e22bcd8720/",
-    "scope": "Exact model family"
-  },
-  "device_ea2924f7ecf7ce": {
-    "path": "/catalog-images/device_ea2924f7ecf7ce.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-creators/proart/proart-gopro-edition-px13-hn7306/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/ed87296a-777a-4aba-a66d-bbb79025c196/w800",
-    "scope": "Exact model",
-    "credit": "ASUS"
-  },
-  "device_8cef5fb897991d": {
-    "path": "/catalog-images/device_8cef5fb897991d.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-creators/proart/proart-p16-h7606/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/6e18d750-7a62-4bd8-9053-e60385eaaef5/w800",
-    "scope": "Exact model",
-    "credit": "ASUS"
-  },
-  "device_00536c6bd5502e": {
-    "path": "/catalog-images/device_00536c6bd5502e.webp",
-    "sourcePage": "https://www.asus.com/ph/laptops/for-creators/proart/proart-px13-hn7306/",
-    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/26a64d9f-c6c2-4263-ac47-69b2104ebcfe/w800",
-    "scope": "Exact model",
-    "credit": "ASUS"
-  },
   "device_538f6645a137ee": {
     "path": "/catalog-images/device_538f6645a137ee.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15_Pro.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Apple_iPhone_15_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "IPHONE 15",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "IPHONE 15 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_331a91ecca31d0": {
     "path": "/catalog-images/device_331a91ecca31d0.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_15_pro_max.png",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/IPhone_15_pro_max.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Ka Kit Pang",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Ka Kit Pang (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_4f49fc59fe2970": {
     "path": "/catalog-images/device_4f49fc59fe2970.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:About_iPhone_16_Plus_Teal.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/About_iPhone_16_Plus_Teal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "メイド理世",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "メイド理世 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_a35cecf3e59fde": {
     "path": "/catalog-images/device_a35cecf3e59fde.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Back_of_iPhone_16_Pro_-_2.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Back_of_iPhone_16_Pro_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Kyu3a",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Kyu3a (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_d35f986ae89db2": {
     "path": "/catalog-images/device_d35f986ae89db2.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Apple_iPhone_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "IPHONE 15",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "IPHONE 15 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_5ceda3fea334d8": {
     "path": "/catalog-images/device_5ceda3fea334d8.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Space_Black_iPhone_Air.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Space_Black_iPhone_Air.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Ahmad Ali Karim",
-    "usageTerms": "CC0",
+    "credit": "Ahmad Ali Karim (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Zero, Public Domain Dedication",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_391d612f3650e7": {
     "path": "/catalog-images/device_391d612f3650e7.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:CMF_Phone_2_Pro_(white)_2025-05-08.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/CMF_Phone_2_Pro_%28white%29_2025-05-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Suntooooth",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Suntooooth (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_14e0231a8d245e": {
     "path": "/catalog-images/device_14e0231a8d245e.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:HMD_Skyline_back.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/HMD_Skyline_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Maksdroider",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Maksdroider (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_345b9ae6196e43": {
     "path": "/catalog-images/device_345b9ae6196e43.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_X6.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Huawei_Mate_X6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "茅野ふたば",
-    "usageTerms": "CC BY 4.0",
+    "credit": "茅野ふたば (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_a41c76670e8533": {
     "path": "/catalog-images/device_a41c76670e8533.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Huawei_P60_Pro.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Huawei_P60_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Maksdroider",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Maksdroider (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_78795cead1e4cf": {
     "path": "/catalog-images/device_78795cead1e4cf.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Nothing_Phone_(1)_back_-_white.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Nothing_Phone_%281%29_back_-_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Premeditated",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Premeditated (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_c98433a0c7ffce": {
     "path": "/catalog-images/device_c98433a0c7ffce.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Nothing_phone_(2a).jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nothing_phone_%282a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Kyu3a",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Kyu3a (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_edc07536e9cd09": {
     "path": "/catalog-images/device_edc07536e9cd09.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:OnePlus_13_back.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/OnePlus_13_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Maksdroider",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Maksdroider (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_3dc0d9f8e23b3a": {
     "path": "/catalog-images/device_3dc0d9f8e23b3a.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Oppo_A77s_(12-22-2022).jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Oppo_A77s_%2812-22-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "PaulGorduiz106",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "PaulGorduiz106 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_83e936d401c190": {
     "path": "/catalog-images/device_83e936d401c190.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Oppo_Find_N2_Flip.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Oppo_Find_N2_Flip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Vis M",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Vis M (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_8d417b7be5469c": {
     "path": "/catalog-images/device_8d417b7be5469c.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:POCO_C65_Phone_Back.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/POCO_C65_Phone_Back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "M65.MGBD1",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "M65.MGBD1 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_ee3bda03baa9d0": {
     "path": "/catalog-images/device_ee3bda03baa9d0.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Poco_X3_Pro.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Poco_X3_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "LOOOKI",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "LOOOKI (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_8ee4324c75a16a": {
     "path": "/catalog-images/device_8ee4324c75a16a.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Redmi_13_Product_photography_05.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Redmi_13_Product_photography_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Wasiul Bahar",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Wasiul Bahar (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_42b5f469649788": {
     "path": "/catalog-images/device_42b5f469649788.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Redmi_14C_front.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Redmi_14C_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Maksdroider",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Maksdroider (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_37b298a84397b6": {
     "path": "/catalog-images/device_37b298a84397b6.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Redmi_15C_front.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Redmi_15C_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Maksdroider",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Maksdroider (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_45c7e8bb258a1d": {
     "path": "/catalog-images/device_45c7e8bb258a1d.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A35_5G_2024_(1).jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Samsung_Galaxy_A35_5G_2024_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_6649cf0c87cf5f": {
     "path": "/catalog-images/device_6649cf0c87cf5f.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A36_5G_2025.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Samsung_Galaxy_A36_5G_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_8a8a8e9ba58d74": {
     "path": "/catalog-images/device_8a8a8e9ba58d74.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A55_5G_2024.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Samsung_Galaxy_A55_5G_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_528380ceb337d2": {
     "path": "/catalog-images/device_528380ceb337d2.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A72_(cropped).jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Samsung_Galaxy_A72_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "LuisitoMacaraegJr",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "LuisitoMacaraegJr (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_f7fdf0130dfa08": {
     "path": "/catalog-images/device_f7fdf0130dfa08.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_FE_2024.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Samsung_Galaxy_S24_FE_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_f6ce8c275dee32": {
     "path": "/catalog-images/device_f6ce8c275dee32.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Fold3_5G.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Samsung_Galaxy_Z_Fold3_5G.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Jakub CA",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Jakub CA (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_8b17ead850bbec": {
     "path": "/catalog-images/device_8b17ead850bbec.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Fold6.png",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Samsung_Galaxy_Z_Fold6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Mandy Harper",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Mandy Harper (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_09d07effbd7687": {
     "path": "/catalog-images/device_09d07effbd7687.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Vivo_V21_back.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Vivo_V21_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Maksdroider",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Maksdroider (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_d2f928e59b41f6": {
     "path": "/catalog-images/device_d2f928e59b41f6.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "メイド理世",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "メイド理世 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_1352c430fa0bb9": {
     "path": "/catalog-images/device_1352c430fa0bb9.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Nokia_T20.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Nokia_T20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "NKingz06",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "NKingz06 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_2bbc3980a61c93": {
     "path": "/catalog-images/device_2bbc3980a61c93.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_A7_lite.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Samsung_Galaxy_Tab_A7_lite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Striker9498",
-    "usageTerms": "CC BY-SA 3.0",
+    "credit": "Striker9498 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_5a4be926237b63": {
     "path": "/catalog-images/device_5a4be926237b63.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Galaxy_Tab_S10%2B_Back.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Galaxy_Tab_S10%2B_Back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Nash Izumrud",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Nash Izumrud (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_211eea228c21fc": {
     "path": "/catalog-images/device_211eea228c21fc.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_S8.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Samsung_Galaxy_Tab_S8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Hajoon0102",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Hajoon0102 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_14877e82e6027a": {
     "path": "/catalog-images/device_14877e82e6027a.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Xiaomi_Pad_6_display.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Xiaomi_Pad_6_display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Myrat",
-    "usageTerms": "CC0",
+    "credit": "Myrat (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Zero, Public Domain Dedication",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_0a08afaa2bffa0": {
     "path": "/catalog-images/device_0a08afaa2bffa0.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Xiaomi_Pad_6S_Pro.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Xiaomi_Pad_6S_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "茅野ふたば",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "茅野ふたば (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_e737cf440a960c": {
     "path": "/catalog-images/device_e737cf440a960c.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_15_Plus_2024.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/IPhone_15_Plus_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_305c8f9c273ea1": {
     "path": "/catalog-images/device_305c8f9c273ea1.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "メイド理世",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "メイド理世 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_474454700e62e5": {
     "path": "/catalog-images/device_474454700e62e5.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Back_of_iPhone_16.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Back_of_iPhone_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Kyu3a",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Kyu3a (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_fe5c3b9c543e0f": {
     "path": "/catalog-images/device_fe5c3b9c543e0f.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_16e_Black.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/IPhone_16e_Black.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Jakub CA",
-    "usageTerms": "CC BY 4.0",
+    "credit": "Jakub CA (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_76b45bc4753ef7": {
     "path": "/catalog-images/device_76b45bc4753ef7.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_iPhone_17.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Black_iPhone_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Ahmad Ali Karim",
-    "usageTerms": "CC0",
+    "credit": "Ahmad Ali Karim (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Zero, Public Domain Dedication",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_c1417eab404447": {
     "path": "/catalog-images/device_c1417eab404447.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_SE_3rd_Gen.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/IPhone_SE_3rd_Gen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Toad40",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Toad40 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_e4a50bfd310ec0": {
     "path": "/catalog-images/device_e4a50bfd310ec0.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_10th_Generation_2024.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/IPad_10th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_80a03073c65780": {
     "path": "/catalog-images/device_80a03073c65780.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_9th_Generation_2024.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/IPad_9th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_a9930490a861ed": {
     "path": "/catalog-images/device_a9930490a861ed.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Air_5th_Generation_2024.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/IPad_Air_5th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_99d1f134735d0c": {
     "path": "/catalog-images/device_99d1f134735d0c.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Air_11-inch_(M3).jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/IPad_Air_11-inch_%28M3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "茅野ふたば",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "茅野ふたば (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_b3800bdea59d3d": {
     "path": "/catalog-images/device_b3800bdea59d3d.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Mini_6_-_1.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/IPad_Mini_6_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Kyu3a",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Kyu3a (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_9b65c21f337198": {
     "path": "/catalog-images/device_9b65c21f337198.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Pro_M2_(12.9_inch)_6th_Generation_2024.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/IPad_Pro_M2_%2812.9_inch%29_6th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "Captainmorlypogi1959",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "Captainmorlypogi1959 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   },
   "device_639dbf609255e4": {
     "path": "/catalog-images/device_639dbf609255e4.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:11-inch_iPad_Pro_M5_with_Apple_Pencil_Pro.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/11-inch_iPad_Pro_M5_with_Apple_Pencil_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "scope": "Exact model",
-    "credit": "茅野ふたば",
-    "usageTerms": "CC BY-SA 4.0",
+    "credit": "茅野ふたば (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Resized and converted to WebP"
+    "changes": "Converted to WebP for catalog delivery; no subject editing.",
+    "rightsCheckedAt": "2026-11-26"
   }
 }
