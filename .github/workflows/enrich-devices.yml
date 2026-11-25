@@ -1,0 +1,66 @@
+name: Enrich device research
+
+on:
+  schedule:
+    - cron: '27 1 * * 1' # Monday 09:27 Philippine time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: device-enrichment
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: node --test scripts/test-enrichment.mjs
+      - name: Restore prior review snapshots
+        run: |
+          if git fetch origin codex/enrichment-data:refs/remotes/origin/codex/enrichment-data; then
+            if git show origin/codex/enrichment-data:research/enrichment/state.sqlite > "$RUNNER_TEMP/enrichment-state.sqlite"; then
+              cp "$RUNNER_TEMP/enrichment-state.sqlite" research/enrichment/state.sqlite
+            fi
+          fi
+      - run: node scripts/enrich_devices.mjs --discover-limit 60
+        env:
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+      - run: python scripts/store_enrichment.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: device-enrichment-${{ github.run_id }}
+          path: |
+            research/enrichment/latest.json
+            research/enrichment/REVIEW.md
+            research/enrichment/state.sqlite
+      - name: Open research review pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- research/enrichment/latest.json research/enrichment/REVIEW.md research/enrichment/state.sqlite; then
+            echo 'No review file changes.'
+            exit 0
+          fi
+          branch='codex/enrichment-data'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -C "$branch"
+          git add research/enrichment/latest.json research/enrichment/REVIEW.md research/enrichment/state.sqlite
+          git commit -m "Refresh device enrichment review ${GITHUB_RUN_ID}"
+          git push --force-with-lease origin "$branch"
+          if [ -z "$(gh pr list --base main --head "$branch" --state open --json number --jq '.[0].number')" ]; then
+            gh pr create --base main --head "$branch" --title 'Review device enrichment' --body "Automated research collection. Review source matches, dated prices, and conflicts before merging. This does not update the public catalog." || echo '::warning::The branch and artifact are available, but automatic pull request creation was blocked by repository settings.'
+          fi

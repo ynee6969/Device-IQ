@@ -8,6 +8,7 @@ prisma/dev.db
 *.log
 *.tsbuildinfo
 *.inspect.ndjson
+__pycache__/
 
 .vercel
 .env*.local

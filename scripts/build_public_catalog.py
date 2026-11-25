@@ -9,6 +9,8 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 INVENTORY = ROOT / "outputs/deviceiq-inventory-2026-11-24/deviceiq_inventory.json"
 OUTPUT = ROOT / "lib/catalog/public-inventory.json"
+IMAGE_MANIFEST = ROOT / "lib/catalog/image-manifest.json"
+image_manifest = json.loads(IMAGE_MANIFEST.read_text(encoding="utf-8"))
 START, CUTOFF = "2021-01-01", "2026-11-24"
 tables = json.loads(INVENTORY.read_text(encoding="utf-8"))["tables"]
 by_id = lambda name, key: {row[key]: row for row in tables[name]}
@@ -111,7 +113,8 @@ for model in tables["device_models"]:
                       "verificationStatus": release["verification_status"],
                       "philippineAvailability": release["market_availability_evidence"],
                       "discontinued": None, "sources": linked_sources, "variants": variants,
-                      "imageId": "samsung-tab-s10-fe" if brand == "Samsung" and model["model_name"] == "Galaxy Tab S10 FE" else None})
+                      "imageId": device_id if device_id in image_manifest else (
+                          "samsung-tab-s10-fe" if brand == "Samsung" and model["model_name"] == "Galaxy Tab S10 FE" else None)})
 
 published.sort(key=lambda row: (row["category"], row["brand"], row["model"]))
 assert len(published) == 28, f"Review eligibility changes before publishing: {len(published)}"
