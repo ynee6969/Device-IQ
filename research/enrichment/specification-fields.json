@@ -1,0 +1,946 @@
+{
+  "smartphones": [
+    {
+      "id": "model_number",
+      "label": "Exact model / regional number",
+      "group": "Identity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "configuration",
+      "label": "RAM and storage configuration",
+      "group": "Identity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "philippine_release_date",
+      "label": "Philippine launch or first authorized sale date",
+      "group": "Philippine market",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "official_launch_price_php",
+      "label": "Official Philippine launch price",
+      "group": "Philippine market",
+      "unit": "PHP",
+      "catalogKey": null
+    },
+    {
+      "id": "current_price_php",
+      "label": "Dated Philippine price observation",
+      "group": "Philippine market",
+      "unit": "PHP",
+      "catalogKey": null
+    },
+    {
+      "id": "display_size",
+      "label": "Display size",
+      "group": "Display",
+      "unit": "in",
+      "catalogKey": "displayInches"
+    },
+    {
+      "id": "display_technology",
+      "label": "Display technology",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": "displayType"
+    },
+    {
+      "id": "display_resolution",
+      "label": "Display resolution",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": "resolution"
+    },
+    {
+      "id": "display_refresh_rate",
+      "label": "Display refresh rate",
+      "group": "Display",
+      "unit": "Hz",
+      "catalogKey": "refreshHz"
+    },
+    {
+      "id": "display_brightness",
+      "label": "Peak or typical brightness",
+      "group": "Display",
+      "unit": "nits",
+      "catalogKey": null
+    },
+    {
+      "id": "display_protection",
+      "label": "Display protection",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "chipset",
+      "label": "System-on-chip / chipset",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "chipset"
+    },
+    {
+      "id": "process_node",
+      "label": "Chip manufacturing process",
+      "group": "Platform",
+      "unit": "nm",
+      "catalogKey": null
+    },
+    {
+      "id": "cpu",
+      "label": "CPU cores and configuration",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "cpu"
+    },
+    {
+      "id": "gpu",
+      "label": "GPU model",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "gpu"
+    },
+    {
+      "id": "operating_system",
+      "label": "Operating system at launch",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "os"
+    },
+    {
+      "id": "os_support",
+      "label": "Published OS / security update policy",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ram_capacity",
+      "label": "RAM capacity by configuration",
+      "group": "Memory",
+      "unit": "GB",
+      "catalogKey": "ramGb"
+    },
+    {
+      "id": "ram_type",
+      "label": "RAM type",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": "ramType"
+    },
+    {
+      "id": "storage_capacity",
+      "label": "Internal storage by configuration",
+      "group": "Memory",
+      "unit": "GB",
+      "catalogKey": "storageGb"
+    },
+    {
+      "id": "storage_type",
+      "label": "Internal storage type",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": "storageType"
+    },
+    {
+      "id": "storage_expansion",
+      "label": "Expandable storage support",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "rear_camera_system",
+      "label": "Rear camera modules and roles",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "main_camera_sensor",
+      "label": "Main camera sensor / lens",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ultrawide_camera",
+      "label": "Ultrawide camera",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "telephoto_camera",
+      "label": "Telephoto camera",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "front_camera",
+      "label": "Front camera",
+      "group": "Camera",
+      "unit": "MP",
+      "catalogKey": "frontCameraMp"
+    },
+    {
+      "id": "video_recording",
+      "label": "Video recording modes",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": "video"
+    },
+    {
+      "id": "battery_capacity",
+      "label": "Battery capacity",
+      "group": "Battery",
+      "unit": "mAh",
+      "catalogKey": "batteryMah"
+    },
+    {
+      "id": "battery_technology",
+      "label": "Battery chemistry / design",
+      "group": "Battery",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "wired_charging",
+      "label": "Wired charging",
+      "group": "Battery",
+      "unit": "W",
+      "catalogKey": "chargingW"
+    },
+    {
+      "id": "wireless_charging",
+      "label": "Wireless / reverse charging",
+      "group": "Battery",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "dimensions",
+      "label": "Dimensions",
+      "group": "Build",
+      "unit": "mm",
+      "catalogKey": "dimensions"
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "group": "Build",
+      "unit": "g",
+      "catalogKey": "weightG"
+    },
+    {
+      "id": "materials",
+      "label": "Frame and back materials",
+      "group": "Build",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ingress_protection",
+      "label": "Ingress protection rating",
+      "group": "Build",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "sim_esim",
+      "label": "SIM and eSIM configuration",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "sim"
+    },
+    {
+      "id": "cellular_bands",
+      "label": "Cellular technology and bands",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "cellular"
+    },
+    {
+      "id": "wifi",
+      "label": "Wi-Fi standard",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "wifi"
+    },
+    {
+      "id": "bluetooth",
+      "label": "Bluetooth version",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "usb",
+      "label": "USB connector and data standard",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "ports"
+    },
+    {
+      "id": "nfc",
+      "label": "NFC support",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "gnss",
+      "label": "GNSS / satellite positioning",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "audio",
+      "label": "Audio jack and speaker configuration",
+      "group": "Audio",
+      "unit": "",
+      "catalogKey": "sound"
+    },
+    {
+      "id": "sensors",
+      "label": "Sensors",
+      "group": "Other",
+      "unit": "",
+      "catalogKey": null
+    }
+  ],
+  "tablets": [
+    {
+      "id": "model_number",
+      "label": "Exact model / regional number",
+      "group": "Identity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "configuration",
+      "label": "RAM and storage configuration",
+      "group": "Identity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "philippine_release_date",
+      "label": "Philippine launch or first authorized sale date",
+      "group": "Philippine market",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "official_launch_price_php",
+      "label": "Official Philippine launch price",
+      "group": "Philippine market",
+      "unit": "PHP",
+      "catalogKey": null
+    },
+    {
+      "id": "current_price_php",
+      "label": "Dated Philippine price observation",
+      "group": "Philippine market",
+      "unit": "PHP",
+      "catalogKey": null
+    },
+    {
+      "id": "display_size",
+      "label": "Display size",
+      "group": "Display",
+      "unit": "in",
+      "catalogKey": "displayInches"
+    },
+    {
+      "id": "display_technology",
+      "label": "Display technology",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": "displayType"
+    },
+    {
+      "id": "display_resolution",
+      "label": "Display resolution",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": "resolution"
+    },
+    {
+      "id": "display_refresh_rate",
+      "label": "Display refresh rate",
+      "group": "Display",
+      "unit": "Hz",
+      "catalogKey": "refreshHz"
+    },
+    {
+      "id": "display_brightness",
+      "label": "Peak or typical brightness",
+      "group": "Display",
+      "unit": "nits",
+      "catalogKey": null
+    },
+    {
+      "id": "display_protection",
+      "label": "Display protection",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "chipset",
+      "label": "System-on-chip / chipset",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "chipset"
+    },
+    {
+      "id": "process_node",
+      "label": "Chip manufacturing process",
+      "group": "Platform",
+      "unit": "nm",
+      "catalogKey": null
+    },
+    {
+      "id": "cpu",
+      "label": "CPU cores and configuration",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "cpu"
+    },
+    {
+      "id": "gpu",
+      "label": "GPU model",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "gpu"
+    },
+    {
+      "id": "operating_system",
+      "label": "Operating system at launch",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "os"
+    },
+    {
+      "id": "os_support",
+      "label": "Published OS / security update policy",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ram_capacity",
+      "label": "RAM capacity by configuration",
+      "group": "Memory",
+      "unit": "GB",
+      "catalogKey": "ramGb"
+    },
+    {
+      "id": "ram_type",
+      "label": "RAM type",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": "ramType"
+    },
+    {
+      "id": "storage_capacity",
+      "label": "Internal storage by configuration",
+      "group": "Memory",
+      "unit": "GB",
+      "catalogKey": "storageGb"
+    },
+    {
+      "id": "storage_type",
+      "label": "Internal storage type",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": "storageType"
+    },
+    {
+      "id": "storage_expansion",
+      "label": "Expandable storage support",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "rear_camera_system",
+      "label": "Rear camera modules and roles",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "main_camera_sensor",
+      "label": "Main camera sensor / lens",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ultrawide_camera",
+      "label": "Ultrawide camera",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "telephoto_camera",
+      "label": "Telephoto camera",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "front_camera",
+      "label": "Front camera",
+      "group": "Camera",
+      "unit": "MP",
+      "catalogKey": "frontCameraMp"
+    },
+    {
+      "id": "video_recording",
+      "label": "Video recording modes",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": "video"
+    },
+    {
+      "id": "battery_capacity",
+      "label": "Battery capacity",
+      "group": "Battery",
+      "unit": "mAh",
+      "catalogKey": "batteryMah"
+    },
+    {
+      "id": "battery_technology",
+      "label": "Battery chemistry / design",
+      "group": "Battery",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "wired_charging",
+      "label": "Wired charging",
+      "group": "Battery",
+      "unit": "W",
+      "catalogKey": "chargingW"
+    },
+    {
+      "id": "wireless_charging",
+      "label": "Wireless / reverse charging",
+      "group": "Battery",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "dimensions",
+      "label": "Dimensions",
+      "group": "Build",
+      "unit": "mm",
+      "catalogKey": "dimensions"
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "group": "Build",
+      "unit": "g",
+      "catalogKey": "weightG"
+    },
+    {
+      "id": "materials",
+      "label": "Frame and back materials",
+      "group": "Build",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ingress_protection",
+      "label": "Ingress protection rating",
+      "group": "Build",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "sim_esim",
+      "label": "SIM and eSIM configuration",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "sim"
+    },
+    {
+      "id": "cellular_bands",
+      "label": "Cellular technology and bands",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "cellular"
+    },
+    {
+      "id": "wifi",
+      "label": "Wi-Fi standard",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "wifi"
+    },
+    {
+      "id": "bluetooth",
+      "label": "Bluetooth version",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "usb",
+      "label": "USB connector and data standard",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "ports"
+    },
+    {
+      "id": "nfc",
+      "label": "NFC support",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "gnss",
+      "label": "GNSS / satellite positioning",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "audio",
+      "label": "Audio jack and speaker configuration",
+      "group": "Audio",
+      "unit": "",
+      "catalogKey": "sound"
+    },
+    {
+      "id": "sensors",
+      "label": "Sensors",
+      "group": "Other",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "tablet_stylus",
+      "label": "Stylus support and compatibility",
+      "group": "Accessories",
+      "unit": "",
+      "catalogKey": "stylus"
+    },
+    {
+      "id": "tablet_keyboard",
+      "label": "Keyboard support and compatibility",
+      "group": "Accessories",
+      "unit": "",
+      "catalogKey": "keyboard"
+    },
+    {
+      "id": "tablet_cellular_variant",
+      "label": "Wi-Fi-only / cellular variant",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "cellular"
+    }
+  ],
+  "laptops": [
+    {
+      "id": "model_number",
+      "label": "Exact model / regional SKU",
+      "group": "Identity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "configuration",
+      "label": "Exact CPU, GPU, RAM, storage and panel configuration",
+      "group": "Identity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "philippine_release_date",
+      "label": "Philippine launch or first authorized sale date",
+      "group": "Philippine market",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "official_launch_price_php",
+      "label": "Official Philippine launch price",
+      "group": "Philippine market",
+      "unit": "PHP",
+      "catalogKey": null
+    },
+    {
+      "id": "current_price_php",
+      "label": "Dated Philippine price observation",
+      "group": "Philippine market",
+      "unit": "PHP",
+      "catalogKey": null
+    },
+    {
+      "id": "display_size",
+      "label": "Display size",
+      "group": "Display",
+      "unit": "in",
+      "catalogKey": "displayInches"
+    },
+    {
+      "id": "display_resolution",
+      "label": "Display resolution",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": "resolution"
+    },
+    {
+      "id": "display_technology",
+      "label": "Panel technology",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": "displayType"
+    },
+    {
+      "id": "display_refresh_rate",
+      "label": "Display refresh rate",
+      "group": "Display",
+      "unit": "Hz",
+      "catalogKey": "refreshHz"
+    },
+    {
+      "id": "display_brightness",
+      "label": "Panel brightness",
+      "group": "Display",
+      "unit": "nits",
+      "catalogKey": null
+    },
+    {
+      "id": "display_color",
+      "label": "Color gamut / coverage",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "touchscreen",
+      "label": "Touchscreen support",
+      "group": "Display",
+      "unit": "",
+      "catalogKey": "touchscreen"
+    },
+    {
+      "id": "cpu",
+      "label": "Exact processor model",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "cpu"
+    },
+    {
+      "id": "cpu_cores_threads",
+      "label": "CPU cores and threads",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "gpu",
+      "label": "Integrated / discrete GPU model",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "gpu"
+    },
+    {
+      "id": "gpu_vram",
+      "label": "Dedicated GPU memory",
+      "group": "Platform",
+      "unit": "GB",
+      "catalogKey": null
+    },
+    {
+      "id": "gpu_tgp",
+      "label": "GPU total graphics power",
+      "group": "Platform",
+      "unit": "W",
+      "catalogKey": null
+    },
+    {
+      "id": "operating_system",
+      "label": "Operating system",
+      "group": "Platform",
+      "unit": "",
+      "catalogKey": "os"
+    },
+    {
+      "id": "ram_capacity",
+      "label": "Installed RAM by configuration",
+      "group": "Memory",
+      "unit": "GB",
+      "catalogKey": "ramGb"
+    },
+    {
+      "id": "ram_type",
+      "label": "RAM type and speed",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": "ramType"
+    },
+    {
+      "id": "ram_upgradeability",
+      "label": "RAM slots, soldering and upgrade limit",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": "ramMaxGb"
+    },
+    {
+      "id": "storage_capacity",
+      "label": "Installed storage by configuration",
+      "group": "Memory",
+      "unit": "GB",
+      "catalogKey": "storageGb"
+    },
+    {
+      "id": "storage_type",
+      "label": "SSD interface and generation",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": "storageType"
+    },
+    {
+      "id": "storage_slots",
+      "label": "Storage slots and expansion limit",
+      "group": "Memory",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "battery_capacity",
+      "label": "Battery capacity",
+      "group": "Battery",
+      "unit": "Wh",
+      "catalogKey": "batteryWh"
+    },
+    {
+      "id": "battery_life",
+      "label": "Published battery runtime and test basis",
+      "group": "Battery",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "charging",
+      "label": "Power adapter / USB-C charging",
+      "group": "Battery",
+      "unit": "W",
+      "catalogKey": "chargingW"
+    },
+    {
+      "id": "webcam",
+      "label": "Webcam resolution and features",
+      "group": "Camera",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "audio",
+      "label": "Speakers and microphone",
+      "group": "Audio",
+      "unit": "",
+      "catalogKey": "sound"
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard layout and backlight",
+      "group": "Input",
+      "unit": "",
+      "catalogKey": "keyboard"
+    },
+    {
+      "id": "touchpad",
+      "label": "Touchpad / pointing device",
+      "group": "Input",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ports",
+      "label": "Ports and supported standards",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "ports"
+    },
+    {
+      "id": "wifi",
+      "label": "Wi-Fi standard",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "wifi"
+    },
+    {
+      "id": "bluetooth",
+      "label": "Bluetooth version",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "ethernet",
+      "label": "Ethernet / LAN",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "cellular",
+      "label": "WWAN / cellular option",
+      "group": "Connectivity",
+      "unit": "",
+      "catalogKey": "cellular"
+    },
+    {
+      "id": "dimensions",
+      "label": "Dimensions",
+      "group": "Build",
+      "unit": "mm",
+      "catalogKey": "dimensions"
+    },
+    {
+      "id": "weight",
+      "label": "Weight by configuration",
+      "group": "Build",
+      "unit": "g",
+      "catalogKey": "weightG"
+    },
+    {
+      "id": "materials",
+      "label": "Chassis materials",
+      "group": "Build",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "security",
+      "label": "Biometrics and security hardware",
+      "group": "Other",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "warranty",
+      "label": "Philippine warranty terms",
+      "group": "Philippine market",
+      "unit": "",
+      "catalogKey": null
+    }
+  ]
+}

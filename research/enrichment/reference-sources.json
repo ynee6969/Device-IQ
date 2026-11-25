@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "policyReviewedAt": "2026-11-25",
+  "sources": [
+    {
+      "id": "official_manufacturer",
+      "name": "Official manufacturer documentation",
+      "role": "Primary technical reference",
+      "categories": ["smartphones", "tablets", "laptops"],
+      "automatedUse": "Allowed only after robots.txt permits the exact page; follow site terms and record the page actually checked.",
+      "promotionRule": "Can support a specification or product identity when it describes the exact device or configuration."
+    },
+    {
+      "id": "pinoy_techno_guide",
+      "name": "Pinoy Techno Guide",
+      "homepage": "https://www.pinoytechnoguide.com/",
+      "role": "Philippine smartphone and tablet cross-reference",
+      "categories": ["smartphones", "tablets"],
+      "automatedUse": "Existing collector may fetch exact product pages only when robots.txt permits; do not copy descriptions or images.",
+      "promotionRule": "Independent Philippine-market evidence; corroborate material technical claims against manufacturer documentation where available."
+    },
+    {
+      "id": "nanoreview",
+      "name": "NanoReview",
+      "homepage": "https://nanoreview.net/",
+      "role": "Secondary technical reference and discovery link",
+      "categories": ["smartphones", "tablets", "laptops"],
+      "robotsTxt": "https://nanoreview.net/robots.txt",
+      "automatedUse": "Blocked for automated GPT research: robots.txt disallows GPTBot and ChatGPT-User. Do not fetch pages with a disguised user agent.",
+      "promotionRule": "Link-only candidate in this project. Do not claim a page was checked or promote NanoReview-derived values from this automated run."
+    },
+    {
+      "id": "kimovil",
+      "name": "Kimovil",
+      "homepage": "https://www.kimovil.com/en/",
+      "role": "Device comparison and specification discovery link",
+      "categories": ["smartphones", "tablets"],
+      "termsUrl": "https://www.kimovil.com/en/info/terms-and-conditions",
+      "automatedUse": "No automated content extraction. Its terms prohibit reproducing, copying, distributing, transforming, or modifying site content without express written authorization.",
+      "promotionRule": "Link-only candidate in this project. Do not store copied descriptions, images, or scraped specifications; verify candidates against sources that permit reuse."
+    },
+    {
+      "id": "notebookcheck",
+      "name": "Notebookcheck",
+      "homepage": "https://www.notebookcheck.net/",
+      "role": "Independent technical cross-check, especially laptops",
+      "categories": ["smartphones", "tablets", "laptops"],
+      "automatedUse": "Check robots.txt and terms for each exact URL; use source URLs and concise factual evidence only.",
+      "promotionRule": "Secondary evidence; retain conflicts until independently resolved."
+    }
+  ]
+}

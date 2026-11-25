@@ -7,6 +7,49 @@ import { CatalogSaveButton } from "@/components/catalog/CatalogSaveButton";
 import { CatalogProductImage } from "@/components/catalog/CatalogProductImage";
 import { catalogImage } from "@/lib/catalog/images";
 import styles from "@/components/catalog/catalog.module.css";
+import specificationAudit from "@/lib/catalog/specification-audit.json";
+
+type AuditEvidence = {
+  value?: string | null;
+  source_url?: string | null;
+  source_kind?: string | null;
+  observed_at?: string | null;
+  excerpt?: string | null;
+  configuration_match?: string | null;
+};
+
+type SpecificationAudit = {
+  fields: { id: string; status: string; value: string | null; unit: string | null; sourceUrl: string | null; candidateEvidence: AuditEvidence[] }[];
+  applicableFields: number;
+  assessedFields: number;
+  verifiedFields: number;
+  assessmentCoveragePct: number;
+  verifiedCoveragePct: number;
+  researchLinks: { sourceId: string; label: string; url: string }[];
+};
+
+const specificationAudits = specificationAudit as unknown as { variants: Record<string, SpecificationAudit> };
+
+function auditStatusClass(status: string) {
+  if (status === "VERIFIED" || status === "VERIFIED_SECONDARY") return styles.auditFieldVerified;
+  if (status === "CONFLICTING_INFORMATION") return styles.auditFieldConflict;
+  if (status === "NOT_DISCLOSED" || status === "UNAVAILABLE_AFTER_RESEARCH") return styles.auditFieldUnavailable;
+  if (status === "NOT_APPLICABLE") return styles.auditFieldNotApplicable;
+  return styles.auditFieldPending;
+}
+
+function auditStatusLabel(status: string) {
+  const labels: Record<string, string> = {
+    VERIFIED: "Verified",
+    VERIFIED_SECONDARY: "Verified · secondary source",
+    NOT_DISCLOSED: "Not disclosed",
+    NOT_APPLICABLE: "Not applicable",
+    UNAVAILABLE_AFTER_RESEARCH: "Unavailable after research",
+    CONFLICTING_INFORMATION: "Conflicting information",
+    PENDING_VERIFICATION: "Pending verification",
+  };
+  return labels[status] ?? status.replaceAll("_", " ").toLowerCase();
+}
 
 const sections: { title: string; categories?: string[]; fields: [SpecKey, string][] }[] = [
   { title: "Body and design", fields: [["dimensions", "Dimensions"], ["weightG", "Weight (g)"]] },
@@ -38,6 +81,7 @@ export default async function DevicePage({ params, searchParams }: { params: Pro
   if (!device) notFound();
   const variant = device.variants.find((item) => item.id === variantId) ?? device.variants[0];
   const excluded = isExcludedRecord(device);
+  const specificationReview = specificationAudits.variants[variant.id];
   const categoryTitle = category.charAt(0).toUpperCase() + category.slice(1);
   const image = catalogImage(device.imageId ?? device.id);
   const visibleSections = sections.filter((section) => !section.categories || section.categories.includes(category)).map((section) => ({
@@ -93,5 +137,43 @@ export default async function DevicePage({ params, searchParams }: { params: Pro
         <p className={styles.sourceLine}>Workbook row: {device.workbookRow ?? "Not recorded"}</p>
       </section>
     </div>
+    {device.recordType === "held_out_claim" ? <section className={styles.auditPanel}>
+      <h2>Specification research</h2>
+      <p>This is a held-out research claim, not an exact device record. Device specifications are not assigned to it.</p>
+    </section> : specificationReview ? <section className={styles.auditPanel}>
+      <div className={styles.auditHeading}>
+        <div><h2>Specification research</h2><p>Each field shows its review status and source evidence for this model and configuration.</p></div>
+        <span className={styles.auditStatus}>Specification incomplete</span>
+      </div>
+      <p className={styles.auditCoverage}>{specificationReview.verifiedFields} of {specificationReview.applicableFields} fields verified · {specificationReview.assessedFields} assessed</p>
+      <details className={styles.auditDetails}>
+        <summary>View all {specificationReview.applicableFields} fields and research evidence</summary>
+        <div className={styles.auditTableWrap}>
+          <table className={styles.auditTable}>
+            <thead><tr><th>Specification</th><th>Recorded value</th><th>Research status</th><th>Source and candidate evidence</th></tr></thead>
+            <tbody>{specificationReview.fields.map((item) => {
+              const definition = (specificationAudit.fieldDefinitions as Record<string, { id: string; label: string; group: string; unit?: string }[]>)[category]?.find((field) => field.id === item.id);
+              const candidates = item.candidateEvidence ?? [];
+              return <tr key={item.id}>
+                <th scope="row"><span>{definition?.label ?? item.id}</span><small>{definition?.group}</small></th>
+                <td>{item.value === null ? "Not recorded" : `${item.value}${item.unit ? ` ${item.unit}` : ""}`}</td>
+                <td><span className={`${styles.auditFieldStatus} ${auditStatusClass(item.status)}`}>{auditStatusLabel(item.status)}</span></td>
+                <td>
+                  {item.sourceUrl && <a href={item.sourceUrl} target="_blank" rel="noreferrer">Recorded source link</a>}
+                  {candidates.length > 0 ? <ul className={styles.auditEvidence}>{candidates.map((evidence, index) => <li key={`${evidence.source_url}-${index}`}>
+                    {evidence.source_url && <a href={evidence.source_url} target="_blank" rel="noreferrer">{evidence.source_kind === "independent_ph_reference" ? "Pinoy Techno Guide candidate" : "Source candidate"}</a>}
+                    <small>{evidence.value ? `Observed: ${evidence.value}${item.unit ? ` ${item.unit}` : ""}. ` : ""}{evidence.configuration_match && evidence.configuration_match !== "exact" ? "Configuration not matched. " : ""}{evidence.observed_at ? `Observed ${evidence.observed_at.slice(0, 10)}. ` : ""}{evidence.excerpt ?? ""}</small>
+                  </li>)}</ul> : !item.sourceUrl ? <span className={styles.auditNotFound}>No field-level source recorded</span> : null}
+                </td>
+              </tr>;
+            })}</tbody>
+          </table>
+        </div>
+        <div className={styles.auditLinks}>
+          {specificationReview.researchLinks.map((link) => <a href={link.url} key={link.sourceId} target="_blank" rel="noreferrer">{link.label}</a>)}
+        </div>
+        <p className={styles.auditNote}>NanoReview and Kimovil are provided as manual lookup links. Their content was not automatically collected for this record.</p>
+      </details>
+    </section> : null}
   </section>;
 }

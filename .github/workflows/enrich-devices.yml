@@ -39,6 +39,8 @@ jobs:
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
       - run: python scripts/store_enrichment.py
+      - name: Rebuild the all-category field audit and research reports
+        run: python scripts/build_specification_audit.py --skip-workbook
       - uses: actions/upload-artifact@v4
         with:
           name: device-enrichment-${{ github.run_id }}
@@ -46,11 +48,16 @@ jobs:
             research/enrichment/latest.json
             research/enrichment/REVIEW.md
             research/enrichment/state.sqlite
+            research/enrichment/specification-fields.json
+            research/enrichment/specification-field-audit.json
+            lib/catalog/specification-audit.json
+            DEVICEIQ_SPECIFICATION_COMPLETENESS_REPORT.md
+            DEVICEIQ_RESEARCH_PROGRESS.md
       - name: Open research review pull request
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- research/enrichment/latest.json research/enrichment/REVIEW.md research/enrichment/state.sqlite; then
+          if git diff --quiet -- research/enrichment/latest.json research/enrichment/REVIEW.md research/enrichment/state.sqlite research/enrichment/specification-fields.json research/enrichment/specification-field-audit.json lib/catalog/specification-audit.json DEVICEIQ_SPECIFICATION_COMPLETENESS_REPORT.md DEVICEIQ_RESEARCH_PROGRESS.md; then
             echo 'No review file changes.'
             exit 0
           fi
@@ -58,7 +65,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git switch -C "$branch"
-          git add research/enrichment/latest.json research/enrichment/REVIEW.md research/enrichment/state.sqlite
+          git add research/enrichment/latest.json research/enrichment/REVIEW.md research/enrichment/state.sqlite research/enrichment/specification-fields.json research/enrichment/specification-field-audit.json lib/catalog/specification-audit.json DEVICEIQ_SPECIFICATION_COMPLETENESS_REPORT.md DEVICEIQ_RESEARCH_PROGRESS.md
           git commit -m "Refresh device enrichment review ${GITHUB_RUN_ID}"
           git push --force-with-lease origin "$branch"
           if [ -z "$(gh pr list --base main --head "$branch" --state open --json number --jq '.[0].number')" ]; then

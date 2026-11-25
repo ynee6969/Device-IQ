@@ -1,0 +1,99 @@
+{
+  "reviewedAt": "2026-11-25",
+  "records": [
+    {
+      "deviceId": "device_18a6b6ab548a94",
+      "configurationId": "config_2b0cd196931eaf",
+      "brand": "ASUS",
+      "model": "Zenbook 14 (UM3406GA)",
+      "configuration": "UM3406GA-QD123WSM",
+      "sources": [
+        {
+          "id": "asus_um3406_techspec",
+          "publisher": "ASUS Philippines",
+          "url": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-14-oled-um3406/techspec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Exact model-code technical specifications",
+          "note": "The official specification table separates UM3406KA and UM3406GA. This row uses the UM3406GA column and the inventory's 16 GB / 1 TB configuration."
+        },
+        {
+          "id": "asus_um3406_product",
+          "publisher": "ASUS Philippines",
+          "url": "https://www.asus.com/ph/laptops/for-home/all-series/asus-zenbook-14-oled-um3406/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Exact Philippine SKU, product configuration, and manufacturer starting price",
+          "note": "The page identifies UM3406GA-QD123WSM, its 16 GB / 1 TB configuration, and a PHP starting price. It says actual prices and availability may vary."
+        }
+      ],
+      "fields": [
+        {"fieldId":"model_number","status":"VERIFIED","sourceId":"asus_um3406_product","sourceValue":"UM3406GA-QD123WSM","normalizedValue":"UM3406GA-QD123WSM","unit":null,"note":"Exact SKU is listed on the ASUS Philippines product page."},
+        {"fieldId":"cpu","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"AMD Ryzen AI 7 445 Processor 2.0GHz (14MB Cache, up to 4.6GHz, 6 cores, 12 Threads); AMD XDNA NPU up to 50TOPS","normalizedValue":"AMD Ryzen AI 7 445","catalogKey":"cpu","catalogValue":"AMD Ryzen AI 7 445","note":"Official UM3406GA specification column."},
+        {"fieldId":"cpu_cores_threads","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"6 cores, 12 Threads","normalizedValue":"6 cores / 12 threads","note":"Official UM3406GA specification column."},
+        {"fieldId":"gpu","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"AMD Radeon Graphics","normalizedValue":"AMD Radeon Graphics","catalogKey":"gpu","catalogValue":"AMD Radeon Graphics","note":"Official UM3406GA specification column."},
+        {"fieldId":"display_size","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"14.0-inch","normalizedValue":14,"unit":"in","catalogKey":"displayInches","catalogValue":14,"note":"Official UM3406GA specification column."},
+        {"fieldId":"display_resolution","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"WUXGA (1920 x 1200)","normalizedValue":"1920 x 1200","catalogKey":"resolution","catalogValue":"1920 x 1200","replaceExisting":true,"note":"Official UM3406GA specification column; this refines the workbook's general WUXGA label."},
+        {"fieldId":"display_technology","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"OLED 16:10 aspect ratio","normalizedValue":"OLED","catalogKey":"displayType","catalogValue":"OLED","note":"Official UM3406GA specification column."},
+        {"fieldId":"display_refresh_rate","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"Refresh Rate: 60Hz","normalizedValue":60,"unit":"Hz","catalogKey":"refreshHz","catalogValue":60,"note":"Official UM3406GA specification column."},
+        {"fieldId":"display_brightness","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"400nits; 600nits HDR peak brightness","normalizedValue":"400 typical / 600 HDR peak","unit":"nits","note":"Both values are retained so typical brightness and HDR peak are not conflated."},
+        {"fieldId":"display_color","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"100% DCI-P3 color gamut","normalizedValue":"100% DCI-P3","note":"Official UM3406GA specification column."},
+        {"fieldId":"touchscreen","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"Non-touch screen","normalizedValue":"No","catalogKey":"touchscreen","catalogValue":false,"note":"Explicitly listed as non-touch."},
+        {"fieldId":"operating_system","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"Windows 11 Home","normalizedValue":"Windows 11 Home","catalogKey":"os","catalogValue":"Windows 11 Home","note":"Official UM3406GA specification column."},
+        {"fieldId":"ram_capacity","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"16GB LPDDR5X on board","normalizedValue":16,"unit":"GB","catalogKey":"ramGb","catalogValue":16,"note":"Official UM3406GA specification column."},
+        {"fieldId":"ram_type","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"LPDDR5X on board","normalizedValue":"LPDDR5X, onboard","catalogKey":"ramType","catalogValue":"LPDDR5X, onboard","note":"Official UM3406GA specification column."},
+        {"fieldId":"storage_capacity","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"1TB M.2 NVMe PCIe 4.0 SSD","normalizedValue":1024,"unit":"GB","catalogKey":"storageGb","catalogValue":1024,"note":"Official UM3406GA specification column; 1 TB normalized to 1024 GB for the catalog."},
+        {"fieldId":"storage_type","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"M.2 NVMe PCIe 4.0 SSD","normalizedValue":"M.2 NVMe PCIe 4.0 SSD","catalogKey":"storageType","catalogValue":"M.2 NVMe PCIe 4.0 SSD","note":"Official UM3406GA specification column."},
+        {"fieldId":"storage_slots","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"1x M.2 2280 PCIe 4.0x4","normalizedValue":"1x M.2 2280 PCIe 4.0x4","note":"Official UM3406GA specification column."},
+        {"fieldId":"battery_capacity","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"75WHrs, 4S1P, 4-cell Li-ion","normalizedValue":75,"unit":"Wh","catalogKey":"batteryWh","catalogValue":75,"note":"Official UM3406GA specification column."},
+        {"fieldId":"charging","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"TYPE-C, 68W AC Adapter","normalizedValue":"68 W USB-C adapter","unit":"W","catalogKey":"chargingW","catalogValue":68,"note":"Adapter rating is recorded; it is not presented as a measured charging rate."},
+        {"fieldId":"webcam","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"FHD camera with IR function to support Windows Hello, with privacy shutter","normalizedValue":"FHD IR webcam, Windows Hello, privacy shutter","note":"Official UM3406GA specification column."},
+        {"fieldId":"audio","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"Built-in array microphone; built-in speaker; Smart Amp Technology","normalizedValue":"Built-in speakers and array microphone; Smart Amp","catalogKey":"sound","catalogValue":"Built-in speakers and array microphone; Smart Amp","note":"Official UM3406GA specification column."},
+        {"fieldId":"keyboard","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"Backlit Chiclet Keyboard, 1.4mm Key-travel","normalizedValue":"Backlit chiclet; 1.4 mm key travel","catalogKey":"keyboard","catalogValue":"Backlit chiclet; 1.4 mm key travel","note":"Official UM3406GA specification column."},
+        {"fieldId":"ports","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"1x USB 4.0 Gen 3 Type-C (40Gbps); 1x USB 3.2 Gen 2 Type-C (10Gbps); 1x USB 3.2 Gen 1 Type-A (5Gbps); 1x 3.5mm Combo Audio Jack; 1x HDMI 2.1 TMDS","normalizedValue":"USB4 Type-C 40Gbps; USB 3.2 Gen 2 Type-C 10Gbps; USB 3.2 Gen 1 Type-A 5Gbps; 3.5 mm combo audio; HDMI 2.1 TMDS","catalogKey":"ports","catalogValue":"USB4 Type-C 40Gbps; USB 3.2 Gen 2 Type-C 10Gbps; USB 3.2 Gen 1 Type-A 5Gbps; 3.5 mm combo audio; HDMI 2.1 TMDS","note":"Official UM3406GA specification column."},
+        {"fieldId":"wifi","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"Wi-Fi 6E (802.11ax), triple band, 2x2","normalizedValue":"Wi-Fi 6E (802.11ax), triple band, 2x2","catalogKey":"wifi","catalogValue":"Wi-Fi 6E (802.11ax), triple band, 2x2","note":"Official UM3406GA specification column."},
+        {"fieldId":"bluetooth","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"Bluetooth 5.4","normalizedValue":"Bluetooth 5.4","note":"Official UM3406GA specification column."},
+        {"fieldId":"dimensions","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"31.24 x 22.01 x 1.49 cm","normalizedValue":"31.24 x 22.01 x 1.49 cm","unit":"cm","catalogKey":"dimensions","catalogValue":"31.24 x 22.01 x 1.49 cm","note":"Official UM3406GA specification column."},
+        {"fieldId":"weight","status":"VERIFIED","sourceId":"asus_um3406_techspec","sourceValue":"1.20 kg","normalizedValue":1200,"unit":"g","catalogKey":"weightG","catalogValue":1200,"note":"1.20 kg normalized to 1200 g."},
+        {"fieldId":"current_price_php","status":"VERIFIED","sourceId":"asus_um3406_product","sourceValue":"Price starts at PHP 79,995","normalizedValue":79995,"unit":"PHP","priceCondition":"new","priceType":"manufacturer starting price","note":"Dated ASUS Philippines starting-price observation for exact SKU UM3406GA-QD123WSM. The page states that actual prices and availability vary by model and retailer."}
+      ]
+    },
+    {
+      "deviceId": "device_a3b6d7e737c365",
+      "configurationId": "config_166ca092fbd09a",
+      "brand": "ASUS",
+      "model": "Zenbook S16 (UM5606GA)",
+      "configuration": "UM5606GA-SR368WSM",
+      "sources": [
+        {
+          "id": "asus_um5606_product",
+          "publisher": "ASUS Philippines",
+          "url": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-s-16-um5606/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Philippine product specifications for model UM5606GA",
+          "note": "The ASUS Philippines page lists UM5606GA with 32 GB LPDDR5X, 1 TB PCIe 4.0 SSD, Ryzen AI 9 465 and OLED 3K display. It does not show the full inventory SKU suffix; the catalog configuration is matched by model code, RAM, and storage."
+        }
+      ],
+      "fields": [
+        {"fieldId":"cpu","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"AMD Ryzen AI 9 465 Processor","normalizedValue":"AMD Ryzen AI 9 465","catalogKey":"cpu","catalogValue":"AMD Ryzen AI 9 465","note":"ASUS Philippines UM5606GA product page; independent cross-check not yet recorded."},
+        {"fieldId":"gpu","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"AMD Radeon Graphics","normalizedValue":"AMD Radeon Graphics","catalogKey":"gpu","catalogValue":"AMD Radeon Graphics","note":"ASUS Philippines UM5606GA product page; independent cross-check not yet recorded."},
+        {"fieldId":"display_size","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"16.0-inch","normalizedValue":16,"unit":"in","catalogKey":"displayInches","catalogValue":16,"note":"ASUS Philippines UM5606GA product page; configuration matched by model code, RAM, and storage."},
+        {"fieldId":"display_resolution","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"3K (2880 x 1800)","normalizedValue":"2880 x 1800","catalogKey":"resolution","catalogValue":"2880 x 1800","replaceExisting":true,"note":"This refines the workbook's general 3K display label."},
+        {"fieldId":"display_technology","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"OLED Touch Display","normalizedValue":"OLED","catalogKey":"displayType","catalogValue":"OLED","note":"Panel technology is stored as OLED; touchscreen support is represented separately."},
+        {"fieldId":"display_refresh_rate","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"120 Hz","normalizedValue":120,"unit":"Hz","catalogKey":"refreshHz","catalogValue":120,"note":"ASUS Philippines UM5606GA product page."},
+        {"fieldId":"display_brightness","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"Up to 1100 nits peak brightness","normalizedValue":"Up to 1100 HDR peak","unit":"nits","note":"The source states a peak value; it is not relabeled as typical brightness."},
+        {"fieldId":"display_color","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"100% DCI-P3 color gamut","normalizedValue":"100% DCI-P3","note":"ASUS Philippines UM5606GA product page."},
+        {"fieldId":"touchscreen","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"OLED Touch Display","normalizedValue":"Yes","catalogKey":"touchscreen","catalogValue":true,"note":"ASUS Philippines UM5606GA product page."},
+        {"fieldId":"operating_system","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"Windows 11 Home","normalizedValue":"Windows 11 Home","catalogKey":"os","catalogValue":"Windows 11 Home","note":"ASUS Philippines UM5606GA product page."},
+        {"fieldId":"ram_capacity","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"32GB LPDDR5X","normalizedValue":32,"unit":"GB","catalogKey":"ramGb","catalogValue":32,"note":"ASUS Philippines UM5606GA product page; matched catalog configuration is 32 GB / 1 TB."},
+        {"fieldId":"ram_type","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"LPDDR5X","normalizedValue":"LPDDR5X","catalogKey":"ramType","catalogValue":"LPDDR5X","note":"ASUS Philippines UM5606GA product page."},
+        {"fieldId":"storage_capacity","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"1TB M.2 NVMe PCIe 4.0 SSD","normalizedValue":1024,"unit":"GB","catalogKey":"storageGb","catalogValue":1024,"note":"1 TB normalized to 1024 GB for the catalog."},
+        {"fieldId":"storage_type","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"M.2 NVMe PCIe 4.0 SSD","normalizedValue":"M.2 NVMe PCIe 4.0 SSD","catalogKey":"storageType","catalogValue":"M.2 NVMe PCIe 4.0 SSD","note":"ASUS Philippines UM5606GA product page."},
+        {"fieldId":"battery_capacity","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"83 Wh battery","normalizedValue":83,"unit":"Wh","catalogKey":"batteryWh","catalogValue":83,"note":"ASUS Philippines UM5606GA product page."},
+        {"fieldId":"weight","status":"VERIFIED","sourceId":"asus_um5606_product","sourceValue":"1.5 kg","normalizedValue":1500,"unit":"g","catalogKey":"weightG","catalogValue":1500,"note":"1.5 kg normalized to 1500 g."},
+        {"fieldId":"current_price_php","status":"PENDING_VERIFICATION","sourceId":"asus_um5606_product","sourceValue":"Price starts at PHP 179,995","normalizedValue":179995,"unit":"PHP","configurationMatch":"Model code and RAM/storage match; full SKU suffix not displayed on the product page.","note":"Keep as a starting-price candidate until the exact Philippine SKU-to-price relationship is confirmed."}
+      ]
+    }
+  ]
+}

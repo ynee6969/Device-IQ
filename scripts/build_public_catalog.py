@@ -20,6 +20,7 @@ OUTPUT = ROOT / "lib/catalog/public-inventory.json"
 METADATA = ROOT / "research/catalog-workbook-source.json"
 MANIFEST = ROOT / "lib/catalog/image-manifest.json"
 ALIASES = ROOT / "research/catalog-image-aliases.json"
+MANUAL_REVIEWS = ROOT / "research/enrichment/manual-field-reviews.json"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--workbook", type=Path, default=DEFAULT_WORKBOOK)
@@ -240,6 +241,55 @@ for item in excluded_rows:
     })
 
 catalog.sort(key=lambda item: (item["category"], item["brand"].casefold(), item["model"].casefold()))
+
+# Explicit, source-backed reviews are additive to the read-only workbook import.
+# A conflicting existing value requires an explicit replaceExisting decision in
+# the review record, so regenerating the catalog never silently overwrites data.
+manual_reviews = json.loads(MANUAL_REVIEWS.read_text(encoding="utf-8")) if MANUAL_REVIEWS.exists() else {"records": []}
+catalog_by_id = {item["id"]: item for item in catalog}
+for review in manual_reviews.get("records", []):
+    device = catalog_by_id.get(review["deviceId"])
+    if not device or device.get("recordType") != "device":
+        raise ValueError(f"Manual specification review references unknown device: {review['deviceId']}")
+    variant = next((item for item in device["variants"] if item["id"] == review["configurationId"]), None)
+    if not variant:
+        raise ValueError(f"Manual specification review references unknown configuration: {review['configurationId']}")
+    sources_by_id = {item["id"]: item for item in review.get("sources", [])}
+    for reviewed_field in review.get("fields", []):
+        source = sources_by_id.get(reviewed_field.get("sourceId"))
+        if not source or not source.get("url", "").startswith("https://"):
+            raise ValueError(f"Manual field lacks a valid source: {device['id']} {reviewed_field.get('fieldId')}")
+        if reviewed_field.get("status") != "VERIFIED":
+            continue
+        catalog_key = reviewed_field.get("catalogKey")
+        catalog_value = reviewed_field.get("catalogValue")
+        if catalog_key:
+            previous = variant["specs"].get(catalog_key)
+            if previous is not None and str(previous) != str(catalog_value) and not reviewed_field.get("replaceExisting"):
+                raise ValueError(f"Manual review conflicts with inventory value: {device['id']} {reviewed_field['fieldId']}")
+            variant["specs"][catalog_key] = catalog_value
+            variant["specSources"][catalog_key] = source["url"]
+        if reviewed_field.get("fieldId") == "current_price_php":
+            value = number(reviewed_field.get("normalizedValue"))
+            if value is None or value <= 0:
+                raise ValueError(f"Manual price is invalid: {device['id']}")
+            if variant.get("pricePhp") is not None and number(variant.get("pricePhp")) != value and not reviewed_field.get("replaceExisting"):
+                raise ValueError(f"Manual price conflicts with inventory value: {device['id']}")
+            variant.update({
+                "pricePhp": value, "priceCondition": reviewed_field.get("priceCondition") or "new",
+                "priceType": reviewed_field.get("priceType") or "manufacturer starting price",
+                "priceObservedAt": source.get("accessDate"), "priceSourceUrl": source["url"],
+                "notes": reviewed_field.get("note") or variant.get("notes"),
+            })
+    for source in review.get("sources", []):
+        if not any(existing.get("url") == source["url"] for existing in device["sources"]):
+            device["sources"].append({
+                "organization": source.get("publisher") or "Manufacturer",
+                "url": source["url"], "observedAt": source.get("accessDate"),
+                "publishedAt": source.get("publicationDate"), "purpose": source.get("purpose") or "Variant specifications",
+                "note": source.get("note"),
+            })
+
 if len(master) != 456 or len(catalog) != 463:
     raise ValueError(f"Unexpected workbook inventory counts: {len(master)} master, {len(catalog)} public")
 if len({item["id"] for item in catalog}) != len(catalog):

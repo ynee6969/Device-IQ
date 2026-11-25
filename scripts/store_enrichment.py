@@ -162,7 +162,7 @@ def main():
     report = [
         '# DeviceIQ enrichment review', '',
         f"Run: **{run['run_at']}**", '',
-        f"Queued smartphone/tablet models: **{run['inventory_count']}**; processed: **{run['selected_count']}**.",
+        f"Queued device models (smartphones, tablets, and laptops): **{run['inventory_count']}**; processed: **{run['selected_count']}**.",
         f"Source fetches: **{len(run['fetches'])}**; extracted pages: **{counts['extracted']}**.",
         f"Specification observations: **{len(run['observations'])}** (**{missing_baseline}** fields absent from the baseline); dated price snapshots: **{len(run['prices'])}**; conflicting observations: **{conflict_count}** across **{disputed_fields}** model fields.",
         f"Sitemap/search source candidates: **{len(run['discovery'])}**.", '',

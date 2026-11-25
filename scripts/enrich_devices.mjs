@@ -107,6 +107,7 @@ const officialHosts = new Set([
   'lenovo.com', 'huawei.com', 'honor.com', 'oppo.com', 'vivo.com', 'realme.com',
   'tecno-mobile.com', 'infinixmobility.com', 'motorola.com', 'nokia.com', 'oneplus.com',
   'nothing.tech', 'poco.com', 'redmi.com', 'google.com', 'store.google.com',
+  'dell.com', 'hp.com', 'msi.com', 'gigabyte.com', 'framework.com', 'razer.com',
 ]);
 const ptgHost = 'www.pinoytechnoguide.com';
 const ptgUrl = value => {
@@ -123,23 +124,63 @@ function officialUrl(value) {
 }
 
 const fieldAliases = [
-  [/^(?:battery(?: capacity)?|typical battery)\b/i, 'battery_mah'],
+  [/^(?:battery(?: capacity)?|typical battery)\b/i, 'battery_capacity'],
   [/^(?:ram|memory)\b/i, 'ram_gb'],
   [/^(?:storage|internal storage|rom)\b/i, 'internal_storage_gb'],
-  [/^(?:display(?: size)?|screen size)\b/i, 'display_inches'],
-  [/^(?:processor|chipset|soc)\b/i, 'chipset'],
+  [/^(?:display size|screen size|display)\b/i, 'display_inches'],
+  [/^(?:processor|chipset|soc)\b/i, 'processor'],
+  [/^(?:cpu)\b/i, 'cpu'],
+  [/^(?:gpu|graphics|graphics card)\b/i, 'gpu'],
   [/^(?:operating system|os)\b/i, 'operating_system'],
+  [/^(?:display )?resolution\b/i, 'resolution'],
+  [/^(?:refresh rate|refresh)\b/i, 'refresh_hz'],
+  [/^(?:weight)\b/i, 'weight'],
+  [/^(?:dimensions|dimension)\b/i, 'dimensions'],
+  [/^(?:charging|wired charging)\b/i, 'charging'],
+  [/^(?:wi-?fi)\b/i, 'wifi'],
+  [/^(?:bluetooth)\b/i, 'bluetooth'],
+  [/^(?:nfc)\b/i, 'nfc'],
+  [/^(?:sim|sim card)\b/i, 'sim'],
+  [/^(?:front camera|selfie camera)\b/i, 'front_camera'],
+  [/^(?:rear camera|main camera|camera)\b/i, 'rear_camera'],
+  [/^(?:water resistance|waterproof|ip rating)\b/i, 'ip_rating'],
+  [/^(?:ports|interface)\b/i, 'ports'],
 ];
-function parseField(label, value) {
-  const key = fieldAliases.find(([pattern]) => pattern.test(label))?.[1];
+function parseField(label, value, category = 'smartphones') {
+  let key = fieldAliases.find(([pattern]) => pattern.test(label))?.[1];
   if (!key || !value || value.length > 200) return null;
   if ((key === 'ram_gb' || key === 'internal_storage_gb') && (/storage.*ram|ram.*storage/i.test(label) || (value.match(/\b\d{1,4}\s*GB\b/gi) || []).length !== 1)) return null;
   let result = clean(value);
-  if (key === 'battery_mah') result = result.match(/\b([\d,]{4,6})\s*mAh\b/i)?.[1]?.replace(/,/g, '');
-  if (key === 'ram_gb' || key === 'internal_storage_gb') result = result.match(/\b(\d{1,4})\s*GB\b/i)?.[1];
-  if (key === 'display_inches') result = result.match(/\b(\d{1,2}(?:\.\d{1,2})?)[\s-]*(?:inches|inch|["”])/i)?.[1];
+  let unit = null;
+  if (key === 'processor') key = category === 'laptops' ? 'cpu' : 'chipset';
+  if (key === 'battery_capacity') {
+    const found = result.match(/\b([\d,]+(?:\.\d+)?)\s*(mAh|Wh)\b/i);
+    if (!found) return null;
+    result = found[1].replace(/,/g, '');
+    unit = found[2].toLowerCase() === 'mah' ? 'mAh' : 'Wh';
+    key = unit === 'Wh' ? 'battery_wh' : 'battery_mah';
+  }
+  if (key === 'ram_gb' || key === 'internal_storage_gb') {
+    const found = result.match(/\b(\d{1,4})\s*GB\b/i);
+    if (!found) return null;
+    result = found[1]; unit = 'GB';
+  }
+  if (key === 'display_inches') {
+    const found = result.match(/\b(\d{1,2}(?:\.\d{1,2})?)[\s-]*(?:inches|inch|["”])/i);
+    if (!found) return null;
+    result = found[1]; unit = 'in';
+  }
+  if (key === 'refresh_hz') {
+    const found = result.match(/\b(\d{2,3}(?:\.\d+)?)\s*Hz\b/i);
+    if (!found) return null;
+    result = found[1]; unit = 'Hz';
+  }
+  if (key === 'weight') {
+    const found = result.match(/\b(\d+(?:\.\d+)?)\s*(kg|g)\b/i);
+    if (found) { result = found[1]; unit = found[2].toLowerCase(); }
+  }
   if (!result) return null;
-  return { key, value: result, excerpt: `${clean(label)}: ${clean(value)}`.slice(0, 240) };
+  return { key, value: result, unit, excerpt: `${clean(label)}: ${clean(value)}`.slice(0, 240) };
 }
 
 function jsonLdObjects(value) {
@@ -165,7 +206,7 @@ export function extractPage(html, device, configurations = [], sourceKind = 'off
   const specs = [];
   $('tr').each((_, row) => {
     const cells = $(row).find('th,td').map((__, el) => clean($(el).text())).get();
-    if (cells.length === 2) { const field = parseField(cells[0], cells[1]); if (field) specs.push(field); }
+    if (cells.length === 2) { const field = parseField(cells[0], cells[1], device.category_id); if (field) specs.push(field); }
   });
   // Xiaomi's official specification pages use paired label/value blocks, not tables.
   $('span.f-bold').each((_, labelElement) => {
@@ -173,12 +214,12 @@ export function extractPage(html, device, configurations = [], sourceKind = 'off
     const valueBlock = $(labelElement).parent().next();
     if (!valueBlock.length) return;
     const firstValue = clean(valueBlock.find('span').first().text());
-    const field = parseField(label, firstValue);
+    const field = parseField(label, firstValue, device.category_id);
     if (field) specs.push(field);
   });
   for (const product of products) {
     for (const property of product.additionalProperty || []) {
-      const field = parseField(property.name, property.value);
+      const field = parseField(property.name, property.value, device.category_id);
       if (field) specs.push(field);
     }
   }
@@ -303,9 +344,10 @@ async function main() {
   }
   const configsByDevice = new Map();
   for (const config of tables.device_configurations) configsByDevice.set(config.device_id, [...(configsByDevice.get(config.device_id) || []), config]);
-  const all = tables.device_models.filter(x => ['smartphones', 'tablets'].includes(x.category_id));
+  const all = tables.device_models.filter(x => ['smartphones', 'tablets', 'laptops'].includes(x.category_id));
   const selected = limit > 0 ? all.slice(0, limit) : all;
-  const ptgMatches = await ptgSitemapMatches(selected, brandById);
+  const ptgModels = selected.filter(x => ['smartphones', 'tablets'].includes(x.category_id));
+  const ptgMatches = await ptgSitemapMatches(ptgModels, brandById);
   const discoveryCandidates = selected.filter(x => !evidenceByDevice.has(x.device_id) && !ptgMatches.has(x.device_id));
   // Rotate discovery over the full queue so repeated scheduled runs cover every model.
   const week = Math.floor(Date.now() / (7 * 86400_000));
