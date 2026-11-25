@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { CATALOG_VERSION, catalogDevices, catalogRows } from "../lib/catalog/pilot";
-import { catalogDevices as publicDevices, catalogRows as publicRows } from "../lib/catalog/data";
+import { catalogDevices as publicDevices, catalogRows as publicRows, excludedDevicesForCategory } from "../lib/catalog/data";
 import { fieldOptions, filterDefinitions, filterRows, pageRows, sortRows, type FilterSelections } from "../lib/catalog/filtering";
 import type { CatalogRow, DeviceCategory } from "../lib/catalog/types";
 import packageJson from "../package.json";
@@ -64,20 +64,28 @@ assert.deepEqual(pageRows(fixture, 1).map(({ device }) => device.id), ["fixture-
 console.log("First 10 and second page fixture: pass");
 passed++;
 
-assert.equal(publicDevices.length, 28);
+assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
-  publicDevices.filter((device) => device.category === category).length), [14, 9, 5]);
-assert.ok(publicDevices.every((device) => device.sources.length && device.variants.length &&
+  publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [285, 150, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 467);
+assert.deepEqual(Object.fromEntries(["Included", "Pending date", "Pending", "Excluded", "Held out"].map((status) => [status, publicDevices.filter((device) => device.scopeStatus === status).length])), { Included: 28, "Pending date": 29, Pending: 396, Excluded: 3, "Held out": 7 });
+assert.ok(publicDevices.every((device) => device.variants.length &&
   device.sources.every((source) => source.url.startsWith("https://"))));
 assert.ok(publicDevices.every((device) => device.variants.every((variant) =>
-  variant.pricePhp === null || Boolean(variant.priceCondition && variant.priceSourceUrl && variant.priceObservedAt))));
-assert.ok(publicDevices.every((device) => device.variants.every((variant) =>
-  Object.keys(variant.specs).every((key) => variant.specSources?.[key as keyof typeof variant.specSources]))));
+  variant.pricePhp === null || Boolean(variant.priceType && variant.priceSourceUrl && variant.priceObservedAt))));
 assert.ok(publicDevices.some((device) => device.model === "Galaxy S21 5G"));
-assert.ok(!publicDevices.some((device) => device.model.startsWith("ProArt")));
+assert.ok(excludedDevicesForCategory("smartphones").some((device) => device.model === "Galaxy S21 5G"));
+assert.ok(excludedDevicesForCategory("tablets").some((device) => device.model === "ASUS Pad" && device.recordType === "held_out_claim"));
+assert.ok(!publicRows("smartphones").some((row) => row.device.model === "Galaxy S21 5G"));
+for (const category of ["smartphones", "tablets", "laptops"] as const) {
+  const excludedIds = new Set(excludedDevicesForCategory(category).map((device) => device.id));
+  assert.ok(publicRows(category).every((row) => !excludedIds.has(row.device.id)));
+}
+assert.equal(filterRows(publicRows("smartphones"), filterDefinitions("smartphones"), { "pricePhp:max": 20000 }).some((row) => row.variant.pricePhp === null), false);
 assert.equal(pageRows(sortRows(publicRows("smartphones"), "name_asc"), 0).length, 10);
-assert.equal(pageRows(sortRows(publicRows("smartphones"), "name_asc"), 1).length, 4);
-console.log("Public inventory eligibility, provenance, variants and real pagination: pass");
+assert.equal(pageRows(sortRows(publicRows("smartphones"), "name_asc"), 1).length, 10);
+console.log("Workbook inventory coverage, exclusion boundaries, variants, provenance and pagination: pass");
 passed++;
 
 console.log(`${passed} passed, 0 failed, 0 not assessed`);

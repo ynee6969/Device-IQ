@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { CatalogRow, DeviceCategory } from "@/lib/catalog/types";
+import type { CatalogDevice, CatalogRow, DeviceCategory } from "@/lib/catalog/types";
 import { fieldOptions, filterDefinitions, filterRows, pageRows, sortRows, type CatalogSort, type FilterDefinition, type FilterSelections } from "@/lib/catalog/filtering";
 import { CatalogCard } from "./CatalogCard";
 import styles from "./catalog.module.css";
@@ -22,7 +22,7 @@ function FilterControl({ definition, rows, selections, setSelections }: { defini
     return <label className={styles.field}>
       <span>{definition.label} {definition.unit ? `(${definition.unit})` : ""}</span>
       <select className="select" value={typeof current === "number" ? current : ""} onChange={(event) => setSelections((previous) => ({ ...previous, [id]: event.target.value ? Number(event.target.value) : undefined }))}>
-        <option value="">Any verified value</option>
+        <option value="">Any recorded value</option>
         {thresholds.map((value) => <option key={value} value={value}>{value.toLocaleString("en-PH")}{definition.unit ? ` ${definition.unit}` : ""}{definition.kind === "min" ? " or more" : " or less"}</option>)}
       </select>
     </label>;
@@ -42,7 +42,7 @@ function FilterControl({ definition, rows, selections, setSelections }: { defini
   </fieldset>;
 }
 
-export function CatalogBrowser({ category, rows }: { category: DeviceCategory; rows: CatalogRow[] }) {
+export function CatalogBrowser({ category, rows, excludedDevices }: { category: DeviceCategory; rows: CatalogRow[]; excludedDevices: CatalogDevice[] }) {
   const definitions = useMemo(() => filterDefinitions(category), [category]);
   const [selections, setSelections] = useState<FilterSelections>({});
   const [search, setSearch] = useState("");
@@ -65,7 +65,7 @@ export function CatalogBrowser({ category, rows }: { category: DeviceCategory; r
 
   return <div className={`page-shell section ${styles.browser}`}>
     <nav className={styles.breadcrumb} aria-label="Breadcrumb"><Link href="/browse">Choose a category</Link><span>/</span><span>{categoryLabels[category]}</span></nav>
-    <header className={styles.heading}><div><span className={styles.eyebrow}>Browse</span><h1>{categoryLabels[category]}</h1><p>Official Philippine evidence within the study period. The research inventory is provisional; specifications and prices appear only where recorded.</p></div><span className={styles.count}>{new Set(rows.map((row) => row.device.id)).size} models</span></header>
+    <header className={styles.heading}><div><span className={styles.eyebrow}>Browse</span><h1>{categoryLabels[category]}</h1><p>Research records include devices whose Philippine release has not been verified. Check each record’s status and source before relying on it.</p>{excludedDevices.length > 0 && <a className={styles.excludedJump} href="#excluded-records">View {excludedDevices.length} excluded or held-out {excludedDevices.length === 1 ? "record" : "records"}</a>}</div><span className={styles.count}>{new Set(rows.map((row) => row.device.id)).size + excludedDevices.length} records</span></header>
     <button className={`button-secondary ${styles.mobileFiltersToggle}`} type="button" aria-expanded={filtersOpen} aria-controls="catalog-filters" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Hide filters" : `Show filters${activeCount ? ` (${activeCount})` : ""}`}</button>
     <div className={styles.layout}>
       <aside id="catalog-filters" className={`${styles.filters} ${filtersOpen ? styles.filtersOpen : ""}`} aria-label="Catalog filters">
@@ -76,10 +76,11 @@ export function CatalogBrowser({ category, rows }: { category: DeviceCategory; r
         {rows.length > 0 && <p className={styles.hint}>Different fields narrow results together. Select several options within one field to include any of them.</p>}
       </aside>
       <section className={styles.results} aria-label="Catalog results">
-        <div className={styles.toolbar}><p aria-live="polite">{matched.length} {matched.length === 1 ? "match" : "matches"}{activeCount ? ` · ${activeCount} active filters` : ""}</p><label>Sort by <select className="select" value={sort} onChange={(event) => { setSort(event.target.value as CatalogSort); setPage(0); }}><option value="name_asc">Name A–Z{category !== "laptops" ? " (default)" : ""}</option><option value="name_desc">Name Z–A</option>{rows.some((row) => row.variant.pricePhp !== null) && <><option value="price_asc">Price: low to high{category === "laptops" ? " (default)" : ""}</option><option value="price_desc">Price: high to low</option></>}{rows.some((row) => typeof row.variant.specs.ramGb === "number") && <option value="ram_desc">RAM: high to low</option>}{rows.some((row) => row.device.releaseDate) && <option value="release_desc">Release: newest first</option>}</select></label></div>
-        {visible.length ? <div className={styles.grid}>{visible.map((row, index) => <CatalogCard row={row} priority={index < 2} key={row.variant.id} />)}</div> : <div className={styles.empty}><h2>No matching configurations</h2><p>{rows.length ? "Try removing a filter or choosing a different value. Your selections will stay in place until you change them." : "No eligible records are available in this category yet."}</p>{activeCount > 0 && <button className="button-secondary" type="button" onClick={() => { setSelections({}); setSearch(""); setPage(0); }}>Clear filters</button>}</div>}
+        <div className={styles.toolbar}><p aria-live="polite">{matched.length} {matched.length === 1 ? "configuration" : "configurations"}{activeCount ? ` · ${activeCount} active filters` : ""}</p><label>Sort by <select className="select" value={sort} onChange={(event) => { setSort(event.target.value as CatalogSort); setPage(0); }}><option value="name_asc">Name A–Z{category !== "laptops" ? " (default)" : ""}</option><option value="name_desc">Name Z–A</option>{rows.some((row) => row.variant.pricePhp !== null) && <><option value="price_asc">Price: low to high{category === "laptops" ? " (default)" : ""}</option><option value="price_desc">Price: high to low</option></>}{rows.some((row) => typeof row.variant.specs.ramGb === "number") && <option value="ram_desc">RAM: high to low</option>}{rows.some((row) => row.device.releaseDate) && <option value="release_desc">Release: newest first</option>}</select></label></div>
+        {visible.length ? <div className={styles.grid}>{visible.map((row, index) => <CatalogCard row={row} priority={index < 2} key={row.variant.id} />)}</div> : <div className={styles.empty}><h2>No matching configurations</h2><p>{rows.length ? "Try removing a filter or choosing a different value. Your selections will stay in place until you change them." : "No records are available in this category yet."}</p>{activeCount > 0 && <button className="button-secondary" type="button" onClick={() => { setSelections({}); setSearch(""); setPage(0); }}>Clear filters</button>}</div>}
         {matched.length > 10 && <nav className={styles.pagination} aria-label="Result pages"><button className="button-secondary" type="button" disabled={page === 0} onClick={() => setPage((value) => value - 1)}>Previous</button><span>Page {page + 1} of {Math.ceil(matched.length / 10)}</span><button className="button-secondary" type="button" disabled={(page + 1) * 10 >= matched.length} onClick={() => setPage((value) => value + 1)}>Next</button></nav>}
       </section>
     </div>
+    {excludedDevices.length > 0 && <section id="excluded-records" className={styles.excludedSection} aria-label="Excluded and held-out records"><h2>Excluded and held out</h2><p>These research records are visible for transparency. They are outside the searchable catalog and cannot be compared.</p><div className={styles.grid}>{excludedDevices.map((device) => <CatalogCard key={device.id} row={{ device, variant: device.variants[0] }} />)}</div></section>}
   </div>;
 }

@@ -96,13 +96,14 @@ async function main() {
       if (!meta.width || !meta.height || meta.width < 160 || meta.height < 160) throw new Error('Image dimensions too small');
       await mkdir(dirname(file), { recursive: true });
       await sharp(image.bytes).rotate().resize({ width: 900, height: 650, fit: 'inside', withoutEnlargement: true }).webp({ quality: 84 }).toFile(file);
-      manifest[source.deviceId] = { path: `/catalog-images/${source.deviceId}.webp`, sourcePage: source.pageUrl, assetUrl: asset.href, scope: source.scope };
+      manifest[source.deviceId] = { path: `/catalog-images/${source.deviceId}.webp`, sourcePage: source.pageUrl, assetUrl: asset.href, scope: source.scope,
+        ...(source.credit ? { credit: source.credit } : {}), ...(source.usageTerms ? { usageTerms: source.usageTerms } : {}) };
       console.log(`Added: ${device.brand} ${device.model} (${meta.width}×${meta.height})`);
     } catch (error) { failures.push({ device: `${device.brand} ${device.model}`, error: String(error.message || error) }); console.error(`Failed: ${device.brand} ${device.model}: ${error.message || error}`); }
   }
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-  console.log(JSON.stringify({ mapped: seen.size - failures.length, total: catalog.length, failures }, null, 2));
-  if (seen.size !== (selectedId ? 1 : catalog.length) || failures.length) process.exitCode = 1;
+  console.log(JSON.stringify({ mapped: seen.size - failures.length, curated: selectedId ? 1 : sources.length, catalog: catalog.length, failures }, null, 2));
+  if (seen.size !== (selectedId ? 1 : sources.length) || failures.length) process.exitCode = 1;
 }
 
 main().catch(error => { console.error(error); process.exitCode = 1; });

@@ -346,5 +346,506 @@
     "sourcePage": "https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-s-16-um5606/",
     "assetUrl": "https://dlcdnwebimgs.asus.com/gain/f34d32c6-c387-4d9f-a3ae-b7e22bcd8720/",
     "scope": "Exact model family"
+  },
+  "device_ea2924f7ecf7ce": {
+    "path": "/catalog-images/device_ea2924f7ecf7ce.webp",
+    "sourcePage": "https://www.asus.com/ph/laptops/for-creators/proart/proart-gopro-edition-px13-hn7306/",
+    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/ed87296a-777a-4aba-a66d-bbb79025c196/w800",
+    "scope": "Exact model",
+    "credit": "ASUS"
+  },
+  "device_8cef5fb897991d": {
+    "path": "/catalog-images/device_8cef5fb897991d.webp",
+    "sourcePage": "https://www.asus.com/ph/laptops/for-creators/proart/proart-p16-h7606/",
+    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/6e18d750-7a62-4bd8-9053-e60385eaaef5/w800",
+    "scope": "Exact model",
+    "credit": "ASUS"
+  },
+  "device_00536c6bd5502e": {
+    "path": "/catalog-images/device_00536c6bd5502e.webp",
+    "sourcePage": "https://www.asus.com/ph/laptops/for-creators/proart/proart-px13-hn7306/",
+    "assetUrl": "https://dlcdnwebimgs.asus.com/gain/26a64d9f-c6c2-4263-ac47-69b2104ebcfe/w800",
+    "scope": "Exact model",
+    "credit": "ASUS"
+  },
+  "device_538f6645a137ee": {
+    "path": "/catalog-images/device_538f6645a137ee.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15_Pro.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Apple_iPhone_15_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "IPHONE 15",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_331a91ecca31d0": {
+    "path": "/catalog-images/device_331a91ecca31d0.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_15_pro_max.png",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/IPhone_15_pro_max.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Ka Kit Pang",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_4f49fc59fe2970": {
+    "path": "/catalog-images/device_4f49fc59fe2970.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:About_iPhone_16_Plus_Teal.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/About_iPhone_16_Plus_Teal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "メイド理世",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_a35cecf3e59fde": {
+    "path": "/catalog-images/device_a35cecf3e59fde.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Back_of_iPhone_16_Pro_-_2.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Back_of_iPhone_16_Pro_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Kyu3a",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_d35f986ae89db2": {
+    "path": "/catalog-images/device_d35f986ae89db2.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Apple_iPhone_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "IPHONE 15",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_5ceda3fea334d8": {
+    "path": "/catalog-images/device_5ceda3fea334d8.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Space_Black_iPhone_Air.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Space_Black_iPhone_Air.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Ahmad Ali Karim",
+    "usageTerms": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_391d612f3650e7": {
+    "path": "/catalog-images/device_391d612f3650e7.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:CMF_Phone_2_Pro_(white)_2025-05-08.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/CMF_Phone_2_Pro_%28white%29_2025-05-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Suntooooth",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_14e0231a8d245e": {
+    "path": "/catalog-images/device_14e0231a8d245e.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:HMD_Skyline_back.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/HMD_Skyline_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Maksdroider",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_345b9ae6196e43": {
+    "path": "/catalog-images/device_345b9ae6196e43.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_X6.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Huawei_Mate_X6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "茅野ふたば",
+    "usageTerms": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_a41c76670e8533": {
+    "path": "/catalog-images/device_a41c76670e8533.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Huawei_P60_Pro.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Huawei_P60_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Maksdroider",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_78795cead1e4cf": {
+    "path": "/catalog-images/device_78795cead1e4cf.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nothing_Phone_(1)_back_-_white.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Nothing_Phone_%281%29_back_-_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Premeditated",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_c98433a0c7ffce": {
+    "path": "/catalog-images/device_c98433a0c7ffce.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nothing_phone_(2a).jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nothing_phone_%282a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Kyu3a",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_edc07536e9cd09": {
+    "path": "/catalog-images/device_edc07536e9cd09.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:OnePlus_13_back.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/OnePlus_13_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Maksdroider",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_3dc0d9f8e23b3a": {
+    "path": "/catalog-images/device_3dc0d9f8e23b3a.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Oppo_A77s_(12-22-2022).jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Oppo_A77s_%2812-22-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "PaulGorduiz106",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_83e936d401c190": {
+    "path": "/catalog-images/device_83e936d401c190.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Oppo_Find_N2_Flip.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Oppo_Find_N2_Flip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Vis M",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_8d417b7be5469c": {
+    "path": "/catalog-images/device_8d417b7be5469c.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:POCO_C65_Phone_Back.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/POCO_C65_Phone_Back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "M65.MGBD1",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_ee3bda03baa9d0": {
+    "path": "/catalog-images/device_ee3bda03baa9d0.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Poco_X3_Pro.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Poco_X3_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "LOOOKI",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_8ee4324c75a16a": {
+    "path": "/catalog-images/device_8ee4324c75a16a.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Redmi_13_Product_photography_05.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Redmi_13_Product_photography_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Wasiul Bahar",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_42b5f469649788": {
+    "path": "/catalog-images/device_42b5f469649788.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Redmi_14C_front.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Redmi_14C_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Maksdroider",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_37b298a84397b6": {
+    "path": "/catalog-images/device_37b298a84397b6.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Redmi_15C_front.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Redmi_15C_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Maksdroider",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_45c7e8bb258a1d": {
+    "path": "/catalog-images/device_45c7e8bb258a1d.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A35_5G_2024_(1).jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Samsung_Galaxy_A35_5G_2024_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_6649cf0c87cf5f": {
+    "path": "/catalog-images/device_6649cf0c87cf5f.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A36_5G_2025.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Samsung_Galaxy_A36_5G_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_8a8a8e9ba58d74": {
+    "path": "/catalog-images/device_8a8a8e9ba58d74.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A55_5G_2024.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Samsung_Galaxy_A55_5G_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_528380ceb337d2": {
+    "path": "/catalog-images/device_528380ceb337d2.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A72_(cropped).jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Samsung_Galaxy_A72_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "LuisitoMacaraegJr",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_f7fdf0130dfa08": {
+    "path": "/catalog-images/device_f7fdf0130dfa08.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_FE_2024.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Samsung_Galaxy_S24_FE_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_f6ce8c275dee32": {
+    "path": "/catalog-images/device_f6ce8c275dee32.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Fold3_5G.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Samsung_Galaxy_Z_Fold3_5G.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Jakub CA",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_8b17ead850bbec": {
+    "path": "/catalog-images/device_8b17ead850bbec.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Fold6.png",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Samsung_Galaxy_Z_Fold6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Mandy Harper",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_09d07effbd7687": {
+    "path": "/catalog-images/device_09d07effbd7687.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Vivo_V21_back.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Vivo_V21_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Maksdroider",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_d2f928e59b41f6": {
+    "path": "/catalog-images/device_d2f928e59b41f6.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "メイド理世",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_1352c430fa0bb9": {
+    "path": "/catalog-images/device_1352c430fa0bb9.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nokia_T20.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Nokia_T20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "NKingz06",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_2bbc3980a61c93": {
+    "path": "/catalog-images/device_2bbc3980a61c93.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_A7_lite.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Samsung_Galaxy_Tab_A7_lite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Striker9498",
+    "usageTerms": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_5a4be926237b63": {
+    "path": "/catalog-images/device_5a4be926237b63.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Galaxy_Tab_S10%2B_Back.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Galaxy_Tab_S10%2B_Back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Nash Izumrud",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_211eea228c21fc": {
+    "path": "/catalog-images/device_211eea228c21fc.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_S8.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Samsung_Galaxy_Tab_S8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Hajoon0102",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_14877e82e6027a": {
+    "path": "/catalog-images/device_14877e82e6027a.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Xiaomi_Pad_6_display.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Xiaomi_Pad_6_display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Myrat",
+    "usageTerms": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_0a08afaa2bffa0": {
+    "path": "/catalog-images/device_0a08afaa2bffa0.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Xiaomi_Pad_6S_Pro.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Xiaomi_Pad_6S_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "茅野ふたば",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_e737cf440a960c": {
+    "path": "/catalog-images/device_e737cf440a960c.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_15_Plus_2024.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/IPhone_15_Plus_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_305c8f9c273ea1": {
+    "path": "/catalog-images/device_305c8f9c273ea1.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Back_view_of_iPhone_16_Pro_Max_Natural_Titanium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "メイド理世",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_474454700e62e5": {
+    "path": "/catalog-images/device_474454700e62e5.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Back_of_iPhone_16.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Back_of_iPhone_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Kyu3a",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_fe5c3b9c543e0f": {
+    "path": "/catalog-images/device_fe5c3b9c543e0f.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_16e_Black.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/IPhone_16e_Black.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Jakub CA",
+    "usageTerms": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_76b45bc4753ef7": {
+    "path": "/catalog-images/device_76b45bc4753ef7.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_iPhone_17.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Black_iPhone_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Ahmad Ali Karim",
+    "usageTerms": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_c1417eab404447": {
+    "path": "/catalog-images/device_c1417eab404447.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPhone_SE_3rd_Gen.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/IPhone_SE_3rd_Gen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Toad40",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_e4a50bfd310ec0": {
+    "path": "/catalog-images/device_e4a50bfd310ec0.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_10th_Generation_2024.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/IPad_10th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_80a03073c65780": {
+    "path": "/catalog-images/device_80a03073c65780.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_9th_Generation_2024.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/IPad_9th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_a9930490a861ed": {
+    "path": "/catalog-images/device_a9930490a861ed.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Air_5th_Generation_2024.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/IPad_Air_5th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_99d1f134735d0c": {
+    "path": "/catalog-images/device_99d1f134735d0c.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Air_11-inch_(M3).jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/IPad_Air_11-inch_%28M3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "茅野ふたば",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_b3800bdea59d3d": {
+    "path": "/catalog-images/device_b3800bdea59d3d.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Mini_6_-_1.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/IPad_Mini_6_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Kyu3a",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_9b65c21f337198": {
+    "path": "/catalog-images/device_9b65c21f337198.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:IPad_Pro_M2_(12.9_inch)_6th_Generation_2024.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/IPad_Pro_M2_%2812.9_inch%29_6th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "Captainmorlypogi1959",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
+  },
+  "device_639dbf609255e4": {
+    "path": "/catalog-images/device_639dbf609255e4.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:11-inch_iPad_Pro_M5_with_Apple_Pencil_Pro.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/11-inch_iPad_Pro_M5_with_Apple_Pencil_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "scope": "Exact model",
+    "credit": "茅野ふたば",
+    "usageTerms": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized and converted to WebP"
   }
 }

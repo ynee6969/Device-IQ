@@ -5,6 +5,10 @@ export interface CatalogImageRecord {
   sourcePage: string;
   assetUrl: string;
   scope: string;
+  credit?: string;
+  usageTerms?: string;
+  licenseUrl?: string;
+  changes?: string;
 }
 
 const images = imageManifest as Record<string, CatalogImageRecord>;

@@ -41,12 +41,20 @@
 .cardTop button:hover, .cardTop button[aria-pressed="true"] { background: var(--accent-soft); border-color: #b9cce8; }
 .category { text-transform: none; background: var(--surface-soft); font-weight: 700; }
 .cardImageLink { display: block; border-radius: 13px; overflow: hidden; background: #f7f9fc; border: 1px solid #edf1f7; }
+.imageCredit { margin: .35rem .2rem 0; color: var(--muted); font-size: .68rem; line-height: 1.35; }
+.imageCredit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .productImage { position: relative; width: 100%; aspect-ratio: 1.55; background: #f7f9fc; }
 .productImageElement { object-fit: contain; padding: .35rem; transition: transform .25s ease; }
 .cardImageLink:hover .productImageElement { transform: scale(1.035); }
-.imageFallback { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-weight: 700; }
+.imageFallback { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5rem; color: var(--muted); font-weight: 700; font-size: .86rem; }
 .cardContent { display: flex; flex: 1; flex-direction: column; padding: 1.1rem .2rem .2rem; }
 .cardTitle { min-height: 4.2rem; }
+.statusRow { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem; margin-bottom: .7rem; }
+.statusPill { display: inline-flex; align-items: center; padding: .32rem .58rem; border-radius: 999px; font-size: .73rem; font-weight: 800; border: 1px solid transparent; }
+.statusVerified { color: #16653e; background: #e8f7ee; border-color: #bde6cc; }
+.statusPending { color: #85520d; background: #fff5df; border-color: #f3dca6; }
+.statusExcluded { color: #8d3737; background: #fff0ef; border-color: #f0c3c0; }
+.verificationText { color: var(--muted); font-size: .74rem; line-height: 1.35; }
 .card h2 { font-size: clamp(1.1rem, 1.65vw, 1.35rem); line-height: 1.25; letter-spacing: -.02em; margin: 0 0 .35rem; }
 .variant { color: var(--muted); font-size: .86rem; line-height: 1.4; }
 .cardHighlights { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem; margin: 1rem 0 .8rem; }
@@ -59,6 +67,11 @@
 .quickSpecs dd { overflow-wrap: anywhere; font-weight: 650; text-align: right; }
 .cardActions { display: grid; grid-template-columns: 1fr 1fr; gap: .7rem; margin-top: auto; }
 .cardActions a { min-height: 42px; justify-content: center; padding: .65rem .55rem; text-align: center; font-size: .88rem; }
+.singleAction { grid-template-columns: 1fr; }
+.excludedJump { display: inline-block; color: var(--accent); font-size: .88rem; font-weight: 700; margin-top: .8rem; }
+.excludedSection { border-top: 1px solid var(--border); margin-top: 3rem; padding-top: 2rem; }
+.excludedSection h2 { font-size: 1.6rem; margin-bottom: .45rem; }
+.excludedSection > p { color: var(--muted); margin-bottom: 1.4rem; }
 .empty { text-align: center; padding: 3rem 1.5rem; }
 .empty h2 { font-size: 1.4rem; margin-bottom: .5rem; }
 .empty p { color: var(--muted); margin-bottom: 1rem; }
@@ -83,6 +96,10 @@
 .detailActions { display: flex; align-items: center; gap: .8rem; margin-top: .7rem; }
 .detailActions button { border: 1px solid var(--border); background: var(--surface-soft); padding: .65rem 1rem; border-radius: 10px; color: var(--accent); font: inherit; font-weight: 700; cursor: pointer; }
 .detailActions button:hover, .detailActions button[aria-pressed="true"] { border-color: var(--accent); }
+.exclusionNotice { border: 1px solid #f0c3c0; background: #fff5f4; color: #813535; border-radius: 10px; padding: .7rem .9rem; font-size: .86rem; line-height: 1.45; }
+.variantNav { display: flex; gap: .6rem; flex-wrap: wrap; margin: 0 0 1.5rem; }
+.variantNav a { border: 1px solid var(--border); border-radius: 9px; padding: .55rem .8rem; color: var(--text); text-decoration: none; background: var(--surface); font-size: .85rem; }
+.variantNav .activeVariant { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); font-weight: 700; }
 .detailGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .detailSection { padding: 1.3rem; }
 .detailSection h2 { font-size: 1.1rem; margin-bottom: .8rem; }
@@ -92,6 +109,13 @@
 .specList dd { overflow-wrap: anywhere; }
 .sourceLine { margin-top: 1rem; font-size: .82rem; color: var(--muted); }
 .sourceLine a { color: var(--accent); }
+.sourceList { display: grid; gap: .75rem; list-style: none; padding: 0; margin: 0; }
+.sourceList li { display: grid; gap: .18rem; border-top: 1px solid var(--border); padding-top: .65rem; overflow-wrap: anywhere; font-size: .85rem; }
+.sourceList a { color: var(--accent); font-weight: 700; }
+.sourceList span, .sourceList small { color: var(--muted); }
+.openIssues { margin-top: 1.2rem; font-size: .84rem; }
+.openIssues h3 { font-size: .9rem; margin-bottom: .4rem; }
+.openIssues ul { margin: 0; padding-left: 1.2rem; display: grid; gap: .35rem; }
 .comparePanel { padding: 1.5rem; margin-top: 1.5rem; }
 .compareSelectors { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 .compareTable { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }

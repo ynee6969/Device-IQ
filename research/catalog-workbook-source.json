@@ -1,0 +1,31 @@
+{
+  "workbookName": "DeviceIQ_Philippine_Device_Inventory_2021-2026.xlsx",
+  "sha256": "0968efbbd051a800116060acb3a4fcee57b39e2f177040afb84f90d674c15820",
+  "sheetsUsed": [
+    "MASTER DEVICE INVENTORY",
+    "SMARTPHONES",
+    "TABLETS",
+    "LAPTOPS",
+    "DEVICE CONFIGURATIONS",
+    "PHILIPPINE RELEASE RECORDS",
+    "SOURCE REFERENCES",
+    "VERIFICATION QUEUE",
+    "EXCLUDED RECORDS"
+  ],
+  "masterRecords": 456,
+  "heldOutClaimsAdded": 7,
+  "publicRecords": 463,
+  "configurationRows": 467,
+  "scopeCounts": {
+    "Pending date": 29,
+    "Included": 28,
+    "Pending": 396,
+    "Held out": 7,
+    "Excluded": 3
+  },
+  "categoryCounts": {
+    "laptops": 18,
+    "smartphones": 292,
+    "tablets": 153
+  }
+}

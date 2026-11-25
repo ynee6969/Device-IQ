@@ -1,4 +1,7 @@
 [
+  {"deviceId":"device_ea2924f7ecf7ce","method":"direct","pageUrl":"https://www.asus.com/ph/laptops/for-creators/proart/proart-gopro-edition-px13-hn7306/","assetUrl":"https://dlcdnwebimgs.asus.com/gain/ed87296a-777a-4aba-a66d-bbb79025c196/w800","scope":"Exact model","credit":"ASUS"},
+  {"deviceId":"device_8cef5fb897991d","method":"direct","pageUrl":"https://www.asus.com/ph/laptops/for-creators/proart/proart-p16-h7606/","assetUrl":"https://dlcdnwebimgs.asus.com/gain/6e18d750-7a62-4bd8-9053-e60385eaaef5/w800","scope":"Exact model","credit":"ASUS"},
+  {"deviceId":"device_00536c6bd5502e","method":"direct","pageUrl":"https://www.asus.com/ph/laptops/for-creators/proart/proart-px13-hn7306/","assetUrl":"https://dlcdnwebimgs.asus.com/gain/26a64d9f-c6c2-4263-ac47-69b2104ebcfe/w800","scope":"Exact model","credit":"ASUS"},
   {"deviceId":"device_18a6b6ab548a94","method":"og","pageUrl":"https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-14-oled-um3406/","scope":"Exact model family"},
   {"deviceId":"device_a07417c32a861d","method":"og","pageUrl":"https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-14-ux3480-intel/","scope":"Model family; pictured configuration may vary"},
   {"deviceId":"device_fc5e931cb8adc4","method":"og","pageUrl":"https://www.asus.com/ph/laptops/for-home/zenbook/asus-zenbook-duo-ux8407/","scope":"Exact model"},

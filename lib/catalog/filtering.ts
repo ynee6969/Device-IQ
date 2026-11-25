@@ -1,12 +1,15 @@
 import type { CatalogRow, DeviceCategory, SpecKey } from "./types";
+import { scopeLabel, verificationLabel } from "./status";
 
-export type FilterKey = SpecKey | "brand" | "pricePhp" | "priceCondition";
+export type FilterKey = SpecKey | "brand" | "pricePhp" | "priceCondition" | "scopeStatus" | "verificationStatus";
 export type FilterDefinition = { key: FilterKey; label: string; group: string; kind: "multi" | "min" | "max"; unit?: string; additional?: boolean; searchable?: boolean };
 export type FilterSelections = Record<string, string[] | number | undefined>;
 export type CatalogSort = "name_asc" | "name_desc" | "price_asc" | "price_desc" | "ram_desc" | "release_desc";
 
 const common: FilterDefinition[] = [
   { key: "brand", label: "Brand", group: "Basics", kind: "multi" },
+  { key: "verificationStatus", label: "Philippine verification", group: "Basics", kind: "multi" },
+  { key: "scopeStatus", label: "Research status", group: "Basics", kind: "multi" },
   { key: "pricePhp", label: "Minimum price", group: "Price and condition", kind: "min", unit: "PHP" },
   { key: "pricePhp", label: "Maximum price", group: "Price and condition", kind: "max", unit: "PHP" },
   { key: "priceCondition", label: "Condition", group: "Price and condition", kind: "multi" },
@@ -56,6 +59,8 @@ export function fieldValue(row: CatalogRow, key: FilterKey): string | number | b
   if (key === "brand") return row.device.brand;
   if (key === "pricePhp") return row.variant.pricePhp;
   if (key === "priceCondition") return row.variant.priceCondition;
+  if (key === "verificationStatus") return verificationLabel(row.device);
+  if (key === "scopeStatus") return scopeLabel(row.device);
   return row.variant.specs[key] ?? null;
 }
 
