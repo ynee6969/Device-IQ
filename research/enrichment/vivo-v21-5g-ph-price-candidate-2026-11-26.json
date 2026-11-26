@@ -1,0 +1,67 @@
+{
+  "run_at": "2026-11-26T17:39:42+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_09d07effbd7687",
+      "brand": "vivo",
+      "model_name": "V21 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_09d07effbd7687",
+      "source_url": "https://www.vivoglobal.ph/pre-order-vivo-v21-series-get-premium-freebies/",
+      "result": "vivo Philippines set the official local V21 5G 8 GB / 128 GB SRP at PHP 23,999 and announced store availability from June 5, 2021."
+    },
+    {
+      "device_id": "device_09d07effbd7687",
+      "source_url": "https://www.vivoglobal.ph/vivo-v21-price-drops-equip-influencer-in-you/",
+      "result": "vivo Philippines documented the dated August 3, 2021 price reduction from PHP 23,999 to PHP 21,999; historical only."
+    },
+    {
+      "device_id": "device_09d07effbd7687",
+      "source_url": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+      "result": "Official store page displays PHP 23,999 for 8 GB / 128 GB, but the page does not expose a current stock or checkout status; not promoted as a live price."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_09d07effbd7687",
+      "amount_php": 23999,
+      "configuration_id": "device_09d07effbd7687-8gb-128gb-ph",
+      "configuration_match": "exact_philippine_8gb_128gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2021-05-31",
+      "excerpt": "vivo Philippines announced a Philippine SRP of PHP 23,999 for the V21 5G, with pre-orders June 1-4 and store availability from June 5.",
+      "source_url": "https://www.vivoglobal.ph/pre-order-vivo-v21-series-get-premium-freebies/",
+      "source_kind": "manufacturer_historical_local_price",
+      "observed_at": "2026-11-26T17:39:42+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_09d07effbd7687",
+      "amount_php": 21999,
+      "configuration_id": "device_09d07effbd7687-8gb-128gb-ph",
+      "configuration_match": "exact_philippine_8gb_128gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_price_reduction",
+      "source_published_at": "2021-08-03",
+      "excerpt": "vivo Philippines announced the V21 5G price reduction from PHP 23,999 to PHP 21,999 on August 3, 2021.",
+      "source_url": "https://www.vivoglobal.ph/vivo-v21-price-drops-equip-influencer-in-you/",
+      "source_kind": "manufacturer_historical_local_price",
+      "observed_at": "2026-11-26T17:39:42+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_change_not_current"
+    }
+  ]
+}

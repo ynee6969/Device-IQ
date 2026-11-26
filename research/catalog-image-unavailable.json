@@ -4148,5 +4148,15 @@
     "rightsTermsUrl": "https://www.mi.com/ph/support/terms/terms-of-use/",
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Xiaomi Pad Mini"
+  },
+  "device_09d07effbd7687": {
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "vivo's Philippine store page displays exact V21 5G product images, but no reusable image license or permission to copy/embed was recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+    "assetUrl": null,
+    "scope": "vivo V21 5G / Philippine V2050, 8 GB RAM / 128 GB storage",
+    "rightsTermsUrl": null,
+    "observedAt": "2026-11-26",
+    "altText": "Image unavailable for vivo V21 5G"
   }
 }

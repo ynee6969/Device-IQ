@@ -32534,47 +32534,215 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "vivo",
-    "model": "V21",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "model": "V21 5G",
+    "manufacturer": "vivo",
+    "productLine": "vivo V21 series",
+    "modelNumber": "V2050",
+    "releaseDate": "2021-05-06",
+    "philippineAvailabilityDate": "2021-06-05",
+    "philippineDateLabel": "Philippine product release date",
+    "philippineReleaseYear": 2021,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Philippine V21 5G / V2050 availability and 8 GB / 128 GB configuration verified; current offer not verified; resolution and body details retain source discrepancies; image reuse rights not established.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "vivo Philippines announced the V21 5G for June 5, 2021 retail release after June 1-4 pre-orders. The official local store identifies the 8 GB / 128 GB product and NTC maps V2050 to V21 5G. This is a manufacturer-reported local release date, not an exact first transaction timestamp.",
+    "availabilityStatus": "vivo Philippines identifies the local model as V21 5G, announces June 5, 2021 local release, and registers model V2050 with the NTC. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 44 'vivo V21' matched to the Philippine V21 5G / NTC code V2050, distinct from V21e / V2061. The manufacturer store and YugaTech document the local 8 GB physical RAM / 128 GB storage configuration; the additional 3 GB is virtual/extended RAM. Official May 31 SRP was PHP 23,999 and vivo announced a dated reduction to PHP 21,999 on August 3, 2021. The store's displayed price has no confirmed live stock/checkout state, so current price remains blank. Display resolution and body dimensions/weight/material descriptions have published discrepancies and remain visibly unresolved. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Official store page shows PHP 23,999 but does not establish current stock or checkout availability",
+        "action": "Keep the live price blank; preserve PHP 23,999 and PHP 21,999 as dated historical price records."
+      },
+      {
+        "issue": "The official store lists 2404 x 1080 while local and global references list 2400 x 1080",
+        "action": "Leave catalog resolution blank until the published specification conflict is resolved."
+      },
+      {
+        "issue": "Thickness and weight vary in published sources; store Dusk Blue values do not align with the local marketing values",
+        "action": "Leave scalar dimensions and weight blank; preserve both source claims in the field audit."
+      },
+      {
+        "issue": "Manufacturer describes matte glass while GSMArena describes a plastic back/frame",
+        "action": "Leave body-material field unresolved."
+      },
+      {
+        "issue": "PTG lists 256 GB storage while the exact local official-store SKU and YugaTech report 128 GB",
+        "action": "Keep only the manufacturer-confirmed local 8 GB / 128 GB configuration."
+      },
+      {
+        "issue": "Official product imagery is exact but reuse rights are not published in the reviewed page",
+        "action": "Use the neutral unavailable-image placeholder until reuse permission is established."
+      },
+      {
+        "issue": "Workbook eligibility status remains Pending",
+        "action": "Preserve Pending and apply existing study eligibility rules."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "vivo Philippines Official Store",
+        "url": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary local product page, configuration, specification, and price-page review",
+        "note": "The Philippine store page identifies V21 5G Dusk Blue 8 GB / 128 GB, the second color, full product specifications, and a displayed PHP 23,999 amount. The page did not expose a current stock or checkout state in the reviewed content, so that displayed amount is not treated as a verified current offer. It also lists 2404 x 1080 resolution and 7.39 mm / 177 g, which conflict with other model-level published values and are retained for review."
+      },
+      {
+        "organization": "vivo Philippines",
+        "url": "https://www.vivoglobal.ph/vivo-launches-v21-series-phone/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-05-27",
+        "purpose": "Primary Philippine launch date and launch feature evidence",
+        "note": "Published May 27, 2021. vivo states pre-orders ran June 1-4 and the final product release date was June 5. It describes the Philippine V21 5G separately from V21e 4G and documents the 44 MP front OIS, 64 MP main camera, 90 Hz display, colors, and launch design."
+      },
+      {
+        "organization": "vivo Philippines",
+        "url": "https://www.vivoglobal.ph/pre-order-vivo-v21-series-get-premium-freebies/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-05-31",
+        "purpose": "Primary Philippine MSRP and authorized local availability",
+        "note": "Published May 31, 2021. vivo reports V21 5G pre-orders June 1-4, an official SRP of PHP 23,999, and retail availability beginning June 5 through vivo stores and official online stores."
+      },
+      {
+        "organization": "vivo Philippines",
+        "url": "https://www.vivoglobal.ph/vivo-v21-price-drops-equip-influencer-in-you/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-03",
+        "purpose": "Dated historical Philippine price change",
+        "note": "Published August 3, 2021. vivo states the V21 5G price decreased from PHP 23,999 to PHP 21,999 at its kiosks and stores. This is a dated historical promotion/price change, not a current offer."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/vivo-v21-5g-v21e-4g-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent Philippine launch and configuration cross-check",
+        "note": "Published May 31, 2021. Distinguishes V21 5G from V21e 4G; lists 8 GB + 3 GB extended RAM, 128 GB storage, hybrid microSD slot, processor, camera set, software, charging, connectivity, and June 5 local availability. It reports color-dependent ranges for thickness and weight."
+      },
+      {
+        "organization": "PinoyTechGuide",
+        "url": "https://www.pinoytechnoguide.com/smartphones/vivo-v21-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine device-specific specification cross-check",
+        "note": "Published May 31, 2021. Lists V21 5G specifications and its PHP 23,999 official launch price. Its page states 256 GB storage, while vivo Philippines' exact local 8 GB / 128 GB store SKU and YugaTech's launch report say 128 GB; the manufacturer's exact local configuration is retained and the PTG storage discrepancy is not promoted."
+      },
+      {
+        "organization": "National Telecommunications Commission Philippines",
+        "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment registration and exact model-code match",
+        "note": "The NTC GEC register maps vivo V2050 to marketing name V21 5G, applicant vivo Mobile Tech Inc., issued April 29, 2021. The record distinguishes this from the V21e (V2061)."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/vivo_v21_5g-10879.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model global release and technical cross-check",
+        "note": "The exact V21 5G listing records release on May 6, 2021. Its specification set covers multiple regional storage/RAM variants; it is used only for model-level characteristics and not to add non-Philippine configurations."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/vivo_v21_5g-review-2273.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model independent technical review",
+        "note": "The review identifies V21 5G and provides panel brightness, processor, storage interface, and global build observations. The review's build-material description conflicts with vivo's local 'matte glass' design wording, so no single body-material claim is promoted."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/vivo_v21_5g_india_price_sale_date-news-48891.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Contemporaneous global-market release context",
+        "note": "GSMArena reports the V21 5G sale date in India as May 6, 2021, supporting the earliest reviewed global market release date, not a simultaneous worldwide launch."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://i.mediatek.com/dimensity-800u",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary chipset CPU, GPU, and manufacturing-process reference",
+        "note": "MediaTek specifies a 7 nm Dimensity 800U, 2 Cortex-A76 cores up to 2.4 GHz, 6 Cortex-A55 cores up to 2 GHz, and Mali-G57 MC3 GPU. Chipset-level memory, storage, and connectivity capabilities are not substituted for device-specific implementation."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/soc/mediatek-dimensity-800u",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent chipset architecture cross-check",
+        "note": "NanoReview independently lists the Dimensity 800U at 7 nm with two Cortex-A76 and six Cortex-A55 cores and Mali-G57 MP3-class graphics. It is used only as a chipset-level cross-check; scores are not presented as handset measurements."
+      }
+    ],
     "variants": [
       {
-        "id": "device_09d07effbd7687-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_09d07effbd7687-8gb-128gb-ph",
+        "label": "8 GB RAM / 128 GB storage (V21 5G)",
+        "specs": {
+          "displayInches": 6.44,
+          "displayType": "AMOLED",
+          "resolution": null,
+          "refreshHz": 90,
+          "chipset": "MediaTek Dimensity 800U",
+          "cpu": "2x Cortex-A76 2.4 GHz + 6x Cortex-A55 2.0 GHz",
+          "gpu": "Arm Mali-G57 MC3",
+          "os": "Funtouch OS 11.1 based on Android 11",
+          "ramGb": 8,
+          "storageGb": 128,
+          "storageType": "UFS 2.2",
+          "rearCameraMp": 64,
+          "frontCameraMp": 44,
+          "video": "Front/rear 4K video; Dual-View Video; frame rate not recorded",
+          "batteryMah": 4000,
+          "chargingW": 33,
+          "dimensions": null,
+          "weightG": null,
+          "sim": "Dual Nano-SIM; second slot shared with microSD; eSIM not recorded",
+          "cellular": "5G supported (bands not listed); GSM B2/B3/B5/B8; WCDMA B1/B2/B4/B5/B8; LTE FDD B1/B2/B3/B4/B5/B7/B8/B20/B28; LTE TDD B38/B39/B40/B41F",
+          "wifi": "Dual-band Wi-Fi 802.11 a/b/g/n/ac",
+          "ports": "USB Type-C; OTG",
+          "gnss": "GPS, BeiDou, Galileo, GLONASS",
+          "sound": "Audio playback; adapter in box; jack/speaker details not recorded"
+        },
+        "specSources": {
+          "displayInches": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "displayType": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "refreshHz": "https://www.vivoglobal.ph/vivo-launches-v21-series-phone/",
+          "chipset": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "cpu": "https://i.mediatek.com/dimensity-800u",
+          "gpu": "https://i.mediatek.com/dimensity-800u",
+          "os": "https://www.yugatech.com/mobile/vivo-v21-5g-v21e-4g-specs-price-philippines/",
+          "ramGb": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "storageGb": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "storageType": "https://www.gsmarena.com/vivo_v21_5g-review-2273.php",
+          "rearCameraMp": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "frontCameraMp": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "video": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "batteryMah": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "chargingW": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "sim": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "cellular": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "wifi": "https://www.yugatech.com/mobile/vivo-v21-5g-v21e-4g-specs-price-philippines/",
+          "ports": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "gnss": "https://shop.vivo.com/ph/product/2022?skuId=8046",
+          "sound": "https://shop.vivo.com/ph/product/2022?skuId=8046"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine manufacturer store and YugaTech report 8 GB physical RAM / 128 GB storage; vivo's 3 GB Extended RAM is virtual memory. Colors Dusk Blue and Sunset Dazzle are listed, but no separate storage configuration is documented locally. Do not merge V21e 4G / V2061.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "V2050",
         "workbookRow": null
       }
     ],
