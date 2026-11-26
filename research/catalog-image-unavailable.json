@@ -2338,14 +2338,14 @@
     "altText": "Image unavailable for Samsung Galaxy Z Fold4"
   },
   "device_8b71a65802ab50": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Samsung Philippines product pages show exact Galaxy Z Fold5 images for the 12/256 Phantom Black, 12/512 Gray and 12/1TB Cream configurations, but no reusable image license or written permission to copy or hotlink was found. Keep the neutral placeholder.",
+    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold5-phantom-black-256gb-sm-f946bzkdphl/",
     "assetUrl": null,
-    "scope": null,
+    "scope": "Samsung Galaxy Z Fold5; local 12 GB / 256 GB, 12 GB / 512 GB and 12 GB / 1 TB configurations",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Samsung Z Fold5"
+    "altText": "Image unavailable for Samsung Galaxy Z Fold5"
   },
   "device_3e59218b898a0c": {
     "status": "NO_RELIABLE_MATCH",

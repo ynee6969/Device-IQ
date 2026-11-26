@@ -1,0 +1,372 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_8b71a65802ab50",
+      "brand": "Samsung",
+      "model_name": "Galaxy Z Fold5",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold5-phantom-black-256gb-sm-f946bzkdphl/",
+      "result": "Samsung Philippines identifies Galaxy Z Fold5 Phantom Black 12GB/256GB as SM-F946BZKDPHL and publishes detailed local specifications. The product page showed Not for sale when checked on 26 November 2026."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold5-gray-512gb-sm-f946bzugphl/",
+      "result": "Samsung Philippines identifies Galaxy Z Fold5 Gray 12GB/512GB as SM-F946BZUGPHL. Gray is a Samsung.com-exclusive local color; the product page showed Not for sale when checked on 26 November 2026."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold5-cream-1tb-sm-f946bzehphl/buy/",
+      "result": "Samsung Philippines identifies Galaxy Z Fold5 Cream 12GB/1TB as SM-F946BZEHPHL. The product page showed Not for sale when checked on 26 November 2026."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "result": "Samsung Philippines gives 12GB/256GB, 12GB/512GB and 12GB/1TB SRPs of PHP 98,990, PHP 105,990 and PHP 119,990; general availability began 18 August 2023. It publishes displays, camera, processor, battery, charging and other specifications."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-z-flip5-fold5-preorder/",
+      "result": "The official July 2023 campaign listed original SRPs of PHP 98,990/105,990/119,990 and preorder prices of PHP 98,990/98,990/112,990 for 256GB/512GB/1TB. The 512GB offer included a free upgrade from 256GB; 1TB received a PHP 7,000 discount."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.samsung.com/ph/support/model/SM-F946BZKDPHL/",
+      "result": "Samsung Philippines support identifies the Galaxy Z Fold5 as model SM-F946B/DS and links to local product code SM-F946BZKDPHL."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://news.samsung.com/global/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "result": "Samsung announced the Z Fold5 on 26 July 2023 and states global general availability began 11 August 2023. It documents IPX8, Armor Aluminum, Victus 2 exterior glass and four OS upgrades with five years of security updates."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-z-flip5-fold5-priced-in-the-philippines-with-pre-order-details/",
+      "result": "YugaTech reports the local 12GB/256GB, 12GB/512GB and 12GB/1TB choices, PHP 98,990/105,990/119,990 prices and general availability on 18 August 2023."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.revu.com.ph/2023/07/samsung-galaxy-z-flip5-fold5-price-ph/",
+      "result": "Revu reports Philippine availability from 18 August 2023, preorders from 26 July, and PHP 98,990/105,990/119,990 prices for 256GB/512GB/1TB."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.gadgetpilipinas.net/2023/07/samsung-galaxy-z-fold5-launched/",
+      "result": "Gadget Pilipinas reports all three 12GB local storage configurations, their PHP 98,990/105,990/119,990 launch prices and the 18 August 2023 general release date."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.youtube.com/watch?v=qV7Vl_SktTs",
+      "result": "UNBOX PH's 26 July 2023 first-look video lists 12GB RAM, storage through 1TB and PHP 98,990/105,990/119,990 for 256GB/512GB/1TB."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.gsmarena.com/samsung_galaxy_z_fold5-review-2599.php",
+      "result": "The exact-model review checks the global SM-F946B Galaxy Z Fold5 hardware, but is not used for Philippine launch prices or local availability."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.gsmarena.com/samsung_galaxy_z_fold5-review-2599p4.php",
+      "result": "GSMArena identifies 12GB LPDDR5X RAM. Its claim conflicts with Samsung's Poland Galaxy Z Fold5 specification PDF, which says LPDDR5; leave RAM generation unresolved."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://nanoreview.net/en/phone/samsung-galaxy-z-fold-5",
+      "result": "The exact-model profile reports LPDDR5X RAM, UFS 4.0, a 4nm Snapdragon 8 Gen 2 platform, Adreno 740, Samsung GN3 main sensor and other technical details. It does not establish Philippine price or release evidence."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-z-fold5",
+      "result": "Kimovil lists the global SM-F946B model separately with 12GB/256GB, 12GB/512GB and 12GB/1TB configurations. Global prices are not treated as Philippine prices."
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "source_url": "https://images.samsung.com/is/content/samsung/assets/pl/2307/mktpd/q5/Galaxy_Z_Fold5_spec.pdf",
+      "result": "Samsung's Poland Galaxy Z Fold5 specification PDF lists 12GB LPDDR5 RAM. This differs from GSMArena and NanoReview, which say LPDDR5X; keep generation blank pending a Philippines-specific manufacturer specification."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 98990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung Philippines lists the local official launch SRP.",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 98990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "YugaTech reports the same Philippine launch price.",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-z-flip5-fold5-priced-in-the-philippines-with-pre-order-details/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 98990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Revu reports the same Philippine launch price.",
+      "source_url": "https://www.revu.com.ph/2023/07/samsung-galaxy-z-flip5-fold5-price-ph/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 98990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Gadget Pilipinas reports the same Philippine launch price.",
+      "source_url": "https://www.gadgetpilipinas.net/2023/07/samsung-galaxy-z-fold5-launched/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 98990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_video",
+      "source_published_at": "2023-07-26",
+      "excerpt": "UNBOX PH's local launch video lists the same Philippine price.",
+      "source_url": "https://www.youtube.com/watch?v=qV7Vl_SktTs",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 105990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung Philippines lists the local official launch SRP.",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 105990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "YugaTech reports the same Philippine launch price.",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-z-flip5-fold5-priced-in-the-philippines-with-pre-order-details/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 105990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Revu reports the same Philippine launch price.",
+      "source_url": "https://www.revu.com.ph/2023/07/samsung-galaxy-z-flip5-fold5-price-ph/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 105990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Gadget Pilipinas reports the same Philippine launch price.",
+      "source_url": "https://www.gadgetpilipinas.net/2023/07/samsung-galaxy-z-fold5-launched/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 105990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_video",
+      "source_published_at": "2023-07-26",
+      "excerpt": "UNBOX PH's local launch video lists the same Philippine price.",
+      "source_url": "https://www.youtube.com/watch?v=qV7Vl_SktTs",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 98990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_preorder_storage_upgrade",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung's preorder promotion offered 12GB/512GB for the 12GB/256GB PHP 98,990 price through a free storage upgrade; original 512GB SRP remained PHP 105,990.",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-z-flip5-fold5-preorder/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 119990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-1tb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 1024,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung Philippines lists the local official launch SRP.",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 119990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-1tb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 1024,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "YugaTech reports the same Philippine launch price.",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-z-flip5-fold5-priced-in-the-philippines-with-pre-order-details/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 119990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-1tb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 1024,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Revu reports the same Philippine launch price.",
+      "source_url": "https://www.revu.com.ph/2023/07/samsung-galaxy-z-flip5-fold5-price-ph/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 119990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-1tb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 1024,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Gadget Pilipinas reports the same Philippine launch price.",
+      "source_url": "https://www.gadgetpilipinas.net/2023/07/samsung-galaxy-z-fold5-launched/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 119990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-1tb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 1024,
+      "price_type": "historical_ph_launch_video",
+      "source_published_at": "2023-07-26",
+      "excerpt": "UNBOX PH's local launch video lists the same Philippine price.",
+      "source_url": "https://www.youtube.com/watch?v=qV7Vl_SktTs",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8b71a65802ab50",
+      "amount_php": 112990,
+      "configuration_id": "device_8b71a65802ab50-ph-12gb-1tb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 1024,
+      "price_type": "historical_ph_preorder_discount",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung's preorder promotion reduced the 1TB configuration from PHP 119,990 SRP to PHP 112,990.",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-z-flip5-fold5-preorder/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}
