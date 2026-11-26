@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-26T19:39:00+08:00
+Generated: 2026-11-26T19:52:38+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -9,26 +9,26 @@ Generated: 2026-11-26T19:39:00+08:00
 | Metric | Actual result |
 | --- | ---: |
 | Models | 456 |
-| Configurations | 571 |
-| Models with manually verified source fields | 317 |
-| Configurations with manually verified source fields | 435 |
+| Configurations | 572 |
+| Models with manually verified source fields | 318 |
+| Configurations with manually verified source fields | 437 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 2 |
 | Specification-complete models | 0 |
 | Complete with disclosed gaps | 2 |
 | Incomplete models | 454 |
-| Conflicting specification records | 83 |
-| Assessed specification fields | 13498 |
-| Verified specification fields | 12822 |
+| Conflicting specification records | 89 |
+| Assessed specification fields | 13581 |
+| Verified specification fields | 12895 |
 | Unavailable fields | 470 |
-| Not applicable fields | 123 |
-| Pending verification fields | 13159 |
-| Manually reviewed price candidates | 56 |
-| Assessment coverage | 50.64% |
-| Verified coverage | 48.10% |
+| Not applicable fields | 127 |
+| Pending verification fields | 13122 |
+| Manually reviewed price candidates | 58 |
+| Assessment coverage | 50.86% |
+| Verified coverage | 48.29% |
 | Candidate field observations | 5883 |
-| Candidate prices | 452 |
+| Candidate prices | 454 |
 | Candidate source links | 203 |
 | Image-matched models | 48 |
 | Models with image unavailable | 408 |
@@ -41,7 +41,7 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 
 | Category | Models | Configurations | Applicable field rows | Assessed | Verified | Pending | Assessment | Verified coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| smartphones | 288 | 382 | 17572 | 10812 | 10314 | 6760 | 61.53% | 58.70% |
+| smartphones | 288 | 383 | 17618 | 10895 | 10387 | 6723 | 61.84% | 58.96% |
 | tablets | 150 | 167 | 8183 | 2273 | 2097 | 5910 | 27.78% | 25.63% |
 | laptops | 18 | 22 | 902 | 413 | 411 | 489 | 45.79% | 45.57% |
 
@@ -52,9 +52,9 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 - Extracted pages by source type: `{'independent_ph_reference': 204, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 204, 'official': 19}`.
 - Fetch attempts by category: `{'smartphones': 192, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
 - Candidate field observations by source type: `{'independent_ph_reference': 6135, 'local_technology_publication': 6, 'official': 144}`.
-- Candidate prices: 452; discovery links: 203.
+- Candidate prices: 454; discovery links: 203.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
-- 13159 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
+- 13122 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 
 ## Field backlog
 
@@ -63,19 +63,19 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | Group | Applicable rows | Assessed | Verified | Pending |
 | --- | ---: | ---: | ---: | ---: |
 | Accessories | 334 | 94 | 92 | 240 |
-| Audio | 571 | 361 | 355 | 210 |
-| Battery | 2262 | 1129 | 997 | 1133 |
-| Build | 2262 | 1109 | 1041 | 1153 |
-| Camera | 3316 | 1812 | 1662 | 1504 |
-| Connectivity | 4120 | 2338 | 2278 | 1782 |
-| Display | 3448 | 2053 | 2010 | 1395 |
-| Identity | 1142 | 520 | 480 | 622 |
+| Audio | 572 | 363 | 357 | 209 |
+| Battery | 2266 | 1133 | 999 | 1133 |
+| Build | 2266 | 1115 | 1047 | 1151 |
+| Camera | 3322 | 1824 | 1670 | 1498 |
+| Connectivity | 4127 | 2352 | 2288 | 1775 |
+| Display | 3454 | 2065 | 2022 | 1389 |
+| Identity | 1144 | 524 | 484 | 620 |
 | Input | 44 | 7 | 7 | 37 |
-| Memory | 2877 | 1390 | 1342 | 1487 |
-| Other | 571 | 340 | 334 | 231 |
-| Philippine market | 1735 | 511 | 480 | 1224 |
-| Platform | 3426 | 1800 | 1716 | 1626 |
-| Release history | 549 | 34 | 28 | 515 |
+| Memory | 2882 | 1400 | 1352 | 1482 |
+| Other | 572 | 342 | 336 | 230 |
+| Philippine market | 1738 | 514 | 483 | 1224 |
+| Platform | 3432 | 1812 | 1728 | 1620 |
+| Release history | 550 | 36 | 30 | 514 |
 
 ## Priority list
 
@@ -165,7 +165,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | tablets | Samsung | Galaxy Tab S12 Ultra | Configuration not recorded | `device_3c3b3adfeb221f-unrecorded` | 47 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Samsung | Galaxy Tab S12+ | Configuration not recorded | `device_c1720f94c84582-unrecorded` | 47 | 49 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Samsung | Galaxy Tab S10 FE | Wi-Fi / 8 GB / 128 GB | `config_0879d9d92c6c34` | 34 | 49 | SPECIFICATION_INCOMPLETE |
-| 2022 | smartphones | TCL | 20 R 5G | Configuration not recorded | `device_af0706eb4c718f-unrecorded` | 45 | 46 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | vivo | V23 | Configuration not recorded | `device_768d170ed1109b-unrecorded` | 45 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | DOOGEE | S mini | Configuration not recorded | `device_64797b9452613a-unrecorded` | 45 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | Infinix | ZERO 30 | Configuration not recorded | `device_d14dd9dfdf860b-unrecorded` | 45 | 46 | SPECIFICATION_INCOMPLETE |
@@ -574,6 +573,8 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2025 | smartphones | Xiaomi | 15T Pro | 12 GB RAM / 256 GB storage | `device_7c9508acf8b24a-auto-12gb-256gb` | 6 | 46 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Xiaomi | 15T Pro | 12 GB RAM / 512 GB storage | `device_7c9508acf8b24a-auto-12gb-512gb` | 6 | 46 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Predator Helios Neo 16 PHN16-72-99K9 | NH.QNNSP.003 | `config_7e6c1ccdc91313` | 5 | 41 | SPECIFICATION_INCOMPLETE |
+| 2022 | smartphones | TCL | TCL 20 R 5G | 4 GB RAM / 128 GB storage | `device_af0706eb4c718f-t767h1-4gb-128gb-ph` | 10 | 46 | SPECIFICATION_INCOMPLETE |
+| 2022 | smartphones | TCL | TCL 20 R 5G | 4 GB RAM / 64 GB storage | `device_af0706eb4c718f-t767h-4gb-64gb-ph` | 9 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | HONOR | X9a | 8 GB RAM / 256 GB storage | `device_beb039b6abbf82-8gb-256gb-ph` | 9 | 46 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Lenovo | Tab M10 Plus 3rd Gen | 3 GB RAM / 32 GB storage / Wi-Fi / MediaTek Helio G80 (TB125FU) | `device_d34ec0baa2b329-tb125fu-g80-3gb-32gb-wifi` | 8 | 49 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | OPPO | Reno8 | 256 GB storage (2022 launch sources: 8 GB RAM; current OPPO PH page lists 12 GB RAM; Shimmer Black / Shimmer Gold at launch) | `device_61b7b139393500-8gb-256gb-ph-launch` | 7 | 46 | SPECIFICATION_INCOMPLETE |
@@ -658,7 +659,7 @@ Every category template field is enumerated in `research/enrichment/specificatio
 ## Philippine market and image coverage
 
 - Models with an exact-match catalog image carrying a reusable license: 48/456. The remaining 408 show the neutral unavailable-image placeholder.
-- Of those unavailable images, 50 require reuse permission, 44 have reuse rights that are not established, and 314 have no reliable exact-model match recorded.
+- Of those unavailable images, 50 require reuse permission, 45 have reuse rights that are not established, and 313 have no reliable exact-model match recorded.
 - The workbook copy's `IMAGE AUDIT` sheet records each image's source, credit, license, rights-check date, and the reason an image is unavailable. Images without documented reuse rights are not published.
 - Excluded master records: 3; held-out records/claims: 7. These are visible with explicit labels but stay outside eligible searches/recommendations.
 - The public site retains each record's existing verification and scope status. This specification audit does not upgrade Philippine availability status.

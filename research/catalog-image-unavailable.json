@@ -2360,11 +2360,11 @@
     "altText": "Image unavailable for TCL 10 5G"
   },
   "device_af0706eb4c718f": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "TCL Philippines provides an exact TCL 20 R 5G support-page image asset, but a reusable license or permission to republish was not found. Keep the neutral placeholder.",
+    "sourcePage": "https://www.tcl.com/ph/en/support-mobile/model/tcl-20-r-5g",
+    "assetUrl": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/region/global/products/smartphones/category-display/tcl20r5g-pc.png?t=1645758481411&w=800",
+    "scope": "TCL 20 R 5G model family; official TCL Philippines product image",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for TCL 20 R 5G"

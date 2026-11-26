@@ -1,0 +1,66 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_af0706eb4c718f",
+      "brand": "TCL",
+      "model_name": "TCL 20 R 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_af0706eb4c718f",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC GEC lists T767H1 as TCL 20R 5G; manufacturer maps it to 4 GB / 128 GB."
+    },
+    {
+      "device_id": "device_af0706eb4c718f",
+      "source_url": "https://www.tcl.com/es/es/mobile/tcl-20r5g/specifications",
+      "result": "TCL maps T767H to 4 GB / 64 GB and T767H1 to 4 GB / 128 GB."
+    },
+    {
+      "device_id": "device_af0706eb4c718f",
+      "source_url": "https://www.yugatech.com/mobile/tcl-20-r-5g-price-philippines/",
+      "result": "Philippine authorized-dealer availability, 4 GB / 64 GB and 4 GB / 128 GB options, dated 2 April 2022; starts at PHP 11,990."
+    },
+    {
+      "device_id": "device_af0706eb4c718f",
+      "source_url": "https://www.gizguide.com/2022/04/tcl-20-r-5g-ph-price-specs-official.html",
+      "result": "Conflicting local claim of 6 GB / 128 GB retained; no third configuration added."
+    },
+    {
+      "device_id": "device_af0706eb4c718f",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-tcl-20r-5g-4gb-128gb",
+      "result": "Exact global profile cross-checks 4 GB / 64 GB and 4 GB / 128 GB and September 2021 release month; no foreign price used locally."
+    },
+    {
+      "device_id": "device_af0706eb4c718f",
+      "source_url": "https://www.gsmarena.com/tcl_20_r_is_official_with_5g_and_low_price-news-50844.php",
+      "result": "Exact model announcement dated 7 September 2021; reports European availability and 4 GB / 64 GB baseline."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_af0706eb4c718f",
+      "amount_php": 11990,
+      "configuration_id": "device_af0706eb4c718f-t767h-4gb-64gb-ph",
+      "configuration_match": "philippine_t767h_4gb_64gb",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-04-04",
+      "excerpt": "Unbox reports the TCL 20 R 5G at PHP 11,990 in the Philippines alongside its 4 GB RAM / 64 GB storage configuration; historical 2022 launch price, not a current offer.",
+      "source_url": "https://unbox.ph/gadget/tcl-20-r-5g-now-in-the-philippines-with-php-12k-price-tag/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}

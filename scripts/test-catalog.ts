@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [379, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 578);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [380, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 579);
 const redmagic7Pro = publicDevices.find((device) => device.id === "device_5e189eced7d16d");
 assert.ok(redmagic7Pro);
 assert.equal(redmagic7Pro.modelNumber, "NX709J");
@@ -126,6 +126,25 @@ assert.equal(tcl20b.variants[0]?.specs.chipset, "MediaTek Helio P22 (MTK6762)");
 assert.equal((tcl20b.variants[0]?.specs as Record<string, unknown>).nfc, "Yes");
 assert.equal(tcl20b.imageId, null);
 assert.ok(tcl20b.sources.some((source) => source.url.includes("ntc.gov.ph") && source.note?.includes("6159K")));
+const tcl20r5g = publicDevices.find((device) => device.id === "device_af0706eb4c718f");
+assert.ok(tcl20r5g);
+assert.equal(tcl20r5g.releaseDate, "2021-09");
+assert.equal(tcl20r5g.philippineAvailabilityDate, "2022-04-02");
+assert.equal(tcl20r5g.scopeStatus, "Pending");
+assert.equal(tcl20r5g.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(tcl20r5g.variants.map((variant) => variant.label), [
+  "4 GB RAM / 64 GB storage", "4 GB RAM / 128 GB storage",
+]);
+assert.deepEqual(tcl20r5g.variants.map((variant) => variant.modelCode), ["T767H", "T767H1"]);
+assert.deepEqual(tcl20r5g.variants.map((variant) => [variant.specs.ramGb, variant.specs.storageGb]), [[4, 64], [4, 128]]);
+assert.ok(tcl20r5g.variants.every((variant) => variant.pricePhp === null));
+assert.ok(tcl20r5g.variants.every((variant) => {
+  const specs = variant.specs as Record<string, unknown>;
+  return specs.chargingW === undefined && specs.bluetooth === undefined && specs.nfc === undefined;
+}));
+assert.equal(tcl20r5g.variants[0]?.specs.chipset, "MediaTek Dimensity 700");
+assert.equal(tcl20r5g.imageId, null);
+assert.ok(tcl20r5g.sources.some((source) => source.url.includes("ntc.gov.ph") && source.note?.includes("T767H1")));
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");
