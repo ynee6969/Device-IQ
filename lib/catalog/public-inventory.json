@@ -31376,46 +31376,214 @@
     "category": "smartphones",
     "brand": "TECNO",
     "model": "Camon 17P",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "manufacturer": "TECNO Mobile",
+    "productLine": "TECNO CAMON 17P",
+    "modelNumber": "CG7",
+    "releaseDate": "2021-05-28",
+    "philippineAvailabilityDate": "2021-06-30",
+    "philippineDateLabel": "Philippine launch report date",
+    "philippineReleaseYear": 2021,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Philippine registration and reported availability verified; one 6 GB / 128 GB configuration; historical price only; current price and several variant-specific specifications remain unverified.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "TECNO's Philippine product page lists the CAMON 17P 6 GB / 128 GB specification. YugaTech reported it available in the Philippines on June 30, 2021 at PHP 8,490; the NTC GEC record maps TECNO CG7 to TECNO CAMON 17P. This establishes local registration and contemporaneous reported availability, not an exact first purchase timestamp.",
+    "availabilityStatus": "The NTC GEC record maps model CG7 to CAMON 17P and the June 30, 2021 YugaTech report says TECNO Mobile's CAMON 17P was available in the Philippines. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 38 matched to TECNO CAMON 17P / NTC code CG7. The Philippine manufacturer page documents one 6 GB / 128 GB configuration. The PHP 8,490 price is historical (June 2021); no current orderable PH offer was verified. Global pages list memory and model-code variants that are not transferred into the local configuration. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "No current dated and orderable Philippine offer was verified",
+        "action": "Keep the live price blank; preserve PHP 8,490 as historical only."
+      },
+      {
+        "issue": "GSMArena lists both CG7 and CG7n; local NTC registration specifically maps CG7 to CAMON 17P",
+        "action": "Use CG7 for the PH record; do not merge CG7n as a local variant without evidence."
+      },
+      {
+        "issue": "Several global pages describe 4 GB / 128 GB or code CG7N rather than PH code CG7",
+        "action": "Do not transfer their RAM type, storage type, weight, materials, or unverified sensor details."
+      },
+      {
+        "issue": "TECNO overview advertises 2K video while GSMArena lists 1080p30",
+        "action": "Leave video modes unresolved pending exact PH unit evidence."
+      },
+      {
+        "issue": "Cross-market sources disagree on battery chemistry",
+        "action": "Leave battery technology unset for the PH code."
+      },
+      {
+        "issue": "Official product images match the exact model, but reuse terms were not found",
+        "action": "Continue using the neutral placeholder until image reuse permission is established."
+      },
+      {
+        "issue": "Workbook eligibility status remains Pending",
+        "action": "Preserve Pending and apply existing study eligibility rules."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "TECNO Mobile Philippines",
+        "url": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Philippine-market product specifications",
+        "note": "The manufacturer page identifies the PH CAMON 17P and lists 6 GB RAM, 128 GB ROM, Android 11, 6.8-inch 1080 x 2460 display, 5,000 mAh typical battery, 18 W charging, dimensions, cellular technologies, OTG, cameras, and sensors."
+      },
+      {
+        "organization": "TECNO Mobile Philippines",
+        "url": "https://www.tecno-mobile.com/ph/phones/product-detail/product/camon-17p-12/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary product overview and display-brightness check",
+        "note": "The official product overview lists 500-nit display brightness and promotes 2K video. Its images match the exact model, but the page does not state reusable-image terms; no image is copied."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/tecno-camon-17p-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-06-30",
+        "purpose": "Philippine availability, dated launch price, and local specification cross-check",
+        "note": "Published June 30, 2021, the article says the phone was available in the Philippines for PHP 8,490 and links to Shopee. It lists the PH 6 GB / 128 GB configuration, cameras, connectivity, software, battery, dimensions, and colors."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/tecno-gadget-price-list-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Historical Philippine price-list check",
+        "note": "The price index records the CAMON 17P at PHP 8,490 on June 30 and July 15, 2021. These are dated historical observations, not current offers."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/android/tecno-camon-17p-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-06-30",
+        "purpose": "Independent Philippine launch and specification cross-check",
+        "note": "Published June 30, 2021, the report says TECNO Mobile Philippines launched the CAMON 17P and lists 6 GB / 128 GB, Helio G85, display, cameras, LTE, battery, and charging."
+      },
+      {
+        "organization": "National Telecommunications Commission Philippines",
+        "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-04-05",
+        "purpose": "Philippine equipment registration and local model-code evidence",
+        "note": "The GEC record maps TECNO CG7 to TECNO CAMON 17P, applicant Twireless Inc., issued April 5, 2021. It supports Philippine registration and the code CG7; it does not establish retail eligibility by itself."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/tecno_camon_17p-10896.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model global release and technical cross-check",
+        "note": "The exact-model page lists announced May 8, 2021 and released May 28, 2021; IPS LCD, 1080p30 video, dual Nano-SIM, 3.5 mm audio, NFC absent, and other global specifications. Model codes include CG7 and CG7n. Regional details are not treated as Philippine-specific unless corroborated."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary chipset CPU and GPU architecture reference",
+        "note": "MediaTek specifies two Cortex-A75 cores up to 2 GHz, six Cortex-A55 cores up to 1.8 GHz, and Mali-G52-class graphics. SoC capabilities are not used to infer installed RAM, storage, or connectivity beyond device-specific evidence."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/soc/mediatek-helio-g85",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Helio G85 process-node and chipset cross-check",
+        "note": "NanoReview lists the Helio G85 as an 8-core 12 nm SoC with the same A75/A55 layout and Mali-G52 MP2. This is chipset-level evidence; benchmark scores are not presented as CAMON 17P test results."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-tecno-camon-17p",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2024-04-04",
+        "purpose": "Cross-market exact-model specification check, with configuration caveat",
+        "note": "The page is explicitly for a Global 4 GB / 128 GB version, not the Philippine 6 GB / 128 GB CG7. Its weight, materials, camera sensor, battery chemistry, USB, and regional connectivity claims are not promoted as verified PH-variant facts."
+      },
+      {
+        "organization": "E-Catalog",
+        "url": "https://e-catalog.com/TECNO-CAMON-17P-128GB-6GB.htm",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Cross-market 6 GB / 128 GB specification cross-check",
+        "note": "This page labels the product CAMON 17P 128 GB / 6 GB and code CG7N, while the Philippine NTC record uses CG7. It reports eMMC 5.1, Li-ion graphite, plastic construction, USB-C, and other details; the code/market difference leaves those fields pending for the PH CG7."
+      },
+      {
+        "organization": "PinoyTechGuide",
+        "url": "https://www.pinoytechnoguide.com/pricelists/TECNO",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Current Philippine TECNO price-list review",
+        "note": "The current TECNO price index was checked for the CAMON 17P; the model is not listed there. This does not prove that no used or private sale exists, so no current Philippine price is assigned."
+      },
+      {
+        "organization": "TECNO Mobile Official",
+        "url": "https://www.youtube.com/watch?v=AWwfCvAGR30",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-05-03",
+        "purpose": "Official CAMON 17 series announcement context",
+        "note": "TECNO's verified channel published a CAMON 17 series launch video on May 3, 2021. It supports the series launch timeline but does not establish the first global sale date of the 17P."
+      }
+    ],
     "variants": [
       {
-        "id": "device_097c07418374a0-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_097c07418374a0-6gb-128gb-ph",
+        "label": "6 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.8,
+          "displayType": "IPS LCD",
+          "resolution": "1080 x 2460",
+          "chipset": "MediaTek Helio G85",
+          "cpu": "2x Cortex-A75 2.0 GHz + 6x Cortex-A55 1.8 GHz",
+          "gpu": "Arm Mali-G52 MC2",
+          "os": "HiOS 7.6 based on Android 11",
+          "ramGb": 6,
+          "storageGb": 128,
+          "rearCameraMp": 64,
+          "frontCameraMp": 16,
+          "video": null,
+          "batteryMah": 5000,
+          "chargingW": 18,
+          "dimensions": "168.67 x 76.44 x 8.82 mm",
+          "sim": "Dual Nano-SIM; eSIM not recorded",
+          "cellular": "GSM / WCDMA / LTE; exact PH bands not recorded",
+          "wifi": "Wi-Fi; standard not recorded",
+          "sound": "3.5 mm headphone jack"
+        },
+        "specSources": {
+          "displayInches": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "displayType": "https://www.gsmarena.com/tecno_camon_17p-10896.php",
+          "resolution": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "chipset": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "cpu": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+          "gpu": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "os": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "ramGb": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "storageGb": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "rearCameraMp": "https://www.yugatech.com/mobile/tecno-camon-17p-specs-price-philippines/",
+          "frontCameraMp": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "batteryMah": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "chargingW": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "dimensions": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "sim": "https://www.yugatech.com/mobile/tecno-camon-17p-specs-price-philippines/",
+          "cellular": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "wifi": "https://www.yugatech.com/mobile/tecno-camon-17p-specs-price-philippines/",
+          "sound": "https://www.gsmarena.com/tecno_camon_17p-10896.php"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Frost Silver, Magnet Black, and Spruce Green are listed for the model; inventory does not tie each color to a separate SKU.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "CG7",
         "workbookRow": null
       }
     ],

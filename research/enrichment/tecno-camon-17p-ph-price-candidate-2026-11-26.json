@@ -1,0 +1,56 @@
+{
+  "run_at": "2026-11-26T17:13:11+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_097c07418374a0",
+      "brand": "TECNO",
+      "model_name": "Camon 17P",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_097c07418374a0",
+      "source_url": "https://www.yugatech.com/mobile/tecno-camon-17p-specs-price-philippines/",
+      "result": "YugaTech published June 30, 2021 and reports PHP 8,490 for the locally available 6 GB / 128 GB CAMON 17P."
+    },
+    {
+      "device_id": "device_097c07418374a0",
+      "source_url": "https://www.yugatech.com/tecno-gadget-price-list-philippines/",
+      "result": "YugaTech price index contains dated June 30 and July 15, 2021 entries at PHP 8,490; historical only."
+    },
+    {
+      "device_id": "device_097c07418374a0",
+      "source_url": "https://www.pinoytechnoguide.com/pricelists/TECNO",
+      "result": "Current TECNO price index reviewed; CAMON 17P not listed. This does not prove no private or used sale exists."
+    },
+    {
+      "device_id": "device_097c07418374a0",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-tecno-camon-17p",
+      "result": "Kimovil page is Global 4 GB / 128 GB and has no usable current Philippine price; no PH offer promoted."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_097c07418374a0",
+      "amount_php": 8490,
+      "configuration_id": "device_097c07418374a0-6gb-128gb-ph",
+      "configuration_match": "exact_philippine_6gb_128gb_configuration",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2021-06-30",
+      "excerpt": "YugaTech reported the locally available 6 GB / 128 GB TECNO CAMON 17P at PHP 8,490 on June 30, 2021.",
+      "source_url": "https://www.yugatech.com/mobile/tecno-camon-17p-specs-price-philippines/",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26T17:13:11+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    }
+  ]
+}

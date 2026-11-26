@@ -146937,6 +146937,667 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_097c07418374a0",
+      "configurationId": "device_097c07418374a0-6gb-128gb-ph",
+      "brand": "TECNO",
+      "model": "Camon 17P",
+      "configuration": "6 GB RAM / 128 GB storage",
+      "configurationLabel": "6 GB RAM / 128 GB storage",
+      "modelCode": "CG7",
+      "sources": [
+        {
+          "id": "tecno_camon17p_ph_specs",
+          "publisher": "TECNO Mobile Philippines",
+          "url": "https://www.tecno-mobile.com/ph/phones/tech-specs/techspecs/camon-17p-12/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Philippine-market product specifications",
+          "note": "The manufacturer page identifies the PH CAMON 17P and lists 6 GB RAM, 128 GB ROM, Android 11, 6.8-inch 1080 x 2460 display, 5,000 mAh typical battery, 18 W charging, dimensions, cellular technologies, OTG, cameras, and sensors."
+        },
+        {
+          "id": "tecno_camon17p_ph_product",
+          "publisher": "TECNO Mobile Philippines",
+          "url": "https://www.tecno-mobile.com/ph/phones/product-detail/product/camon-17p-12/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary product overview and display-brightness check",
+          "note": "The official product overview lists 500-nit display brightness and promotes 2K video. Its images match the exact model, but the page does not state reusable-image terms; no image is copied."
+        },
+        {
+          "id": "tecno_camon17p_yugatech",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/tecno-camon-17p-specs-price-philippines/",
+          "publicationDate": "2021-06-30",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability, dated launch price, and local specification cross-check",
+          "note": "Published June 30, 2021, the article says the phone was available in the Philippines for PHP 8,490 and links to Shopee. It lists the PH 6 GB / 128 GB configuration, cameras, connectivity, software, battery, dimensions, and colors."
+        },
+        {
+          "id": "tecno_camon17p_yugatech_price_index",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/tecno-gadget-price-list-philippines/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Historical Philippine price-list check",
+          "note": "The price index records the CAMON 17P at PHP 8,490 on June 30 and July 15, 2021. These are dated historical observations, not current offers."
+        },
+        {
+          "id": "tecno_camon17p_noypi",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/tecno-camon-17p-philippines/",
+          "publicationDate": "2021-06-30",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch and specification cross-check",
+          "note": "Published June 30, 2021, the report says TECNO Mobile Philippines launched the CAMON 17P and lists 6 GB / 128 GB, Helio G85, display, cameras, LTE, battery, and charging."
+        },
+        {
+          "id": "tecno_camon17p_ntc_gec",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+          "publicationDate": "2021-04-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine equipment registration and local model-code evidence",
+          "note": "The GEC record maps TECNO CG7 to TECNO CAMON 17P, applicant Twireless Inc., issued April 5, 2021. It supports Philippine registration and the code CG7; it does not establish retail eligibility by itself."
+        },
+        {
+          "id": "tecno_camon17p_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/tecno_camon_17p-10896.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model global release and technical cross-check",
+          "note": "The exact-model page lists announced May 8, 2021 and released May 28, 2021; IPS LCD, 1080p30 video, dual Nano-SIM, 3.5 mm audio, NFC absent, and other global specifications. Model codes include CG7 and CG7n. Regional details are not treated as Philippine-specific unless corroborated."
+        },
+        {
+          "id": "tecno_camon17p_mediatek_g85",
+          "publisher": "MediaTek",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary chipset CPU and GPU architecture reference",
+          "note": "MediaTek specifies two Cortex-A75 cores up to 2 GHz, six Cortex-A55 cores up to 1.8 GHz, and Mali-G52-class graphics. SoC capabilities are not used to infer installed RAM, storage, or connectivity beyond device-specific evidence."
+        },
+        {
+          "id": "tecno_camon17p_nanoreview_g85",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/soc/mediatek-helio-g85",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Helio G85 process-node and chipset cross-check",
+          "note": "NanoReview lists the Helio G85 as an 8-core 12 nm SoC with the same A75/A55 layout and Mali-G52 MP2. This is chipset-level evidence; benchmark scores are not presented as CAMON 17P test results."
+        },
+        {
+          "id": "tecno_camon17p_kimovil_global",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-tecno-camon-17p",
+          "publicationDate": "2024-04-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Cross-market exact-model specification check, with configuration caveat",
+          "note": "The page is explicitly for a Global 4 GB / 128 GB version, not the Philippine 6 GB / 128 GB CG7. Its weight, materials, camera sensor, battery chemistry, USB, and regional connectivity claims are not promoted as verified PH-variant facts."
+        },
+        {
+          "id": "tecno_camon17p_ecatalog_global",
+          "publisher": "E-Catalog",
+          "url": "https://e-catalog.com/TECNO-CAMON-17P-128GB-6GB.htm",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Cross-market 6 GB / 128 GB specification cross-check",
+          "note": "This page labels the product CAMON 17P 128 GB / 6 GB and code CG7N, while the Philippine NTC record uses CG7. It reports eMMC 5.1, Li-ion graphite, plastic construction, USB-C, and other details; the code/market difference leaves those fields pending for the PH CG7."
+        },
+        {
+          "id": "tecno_camon17p_ptg_price_index",
+          "publisher": "PinoyTechGuide",
+          "url": "https://www.pinoytechnoguide.com/pricelists/TECNO",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Current Philippine TECNO price-list review",
+          "note": "The current TECNO price index was checked for the CAMON 17P; the model is not listed there. This does not prove that no used or private sale exists, so no current Philippine price is assigned."
+        },
+        {
+          "id": "tecno_camon17p_official_launch_video",
+          "publisher": "TECNO Mobile Official",
+          "url": "https://www.youtube.com/watch?v=AWwfCvAGR30",
+          "publicationDate": "2021-05-03",
+          "accessDate": "2026-11-26",
+          "purpose": "Official CAMON 17 series announcement context",
+          "note": "TECNO's verified channel published a CAMON 17 series launch video on May 3, 2021. It supports the series launch timeline but does not establish the first global sale date of the 17P."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ntc_gec",
+          "sourceValue": "NTC GEC maps TECNO CG7 to TECNO CAMON 17P",
+          "normalizedValue": "CG7",
+          "note": "Use the locally registered CG7 code. GSMArena also lists CG7n among global model codes; the PH NTC row specifically identifies CG7.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_gsmarena",
+          "sourceValue": "GSMArena lists announced 2021-05-08 and released 2021-05-28",
+          "normalizedValue": "2021-05-28",
+          "note": "The May 28 global release date is a secondary listing; the official May 3 series video is a launch promotion, not proof of first sale.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "6 GB RAM / 128 GB ROM",
+          "normalizedValue": "6 GB RAM / 128 GB storage",
+          "note": "TECNO's Philippine specification page lists this local configuration; YugaTech independently reports the same single configuration.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "YugaTech reported the CAMON 17P available in the Philippines on June 30, 2021",
+          "normalizedValue": "2021-06-30",
+          "note": "This is the dated Philippine availability report, not a transaction timestamp.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "PHP 8,490 launch-era price reported June 30, 2021 for the 6 GB / 128 GB PH model",
+          "normalizedValue": 8490,
+          "note": "Historical price reported with a purchase link; not a current price. The manufacturer's page does not state a price.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_camon17p_ptg_price_index",
+          "sourceValue": "No current dated, orderable Philippine CAMON 17P offer was verified; the accessible YugaTech price-list entries are from 2021",
+          "normalizedValue": null,
+          "note": "Keep the live catalog price blank. The 2021 PHP 8,490 amount remains a historical launch observation only.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "6.8-inch display",
+          "normalizedValue": 6.8,
+          "note": "TECNO PH and YugaTech list 6.8 inches.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.8,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_gsmarena",
+          "sourceValue": "IPS LCD; TECNO PH calls it a Dot-in display",
+          "normalizedValue": "IPS LCD",
+          "note": "GSMArena identifies IPS LCD; manufacturer and local launch sources confirm the centered Dot-in design.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "1080 x 2460 pixels (FHD+)",
+          "normalizedValue": "1080 x 2460",
+          "note": "Manufacturer PH page states 1080 x 2460.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2460"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "No refresh-rate value stated in the reviewed PH product specifications",
+          "normalizedValue": null,
+          "note": "Do not infer 60 Hz from silence.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "refreshHz",
+          "catalogValue": null,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_product",
+          "sourceValue": "500 nit brightness",
+          "normalizedValue": 500,
+          "note": "Official TECNO PH overview states 500 nits but does not specify whether typical, peak, or HBM.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "No named cover-glass protection or scratch-resistance rating recorded",
+          "normalizedValue": null,
+          "note": "2.5D glass claims on a global page do not establish a protection rating for the PH model.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "MediaTek Helio G85",
+          "normalizedValue": "MediaTek Helio G85",
+          "note": "Official TECNO PH overview and local YugaTech listing identify the G85.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio G85"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_nanoreview_g85",
+          "sourceValue": "Helio G85 manufactured on a 12 nm process",
+          "normalizedValue": 12,
+          "note": "SoC-level NanoReview value. It describes the confirmed chipset, not a separately measured phone process.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_mediatek_g85",
+          "sourceValue": "2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.8 GHz",
+          "normalizedValue": "2x Cortex-A75 2.0 GHz + 6x Cortex-A55 1.8 GHz",
+          "note": "MediaTek official G85 page lists the core arrangement and clocks.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "cpu",
+          "catalogValue": "2x Cortex-A75 2.0 GHz + 6x Cortex-A55 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "Arm Mali-G52 MC2",
+          "normalizedValue": "Arm Mali-G52 MC2",
+          "note": "YugaTech identifies Mali-G52 MC2; MediaTek confirms Mali-G52-class graphics for the chipset.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G52 MC2"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "Android 11 with HiOS 7.6",
+          "normalizedValue": "HiOS 7.6 based on Android 11",
+          "note": "TECNO PH lists Android 11; contemporaneous local coverage names HiOS 7.6.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "os",
+          "catalogValue": "HiOS 7.6 based on Android 11"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "No OS-upgrade or security-support policy found",
+          "normalizedValue": null,
+          "note": "No update count, end date, or support duration is inferred.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "6 GB RAM",
+          "normalizedValue": 6,
+          "note": "Official Philippine product specification.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "TECNO PH confirms 6 GB but does not identify the installed RAM type; Kimovil's LPDDR4X line is for its Global 4 GB version",
+          "normalizedValue": null,
+          "note": "Chipset memory support and the different global SKU do not establish the PH unit's installed RAM type.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "128 GB ROM",
+          "normalizedValue": 128,
+          "note": "Official Philippine product specification.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_camon17p_ecatalog_global",
+          "sourceValue": "E-Catalog reports eMMC 5.1 for CAMON 17P 6 GB / 128 GB code CG7N; local NTC registration uses CG7",
+          "normalizedValue": null,
+          "note": "The cross-market code differs from the Philippine registration; keep the Philippine storage interface blank pending a CG7-specific source.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "storageType",
+          "catalogValue": null
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "Dedicated microSD slot; expansion up to 512 GB",
+          "normalizedValue": "Dedicated microSD slot, up to 512 GB",
+          "note": "YugaTech's local specification lists a dedicated slot and 512 GB maximum.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "64 MP f/1.79 wide + 2 MP macro + 2 MP bokeh/depth + QVGA AI camera",
+          "normalizedValue": "64 MP wide + 2 MP macro + 2 MP bokeh/depth + QVGA AI camera",
+          "note": "The local source describes the third module as bokeh; NoypiGeeks describes depth. Catalog numeric value is the 64 MP main camera.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 64,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_camon17p_kimovil_global",
+          "sourceValue": "Kimovil lists an OmniVision OV64B main sensor for its Global 4 GB / 128 GB page; PH CG7 sensor identity is not independently confirmed",
+          "normalizedValue": null,
+          "note": "Do not transfer the unverified global variant's sensor identity to the PH 6 GB / 128 GB record.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "The complete local rear-camera list contains no ultrawide module",
+          "normalizedValue": "No ultrawide camera listed",
+          "note": "The four listed rear modules are main, macro, bokeh/depth, and QVGA AI; none is described as ultrawide.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "The complete local rear-camera list contains no telephoto module",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "No telephoto lens appears in the full local camera list.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "16 MP front camera with dual flash",
+          "normalizedValue": 16,
+          "note": "Official TECNO PH specification.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "tecno_camon17p_ph_product",
+          "sourceValue": "Official TECNO overview advertises 2K video; GSMArena lists 1080p at 30 fps",
+          "normalizedValue": null,
+          "note": "Published video-capability claims differ. Keep the catalog video mode blank pending model-specific recording evidence.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "video",
+          "catalogValue": null
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "5,000 mAh typical",
+          "normalizedValue": 5000,
+          "note": "TECNO PH explicitly marks this typical capacity.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_camon17p_ecatalog_global",
+          "sourceValue": "E-Catalog describes Li-ion graphite for code CG7N; Kimovil's Global 4 GB / 128 GB page lists Li-Polymer",
+          "normalizedValue": null,
+          "note": "These are cross-market pages and disagree on chemistry; do not assign a battery type to local CG7.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "18 W Flash Charge",
+          "normalizedValue": 18,
+          "note": "Official TECNO PH specification.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "chargingW",
+          "catalogValue": 18,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "Wireless and reverse charging are not stated in the reviewed PH specification",
+          "normalizedValue": null,
+          "note": "Do not infer lack of support from omission.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "168.67 x 76.44 x 8.82 mm",
+          "normalizedValue": "168.67 x 76.44 x 8.82 mm",
+          "note": "Official TECNO PH page gives height, width, and thickness.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "dimensions",
+          "catalogValue": "168.67 x 76.44 x 8.82 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_camon17p_kimovil_global",
+          "sourceValue": "Kimovil lists 215 g on a Global 4 GB / 128 GB page; TECNO PH does not publish a weight",
+          "normalizedValue": null,
+          "note": "Keep blank because the recorded weight is not confirmed for local CG7 6 GB / 128 GB.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "weightG",
+          "catalogValue": null,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_camon17p_ecatalog_global",
+          "sourceValue": "E-Catalog reports plastic front/back for CG7N; Kimovil reports plastic for its Global 4 GB / 128 GB version",
+          "normalizedValue": null,
+          "note": "Neither reviewed source confirms frame/back materials for Philippine CG7; do not transfer the cross-market claim.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "No IP rating recorded in the reviewed manufacturer PH page",
+          "normalizedValue": null,
+          "note": "No water/dust rating is inferred.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "Dual Nano-SIM; eSIM is not listed",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "YugaTech local spec and GSMArena confirm dual Nano-SIM; eSIM is not documented.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "GSM, WCDMA, LTE (FDD/TDD); exact Philippine band list not stated",
+          "normalizedValue": "GSM / WCDMA / LTE; exact PH bands not recorded",
+          "note": "The local official page lists network technologies but not band numbers; the GEC RF list is not treated as a complete mobile-band map.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "cellular",
+          "catalogValue": "GSM / WCDMA / LTE; exact PH bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "Wi-Fi support listed; standard and bands not specified for the PH configuration",
+          "normalizedValue": "Wi-Fi; standard not recorded",
+          "note": "Do not transfer Wi-Fi 5 / 802.11ac from the different Global page without a local-variant specification.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi; standard not recorded"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "YugaTech's Philippine launch specification lists Bluetooth 5.0; Kimovil also lists 5.0 for the global model.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "usb",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "TECNO PH confirms OTG but does not name the physical port or data generation; cross-market pages say USB-C",
+          "normalizedValue": null,
+          "note": "Keep the local connector and USB generation blank until a CG7-specific PH source confirms them.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "ports",
+          "catalogValue": null
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_gsmarena",
+          "sourceValue": "GSMArena and Kimovil list NFC as absent for the exact CAMON 17P family",
+          "normalizedValue": false,
+          "note": "Secondary exact-model references agree; the PH manufacturer specification does not separately mention NFC.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_yugatech",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, and Galileo",
+          "normalizedValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo",
+          "note": "YugaTech's Philippine launch spec lists these positioning systems.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_camon17p_gsmarena",
+          "sourceValue": "3.5 mm headphone jack: yes; speaker configuration not fully stated",
+          "normalizedValue": "3.5 mm headphone jack",
+          "note": "GSMArena and Kimovil list the headphone jack for the exact model; no speaker count is inferred.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted",
+          "catalogKey": "sound",
+          "catalogValue": "3.5 mm headphone jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "tecno_camon17p_ph_specs",
+          "sourceValue": "G-sensor, ambient-light sensor, proximity sensor, and fingerprint sensor",
+          "normalizedValue": "Accelerometer, ambient-light, proximity, fingerprint",
+          "note": "Official TECNO PH page lists these sensors; fingerprint location is separately described as side-mounted by YugaTech.",
+          "configurationMatch": "Exact Philippine TECNO CG7 CAMON 17P, 6 GB RAM / 128 GB storage unless noted"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "The NTC GEC record maps model CG7 to CAMON 17P and the June 30, 2021 YugaTech report says TECNO Mobile's CAMON 17P was available in the Philippines. Workbook eligibility remains Pending.",
+        "philippineAvailability": "TECNO's Philippine product page lists the CAMON 17P 6 GB / 128 GB specification. YugaTech reported it available in the Philippines on June 30, 2021 at PHP 8,490; the NTC GEC record maps TECNO CG7 to TECNO CAMON 17P. This establishes local registration and contemporaneous reported availability, not an exact first purchase timestamp.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "TECNO Mobile",
+        "catalogModel": "Camon 17P",
+        "productLine": "TECNO CAMON 17P",
+        "modelNumber": "CG7",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Philippine launch report date",
+        "researchNotes": "Workbook row 38 matched to TECNO CAMON 17P / NTC code CG7. The Philippine manufacturer page documents one 6 GB / 128 GB configuration. The PHP 8,490 price is historical (June 2021); no current orderable PH offer was verified. Global pages list memory and model-code variants that are not transferred into the local configuration. Workbook eligibility remains Pending.",
+        "qualityFlag": "Philippine registration and reported availability verified; one 6 GB / 128 GB configuration; historical price only; current price and several variant-specific specifications remain unverified.",
+        "openIssues": [
+          {
+            "issue": "No current dated and orderable Philippine offer was verified",
+            "action": "Keep the live price blank; preserve PHP 8,490 as historical only."
+          },
+          {
+            "issue": "GSMArena lists both CG7 and CG7n; local NTC registration specifically maps CG7 to CAMON 17P",
+            "action": "Use CG7 for the PH record; do not merge CG7n as a local variant without evidence."
+          },
+          {
+            "issue": "Several global pages describe 4 GB / 128 GB or code CG7N rather than PH code CG7",
+            "action": "Do not transfer their RAM type, storage type, weight, materials, or unverified sensor details."
+          },
+          {
+            "issue": "TECNO overview advertises 2K video while GSMArena lists 1080p30",
+            "action": "Leave video modes unresolved pending exact PH unit evidence."
+          },
+          {
+            "issue": "Cross-market sources disagree on battery chemistry",
+            "action": "Leave battery technology unset for the PH code."
+          },
+          {
+            "issue": "Official product images match the exact model, but reuse terms were not found",
+            "action": "Continue using the neutral placeholder until image reuse permission is established."
+          },
+          {
+            "issue": "Workbook eligibility status remains Pending",
+            "action": "Preserve Pending and apply existing study eligibility rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_097c07418374a0-6gb-128gb-ph",
+          "label": "6 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": "CG7",
+          "notes": "Frost Silver, Magnet Black, and Spruce Green are listed for the model; inventory does not tie each color to a separate SKU.",
+          "workbookRow": 38
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
     }
   ]
 }
