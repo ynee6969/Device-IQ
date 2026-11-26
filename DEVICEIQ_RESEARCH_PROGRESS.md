@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T13:57:16+08:00
+Updated: 2026-11-26T14:15:03+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -9,18 +9,18 @@ Updated: 2026-11-26T13:57:16+08:00
 | Measure | Count |
 | --- | ---: |
 | Device models | 456 |
-| Configurations | 556 |
-| Models with manually verified source fields | 293 |
-| Configurations with manually verified source fields | 396 |
+| Configurations | 559 |
+| Models with manually verified source fields | 294 |
+| Configurations with manually verified source fields | 400 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 13 |
 | Specification-complete models | 0 |
 | Incomplete models | 444 |
-| Applicable field assignments | 25433 |
-| Fields assessed | 11815 |
-| Verified fields | 11393 |
-| Pending fields | 13618 |
+| Applicable field assignments | 25568 |
+| Fields assessed | 11988 |
+| Verified fields | 11546 |
+| Pending fields | 13580 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -34,7 +34,7 @@ The table counts the existing records and this run's review state; it does not m
 | Claimed year | Category | Brand | Models identified | Models verified locally | Inserted | Specs complete | Disclosed gaps | Incomplete | Fields assessed | Fields verified | Fields pending | PTG pages reviewed | Manufacturer pages reviewed | Unsuccessful fetch attempts | Independent technical pages reviewed | Images approved | Images pending | Status |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | 2021 | smartphones | ASUS | 2 | 0 | 2 | 0 | 0 | 2 | 82 | 82 | 53 | 1 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | smartphones | Black Shark | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | smartphones | Black Shark | 1 | 1 | 1 | 0 | 0 | 1 | 173 | 153 | 7 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Cherry Mobile | 2 | 0 | 2 | 0 | 0 | 2 | 54 | 54 | 36 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Huawei | 3 | 0 | 3 | 0 | 0 | 3 | 89 | 89 | 46 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Infinix | 3 | 0 | 3 | 0 | 0 | 3 | 83 | 83 | 52 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -230,7 +230,7 @@ The table counts the existing records and this run's review state; it does not m
 ## Current blockers and next actions
 
 1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.
-2. Review the 5883 source-derived field observations and 420 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
+2. Review the 5883 source-derived field observations and 423 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
 3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover 18/18 laptop models and 22 exact configurations.
 4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.
 5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.

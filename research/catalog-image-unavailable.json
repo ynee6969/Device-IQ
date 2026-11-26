@@ -280,11 +280,11 @@
     "altText": "Image unavailable for ASUS Zenfone 8"
   },
   "device_fa4c0f6cdc39f6": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact-model Black Shark 4 front product image was identified on the official global product page, but no reusable image license or written permission is recorded.",
+    "sourcePage": "https://global.blackshark.com/products/black-shark-4",
+    "assetUrl": "https://global.blackshark.com/cdn/shop/files/BS4_Black_Front_01_20210310.png?v=1751451918&width=1000",
+    "scope": "Exact Black Shark 4, Mirror Black finish; image does not establish a particular RAM/storage configuration",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Black Shark 4"

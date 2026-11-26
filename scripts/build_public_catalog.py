@@ -343,7 +343,8 @@ for review in manual_reviews.get("records", []):
             if variant.get("pricePhp") is not None and number(variant.get("pricePhp")) != value and not reviewed_field.get("replaceExisting"):
                 raise ValueError(f"Manual price conflicts with inventory value: {device['id']}")
             variant.update({
-                "pricePhp": value, "priceCondition": reviewed_field.get("priceCondition") or "new",
+                "pricePhp": value,
+                "priceCondition": reviewed_field["priceCondition"] if "priceCondition" in reviewed_field else "new",
                 "priceType": reviewed_field.get("priceType") or "manufacturer starting price",
                 "priceObservedAt": reviewed_field.get("priceObservedAt") or source.get("publicationDate") or source.get("accessDate"), "priceSourceUrl": source["url"],
                 "notes": reviewed_field.get("note") or variant.get("notes"),

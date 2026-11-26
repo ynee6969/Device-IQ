@@ -67,8 +67,18 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [364, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 563);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [367, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 566);
+const blackShark4 = publicDevices.find((device) => device.id === "device_fa4c0f6cdc39f6");
+assert.ok(blackShark4);
+assert.deepEqual(blackShark4.variants.map((variant) => variant.label), [
+  "6 GB RAM / 128 GB storage", "8 GB RAM / 128 GB storage",
+  "12 GB RAM / 128 GB storage", "12 GB RAM / 256 GB storage",
+]);
+const blackShark4Eight128 = blackShark4.variants.find((variant) => variant.specs.ramGb === 8 && variant.specs.storageGb === 128);
+assert.equal(blackShark4Eight128?.pricePhp, 20545);
+assert.equal(blackShark4Eight128?.priceCondition, null);
+assert.equal(blackShark4Eight128?.priceType, "KIMSTORE listing observed 2026-11-26; one unit left; condition not stated");
 assert.deepEqual(Object.fromEntries(["Included", "Pending date", "Pending", "Excluded", "Held out"].map((status) => [status, publicDevices.filter((device) => device.scopeStatus === status).length])), { Included: 28, "Pending date": 29, Pending: 396, Excluded: 3, "Held out": 7 });
 assert.ok(publicDevices.every((device) => device.variants.length &&
   device.sources.every((source) => source.url.startsWith("https://"))));
