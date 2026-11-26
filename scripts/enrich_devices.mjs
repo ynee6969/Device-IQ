@@ -17,6 +17,7 @@ const discoveryLimit = Number(getArg('--discover-limit', '60'));
 const gsmarenaLimit = Number(getArg('--gsmarena-limit', '20'));
 const ptgLimit = Number(getArg('--ptg-limit', '60'));
 const timeoutMs = Number(getArg('--timeout-ms', '9000'));
+const requestedDeviceId = getArg('--device-id', '');
 const maxBytes = 2_000_000;
 const userAgent = 'DeviceIQResearchBot/1.0 (+https://github.com/ynee6969/Device-IQ; evidence collection)';
 const now = new Date().toISOString();
@@ -29,8 +30,11 @@ const boundaryMatch = (haystack, needle) => {
   return n && h.includes(` ${n} `);
 };
 const exactModelMention = (haystack, model) => {
-  const h = normalized(haystack);
-  const n = normalized(model);
+  // Product names commonly write a final plus suffix as either "+" or "Plus".
+  // Normalize only model-identity checks so the base model still cannot match.
+  const modelName = value => normalized(value).replace(/(?<=\w)\+(?=\s|$)/g, ' plus');
+  const h = modelName(haystack);
+  const n = modelName(model);
   if (!boundaryMatch(h, n)) return false;
   const index = ` ${h} `.indexOf(` ${n} `);
   const after = ` ${h} `.slice(index + n.length + 2).trimStart();
@@ -330,7 +334,7 @@ export function extractPage(html, device, configurations = [], sourceKind = 'off
         const matching = configurations.filter(x => x.ram_gb === ram && x.internal_storage_gb === storage);
         prices.push({ amount_php: amount, configuration_id: matching.length === 1 ? matching[0].configuration_id : null, configuration_match: matching.length === 1 ? 'exact' : 'source_variant_unmatched', variant_ram_gb: ram, variant_storage_gb: storage, price_type: 'independent_reported_official_price', source_published_at: publishedAt, excerpt: clean(match[0]) });
       }
-      if (!prices.length && /official price\s+in\s+the\s+philippines/i.test(cells[1])) {
+      if (!prices.length && /official price\b/i.test(cells[1])) {
         const amounts = [...cells[1].matchAll(/₱\s*([\d,]+(?:\.\d{2})?)/g)];
         if (amounts.length === 1) prices.push({ amount_php: Number(amounts[0][1].replace(/,/g, '')), configuration_id: null, configuration_match: 'unspecified', variant_ram_gb: null, variant_storage_gb: null, price_type: 'independent_reported_official_price', source_published_at: publishedAt, excerpt: clean(cells[1]).slice(0, 240) });
       }
@@ -420,7 +424,9 @@ async function main() {
   const configsByDevice = new Map();
   for (const config of tables.device_configurations) configsByDevice.set(config.device_id, [...(configsByDevice.get(config.device_id) || []), config]);
   const all = tables.device_models.filter(x => ['smartphones', 'tablets', 'laptops'].includes(x.category_id));
-  const selected = limit > 0 ? all.slice(0, limit) : all;
+  const requested = requestedDeviceId ? all.filter(x => x.device_id === requestedDeviceId) : all;
+  if (requestedDeviceId && requested.length !== 1) throw new Error(`Expected one inventory record for ${requestedDeviceId}; found ${requested.length}`);
+  const selected = limit > 0 ? requested.slice(0, limit) : requested;
   const ptgModels = selected.filter(x => ['smartphones', 'tablets'].includes(x.category_id));
   const ptgMatches = await ptgSitemapMatches(ptgModels, brandById);
   const discoveryCandidates = selected.filter(x => !evidenceByDevice.has(x.device_id) && !ptgMatches.has(x.device_id));

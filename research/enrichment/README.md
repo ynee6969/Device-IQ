@@ -13,6 +13,14 @@ node scripts/enrich_devices.mjs
 python scripts/store_enrichment.py
 ```
 
+For a focused rerun after reviewing one inventory model, pass its stable device ID. This is useful for correcting a reviewed name alias without recollecting the whole queue:
+
+```powershell
+node scripts/enrich_devices.mjs --device-id <device_id> --discover-limit 0 --gsmarena-limit 0 --ptg-limit 1 --output research/enrichment/<review-snapshot>.json
+```
+
+Model identity matching treats a final `+` and the word `Plus` as equivalent product-name notation, while keeping a base model such as `S23` distinct from `S23+`.
+
 The Pinoy Techno Guide sitemaps need no key. The job matches exact smartphone and tablet slugs, marks them as independent Philippine reference candidates, and fetches up to 60 rotating pages each week. To discover additional official pages and GSMArena review links, set `BRAVE_SEARCH_API_KEY` in your environment or as a GitHub Actions repository secret. The key is sent only to the Brave Search API; the weekly job searches up to 60 rotating unsourced models across all three categories and 20 rotating GSMArena model links per run. Search results are **unreviewed candidates**, even when the domain is official. The job checks each fetched host's `robots.txt`, skips unavailable or blocked hosts, uses request timeouts and per-host spacing, and does not bypass access controls.
 
 The page parser accepts an exact model heading and unambiguous structured specification fields. It collects candidate values only; these require field-level review against the exact model and configuration before promotion. Official store prices require a PHP-denominated Product offer. Pinoy Techno Guide prices require an explicit variant and are labeled `independent_reported_official_price`, since they are the site's report rather than a manufacturer quote. Each price preserves variant RAM/storage, the article publication date when available, and the observation date. The configuration is exact only when the SKU or both RAM and storage match. Dated prices are observations, not current guarantees. The collector does not infer original release dates, local-market availability, or missing values. Existing conflicting specification values are listed in `conflicts` for review. Findings do not enter the public catalog until separately reviewed and promoted.

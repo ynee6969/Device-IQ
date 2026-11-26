@@ -9,6 +9,12 @@ test('GSMArena review candidates must match the exact model', () => {
   assert.equal(gsmarenaReferenceUrl('https://other.example/samsung_galaxy_s24-12773.php', 'Galaxy S24', 'Samsung'), false);
 });
 
+test('accepts plus-sign and Plus aliases without matching the distinct base model', () => {
+  const html = '<title>itel S23+ – Full Specs and Official Price in the Philippines</title><h1>itel S23+</h1><table><tr><td>Battery</td><td>5000mAh</td></tr></table>';
+  assert.equal(extractPage(html, { model_name: 'S23 Plus' }).status, 'extracted');
+  assert.equal(extractPage(html, { model_name: 'S23' }).status, 'model_mismatch');
+});
+
 test('robots groups, longest rule, and disallow', () => {
   const body = 'User-agent: *\nDisallow: /private\nAllow: /private/public\n\nUser-agent: DeviceIQResearchBot\nDisallow: /hidden';
   assert.equal(robotsAllowed(body, '/hidden'), false);
@@ -71,6 +77,12 @@ test('records a single tablet price without inventing a configuration', () => {
   assert.equal(result.specs[0].value, '8340');
   assert.equal(result.prices[0].amount_php, 15999);
   assert.equal(result.prices[0].configuration_match, 'unspecified');
+});
+
+test('records PTG official price rows that omit the words in the Philippines', () => {
+  const html = '<title>itel S23+ – Full Specs and Official Price in the Philippines</title><h1>itel S23+</h1><table><tr><td>Price</td><td>₱7,499.00 Official Price</td></tr></table>';
+  const result = extractPage(html, { model_name: 'S23 Plus' }, [], 'independent_ph_reference');
+  assert.deepEqual(result.prices.map(price => [price.amount_php, price.configuration_id, price.configuration_match, price.price_type]), [[7499, null, 'unspecified', 'independent_reported_official_price']]);
 });
 
 test('extracts the published PTG display, camera, build, and connectivity rows', () => {

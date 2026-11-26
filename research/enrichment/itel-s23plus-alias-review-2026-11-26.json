@@ -1,0 +1,381 @@
+{
+  "run_at": "2026-11-26T04:15:06.798Z",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_a8c831d7277179",
+      "brand": "itel",
+      "model_name": "S23 Plus",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [
+    {
+      "device_id": "device_a8c831d7277179",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "status": "extracted",
+      "http_status": 200,
+      "page_title": "itel S23+ – Full Specs and Official Price in the Philippines"
+    }
+  ],
+  "observations": [
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "display_inches",
+      "value": "6.78",
+      "unit": "in",
+      "excerpt": "Display: 6.78-inch FHD+ AMOLED Display (1080 x 2400 Pixels 388 ppi) with Corning Gorilla Glass, 20:9 Aspect Ratio, 60Hz Refresh Rate, 500 nits peak brightness, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "display_technology",
+      "value": "AMOLED",
+      "unit": null,
+      "excerpt": "Display: 6.78-inch FHD+ AMOLED Display (1080 x 2400 Pixels 388 ppi) with Corning Gorilla Glass, 20:9 Aspect Ratio, 60Hz Refresh Rate, 500 nits peak brightness, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "resolution",
+      "value": "1080 x 2400",
+      "unit": null,
+      "excerpt": "Display: 6.78-inch FHD+ AMOLED Display (1080 x 2400 Pixels 388 ppi) with Corning Gorilla Glass, 20:9 Aspect Ratio, 60Hz Refresh Rate, 500 nits peak brightness, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "refresh_hz",
+      "value": "60",
+      "unit": "Hz",
+      "excerpt": "Display: 6.78-inch FHD+ AMOLED Display (1080 x 2400 Pixels 388 ppi) with Corning Gorilla Glass, 20:9 Aspect Ratio, 60Hz Refresh Rate, 500 nits peak brightness, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "display_brightness",
+      "value": "500 nits",
+      "unit": null,
+      "excerpt": "Display: 6.78-inch FHD+ AMOLED Display (1080 x 2400 Pixels 388 ppi) with Corning Gorilla Glass, 20:9 Aspect Ratio, 60Hz Refresh Rate, 500 nits peak brightness, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "display_protection",
+      "value": "Corning Gorilla Glass",
+      "unit": null,
+      "excerpt": "Display: 6.78-inch FHD+ AMOLED Display (1080 x 2400 Pixels 388 ppi) with Corning Gorilla Glass, 20:9 Aspect Ratio, 60Hz Refresh Rate, 500 nits peak brightness, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "materials",
+      "value": "Glass front, Plastic back",
+      "unit": null,
+      "excerpt": "Build Materials: Glass front, Plastic back",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "weight",
+      "value": "190",
+      "unit": "g",
+      "excerpt": "Weight: 190 g",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "chipset",
+      "value": "UNISOC Tiger T616 (12 nm)",
+      "unit": null,
+      "excerpt": "Chipset: UNISOC Tiger T616 (12 nm)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "cpu",
+      "value": "Octa Core CPU2x Cortex-A75 @ 2.0GHz + 6x Cortex-A55 @ 1.8GHz",
+      "unit": null,
+      "excerpt": "CPU: Octa Core CPU2x Cortex-A75 @ 2.0GHz + 6x Cortex-A55 @ 1.8GHz",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "gpu",
+      "value": "Mali-G57",
+      "unit": null,
+      "excerpt": "GPU: Mali-G57",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "ram_gb",
+      "value": "8",
+      "unit": "GB",
+      "excerpt": "RAM: 8 GB",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "internal_storage_gb",
+      "value": "256",
+      "unit": "GB",
+      "excerpt": "Storage: 256GB",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "storage_expansion",
+      "value": "None",
+      "unit": null,
+      "excerpt": "Expansion: None",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "operating_system",
+      "value": "Android 13 with itel OS 13",
+      "unit": null,
+      "excerpt": "OS: Android 13 with itel OS 13",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "rear_camera",
+      "value": "Dual Cameras: 50MP Main Camera (f/1.6 Aperture, Autofocus)VGA Secondary Camera-LED Flash -Up to 1080p video recording",
+      "unit": null,
+      "excerpt": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.6 Aperture, Autofocus)VGA Secondary Camera-LED Flash -Up to 1080p video recording",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "main_camera_sensor",
+      "value": "50MP Main Camera (f/1.6 Aperture, Autofocus)VGA Secondary Camera-LED Flash -Up to 1080p video recording",
+      "unit": null,
+      "excerpt": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.6 Aperture, Autofocus)VGA Secondary Camera-LED Flash -Up to 1080p video recording",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "video_recording",
+      "value": "Up to 1080p video recording",
+      "unit": null,
+      "excerpt": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.6 Aperture, Autofocus)VGA Secondary Camera-LED Flash -Up to 1080p video recording",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "front_camera",
+      "value": "32",
+      "unit": "MP",
+      "excerpt": "Front Camera: 32 Megapixels (f/2.0 Aperture)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "cellular",
+      "value": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
+      "unit": null,
+      "excerpt": "Cellular: 4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "sim",
+      "value": "Dual SIM (Nano-SIM)",
+      "unit": null,
+      "excerpt": "SIM Card: Dual SIM (Nano-SIM)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "wifi",
+      "value": "Wi-Fi 802.11 b/g/n/ac (dual band)",
+      "unit": null,
+      "excerpt": "Wi-Fi: Wi-Fi 802.11 b/g/n/ac (dual band)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "nfc",
+      "value": "No",
+      "unit": null,
+      "excerpt": "NFC: No",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "bluetooth",
+      "value": "Bluetooth 5.0",
+      "unit": null,
+      "excerpt": "Bluetooth: Bluetooth 5.0",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "gnss",
+      "value": "GPS",
+      "unit": null,
+      "excerpt": "Location: GPS",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "audio",
+      "value": "DTS AudioUSB Type-C Audio Output",
+      "unit": null,
+      "excerpt": "Sound: DTS AudioUSB Type-C Audio Output",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "sensors",
+      "value": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+      "unit": null,
+      "excerpt": "Sensors: Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "battery_mah",
+      "value": "5000",
+      "unit": "mAh",
+      "excerpt": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "battery_technology",
+      "value": "Li-Po Battery (Non-removable)",
+      "unit": null,
+      "excerpt": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_a8c831d7277179",
+      "key": "charging",
+      "value": "18W charging rate Charging",
+      "unit": null,
+      "excerpt": "Charging: 18W charging rate Charging",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_a8c831d7277179",
+      "amount_php": 7499,
+      "configuration_id": null,
+      "configuration_match": "unspecified",
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "price_type": "independent_reported_official_price",
+      "source_published_at": "2023-10-06",
+      "excerpt": "₱7,499.00 Official price",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:15:06.798Z",
+      "local_availability_verified": false
+    }
+  ],
+  "discovery": [
+    {
+      "device_id": "device_a8c831d7277179",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+      "source_kind": "independent_ph_reference",
+      "status": "unreviewed_sitemap_candidate"
+    }
+  ]
+}

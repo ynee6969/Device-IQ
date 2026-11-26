@@ -130548,6 +130548,374 @@
       ],
       "modelCode": "TB128XU",
       "sku": "ZAAN0009PH"
+    },
+    {
+      "deviceId": "device_a8c831d7277179",
+      "configurationId": "device_a8c831d7277179-s23-plus-8gb-256gb-ph",
+      "brand": "itel",
+      "model": "S23 Plus",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "reviewed_model_source_3e16f9e3e6e996",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/itel-s23-plus",
+          "publicationDate": "2023-10-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine model, configuration, price, availability, and technical reference",
+          "note": "The exact itel S23+ Philippine page lists 8 GB RAM and 256 GB storage, reports PHP 7,499 as its official price, and says the phone is available through itel stores, authorized dealers, and itel's official Philippine online shops. This is a dated secondary report; it does not establish current stock or the exact first-sale date."
+        },
+        {
+          "id": "itel_s23plus_official_specification",
+          "publisher": "itel",
+          "url": "https://www.itel-life.com/products/phone/s-series/s23plus/spec",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official model identity and model-level specification cross-check",
+          "note": "The manufacturer markets this model as itel S23+. Its product specification page lists 6.78-inch AMOLED, 5000 mAh, and 256+16 (8+8) GB memory. This confirms that the workbook label 'S23 Plus' is the same model; it does not establish Philippine launch timing or a local price."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "6.78",
+          "normalizedValue": 6.78,
+          "unit": "in",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.78
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "1080 x 2400",
+          "normalizedValue": "1080 x 2400",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "60",
+          "normalizedValue": 60,
+          "unit": "Hz",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "refreshHz",
+          "catalogValue": 60
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "unit": "nits",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Corning Gorilla Glass",
+          "normalizedValue": "Corning Gorilla Glass",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Glass front, Plastic back",
+          "normalizedValue": "Glass front, Plastic back",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "190",
+          "normalizedValue": 190,
+          "unit": "g",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "weightG",
+          "catalogValue": 190
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "UNISOC Tiger T616 (12 nm)",
+          "normalizedValue": "UNISOC Tiger T616 (12 nm)",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "chipset",
+          "catalogValue": "UNISOC Tiger T616 (12 nm)"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Octa-core CPU: 2 × Cortex-A75 at 2.0 GHz + 6 × Cortex-A55 at 1.8 GHz",
+          "normalizedValue": "Octa-core CPU: 2 × Cortex-A75 at 2.0 GHz + 6 × Cortex-A55 at 1.8 GHz",
+          "unit": null,
+          "note": "Spacing and line breaks are normalized from the exact Philippine source page for readability; the specifications are unchanged.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core CPU: 2 × Cortex-A75 at 2.0 GHz + 6 × Cortex-A55 at 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Mali-G57",
+          "normalizedValue": "Mali-G57",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G57"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "None",
+          "normalizedValue": "None",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Dual rear cameras: 50 MP main camera (f/1.6, autofocus) + VGA secondary camera; LED flash; video recording up to 1080p",
+          "normalizedValue": "Dual rear cameras: 50 MP main camera (f/1.6, autofocus) + VGA secondary camera; LED flash; video recording up to 1080p",
+          "unit": null,
+          "note": "Spacing and line breaks are normalized from the exact Philippine source page for readability; the specifications are unchanged.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "The page lists a 50 MP main camera but does not name its sensor model.",
+          "normalizedValue": null,
+          "unit": null,
+          "note": "A camera resolution is not a sensor model. Keep the sensor identity unrecorded until a source names the sensor.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Up to 1080p video recording",
+          "normalizedValue": "Up to 1080p video recording",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "video",
+          "catalogValue": "Up to 1080p video recording"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "32",
+          "normalizedValue": 32,
+          "unit": "MP",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Wi-Fi 802.11 b/g/n/ac (dual band)",
+          "normalizedValue": "Wi-Fi 802.11 b/g/n/ac (dual band)",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 802.11 b/g/n/ac (dual band)"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "No",
+          "normalizedValue": "No",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "GPS",
+          "normalizedValue": "GPS",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "DTS Audio; USB Type-C audio output",
+          "normalizedValue": "DTS Audio; USB Type-C audio output",
+          "unit": null,
+          "note": "Spacing and line breaks are normalized from the exact Philippine source page for readability; the specifications are unchanged.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "sound",
+          "catalogValue": "DTS Audio; USB Type-C audio output"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+          "normalizedValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "5000",
+          "normalizedValue": 5000,
+          "unit": "mAh",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "Li-Po Battery (Non-removable)",
+          "normalizedValue": "Li-Po Battery (Non-removable)",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "18W charging rate Charging",
+          "normalizedValue": 18,
+          "unit": "W",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "chargingW",
+          "catalogValue": 18
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "8 GB RAM",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "configurationMatch": "Exact Philippine configuration listed on source page",
+          "note": "Pinoy Techno Guide lists 8 GB RAM; itel's product page describes 256+16 (8+8) GB memory. RAM type is not stated."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_3e16f9e3e6e996",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB",
+          "configurationMatch": "Exact Philippine configuration listed on source page",
+          "note": "Pinoy Techno Guide lists 256 GB storage; itel's product page lists 256 GB in its 256+16 (8+8) GB memory description."
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_a8c831d7277179-s23-plus-8gb-256gb-ph",
+          "label": "8 GB RAM / 256 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "The Philippine reference lists 8 GB RAM and 256 GB storage. The manufacturer page independently lists 256+16 (8+8) GB memory. No Philippine SKU is recorded."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "A dated Philippine report said the model was available through itel stores, authorized dealers, and official online shops as of October 2023; current stock is not established.",
+        "philippineAvailability": "Pinoy Techno Guide reported Philippine channel availability for the exact itel S23+ model on 2023-10-06. The exact first-sale date and current availability are not recorded.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "itel",
+        "productLine": "S Series",
+        "modelNumber": null,
+        "philippineReleaseYear": 2023,
+        "researchNotes": "The workbook label 'S23 Plus' matches the manufacturer name 'S23+' and the exact Philippine reference page. Philippine availability is evidenced by a dated report, but no exact release date or current stock is established. PHP 7,499 remains a dated, configuration-unmatched price candidate; it is not shown as a current offer.",
+        "qualityFlag": "No exact Philippine SKU or first-sale date; 2023 price is not confirmed current",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date and SKU are not recorded",
+            "action": "Keep the release date blank and retain the source-backed 8 GB / 256 GB configuration without inventing a SKU."
+          },
+          {
+            "issue": "The PHP 7,499 report does not explicitly bind price to the 8 GB / 256 GB variant",
+            "action": "Keep it as a dated, configuration-unmatched candidate; do not display it as current price."
+          },
+          {
+            "issue": "Product image reuse rights are not established",
+            "action": "Continue showing the neutral image placeholder until reuse permission or a reusable license is documented."
+          }
+        ]
+      }
     }
   ]
 }
