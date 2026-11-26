@@ -1640,14 +1640,14 @@
     "altText": "Image unavailable for OPPO Reno6 5G"
   },
   "device_61b7b139393500": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "OPPO's official CPH2359 page contains an exact-model product image, but no reusable image license or written permission to copy/embed is recorded in the project.",
+    "sourcePage": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+    "assetUrl": "https://www.oppo.com/content/dam/oppo/common/mkt/specs/reno8-5g/reno8-5g-newcolor-860_720-1.png",
+    "scope": "Exact OPPO Reno8 5G model CPH2359; official page image depicts product, not a confirmed local color name",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for OPPO Reno8"
+    "altText": "Image unavailable for OPPO Reno8 5G CPH2359"
   },
   "device_c809f816ac8afe": {
     "status": "NO_RELIABLE_MATCH",

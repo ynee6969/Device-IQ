@@ -20752,46 +20752,221 @@
     "category": "smartphones",
     "brand": "OPPO",
     "model": "Reno8",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "manufacturer": "OPPO",
+    "productLine": "Reno8 Series",
+    "modelNumber": "CPH2359",
+    "releaseDate": "2022-07-18",
+    "philippineAvailabilityDate": "2022-09-01",
+    "philippineDateLabel": "Philippine launch and preorder date",
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact CPH2359 match; Philippine launch/date/SRP and 256 GB storage verified; RAM and color listings differ between contemporaneous launch sources and the current OPPO Philippines product page; current price unverified; expansion and body-material conflicts retained; image reuse rights not established; study eligibility remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "OPPO Reno8 5G CPH2359 was officially launched in the Philippines with preorder coverage starting September 1, 2022. Local launch sources report an 8 GB / 256 GB offer at PHP 27,999 in Shimmer Black and Shimmer Gold. OPPO's current Philippine page lists a 12 GB / 256 GB configuration and Sunkissed Beige for CPH2359; timing and configuration meaning are unresolved. Current stock and price are not verified.",
+    "availabilityStatus": "Philippine launch and preorder coverage identifies OPPO stores, authorized retailers, telco partners, and official online shops; NTC lists exact model CPH2359 as Reno8 5G.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "NTC and OPPO exact-model pages identify CPH2359 as Reno8 5G. Philippine launch sources document 8 GB / 256 GB and PHP 27,999 from September 1, 2022. OPPO UK's CPH2359 page also lists 8/256, while OPPO Philippines's currently indexed page lists 12/256 and Sunkissed Beige; the effective date/meaning of that current listing is unresolved, so the catalog RAM field remains blank and no second local configuration is inferred. Current price is not verified. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Current OPPO Philippines exact-model page lists 12 GB + 256 GB while contemporaneous Philippine launch sources and OPPO UK's CPH2359 page list 8 GB + 256 GB",
+        "action": "Keep the 2022 launch hardware RAM field unresolved until OPPO clarifies whether the current listing is a later physical-memory variant or includes another RAM convention; do not add an undated second local SKU."
+      },
+      {
+        "issue": "Current OPPO Philippines page says Sunkissed Beige while 2022 local launch sources say Shimmer Gold",
+        "action": "Preserve the dated 2022 color name and do not assume the names describe the same finish."
+      },
+      {
+        "issue": "Expansion support is inconsistent within the local specification source",
+        "action": "Keep storage expansion blank until exact CPH2359 documentation resolves it."
+      },
+      {
+        "issue": "Body-material reports conflict on rear cover and frame materials",
+        "action": "Keep body materials blank; retain only the manufacturer-specified display cover glass."
+      },
+      {
+        "issue": "Current dated/orderable Philippine price was not verified",
+        "action": "Keep current price blank and preserve PHP 27,999 as a historical launch SRP only."
+      },
+      {
+        "issue": "Exact official product imagery is available but permission or reusable terms are not recorded",
+        "action": "Keep the neutral placeholder until image reuse is authorized."
+      },
+      {
+        "issue": "The NTC table also labels CPH2457 as Reno8 5G, while the CPH2359 match is independently corroborated",
+        "action": "Do not merge CPH2457 into this record; review it against the inventory's separate Reno8 Z or 4G records if present."
+      },
+      {
+        "issue": "Workbook eligibility is Pending",
+        "action": "Preserve the study's Pending status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "National Telecommunications Commission Philippines",
+        "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment registration and model-code match",
+        "note": "The 2022 NTC GEC lists OPPO model CPH2359 as OPPO Reno8 5G. It also contains a second CPH2457 entry labeled Reno8 5G; that code is not used for this match because OPPO's exact CPH2359 product page and the local launch coverage identify the 5G product as CPH2359."
+      },
+      {
+        "organization": "OPPO Philippines",
+        "url": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Philippine exact-model specifications, imagery, and current product page",
+        "note": "OPPO's Philippine product specification page identifies Reno8 5G as CPH2359 and provides display, cameras, chipset, battery, charging, connectivity, sensors, and dimensions. Its currently indexed page lists 12 GB + 256 GB and Shimmer Black / Sunkissed Beige, unlike the contemporaneous 2022 Philippine launch sources (8 GB + 256 GB; Shimmer Black / Shimmer Gold). This discrepancy is retained; the current page does not establish a dated 2022 second local configuration."
+      },
+      {
+        "organization": "OPPO United Kingdom",
+        "url": "https://www.oppo.com/uk/smartphones/series-reno/reno8-5g/specs/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary exact-model family specifications and configuration cross-check",
+        "note": "OPPO's exact CPH2359 specification page lists 8 GB + 256 GB, LPDDR4x, UFS 3.1, Shimmer Black / Shimmer Gold, and the handset hardware. This supports the 8/256 model configuration but is not used as Philippine sales evidence."
+      },
+      {
+        "organization": "OPPO India",
+        "url": "https://www.oppo.com/in/newsroom/press/oppo-unveils-reno8-series-in-india/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-07-18",
+        "purpose": "Manufacturer announcement date and global model-family cross-check",
+        "note": "OPPO announced the Reno8 5G in India on July 18, 2022. The India-market specification is 8 GB / 128 GB; it is cited only for the dated manufacturer launch, not for the Philippine configuration."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/2022/09/oppo-reno8-series-5g-officially-launched-philippines.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-09-01",
+        "purpose": "Philippine launch date, availability, official price, and local hardware",
+        "note": "Published September 1, 2022. Reports OPPO Philippines officially launched Reno8 5G locally, identifies 8 GB RAM / 256 GB storage, PHP 27,999 official price, and availability through OPPO stores, authorized retailers, telco partners, and official online shops. It distinguishes Reno8 5G from Reno8 Z 5G."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/smartphones/oppo-reno8-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-08-23",
+        "purpose": "Local launch price and Philippine technical configuration cross-check",
+        "note": "The Reno8 5G page reports PHP 27,999, 8 GB RAM, 256 GB storage, Dimensity 1300, 50+8+2 MP rear cameras, 32 MP front camera, 4,500 mAh, 80 W, Wi-Fi 6, and Bluetooth 5.3. Its prose calls storage expandable while its specification table says no expansion; the storage-expansion field remains unresolved."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/oppo-reno8-5g-reno8-z-5g-priced-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-09-01",
+        "purpose": "Philippine launch pricing, pre-order timing, and local configuration cross-check",
+        "note": "Published September 1, 2022. Reports PHP 27,999 and pre-orders from September 1 to 8, 2022; lists the Reno8 5G with 8 GB LPDDR4x RAM, 256 GB UFS 3.1 storage, Dimensity 1300, 4,500 mAh battery, and local 80 W charging. Price is historical, not current."
+      },
+      {
+        "organization": "2nd Opinion Philippines",
+        "url": "https://2ndopinion.ph/be-the-first-to-experience-the-oppo-reno8-series-5g-available-for-pre-order-now/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-09-01",
+        "purpose": "Philippine preorder and hardware cross-check",
+        "note": "Reports the Reno8 5G preorder period and 8 GB RAM / 256 GB storage, Dimensity 1300, ColorOS 12.1, 4,500 mAh battery, 80 W charging, Shimmer Gold, and Shimmer Black."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/phone/oppo-reno-8",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary processor, display, camera, battery, and connectivity cross-check",
+        "note": "Exact Reno8 model-family page used to cross-check Dimensity 1300 architecture, Mali-G77 MC9, Wi-Fi 6, Bluetooth 5.3, camera suite, and battery. Its generic release date, performance scores, ratings, and global price are not treated as Philippine facts; regional differences are noted."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-oppo-reno8",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary exact global configuration and hardware cross-check",
+        "note": "The Reno8 Global 8 GB / 256 GB listing corroborates the configuration and selected hardware fields. Kimovil's seller prices are international and are not used as current Philippine prices."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/oppo_reno8-11684.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary exact model-number family and technical cross-check",
+        "note": "Exact CPH2359 family page used to cross-check release timing, bands, body, display, chipset, memory, and interface. Regional and rounded specification differences are not silently applied to the Philippine launch configuration."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://www.mediatek.com/products/smartphones-2/mediatek-dimensity-1300",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Dimensity 1300 platform reference",
+        "note": "MediaTek platform material is used only for chipset process and platform facts; handset specifications remain attributed to OPPO and model-specific sources."
+      }
+    ],
     "variants": [
       {
-        "id": "device_61b7b139393500-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_61b7b139393500-8gb-256gb-ph-launch",
+        "label": "256 GB storage (2022 launch sources: 8 GB RAM; current OPPO PH page lists 12 GB RAM; Shimmer Black / Shimmer Gold at launch)",
+        "specs": {
+          "displayInches": 6.4,
+          "displayType": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshHz": 90,
+          "chipset": "MediaTek Dimensity 1300",
+          "cpu": "1x Cortex-A78 3.0 GHz + 3x Cortex-A78 2.6 GHz + 4x Cortex-A55 2.0 GHz",
+          "gpu": "Arm Mali-G77 MC9",
+          "os": "ColorOS 12.1 based on Android 12",
+          "storageGb": 256,
+          "storageType": "UFS 3.1",
+          "rearCameraMp": "50 + 8 + 2 MP",
+          "frontCameraMp": 32,
+          "video": "Rear 4K@30fps; front 1080p@30fps",
+          "batteryMah": 4500,
+          "chargingW": 80,
+          "wirelessChargingW": null,
+          "dimensions": "About 160.0 x 73.4 x 7.67 mm",
+          "weightG": 179,
+          "sim": "Dual Nano-SIM; eSIM not recorded",
+          "cellular": "Manufacturer-published CPH2359 2G/3G/4G/5G bands; carrier support not independently tested",
+          "wifi": "Wi-Fi 6, dual-band",
+          "ports": "USB Type-C; OTG",
+          "gnss": "GPS, A-GPS, BeiDou, GLONASS, Galileo, QZSS",
+          "sound": "USB Type-C audio; no 3.5 mm jack"
+        },
+        "specSources": {
+          "displayInches": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "displayType": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "resolution": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "refreshHz": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "chipset": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "cpu": "https://nanoreview.net/en/phone/oppo-reno-8",
+          "gpu": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "os": "https://www.pinoytechnoguide.com/2022/09/oppo-reno8-series-5g-officially-launched-philippines.html",
+          "storageGb": "https://www.pinoytechnoguide.com/2022/09/oppo-reno8-series-5g-officially-launched-philippines.html",
+          "storageType": "https://www.oppo.com/uk/smartphones/series-reno/reno8-5g/specs/",
+          "rearCameraMp": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "frontCameraMp": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "video": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "batteryMah": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "chargingW": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "wirelessChargingW": "https://www.gsmarena.com/oppo_reno8-11684.php",
+          "dimensions": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "weightG": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "sim": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "cellular": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "wifi": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "ports": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "gnss": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+          "sound": "https://www.gsmarena.com/oppo_reno8-11684.php"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "NTC and OPPO exact-model pages identify CPH2359 as Reno8 5G. Philippine launch sources document 8 GB / 256 GB and PHP 27,999 from September 1, 2022. OPPO UK's CPH2359 page also lists 8/256, while OPPO Philippines's currently indexed page lists 12/256 and Sunkissed Beige; the effective date/meaning of that current listing is unresolved, so the catalog RAM field remains blank and no second local configuration is inferred. Current price is not verified. Launch price PHP 27,999 is historical; current price not verified.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "CPH2359",
         "workbookRow": null
       }
     ],

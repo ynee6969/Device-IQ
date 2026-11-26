@@ -1,0 +1,72 @@
+{
+  "run_at": "2026-11-26T19:06:41+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_61b7b139393500",
+      "brand": "OPPO",
+      "model_name": "Reno8",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_61b7b139393500",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC GEC lists OPPO model CPH2359 as Reno8 5G; separate CPH2457 line is not merged."
+    },
+    {
+      "device_id": "device_61b7b139393500",
+      "source_url": "https://www.pinoytechnoguide.com/2022/09/oppo-reno8-series-5g-officially-launched-philippines.html",
+      "result": "Philippine launch/preorder starts September 1, 2022; reported 8/256 local configuration and PHP 27,999 SRP."
+    },
+    {
+      "device_id": "device_61b7b139393500",
+      "source_url": "https://www.oppo.com/ph/smartphones/series-reno/reno8-5g/specs/",
+      "result": "OPPO exact Philippine CPH2359 product page has specs and image; current page's 12/256 config differs from the 2022 launch record."
+    },
+    {
+      "device_id": "device_61b7b139393500",
+      "source_url": "https://www.oppo.com/uk/smartphones/series-reno/reno8-5g/specs/",
+      "result": "OPPO exact CPH2359 specification page independently lists 8/256, LPDDR4x and UFS 3.1."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_61b7b139393500",
+      "amount_php": 27999,
+      "configuration_id": "device_61b7b139393500-8gb-256gb-ph-launch",
+      "configuration_match": "philippine_launch_cph2359_256gb_ram_listing_discrepancy_retained",
+      "variant_ram_gb": null,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-09-01",
+      "excerpt": "Historical Philippine launch SRP: OPPO Reno8 5G CPH2359, 256 GB storage; local launch sources list 8 GB RAM while current OPPO PH page lists 12 GB; not a current price.",
+      "source_url": "https://www.pinoytechnoguide.com/2022/09/oppo-reno8-series-5g-officially-launched-philippines.html",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T19:06:41+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_61b7b139393500",
+      "amount_php": 27999,
+      "configuration_id": "device_61b7b139393500-8gb-256gb-ph-launch",
+      "configuration_match": "philippine_launch_cph2359_256gb_ram_listing_discrepancy_retained",
+      "variant_ram_gb": null,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-09-01",
+      "excerpt": "Historical PHP 27,999 Philippine SRP independently listed for OPPO Reno8 5G; not a current price.",
+      "source_url": "https://www.yugatech.com/mobile/oppo-reno8-5g-reno8-z-5g-priced-in-the-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T19:06:41+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}
