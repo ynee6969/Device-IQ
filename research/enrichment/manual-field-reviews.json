@@ -148862,6 +148862,1229 @@
         }
       ],
       "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_b52492e270dd1f",
+      "configurationId": "device_b52492e270dd1f-4gb-64gb-ph",
+      "brand": "Redmi",
+      "model": "Redmi 9T",
+      "configuration": "4 GB RAM / 64 GB storage",
+      "configurationLabel": "4 GB RAM / 64 GB storage",
+      "sources": [
+        {
+          "id": "redmi_9t_xiaomi_specs",
+          "publisher": "Xiaomi Global",
+          "url": "https://www.mi.com/global/product/redmi-9t/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary exact-model specifications and technical cross-check",
+          "note": "Xiaomi's Redmi 9T specification page lists 4 GB / 64 GB, 4 GB / 128 GB, and 6 GB / 128 GB global configurations, with LPDDR4X RAM, configuration-specific UFS storage, display, Snapdragon 662, cameras, battery, charging, radios, sensors, and dimensions. The Philippine launch sources identify only 4 GB / 64 GB and 6 GB / 128 GB locally; the 4 GB / 128 GB global option is not added as a Philippine variant. The page notes that availability varies by region and images are illustrations."
+        },
+        {
+          "id": "redmi_9t_xiaomi_manual",
+          "publisher": "Xiaomi",
+          "url": "https://alsgp0.fds.api.xiaomi.com/xiaomi-b2c-i18n-upload/user-guides/e56de73a0ee9963f98e3095146ed23cb.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary user-guide identity reference",
+          "note": "The official Redmi 9T user guide identifies product model M2010J19SG. The reviewed Philippine launch articles do not tie that hardware code to the exact local SKU, so it is retained as a model-level observation and not asserted as a locally confirmed model number."
+        },
+        {
+          "id": "redmi_9t_ptg_ph",
+          "publisher": "PinoyTechGuide Philippines",
+          "url": "https://www.pinoytechnoguide.com/smartphones/xiaomi-redmi-9t",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine configurations, launch prices, and specification cross-check",
+          "note": "Published January 27, 2021. Lists the local 4 GB / 64 GB and 6 GB / 128 GB configurations at PHP 6,990 and PHP 7,990; describes Redmi 9T as launched in the Philippines, with Android 10 / MIUI 12, Snapdragon 662, cameras, battery, connectivity, and other specifications. Its image is an exact-model product photograph, but no image reuse terms were recorded."
+        },
+        {
+          "id": "redmi_9t_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2021/01/xiaomi-redmi-9t-price-specs-philippines/",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch date, local configuration, launch price, and availability",
+          "note": "Published January 27, 2021. Reports Xiaomi Philippines' Redmi 9T launch, local 4 GB / 64 GB at PHP 6,990 and 6 GB / 128 GB at PHP 7,990, non-NFC local versions, and availability at official Xiaomi stores and authorized retailers from January 29. A PHP 500 base-model discount was announced for January 29; the article does not give the resulting sale price as a printed amount, so no computed promotional price is recorded."
+        },
+        {
+          "id": "redmi_9t_noypi_ph",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/redmi-9t-price-philippines/",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch-price and exact-model specification cross-check",
+          "note": "Published January 27, 2021. Independently reports the same 4 GB / 64 GB and 6 GB / 128 GB launch prices and January 29 availability, and lists the display, chipset, cameras, battery, local connectivity, audio, and build dimensions."
+        },
+        {
+          "id": "redmi_9t_gadgetpilipinas_ph",
+          "publisher": "Gadget Pilipinas",
+          "url": "https://www.gadgetpilipinas.net/2021/01/redmi-9t-launches-in-ph-priced/",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch and configuration cross-check",
+          "note": "Published January 27, 2021. Confirms the local 4 GB / 64 GB and 6 GB / 128 GB pricing and availability from January 29. One sentence in the article incorrectly labels the 4 GB / 64 GB price configuration as 6 GB / 64 GB; the correctly tabulated configuration and the other launch sources agree on 4 GB / 64 GB, so the prose typo is not adopted."
+        },
+        {
+          "id": "redmi_9t_qualcomm_662",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-662-mobile-platform-product-brief.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Snapdragon 662 platform architecture and capability reference",
+          "note": "Qualcomm documents the Snapdragon 662 as an 11 nm mobile platform with Kryo 260 octa-core CPU up to 2 GHz, Adreno 610 GPU, LTE platform, Wi-Fi and Bluetooth capabilities. Platform capabilities are not substituted for handset-specific implementation; device features are taken from Xiaomi and exact-model sources."
+        },
+        {
+          "id": "redmi_9t_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/xiaomi_redmi_9t-pictures-10670.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model global release-date cross-check",
+          "note": "The exact Redmi 9T page is indexed as released on January 18, 2021. Xiaomi's January 8 global debut announcement is earlier than this release date; the date is global-market context, not Philippine availability."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmi_9t_xiaomi_manual",
+          "sourceValue": "Official user guide identifies model M2010J19SG; local SKU mapping was not established",
+          "normalizedValue": null,
+          "note": "Preserve the official model-level code in source metadata, but leave the public Philippine model-number field blank until the local SKU-to-code mapping is confirmed.",
+          "configurationMatch": "Redmi 9T model-level manual; Philippine configuration code not confirmed"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_gsmarena",
+          "sourceValue": "GSMArena lists the Redmi 9T as released January 18, 2021; Xiaomi announced its global debut on January 8",
+          "normalizedValue": "2021-01-18",
+          "note": "Use the indexed release date, not the earlier announcement/debut date. This does not indicate Philippine sale availability.",
+          "configurationMatch": "Global model-level release information"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Philippine Redmi 9T: 4 GB RAM / 64 GB storage",
+          "normalizedValue": "4 GB RAM / 64 GB storage",
+          "note": "REVU and NoypiGeeks identify the Philippine 4 GB / 64 GB and 6 GB / 128 GB configurations. The global 4 GB / 128 GB option is not reported as a Philippine launch variant and is not added.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Xiaomi's Philippine launch coverage says official-store and authorized-retailer availability began January 29, 2021",
+          "normalizedValue": "2021-01-29",
+          "note": "Use the reported retail availability date; January 27 is the announcement/publication date, not the sale date.",
+          "configurationMatch": "Philippine Redmi 9T launch; both documented configurations"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Philippine launch price: PHP 6,990 for 4 GB / 64 GB",
+          "normalizedValue": 6990,
+          "note": "Historical local launch price for this exact configuration. It is not a current price.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Reviewed local prices are dated January 2021; no current dated, orderable Philippine offer was verified",
+          "normalizedValue": null,
+          "note": "Keep catalog current price blank. Launch-day PHP 500 discount was reported for the 4 GB / 64 GB model, but no printed resulting sale amount is recorded.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "6.53-inch display",
+          "normalizedValue": 6.53,
+          "note": "Xiaomi's exact-model specification; local launch sources corroborate 6.53 inches.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.53,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "IPS LCD",
+          "normalizedValue": "IPS LCD",
+          "note": "PinoyTechGuide identifies IPS LCD; local launch coverage identifies an LCD panel.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "2340 x 1080 pixels (FHD+); PTG lists the same resolution. REVU has a conflicting 2400 x 1080 table entry.",
+          "normalizedValue": "2340 x 1080",
+          "note": "The manufacturer and PTG agree at 2340 x 1080. REVU's 2400 x 1080 entry is retained as a source discrepancy and not preferred over Xiaomi's primary specification.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "2340 x 1080"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "60 Hz",
+          "normalizedValue": 60,
+          "note": "REVU lists the LCD as 60 Hz; the model is not advertised as a high-refresh-rate panel.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "400 nits typical brightness",
+          "normalizedValue": 400,
+          "note": "Xiaomi's exact-model specification identifies typical brightness.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "Corning Gorilla Glass 3",
+          "normalizedValue": "Corning Gorilla Glass 3",
+          "note": "PTG and NoypiGeeks list Gorilla Glass 3; Xiaomi's current global specification page does not name the cover glass.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Qualcomm Snapdragon 662",
+          "normalizedValue": "Qualcomm Snapdragon 662",
+          "note": "Xiaomi's exact-model page and local launch reporting identify Snapdragon 662.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 662"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_qualcomm_662",
+          "sourceValue": "11 nm process",
+          "normalizedValue": 11,
+          "note": "Qualcomm platform product brief identifies the process node; Xiaomi also lists 11 nm for the Redmi 9T processor.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_qualcomm_662",
+          "sourceValue": "Kryo 260 octa-core CPU, up to 2.0 GHz",
+          "normalizedValue": "Kryo 260 octa-core, up to 2.0 GHz",
+          "note": "Qualcomm's platform brief gives the official family and maximum frequency; no handset benchmark score is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "Kryo 260 octa-core, up to 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Qualcomm Adreno 610",
+          "normalizedValue": "Qualcomm Adreno 610",
+          "note": "Xiaomi and Qualcomm identify Adreno 610 for the Snapdragon 662 platform.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 610"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "MIUI 12 based on Android 10 at launch",
+          "normalizedValue": "MIUI 12 based on Android 10",
+          "note": "This is the documented launch software, not a claim about the latest installed update today.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "MIUI 12 based on Android 10"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "No published update duration or end-of-support date was found in the reviewed sources",
+          "normalizedValue": null,
+          "note": "Keep update policy blank; do not infer support duration from later software versions.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "4 GB physical RAM",
+          "normalizedValue": 4,
+          "note": "This is the exact Philippine storage/RAM variant; no virtual-memory expansion is added to physical RAM.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X",
+          "note": "Xiaomi lists LPDDR4X for the documented configuration family, including this RAM/storage combination.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "64 GB internal storage",
+          "normalizedValue": 64,
+          "note": "The exact Philippine configuration is separately identified in contemporaneous launch coverage.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "UFS 2.1",
+          "normalizedValue": "UFS 2.1",
+          "note": "Xiaomi lists UFS 2.1 for 64 GB and UFS 2.2 for its 128 GB options. The local 6 GB / 128 GB configuration matches the latter; no local 4 GB / 128 GB variant is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 2.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dedicated microSD expansion, up to 512 GB",
+          "normalizedValue": "Dedicated microSD; up to 512 GB",
+          "note": "Xiaomi lists dual SIM plus a dedicated microSD slot and up to 512 GB expansion.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "48 MP main + 8 MP 120-degree ultra-wide + 2 MP macro + 2 MP depth",
+          "normalizedValue": "48 MP main + 8 MP ultra-wide + 2 MP macro + 2 MP depth",
+          "note": "Complete rear camera set from Xiaomi; catalog numeric value represents the main camera only.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 48,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "48 MP main camera, 1/2-inch sensor size, f/1.79, PDAF; sensor maker/model not named",
+          "normalizedValue": "1/2-inch sensor size; maker/model not disclosed",
+          "note": "Record the published sensor size while leaving the sensor identity unspecified.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "8 MP ultra-wide camera, 120-degree field of view, f/2.2",
+          "normalizedValue": "8 MP ultra-wide; 120-degree field of view",
+          "note": "Xiaomi's exact-model camera specification.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "The complete listed rear system has main, ultra-wide, macro, and depth cameras; no telephoto camera is listed",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "Based on Xiaomi's complete four-camera rear specification.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "8 MP front camera, f/2.05",
+          "normalizedValue": 8,
+          "note": "Xiaomi's exact-model specification; local launch sources corroborate 8 MP.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Rear and front video: 1080p at 30 fps and 720p at 30 fps; time-lapse also listed",
+          "normalizedValue": "Front/rear 1080p30 and 720p30; time-lapse",
+          "note": "Record only modes listed on the product page; chipset video capability is not substituted.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "video",
+          "catalogValue": "Front/rear 1080p30 and 720p30; time-lapse"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "6000 mAh typical",
+          "normalizedValue": 6000,
+          "note": "Xiaomi's exact-model battery rating; local sources corroborate 6,000 mAh.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "Li-Po, non-removable",
+          "normalizedValue": "Li-Po; non-removable",
+          "note": "PTG lists battery chemistry and non-removable construction; manufacturer page confirms capacity but not chemistry.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "18 W wired charging; 22.5 W charger supplied in box",
+          "normalizedValue": 18,
+          "note": "The phone's charging rate is 18 W; the included 22.5 W adapter rating is not reported as the phone's input rate.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 18,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Wireless charging is not specified in the reviewed product page",
+          "normalizedValue": null,
+          "note": "Do not convert omission into a confirmed lack of support.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "162.3 x 77.3 x 9.6 mm",
+          "normalizedValue": "162.3 x 77.3 x 9.6 mm",
+          "note": "Xiaomi exact-model dimensions; NoypiGeeks reports the same values.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "162.3 x 77.3 x 9.6 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "198 g",
+          "normalizedValue": 198,
+          "note": "Xiaomi exact-model figure; NoypiGeeks reports the same weight.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 198,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "Plastic body",
+          "normalizedValue": "Plastic body",
+          "note": "PTG lists plastic build materials; no more detailed frame/back composition is asserted.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmi_9t_noypi_ph",
+          "sourceValue": "No IP certification or formal ingress-protection rating was identified; local coverage mentions water-repellent/splash-resistant coating",
+          "normalizedValue": null,
+          "note": "A water-repellent design claim is not an IP rating. Keep the IP field blank.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dual SIM with dedicated microSD tray; eSIM support is not stated",
+          "normalizedValue": "Dual SIM; dedicated microSD; eSIM not recorded",
+          "note": "Xiaomi confirms the dual-SIM and dedicated microSD arrangement. No eSIM claim is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "sim",
+          "catalogValue": "Dual SIM; dedicated microSD; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Global specification lists GSM B2/3/5/8; WCDMA B1/2/4/5/8; LTE FDD B1/2/3/4/5/7/8/20/28 and TDD B38/40/41. Philippine SKU band mapping was not separately published.",
+          "normalizedValue": "Global Redmi 9T bands: GSM B2/3/5/8; WCDMA B1/2/4/5/8; LTE FDD B1/2/3/4/5/7/8/20/28; TDD B38/40/41",
+          "note": "This is the Xiaomi global model specification, not a carrier-compatibility guarantee for every Philippine SKU.",
+          "configurationMatch": "Global Redmi 9T model-level radio specification; local SKU band mapping not separately confirmed",
+          "catalogKey": "cellular",
+          "catalogValue": "Global Redmi 9T bands: GSM B2/3/5/8; WCDMA B1/2/4/5/8; LTE FDD B1/2/3/4/5/7/8/20/28; TDD B38/40/41"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dual-band 2.4 / 5 GHz Wi-Fi 802.11 a/b/g/n/ac",
+          "normalizedValue": "Dual-band Wi-Fi 802.11 a/b/g/n/ac",
+          "note": "Xiaomi lists both frequency bands and supported protocols.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "Dual-band Wi-Fi 802.11 a/b/g/n/ac"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Xiaomi exact-model specification.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "USB Type-C; data-transfer generation not stated",
+          "normalizedValue": "USB Type-C",
+          "note": "Connector type is recorded; no USB data speed is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Local launch coverage says only non-NFC variants would be sold in the Philippines; PTG lists NFC: No",
+          "normalizedValue": false,
+          "note": "Local-market-specific evidence is used because Xiaomi says NFC availability varies by market.",
+          "configurationMatch": "Philippine Redmi 9T variants; local launch sources report non-NFC models"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "GPS/A-GPS, GLONASS, BeiDou, Galileo",
+          "normalizedValue": "GPS/A-GPS, GLONASS, BeiDou, Galileo",
+          "note": "Xiaomi's exact-model navigation specification.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS/A-GPS, GLONASS, BeiDou, Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dual speakers, 3.5 mm headphone jack, Hi-Res Audio",
+          "normalizedValue": "Dual speakers; 3.5 mm jack; Hi-Res Audio",
+          "note": "Xiaomi's exact-model audio specification; NoypiGeeks also lists stereo speakers and a headphone jack.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage",
+          "catalogKey": "sound",
+          "catalogValue": "Dual speakers; 3.5 mm jack; Hi-Res Audio"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Proximity, ambient light, accelerometer, electronic compass, vibration motor, IR blaster; side fingerprint sensor",
+          "normalizedValue": "Proximity, ambient light, accelerometer, compass, vibration motor, IR blaster, side fingerprint",
+          "note": "Xiaomi lists the sensors and side fingerprint reader; keep the IR blaster as a model feature, not a separate sensor rating.",
+          "configurationMatch": "Philippine Redmi 9T, 4 GB physical RAM / 64 GB storage"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Contemporaneous Philippine launch reporting documents Xiaomi official-store and authorized-retailer availability from January 29, 2021. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Xiaomi Philippines launch coverage published January 27, 2021 states that the Redmi 9T would be sold by official Xiaomi online stores, authorized Mi Stores, and resellers from January 29. Two local configurations were listed: 4 GB / 64 GB at PHP 6,990 and 6 GB / 128 GB at PHP 7,990. This verifies reported local market availability, not current stock or orderability.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Xiaomi Corporation",
+        "catalogModel": "Redmi 9T",
+        "productLine": "Redmi 9 series",
+        "modelNumber": null,
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Reported Philippine retail availability date",
+        "researchNotes": "Workbook row 47 'Redmi 9T' is matched to Xiaomi's Redmi 9T on the basis of exact-model Philippine launch coverage. Local sources agree on 4 GB / 64 GB and 6 GB / 128 GB variants; global 4 GB / 128 GB is not added as a local configuration. Official model guide lists M2010J19SG, but the reviewed Philippine sources do not map that code to the local SKU, so the catalog model-number field stays blank. January 2021 launch prices are historical; current price and image reuse rights are unverified. Workbook eligibility remains Pending.",
+        "qualityFlag": "Philippine Redmi 9T launch and two local variants verified; hardware-code mapping, current price, and image reuse rights unresolved; workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "The official user guide gives hardware code M2010J19SG, but no reviewed Philippine launch source ties it to the exact local SKU",
+            "action": "Leave the public model-number field blank pending local code confirmation."
+          },
+          {
+            "issue": "Only January 2021 launch prices were verified; retailer links do not establish a current orderable offer",
+            "action": "Keep current price blank and preserve the two launch MSRPs as historical price observations."
+          },
+          {
+            "issue": "A January 29 PHP 500 discount is reported for the base variant, but the reviewed article does not print the resulting sale amount",
+            "action": "Record the discount note only; do not calculate or publish a sale price."
+          },
+          {
+            "issue": "Exact product photographs appear on Xiaomi and PTG pages without recorded reuse permission",
+            "action": "Use the neutral image placeholder until image usage rights are established."
+          },
+          {
+            "issue": "A source has a prose typo calling the 4 GB / 64 GB launch option 6 GB / 64 GB",
+            "action": "Use the matching price table and multiple agreeing local launch reports; preserve the typo in source notes."
+          },
+          {
+            "issue": "Workbook eligibility status remains Pending",
+            "action": "Preserve Pending and follow existing study eligibility rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_b52492e270dd1f-4gb-64gb-ph",
+          "label": "4 GB RAM / 64 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Philippine launch sources identify this as the base non-NFC configuration. Reported local colors include Carbon Gray, Twilight Blue, Ocean Green, and an orange color variously named Sunrise Orange / Sunset Orange; no color-to-storage mapping is documented.",
+          "workbookRow": 47
+        },
+        {
+          "id": "device_b52492e270dd1f-6gb-128gb-ph",
+          "label": "6 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Philippine launch sources identify this as the higher-memory non-NFC configuration. Reported local colors include Carbon Gray, Twilight Blue, Ocean Green, and an orange color variously named Sunrise Orange / Sunset Orange; no color-to-storage mapping is documented.",
+          "workbookRow": 47
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_b52492e270dd1f",
+      "configurationId": "device_b52492e270dd1f-6gb-128gb-ph",
+      "brand": "Redmi",
+      "model": "Redmi 9T",
+      "configuration": "6 GB RAM / 128 GB storage",
+      "configurationLabel": "6 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "redmi_9t_xiaomi_specs",
+          "publisher": "Xiaomi Global",
+          "url": "https://www.mi.com/global/product/redmi-9t/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary exact-model specifications and technical cross-check",
+          "note": "Xiaomi's Redmi 9T specification page lists 4 GB / 64 GB, 4 GB / 128 GB, and 6 GB / 128 GB global configurations, with LPDDR4X RAM, configuration-specific UFS storage, display, Snapdragon 662, cameras, battery, charging, radios, sensors, and dimensions. The Philippine launch sources identify only 4 GB / 64 GB and 6 GB / 128 GB locally; the 4 GB / 128 GB global option is not added as a Philippine variant. The page notes that availability varies by region and images are illustrations."
+        },
+        {
+          "id": "redmi_9t_xiaomi_manual",
+          "publisher": "Xiaomi",
+          "url": "https://alsgp0.fds.api.xiaomi.com/xiaomi-b2c-i18n-upload/user-guides/e56de73a0ee9963f98e3095146ed23cb.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary user-guide identity reference",
+          "note": "The official Redmi 9T user guide identifies product model M2010J19SG. The reviewed Philippine launch articles do not tie that hardware code to the exact local SKU, so it is retained as a model-level observation and not asserted as a locally confirmed model number."
+        },
+        {
+          "id": "redmi_9t_ptg_ph",
+          "publisher": "PinoyTechGuide Philippines",
+          "url": "https://www.pinoytechnoguide.com/smartphones/xiaomi-redmi-9t",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine configurations, launch prices, and specification cross-check",
+          "note": "Published January 27, 2021. Lists the local 4 GB / 64 GB and 6 GB / 128 GB configurations at PHP 6,990 and PHP 7,990; describes Redmi 9T as launched in the Philippines, with Android 10 / MIUI 12, Snapdragon 662, cameras, battery, connectivity, and other specifications. Its image is an exact-model product photograph, but no image reuse terms were recorded."
+        },
+        {
+          "id": "redmi_9t_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2021/01/xiaomi-redmi-9t-price-specs-philippines/",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch date, local configuration, launch price, and availability",
+          "note": "Published January 27, 2021. Reports Xiaomi Philippines' Redmi 9T launch, local 4 GB / 64 GB at PHP 6,990 and 6 GB / 128 GB at PHP 7,990, non-NFC local versions, and availability at official Xiaomi stores and authorized retailers from January 29. A PHP 500 base-model discount was announced for January 29; the article does not give the resulting sale price as a printed amount, so no computed promotional price is recorded."
+        },
+        {
+          "id": "redmi_9t_noypi_ph",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/redmi-9t-price-philippines/",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch-price and exact-model specification cross-check",
+          "note": "Published January 27, 2021. Independently reports the same 4 GB / 64 GB and 6 GB / 128 GB launch prices and January 29 availability, and lists the display, chipset, cameras, battery, local connectivity, audio, and build dimensions."
+        },
+        {
+          "id": "redmi_9t_gadgetpilipinas_ph",
+          "publisher": "Gadget Pilipinas",
+          "url": "https://www.gadgetpilipinas.net/2021/01/redmi-9t-launches-in-ph-priced/",
+          "publicationDate": "2021-01-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch and configuration cross-check",
+          "note": "Published January 27, 2021. Confirms the local 4 GB / 64 GB and 6 GB / 128 GB pricing and availability from January 29. One sentence in the article incorrectly labels the 4 GB / 64 GB price configuration as 6 GB / 64 GB; the correctly tabulated configuration and the other launch sources agree on 4 GB / 64 GB, so the prose typo is not adopted."
+        },
+        {
+          "id": "redmi_9t_qualcomm_662",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-662-mobile-platform-product-brief.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Snapdragon 662 platform architecture and capability reference",
+          "note": "Qualcomm documents the Snapdragon 662 as an 11 nm mobile platform with Kryo 260 octa-core CPU up to 2 GHz, Adreno 610 GPU, LTE platform, Wi-Fi and Bluetooth capabilities. Platform capabilities are not substituted for handset-specific implementation; device features are taken from Xiaomi and exact-model sources."
+        },
+        {
+          "id": "redmi_9t_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/xiaomi_redmi_9t-pictures-10670.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model global release-date cross-check",
+          "note": "The exact Redmi 9T page is indexed as released on January 18, 2021. Xiaomi's January 8 global debut announcement is earlier than this release date; the date is global-market context, not Philippine availability."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmi_9t_xiaomi_manual",
+          "sourceValue": "Official user guide identifies model M2010J19SG; local SKU mapping was not established",
+          "normalizedValue": null,
+          "note": "Preserve the official model-level code in source metadata, but leave the public Philippine model-number field blank until the local SKU-to-code mapping is confirmed.",
+          "configurationMatch": "Redmi 9T model-level manual; Philippine configuration code not confirmed"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_gsmarena",
+          "sourceValue": "GSMArena lists the Redmi 9T as released January 18, 2021; Xiaomi announced its global debut on January 8",
+          "normalizedValue": "2021-01-18",
+          "note": "Use the indexed release date, not the earlier announcement/debut date. This does not indicate Philippine sale availability.",
+          "configurationMatch": "Global model-level release information"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Philippine Redmi 9T: 6 GB RAM / 128 GB storage",
+          "normalizedValue": "6 GB RAM / 128 GB storage",
+          "note": "REVU and NoypiGeeks identify the Philippine 4 GB / 64 GB and 6 GB / 128 GB configurations. The global 4 GB / 128 GB option is not reported as a Philippine launch variant and is not added.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Xiaomi's Philippine launch coverage says official-store and authorized-retailer availability began January 29, 2021",
+          "normalizedValue": "2021-01-29",
+          "note": "Use the reported retail availability date; January 27 is the announcement/publication date, not the sale date.",
+          "configurationMatch": "Philippine Redmi 9T launch; both documented configurations"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Philippine launch price: PHP 7,990 for 6 GB / 128 GB",
+          "normalizedValue": 7990,
+          "note": "Historical local launch price for this exact configuration. It is not a current price.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Reviewed local prices are dated January 2021; no current dated, orderable Philippine offer was verified",
+          "normalizedValue": null,
+          "note": "Keep catalog current price blank. Launch-day PHP 500 discount was reported for the 4 GB / 64 GB model, but no printed resulting sale amount is recorded.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "6.53-inch display",
+          "normalizedValue": 6.53,
+          "note": "Xiaomi's exact-model specification; local launch sources corroborate 6.53 inches.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.53,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "IPS LCD",
+          "normalizedValue": "IPS LCD",
+          "note": "PinoyTechGuide identifies IPS LCD; local launch coverage identifies an LCD panel.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "2340 x 1080 pixels (FHD+); PTG lists the same resolution. REVU has a conflicting 2400 x 1080 table entry.",
+          "normalizedValue": "2340 x 1080",
+          "note": "The manufacturer and PTG agree at 2340 x 1080. REVU's 2400 x 1080 entry is retained as a source discrepancy and not preferred over Xiaomi's primary specification.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "2340 x 1080"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "60 Hz",
+          "normalizedValue": 60,
+          "note": "REVU lists the LCD as 60 Hz; the model is not advertised as a high-refresh-rate panel.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "400 nits typical brightness",
+          "normalizedValue": 400,
+          "note": "Xiaomi's exact-model specification identifies typical brightness.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "Corning Gorilla Glass 3",
+          "normalizedValue": "Corning Gorilla Glass 3",
+          "note": "PTG and NoypiGeeks list Gorilla Glass 3; Xiaomi's current global specification page does not name the cover glass.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Qualcomm Snapdragon 662",
+          "normalizedValue": "Qualcomm Snapdragon 662",
+          "note": "Xiaomi's exact-model page and local launch reporting identify Snapdragon 662.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 662"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_qualcomm_662",
+          "sourceValue": "11 nm process",
+          "normalizedValue": 11,
+          "note": "Qualcomm platform product brief identifies the process node; Xiaomi also lists 11 nm for the Redmi 9T processor.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_qualcomm_662",
+          "sourceValue": "Kryo 260 octa-core CPU, up to 2.0 GHz",
+          "normalizedValue": "Kryo 260 octa-core, up to 2.0 GHz",
+          "note": "Qualcomm's platform brief gives the official family and maximum frequency; no handset benchmark score is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "Kryo 260 octa-core, up to 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Qualcomm Adreno 610",
+          "normalizedValue": "Qualcomm Adreno 610",
+          "note": "Xiaomi and Qualcomm identify Adreno 610 for the Snapdragon 662 platform.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 610"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "MIUI 12 based on Android 10 at launch",
+          "normalizedValue": "MIUI 12 based on Android 10",
+          "note": "This is the documented launch software, not a claim about the latest installed update today.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "MIUI 12 based on Android 10"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "No published update duration or end-of-support date was found in the reviewed sources",
+          "normalizedValue": null,
+          "note": "Keep update policy blank; do not infer support duration from later software versions.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "6 GB physical RAM",
+          "normalizedValue": 6,
+          "note": "This is the exact Philippine storage/RAM variant; no virtual-memory expansion is added to physical RAM.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X",
+          "note": "Xiaomi lists LPDDR4X for the documented configuration family, including this RAM/storage combination.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "128 GB internal storage",
+          "normalizedValue": 128,
+          "note": "The exact Philippine configuration is separately identified in contemporaneous launch coverage.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "UFS 2.2",
+          "normalizedValue": "UFS 2.2",
+          "note": "Xiaomi lists UFS 2.1 for 64 GB and UFS 2.2 for its 128 GB options. The local 6 GB / 128 GB configuration matches the latter; no local 4 GB / 128 GB variant is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 2.2"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dedicated microSD expansion, up to 512 GB",
+          "normalizedValue": "Dedicated microSD; up to 512 GB",
+          "note": "Xiaomi lists dual SIM plus a dedicated microSD slot and up to 512 GB expansion.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "48 MP main + 8 MP 120-degree ultra-wide + 2 MP macro + 2 MP depth",
+          "normalizedValue": "48 MP main + 8 MP ultra-wide + 2 MP macro + 2 MP depth",
+          "note": "Complete rear camera set from Xiaomi; catalog numeric value represents the main camera only.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 48,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "48 MP main camera, 1/2-inch sensor size, f/1.79, PDAF; sensor maker/model not named",
+          "normalizedValue": "1/2-inch sensor size; maker/model not disclosed",
+          "note": "Record the published sensor size while leaving the sensor identity unspecified.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "8 MP ultra-wide camera, 120-degree field of view, f/2.2",
+          "normalizedValue": "8 MP ultra-wide; 120-degree field of view",
+          "note": "Xiaomi's exact-model camera specification.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "The complete listed rear system has main, ultra-wide, macro, and depth cameras; no telephoto camera is listed",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "Based on Xiaomi's complete four-camera rear specification.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "8 MP front camera, f/2.05",
+          "normalizedValue": 8,
+          "note": "Xiaomi's exact-model specification; local launch sources corroborate 8 MP.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Rear and front video: 1080p at 30 fps and 720p at 30 fps; time-lapse also listed",
+          "normalizedValue": "Front/rear 1080p30 and 720p30; time-lapse",
+          "note": "Record only modes listed on the product page; chipset video capability is not substituted.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "video",
+          "catalogValue": "Front/rear 1080p30 and 720p30; time-lapse"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "6000 mAh typical",
+          "normalizedValue": 6000,
+          "note": "Xiaomi's exact-model battery rating; local sources corroborate 6,000 mAh.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "Li-Po, non-removable",
+          "normalizedValue": "Li-Po; non-removable",
+          "note": "PTG lists battery chemistry and non-removable construction; manufacturer page confirms capacity but not chemistry.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "18 W wired charging; 22.5 W charger supplied in box",
+          "normalizedValue": 18,
+          "note": "The phone's charging rate is 18 W; the included 22.5 W adapter rating is not reported as the phone's input rate.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 18,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Wireless charging is not specified in the reviewed product page",
+          "normalizedValue": null,
+          "note": "Do not convert omission into a confirmed lack of support.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "162.3 x 77.3 x 9.6 mm",
+          "normalizedValue": "162.3 x 77.3 x 9.6 mm",
+          "note": "Xiaomi exact-model dimensions; NoypiGeeks reports the same values.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "162.3 x 77.3 x 9.6 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "198 g",
+          "normalizedValue": 198,
+          "note": "Xiaomi exact-model figure; NoypiGeeks reports the same weight.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 198,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_ptg_ph",
+          "sourceValue": "Plastic body",
+          "normalizedValue": "Plastic body",
+          "note": "PTG lists plastic build materials; no more detailed frame/back composition is asserted.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmi_9t_noypi_ph",
+          "sourceValue": "No IP certification or formal ingress-protection rating was identified; local coverage mentions water-repellent/splash-resistant coating",
+          "normalizedValue": null,
+          "note": "A water-repellent design claim is not an IP rating. Keep the IP field blank.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dual SIM with dedicated microSD tray; eSIM support is not stated",
+          "normalizedValue": "Dual SIM; dedicated microSD; eSIM not recorded",
+          "note": "Xiaomi confirms the dual-SIM and dedicated microSD arrangement. No eSIM claim is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "sim",
+          "catalogValue": "Dual SIM; dedicated microSD; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Global specification lists GSM B2/3/5/8; WCDMA B1/2/4/5/8; LTE FDD B1/2/3/4/5/7/8/20/28 and TDD B38/40/41. Philippine SKU band mapping was not separately published.",
+          "normalizedValue": "Global Redmi 9T bands: GSM B2/3/5/8; WCDMA B1/2/4/5/8; LTE FDD B1/2/3/4/5/7/8/20/28; TDD B38/40/41",
+          "note": "This is the Xiaomi global model specification, not a carrier-compatibility guarantee for every Philippine SKU.",
+          "configurationMatch": "Global Redmi 9T model-level radio specification; local SKU band mapping not separately confirmed",
+          "catalogKey": "cellular",
+          "catalogValue": "Global Redmi 9T bands: GSM B2/3/5/8; WCDMA B1/2/4/5/8; LTE FDD B1/2/3/4/5/7/8/20/28; TDD B38/40/41"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dual-band 2.4 / 5 GHz Wi-Fi 802.11 a/b/g/n/ac",
+          "normalizedValue": "Dual-band Wi-Fi 802.11 a/b/g/n/ac",
+          "note": "Xiaomi lists both frequency bands and supported protocols.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "Dual-band Wi-Fi 802.11 a/b/g/n/ac"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Xiaomi exact-model specification.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "USB Type-C; data-transfer generation not stated",
+          "normalizedValue": "USB Type-C",
+          "note": "Connector type is recorded; no USB data speed is inferred.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmi_9t_revu_ph",
+          "sourceValue": "Local launch coverage says only non-NFC variants would be sold in the Philippines; PTG lists NFC: No",
+          "normalizedValue": false,
+          "note": "Local-market-specific evidence is used because Xiaomi says NFC availability varies by market.",
+          "configurationMatch": "Philippine Redmi 9T variants; local launch sources report non-NFC models"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "GPS/A-GPS, GLONASS, BeiDou, Galileo",
+          "normalizedValue": "GPS/A-GPS, GLONASS, BeiDou, Galileo",
+          "note": "Xiaomi's exact-model navigation specification.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS/A-GPS, GLONASS, BeiDou, Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Dual speakers, 3.5 mm headphone jack, Hi-Res Audio",
+          "normalizedValue": "Dual speakers; 3.5 mm jack; Hi-Res Audio",
+          "note": "Xiaomi's exact-model audio specification; NoypiGeeks also lists stereo speakers and a headphone jack.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage",
+          "catalogKey": "sound",
+          "catalogValue": "Dual speakers; 3.5 mm jack; Hi-Res Audio"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "redmi_9t_xiaomi_specs",
+          "sourceValue": "Proximity, ambient light, accelerometer, electronic compass, vibration motor, IR blaster; side fingerprint sensor",
+          "normalizedValue": "Proximity, ambient light, accelerometer, compass, vibration motor, IR blaster, side fingerprint",
+          "note": "Xiaomi lists the sensors and side fingerprint reader; keep the IR blaster as a model feature, not a separate sensor rating.",
+          "configurationMatch": "Philippine Redmi 9T, 6 GB physical RAM / 128 GB storage"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Contemporaneous Philippine launch reporting documents Xiaomi official-store and authorized-retailer availability from January 29, 2021. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Xiaomi Philippines launch coverage published January 27, 2021 states that the Redmi 9T would be sold by official Xiaomi online stores, authorized Mi Stores, and resellers from January 29. Two local configurations were listed: 4 GB / 64 GB at PHP 6,990 and 6 GB / 128 GB at PHP 7,990. This verifies reported local market availability, not current stock or orderability.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Xiaomi Corporation",
+        "catalogModel": "Redmi 9T",
+        "productLine": "Redmi 9 series",
+        "modelNumber": null,
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Reported Philippine retail availability date",
+        "researchNotes": "Workbook row 47 'Redmi 9T' is matched to Xiaomi's Redmi 9T on the basis of exact-model Philippine launch coverage. Local sources agree on 4 GB / 64 GB and 6 GB / 128 GB variants; global 4 GB / 128 GB is not added as a local configuration. Official model guide lists M2010J19SG, but the reviewed Philippine sources do not map that code to the local SKU, so the catalog model-number field stays blank. January 2021 launch prices are historical; current price and image reuse rights are unverified. Workbook eligibility remains Pending.",
+        "qualityFlag": "Philippine Redmi 9T launch and two local variants verified; hardware-code mapping, current price, and image reuse rights unresolved; workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "The official user guide gives hardware code M2010J19SG, but no reviewed Philippine launch source ties it to the exact local SKU",
+            "action": "Leave the public model-number field blank pending local code confirmation."
+          },
+          {
+            "issue": "Only January 2021 launch prices were verified; retailer links do not establish a current orderable offer",
+            "action": "Keep current price blank and preserve the two launch MSRPs as historical price observations."
+          },
+          {
+            "issue": "A January 29 PHP 500 discount is reported for the base variant, but the reviewed article does not print the resulting sale amount",
+            "action": "Record the discount note only; do not calculate or publish a sale price."
+          },
+          {
+            "issue": "Exact product photographs appear on Xiaomi and PTG pages without recorded reuse permission",
+            "action": "Use the neutral image placeholder until image usage rights are established."
+          },
+          {
+            "issue": "A source has a prose typo calling the 4 GB / 64 GB launch option 6 GB / 64 GB",
+            "action": "Use the matching price table and multiple agreeing local launch reports; preserve the typo in source notes."
+          },
+          {
+            "issue": "Workbook eligibility status remains Pending",
+            "action": "Preserve Pending and follow existing study eligibility rules."
+          }
+        ]
+      }
     }
   ]
 }

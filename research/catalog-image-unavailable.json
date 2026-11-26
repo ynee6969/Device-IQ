@@ -1970,14 +1970,14 @@
     "altText": "Image unavailable for Redmi 13C"
   },
   "device_b52492e270dd1f": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Exact Redmi 9T product photographs are present on Xiaomi's specification page and PinoyTechGuide, but no reusable image license or permission to copy/embed is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://www.mi.com/global/product/redmi-9t/specs/",
     "assetUrl": null,
-    "scope": null,
+    "scope": "Redmi 9T; Philippine 4 GB / 64 GB and 6 GB / 128 GB variants",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Redmi 9T"
+    "altText": "Image unavailable for Xiaomi Redmi 9T"
   },
   "device_2cb105eb8b9081": {
     "status": "NO_RELIABLE_MATCH",
