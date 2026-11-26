@@ -1,0 +1,51 @@
+{
+  "run_at": "2026-11-26T13:44:35+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_efb3b8a0ab65ed",
+      "brand": "HONOR",
+      "model_name": "X9d",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_efb3b8a0ab65ed",
+      "amount_php": 22999,
+      "configuration_id": "device_efb3b8a0ab65ed-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "retailer_listed_price_stock_varies_by_branch_checkout_unavailable",
+      "source_published_at": null,
+      "excerpt": "JI Telecom's exact 12GB/256GB X9d listing shows PHP 22,999, but states stock varies by branch and online checkout is unavailable. Treat as a retailer price candidate, not an available offer.",
+      "source_url": "https://jitelecom.store/product/honor-x9d-5g-12-256/",
+      "source_kind": "retailer_price_observation",
+      "observed_at": "2026-11-26T13:44:35+08:00",
+      "local_availability_verified": false,
+      "availability_status": "branch_stock_unconfirmed_online_checkout_unavailable"
+    },
+    {
+      "device_id": "device_efb3b8a0ab65ed",
+      "amount_php": 18999,
+      "configuration_id": "device_efb3b8a0ab65ed-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "independent_current_price_guide_candidate",
+      "source_published_at": "2026-11-25",
+      "excerpt": "Best Tech Asia's Philippines price list says it verified PHP 18,999 for HONOR X9d 12GB/256GB on 2026-11-25; this is an editorial guide/SRP, not a live in-stock exact-configuration checkout offer.",
+      "source_url": "https://besttechasia.com/honor-price-list-philippines/",
+      "source_kind": "independent_price_guide",
+      "observed_at": "2026-11-26T13:44:35+08:00",
+      "local_availability_verified": false,
+      "availability_status": "guide_price_candidate_no_live_checkout"
+    }
+  ]
+}

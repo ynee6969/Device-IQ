@@ -8550,44 +8550,175 @@
     "category": "smartphones",
     "brand": "HONOR",
     "model": "X9d",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HONOR",
+    "productLine": "X Series",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2026-01-09",
+    "philippineDateLabel": "First reported Philippine preorder date",
+    "philippineReleaseYear": 2026,
     "claimedReleaseYear": 2026,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Current price and stock unverified; PTG chipset entry conflicts with HONOR and other launch sources",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "GadgetMatch reported Philippine preorders January 9–23, 2026 and standard pricing from January 24; PTG lists the Philippine model and local official-store links.",
+    "availabilityStatus": "Philippine preorder availability was reported from January 9, 2026; current stock is not established.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The workbook's HONOR X9d record matches the Philippine-market X9d 5G. Local launch reporting identifies one 12 GB physical RAM / 256 GB storage configuration. The historical Philippine SRP is PHP 18,999; PHP 17,999 was the January preorder offer. No current in-stock checkout offer is confirmed. The PTG chipset row says Snapdragon 6s Gen 4, while HONOR Philippines, Qualcomm, GadgetMatch, and YugaTech identify Snapdragon 6 Gen 4; the manufacturer-supported name is used, with the discrepancy documented. The catalog's image remains the neutral placeholder because image reuse rights were not established.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "No current purchasable exact-configuration retailer offer verified",
+        "action": "Keep the catalog price blank; preserve retailer and guide prices only as dated candidates."
+      },
+      {
+        "issue": "PTG lists Snapdragon 6s Gen 4 while HONOR PH, Qualcomm, GadgetMatch, and YugaTech list Snapdragon 6 Gen 4",
+        "action": "Use the manufacturer-supported Snapdragon 6 Gen 4 name and retain the conflicting PTG text in source metadata."
+      },
+      {
+        "issue": "Official image reuse terms are not stated",
+        "action": "Continue showing the neutral placeholder until a reusable license or written permission is documented."
+      },
+      {
+        "issue": "Official software-support duration was not found",
+        "action": "Leave OS/security update duration unrecorded."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9d/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine model identity and model-level display, platform, battery, charging, durability, and color claims",
+        "note": "HONOR Philippines identifies HONOR X9d, Snapdragon 6 Gen 4, 4 nm process, 6.79-inch 1.5K OLED up to 120 Hz and 6,000-nit peak brightness, 8,300 mAh silicon-carbon battery, 66 W SuperCharge, and its durability claims. The same page explains that water/dust ratings are laboratory conditions and protection can decrease with wear."
+      },
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9d/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official PH specifications page and exact Reddish Brown product-image source",
+        "note": "The PH specifications page identifies the X9d and the Reddish Brown, Midnight Black, and Sunrise Gold finishes. Its accessible text rendering omits many specification values. The exact Reddish Brown image asset is recorded separately; it is not copied because reuse rights are not stated."
+      },
+      {
+        "organization": "HONOR",
+        "url": "https://www.honor.com/ae-en/phones/honor-x9d/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official regional specification cross-check for shared model features",
+        "note": "HONOR's regional product specification page identifies the X9d model family and lists battery, wired charging, water/dust rating nomenclature, dual nano-SIM, Wi-Fi 6, Bluetooth 5.2, and connectivity sections. Only features also supported for the Philippine model are carried into this catalog; regional colors and sales details are not used."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-6-gen-4-mobile-platform",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary source for Snapdragon 6 Gen 4 platform name, clock ceiling, and process node",
+        "note": "Qualcomm documents Snapdragon 6 Gen 4, 2.3 GHz CPU clock speed, and 4 nm process technology. Device-specific CPU cluster and GPU model are taken from the exact-model Philippine reference."
+      },
+      {
+        "organization": "GadgetMatch",
+        "url": "https://www.gadgetmatch.com/honor-x9d-5g-launches-in-the-philippines-price-preorder-availability/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2026-01-09",
+        "purpose": "Contemporaneous Philippine launch, local preorder dates, prices, configuration, and feature cross-check",
+        "note": "Published 2026-01-09. Reports Philippine preorders from January 9 through January 23 at PHP 17,999, PHP 18,999 from January 24, and one local configuration: 12 GB RAM plus 12 GB virtual expansion / 256 GB storage. Virtual expansion is not counted as physical RAM."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2026-01-09",
+        "purpose": "Detailed Philippine specification reference and local launch-price cross-check",
+        "note": "Published 2026-01-09. Identifies a local 12 GB / 256 GB X9d, PHP 18,999 official price, 8,300 mAh battery, 66 W charging, cameras, software, dimensions, weight, and connectivity. Its processor row says Snapdragon 6s Gen 4, which conflicts with HONOR Philippines, Qualcomm, GadgetMatch, and YugaTech identifying Snapdragon 6 Gen 4; that PTG chipset string is retained as a source discrepancy and is not used as the normalized chipset."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/news/honor-x9d-5g-now-official-specs-and-price-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2026-01-09",
+        "purpose": "Independent local launch, 12/256 configuration, specification, and historical price cross-check",
+        "note": "Published 2026-01-09. Reports a PHP 18,999 SRP, PHP 17,999 preorder offer, Snapdragon 6 Gen 4, Android 15 with MagicOS 9, and local technical specifications. Its TL;DR contains a 2025 typo for the preorder year; the publication date and contemporaneous GadgetMatch and PTG reports establish the 2026 period."
+      },
+      {
+        "organization": "Best Tech Asia",
+        "url": "https://besttechasia.com/honor-price-list-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2026-11-25",
+        "purpose": "Recent Philippine guide-price cross-check",
+        "note": "The 2026 guide reports the 12 GB / 256 GB model at PHP 18,999 and says prices were checked 2026-11-25. This is an editorial SRP/guide value, not a live exact-configuration checkout offer."
+      },
+      {
+        "organization": "Best Tech Asia",
+        "url": "https://besttechasia.com/honor-x9d-5g-full-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2026-11-16",
+        "purpose": "Detailed independent Philippine specifications and launch-price cross-check",
+        "note": "Updated 2026-11-16. Identifies the 12 GB / 256 GB Philippine model and PHP 18,999 SRP. The page directs buyers to official marketplace stores but does not establish a live, in-stock checkout price."
+      },
+      {
+        "organization": "JI Telecom",
+        "url": "https://jitelecom.store/product/honor-x9d-5g-12-256/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-configuration Philippine retailer price candidate and branch-stock caveat",
+        "note": "The indexed product listing identifies HONOR X9d 5G 12 GB / 256 GB at PHP 22,999. It states stock may vary by branch and online checkout is unavailable; this is not evidence of a purchasable current offer."
+      }
+    ],
     "variants": [
       {
-        "id": "device_efb3b8a0ab65ed-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_efb3b8a0ab65ed-12gb-256gb-ph",
+        "label": "12 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.79,
+          "displayType": "AMOLED",
+          "resolution": "2640 x 1200",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 6 Gen 4",
+          "cpu": "Octa-core: 1x Cortex-A720 up to 2.3 GHz + 3x Cortex-A720 up to 2.2 GHz + 4x Cortex-A520 up to 1.8 GHz",
+          "gpu": "Adreno 810",
+          "os": "MagicOS 9.0 (Android 15)",
+          "ramGb": 12,
+          "storageGb": 256,
+          "frontCameraMp": 16,
+          "batteryMah": 8300,
+          "chargingW": 66,
+          "dimensions": "161.9 x 76.1 x 7.76 mm",
+          "weightG": 193,
+          "cellular": "5G NR / 4G LTE / 3G WCDMA / 2G GSM; band list not recorded",
+          "wifi": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), dual band",
+          "ports": "USB Type-C; protocol not recorded"
+        },
+        "specSources": {
+          "displayInches": "https://www.honor.com/ph/phones/honor-x9d/",
+          "displayType": "https://www.honor.com/ph/phones/honor-x9d/",
+          "resolution": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "refreshHz": "https://www.honor.com/ph/phones/honor-x9d/",
+          "chipset": "https://www.honor.com/ph/phones/honor-x9d/",
+          "cpu": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "gpu": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "os": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "ramGb": "https://www.gadgetmatch.com/honor-x9d-5g-launches-in-the-philippines-price-preorder-availability/",
+          "storageGb": "https://www.gadgetmatch.com/honor-x9d-5g-launches-in-the-philippines-price-preorder-availability/",
+          "frontCameraMp": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "batteryMah": "https://www.honor.com/ph/phones/honor-x9d/",
+          "chargingW": "https://www.honor.com/ph/phones/honor-x9d/",
+          "dimensions": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "weightG": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "cellular": "https://www.honor.com/ae-en/phones/honor-x9d/spec/",
+          "wifi": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "ports": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "GadgetMatch describes this as the lone Philippine configuration; PTG and YugaTech also identify the local 12 GB / 256 GB version. The additional 12 GB HONOR RAM expansion is virtual and is not counted as physical RAM. Three Philippine launch colors are finishes, not distinct memory configurations. Global-region colors and any 512 GB option are not added without an exact Philippine SKU/offer.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

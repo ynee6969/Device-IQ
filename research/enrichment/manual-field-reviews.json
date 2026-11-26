@@ -134732,6 +134732,606 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_efb3b8a0ab65ed",
+      "configurationId": "device_efb3b8a0ab65ed-12gb-256gb-ph",
+      "brand": "HONOR",
+      "model": "X9d",
+      "configuration": "12 GB physical RAM / 256 GB storage",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "replacementVariants": [
+        {
+          "id": "device_efb3b8a0ab65ed-12gb-256gb-ph",
+          "label": "12 GB RAM / 256 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "GadgetMatch describes this as the lone Philippine configuration; PTG and YugaTech also identify the local 12 GB / 256 GB version. The additional 12 GB HONOR RAM expansion is virtual and is not counted as physical RAM. Three Philippine launch colors are finishes, not distinct memory configurations. Global-region colors and any 512 GB option are not added without an exact Philippine SKU/offer."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "sources": [
+        {
+          "id": "honor_x9d_ph_official_product",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-x9d/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine model identity and model-level display, platform, battery, charging, durability, and color claims",
+          "note": "HONOR Philippines identifies HONOR X9d, Snapdragon 6 Gen 4, 4 nm process, 6.79-inch 1.5K OLED up to 120 Hz and 6,000-nit peak brightness, 8,300 mAh silicon-carbon battery, 66 W SuperCharge, and its durability claims. The same page explains that water/dust ratings are laboratory conditions and protection can decrease with wear."
+        },
+        {
+          "id": "honor_x9d_ph_official_specs",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-x9d/spec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official PH specifications page and exact Reddish Brown product-image source",
+          "note": "The PH specifications page identifies the X9d and the Reddish Brown, Midnight Black, and Sunrise Gold finishes. Its accessible text rendering omits many specification values. The exact Reddish Brown image asset is recorded separately; it is not copied because reuse rights are not stated."
+        },
+        {
+          "id": "honor_x9d_ae_official_specs",
+          "publisher": "HONOR",
+          "url": "https://www.honor.com/ae-en/phones/honor-x9d/spec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official regional specification cross-check for shared model features",
+          "note": "HONOR's regional product specification page identifies the X9d model family and lists battery, wired charging, water/dust rating nomenclature, dual nano-SIM, Wi-Fi 6, Bluetooth 5.2, and connectivity sections. Only features also supported for the Philippine model are carried into this catalog; regional colors and sales details are not used."
+        },
+        {
+          "id": "honor_x9d_qualcomm_platform",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-6-gen-4-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary source for Snapdragon 6 Gen 4 platform name, clock ceiling, and process node",
+          "note": "Qualcomm documents Snapdragon 6 Gen 4, 2.3 GHz CPU clock speed, and 4 nm process technology. Device-specific CPU cluster and GPU model are taken from the exact-model Philippine reference."
+        },
+        {
+          "id": "honor_x9d_ph_launch_gadgetmatch",
+          "publisher": "GadgetMatch",
+          "url": "https://www.gadgetmatch.com/honor-x9d-5g-launches-in-the-philippines-price-preorder-availability/",
+          "publicationDate": "2026-01-09",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, local preorder dates, prices, configuration, and feature cross-check",
+          "note": "Published 2026-01-09. Reports Philippine preorders from January 9 through January 23 at PHP 17,999, PHP 18,999 from January 24, and one local configuration: 12 GB RAM plus 12 GB virtual expansion / 256 GB storage. Virtual expansion is not counted as physical RAM."
+        },
+        {
+          "id": "honor_x9d_ph_ptg_specs",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/honor-x9d-5g",
+          "publicationDate": "2026-01-09",
+          "accessDate": "2026-11-26",
+          "purpose": "Detailed Philippine specification reference and local launch-price cross-check",
+          "note": "Published 2026-01-09. Identifies a local 12 GB / 256 GB X9d, PHP 18,999 official price, 8,300 mAh battery, 66 W charging, cameras, software, dimensions, weight, and connectivity. Its processor row says Snapdragon 6s Gen 4, which conflicts with HONOR Philippines, Qualcomm, GadgetMatch, and YugaTech identifying Snapdragon 6 Gen 4; that PTG chipset string is retained as a source discrepancy and is not used as the normalized chipset.",
+          "sourceKind": "independent_ph_reference"
+        },
+        {
+          "id": "honor_x9d_ph_yugatech_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/honor-x9d-5g-now-official-specs-and-price-in-the-philippines/",
+          "publicationDate": "2026-01-09",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent local launch, 12/256 configuration, specification, and historical price cross-check",
+          "note": "Published 2026-01-09. Reports a PHP 18,999 SRP, PHP 17,999 preorder offer, Snapdragon 6 Gen 4, Android 15 with MagicOS 9, and local technical specifications. Its TL;DR contains a 2025 typo for the preorder year; the publication date and contemporaneous GadgetMatch and PTG reports establish the 2026 period."
+        },
+        {
+          "id": "honor_x9d_ph_besttech_price_list",
+          "publisher": "Best Tech Asia",
+          "url": "https://besttechasia.com/honor-price-list-philippines/",
+          "publicationDate": "2026-11-25",
+          "accessDate": "2026-11-26",
+          "purpose": "Recent Philippine guide-price cross-check",
+          "note": "The 2026 guide reports the 12 GB / 256 GB model at PHP 18,999 and says prices were checked 2026-11-25. This is an editorial SRP/guide value, not a live exact-configuration checkout offer.",
+          "sourceKind": "independent_price_guide"
+        },
+        {
+          "id": "honor_x9d_ph_besttech_specs",
+          "publisher": "Best Tech Asia",
+          "url": "https://besttechasia.com/honor-x9d-5g-full-specs-price-philippines/",
+          "publicationDate": "2026-11-16",
+          "accessDate": "2026-11-26",
+          "purpose": "Detailed independent Philippine specifications and launch-price cross-check",
+          "note": "Updated 2026-11-16. Identifies the 12 GB / 256 GB Philippine model and PHP 18,999 SRP. The page directs buyers to official marketplace stores but does not establish a live, in-stock checkout price.",
+          "sourceKind": "independent_specification_database"
+        },
+        {
+          "id": "honor_x9d_ph_jitelecom_listing",
+          "publisher": "JI Telecom",
+          "url": "https://jitelecom.store/product/honor-x9d-5g-12-256/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-configuration Philippine retailer price candidate and branch-stock caveat",
+          "note": "The indexed product listing identifies HONOR X9d 5G 12 GB / 256 GB at PHP 22,999. It states stock may vary by branch and online checkout is unavailable; this is not evidence of a purchasable current offer.",
+          "sourceKind": "retailer_price_observation"
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9d_ph_official_specs",
+          "sourceValue": "No model code is exposed on the reviewed HONOR Philippines product/specification pages or local launch reports",
+          "normalizedValue": null,
+          "note": "Do not infer a regional model code or retailer SKU for the Philippine unit.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_launch_gadgetmatch",
+          "sourceValue": "12 GB RAM (plus 12 GB virtual RAM expansion) / 256 GB storage; reported as the lone Philippine configuration",
+          "normalizedValue": "12 GB physical RAM / 256 GB storage",
+          "note": "GadgetMatch explicitly describes the lone Philippine configuration; PTG and YugaTech independently list 12/256. Virtual RAM is not added to physical memory.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_launch_gadgetmatch",
+          "sourceValue": "Philippine preorders opened January 9, 2026; reported at launch on January 9",
+          "normalizedValue": "2026-01-09",
+          "note": "First reviewed contemporaneous Philippine preorder date; it is not asserted as the first retail transaction date.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_launch_gadgetmatch",
+          "sourceValue": "PHP 18,999 from January 24, 2026; preorder price PHP 17,999 from January 9 to 23",
+          "normalizedValue": 18999,
+          "note": "Historical Philippine SRP; the lower preorder promotion is retained in the source note and price history, not treated as the standard launch SRP.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "honor_x9d_ph_jitelecom_listing",
+          "sourceValue": "PHP 22,999 indexed for 12 GB / 256 GB; retailer says stock varies by branch and online checkout is unavailable",
+          "normalizedValue": null,
+          "note": "No current purchasable exact-configuration offer was established. Keep the catalog price blank; retain retailer and guide values as dated candidates.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "6.79 inches",
+          "normalizedValue": 6.79,
+          "note": "HONOR Philippines product page identifies a 6.79-inch OLED display.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.79,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "HONOR describes the panel as OLED; local launch sources call it AMOLED",
+          "normalizedValue": "AMOLED",
+          "note": "HONOR confirms an OLED panel and contemporaneous Philippine sources identify it as AMOLED, a specific OLED panel type.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "2640 × 1200 pixels (1.5K / FHD+ wording varies by source)",
+          "normalizedValue": "2640 x 1200",
+          "note": "PTG provides the pixel dimensions; HONOR PH and GadgetMatch describe the panel as 1.5K. The numeric dimensions are kept separate from marketing resolution labels.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "resolution",
+          "catalogValue": "2640 x 1200"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "Up to 120 Hz adaptive refresh rate",
+          "normalizedValue": 120,
+          "note": "HONOR Philippines lists an adaptive refresh rate up to 120 Hz.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "6,000 nits peak; PTG additionally lists 800 nits typical and 1,800 nits HBM",
+          "normalizedValue": "6000 nits peak; 1800 nits HBM; 800 nits typical (PTG)",
+          "note": "Only the clearly labeled peak figure is treated as the headline maximum; typical and HBM conditions are preserved separately from peak brightness.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Aluminosilicate glass",
+          "normalizedValue": "Aluminosilicate glass",
+          "note": "Reported in the Philippine specification listing and launch coverage.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "Snapdragon 6 Gen 4; PTG's table says Snapdragon 6s Gen 4",
+          "normalizedValue": "Qualcomm Snapdragon 6 Gen 4",
+          "note": "HONOR Philippines, Qualcomm's platform documentation, GadgetMatch, and YugaTech identify Snapdragon 6 Gen 4. PTG alone lists '6s Gen 4'; that source discrepancy is noted and not normalized as the model chipset.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 6 Gen 4"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_qualcomm_platform",
+          "sourceValue": "4 nm",
+          "normalizedValue": 4,
+          "note": "Qualcomm lists the Snapdragon 6 Gen 4 as a 4 nm platform; HONOR Philippines identifies that platform in the X9d.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Octa-core: 1 × Cortex-A720 up to 2.3 GHz + 3 × Cortex-A720 up to 2.2 GHz + 4 × Cortex-A520 up to 1.8 GHz",
+          "normalizedValue": "Octa-core: 1x Cortex-A720 up to 2.3 GHz + 3x Cortex-A720 up to 2.2 GHz + 4x Cortex-A520 up to 1.8 GHz",
+          "note": "PTG lists the device-level core layout; Qualcomm independently gives the platform's maximum CPU clock as 2.3 GHz.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 1x Cortex-A720 up to 2.3 GHz + 3x Cortex-A720 up to 2.2 GHz + 4x Cortex-A520 up to 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Adreno 810",
+          "normalizedValue": "Adreno 810",
+          "note": "Device-level GPU model reported in PTG's Philippine model specification.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 810"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Android 15 with MagicOS 9.0 at launch",
+          "normalizedValue": "MagicOS 9.0 (Android 15)",
+          "note": "Launch-era software version; later upgrade status is not inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "os",
+          "catalogValue": "MagicOS 9.0 (Android 15)"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "honor_x9d_ph_official_specs",
+          "sourceValue": "No official Philippine OS/security update duration found in reviewed sources",
+          "normalizedValue": null,
+          "note": "No update count, end date, or support promise is inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_launch_gadgetmatch",
+          "sourceValue": "12 GB physical RAM plus up to 12 GB virtual expansion",
+          "normalizedValue": 12,
+          "note": "Only the physical 12 GB is recorded as RAM capacity.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9d_ph_official_specs",
+          "sourceValue": "RAM generation/type not stated in reviewed sources",
+          "normalizedValue": null,
+          "note": "No LPDDR type is inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_launch_gadgetmatch",
+          "sourceValue": "256 GB for the sole reported Philippine configuration",
+          "normalizedValue": 256,
+          "note": "The contemporaneous local launch report identifies 256 GB; no second Philippine storage configuration was established.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9d_ph_official_specs",
+          "sourceValue": "Storage interface/type not stated in reviewed sources",
+          "normalizedValue": null,
+          "note": "No UFS generation is inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Expansion: None",
+          "normalizedValue": "No microSD expansion listed",
+          "note": "PTG's exact-model specification lists no storage expansion.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Dual rear cameras: 108 MP f/1.75 main with autofocus and OIS + 5 MP f/2.2 ultrawide; LED flash",
+          "normalizedValue": "108 MP f/1.75 main with AF/OIS + 5 MP f/2.2 ultrawide",
+          "note": "Local X9d specification and launch sources identify the same two-camera layout; no depth/macro lens is added.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "108 MP f/1.75 main camera with autofocus and OIS; sensor manufacturer/model not stated",
+          "normalizedValue": null,
+          "note": "The sensor supplier/model remains unrecorded; the camera resolution and OIS are captured in the rear-camera field.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "5 MP f/2.2 ultrawide",
+          "normalizedValue": "5 MP f/2.2 ultrawide",
+          "note": "Reported for the local model in PTG's specification table.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "No telephoto module listed in the dual-rear-camera specification",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "The listed rear system contains main and ultrawide cameras only.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "16 MP f/2.45",
+          "normalizedValue": 16,
+          "note": "PTG and local launch coverage identify a 16 MP front camera.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Rear: up to 4K at 30 fps or 1080p at 60 fps; front: up to 1080p at 30 fps",
+          "normalizedValue": "Rear up to 4K/30 or 1080p/60; front up to 1080p/30",
+          "note": "Recording modes from the Philippine model specification listing.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "8,300 mAh typical capacity",
+          "normalizedValue": 8300,
+          "note": "HONOR Philippines lists 8,300 mAh; a typical-value qualifier is available in official regional specifications.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8300,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "Silicon-carbon battery",
+          "normalizedValue": "Silicon-carbon",
+          "note": "HONOR Philippines explicitly describes the battery as silicon-carbon.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "66 W HONOR SuperCharge; actual charging power varies by scenario",
+          "normalizedValue": 66,
+          "note": "HONOR Philippines lists 66 W and qualifies actual charging power by scenario.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "chargingW",
+          "catalogValue": 66,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9d_ph_official_specs",
+          "sourceValue": "No wireless charging specification found in reviewed sources",
+          "normalizedValue": null,
+          "note": "No wireless charging capability is inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "161.9 × 76.1 × 7.76 mm",
+          "normalizedValue": "161.9 x 76.1 x 7.76 mm",
+          "note": "Local model-specific dimensions; order is height × width × thickness.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "dimensions",
+          "catalogValue": "161.9 x 76.1 x 7.76 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "193 g",
+          "normalizedValue": 193,
+          "note": "Local model-specific weight listing.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "weightG",
+          "catalogValue": 193,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Glass front, polycarbonate back",
+          "normalizedValue": "Glass front; polycarbonate rear",
+          "note": "PTG identifies the front and rear materials; color-specific finish differences are not inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ph_official_product",
+          "sourceValue": "HONOR states IP69K under ISO 20653:2023 and IP66, IP68, IP69 under IEC 60529; these are controlled laboratory ratings",
+          "normalizedValue": "IP66, IP68, IP69 (IEC 60529); IP69K (ISO 20653:2023)",
+          "note": "The official PH page explains the separate standards and warns that protection can decrease through wear. This records the ratings without implying permanent or unrestricted waterproofing.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Dual SIM (Nano-SIM); eSIM support not stated",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "Only the two physical Nano-SIM slots are recorded; absence of eSIM is not inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ae_official_specs",
+          "sourceValue": "5G NR, 4G LTE, 3G WCDMA, and 2G GSM; exact Philippine band list not recorded",
+          "normalizedValue": "5G NR / 4G LTE / 3G WCDMA / 2G GSM; band list not recorded",
+          "note": "Network generations are reported for the model. No individual band coverage or carrier compatibility is inferred.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "cellular",
+          "catalogValue": "5G NR / 4G LTE / 3G WCDMA / 2G GSM; band list not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Dual-band Wi-Fi 802.11 a/b/g/n/ac/ax (Wi-Fi 6)",
+          "normalizedValue": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), dual band",
+          "note": "PTG lists Wi-Fi 6 for the handset. Qualcomm platform capabilities are not substituted for the model-specific listing.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), dual band"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "honor_x9d_ae_official_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "HONOR's official regional model specification lists BT 5.2; the local reference agrees.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "USB Type-C; USB version/protocol not stated",
+          "normalizedValue": "USB Type-C; protocol not recorded",
+          "note": "The connector is identified; transfer speed/version is left unrecorded.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; protocol not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "NFC: Yes",
+          "normalizedValue": "NFC",
+          "note": "NFC is listed for the Philippine X9d model.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "GPS, GLONASS, Galileo, BeiDou",
+          "normalizedValue": "GPS, GLONASS, Galileo, BeiDou",
+          "note": "Positioning systems listed in the local specification reference.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Dual speakers; USB Type-C audio output; FM radio: No",
+          "normalizedValue": "Dual speakers; USB-C audio output; no FM radio listed",
+          "note": "Audio details are from PTG's exact-model Philippine specification listing.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9d_ph_ptg_specs",
+          "sourceValue": "Gyroscope, compass, ambient-light sensor, proximity sensor, accelerometer; optical under-display fingerprint reader",
+          "normalizedValue": "Gyroscope, compass, ambient light, proximity, accelerometer; optical under-display fingerprint",
+          "note": "Sensor and biometric details are transcribed from the local specification reference.",
+          "configurationMatch": "Philippine 12 GB physical RAM / 256 GB storage configuration"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine preorder availability was reported from January 9, 2026; current stock is not established.",
+        "philippineAvailability": "GadgetMatch reported Philippine preorders January 9–23, 2026 and standard pricing from January 24; PTG lists the Philippine model and local official-store links.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HONOR",
+        "productLine": "X Series",
+        "philippineReleaseYear": 2026,
+        "philippineDateLabel": "First reported Philippine preorder date",
+        "researchNotes": "The workbook's HONOR X9d record matches the Philippine-market X9d 5G. Local launch reporting identifies one 12 GB physical RAM / 256 GB storage configuration. The historical Philippine SRP is PHP 18,999; PHP 17,999 was the January preorder offer. No current in-stock checkout offer is confirmed. The PTG chipset row says Snapdragon 6s Gen 4, while HONOR Philippines, Qualcomm, GadgetMatch, and YugaTech identify Snapdragon 6 Gen 4; the manufacturer-supported name is used, with the discrepancy documented. The catalog's image remains the neutral placeholder because image reuse rights were not established.",
+        "qualityFlag": "Current price and stock unverified; PTG chipset entry conflicts with HONOR and other launch sources",
+        "openIssues": [
+          {
+            "issue": "No current purchasable exact-configuration retailer offer verified",
+            "action": "Keep the catalog price blank; preserve retailer and guide prices only as dated candidates."
+          },
+          {
+            "issue": "PTG lists Snapdragon 6s Gen 4 while HONOR PH, Qualcomm, GadgetMatch, and YugaTech list Snapdragon 6 Gen 4",
+            "action": "Use the manufacturer-supported Snapdragon 6 Gen 4 name and retain the conflicting PTG text in source metadata."
+          },
+          {
+            "issue": "Official image reuse terms are not stated",
+            "action": "Continue showing the neutral placeholder until a reusable license or written permission is documented."
+          },
+          {
+            "issue": "Official software-support duration was not found",
+            "action": "Leave OS/security update duration unrecorded."
+          }
+        ]
+      }
     }
   ]
 }
