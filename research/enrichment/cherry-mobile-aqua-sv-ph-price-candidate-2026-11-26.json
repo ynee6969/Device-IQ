@@ -1,0 +1,78 @@
+{
+  "run_at": "2026-11-26T16:40:35+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_35bc65487e1514",
+      "brand": "Cherry Mobile",
+      "model_name": "Aqua SV 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_35bc65487e1514",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+      "result": "Exact local page confirms historical PHP 11,999 official price and reports the model available through Cherry Mobile stores, authorized dealers, and online shops."
+    },
+    {
+      "device_id": "device_35bc65487e1514",
+      "source_url": "https://businessmirror.com.ph/2022/05/06/cherry-mobile-aqua-sv-now-available-at-special-introductory-price-of-p9999/",
+      "result": "Dated May 2022 source confirms the original PHP 11,999 SRP and a one-day PHP 9,999 Shopee promotion; neither is a current offer."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_35bc65487e1514",
+      "amount_php": 11999,
+      "configuration_id": "device_35bc65487e1514-8gb-128gb-ph",
+      "configuration_match": "exact_model_and_8gb_128gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_official_launch_srp",
+      "source_published_at": "2022-04-29",
+      "excerpt": "PTG's exact-model Philippine page lists the official price as PHP 11,999; BMPlus calls PHP 11,999 the original SRP.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+      "source_kind": "historical_local_price_reference",
+      "observed_at": "2026-11-26T16:40:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current"
+    },
+    {
+      "device_id": "device_35bc65487e1514",
+      "amount_php": 9999,
+      "configuration_id": "device_35bc65487e1514-8gb-128gb-ph",
+      "configuration_match": "exact_model_and_8gb_128gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_one_day_shopee_introductory_promotion",
+      "source_published_at": "2022-05-06",
+      "excerpt": "BMPlus announced a PHP 9,999 one-day Shopee-exclusive offer beginning May 8, 2022. This promotion is not current.",
+      "source_url": "https://businessmirror.com.ph/2022/05/06/cherry-mobile-aqua-sv-now-available-at-special-introductory-price-of-p9999/",
+      "source_kind": "historical_local_promotion_reference",
+      "observed_at": "2026-11-26T16:40:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_promotion_not_current"
+    },
+    {
+      "device_id": "device_35bc65487e1514",
+      "amount_php": 11990,
+      "configuration_id": "device_35bc65487e1514-8gb-128gb-ph",
+      "configuration_match": "exact_model_historical_price_list_entry_configuration_not_repeated",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_yugatech_price_list_candidate_not_launch_srp",
+      "source_published_at": "2022-05-24",
+      "excerpt": "YugaTech labels PHP 11,990 as verified May 24, 2022. This differs from launch-era PHP 11,999 reports and is retained without selecting it as the official launch SRP.",
+      "source_url": "https://www.yugatech.com/cherry-mobile-phone-price-list-philippines",
+      "source_kind": "historical_price_list_candidate",
+      "observed_at": "2026-11-26T16:40:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_list_entry_not_current"
+    }
+  ]
+}

@@ -5965,44 +5965,171 @@
     "category": "smartphones",
     "brand": "Cherry Mobile",
     "model": "Aqua SV 5G",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "Cherry Mobile",
+    "productLine": "Cherry Mobile Aqua SV",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2022-04-29",
+    "philippineDateLabel": "Philippine launch/availability report date",
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Aqua SV 5G matched; model code, global date, current price, storage expansion, color, and image rights unresolved.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Exact AQUA SV identity is supported by the NTC 2022 GEC list. PTG's April 29, 2022 exact-model page reports availability through Cherry Mobile stores, authorized dealers, and online shops; the May 2022 promotion reports a Shopee offer. This verifies local-market availability, not an exact first-sale transaction time.",
+    "availabilityStatus": "Philippine availability reported by PTG through Cherry Mobile stores, authorized dealers, and online shops; the NTC lists Cherry Mobile AQUA SV as a smartphone. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Matched to Cherry Mobile Aqua SV 5G; NTC uses AQUA SV. One documented Philippine configuration is 8 GB / 128 GB. Scope eligibility remains Pending. Exact model code, global release date, current price, storage expansion, color, and image reuse rights remain unresolved.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "The NTC public list gives the AQUA SV marketing name but no numeric model code in its published row",
+        "action": "Keep modelNumber blank until a reliable exact product code is found."
+      },
+      {
+        "issue": "PTG's Aqua SV page says storage is expandable in its prose but lists expansion as None in its table",
+        "action": "Keep storage expansion unresolved; do not claim a microSD slot."
+      },
+      {
+        "issue": "Color evidence differs: PTG lists Blue while a contemporaneous local announcement describes Luxe Green",
+        "action": "Do not assign a single color or split the 8 GB / 128 GB configuration by color without authoritative variant evidence."
+      },
+      {
+        "issue": "Only launch-era prices were found; no current dated, orderable Philippine offer was verified",
+        "action": "Show current price as not recorded and keep PHP 11,999 / PHP 9,999 as historical references only."
+      },
+      {
+        "issue": "Exact-model product images have no recorded reusable license",
+        "action": "Continue using the neutral image placeholder until documented image permission is available."
+      },
+      {
+        "issue": "The workbook scope and study eligibility status remains Pending",
+        "action": "Preserve Pending and do not admit the device to eligibility-filtered results outside existing study rules."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "National Telecommunications Commission (NTC), Philippines",
+        "url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment-conformity evidence for the exact AQUA SV marketing name",
+        "note": "The official NTC 2022 Grant of Equipment Conformity list identifies CHERRY MOBILE AQUA SV as a smartphone. The public four-column list does not expose a numeric device model code or grant date in the entry, so neither is inferred."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-29",
+        "purpose": "Philippine-market launch/availability, listed 8 GB / 128 GB configuration, historical official price, and detailed local specification cross-check",
+        "note": "The exact-model page is dated April 29, 2022, states the phone is available in Cherry Mobile stores, authorized dealers, and online shops, and lists PHP 11,999. Its prose calls the 128 GB storage expandable but its specification table says expansion is none; that contradiction is retained. It reports Blue, while a contemporaneous launch announcement describes Luxe Green. No image is reused."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/cherry-mobile-aqua-sv-5g-aqua-s10-pro-price/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-29",
+        "purpose": "Contemporaneous Philippine launch, price, availability, and configuration cross-check",
+        "note": "YugaTech reported the Aqua SV 5G as part of Cherry Mobile's official Philippine 5G launch and listed the 8 GB / 128 GB model at PHP 11,999. The article is used as launch-era local reporting, not as a present-day price source."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-29",
+        "purpose": "Exact-model physical design and technical cross-check",
+        "note": "The hands-on identifies the Aqua SV 5G and reports its display, cameras, 8 GB LPDDR4X / 128 GB UFS 2.2, connectivity, Android 11, battery, dimensions, and weight. Its bottom-edge description identifies dual Nano-SIM, USB-C, microphone, and loudspeaker. It does not verify a microSD slot."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/cherry-mobile-phone-price-list-philippines",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-05-24",
+        "purpose": "Later dated historical price-list entry for price discrepancy review",
+        "note": "YugaTech's price list labels PHP 11,990 as verified on May 24, 2022. This differs by PHP 9 from the PHP 11,999 launch SRP reported at launch by PTG, YugaTech, and BMPlus. It is retained as a historical price-list candidate, not treated as a current offer or silently reconciled."
+      },
+      {
+        "organization": "BMPlus / BusinessMirror",
+        "url": "https://businessmirror.com.ph/2022/05/06/cherry-mobile-aqua-sv-now-available-at-special-introductory-price-of-p9999/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-05-06",
+        "purpose": "Historical Philippine SRP and dated Shopee introductory offer",
+        "note": "Published May 6, 2022, this local announcement says the original SRP was PHP 11,999 and the PHP 9,999 offer began May 8, 2022 as a one-day Shopee-exclusive deal. It also corroborates the 8 GB / 128 GB configuration. Neither amount is a current offer."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://i.mediatek.com/dimensity-810",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Dimensity 810 platform architecture and technology specifications",
+        "note": "MediaTek identifies the Dimensity 810 as a 6 nm platform with 2x Cortex-A76 up to 2.4 GHz, 6x Cortex-A55 up to 2 GHz, Mali-G57 MC2, LPDDR4X, UFS 2.2, Wi-Fi 5, and Bluetooth 5.1. Platform capabilities are applied only where the phone-specific local sources also identify the Dimensity 810 or the corresponding exact feature."
+      }
+    ],
     "variants": [
       {
-        "id": "device_35bc65487e1514-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_35bc65487e1514-8gb-128gb-ph",
+        "label": "8 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.6,
+          "displayType": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshHz": 90,
+          "chipset": "MediaTek Dimensity 810",
+          "cpu": "8-core: 2x Cortex-A76 up to 2.4 GHz + 6x Cortex-A55 up to 2 GHz",
+          "gpu": "Arm Mali-G57 MC2",
+          "os": "Android 11",
+          "ramGb": 8,
+          "ramType": "LPDDR4X",
+          "storageGb": 128,
+          "storageType": "UFS 2.2",
+          "rearCameraMp": 64,
+          "frontCameraMp": 16,
+          "video": "Rear video up to 4K; frame rates not recorded",
+          "batteryMah": 4200,
+          "chargingW": 30,
+          "dimensions": "160.5 x 73.8 x 8.8 mm",
+          "weightG": 175,
+          "sim": "Dual Nano-SIM; eSIM not disclosed",
+          "cellular": "5G / 4G LTE / 3G HSPA+ / 2G; bands not recorded",
+          "wifi": "Dual-band Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "ports": "USB Type-C; OTG",
+          "sound": "Loudspeaker; channel count and headphone jack not disclosed"
+        },
+        "specSources": {
+          "displayInches": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "displayType": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "resolution": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "refreshHz": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "chipset": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "cpu": "https://i.mediatek.com/dimensity-810",
+          "gpu": "https://i.mediatek.com/dimensity-810",
+          "os": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "ramGb": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "ramType": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+          "storageGb": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "storageType": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+          "rearCameraMp": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "frontCameraMp": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "video": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "batteryMah": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "chargingW": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "dimensions": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+          "weightG": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+          "sim": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+          "cellular": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "wifi": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "ports": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+          "sound": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Single source-supported Philippine configuration. PTG lists Blue, while contemporaneous launch coverage describes Luxe Green; color is unresolved and is not used to split the configuration.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

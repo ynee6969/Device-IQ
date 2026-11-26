@@ -144560,6 +144560,613 @@
         }
       ],
       "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_35bc65487e1514",
+      "configurationId": "device_35bc65487e1514-8gb-128gb-ph",
+      "brand": "Cherry Mobile",
+      "model": "Aqua SV 5G",
+      "configuration": "8 GB RAM / 128 GB storage",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "aqua_sv_ntc_gec_2022",
+          "publisher": "National Telecommunications Commission (NTC), Philippines",
+          "url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine equipment-conformity evidence for the exact AQUA SV marketing name",
+          "note": "The official NTC 2022 Grant of Equipment Conformity list identifies CHERRY MOBILE AQUA SV as a smartphone. The public four-column list does not expose a numeric device model code or grant date in the entry, so neither is inferred."
+        },
+        {
+          "id": "aqua_sv_ptg_ph_specs",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-sv",
+          "publicationDate": "2022-04-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine-market launch/availability, listed 8 GB / 128 GB configuration, historical official price, and detailed local specification cross-check",
+          "note": "The exact-model page is dated April 29, 2022, states the phone is available in Cherry Mobile stores, authorized dealers, and online shops, and lists PHP 11,999. Its prose calls the 128 GB storage expandable but its specification table says expansion is none; that contradiction is retained. It reports Blue, while a contemporaneous launch announcement describes Luxe Green. No image is reused."
+        },
+        {
+          "id": "aqua_sv_yugatech_launch",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/cherry-mobile-aqua-sv-5g-aqua-s10-pro-price/",
+          "publicationDate": "2022-04-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, price, availability, and configuration cross-check",
+          "note": "YugaTech reported the Aqua SV 5G as part of Cherry Mobile's official Philippine 5G launch and listed the 8 GB / 128 GB model at PHP 11,999. The article is used as launch-era local reporting, not as a present-day price source."
+        },
+        {
+          "id": "aqua_sv_yugatech_hands_on",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/cherry-mobile-aqua-sv-5g-w-dimensity-810-hands-on/",
+          "publicationDate": "2022-04-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model physical design and technical cross-check",
+          "note": "The hands-on identifies the Aqua SV 5G and reports its display, cameras, 8 GB LPDDR4X / 128 GB UFS 2.2, connectivity, Android 11, battery, dimensions, and weight. Its bottom-edge description identifies dual Nano-SIM, USB-C, microphone, and loudspeaker. It does not verify a microSD slot."
+        },
+        {
+          "id": "aqua_sv_yugatech_historic_price_list",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/cherry-mobile-phone-price-list-philippines",
+          "publicationDate": "2022-05-24",
+          "accessDate": "2026-11-26",
+          "purpose": "Later dated historical price-list entry for price discrepancy review",
+          "note": "YugaTech's price list labels PHP 11,990 as verified on May 24, 2022. This differs by PHP 9 from the PHP 11,999 launch SRP reported at launch by PTG, YugaTech, and BMPlus. It is retained as a historical price-list candidate, not treated as a current offer or silently reconciled.",
+          "sourceKind": "historical_price_candidate"
+        },
+        {
+          "id": "aqua_sv_bmplus_intro_price",
+          "publisher": "BMPlus / BusinessMirror",
+          "url": "https://businessmirror.com.ph/2022/05/06/cherry-mobile-aqua-sv-now-available-at-special-introductory-price-of-p9999/",
+          "publicationDate": "2022-05-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Historical Philippine SRP and dated Shopee introductory offer",
+          "note": "Published May 6, 2022, this local announcement says the original SRP was PHP 11,999 and the PHP 9,999 offer began May 8, 2022 as a one-day Shopee-exclusive deal. It also corroborates the 8 GB / 128 GB configuration. Neither amount is a current offer.",
+          "sourceKind": "historical_price_reference"
+        },
+        {
+          "id": "aqua_sv_mediatek_dimensity810",
+          "publisher": "MediaTek",
+          "url": "https://i.mediatek.com/dimensity-810",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Dimensity 810 platform architecture and technology specifications",
+          "note": "MediaTek identifies the Dimensity 810 as a 6 nm platform with 2x Cortex-A76 up to 2.4 GHz, 6x Cortex-A55 up to 2 GHz, Mali-G57 MC2, LPDDR4X, UFS 2.2, Wi-Fi 5, and Bluetooth 5.1. Platform capabilities are applied only where the phone-specific local sources also identify the Dimensity 810 or the corresponding exact feature."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "aqua_sv_ntc_gec_2022",
+          "sourceValue": "The NTC 2022 GEC entry lists marketing name AQUA SV but does not show a numeric model code",
+          "normalizedValue": null,
+          "note": "No model code is inferred from the marketing name or chipset.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "The reviewed local announcement/page records a Philippine announcement on April 29, 2022; no exact global release date is supplied",
+          "normalizedValue": null,
+          "note": "Keep a global release date blank; the local announcement date is recorded separately.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "8 GB RAM / 128 GB storage",
+          "normalizedValue": "8 GB RAM / 128 GB storage",
+          "note": "PTG and contemporaneous YugaTech/BusinessMirror coverage agree on this Philippine configuration. No extra color-specific memory variants are established.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "PTG dated its exact-model page April 29, 2022 and says the model is available through Cherry Mobile stores, authorized dealers, and online shops",
+          "normalizedValue": "2022-04-29",
+          "note": "This is the dated Philippine launch/availability report, not an exact first transaction time. The May 8 Shopee offer is a later promotion.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_bmplus_intro_price",
+          "sourceValue": "Original Philippine SRP PHP 11,999",
+          "normalizedValue": 11999,
+          "note": "Historical launch SRP for the 8 GB / 128 GB configuration; it is not today's price.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "unit": "PHP",
+          "priceType": "historical_ph_official_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "The reviewed references show 2022 price entries only; no current dated, orderable Philippine offer was verified",
+          "normalizedValue": null,
+          "note": "Keep current catalog price blank. Historical SRP, promotion, and YugaTech's PHP 11,990 dated price-list candidate remain in the price audit.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "6.6-inch display",
+          "normalizedValue": 6.6,
+          "note": "Exact-model local coverage; YugaTech independently reports the same size.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.6,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "AMOLED display",
+          "normalizedValue": "AMOLED",
+          "note": "Local specification page; corroborated by YugaTech.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "FHD+ 1080 x 2400 pixels",
+          "normalizedValue": "2400 x 1080",
+          "note": "Catalog stores height by width; source reports 1080 x 2400.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "resolution",
+          "catalogValue": "2400 x 1080"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "90 Hz",
+          "normalizedValue": 90,
+          "note": "PTG and YugaTech report 90 Hz.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "No brightness value recorded in the reviewed exact-model sources",
+          "normalizedValue": null,
+          "note": "Do not infer brightness from the panel type.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "Corning Gorilla Glass 5",
+          "normalizedValue": "Corning Gorilla Glass 5",
+          "note": "Contemporaneous exact-model YugaTech hands-on; not a manufacturer specification page.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "MediaTek Dimensity 810",
+          "normalizedValue": "MediaTek Dimensity 810",
+          "note": "Exact-model PTG and YugaTech coverage identify this chipset.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Dimensity 810"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "aqua_sv_mediatek_dimensity810",
+          "sourceValue": "MediaTek Dimensity 810 is manufactured on a 6 nm process",
+          "normalizedValue": "6 nm",
+          "note": "Chip-vendor platform detail, applied to the device's source-identified Dimensity 810.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "aqua_sv_mediatek_dimensity810",
+          "sourceValue": "2x Arm Cortex-A76 up to 2.4 GHz + 6x Arm Cortex-A55 up to 2 GHz",
+          "normalizedValue": "8-core: 2x Cortex-A76 up to 2.4 GHz + 6x Cortex-A55 up to 2 GHz",
+          "note": "MediaTek chipset specification; this is architecture data, not a benchmark.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core: 2x Cortex-A76 up to 2.4 GHz + 6x Cortex-A55 up to 2 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "aqua_sv_mediatek_dimensity810",
+          "sourceValue": "Arm Mali-G57 MC2",
+          "normalizedValue": "Arm Mali-G57 MC2",
+          "note": "MediaTek chipset page and exact-model YugaTech report agree.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G57 MC2"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "Android 11",
+          "normalizedValue": "Android 11",
+          "note": "Launch-era version, not a claim about the version currently installed on every unit.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "os",
+          "catalogValue": "Android 11"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "No update duration, upgrade policy, or end-of-support date found in the reviewed references",
+          "normalizedValue": null,
+          "note": "No software-support commitment is inferred.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "8 GB RAM",
+          "normalizedValue": 8,
+          "note": "Matches the single supported Philippine configuration.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "8 GB LPDDR4X RAM",
+          "normalizedValue": "LPDDR4X",
+          "note": "YugaTech reports LPDDR4X; MediaTek lists LPDDR4X platform support.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR4X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "128 GB storage",
+          "normalizedValue": 128,
+          "note": "Matches the single supported Philippine configuration.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "128 GB UFS 2.2 storage",
+          "normalizedValue": "UFS 2.2",
+          "note": "YugaTech identifies UFS 2.2; MediaTek lists UFS 2.2 platform support.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 2.2"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "PTG narrative says expandable storage; its specifications table says Expansion: None. YugaTech's exact-model hands-on lists the SIM tray but does not verify microSD",
+          "normalizedValue": null,
+          "note": "The exact-model source contradicts itself. Keep expansion unresolved and do not assert a microSD slot.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "64 MP main + 5 MP ultrawide + 2 MP depth + 2 MP macro",
+          "normalizedValue": "64 MP main + 5 MP ultrawide + 2 MP depth + 2 MP macro",
+          "note": "PTG and YugaTech list the same four rear modules; the catalog numeric value represents the main camera.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 64,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "64 MP autofocus main camera; sensor maker and model not stated",
+          "normalizedValue": "64 MP autofocus; sensor model not disclosed",
+          "note": "Do not infer the sensor identity from resolution.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "5 MP ultrawide camera",
+          "normalizedValue": "5 MP ultrawide",
+          "note": "Exact-model local specification.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "The complete listed rear system contains main, ultrawide, depth, and macro cameras; no telephoto module is listed",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "Based on the complete four-module camera list.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "16 MP main + 2 MP depth front cameras",
+          "normalizedValue": 16,
+          "note": "Catalog numeric value records the main front camera resolution.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "Rear video recording up to 4K; exact frame rates and complete mode list are not recorded",
+          "normalizedValue": "Rear video up to 4K; frame rates not recorded",
+          "note": "Do not expand this into unlisted resolutions or frame rates.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K; frame rates not recorded"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "4,200 mAh",
+          "normalizedValue": 4200,
+          "note": "PTG and YugaTech agree.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4200,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "Li-Po battery; non-removable",
+          "normalizedValue": "Lithium-polymer; non-removable",
+          "note": "Exact-model PTG specification.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "30 W wired fast charging",
+          "normalizedValue": 30,
+          "note": "PTG and YugaTech agree.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "chargingW",
+          "catalogValue": 30,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "Wireless and reverse wireless charging are not mentioned in the reviewed sources",
+          "normalizedValue": null,
+          "note": "Silence is not treated as proof that charging hardware is absent.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "160.5 x 73.8 x 8.8 mm",
+          "normalizedValue": "160.5 x 73.8 x 8.8 mm",
+          "note": "YugaTech's exact-model specification list.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "dimensions",
+          "catalogValue": "160.5 x 73.8 x 8.8 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "175 g",
+          "normalizedValue": 175,
+          "note": "YugaTech's exact-model specification list.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "weightG",
+          "catalogValue": 175,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "PTG says plastic back with faux-leather texture; the May 2022 local promotion calls it a leather back",
+          "normalizedValue": null,
+          "note": "The back-cover material description differs. YugaTech describes a metallic frame; other frame materials remain unrecorded.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "No IP rating or water-resistance certification is stated in the reviewed sources",
+          "normalizedValue": null,
+          "note": "No ingress-protection rating is inferred.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "Dual Nano-SIM; eSIM is not mentioned",
+          "normalizedValue": "Dual Nano-SIM; eSIM not disclosed",
+          "note": "YugaTech describes the exact-model tray for two Nano-SIM cards.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not disclosed"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "5G, 4G LTE, 3G HSPA+, and 2G EDGE/GPRS; exact band list not recorded",
+          "normalizedValue": "5G / 4G LTE / 3G HSPA+ / 2G; bands not recorded",
+          "note": "Technology generations only; do not infer regional band compatibility.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "cellular",
+          "catalogValue": "5G / 4G LTE / 3G HSPA+ / 2G; bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "Dual-band Wi-Fi 802.11 b/g/n/ac",
+          "normalizedValue": "Dual-band Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "note": "PTG exact-model page; chipset capability corroborates Wi-Fi 5.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "wifi",
+          "catalogValue": "Dual-band Wi-Fi 5 (802.11 a/b/g/n/ac)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "Bluetooth 5.1",
+          "normalizedValue": "Bluetooth 5.1",
+          "note": "Exact-model PTG and chipset page agree.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "USB Type-C; PTG lists USB OTG support",
+          "normalizedValue": "USB Type-C; OTG",
+          "note": "YugaTech identifies USB-C; PTG says OTG is supported.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; OTG"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": false,
+          "note": "Explicit negative value in the exact-model local specification table.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "GPS with A-GPS, GLONASS, Galileo, BeiDou, and QZSS",
+          "normalizedValue": "GPS, A-GPS, GLONASS, Galileo, BeiDou, QZSS",
+          "note": "Exact-model local specification.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_yugatech_hands_on",
+          "sourceValue": "YugaTech describes a bottom loudspeaker, microphone, and USB-C; speaker channel configuration and headphone jack are not recorded",
+          "normalizedValue": "Loudspeaker; channel count and headphone jack not disclosed",
+          "note": "No stereo-speaker or 3.5 mm-jack claim is inferred.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration",
+          "catalogKey": "sound",
+          "catalogValue": "Loudspeaker; channel count and headphone jack not disclosed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "aqua_sv_ptg_ph_specs",
+          "sourceValue": "Gyroscope, compass, ambient-light sensor, proximity sensor, accelerometer, and under-display fingerprint sensor",
+          "normalizedValue": "Gyroscope, compass, ambient light, proximity, accelerometer, under-display fingerprint",
+          "note": "PTG exact-model sensor and biometric listing.",
+          "configurationMatch": "Philippine Cherry Mobile Aqua SV 5G, 8 GB RAM / 128 GB storage; color is not used to distinguish a configuration"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine availability reported by PTG through Cherry Mobile stores, authorized dealers, and online shops; the NTC lists Cherry Mobile AQUA SV as a smartphone. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Exact AQUA SV identity is supported by the NTC 2022 GEC list. PTG's April 29, 2022 exact-model page reports availability through Cherry Mobile stores, authorized dealers, and online shops; the May 2022 promotion reports a Shopee offer. This verifies local-market availability, not an exact first-sale transaction time.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Cherry Mobile",
+        "catalogModel": "Aqua SV 5G",
+        "productLine": "Cherry Mobile Aqua SV",
+        "modelNumber": null,
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine launch/availability report date",
+        "researchNotes": "Matched to Cherry Mobile Aqua SV 5G; NTC uses AQUA SV. One documented Philippine configuration is 8 GB / 128 GB. Scope eligibility remains Pending. Exact model code, global release date, current price, storage expansion, color, and image reuse rights remain unresolved.",
+        "qualityFlag": "Aqua SV 5G matched; model code, global date, current price, storage expansion, color, and image rights unresolved.",
+        "openIssues": [
+          {
+            "issue": "The NTC public list gives the AQUA SV marketing name but no numeric model code in its published row",
+            "action": "Keep modelNumber blank until a reliable exact product code is found."
+          },
+          {
+            "issue": "PTG's Aqua SV page says storage is expandable in its prose but lists expansion as None in its table",
+            "action": "Keep storage expansion unresolved; do not claim a microSD slot."
+          },
+          {
+            "issue": "Color evidence differs: PTG lists Blue while a contemporaneous local announcement describes Luxe Green",
+            "action": "Do not assign a single color or split the 8 GB / 128 GB configuration by color without authoritative variant evidence."
+          },
+          {
+            "issue": "Only launch-era prices were found; no current dated, orderable Philippine offer was verified",
+            "action": "Show current price as not recorded and keep PHP 11,999 / PHP 9,999 as historical references only."
+          },
+          {
+            "issue": "Exact-model product images have no recorded reusable license",
+            "action": "Continue using the neutral image placeholder until documented image permission is available."
+          },
+          {
+            "issue": "The workbook scope and study eligibility status remains Pending",
+            "action": "Preserve Pending and do not admit the device to eligibility-filtered results outside existing study rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_35bc65487e1514-8gb-128gb-ph",
+          "label": "8 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Single source-supported Philippine configuration. PTG lists Blue, while contemporaneous launch coverage describes Luxe Green; color is unresolved and is not used to split the configuration.",
+          "workbookRow": 71
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
     }
   ]
 }
