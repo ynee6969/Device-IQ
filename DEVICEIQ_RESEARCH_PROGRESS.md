@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T00:59:50+08:00
+Updated: 2026-11-26T09:35:55+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -9,18 +9,18 @@ Updated: 2026-11-26T00:59:50+08:00
 | Measure | Count |
 | --- | ---: |
 | Device models | 456 |
-| Configurations | 532 |
-| Models with manually verified source fields | 252 |
-| Configurations with manually verified source fields | 331 |
+| Configurations | 545 |
+| Models with manually verified source fields | 270 |
+| Configurations with manually verified source fields | 362 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 12 |
 | Specification-complete models | 0 |
 | Incomplete models | 445 |
-| Applicable field assignments | 24329 |
-| Fields assessed | 9727 |
-| Verified fields | 9442 |
-| Pending fields | 14602 |
+| Applicable field assignments | 24932 |
+| Fields assessed | 10617 |
+| Verified fields | 10318 |
+| Pending fields | 14315 |
 | PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -33,7 +33,7 @@ The table counts the existing records and this run's review state; it does not m
 
 | Claimed year | Category | Brand | Models identified | Models verified locally | Inserted | Specs complete | Disclosed gaps | Incomplete | Fields assessed | Fields verified | Fields pending | PTG pages reviewed | Manufacturer pages reviewed | Unsuccessful fetch attempts | Independent technical pages reviewed | Images approved | Images pending | Status |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 2021 | smartphones | ASUS | 2 | 0 | 2 | 0 | 0 | 2 | 68 | 68 | 67 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | smartphones | ASUS | 2 | 0 | 2 | 0 | 0 | 2 | 82 | 82 | 53 | 1 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Black Shark | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Cherry Mobile | 2 | 0 | 2 | 0 | 0 | 2 | 54 | 54 | 36 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Huawei | 3 | 0 | 3 | 0 | 0 | 3 | 89 | 89 | 46 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -52,14 +52,14 @@ The table counts the existing records and this run's review state; it does not m
 | 2021 | smartphones | realme | 3 | 0 | 3 | 0 | 0 | 3 | 86 | 86 | 49 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | vivo | 4 | 0 | 4 | 0 | 0 | 4 | 88 | 88 | 92 | 3 | 3 | 0 | 0 | 1 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | tablets | Apple | 3 | 0 | 3 | 0 | 0 | 3 | 28 | 25 | 116 | 0 | 3 | 0 | 0 | 2 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | tablets | Huawei | 3 | 0 | 3 | 0 | 0 | 3 | 0 | 0 | 144 | 0 | 0 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | tablets | Huawei | 3 | 2 | 3 | 0 | 0 | 3 | 78 | 77 | 114 | 0 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | tablets | Lenovo | 3 | 0 | 3 | 0 | 0 | 3 | 83 | 83 | 61 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | tablets | Nokia | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 48 | 0 | 0 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | tablets | Samsung | 2 | 0 | 2 | 0 | 0 | 2 | 32 | 30 | 64 | 0 | 1 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | tablets | TCL | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 48 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | tablets | Xiaomi | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 48 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | tablets | realme | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 48 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2022 | smartphones | ASUS | 2 | 0 | 2 | 0 | 0 | 2 | 66 | 66 | 69 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | tablets | Nokia | 1 | 0 | 1 | 0 | 0 | 1 | 21 | 21 | 27 | 0 | 1 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | tablets | Samsung | 2 | 1 | 2 | 0 | 0 | 2 | 86 | 84 | 58 | 0 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | tablets | TCL | 1 | 0 | 1 | 0 | 0 | 1 | 23 | 23 | 25 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | tablets | Xiaomi | 1 | 0 | 1 | 0 | 0 | 1 | 46 | 46 | 50 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | tablets | realme | 1 | 0 | 1 | 0 | 0 | 1 | 26 | 26 | 22 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2022 | smartphones | ASUS | 2 | 2 | 2 | 0 | 0 | 2 | 87 | 87 | 48 | 1 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | Apple | 1 | 0 | 1 | 0 | 0 | 1 | 11 | 10 | 34 | 0 | 1 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | Black Shark | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | Cherry Mobile | 3 | 0 | 3 | 0 | 0 | 3 | 53 | 53 | 82 | 2 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -81,19 +81,19 @@ The table counts the existing records and this run's review state; it does not m
 | 2022 | smartphones | vivo | 2 | 0 | 2 | 0 | 0 | 2 | 31 | 31 | 59 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Apple | 3 | 0 | 3 | 0 | 0 | 3 | 29 | 26 | 115 | 0 | 3 | 0 | 0 | 3 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | HONOR | 1 | 0 | 1 | 0 | 0 | 1 | 28 | 28 | 20 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2022 | tablets | Huawei | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 96 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2022 | tablets | Huawei | 2 | 1 | 2 | 0 | 0 | 2 | 108 | 108 | 132 | 0 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Lenovo | 2 | 0 | 2 | 0 | 0 | 2 | 25 | 25 | 71 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Nokia | 2 | 0 | 2 | 0 | 0 | 2 | 27 | 27 | 69 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | OPPO | 1 | 0 | 1 | 0 | 0 | 1 | 24 | 24 | 24 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Redmi | 1 | 0 | 1 | 0 | 0 | 1 | 23 | 23 | 25 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Samsung | 3 | 0 | 3 | 0 | 0 | 3 | 0 | 0 | 144 | 0 | 0 | 0 | 0 | 1 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | realme | 2 | 0 | 2 | 0 | 0 | 2 | 50 | 50 | 46 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | ASUS | 1 | 0 | 1 | 0 | 0 | 1 | 70 | 70 | 20 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | ASUS | 1 | 1 | 1 | 0 | 0 | 1 | 74 | 74 | 16 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Apple | 4 | 0 | 4 | 0 | 0 | 4 | 65 | 61 | 115 | 1 | 4 | 0 | 0 | 4 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Coolpad | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | DOOGEE | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | HONOR | 4 | 0 | 4 | 0 | 0 | 4 | 59 | 59 | 121 | 2 | 2 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | Huawei | 2 | 0 | 2 | 0 | 0 | 2 | 96 | 96 | 39 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | Huawei | 2 | 1 | 2 | 0 | 0 | 2 | 101 | 98 | 34 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Infinix | 2 | 0 | 2 | 0 | 0 | 2 | 29 | 29 | 61 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Nokia | 3 | 0 | 3 | 0 | 0 | 3 | 55 | 55 | 80 | 2 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Nothing | 1 | 0 | 1 | 0 | 0 | 1 | 30 | 30 | 15 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
@@ -102,7 +102,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | smartphones | POCO | 1 | 0 | 1 | 0 | 0 | 1 | 66 | 66 | 24 | 1 | 1 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | REDMAGIC | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Redmi | 2 | 0 | 2 | 0 | 0 | 2 | 51 | 51 | 39 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | Samsung | 8 | 4 | 8 | 0 | 0 | 8 | 88 | 88 | 272 | 3 | 3 | 4 | 0 | 0 | 8 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | Samsung | 8 | 4 | 8 | 0 | 0 | 8 | 142 | 142 | 263 | 3 | 4 | 4 | 0 | 0 | 8 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | ZTE | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | itel | 3 | 0 | 3 | 0 | 0 | 3 | 57 | 57 | 78 | 2 | 2 | 1 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | realme | 2 | 0 | 2 | 0 | 0 | 2 | 126 | 126 | 54 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
@@ -115,7 +115,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | tablets | Samsung | 9 | 5 | 9 | 0 | 0 | 9 | 0 | 0 | 432 | 0 | 0 | 5 | 0 | 0 | 9 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | tablets | Xiaomi | 1 | 0 | 1 | 0 | 0 | 1 | 29 | 29 | 19 | 1 | 1 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | tablets | realme | 1 | 0 | 1 | 0 | 0 | 1 | 24 | 24 | 24 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2024 | smartphones | ASUS | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2024 | smartphones | ASUS | 2 | 2 | 2 | 0 | 0 | 2 | 136 | 134 | 44 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | Apple | 4 | 1 | 4 | 0 | 0 | 4 | 90 | 86 | 135 | 1 | 4 | 0 | 0 | 4 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | CHERRY | 2 | 0 | 2 | 0 | 0 | 2 | 59 | 59 | 31 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | CMF | 1 | 0 | 1 | 0 | 0 | 1 | 64 | 64 | 26 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
@@ -125,11 +125,11 @@ The table counts the existing records and this run's review state; it does not m
 | 2024 | smartphones | Infinix | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | Nothing | 2 | 0 | 2 | 0 | 0 | 2 | 102 | 102 | 33 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | OPPO | 2 | 0 | 2 | 0 | 0 | 2 | 99 | 99 | 36 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2024 | smartphones | OnePlus | 3 | 0 | 3 | 0 | 0 | 3 | 33 | 33 | 102 | 1 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2024 | smartphones | OnePlus | 3 | 0 | 3 | 0 | 0 | 3 | 99 | 99 | 81 | 1 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | POCO | 1 | 0 | 1 | 0 | 0 | 1 | 64 | 64 | 26 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | REDMAGIC | 1 | 0 | 1 | 0 | 0 | 1 | 68 | 68 | 22 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | Redmi | 2 | 1 | 2 | 0 | 0 | 2 | 142 | 142 | 38 | 2 | 2 | 0 | 0 | 2 | 0 | PARTIAL_WITH_PENDING_FIELDS |
-| 2024 | smartphones | Samsung | 8 | 3 | 8 | 0 | 0 | 8 | 138 | 138 | 312 | 2 | 2 | 3 | 0 | 4 | 4 | PARTIAL_WITH_PENDING_FIELDS |
+| 2024 | smartphones | Samsung | 8 | 3 | 8 | 0 | 0 | 8 | 214 | 208 | 281 | 2 | 3 | 3 | 0 | 4 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | TNT | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | Xiaomi | 1 | 0 | 1 | 0 | 0 | 1 | 34 | 34 | 11 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | ZTE | 3 | 0 | 3 | 0 | 0 | 3 | 0 | 0 | 135 | 0 | 0 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -153,7 +153,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2024 | tablets | TECNO | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 48 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | tablets | TechLife | 2 | 0 | 2 | 0 | 0 | 2 | 24 | 24 | 72 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | tablets | Xiaomi | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 48 | 0 | 0 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
-| 2025 | smartphones | ASUS | 2 | 0 | 2 | 0 | 0 | 2 | 32 | 32 | 58 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2025 | smartphones | ASUS | 2 | 2 | 2 | 0 | 0 | 2 | 72 | 72 | 18 | 1 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | Apple | 3 | 2 | 3 | 0 | 0 | 3 | 163 | 157 | 107 | 3 | 3 | 0 | 0 | 3 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | CMF | 1 | 0 | 1 | 0 | 0 | 1 | 66 | 66 | 24 | 1 | 1 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | HMD | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
@@ -163,7 +163,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2025 | smartphones | Meizu | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | Nothing | 3 | 0 | 3 | 0 | 0 | 3 | 68 | 68 | 112 | 1 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | OPPO | 3 | 0 | 3 | 0 | 0 | 3 | 126 | 126 | 54 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
-| 2025 | smartphones | OnePlus | 4 | 0 | 4 | 0 | 0 | 4 | 136 | 136 | 134 | 2 | 2 | 0 | 0 | 1 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2025 | smartphones | OnePlus | 4 | 0 | 4 | 0 | 0 | 4 | 204 | 204 | 111 | 2 | 3 | 0 | 0 | 1 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | POCO | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | REDMAGIC | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | smartphones | Redmi | 1 | 0 | 1 | 0 | 0 | 1 | 30 | 30 | 15 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
@@ -198,7 +198,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2026 | smartphones | OPPO | 1 | 0 | 1 | 0 | 0 | 1 | 30 | 30 | 15 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | OnePlus | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | Redmi | 1 | 1 | 1 | 0 | 0 | 1 | 102 | 102 | 33 | 1 | 1 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
-| 2026 | smartphones | Samsung | 7 | 4 | 7 | 0 | 0 | 7 | 241 | 241 | 254 | 3 | 3 | 4 | 0 | 0 | 7 | PARTIAL_WITH_PENDING_FIELDS |
+| 2026 | smartphones | Samsung | 7 | 4 | 7 | 0 | 0 | 7 | 291 | 289 | 249 | 3 | 4 | 4 | 0 | 0 | 7 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | TCL | 2 | 0 | 2 | 0 | 0 | 2 | 31 | 31 | 59 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | TECNO | 2 | 0 | 2 | 0 | 0 | 2 | 124 | 124 | 56 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | itel | 1 | 0 | 1 | 0 | 0 | 1 | 28 | 28 | 17 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
@@ -230,7 +230,7 @@ The table counts the existing records and this run's review state; it does not m
 ## Current blockers and next actions
 
 1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.
-2. Review the 5824 source-derived field observations and 275 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
+2. Review the 5824 source-derived field observations and 411 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
 3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover 18/18 laptop models and 22 exact configurations.
 4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.
 5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.

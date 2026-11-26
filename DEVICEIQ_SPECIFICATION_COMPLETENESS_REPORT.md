@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-26T00:59:50+08:00
+Generated: 2026-11-26T09:35:55+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -9,26 +9,26 @@ Generated: 2026-11-26T00:59:50+08:00
 | Metric | Actual result |
 | --- | ---: |
 | Models | 456 |
-| Configurations | 532 |
-| Models with manually verified source fields | 252 |
-| Configurations with manually verified source fields | 331 |
+| Configurations | 545 |
+| Models with manually verified source fields | 270 |
+| Configurations with manually verified source fields | 362 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 12 |
 | Specification-complete models | 0 |
 | Complete with disclosed gaps | 11 |
 | Incomplete models | 445 |
-| Conflicting specification records | 2 |
-| Assessed specification fields | 9727 |
-| Verified specification fields | 9442 |
-| Unavailable fields | 228 |
-| Not applicable fields | 55 |
-| Pending verification fields | 14602 |
-| Manually reviewed price candidates | 4 |
-| Assessment coverage | 39.98% |
-| Verified coverage | 38.81% |
+| Conflicting specification records | 4 |
+| Assessed specification fields | 10617 |
+| Verified specification fields | 10318 |
+| Unavailable fields | 237 |
+| Not applicable fields | 58 |
+| Pending verification fields | 14315 |
+| Manually reviewed price candidates | 19 |
+| Assessment coverage | 42.58% |
+| Verified coverage | 41.38% |
 | Candidate field observations | 5824 |
-| Candidate prices | 275 |
+| Candidate prices | 411 |
 | Candidate source links | 203 |
 | Image-matched models | 48 |
 | Models with image unavailable | 408 |
@@ -41,20 +41,20 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 
 | Category | Models | Configurations | Applicable field rows | Assessed | Verified | Pending | Assessment | Verified coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| smartphones | 288 | 351 | 15795 | 7598 | 7458 | 8197 | 48.10% | 47.22% |
-| tablets | 150 | 159 | 7632 | 1716 | 1573 | 5916 | 22.48% | 20.61% |
+| smartphones | 288 | 358 | 16110 | 8132 | 7979 | 7978 | 50.48% | 49.53% |
+| tablets | 150 | 165 | 7920 | 2072 | 1928 | 5848 | 26.16% | 24.34% |
 | laptops | 18 | 22 | 902 | 413 | 411 | 489 | 45.79% | 45.57% |
 
 ## Collection snapshot (candidate evidence, not verified facts)
 
-- Snapshot timestamp: `2026-11-25T16:52:43.928Z`.
+- Snapshot timestamp: `2026-11-26T00:50:47.445Z`.
 - Fetch attempts: 263; successful page extractions: 221.
 - Extracted pages by source type: `{'independent_ph_reference': 202, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 202, 'official': 19}`.
 - Fetch attempts by category: `{'smartphones': 190, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
-- Candidate field observations by source type: `{'independent_ph_reference': 5951, 'local_technology_publication': 6, 'official': 144}`.
-- Candidate prices: 275; discovery links: 203.
+- Candidate field observations by source type: `{'independent_ph_reference': 6072, 'local_technology_publication': 6, 'official': 144}`.
+- Candidate prices: 411; discovery links: 203.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
-- 14602 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
+- 14315 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 
 ## Field backlog
 
@@ -62,19 +62,19 @@ Every category template field is enumerated in `research/enrichment/specificatio
 
 | Group | Applicable rows | Assessed | Verified | Pending |
 | --- | ---: | ---: | ---: | ---: |
-| Accessories | 318 | 72 | 72 | 246 |
-| Audio | 532 | 282 | 282 | 250 |
-| Battery | 2106 | 805 | 721 | 1301 |
-| Build | 2106 | 771 | 754 | 1335 |
-| Camera | 3082 | 1251 | 1196 | 1831 |
-| Connectivity | 3839 | 1777 | 1745 | 2062 |
-| Display | 3214 | 1519 | 1512 | 1695 |
-| Identity | 1064 | 327 | 297 | 737 |
+| Accessories | 330 | 86 | 86 | 244 |
+| Audio | 545 | 304 | 304 | 241 |
+| Battery | 2158 | 883 | 799 | 1275 |
+| Build | 2158 | 847 | 830 | 1311 |
+| Camera | 3160 | 1391 | 1333 | 1769 |
+| Connectivity | 3936 | 1905 | 1873 | 2031 |
+| Display | 3292 | 1654 | 1646 | 1638 |
+| Identity | 1090 | 380 | 350 | 710 |
 | Input | 44 | 7 | 7 | 37 |
-| Memory | 2682 | 983 | 976 | 1699 |
-| Other | 532 | 280 | 280 | 252 |
-| Philippine market | 1618 | 311 | 299 | 1307 |
-| Platform | 3192 | 1342 | 1301 | 1850 |
+| Memory | 2747 | 1085 | 1078 | 1662 |
+| Other | 545 | 286 | 286 | 259 |
+| Philippine market | 1657 | 339 | 325 | 1318 |
+| Platform | 3270 | 1450 | 1401 | 1820 |
 
 ## Priority list
 
@@ -83,14 +83,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | Year (claimed) | Category | Brand | Model | Configuration | Record ID | Missing current values | Applicable fields | Status |
 | --- | --- | --- | --- | --- | --- | ---: | ---: | --- |
 | 2021 | tablets | Huawei | MatePad 10.4 (2021) | Configuration not recorded | `device_e82e93c423ed2a-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | Huawei | MatePad 11 | Configuration not recorded | `device_a12a6e701e607e-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | Huawei | MatePad Pro 12.6 | Configuration not recorded | `device_3a670bbfcef402-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | Nokia | T20 | Configuration not recorded | `device_1352c430fa0bb9-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | Samsung | Galaxy Tab A7 Lite | Configuration not recorded | `device_2bbc3980a61c93-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | TCL | TAB 10S | Configuration not recorded | `device_59bc941c580cee-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | Xiaomi | Pad 5 | Configuration not recorded | `device_eb3d0871ddd09e-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | realme | Pad | Configuration not recorded | `device_23b53732758d44-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
-| 2022 | tablets | Huawei | MatePad 10.4 (2022) | Configuration not recorded | `device_dcf630692f9701-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Huawei | MatePad Pro 11 (2022) | Configuration not recorded | `device_070c7fa225849f-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Lenovo | Tab M10 Plus 3rd Gen | Configuration not recorded | `device_d34ec0baa2b329-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Nokia | T10 | Configuration not recorded | `device_122fb62b2868fc-unrecorded` | 47 | 48 | SPECIFICATION_INCOMPLETE |
@@ -175,7 +167,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | tablets | Samsung | Galaxy Tab S12 Ultra | Configuration not recorded | `device_3c3b3adfeb221f-unrecorded` | 46 | 48 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Samsung | Galaxy Tab S12+ | Configuration not recorded | `device_c1720f94c84582-unrecorded` | 46 | 48 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Samsung | Galaxy Tab S10 FE | Wi-Fi / 8 GB / 128 GB | `config_0879d9d92c6c34` | 33 | 48 | SPECIFICATION_INCOMPLETE |
-| 2021 | smartphones | ASUS | ROG Phone 5 | Configuration not recorded | `device_603fa1d223e7e0-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Black Shark | 4 | Configuration not recorded | `device_fa4c0f6cdc39f6-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Motorola | Edge 20 Pro | Configuration not recorded | `device_cef4dc913ac418-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Motorola | Moto G50 | Configuration not recorded | `device_195cb093808ae0-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
@@ -190,7 +181,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2021 | smartphones | TECNO | Camon 17P | Configuration not recorded | `device_097c07418374a0-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | TECNO | Spark 7 | Configuration not recorded | `device_cca2630fec4a42-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | vivo | V21 | Configuration not recorded | `device_09d07effbd7687-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2022 | smartphones | ASUS | ROG Phone 6 Pro | Configuration not recorded | `device_645b2e6accb6b4-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Black Shark | 5 | Configuration not recorded | `device_a9d69522a3d0fe-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Black Shark | 5 Pro | Configuration not recorded | `device_abadb9044528e9-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Cherry Mobile | Aqua SV 5G | Configuration not recorded | `device_35bc65487e1514-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
@@ -221,8 +211,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2023 | smartphones | ZTE | Blade V41 Vita 5G | Configuration not recorded | `device_bf5cf152c95ed1-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | ZTE | nubia Neo 5G | Configuration not recorded | `device_03f3856685042e-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | itel | S23 Plus | Configuration not recorded | `device_a8c831d7277179-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | ASUS | ROG Phone 8 | Configuration not recorded | `device_fca6be23997740-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | ASUS | ROG Phone 8 Pro | Configuration not recorded | `device_92c3d063a77fd3-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | HMD | Barbie Phone | Configuration not recorded | `device_3c4d4f2e60c05a-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | HMD | Fusion | Configuration not recorded | `device_6c2ccca01e23d1-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | HMD | Pulse Pro | Configuration not recorded | `device_551e5a0e0e32cb-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
@@ -231,7 +219,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2024 | smartphones | HONOR | X9b | Configuration not recorded | `device_38ef56f303cc59-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Huawei | nova Y72 | Configuration not recorded | `device_7e42ec1404e4a8-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Infinix | GT 20 Pro | Configuration not recorded | `device_8dc5ff47081aa0-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | OnePlus | 12 | Configuration not recorded | `device_a8aa4ea8df33a0-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | OnePlus | Nord CE4 Lite | Configuration not recorded | `device_8a4529440550bd-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Samsung | A35 | Configuration not recorded | `device_45c7e8bb258a1d-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Samsung | A55 | Configuration not recorded | `device_8a8a8e9ba58d74-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
@@ -248,7 +235,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2024 | smartphones | nubia | V60 Design | Configuration not recorded | `device_ac7a16d95c6b28-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | nubia | V70 Design | Configuration not recorded | `device_7d0fac170a9909-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | nubia | Z60 Ultra | Configuration not recorded | `device_4e6eda78a432ca-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2025 | smartphones | ASUS | ROG Phone 9 Pro | Configuration not recorded | `device_d8d3dc343261b9-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | HMD | Crest | Configuration not recorded | `device_49c685883799a4-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | HONOR | 400 | Configuration not recorded | `device_32de18b7c0de7e-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | HONOR | X9c | Configuration not recorded | `device_bd830ce3628852-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
@@ -257,7 +243,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2025 | smartphones | Meizu | mblu 21 | Configuration not recorded | `device_dae69efa077092-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Nothing | Phone (3) | Configuration not recorded | `device_cb646c28f1c43b-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Nothing | Phone (3a) | Configuration not recorded | `device_d4cd36656dd62d-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2025 | smartphones | OnePlus | 13 | Configuration not recorded | `device_edc07536e9cd09-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | OnePlus | Nord CE 5 | Configuration not recorded | `device_c2930a90e8912e-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | POCO | M7 Pro | Configuration not recorded | `device_29700631949a7d-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | REDMAGIC | 10 Pro | Configuration not recorded | `device_b170a1dc62d29f-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
@@ -277,15 +262,12 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | OnePlus | 15R | Configuration not recorded | `device_63885f8e6d85c2-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | A08 | Configuration not recorded | `device_06a98f8968e4f1-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | A27 5G | Configuration not recorded | `device_51a0b1844a9713-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2026 | smartphones | Samsung | Galaxy S26+ | Configuration not recorded | `device_f7d2b14d45c9bb-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | S26 FE | Configuration not recorded | `device_2b358151a5e55f-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | TCL | NXTPAPER 60 Ultra | Configuration not recorded | `device_d4d915d251eb2c-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | nubia | Neo 5 | Configuration not recorded | `device_4dd1c6a4964b01-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | nubia | Neo 5 GT | Configuration not recorded | `device_0c3af34f502bf5-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | nubia | Neo 5 Max | Configuration not recorded | `device_a7e9bf31e81aa4-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Samsung | Galaxy S21+ 5G | 256 GB storage; RAM not verified | `config_13d4c1daf696b2` | 43 | 45 | SPECIFICATION_INCOMPLETE |
-| 2023 | smartphones | Samsung | Galaxy S23+ | Configuration not recorded | `device_9b51cd23075357-unrecorded` | 43 | 45 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | Samsung | Galaxy S24+ | Configuration not recorded | `device_af72f6e6d0b475-unrecorded` | 43 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Apple | iPad Pro M5 | Configuration not recorded | `device_639dbf609255e4-unrecorded` | 43 | 48 | SPECIFICATION_INCOMPLETE |
 | 2021 | tablets | Apple | iPad Pro M1 (2021) | Configuration not recorded | `device_e8026097f286fd-unrecorded` | 42 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Apple | iPad Pro M2 | Configuration not recorded | `device_9b65c21f337198-unrecorded` | 42 | 48 | SPECIFICATION_INCOMPLETE |
@@ -310,17 +292,25 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2023 | smartphones | Apple | 15 Pro Max | Configuration not recorded | `device_331a91ecca31d0-unrecorded` | 33 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Apple | 16 Pro | Configuration not recorded | `device_a35cecf3e59fde-unrecorded` | 33 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Apple | 16 Pro Max | Configuration not recorded | `device_305c8f9c273ea1-unrecorded` | 33 | 45 | SPECIFICATION_INCOMPLETE |
+| 2021 | smartphones | ASUS | ROG Phone 5 | Configuration not recorded | `device_603fa1d223e7e0-unrecorded` | 31 | 45 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Predator Helios Neo Slim 16 PHN16S-71-9269 | NH.QXASP.003 | `config_33fd77e02f526e` | 30 | 41 | SPECIFICATION_INCOMPLETE |
+| 2022 | smartphones | ASUS | ROG Phone 6 Pro | 18 GB RAM / 512 GB storage · Storm White | `device_645b2e6accb6b4-18gb-512gb-ph` | 29 | 45 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Aspire Lite AL14-42P-R1LF | NX.DJ3SP.001 | `config_26dcd487702194` | 28 | 41 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Predator Helios Neo 16 PHN16-73-93Y5 | NH.QX2SP.001 | `config_3ee1892f38ed88` | 27 | 41 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Nokia | T20 | 4 GB RAM / 64 GB storage (global source configuration) | `device_1352c430fa0bb9-4-64-global` | 27 | 48 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Aspire Go 15 AI AG15-43P-R19X | NX.JPKSP.001 | `config_503035c068c969` | 27 | 41 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Aspire Lite AL15-33P-332M | NX.DY0SP.001 | `config_2d6dbc293f1116` | 27 | 41 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Swift Air 14 AI SFA14-I31-56FJ | NX.SHYSP.002 | `config_b35b4fb479b661` | 27 | 41 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Swift Go SFG14-75-55MB | NX.JNBSP.001 | `config_045742254d2835` | 26 | 41 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | TCL | TAB 10S | Configuration not recorded | `device_59bc941c580cee-unrecorded` | 25 | 48 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Swift SF14-51-553D | NX.J2KSP.002 | `config_c310afe3f6e51c` | 25 | 41 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Xiaomi | Pad 5 | 6 GB RAM / 128 GB storage (global source configuration) | `device_eb3d0871ddd09e-6-128-global` | 24 | 48 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Xiaomi | Pad 5 | 6 GB RAM / 256 GB storage (global source configuration) | `device_eb3d0871ddd09e-6-256-global` | 24 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Redmi | Pad | Configuration not recorded | `device_f8c900df95cea4-unrecorded` | 24 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | realme | Pad Mini | Configuration not recorded | `device_1689321a84eec2-unrecorded` | 23 | 48 | SPECIFICATION_INCOMPLETE |
 | 2026 | laptops | ASUS | Zenbook S16 (UM5606GA) | UM5606GA-SR368WSM | `config_166ca092fbd09a` | 21 | 41 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Huawei | MatePad 11 | 6 GB RAM / 128 GB storage | `device_a12a6e701e607e-6-128-ph` | 24 | 48 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Huawei | MatePad 11 | 6 GB RAM / 256 GB storage | `device_a12a6e701e607e-6-256-ph` | 24 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | OPPO | Pad Air | 4 GB RAM / 64 GB storage | `device_169befc354ccf8-auto-4gb-64gb` | 24 | 48 | SPECIFICATION_INCOMPLETE |
 | 2026 | laptops | ASUS | ProArt GoPro Edition (PX13) | HN7306EAC-LX075WSM | `device_ea2924f7ecf7ce-hn7306eac-lx075wsm` | 23 | 41 | SPECIFICATION_INCOMPLETE |
 | 2026 | laptops | ASUS | ProArt PX13 (HN7306) | HN7306EA-LX054WSM | `config_15a5da2d8b61bc` | 23 | 41 | SPECIFICATION_INCOMPLETE |
@@ -329,6 +319,7 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2022 | tablets | Lenovo | Tab M10 3rd Gen | Configuration not recorded | `device_534b809677bd0c-unrecorded` | 22 | 48 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | POCO | Pad C1 | Configuration not recorded | `device_7c8c3eaa1d8fa2-unrecorded` | 22 | 48 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Swift Go SFG14-01-X2PX | NX.KYXSP.003 | `config_99091889235c83` | 22 | 41 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | realme | Pad | Configuration not recorded | `device_23b53732758d44-unrecorded` | 22 | 48 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | Huawei | MatePad 11.5 | Configuration not recorded | `device_ba6168d35e6a0f-unrecorded` | 21 | 48 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | OnePlus | Pad 3 | Configuration not recorded | `device_24d6c8bd87e1fa-unrecorded` | 21 | 48 | SPECIFICATION_INCOMPLETE |
 | 2026 | laptops | ASUS | Zenbook 14 (UX3480) | UX3480AA-U2489WSM | `config_2104cbd53025ef` | 21 | 41 | SPECIFICATION_INCOMPLETE |
@@ -339,6 +330,12 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | laptops | ASUS | Zenbook DUO (UX8407) | UX8407AA-SN152WSM | `device_fc5e931cb8adc4-ux8407aa-sn152wsm` | 21 | 41 | SPECIFICATION_INCOMPLETE |
 | 2024 | tablets | Infinix | XPAD | Configuration not recorded | `device_c031a0ffc97f29-unrecorded` | 20 | 48 | SPECIFICATION_INCOMPLETE |
 | 2024 | tablets | Samsung | Galaxy Tab S10 Ultra | Configuration not recorded | `device_c3193f69093d79-unrecorded` | 20 | 48 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Samsung | Galaxy Tab A7 Lite | LTE · 3 GB RAM / 32 GB storage · Gray | `device_2bbc3980a61c93-lte-gray-3-32` | 21 | 48 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Samsung | Galaxy Tab A7 Lite | LTE · 3 GB RAM / 32 GB storage · Silver | `device_2bbc3980a61c93-lte-silver-3-32` | 21 | 48 | SPECIFICATION_INCOMPLETE |
+| 2022 | tablets | Huawei | MatePad 10.4 (2022) | Wi-Fi only · 4 GB RAM / 64 GB storage | `device_dcf630692f9701-wifi-4-64` | 21 | 48 | SPECIFICATION_INCOMPLETE |
+| 2022 | tablets | Huawei | MatePad 10.4 (2022) | LTE · 4 GB RAM / 64 GB storage | `device_dcf630692f9701-lte-4-64` | 21 | 48 | SPECIFICATION_INCOMPLETE |
+| 2022 | tablets | Huawei | MatePad 10.4 (2022) | Wi-Fi only · 4 GB RAM / 128 GB storage | `device_dcf630692f9701-wifi-4-128` | 21 | 48 | SPECIFICATION_INCOMPLETE |
+| 2022 | tablets | Huawei | MatePad 10.4 (2022) | LTE · 4 GB RAM / 128 GB storage | `device_dcf630692f9701-lte-4-128` | 21 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | realme | Pad X | 6 GB RAM / 128 GB storage | `device_48ddda3db2685b-auto-6gb-128gb` | 21 | 48 | SPECIFICATION_INCOMPLETE |
 | 2021 | tablets | Lenovo | Tab P11 Plus | 4 GB RAM / 64 GB storage | `device_c581212ca1211c-auto-4gb-64gb` | 20 | 48 | SPECIFICATION_INCOMPLETE |
 | 2021 | tablets | Lenovo | Yoga Tab 11 | 4 GB RAM / 128 GB storage | `device_39c5786ef8c63f-auto-4gb-128gb` | 20 | 48 | SPECIFICATION_INCOMPLETE |
@@ -347,6 +344,8 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | laptops | ASUS | Zenbook S14 (UX5406) | UX5406AA-SU165WSM | `device_686411caae8d78-ux5406aa-su165wsm` | 20 | 41 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Infinix | XPAD 20 | Configuration not recorded | `device_6b43251e18ef32-unrecorded` | 19 | 48 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Infinix | XPAD 20 Pro | Configuration not recorded | `device_278edd50241a63-unrecorded` | 19 | 48 | SPECIFICATION_INCOMPLETE |
+| 2026 | smartphones | Samsung | Galaxy S26+ | 12 GB RAM / 256 GB storage | `device_f7d2b14d45c9bb-auto-12gb-256gb` | 21 | 45 | SPECIFICATION_INCOMPLETE |
+| 2026 | smartphones | Samsung | Galaxy S26+ | 12 GB RAM / 512 GB storage | `device_f7d2b14d45c9bb-auto-12gb-512gb` | 21 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Cherry Mobile | Aqua X | 3 GB RAM / 32 GB storage | `device_11aecb35329f4f-auto-3gb-32gb` | 20 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | HONOR | Pad 8 | 6 GB RAM / 128 GB storage | `device_1528d817e4015e-auto-6gb-128gb` | 20 | 48 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | HONOR | Pad X9 | 4 GB RAM / 128 GB storage | `device_9589e6ff44f20f-auto-4gb-128gb` | 20 | 48 | SPECIFICATION_INCOMPLETE |
@@ -377,6 +376,7 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | Apple | iPhone 17e | 512GB | `config_6b2f688927f361` | 19 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Infinix | Note 10 | 6 GB RAM / 128 GB storage | `device_52041f12a45248-auto-6gb-128gb` | 18 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Nokia | C10 | 2 GB RAM / 16 GB storage | `device_f98c34eaca7076-auto-2gb-16gb` | 18 | 45 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Huawei | MatePad Pro 12.6 | 8 GB RAM / 256 GB storage | `device_3a670bbfcef402-8-256-ph` | 18 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | HONOR | X6 | 4 GB RAM / 64 GB storage | `device_b63dd5835e8cd8-auto-4gb-64gb` | 18 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Nokia | C2 2nd Edition | 2 GB RAM / 32 GB storage | `device_97dbe17ac8a890-auto-2gb-32gb` | 18 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | Nokia | C12 | 3 GB RAM / 64 GB storage | `device_bbb78b8fe1364a-auto-3gb-64gb` | 18 | 45 | SPECIFICATION_INCOMPLETE |
@@ -387,7 +387,11 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2021 | smartphones | POCO | M3 Pro 5G | Configuration not recorded | `device_490fb1ca65c6ae-unrecorded` | 17 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | POCO | X3 Pro | Configuration not recorded | `device_ee3bda03baa9d0-unrecorded` | 17 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Huawei | P50 Pocket | Configuration not recorded | `device_5cb25865e2fde7-unrecorded` | 17 | 45 | SPECIFICATION_INCOMPLETE |
+| 2023 | smartphones | Samsung | Galaxy S23+ | 8 GB RAM / 256 GB storage | `device_9b51cd23075357-auto-8gb-256gb` | 17 | 45 | SPECIFICATION_INCOMPLETE |
+| 2023 | smartphones | Samsung | Galaxy S23+ | 8 GB RAM / 512 GB storage | `device_9b51cd23075357-auto-8gb-512gb` | 17 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Apple | iPhone 16 | Configuration not recorded | `device_474454700e62e5-unrecorded` | 17 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | Samsung | Galaxy S24+ | 12 GB RAM / 256 GB storage | `device_af72f6e6d0b475-auto-12gb-256gb` | 17 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | Samsung | Galaxy S24+ | 12 GB RAM / 512 GB storage | `device_af72f6e6d0b475-auto-12gb-512gb` | 17 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Infinix | XPAD 30 Pro | 6 GB RAM / 128 GB storage | `device_e2c2dc7df3be86-auto-6gb-128gb` | 17 | 48 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | OPPO | Pad 5 Matte Display Edition | 8 GB RAM / 256 GB storage | `device_5692cd69038766-auto-8gb-256gb` | 17 | 48 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Samsung | A13 | 6 GB RAM / 128 GB storage | `device_ea7538b5f9c456-samsung-6gb-128gb` | 18 | 45 | SPECIFICATION_INCOMPLETE |
@@ -508,7 +512,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2024 | smartphones | POCO | M6 | 8 GB RAM / 256 GB storage | `device_55867d7699ae56-auto-8gb-256gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | vivo | Y18 | 6 GB RAM / 128 GB storage | `device_91c53f265e9c3c-auto-6gb-128gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | vivo | Y18 | 8 GB RAM / 256 GB storage | `device_91c53f265e9c3c-auto-8gb-256gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
-| 2025 | smartphones | ASUS | ROG Phone 9 FE | 12 GB RAM / 256 GB storage | `device_59b130760709ea-auto-12gb-256gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | HONOR | X7d | 8 GB RAM / 256 GB storage | `device_d888d354971d56-auto-8gb-256gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | HONOR | X7d | 8 GB RAM / 512 GB storage | `device_d888d354971d56-auto-8gb-512gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | OPPO | A5 Pro | 8 GB RAM / 128 GB storage | `device_9eb1785b48b4be-auto-8gb-128gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
@@ -518,18 +521,18 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | TECNO | CAMON Slim 5G | 8 GB RAM / 128 GB storage | `device_1ac008d82e15cc-auto-8gb-128gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | TECNO | CAMON Slim 5G | 8 GB RAM / 256 GB storage | `device_1ac008d82e15cc-auto-8gb-256gb` | 13 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | laptops | ASUS | Zenbook 14 (UM3406GA) | UM3406GA-QD123WSM | `config_2b0cd196931eaf` | 11 | 41 | SPECIFICATION_INCOMPLETE |
-| 2022 | smartphones | ASUS | ROG Phone 6 | 12 GB RAM / 256 GB storage | `device_67c3c6cf323fd4-auto-12gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
-| 2022 | smartphones | ASUS | ROG Phone 6 | 16 GB RAM / 512 GB storage | `device_67c3c6cf323fd4-auto-16gb-512gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
-| 2023 | smartphones | Huawei | P60 Pro | 8 GB RAM / 256 GB storage | `device_a41c76670e8533-auto-8gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | Huawei | P60 Pro | 12 GB RAM / 512 GB storage | `device_a41c76670e8533-auto-12gb-512gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | POCO | C65 | 6 GB RAM / 128 GB storage | `device_8d417b7be5469c-auto-6gb-128gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | POCO | C65 | 8 GB RAM / 256 GB storage | `device_8d417b7be5469c-auto-8gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | OPPO | A60 | 8 GB RAM / 128 GB storage | `device_05c37682b4f4ff-auto-8gb-128gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | OPPO | A60 | 8 GB RAM / 256 GB storage | `device_05c37682b4f4ff-auto-8gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | OPPO | Find X8 | 12 GB RAM / 256 GB storage | `device_dc29499d7bd766-auto-12gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | OnePlus | 12 | 12 GB RAM / 256 GB storage (global source configuration) | `device_a8aa4ea8df33a0-12-256-global` | 12 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | OnePlus | 12 | 16 GB RAM / 512 GB storage (global source configuration) | `device_a8aa4ea8df33a0-16-512-global` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | OnePlus | 12R | 16 GB RAM / 256 GB storage | `device_987a2678ee5fbd-auto-16gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | realme | C67 | 8 GB RAM / 128 GB storage | `device_3c3e9ccda860c9-auto-8gb-128gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | realme | C67 | 8 GB RAM / 256 GB storage | `device_3c3e9ccda860c9-auto-8gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
+| 2025 | smartphones | ASUS | ROG Phone 9 Pro | 16 GB RAM / 512 GB storage · Phantom Black | `device_d8d3dc343261b9-16gb-512gb-ph` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | CMF | Phone 2 Pro | 8 GB RAM / 128 GB storage | `device_391d612f3650e7-auto-8gb-128gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | CMF | Phone 2 Pro | 8 GB RAM / 256 GB storage | `device_391d612f3650e7-auto-8gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | Galaxy S26 Ultra | 12 GB RAM / 256 GB storage | `device_172f055ffd379c-auto-12gb-256gb` | 12 | 45 | SPECIFICATION_INCOMPLETE |
@@ -542,10 +545,16 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2021 | smartphones | ASUS | Zenfone 8 | 16 GB RAM / 256 GB storage | `device_bfb5e856a9a659-auto-16gb-256gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | OnePlus | 11 5G | 12 GB RAM / 128 GB storage | `device_11074670a799fc-auto-12gb-128gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | OnePlus | 11 5G | 16 GB RAM / 256 GB storage | `device_11074670a799fc-auto-16gb-256gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | ASUS | ROG Phone 8 | 12 GB RAM / 256 GB storage · Phantom Black | `device_fca6be23997740-12-256-black-ph` | 11 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | ASUS | ROG Phone 8 | 12 GB RAM / 256 GB storage · Storm Gray | `device_fca6be23997740-12-256-gray-ph` | 11 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | ASUS | ROG Phone 8 Pro | 16 GB RAM / 512 GB storage · Phantom Black | `device_92c3d063a77fd3-16-512-ph` | 11 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | ASUS | ROG Phone 8 Pro | 24 GB RAM / 1 TB storage · Phantom Black · Pro Edition | `device_92c3d063a77fd3-24-1024-ph` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | REDMAGIC | 9 Pro | 12 GB RAM / 256 GB storage | `device_756f45cfe5400c-auto-12gb-256gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | REDMAGIC | 9 Pro | 16 GB RAM / 512 GB storage | `device_756f45cfe5400c-auto-16gb-512gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Nothing | Phone (3a) Lite | 8 GB RAM / 128 GB storage | `device_7d1a06486f5fce-auto-8gb-128gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Nothing | Phone (3a) Lite | 8 GB RAM / 256 GB storage | `device_7d1a06486f5fce-auto-8gb-256gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
+| 2025 | smartphones | OnePlus | 13 | 12 GB RAM / 256 GB storage (OnePlus Philippines spec page) | `device_edc07536e9cd09-12-256-phspec` | 11 | 45 | SPECIFICATION_INCOMPLETE |
+| 2025 | smartphones | OnePlus | 13 | 16 GB RAM / 512 GB storage (OnePlus Philippines spec page) | `device_edc07536e9cd09-16-512-phspec` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | OnePlus | 15 | 12 GB RAM / 256 GB storage | `device_613da26efd7a82-auto-12gb-256gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | OnePlus | 15 | 16 GB RAM / 512 GB storage | `device_613da26efd7a82-auto-16gb-512gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | OnePlus | Nord 5 | 8 GB RAM / 128 GB storage | `device_8ff869a1c2cd22-auto-8gb-128gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
@@ -554,11 +563,8 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | Redmi | 15C | 6 GB RAM / 128 GB storage | `device_37b298a84397b6-auto-6gb-128gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Redmi | 15C | 8 GB RAM / 256 GB storage | `device_37b298a84397b6-auto-8gb-256gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | Unassigned | tablets | Redmi | Pad 2 Pro | 8 GB / 256 GB | `config_4efe2baa687b69` | 11 | 48 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | Samsung | Galaxy S24 Ultra | 12 GB RAM / 256 GB storage | `device_32624044543da4-auto-12gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | Samsung | Galaxy S24 Ultra | 12 GB RAM / 512 GB storage | `device_32624044543da4-auto-12gb-512gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Xiaomi | 14 | Configuration not recorded | `device_e2f76126f7f83b-unrecorded` | 10 | 45 | SPECIFICATION_INCOMPLETE |
-| 2023 | smartphones | ASUS | ROG Phone 7 | 12 GB RAM / 256 GB storage | `device_3f9fd3e4da0935-auto-12gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
-| 2023 | smartphones | ASUS | ROG Phone 7 | 16 GB RAM / 512 GB storage | `device_3f9fd3e4da0935-auto-16gb-512gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
+| 2022 | smartphones | ASUS | ROG Phone 6 | 12 GB RAM / 256 GB storage | `device_67c3c6cf323fd4-auto-12gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Nothing | Phone (2a) | 8 GB RAM / 128 GB storage | `device_c98433a0c7ffce-auto-8gb-128gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Nothing | Phone (2a) | 12 GB RAM / 256 GB storage | `device_c98433a0c7ffce-auto-12gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Redmi | 14C | 4 GB RAM / 128 GB storage | `device_42b5f469649788-auto-4gb-128gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
@@ -569,13 +575,20 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | Samsung | Galaxy S26 FE | 8 GB RAM / 128 GB storage | `device_6c173ec56f86ac-auto-8gb-128gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | Galaxy S26 FE | 8 GB RAM / 256 GB storage | `device_6c173ec56f86ac-auto-8gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | Galaxy S26 FE | 8 GB RAM / 512 GB storage | `device_6c173ec56f86ac-auto-8gb-512gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | Samsung | Galaxy S24 | 8 GB RAM / 256 GB storage | `device_f1fa8c58ea3104-auto-8gb-256gb` | 9 | 45 | SPECIFICATION_INCOMPLETE |
-| 2024 | smartphones | Samsung | Galaxy S24 | 8 GB RAM / 512 GB storage | `device_f1fa8c58ea3104-auto-8gb-512gb` | 9 | 45 | SPECIFICATION_INCOMPLETE |
+| 2022 | smartphones | ASUS | ROG Phone 6 | 16 GB RAM / 512 GB storage | `device_67c3c6cf323fd4-auto-16gb-512gb` | 9 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Xiaomi | Pad 8 | 8 GB / 256 GB | `config_6d5db11cec127a` | 9 | 48 | SPECIFICATION_INCOMPLETE |
+| 2023 | smartphones | ASUS | ROG Phone 7 | 12 GB RAM / 256 GB storage | `device_3f9fd3e4da0935-auto-12gb-256gb` | 8 | 45 | SPECIFICATION_INCOMPLETE |
+| 2023 | smartphones | ASUS | ROG Phone 7 | 16 GB RAM / 512 GB storage | `device_3f9fd3e4da0935-auto-16gb-512gb` | 8 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Redmi | 13 | 8 GB RAM / 256 GB storage | `device_8ee4324c75a16a-auto-8gb-256gb` | 8 | 45 | SPECIFICATION_INCOMPLETE |
+| 2023 | smartphones | Huawei | P60 Pro | 8 GB RAM / 256 GB storage | `device_a41c76670e8533-auto-8gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Xiaomi | Pad Mini | 8 GB / 256 GB | `config_4b5c4d8d92c12d` | 7 | 48 | SPECIFICATION_INCOMPLETE |
+| 2025 | smartphones | ASUS | ROG Phone 9 FE | 12 GB RAM / 256 GB storage | `device_59b130760709ea-auto-12gb-256gb` | 6 | 45 | SPECIFICATION_INCOMPLETE |
 | Unassigned | laptops | Acer | Predator Helios Neo 16 PHN16-72-99K9 | NH.QNNSP.003 | `config_7e6c1ccdc91313` | 5 | 41 | SPECIFICATION_INCOMPLETE |
 | Unassigned | smartphones | Redmi | Note 14 Pro 5G | 8 GB RAM / 128 GB storage | `device_b4990c6cf5cce8-auto-8gb-128gb` | 5 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | Samsung | Galaxy S24 | 8 GB RAM / 256 GB storage | `device_f1fa8c58ea3104-auto-8gb-256gb` | 7 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | Samsung | Galaxy S24 | 8 GB RAM / 512 GB storage | `device_f1fa8c58ea3104-auto-8gb-512gb` | 7 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | Samsung | Galaxy S24 Ultra | 12 GB RAM / 256 GB storage | `device_32624044543da4-auto-12gb-256gb` | 6 | 45 | SPECIFICATION_INCOMPLETE |
+| 2024 | smartphones | Samsung | Galaxy S24 Ultra | 12 GB RAM / 512 GB storage | `device_32624044543da4-auto-12gb-512gb` | 6 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Xiaomi | 15T | 12 GB RAM / 256 GB storage | `device_cec396af42f346-auto-12gb-256gb` | 5 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Xiaomi | 15T | 12 GB RAM / 512 GB storage | `device_cec396af42f346-auto-12gb-512gb` | 5 | 45 | SPECIFICATION_INCOMPLETE |
 | 2025 | smartphones | Xiaomi | 15T Pro | 12 GB RAM / 256 GB storage | `device_7c9508acf8b24a-auto-12gb-256gb` | 5 | 45 | SPECIFICATION_INCOMPLETE |
