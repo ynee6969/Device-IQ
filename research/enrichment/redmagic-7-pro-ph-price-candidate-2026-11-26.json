@@ -1,0 +1,146 @@
+{
+  "run_at": "2026-11-26T18:40:06+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_5e189eced7d16d",
+      "brand": "REDMAGIC",
+      "model_name": "REDMAGIC 7 Pro",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_5e189eced7d16d",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC 2022 GEC lists REDMAGIC model NX709J as REDMAGIC 7 Pro."
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "source_url": "https://unbox.ph/gadget/red-magic-7-pro-goes-global-whats-different/",
+      "result": "Unbox reports the global version sale date as April 27, 2022, including the Philippines, and describes its two international configurations."
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "source_url": "https://www.gizguide.com/2022/04/redmagic-7-pro-arrives-in-philippines.html",
+      "result": "GIZGUIDE attributes the two Philippine global configurations and PHP 45,999 / PHP 49,999 launch prices to local distributor XUNDD."
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "source_url": "https://www.noypigeeks.com/android/redmagic-7-pro-philippines/",
+      "result": "NoypiGeeks independently confirms XUNDD distribution, the exact configurations, and the same dated launch prices."
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "source_url": "https://global.redmagic.gg/blogs/press/redmagic-7-pro-review-on-sale-in-international-markets",
+      "result": "REDMAGIC global confirms international 16/256 Obsidian and 16/512 Supernova variants and 65 W global charging; China-market charging is not applied."
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC model NX709J is matched to REDMAGIC 7 Pro; technical sources disagree on Wi-Fi generation and the 2 MP camera function."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_5e189eced7d16d",
+      "amount_php": 45999,
+      "configuration_id": "device_5e189eced7d16d-16gb-256gb-ph",
+      "configuration_match": "exact_philippine_16gb_256gb_obsidian_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-04-30",
+      "excerpt": "XUNDD-attributed Philippine launch price: REDMAGIC 7 Pro 16 GB RAM / 256 GB storage (Obsidian) listed at PHP 45,999; historical launch price, not a current offer.",
+      "source_url": "https://www.gizguide.com/2022/04/redmagic-7-pro-arrives-in-philippines.html",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:40:06+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "amount_php": 45999,
+      "configuration_id": "device_5e189eced7d16d-16gb-256gb-ph",
+      "configuration_match": "exact_philippine_16gb_256gb_obsidian_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-05-01",
+      "excerpt": "Philippine distributor availability and launch price: REDMAGIC 7 Pro 16 GB RAM / 256 GB storage (Obsidian) listed at PHP 45,999; historical launch price, not a current offer.",
+      "source_url": "https://manilashaker.com/nubia-redmagic-7-pro-5g-specs-price-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:40:06+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "amount_php": 45999,
+      "configuration_id": "device_5e189eced7d16d-16gb-256gb-ph",
+      "configuration_match": "exact_philippine_16gb_256gb_obsidian_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-05-02",
+      "excerpt": "Independent Philippine launch price report: REDMAGIC 7 Pro 16 GB RAM / 256 GB storage (Obsidian) listed at PHP 45,999; historical launch price, not a current offer.",
+      "source_url": "https://www.noypigeeks.com/android/redmagic-7-pro-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:40:06+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "amount_php": 49999,
+      "configuration_id": "device_5e189eced7d16d-16gb-512gb-ph",
+      "configuration_match": "exact_philippine_16gb_512gb_supernova_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-04-30",
+      "excerpt": "XUNDD-attributed Philippine launch price: REDMAGIC 7 Pro 16 GB RAM / 512 GB storage (Supernova) listed at PHP 49,999; historical launch price, not a current offer.",
+      "source_url": "https://www.gizguide.com/2022/04/redmagic-7-pro-arrives-in-philippines.html",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:40:06+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "amount_php": 49999,
+      "configuration_id": "device_5e189eced7d16d-16gb-512gb-ph",
+      "configuration_match": "exact_philippine_16gb_512gb_supernova_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-05-01",
+      "excerpt": "Philippine distributor availability and launch price: REDMAGIC 7 Pro 16 GB RAM / 512 GB storage (Supernova) listed at PHP 49,999; historical launch price, not a current offer.",
+      "source_url": "https://manilashaker.com/nubia-redmagic-7-pro-5g-specs-price-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:40:06+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_5e189eced7d16d",
+      "amount_php": 49999,
+      "configuration_id": "device_5e189eced7d16d-16gb-512gb-ph",
+      "configuration_match": "exact_philippine_16gb_512gb_supernova_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-05-02",
+      "excerpt": "Independent Philippine launch price report: REDMAGIC 7 Pro 16 GB RAM / 512 GB storage (Supernova) listed at PHP 49,999; historical launch price, not a current offer.",
+      "source_url": "https://www.noypigeeks.com/android/redmagic-7-pro-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:40:06+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}

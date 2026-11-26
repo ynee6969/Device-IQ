@@ -68,8 +68,18 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [375, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 574);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [376, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 575);
+const redmagic7Pro = publicDevices.find((device) => device.id === "device_5e189eced7d16d");
+assert.ok(redmagic7Pro);
+assert.equal(redmagic7Pro.modelNumber, "NX709J");
+assert.equal(redmagic7Pro.scopeStatus, "Pending");
+assert.equal(redmagic7Pro.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(redmagic7Pro.variants.map((variant) => variant.label), [
+  "16 GB RAM / 256 GB storage (Obsidian)",
+  "16 GB RAM / 512 GB storage (Supernova)",
+]);
+assert.ok(redmagic7Pro.variants.every((variant) => variant.pricePhp === null));
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");

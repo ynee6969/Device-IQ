@@ -154009,6 +154009,1357 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_5e189eced7d16d",
+      "configurationId": "device_5e189eced7d16d-16gb-256gb-ph",
+      "brand": "REDMAGIC",
+      "model": "REDMAGIC 7 Pro",
+      "configuration": "16 GB RAM / 256 GB storage (Obsidian)",
+      "configurationLabel": "16 GB RAM / 256 GB storage (Obsidian)",
+      "modelCode": "NX709J",
+      "sources": [
+        {
+          "id": "redmagic_7_pro_ntc",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine equipment registration and exact model-name match",
+          "note": "The NTC 2022 GEC lists REDMAGIC model NX709J as REDMAGIC 7 Pro. Registration supports the model identity in the Philippine regulatory record; it does not by itself prove a retail configuration."
+        },
+        {
+          "id": "redmagic_7_pro_global",
+          "publisher": "REDMAGIC Global",
+          "url": "https://global.redmagic.gg/blogs/press/redmagic-7-pro-review-on-sale-in-international-markets",
+          "publicationDate": "2022-05-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Official international-version hardware, software, and release cross-check",
+          "note": "REDMAGIC's international-version launch recap distinguishes the global model from the China-market version, identifies 16 GB RAM with Obsidian 256 GB and Supernova 512 GB, Android 12 / REDMAGIC OS 5.0, 6.8-inch 120 Hz display, cameras, 5,000 mAh battery, and 65 W global charging. China-market 135 W charging is not applied to the Philippine version."
+        },
+        {
+          "id": "redmagic_7_pro_global_announce",
+          "publisher": "REDMAGIC Global",
+          "url": "https://global.redmagic.gg/blogs/news/pro-vision-gaming-is-almost-here",
+          "publicationDate": "2022-04-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Official international-version announcement date",
+          "note": "REDMAGIC published its REDMAGIC 7 Pro international-arrival announcement on April 12, 2022. This is the global announcement date; REDMAGIC's later product news and Philippine reports document availability separately."
+        },
+        {
+          "id": "redmagic_7_pro_unbox_ph",
+          "publisher": "Unbox Philippines",
+          "url": "https://unbox.ph/gadget/red-magic-7-pro-goes-global-whats-different/",
+          "publicationDate": "2022-04-13",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch timing and international hardware configuration",
+          "note": "Published April 13, 2022. Identifies the global model as launching in markets including the Philippines, with an April 22 early-bird period and an April 27 official sale date. It lists 16 GB LPDDR5 with 256/512 GB UFS 3.1, 120 Hz AMOLED, 16 MP under-display camera, 5,000 mAh battery, and 65 W global charging. It reports Bluetooth 5.1, which conflicts with REDMAGIC's press release and other exact-model records specifying 5.2."
+        },
+        {
+          "id": "redmagic_7_pro_gizguide_ph",
+          "publisher": "GIZGUIDE Philippines",
+          "url": "https://www.gizguide.com/2022/04/redmagic-7-pro-arrives-in-philippines.html",
+          "publicationDate": "2022-04-30",
+          "accessDate": "2026-11-26",
+          "purpose": "Local XUNDD availability, Philippine configuration names, and launch prices",
+          "note": "Published April 30, 2022. Reports the global REDMAGIC 7 Pro was available in the Philippines from XUNDD, naming 16/256 Obsidian at PHP 45,999 and 16/512 Supernova at PHP 49,999. The report attributes the information to XUNDD; it is a historical launch price, not a current offer."
+        },
+        {
+          "id": "redmagic_7_pro_noypi_ph",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/redmagic-7-pro-philippines/",
+          "publicationDate": "2022-05-02",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent local configuration, price, and technical cross-check",
+          "note": "Published May 2, 2022. Confirms XUNDD distribution in the Philippines, 16/256 Obsidian at PHP 45,999, and 16/512 Supernova at PHP 49,999. Its detailed list describes dual SIM, 5G, Wi-Fi 6E, Bluetooth 5.2, 5,000 mAh, and cameras; Wi-Fi 6E differs from the 802.11ax/Wi-Fi 6 description in REDMAGIC's global press material and local YugaTech coverage, so the catalog leaves the Wi-Fi generation unresolved."
+        },
+        {
+          "id": "redmagic_7_pro_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/smartphone-price-list-philippines-2022/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine price-list corroboration and release month",
+          "note": "The 2022 Philippine smartphone price list gives PHP 45,999 for 16/256 Obsidian and PHP 49,999 for 16/512 Supernova and places the model in May. Used as a dated local price cross-check, not as current pricing."
+        },
+        {
+          "id": "redmagic_7_pro_yugatech_specs",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/nubia-redmagic-7-pro-launched-globally/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "International variant matrix and connectivity cross-check",
+          "note": "YugaTech's exact-model global launch article identifies the global 16/256 Obsidian and 16/512 Supernova variants and describes Wi-Fi 6/802.11ax. Philippine launch coverage separately documents the local distributor and prices."
+        },
+        {
+          "id": "redmagic_7_pro_manilashaker_ph",
+          "publisher": "ManilaShaker Philippines",
+          "url": "https://manilashaker.com/nubia-redmagic-7-pro-5g-specs-price-philippines/",
+          "publicationDate": "2022-05-01",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine availability, variant, and price cross-check",
+          "note": "Published May 1, 2022. Reports that the global REDMAGIC 7 Pro was available through XUNDD in the Philippines, with the same two memory/color variants and PHP 45,999 / PHP 49,999 prices."
+        },
+        {
+          "id": "redmagic_7_pro_qualcomm",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-1-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Snapdragon 8 Gen 1 platform reference",
+          "note": "Qualcomm's product page documents the Snapdragon 8 Gen 1 platform and Adreno 730 graphics family. Platform capabilities are not substituted for handset-specific implementation details."
+        },
+        {
+          "id": "redmagic_7_pro_qualcomm_brief",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary chipset process and CPU capability reference",
+          "note": "Qualcomm's Snapdragon 8 Gen 1 product brief gives a 4 nm process and Kryo CPU up to 3.0 GHz with Cortex-X2 technology. Detailed core clusters are cross-checked against NanoReview and are not handset benchmark claims."
+        },
+        {
+          "id": "redmagic_7_pro_nanoreview",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/phone/zte-nubia-red-magic-7-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model secondary hardware cross-check",
+          "note": "Exact REDMAGIC 7 Pro page used for display, camera, battery, connectivity, audio, and sensor cross-checks. Regional claims are not treated as evidence of Philippine sales; the locally documented global configuration and REDMAGIC's global source take precedence."
+        },
+        {
+          "id": "redmagic_7_pro_nanoreview_soc",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/soc/qualcomm-snapdragon-8-gen-1",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent chipset architecture cross-check",
+          "note": "Used for Snapdragon 8 Gen 1 CPU cluster details only. Device benchmark scores are not copied into the catalog."
+        },
+        {
+          "id": "redmagic_7_pro_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-nubia-red-magic-7-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model regional configuration and technical cross-check",
+          "note": "The exact model page distinguishes Global 16/256 and 16/512 configurations from China-market variants. Its global variant matrix corroborates the local memory/color pairings; regional price listings are not used as Philippine prices."
+        },
+        {
+          "id": "redmagic_7_pro_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/zte_nubia_red_magic_7_pro-11364.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact model code, build, media, connectivity, and battery cross-check",
+          "note": "Exact model code NX709J. The listing reports 166.3 x 77.1 x 10 mm, 235 g, UFS 3.1, video modes, dual SIM, Wi-Fi 6E, Bluetooth 5.2, and the global 65 W charging version. Wi-Fi generation conflicts with REDMAGIC's Wi-Fi 6/802.11ax material and remains unset."
+        },
+        {
+          "id": "redmagic_7_pro_aptx",
+          "publisher": "Qualcomm aptX product registry",
+          "url": "https://www.aptx.com/products/redmagic-nx709j",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Model-code and Bluetooth cross-check",
+          "note": "The registry explicitly maps model NX709J to marketing name REDMAGIC 7 Pro and lists Bluetooth 5.2 and a 6.8-inch display. Its broad hardware family/RAM matrix includes China configurations, so only the code/name and Bluetooth details are used here."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_ntc",
+          "sourceValue": "NTC lists REDMAGIC model NX709J as REDMAGIC 7 Pro",
+          "normalizedValue": "NX709J",
+          "note": "Exact model code and marketed name match the NTC GEC entry and REDMAGIC 7 Pro sources.",
+          "configurationMatch": "REDMAGIC 7 Pro global version; both Philippine configurations"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global_announce",
+          "sourceValue": "REDMAGIC Global's international REDMAGIC 7 Pro announcement is dated April 12, 2022; reported order start was April 27",
+          "normalizedValue": "2022-04-12",
+          "note": "Use the official announcement date as global launch. The April 27 date marks reported order availability and is recorded in the Philippine sale-date field.",
+          "configurationMatch": "REDMAGIC 7 Pro global version"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "Philippine global version: 16 GB RAM / 256 GB storage, Obsidian",
+          "normalizedValue": "16 GB RAM / 256 GB storage (Obsidian)",
+          "note": "XUNDD-attributed Philippine launch coverage and REDMAGIC's global variant list identify the distinct Obsidian 16/256 and Supernova 16/512 configurations.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Reported official sale date for the global REDMAGIC 7 Pro including the Philippines: April 27, 2022; local XUNDD availability reported April 30",
+          "normalizedValue": "2022-04-27",
+          "note": "April 27 is the reported official sale start; GIZGUIDE subsequently documented that the phone was available locally through XUNDD. The date denotes reported launch availability, not present stock.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro global launch; both configurations"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "XUNDD-attributed Philippine launch price: PHP 45,999 for 16 GB / 256 GB (Obsidian)",
+          "normalizedValue": 45999,
+          "note": "GIZGUIDE, NoypiGeeks, ManilaShaker, and YugaTech's 2022 price list corroborate this dated launch price for the exact configuration. This is not a current price.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmagic_7_pro_kimovil",
+          "sourceValue": "No current dated, orderable Philippine offer was verified; Kimovil's reviewed global listing showed no live price",
+          "normalizedValue": null,
+          "note": "Keep current price blank. Preserve the sourced 2022 launch price as historical data only.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "6.8-inch AMOLED display",
+          "normalizedValue": 6.8,
+          "note": "REDMAGIC global and Philippine launch sources agree on display size.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.8,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "note": "Official global and local sources identify an AMOLED panel.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Full HD+ 1080 x 2400 pixels",
+          "normalizedValue": "1080 x 2400",
+          "note": "Local launch coverage and exact-model references agree on 1080 x 2400.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "120 Hz refresh rate",
+          "normalizedValue": 120,
+          "note": "REDMAGIC global and Philippine sources identify a 120 Hz panel.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic_7_pro_noypi_ph",
+          "sourceValue": "Local sources report 600-nit maximum/peak or 700 nits; GSMArena's measured result is a different test value",
+          "normalizedValue": null,
+          "note": "Published brightness values differ by source and likely measurement convention. Leave normalized brightness blank rather than presenting one figure as directly comparable.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Corning Gorilla Glass 5",
+          "normalizedValue": "Corning Gorilla Glass 5",
+          "note": "REDMAGIC global and Philippine launch specifications list Gorilla Glass 5.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 1 (SM8450)",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1",
+          "note": "Official global material and Philippine launch coverage agree on Snapdragon 8 Gen 1.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_qualcomm_brief",
+          "sourceValue": "4 nm process technology",
+          "normalizedValue": 4,
+          "note": "Qualcomm's product brief specifies a 4 nm process for Snapdragon 8 Gen 1.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_nanoreview_soc",
+          "sourceValue": "1x Cortex-X2 up to 3.0 GHz + 3x Cortex-A710 up to 2.5 GHz + 4x Cortex-A510 up to 1.8 GHz",
+          "normalizedValue": "1x Cortex-X2 3.0 GHz + 3x Cortex-A710 2.5 GHz + 4x Cortex-A510 1.8 GHz",
+          "note": "NanoReview's Snapdragon 8 Gen 1 cluster details; Qualcomm independently confirms the 3.0 GHz Cortex-X2-class platform. This describes the chipset, not benchmark performance.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "cpu",
+          "catalogValue": "1x Cortex-X2 3.0 GHz + 3x Cortex-A710 2.5 GHz + 4x Cortex-A510 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_qualcomm",
+          "sourceValue": "Qualcomm Adreno 730",
+          "normalizedValue": "Qualcomm Adreno 730",
+          "note": "Qualcomm platform reference and exact-model specifications identify Adreno 730.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 730"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Android 12 with REDMAGIC OS 5.0 at launch",
+          "normalizedValue": "Android 12 with REDMAGIC OS 5.0",
+          "note": "REDMAGIC's international launch source and local launch coverage identify the factory launch software; no later upgrade is substituted.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 with REDMAGIC OS 5.0"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "No guaranteed OS-upgrade or security-support duration found in the reviewed manufacturer material",
+          "normalizedValue": null,
+          "note": "Do not infer a support period from the device's later software state.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "16 GB RAM",
+          "normalizedValue": 16,
+          "note": "Both locally reported global variants use 16 GB RAM.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "ramGb",
+          "catalogValue": 16,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "LPDDR5 RAM",
+          "normalizedValue": "LPDDR5",
+          "note": "Philippine launch coverage and the international specification identify LPDDR5 memory.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "256 GB internal storage",
+          "normalizedValue": 256,
+          "note": "Exact capacity belongs to the local color/configuration pair listed by XUNDD-attributed coverage and REDMAGIC's global variant matrix.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "UFS 3.1 internal storage",
+          "normalizedValue": "UFS 3.1",
+          "note": "REDMAGIC global, Unbox, and exact-model technical references identify UFS 3.1.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "No microSD card slot listed",
+          "normalizedValue": "No microSD slot",
+          "note": "Exact-model hardware references list fixed internal storage and no card slot.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "64 MP main + 8 MP ultrawide + 2 MP third rear camera; sources differ on whether the 2 MP module is macro or depth",
+          "normalizedValue": "64 MP main + 8 MP ultrawide + 2 MP third module",
+          "note": "The camera resolutions and three-module layout are consistent, but the third module is called macro in some references and depth in others. Avoid asserting a specific function until the discrepancy is resolved.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_nanoreview",
+          "sourceValue": "No source reviewed establishes the exact main camera sensor part number for the Philippine global configurations",
+          "normalizedValue": null,
+          "note": "Do not infer a sensor model from resolution or chipset compatibility.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "8 MP ultrawide camera; 120-degree field of view is listed by local specifications",
+          "normalizedValue": "8 MP ultrawide, 120-degree field of view",
+          "note": "Philippine launch sources confirm the module; the field-of-view figure is secondary technical detail.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "No telephoto camera; the rear array consists of main, ultrawide, and a 2 MP macro/depth module",
+          "normalizedValue": "No telephoto camera",
+          "note": "The documented three-camera array has no telephoto module.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "16 MP under-display selfie camera",
+          "normalizedValue": 16,
+          "note": "REDMAGIC global and Philippine launch sources identify the 16 MP under-display camera.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Rear video up to 8K/30 fps and 4K/60 fps; front video up to 1080p/60 fps",
+          "normalizedValue": "Rear up to 8K/30 fps and 4K/60 fps; front up to 1080p/60 fps",
+          "note": "Exact-model technical specification cross-check. These are published maximum modes, not a guarantee that every codec or stabilization mode is available at each resolution.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "5,000 mAh battery",
+          "normalizedValue": 5000,
+          "note": "REDMAGIC global and Philippine sources agree on 5,000 mAh for the international model.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Li-Po, non-removable battery",
+          "normalizedValue": "Li-Po; non-removable",
+          "note": "Exact-model hardware listings identify Li-Po chemistry and a non-removable battery.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "65 W wired charging for the international version",
+          "normalizedValue": 65,
+          "note": "REDMAGIC explicitly distinguishes 65 W global charging from 135 W China charging; the global value is used for Philippine variants.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "chargingW",
+          "catalogValue": 65,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Wireless charging support not stated in the reviewed official launch material",
+          "normalizedValue": null,
+          "note": "No wireless charging value is inferred from absence in promotional material.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "166.3 x 77.1 x 10 mm",
+          "normalizedValue": "166.3 x 77.1 x 10 mm",
+          "note": "Exact-model global dimensions from independent hardware listings; minor hundredth-millimeter rounding differences appear in secondary sources.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "dimensions",
+          "catalogValue": "166.3 x 77.1 x 10 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "235 g",
+          "normalizedValue": 235,
+          "note": "GSMArena, Kimovil, and Philippine launch coverage agree on 235 g.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "weightG",
+          "catalogValue": 235,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Glass front with Gorilla Glass 5, glass back, aluminum frame",
+          "normalizedValue": "Gorilla Glass 5 front; glass back; aluminum frame",
+          "note": "Exact-model build description; no additional coating or material is inferred.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "No IP rating found in the reviewed manufacturer or Philippine launch specifications",
+          "normalizedValue": null,
+          "note": "Keep certification blank; the absence of an IP rating in reviewed pages is not a water-resistance guarantee or proof that no certification exists.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "Dual Nano-SIM global version; eSIM support not recorded",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "Local and exact-model specifications identify dual SIM; reviewed sources do not establish eSIM support for the Philippine unit.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Philippine launch material identifies 4G LTE and 5G; complete local band set not published in reviewed sources",
+          "normalizedValue": "4G LTE and 5G; local band list not recorded",
+          "note": "Record network generations only. Do not infer Philippine carrier compatibility from another region's band table.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE and 5G; local band list not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic_7_pro_yugatech_specs",
+          "sourceValue": "YugaTech reports 802.11ax/Wi-Fi 6; NoypiGeeks and GSMArena report Wi-Fi 6E",
+          "normalizedValue": null,
+          "note": "Wi-Fi generation conflicts across secondary sources. The reviewed official global launch recap does not resolve the 6/6E distinction; leave the normalized Wi-Fi value blank pending a regional technical declaration.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_aptx",
+          "sourceValue": "Bluetooth 5.2; one local launch article says 5.1",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "The model-specific Qualcomm registry, REDMAGIC global press material, and GSMArena specify Bluetooth 5.2; Unbox lists 5.1, which is recorded as a source discrepancy.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "USB Type-C 3.0 with OTG",
+          "normalizedValue": "USB Type-C 3.0; OTG",
+          "note": "Exact-model technical references list Type-C 3.0 and OTG; Philippine coverage confirms Type-C.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C 3.0; OTG"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_noypi_ph",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "Yes",
+          "note": "Philippine launch technical lists and exact-model references identify NFC.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "GPS (L1+L5), GLONASS, BeiDou, and Galileo",
+          "normalizedValue": "GPS (L1+L5), GLONASS, BeiDou, Galileo",
+          "note": "Exact-model reference lists the named positioning systems; no additional GNSS support is inferred.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS (L1+L5), GLONASS, BeiDou, Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Stereo speakers and 3.5 mm audio jack",
+          "normalizedValue": "Stereo speakers; 3.5 mm audio jack",
+          "note": "Philippine launch coverage identifies stereo speakers and the headphone jack.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; 3.5 mm audio jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Under-display optical fingerprint sensor, accelerometer, gyroscope, proximity sensor, and compass",
+          "normalizedValue": "Under-display fingerprint, accelerometer, gyroscope, proximity, compass",
+          "note": "Exact-model sensor listing; no barometer or other sensor is inferred.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 256 GB storage (Obsidian)"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch coverage reports the REDMAGIC 7 Pro global version available through local distributor XUNDD. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Philippine technology coverage reports the international REDMAGIC 7 Pro available through XUNDD in late April 2022. The locally identified configurations are 16 GB / 256 GB Obsidian and 16 GB / 512 GB Supernova. Historical launch prices are PHP 45,999 and PHP 49,999 respectively. Current stock and price have not been verified.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "ZTE Corporation (nubia / REDMAGIC)",
+        "catalogModel": "REDMAGIC 7 Pro",
+        "productLine": "REDMAGIC 7 Series",
+        "modelNumber": "NX709J",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported Philippine sale start date",
+        "researchNotes": "Workbook row 85 REDMAGIC 7 Pro matches NTC model NX709J and the international REDMAGIC variant family. Local XUNDD-attributed coverage identifies two distinct color/configuration pairs: Obsidian 16/256 and Supernova 16/512. The international version's 65 W charging, not the China version's 135 W, is used. Current price remains blank; 2022 launch prices are retained as historical values. Workbook eligibility remains Pending.",
+        "qualityFlag": "NTC model match and two Philippine global configurations verified; 2022 launch prices corroborated; current price unavailable; display brightness, third rear-camera function, and Wi-Fi generation remain unresolved; workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "YugaTech lists Wi-Fi 6/802.11ax, while NoypiGeeks and GSMArena list Wi-Fi 6E; the reviewed manufacturer global article does not resolve the distinction",
+            "action": "Leave the Wi-Fi field blank until a definitive regional specification resolves the conflict."
+          },
+          {
+            "issue": "The 2 MP third rear camera is described as macro by some sources and depth by others",
+            "action": "Record a 2 MP third rear module without asserting a function."
+          },
+          {
+            "issue": "Display brightness figures vary by source and measurement convention",
+            "action": "Leave normalized brightness blank."
+          },
+          {
+            "issue": "No current dated, orderable Philippine price was verified",
+            "action": "Keep current price blank and retain launch prices as historical only."
+          },
+          {
+            "issue": "Exact product images are present on manufacturer and Philippine sources, but reuse rights are not established",
+            "action": "Keep the neutral placeholder until image reuse terms or permission are documented."
+          },
+          {
+            "issue": "Workbook eligibility is Pending",
+            "action": "Preserve the study's Pending status."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_5e189eced7d16d-16gb-256gb-ph",
+          "label": "16 GB RAM / 256 GB storage (Obsidian)",
+          "sku": null,
+          "modelCode": "NX709J",
+          "notes": "XUNDD-attributed Philippine launch coverage identifies 16 GB RAM / 256 GB storage (Obsidian) at PHP 45,999; historical launch price only, current offer not verified.",
+          "workbookRow": 85
+        },
+        {
+          "id": "device_5e189eced7d16d-16gb-512gb-ph",
+          "label": "16 GB RAM / 512 GB storage (Supernova)",
+          "sku": null,
+          "modelCode": "NX709J",
+          "notes": "XUNDD-attributed Philippine launch coverage identifies 16 GB RAM / 512 GB storage (Supernova) at PHP 49,999; historical launch price only, current offer not verified.",
+          "workbookRow": 85
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_5e189eced7d16d",
+      "configurationId": "device_5e189eced7d16d-16gb-512gb-ph",
+      "brand": "REDMAGIC",
+      "model": "REDMAGIC 7 Pro",
+      "configuration": "16 GB RAM / 512 GB storage (Supernova)",
+      "configurationLabel": "16 GB RAM / 512 GB storage (Supernova)",
+      "modelCode": "NX709J",
+      "sources": [
+        {
+          "id": "redmagic_7_pro_ntc",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine equipment registration and exact model-name match",
+          "note": "The NTC 2022 GEC lists REDMAGIC model NX709J as REDMAGIC 7 Pro. Registration supports the model identity in the Philippine regulatory record; it does not by itself prove a retail configuration."
+        },
+        {
+          "id": "redmagic_7_pro_global",
+          "publisher": "REDMAGIC Global",
+          "url": "https://global.redmagic.gg/blogs/press/redmagic-7-pro-review-on-sale-in-international-markets",
+          "publicationDate": "2022-05-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Official international-version hardware, software, and release cross-check",
+          "note": "REDMAGIC's international-version launch recap distinguishes the global model from the China-market version, identifies 16 GB RAM with Obsidian 256 GB and Supernova 512 GB, Android 12 / REDMAGIC OS 5.0, 6.8-inch 120 Hz display, cameras, 5,000 mAh battery, and 65 W global charging. China-market 135 W charging is not applied to the Philippine version."
+        },
+        {
+          "id": "redmagic_7_pro_global_announce",
+          "publisher": "REDMAGIC Global",
+          "url": "https://global.redmagic.gg/blogs/news/pro-vision-gaming-is-almost-here",
+          "publicationDate": "2022-04-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Official international-version announcement date",
+          "note": "REDMAGIC published its REDMAGIC 7 Pro international-arrival announcement on April 12, 2022. This is the global announcement date; REDMAGIC's later product news and Philippine reports document availability separately."
+        },
+        {
+          "id": "redmagic_7_pro_unbox_ph",
+          "publisher": "Unbox Philippines",
+          "url": "https://unbox.ph/gadget/red-magic-7-pro-goes-global-whats-different/",
+          "publicationDate": "2022-04-13",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch timing and international hardware configuration",
+          "note": "Published April 13, 2022. Identifies the global model as launching in markets including the Philippines, with an April 22 early-bird period and an April 27 official sale date. It lists 16 GB LPDDR5 with 256/512 GB UFS 3.1, 120 Hz AMOLED, 16 MP under-display camera, 5,000 mAh battery, and 65 W global charging. It reports Bluetooth 5.1, which conflicts with REDMAGIC's press release and other exact-model records specifying 5.2."
+        },
+        {
+          "id": "redmagic_7_pro_gizguide_ph",
+          "publisher": "GIZGUIDE Philippines",
+          "url": "https://www.gizguide.com/2022/04/redmagic-7-pro-arrives-in-philippines.html",
+          "publicationDate": "2022-04-30",
+          "accessDate": "2026-11-26",
+          "purpose": "Local XUNDD availability, Philippine configuration names, and launch prices",
+          "note": "Published April 30, 2022. Reports the global REDMAGIC 7 Pro was available in the Philippines from XUNDD, naming 16/256 Obsidian at PHP 45,999 and 16/512 Supernova at PHP 49,999. The report attributes the information to XUNDD; it is a historical launch price, not a current offer."
+        },
+        {
+          "id": "redmagic_7_pro_noypi_ph",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/redmagic-7-pro-philippines/",
+          "publicationDate": "2022-05-02",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent local configuration, price, and technical cross-check",
+          "note": "Published May 2, 2022. Confirms XUNDD distribution in the Philippines, 16/256 Obsidian at PHP 45,999, and 16/512 Supernova at PHP 49,999. Its detailed list describes dual SIM, 5G, Wi-Fi 6E, Bluetooth 5.2, 5,000 mAh, and cameras; Wi-Fi 6E differs from the 802.11ax/Wi-Fi 6 description in REDMAGIC's global press material and local YugaTech coverage, so the catalog leaves the Wi-Fi generation unresolved."
+        },
+        {
+          "id": "redmagic_7_pro_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/smartphone-price-list-philippines-2022/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine price-list corroboration and release month",
+          "note": "The 2022 Philippine smartphone price list gives PHP 45,999 for 16/256 Obsidian and PHP 49,999 for 16/512 Supernova and places the model in May. Used as a dated local price cross-check, not as current pricing."
+        },
+        {
+          "id": "redmagic_7_pro_yugatech_specs",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/nubia-redmagic-7-pro-launched-globally/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "International variant matrix and connectivity cross-check",
+          "note": "YugaTech's exact-model global launch article identifies the global 16/256 Obsidian and 16/512 Supernova variants and describes Wi-Fi 6/802.11ax. Philippine launch coverage separately documents the local distributor and prices."
+        },
+        {
+          "id": "redmagic_7_pro_manilashaker_ph",
+          "publisher": "ManilaShaker Philippines",
+          "url": "https://manilashaker.com/nubia-redmagic-7-pro-5g-specs-price-philippines/",
+          "publicationDate": "2022-05-01",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine availability, variant, and price cross-check",
+          "note": "Published May 1, 2022. Reports that the global REDMAGIC 7 Pro was available through XUNDD in the Philippines, with the same two memory/color variants and PHP 45,999 / PHP 49,999 prices."
+        },
+        {
+          "id": "redmagic_7_pro_qualcomm",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-1-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Snapdragon 8 Gen 1 platform reference",
+          "note": "Qualcomm's product page documents the Snapdragon 8 Gen 1 platform and Adreno 730 graphics family. Platform capabilities are not substituted for handset-specific implementation details."
+        },
+        {
+          "id": "redmagic_7_pro_qualcomm_brief",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary chipset process and CPU capability reference",
+          "note": "Qualcomm's Snapdragon 8 Gen 1 product brief gives a 4 nm process and Kryo CPU up to 3.0 GHz with Cortex-X2 technology. Detailed core clusters are cross-checked against NanoReview and are not handset benchmark claims."
+        },
+        {
+          "id": "redmagic_7_pro_nanoreview",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/phone/zte-nubia-red-magic-7-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model secondary hardware cross-check",
+          "note": "Exact REDMAGIC 7 Pro page used for display, camera, battery, connectivity, audio, and sensor cross-checks. Regional claims are not treated as evidence of Philippine sales; the locally documented global configuration and REDMAGIC's global source take precedence."
+        },
+        {
+          "id": "redmagic_7_pro_nanoreview_soc",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/soc/qualcomm-snapdragon-8-gen-1",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent chipset architecture cross-check",
+          "note": "Used for Snapdragon 8 Gen 1 CPU cluster details only. Device benchmark scores are not copied into the catalog."
+        },
+        {
+          "id": "redmagic_7_pro_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-nubia-red-magic-7-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model regional configuration and technical cross-check",
+          "note": "The exact model page distinguishes Global 16/256 and 16/512 configurations from China-market variants. Its global variant matrix corroborates the local memory/color pairings; regional price listings are not used as Philippine prices."
+        },
+        {
+          "id": "redmagic_7_pro_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/zte_nubia_red_magic_7_pro-11364.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact model code, build, media, connectivity, and battery cross-check",
+          "note": "Exact model code NX709J. The listing reports 166.3 x 77.1 x 10 mm, 235 g, UFS 3.1, video modes, dual SIM, Wi-Fi 6E, Bluetooth 5.2, and the global 65 W charging version. Wi-Fi generation conflicts with REDMAGIC's Wi-Fi 6/802.11ax material and remains unset."
+        },
+        {
+          "id": "redmagic_7_pro_aptx",
+          "publisher": "Qualcomm aptX product registry",
+          "url": "https://www.aptx.com/products/redmagic-nx709j",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Model-code and Bluetooth cross-check",
+          "note": "The registry explicitly maps model NX709J to marketing name REDMAGIC 7 Pro and lists Bluetooth 5.2 and a 6.8-inch display. Its broad hardware family/RAM matrix includes China configurations, so only the code/name and Bluetooth details are used here."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_ntc",
+          "sourceValue": "NTC lists REDMAGIC model NX709J as REDMAGIC 7 Pro",
+          "normalizedValue": "NX709J",
+          "note": "Exact model code and marketed name match the NTC GEC entry and REDMAGIC 7 Pro sources.",
+          "configurationMatch": "REDMAGIC 7 Pro global version; both Philippine configurations"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global_announce",
+          "sourceValue": "REDMAGIC Global's international REDMAGIC 7 Pro announcement is dated April 12, 2022; reported order start was April 27",
+          "normalizedValue": "2022-04-12",
+          "note": "Use the official announcement date as global launch. The April 27 date marks reported order availability and is recorded in the Philippine sale-date field.",
+          "configurationMatch": "REDMAGIC 7 Pro global version"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "Philippine global version: 16 GB RAM / 512 GB storage, Supernova",
+          "normalizedValue": "16 GB RAM / 512 GB storage (Supernova)",
+          "note": "XUNDD-attributed Philippine launch coverage and REDMAGIC's global variant list identify the distinct Obsidian 16/256 and Supernova 16/512 configurations.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Reported official sale date for the global REDMAGIC 7 Pro including the Philippines: April 27, 2022; local XUNDD availability reported April 30",
+          "normalizedValue": "2022-04-27",
+          "note": "April 27 is the reported official sale start; GIZGUIDE subsequently documented that the phone was available locally through XUNDD. The date denotes reported launch availability, not present stock.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro global launch; both configurations"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "XUNDD-attributed Philippine launch price: PHP 49,999 for 16 GB / 512 GB (Supernova)",
+          "normalizedValue": 49999,
+          "note": "GIZGUIDE, NoypiGeeks, ManilaShaker, and YugaTech's 2022 price list corroborate this dated launch price for the exact configuration. This is not a current price.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmagic_7_pro_kimovil",
+          "sourceValue": "No current dated, orderable Philippine offer was verified; Kimovil's reviewed global listing showed no live price",
+          "normalizedValue": null,
+          "note": "Keep current price blank. Preserve the sourced 2022 launch price as historical data only.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "6.8-inch AMOLED display",
+          "normalizedValue": 6.8,
+          "note": "REDMAGIC global and Philippine launch sources agree on display size.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.8,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "note": "Official global and local sources identify an AMOLED panel.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Full HD+ 1080 x 2400 pixels",
+          "normalizedValue": "1080 x 2400",
+          "note": "Local launch coverage and exact-model references agree on 1080 x 2400.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "120 Hz refresh rate",
+          "normalizedValue": 120,
+          "note": "REDMAGIC global and Philippine sources identify a 120 Hz panel.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic_7_pro_noypi_ph",
+          "sourceValue": "Local sources report 600-nit maximum/peak or 700 nits; GSMArena's measured result is a different test value",
+          "normalizedValue": null,
+          "note": "Published brightness values differ by source and likely measurement convention. Leave normalized brightness blank rather than presenting one figure as directly comparable.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Corning Gorilla Glass 5",
+          "normalizedValue": "Corning Gorilla Glass 5",
+          "note": "REDMAGIC global and Philippine launch specifications list Gorilla Glass 5.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 1 (SM8450)",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1",
+          "note": "Official global material and Philippine launch coverage agree on Snapdragon 8 Gen 1.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_qualcomm_brief",
+          "sourceValue": "4 nm process technology",
+          "normalizedValue": 4,
+          "note": "Qualcomm's product brief specifies a 4 nm process for Snapdragon 8 Gen 1.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_nanoreview_soc",
+          "sourceValue": "1x Cortex-X2 up to 3.0 GHz + 3x Cortex-A710 up to 2.5 GHz + 4x Cortex-A510 up to 1.8 GHz",
+          "normalizedValue": "1x Cortex-X2 3.0 GHz + 3x Cortex-A710 2.5 GHz + 4x Cortex-A510 1.8 GHz",
+          "note": "NanoReview's Snapdragon 8 Gen 1 cluster details; Qualcomm independently confirms the 3.0 GHz Cortex-X2-class platform. This describes the chipset, not benchmark performance.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "cpu",
+          "catalogValue": "1x Cortex-X2 3.0 GHz + 3x Cortex-A710 2.5 GHz + 4x Cortex-A510 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_qualcomm",
+          "sourceValue": "Qualcomm Adreno 730",
+          "normalizedValue": "Qualcomm Adreno 730",
+          "note": "Qualcomm platform reference and exact-model specifications identify Adreno 730.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 730"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Android 12 with REDMAGIC OS 5.0 at launch",
+          "normalizedValue": "Android 12 with REDMAGIC OS 5.0",
+          "note": "REDMAGIC's international launch source and local launch coverage identify the factory launch software; no later upgrade is substituted.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 with REDMAGIC OS 5.0"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "No guaranteed OS-upgrade or security-support duration found in the reviewed manufacturer material",
+          "normalizedValue": null,
+          "note": "Do not infer a support period from the device's later software state.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "16 GB RAM",
+          "normalizedValue": 16,
+          "note": "Both locally reported global variants use 16 GB RAM.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "ramGb",
+          "catalogValue": 16,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "LPDDR5 RAM",
+          "normalizedValue": "LPDDR5",
+          "note": "Philippine launch coverage and the international specification identify LPDDR5 memory.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "512 GB internal storage",
+          "normalizedValue": 512,
+          "note": "Exact capacity belongs to the local color/configuration pair listed by XUNDD-attributed coverage and REDMAGIC's global variant matrix.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "UFS 3.1 internal storage",
+          "normalizedValue": "UFS 3.1",
+          "note": "REDMAGIC global, Unbox, and exact-model technical references identify UFS 3.1.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "No microSD card slot listed",
+          "normalizedValue": "No microSD slot",
+          "note": "Exact-model hardware references list fixed internal storage and no card slot.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "64 MP main + 8 MP ultrawide + 2 MP third rear camera; sources differ on whether the 2 MP module is macro or depth",
+          "normalizedValue": "64 MP main + 8 MP ultrawide + 2 MP third module",
+          "note": "The camera resolutions and three-module layout are consistent, but the third module is called macro in some references and depth in others. Avoid asserting a specific function until the discrepancy is resolved.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_nanoreview",
+          "sourceValue": "No source reviewed establishes the exact main camera sensor part number for the Philippine global configurations",
+          "normalizedValue": null,
+          "note": "Do not infer a sensor model from resolution or chipset compatibility.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "8 MP ultrawide camera; 120-degree field of view is listed by local specifications",
+          "normalizedValue": "8 MP ultrawide, 120-degree field of view",
+          "note": "Philippine launch sources confirm the module; the field-of-view figure is secondary technical detail.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "No telephoto camera; the rear array consists of main, ultrawide, and a 2 MP macro/depth module",
+          "normalizedValue": "No telephoto camera",
+          "note": "The documented three-camera array has no telephoto module.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "16 MP under-display selfie camera",
+          "normalizedValue": 16,
+          "note": "REDMAGIC global and Philippine launch sources identify the 16 MP under-display camera.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Rear video up to 8K/30 fps and 4K/60 fps; front video up to 1080p/60 fps",
+          "normalizedValue": "Rear up to 8K/30 fps and 4K/60 fps; front up to 1080p/60 fps",
+          "note": "Exact-model technical specification cross-check. These are published maximum modes, not a guarantee that every codec or stabilization mode is available at each resolution.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "5,000 mAh battery",
+          "normalizedValue": 5000,
+          "note": "REDMAGIC global and Philippine sources agree on 5,000 mAh for the international model.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Li-Po, non-removable battery",
+          "normalizedValue": "Li-Po; non-removable",
+          "note": "Exact-model hardware listings identify Li-Po chemistry and a non-removable battery.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "65 W wired charging for the international version",
+          "normalizedValue": 65,
+          "note": "REDMAGIC explicitly distinguishes 65 W global charging from 135 W China charging; the global value is used for Philippine variants.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "chargingW",
+          "catalogValue": 65,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "Wireless charging support not stated in the reviewed official launch material",
+          "normalizedValue": null,
+          "note": "No wireless charging value is inferred from absence in promotional material.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "166.3 x 77.1 x 10 mm",
+          "normalizedValue": "166.3 x 77.1 x 10 mm",
+          "note": "Exact-model global dimensions from independent hardware listings; minor hundredth-millimeter rounding differences appear in secondary sources.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "dimensions",
+          "catalogValue": "166.3 x 77.1 x 10 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "235 g",
+          "normalizedValue": 235,
+          "note": "GSMArena, Kimovil, and Philippine launch coverage agree on 235 g.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "weightG",
+          "catalogValue": 235,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Glass front with Gorilla Glass 5, glass back, aluminum frame",
+          "normalizedValue": "Gorilla Glass 5 front; glass back; aluminum frame",
+          "note": "Exact-model build description; no additional coating or material is inferred.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic_7_pro_global",
+          "sourceValue": "No IP rating found in the reviewed manufacturer or Philippine launch specifications",
+          "normalizedValue": null,
+          "note": "Keep certification blank; the absence of an IP rating in reviewed pages is not a water-resistance guarantee or proof that no certification exists.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gizguide_ph",
+          "sourceValue": "Dual Nano-SIM global version; eSIM support not recorded",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "Local and exact-model specifications identify dual SIM; reviewed sources do not establish eSIM support for the Philippine unit.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Philippine launch material identifies 4G LTE and 5G; complete local band set not published in reviewed sources",
+          "normalizedValue": "4G LTE and 5G; local band list not recorded",
+          "note": "Record network generations only. Do not infer Philippine carrier compatibility from another region's band table.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE and 5G; local band list not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic_7_pro_yugatech_specs",
+          "sourceValue": "YugaTech reports 802.11ax/Wi-Fi 6; NoypiGeeks and GSMArena report Wi-Fi 6E",
+          "normalizedValue": null,
+          "note": "Wi-Fi generation conflicts across secondary sources. The reviewed official global launch recap does not resolve the 6/6E distinction; leave the normalized Wi-Fi value blank pending a regional technical declaration.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_aptx",
+          "sourceValue": "Bluetooth 5.2; one local launch article says 5.1",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "The model-specific Qualcomm registry, REDMAGIC global press material, and GSMArena specify Bluetooth 5.2; Unbox lists 5.1, which is recorded as a source discrepancy.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "USB Type-C 3.0 with OTG",
+          "normalizedValue": "USB Type-C 3.0; OTG",
+          "note": "Exact-model technical references list Type-C 3.0 and OTG; Philippine coverage confirms Type-C.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C 3.0; OTG"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_noypi_ph",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "Yes",
+          "note": "Philippine launch technical lists and exact-model references identify NFC.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "GPS (L1+L5), GLONASS, BeiDou, and Galileo",
+          "normalizedValue": "GPS (L1+L5), GLONASS, BeiDou, Galileo",
+          "note": "Exact-model reference lists the named positioning systems; no additional GNSS support is inferred.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS (L1+L5), GLONASS, BeiDou, Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_unbox_ph",
+          "sourceValue": "Stereo speakers and 3.5 mm audio jack",
+          "normalizedValue": "Stereo speakers; 3.5 mm audio jack",
+          "note": "Philippine launch coverage identifies stereo speakers and the headphone jack.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; 3.5 mm audio jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic_7_pro_gsmarena",
+          "sourceValue": "Under-display optical fingerprint sensor, accelerometer, gyroscope, proximity sensor, and compass",
+          "normalizedValue": "Under-display fingerprint, accelerometer, gyroscope, proximity, compass",
+          "note": "Exact-model sensor listing; no barometer or other sensor is inferred.",
+          "configurationMatch": "Philippine REDMAGIC 7 Pro, 16 GB RAM / 512 GB storage (Supernova)"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch coverage reports the REDMAGIC 7 Pro global version available through local distributor XUNDD. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Philippine technology coverage reports the international REDMAGIC 7 Pro available through XUNDD in late April 2022. The locally identified configurations are 16 GB / 256 GB Obsidian and 16 GB / 512 GB Supernova. Historical launch prices are PHP 45,999 and PHP 49,999 respectively. Current stock and price have not been verified.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "ZTE Corporation (nubia / REDMAGIC)",
+        "catalogModel": "REDMAGIC 7 Pro",
+        "productLine": "REDMAGIC 7 Series",
+        "modelNumber": "NX709J",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported Philippine sale start date",
+        "researchNotes": "Workbook row 85 REDMAGIC 7 Pro matches NTC model NX709J and the international REDMAGIC variant family. Local XUNDD-attributed coverage identifies two distinct color/configuration pairs: Obsidian 16/256 and Supernova 16/512. The international version's 65 W charging, not the China version's 135 W, is used. Current price remains blank; 2022 launch prices are retained as historical values. Workbook eligibility remains Pending.",
+        "qualityFlag": "NTC model match and two Philippine global configurations verified; 2022 launch prices corroborated; current price unavailable; display brightness, third rear-camera function, and Wi-Fi generation remain unresolved; workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "YugaTech lists Wi-Fi 6/802.11ax, while NoypiGeeks and GSMArena list Wi-Fi 6E; the reviewed manufacturer global article does not resolve the distinction",
+            "action": "Leave the Wi-Fi field blank until a definitive regional specification resolves the conflict."
+          },
+          {
+            "issue": "The 2 MP third rear camera is described as macro by some sources and depth by others",
+            "action": "Record a 2 MP third rear module without asserting a function."
+          },
+          {
+            "issue": "Display brightness figures vary by source and measurement convention",
+            "action": "Leave normalized brightness blank."
+          },
+          {
+            "issue": "No current dated, orderable Philippine price was verified",
+            "action": "Keep current price blank and retain launch prices as historical only."
+          },
+          {
+            "issue": "Exact product images are present on manufacturer and Philippine sources, but reuse rights are not established",
+            "action": "Keep the neutral placeholder until image reuse terms or permission are documented."
+          },
+          {
+            "issue": "Workbook eligibility is Pending",
+            "action": "Preserve the study's Pending status."
+          }
+        ]
+      }
     }
   ]
 }
