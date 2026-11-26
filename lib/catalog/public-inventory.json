@@ -19268,45 +19268,174 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "OnePlus",
-    "model": "Nord CE 3 Lite",
-    "manufacturer": null,
-    "productLine": null,
+    "model": "Nord CE 3 Lite 5G",
+    "manufacturer": "OnePlus",
+    "productLine": "OnePlus Nord series",
     "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "releaseDate": "2023-04-04",
+    "philippineAvailabilityDate": "2023-04-21",
+    "philippineDateLabel": "Official OnePlus online availability reported from 21 April 2023; stores from 5 May",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact Philippine OnePlus Nord CE 3 Lite 5G, 8 GB / 256 GB configuration, official launch price and historic online/store dates supported; CPH code and current price unverified; cover-glass brand conflict retained; image reuse rights not established; study scope remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "OnePlus Philippines' local product page and launch reporting identify the Nord CE 3 Lite 5G as a Philippine-market product with 8 GB RAM / 256 GB storage and PHP 14,990 launch pricing. PTG reports online availability through OnePlus's Lazada shop from 21 April 2023, Shopee from 26 April, and stores from 5 May. This verifies historical official local launch availability, not current stock or price. The Philippine regional CPH model code remains unconfirmed.",
+    "availabilityStatus": "OnePlus Philippines launch coverage confirms the local 8 GB / 256 GB version at PHP 14,990, with online availability from 21 April 2023 and in-store availability from 5 May 2023. Current stock and price are not verified.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 152 OnePlus Nord CE 3 Lite matches OnePlus Philippines' exact Nord CE 3 Lite 5G product and local 8 GB / 256 GB variant. Global announcement date is 4 April 2023; local online availability started 21 April with in-store availability 5 May, at the reported PHP 14,990 official launch price. OnePlus's Philippine page does not provide a local CPH model code. Current price is not verified. PTG and Revu identify Gorilla Glass while GizGuide names Asahi Dragontrail Star Glass; the cover-glass brand remains conflicted. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "The Philippine OnePlus page does not publish a CPH model number",
+        "action": "Keep the local regional model code blank until OnePlus, the box label, or a reliable local regulatory record maps a code to the 8/256 SKU."
+      },
+      {
+        "issue": "Philippine launch coverage conflicts on display cover-glass brand",
+        "action": "Keep protection unreported until primary regional documentation resolves Gorilla Glass versus Dragontrail Star Glass."
+      },
+      {
+        "issue": "No current dated and orderable Philippine price was verified",
+        "action": "Keep the current price blank and retain PHP 14,990 as a historical launch SRP only."
+      },
+      {
+        "issue": "Official and Philippine product pages show exact-model images but no reusable license or permission was found",
+        "action": "Keep the neutral image placeholder and preserve image source metadata."
+      },
+      {
+        "issue": "Workbook eligibility remains Pending",
+        "action": "Preserve the supplied study-scope status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "OnePlus Philippines (manufacturer)",
+        "url": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine-region specifications for the exact Nord CE 3 Lite 5G product",
+        "note": "The Philippines-specific OnePlus page lists the 8 GB / 256 GB SKU and its hardware, network bands, OS/update policy, camera modules, battery, charging, connectivity and sensors. It does not expose a CPH model code for the Philippine retail unit."
+      },
+      {
+        "organization": "OnePlus Philippines (manufacturer)",
+        "url": "https://www.oneplus.com/ph/nord-ce-3-lite-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official product identity, colors and exact-model image source page",
+        "note": "The Philippines-specific product page identifies OnePlus Nord CE 3 Lite 5G and shows Pastel Lime and Chromatic Gray imagery. Reuse permission for product imagery was not identified."
+      },
+      {
+        "organization": "OnePlus (manufacturer, verified channel)",
+        "url": "https://www.youtube.com/watch?v=MFqJFbYi6EM",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-04-04",
+        "purpose": "Global announcement date and exact product identity",
+        "note": "OnePlus's verified global channel published the Nord CE 3 Lite 5G launch video on 4 April 2023. This is the global announcement date, not Philippine availability."
+      },
+      {
+        "organization": "Pinoy Techno Guide Philippines",
+        "url": "https://www.pinoytechnoguide.com/smartphones/oneplus-nord-ce-3-lite-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-04-21",
+        "purpose": "Philippine configuration, official price, first online availability and local specification reference",
+        "note": "PTG's exact model page, dated 21 April 2023, reports an official Philippine price of PHP 14,990, 8 GB RAM / 256 GB storage, and online availability through the OnePlus Lazada shop starting 21 April; Shopee from 26 April and stores from 5 May. It is a launch-era page, not a current price source."
+      },
+      {
+        "organization": "Revu Philippines",
+        "url": "https://www.revu.com.ph/2023/04/oneplus-nord-ce-3-lite-buds-2-price-ph/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-04-20",
+        "purpose": "Philippine official launch, preorder dates, price and model cross-check",
+        "note": "Published 20 April 2023. Reports OnePlus Philippines' official launch, PHP 14,990 price, preorders from 21 April, online platform availability and store release from 5 May. Its launch summary says storage up to 256 GB; the official Philippine page and PTG identify the exact 8/256 configuration."
+      },
+      {
+        "organization": "GizGuide Philippines",
+        "url": "https://www.gizguide.com/2023/04/oneplus-nord-ce-3-lite-5g-price-specs-philippines-official.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-04-20",
+        "purpose": "Independent local launch and screen-protection discrepancy review",
+        "note": "The exact-model Philippine launch article corroborates PHP 14,990, the 8/256 configuration and core hardware. It identifies Asahi Dragontrail Star Glass; PTG and Revu describe Corning Gorilla Glass, and the OnePlus specifications page does not name the cover-glass brand. The protection type is therefore left unresolved."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/oneplus_nord_ce_3_lite_hands_on-review-2550.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-04-04",
+        "purpose": "Exact global model announcement and hardware cross-check",
+        "note": "GSMArena published an exact Nord CE 3 Lite hands-on article on 4 April 2023. It is used as a global model cross-check only; it does not establish the Philippine retail configuration or local price."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/phone/oneplus-nord-ce-3-lite",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent technical cross-check for Snapdragon 695 CPU structure and process",
+        "note": "The exact-model profile reports Snapdragon 695, a 6 nm process and 2 x Kryo 660 Gold plus 6 x Kryo 660 Silver CPU cores. Its displayed memory variant is 8/128 GB; its regional variant values are not applied to the locally confirmed 8/256 GB configuration."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-oneplus-nord-ce-3-lite-5g-8gb-256gb",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Global 8/256 configuration cross-check only",
+        "note": "Kimovil has a distinct global 8 GB / 256 GB variant page and lists an 8/128 GB version separately. It is not used as Philippine availability, price, regional code, or local band evidence."
+      }
+    ],
     "variants": [
       {
-        "id": "device_2077faec2ddf17-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_2077faec2ddf17-ph-8gb-256gb",
+        "label": "8 GB RAM / 256 GB storage (Philippine configuration)",
+        "specs": {
+          "displayInches": 6.72,
+          "displayType": "IPS LCD",
+          "resolution": "2400 x 1080",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 695 5G",
+          "gpu": "Adreno 619",
+          "os": "Android 13 with OxygenOS 13.1",
+          "ramGb": 8,
+          "storageGb": 256,
+          "frontCameraMp": 16,
+          "batteryMah": 5000,
+          "chargingW": 67,
+          "dimensions": "165.5 x 76.0 x 8.3 mm",
+          "weightG": 195,
+          "cellular": "5G SA/NSA; 4G LTE; GSM/WCDMA; see manufacturer regional bands",
+          "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac), dual-band",
+          "ports": "USB Type-C; USB 2.0; OTG",
+          "gnss": "GPS; BDS; GLONASS; Galileo; QZSS",
+          "sound": "Stereo speakers; 3.5 mm jack; FM radio not listed"
+        },
+        "specSources": {
+          "displayInches": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "displayType": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "resolution": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "refreshHz": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "chipset": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "gpu": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "os": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "ramGb": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "storageGb": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "frontCameraMp": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "batteryMah": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "chargingW": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "dimensions": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "weightG": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "cellular": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "wifi": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "ports": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "gnss": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "sound": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "OnePlus Philippines and local launch coverage identify this 8/256 GB configuration at PHP 14,990 in April 2023. The CPH regional code and current Philippine price are not verified.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

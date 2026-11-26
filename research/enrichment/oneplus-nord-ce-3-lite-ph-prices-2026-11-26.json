@@ -1,0 +1,76 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_2077faec2ddf17",
+      "brand": "OnePlus",
+      "model_name": "Nord CE 3 Lite 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+      "result": "Official Philippines specification page confirms the local 8/256 SKU and regional hardware, including full local network bands."
+    },
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/oneplus-nord-ce-3-lite-5g",
+      "result": "PTG reports official PHP 14,990 price and availability via OnePlus online shops from 21 April 2023, Shopee from 26 April, stores from 5 May."
+    },
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://www.revu.com.ph/2023/04/oneplus-nord-ce-3-lite-buds-2-price-ph/",
+      "result": "Revu confirms official Philippine launch, launch price and order/retail dates; launch report lists up to 256 GB storage."
+    },
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://www.gizguide.com/2023/04/oneplus-nord-ce-3-lite-5g-price-specs-philippines-official.html",
+      "result": "GizGuide identifies Asahi Dragontrail Star Glass while PTG/Revu say Corning Gorilla Glass; protection brand remains a conflict."
+    },
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://www.gsmarena.com/oneplus_nord_ce_3_lite_hands_on-review-2550.php",
+      "result": "Exact global model and 4 April 2023 announcement cross-checked; not used as local configuration evidence."
+    },
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://nanoreview.net/en/phone/oneplus-nord-ce-3-lite",
+      "result": "Exact model CPU core configuration and 6nm process checked; its 8/128 memory entry was not substituted for Philippine 8/256."
+    },
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-oneplus-nord-ce-3-lite-5g-8gb-256gb",
+      "result": "Kimovil lists the exact global 8/256 variant separately from 8/128; no local market claim was inferred."
+    },
+    {
+      "device_id": "device_2077faec2ddf17",
+      "source_url": "https://www.youtube.com/watch?v=MFqJFbYi6EM",
+      "result": "OnePlus global launch video is dated 4 April 2023."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_2077faec2ddf17",
+      "amount_php": 14990,
+      "configuration_id": "device_2077faec2ddf17-ph-8gb-256gb",
+      "configuration_match": "exact_philippine_8gb_256gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_official_launch_srp",
+      "source_published_at": "2023-04-21",
+      "excerpt": "PTG reports PHP 14,990 official Philippine price for the OnePlus Nord CE 3 Lite 5G 8 GB / 256 GB configuration on its 21 April 2023 launch-era page; historical SRP, not a current offer.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/oneplus-nord-ce-3-lite-5g",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    }
+  ]
+}

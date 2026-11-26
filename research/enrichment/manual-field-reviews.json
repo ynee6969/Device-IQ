@@ -167808,6 +167808,554 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_2077faec2ddf17",
+      "configurationId": "device_2077faec2ddf17-ph-8gb-256gb",
+      "brand": "OnePlus",
+      "model": "Nord CE 3 Lite 5G",
+      "configuration": "8 GB RAM / 256 GB storage (Philippine configuration)",
+      "configurationLabel": "8 GB RAM / 256 GB storage (Philippine configuration)",
+      "sources": [
+        {
+          "id": "oneplus_nordce3lite_ph_specs",
+          "publisher": "OnePlus Philippines (manufacturer)",
+          "url": "https://www.oneplus.com/ph/nord-ce-3-lite-5g/specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine-region specifications for the exact Nord CE 3 Lite 5G product",
+          "note": "The Philippines-specific OnePlus page lists the 8 GB / 256 GB SKU and its hardware, network bands, OS/update policy, camera modules, battery, charging, connectivity and sensors. It does not expose a CPH model code for the Philippine retail unit."
+        },
+        {
+          "id": "oneplus_nordce3lite_ph_product",
+          "publisher": "OnePlus Philippines (manufacturer)",
+          "url": "https://www.oneplus.com/ph/nord-ce-3-lite-5g",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official product identity, colors and exact-model image source page",
+          "note": "The Philippines-specific product page identifies OnePlus Nord CE 3 Lite 5G and shows Pastel Lime and Chromatic Gray imagery. Reuse permission for product imagery was not identified."
+        },
+        {
+          "id": "oneplus_nordce3lite_global_launch",
+          "publisher": "OnePlus (manufacturer, verified channel)",
+          "url": "https://www.youtube.com/watch?v=MFqJFbYi6EM",
+          "publicationDate": "2023-04-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Global announcement date and exact product identity",
+          "note": "OnePlus's verified global channel published the Nord CE 3 Lite 5G launch video on 4 April 2023. This is the global announcement date, not Philippine availability."
+        },
+        {
+          "id": "oneplus_nordce3lite_ptg_ph",
+          "publisher": "Pinoy Techno Guide Philippines",
+          "url": "https://www.pinoytechnoguide.com/smartphones/oneplus-nord-ce-3-lite-5g",
+          "publicationDate": "2023-04-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine configuration, official price, first online availability and local specification reference",
+          "note": "PTG's exact model page, dated 21 April 2023, reports an official Philippine price of PHP 14,990, 8 GB RAM / 256 GB storage, and online availability through the OnePlus Lazada shop starting 21 April; Shopee from 26 April and stores from 5 May. It is a launch-era page, not a current price source."
+        },
+        {
+          "id": "oneplus_nordce3lite_revu_ph",
+          "publisher": "Revu Philippines",
+          "url": "https://www.revu.com.ph/2023/04/oneplus-nord-ce-3-lite-buds-2-price-ph/",
+          "publicationDate": "2023-04-20",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine official launch, preorder dates, price and model cross-check",
+          "note": "Published 20 April 2023. Reports OnePlus Philippines' official launch, PHP 14,990 price, preorders from 21 April, online platform availability and store release from 5 May. Its launch summary says storage up to 256 GB; the official Philippine page and PTG identify the exact 8/256 configuration."
+        },
+        {
+          "id": "oneplus_nordce3lite_gizguide_ph",
+          "publisher": "GizGuide Philippines",
+          "url": "https://www.gizguide.com/2023/04/oneplus-nord-ce-3-lite-5g-price-specs-philippines-official.html",
+          "publicationDate": "2023-04-20",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent local launch and screen-protection discrepancy review",
+          "note": "The exact-model Philippine launch article corroborates PHP 14,990, the 8/256 configuration and core hardware. It identifies Asahi Dragontrail Star Glass; PTG and Revu describe Corning Gorilla Glass, and the OnePlus specifications page does not name the cover-glass brand. The protection type is therefore left unresolved."
+        },
+        {
+          "id": "oneplus_nordce3lite_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/oneplus_nord_ce_3_lite_hands_on-review-2550.php",
+          "publicationDate": "2023-04-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact global model announcement and hardware cross-check",
+          "note": "GSMArena published an exact Nord CE 3 Lite hands-on article on 4 April 2023. It is used as a global model cross-check only; it does not establish the Philippine retail configuration or local price."
+        },
+        {
+          "id": "oneplus_nordce3lite_nanoreview",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/phone/oneplus-nord-ce-3-lite",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent technical cross-check for Snapdragon 695 CPU structure and process",
+          "note": "The exact-model profile reports Snapdragon 695, a 6 nm process and 2 x Kryo 660 Gold plus 6 x Kryo 660 Silver CPU cores. Its displayed memory variant is 8/128 GB; its regional variant values are not applied to the locally confirmed 8/256 GB configuration."
+        },
+        {
+          "id": "oneplus_nordce3lite_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-oneplus-nord-ce-3-lite-5g-8gb-256gb",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Global 8/256 configuration cross-check only",
+          "note": "Kimovil has a distinct global 8 GB / 256 GB variant page and lists an 8/128 GB version separately. It is not used as Philippine availability, price, regional code, or local band evidence."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "The OnePlus Philippines product page does not publish a CPH code; third-party code references do not tie one to the Philippine 8/256 GB listing.",
+          "normalizedValue": null,
+          "note": "Keep the regional retail model number blank until the Philippine box label, exact seller SKU, or regulator record maps a code to this configuration."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_global_launch",
+          "sourceValue": "OnePlus global launch video published 4 April 2023",
+          "normalizedValue": "2023-04-04",
+          "note": "Global product announcement date; Philippine preorders began later."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "8 GB LPDDR4X RAM / 256 GB UFS 2.2 storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_ptg_ph",
+          "sourceValue": "Official OnePlus Lazada online availability reported from 21 April 2023; Shopee from 26 April; retail stores from 5 May",
+          "normalizedValue": "2023-04-21",
+          "note": "The top-level date records the first reported official online availability, not the later in-store date."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_ptg_ph",
+          "sourceValue": "PHP 14,990 official Philippine launch price",
+          "normalizedValue": 14990,
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "oneplus_nordce3lite_ptg_ph",
+          "sourceValue": "Reviewed sources give the April 2023 official launch price; no current dated, orderable Philippine offer was verified on 26 November 2026",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep catalog price blank. PTG's affiliate links resolve to category pages, not an exact current product offer."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "6.72 inches",
+          "normalizedValue": 6.72,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.72,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "LCD; PTG identifies IPS LCD",
+          "normalizedValue": "IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "2400 x 1080 pixels; 391 ppi",
+          "normalizedValue": "2400 x 1080",
+          "catalogKey": "resolution",
+          "catalogValue": "2400 x 1080"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "120 Hz adaptive refresh rate",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_ptg_ph",
+          "sourceValue": "550 nits typical; 680 nits peak",
+          "normalizedValue": "550 typical; 680 peak",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "oneplus_nordce3lite_gizguide_ph",
+          "sourceValue": "GizGuide reports Asahi Dragontrail Star Glass; PTG and Revu report Corning Gorilla Glass; OnePlus Philippines does not identify the cover-glass brand",
+          "normalizedValue": null,
+          "note": "The local pages conflict on the glass brand, and the manufacturer page does not resolve it. Do not claim either protection brand until primary regional documentation is found.",
+          "candidateEvidence": [
+            {
+              "value": "Corning Gorilla Glass reported",
+              "sourceUrl": "https://www.pinoytechnoguide.com/smartphones/oneplus-nord-ce-3-lite-5g",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "PTG display specification names Corning Gorilla Glass protection.",
+              "configurationMatch": "Philippine 8 GB / 256 GB exact model",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Asahi Dragontrail Star Glass reported",
+              "sourceUrl": "https://www.gizguide.com/2023/04/oneplus-nord-ce-3-lite-5g-price-specs-philippines-official.html",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "GizGuide launch specifications identify Asahi Dragontrail Star Glass.",
+              "configurationMatch": "Philippine OnePlus Nord CE 3 Lite 5G",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Corning Gorilla Glass reported",
+              "sourceUrl": "https://www.revu.com.ph/2023/04/oneplus-nord-ce-3-lite-buds-2-price-ph/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Revu's Philippine launch write-up describes Corning Gorilla Glass protection.",
+              "configurationMatch": "Philippine OnePlus Nord CE 3 Lite 5G",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Qualcomm Snapdragon 695 5G",
+          "normalizedValue": "Qualcomm Snapdragon 695 5G",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 695 5G"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_nanoreview",
+          "sourceValue": "Snapdragon 695 fabricated on a 6 nm process",
+          "normalizedValue": 6,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_nanoreview",
+          "sourceValue": "Octa-core: 2 x Kryo 660 Gold / Cortex-A78 up to 2.2 GHz + 6 x Kryo 660 Silver / Cortex-A55 up to 1.8 GHz",
+          "normalizedValue": "2x Kryo 660 Gold / Cortex-A78 up to 2.2 GHz + 6x Kryo 660 Silver / Cortex-A55 up to 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Qualcomm Adreno 619",
+          "normalizedValue": "Adreno 619",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 619"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "OxygenOS 13.1 based on Android 13 at launch",
+          "normalizedValue": "Android 13 with OxygenOS 13.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 with OxygenOS 13.1"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "At least two Android OS upgrades and three years of security updates from launch",
+          "normalizedValue": "At least 2 Android OS upgrades; 3 years security updates"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "8 GB physical LPDDR4X RAM; separate virtual RAM expansion is not counted",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "256 GB internal storage",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "UFS 2.2",
+          "normalizedValue": "UFS 2.2"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Hybrid SIM / SIM-or-microSD slot; microSD support up to 1 TB",
+          "normalizedValue": "Hybrid slot; microSD up to 1 TB"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "108 MP main + 2 MP depth-assist + 2 MP macro; LED flash",
+          "normalizedValue": "108 MP main + 2 MP depth + 2 MP macro; LED flash"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Samsung S5KHM6SX03, 108 MP, six-element lens, f/1.7, EIS",
+          "normalizedValue": "Samsung S5KHM6SX03 108 MP; 6P; f/1.7; EIS"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Manufacturer lists main, depth-assist and macro rear modules; no ultrawide module listed",
+          "normalizedValue": "No ultrawide module listed"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Manufacturer lists main, depth-assist and macro rear modules; no telephoto module listed",
+          "normalizedValue": "No telephoto module listed"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "16 MP front camera, f/2.4",
+          "normalizedValue": 16,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Rear: 1080p/30 fps and 720p/30 fps; slow motion 720p/120 fps. Front: 1080p/30 fps and 720p/30 fps",
+          "normalizedValue": "Rear: 1080p/30, 720p/30; 720p slow motion/120. Front: 1080p/30, 720p/30"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Typical capacity 5000 mAh",
+          "normalizedValue": 5000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_ptg_ph",
+          "sourceValue": "Li-polymer battery, non-removable",
+          "normalizedValue": "Li-polymer; non-removable"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "67 W SUPERVOOC",
+          "normalizedValue": 67,
+          "catalogKey": "chargingW",
+          "catalogValue": 67,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Wireless charging not specified in the reviewed OnePlus Philippines specifications",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "165.5 x 76.0 x 8.3 mm",
+          "normalizedValue": "165.5 x 76.0 x 8.3 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.5 x 76.0 x 8.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "195 g",
+          "normalizedValue": 195,
+          "catalogKey": "weightG",
+          "catalogValue": 195,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_ptg_ph",
+          "sourceValue": "Glass front and plastic back; frame material not separately stated",
+          "normalizedValue": "Glass front; plastic back; frame not recorded",
+          "note": "Front cover-glass brand remains disputed and is recorded separately as a conflict."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "No IP rating stated on the reviewed manufacturer specification page",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Hybrid dual SIM / SIM-or-microSD slot; eSIM not stated",
+          "normalizedValue": "Dual nano-SIM hybrid slot; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G WCDMA B1/2/4/5/6/8/19; LTE FDD B1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66 and TDD B38/39/40/41; 5G SA/NSA n1/3/5/7/8/20/28/38/40/41/66/77/78",
+          "normalizedValue": "5G SA/NSA; 4G LTE; GSM/WCDMA; see manufacturer regional bands",
+          "catalogKey": "cellular",
+          "catalogValue": "5G SA/NSA; 4G LTE; GSM/WCDMA; see manufacturer regional bands"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac, 2.4 GHz and 5 GHz",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac), dual-band",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac), dual-band"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Bluetooth 5.1; aptX, aptX HD, LDAC, AAC and SBC",
+          "normalizedValue": "Bluetooth 5.1"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "USB Type-C, USB 2.0; OTG support also listed by PTG",
+          "normalizedValue": "USB Type-C; USB 2.0; OTG",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0; OTG"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "NFC enabled",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "GPS, BDS, GLONASS, Galileo and QZSS",
+          "normalizedValue": "GPS; BDS; GLONASS; Galileo; QZSS",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS; BDS; GLONASS; Galileo; QZSS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Dual stereo speakers and 3.5 mm headphone jack; PTG lists no FM radio",
+          "normalizedValue": "Stereo speakers; 3.5 mm jack; FM radio not listed",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; 3.5 mm jack; FM radio not listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "oneplus_nordce3lite_ph_specs",
+          "sourceValue": "Accelerometer, electronic compass, gyroscope, ambient-light sensor, proximity sensor, sensor core; side-mounted fingerprint scanner",
+          "normalizedValue": "Accelerometer; electronic compass; gyroscope; ambient light; proximity; sensor core; side fingerprint"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_2077faec2ddf17-ph-8gb-256gb",
+          "label": "8 GB RAM / 256 GB storage (Philippine configuration)",
+          "modelCode": null,
+          "sku": null,
+          "notes": "OnePlus Philippines and local launch coverage identify this 8/256 GB configuration at PHP 14,990 in April 2023. The CPH regional code and current Philippine price are not verified."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+        "availabilityStatus": "OnePlus Philippines launch coverage confirms the local 8 GB / 256 GB version at PHP 14,990, with online availability from 21 April 2023 and in-store availability from 5 May 2023. Current stock and price are not verified.",
+        "philippineAvailability": "OnePlus Philippines' local product page and launch reporting identify the Nord CE 3 Lite 5G as a Philippine-market product with 8 GB RAM / 256 GB storage and PHP 14,990 launch pricing. PTG reports online availability through OnePlus's Lazada shop from 21 April 2023, Shopee from 26 April, and stores from 5 May. This verifies historical official local launch availability, not current stock or price. The Philippine regional CPH model code remains unconfirmed.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "OnePlus",
+        "catalogModel": "Nord CE 3 Lite 5G",
+        "productLine": "OnePlus Nord series",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Official OnePlus online availability reported from 21 April 2023; stores from 5 May",
+        "researchNotes": "Workbook row 152 OnePlus Nord CE 3 Lite matches OnePlus Philippines' exact Nord CE 3 Lite 5G product and local 8 GB / 256 GB variant. Global announcement date is 4 April 2023; local online availability started 21 April with in-store availability 5 May, at the reported PHP 14,990 official launch price. OnePlus's Philippine page does not provide a local CPH model code. Current price is not verified. PTG and Revu identify Gorilla Glass while GizGuide names Asahi Dragontrail Star Glass; the cover-glass brand remains conflicted. Workbook eligibility remains Pending.",
+        "qualityFlag": "Exact Philippine OnePlus Nord CE 3 Lite 5G, 8 GB / 256 GB configuration, official launch price and historic online/store dates supported; CPH code and current price unverified; cover-glass brand conflict retained; image reuse rights not established; study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "The Philippine OnePlus page does not publish a CPH model number",
+            "action": "Keep the local regional model code blank until OnePlus, the box label, or a reliable local regulatory record maps a code to the 8/256 SKU."
+          },
+          {
+            "issue": "Philippine launch coverage conflicts on display cover-glass brand",
+            "action": "Keep protection unreported until primary regional documentation resolves Gorilla Glass versus Dragontrail Star Glass."
+          },
+          {
+            "issue": "No current dated and orderable Philippine price was verified",
+            "action": "Keep the current price blank and retain PHP 14,990 as a historical launch SRP only."
+          },
+          {
+            "issue": "Official and Philippine product pages show exact-model images but no reusable license or permission was found",
+            "action": "Keep the neutral image placeholder and preserve image source metadata."
+          },
+          {
+            "issue": "Workbook eligibility remains Pending",
+            "action": "Preserve the supplied study-scope status."
+          }
+        ]
+      }
     }
   ]
 }

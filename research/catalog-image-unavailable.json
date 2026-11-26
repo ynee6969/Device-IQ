@@ -1498,14 +1498,14 @@
     "altText": "Image unavailable for OnePlus Nord 5"
   },
   "device_2077faec2ddf17": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "OnePlus Philippines and PTG show exact-model product imagery, but no reusable license or permission to copy or hotlink was identified. Keep the neutral placeholder.",
+    "sourcePage": "https://www.oneplus.com/ph/nord-ce-3-lite-5g",
     "assetUrl": null,
-    "scope": null,
+    "scope": "OnePlus Nord CE 3 Lite 5G; Philippine 8 GB / 256 GB configuration",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for OnePlus Nord CE 3 Lite"
+    "altText": "Image unavailable for OnePlus Nord CE 3 Lite 5G"
   },
   "device_c2930a90e8912e": {
     "status": "NO_RELIABLE_MATCH",
