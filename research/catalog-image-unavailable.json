@@ -1090,11 +1090,11 @@
     "altText": "Image unavailable for Motorola Moto G31"
   },
   "device_195cb093808ae0": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact Motorola Moto G50 5G 4 GB / 128 GB Meteorite Gray image is available on the retailer page, but no reusable image license or permission is stated.",
+    "sourcePage": "https://www.gigahertz.com.ph/products/motorola-moto-g50-5g",
+    "assetUrl": "https://www.gigahertz.com.ph/cdn/shop/files/CEL-LENOVOMOTOG505GPAR70005PH_4_128GB_METEORITEGRAY.jpg?v=1730777829&width=1080",
+    "scope": "Exact Moto G50 5G / XT2149-1, Meteorite Gray; listing configuration is 4 GB RAM / 128 GB storage",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Motorola Moto G50"

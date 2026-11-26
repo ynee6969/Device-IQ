@@ -13743,46 +13743,191 @@
     "category": "smartphones",
     "brand": "Motorola",
     "model": "Moto G50",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "manufacturer": "Motorola Mobility",
+    "productLine": "Moto G50 5G",
+    "modelNumber": "XT2149-1",
+    "releaseDate": "2021-08-20",
+    "philippineAvailabilityDate": "2021-08-30",
+    "philippineDateLabel": "Reported Philippine launch/availability date",
+    "philippineReleaseYear": 2021,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Philippine model matched as Moto G50 5G / XT2149-1; current listing condition not stated; image reuse rights not established; workbook scope remains Pending",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "YugaTech and other Philippine launch coverage report the Moto G50 5G with 4 GB RAM / 128 GB storage available locally at PHP 10,495. NTC GEC confirms Philippine conformity record ESD-GEC-2106805 for XT2149-1; Motorola's DoC maps XT2149-1 to moto g50 5G. The workbook row's shorter Moto G50 label is retained while the Philippine model match is explicitly identified as Moto G50 5G. Workbook scope remains Pending.",
+    "availabilityStatus": "Philippine availability reported August 30, 2021; NTC GEC records Motorola XT2149-1 and Motorola maps XT2149-1 to moto g50 5G.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The workbook row is labeled Moto G50. Philippine launch sources identify the locally available device as Moto G50 5G, 4 GB / 128 GB, MediaTek Dimensity 700. Motorola's official DoC maps XT2149-1 to moto g50 5G and separately maps XT2137-1 to the non-5G-suffixed moto g50; the NTC GEC records Philippine model XT2149-1. This review therefore matches the workbook row to the specific Philippine Moto G50 5G record and does not import the Snapdragon 480 specification of XT2137-1. Motorola's global introduction was August 20, 2021; local sources report availability and PHP 10,495 launch pricing on August 30. On November 26, 2026, GigaHertz showed the exact Gray 4/128 selection for PHP 10,899 with pickup available at multiple Philippine branches; item condition was not stated. The retailer's technical details below the offer contain a different phone's specifications and are excluded from this review. An exact-model product image is available on the retailer page, but reuse permission is not stated; the neutral placeholder remains. The inventory scope label stays Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Workbook label omits the 5G suffix; the Philippines launch model is XT2149-1 Moto G50 5G, distinct from XT2137-1 Moto G50",
+        "action": "Keep the regional model-code mapping and processor distinction visible in product details."
+      },
+      {
+        "issue": "GigaHertz does not state the condition of its selected 4/128 listing",
+        "action": "Keep condition as Not recorded while showing the dated exact-variant price and branch pickup status."
+      },
+      {
+        "issue": "GigaHertz technical-specification table contains another handset's data",
+        "action": "Use that page only for its exact selected title, configuration, price, and local pickup availability; do not use it for specifications."
+      },
+      {
+        "issue": "The GigaHertz product image has no stated reusable-image license",
+        "action": "Keep the neutral placeholder unless image reuse permission is documented."
+      },
+      {
+        "issue": "An exact Philippine cellular-band set and model-specific software-update duration were not found",
+        "action": "Leave those fields unrecorded rather than substituting a regional band table or assuming an update policy."
+      },
+      {
+        "issue": "Workbook eligibility remains Pending",
+        "action": "Do not change the study scope status based on local availability evidence."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "Motorola News",
+        "url": "https://motorolanews.com/blazing-fast-5g-speed-with-the-new-moto-g50-5g/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-20",
+        "purpose": "Manufacturer global introduction, product-family technical facts, and global date",
+        "note": "Motorola's August 20, 2021 press release introduces the moto g50 5G and describes its 90 Hz 6.5-inch HD+ display, 48 MP triple-camera system, 5,000 mAh battery, Android 11, Dimensity 700, LPDDR4X, UFS 2.2, and storage/microSD options. Regional features and the Philippine 4/128 GB launch configuration are checked against local sources."
+      },
+      {
+        "organization": "Motorola Support",
+        "url": "https://en-us.support.motorola.com/app/answers/detail/a_id/167829/~/declarations-of-conformity",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer mapping between the XT2149-1 model code and moto g50 5G",
+        "note": "Motorola's declarations of conformity list XT2149-1 as moto g50 5G and separately identify XT2137-1 as moto g50. This distinction is central to matching the Philippine Dimensity 700 device to the workbook's shorter Moto G50 label."
+      },
+      {
+        "organization": "National Telecommunications Commission (NTC)",
+        "url": "https://caraga.ntc.gov.ph/wp-content/uploads/2021/11/GEC_09302021.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-07-06",
+        "purpose": "Philippine Grant of Equipment Conformity record for XT2149-1",
+        "note": "The 2021 NTC GEC lists Motorola XT2149-1 as a smartphone/mobile phone under Motorola Mobility LLC, record ESD-GEC-2106805, dated July 6, 2021. The GEC row supplies regulatory model-code evidence; Motorola's DoC supplies the marketing-name mapping."
+      },
+      {
+        "organization": "Motorola Support",
+        "url": "https://en-us.support.motorola.com/app/answers/detail/a_id/160450/p/689",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model hardware layout and port/sensor confirmation",
+        "note": "Motorola's moto g50 5G support page labels the SIM/SD tray, proximity sensor, Google Assistant button, side fingerprint/power key, rear macro/main/depth cameras, 3.5 mm headset jack, USB-C connector, and speaker."
+      },
+      {
+        "organization": "Motorola Support",
+        "url": "https://help.motorola.com/hc/3255/12/pdf/help-moto-g50-5g-12-global-en-us.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer user's guide for model-specific hardware and use",
+        "note": "Motorola's model-specific user guide illustrates the SIM/SD tray, fingerprint/power key, rear camera roles, USB-C port, speaker, and headset jack. It does not state a Philippine cellular-band table or a formal IP rating."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-30",
+        "purpose": "Philippine-market availability, exact local configuration, historical price, and local specifications",
+        "note": "Published August 30, 2021. YugaTech says the Moto G50 5G is available in the Philippines and lists the 4/128 GB configuration at PHP 10,495, plus local display, chipset, camera, connectivity, battery, dimensions, weight, and color specifications."
+      },
+      {
+        "organization": "Unbox PH",
+        "url": "https://unbox.ph/gadget/motorola-announces-official-price-for-the-moto-g50-5g-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-30",
+        "purpose": "Independent Philippine launch/date and official price confirmation",
+        "note": "Published August 30, 2021. Unbox reports the Moto G50 5G's Philippine price and local 4/128 GB specification; it distinguishes the Philippine Dimensity 700 variant from the earlier Snapdragon 480 Moto G50."
+      },
+      {
+        "organization": "GizGuide Philippines",
+        "url": "https://www.gizguide.com/2021/08/moto-g50-5g-price-specs-ph.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-30",
+        "purpose": "Contemporaneous local launch, price, build, colors, and specification cross-check",
+        "note": "Published August 30, 2021. GizGuide reports the Philippine launch, PHP 10,495 price, Meteorite Grey and Green colors, glasstic construction, display, chipset, camera, RAM/storage, and battery details."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://i.mediatek.com/dimensity-700",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Dimensity 700 process, CPU, and GPU platform specifications",
+        "note": "MediaTek lists the Dimensity 700 as a 7 nm platform with 2 Cortex-A76 cores up to 2.2 GHz, 6 Cortex-A55 cores up to 2.0 GHz, and Mali-G57 MC2 graphics. These are chipset-level properties, not independent proof of the handset's local SKU."
+      },
+      {
+        "organization": "GigaHertz Philippines",
+        "url": "https://www.gigahertz.com.ph/products/motorola-moto-g50-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Dated exact-variant Philippine retailer price and branch pickup availability",
+        "note": "Observed November 26, 2026. The selected listing is Motorola Moto G50 5G, Gray, 4 GB RAM + 128 GB storage at PHP 10,899; pickup is shown available at multiple Philippine branches. Condition is not stated. The listing's lower technical-specification table links to and reproduces a different Motorola handset's data, so this source is used only for the selected title, configuration, price, and branch availability—not for device specifications."
+      }
+    ],
     "variants": [
       {
-        "id": "device_195cb093808ae0-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
-        "pricePhp": null,
+        "id": "device_195cb093808ae0-4gb-128gb-ph",
+        "label": "4 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.5,
+          "displayType": "IPS LCD",
+          "resolution": "720 x 1600",
+          "refreshHz": 90,
+          "chipset": "MediaTek Dimensity 700",
+          "cpu": "2 x Cortex-A76 up to 2.2 GHz + 6 x Cortex-A55 up to 2.0 GHz",
+          "gpu": "Mali-G57 MC2",
+          "os": "Android 11",
+          "ramGb": 4,
+          "storageGb": 128,
+          "rearCameraMp": 48,
+          "frontCameraMp": 13,
+          "batteryMah": 5000,
+          "chargingW": 15,
+          "dimensions": "167 x 76.4 x 9.26 mm",
+          "weightG": 206,
+          "sim": "Dual Nano-SIM; hybrid SIM/SD tray; eSIM not recorded",
+          "cellular": "4G LTE / 5G; exact local bands not recorded",
+          "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "ports": "USB-C; data generation not recorded",
+          "sound": "Single speaker; 3.5 mm headset jack"
+        },
+        "specSources": {
+          "displayInches": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "displayType": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "resolution": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "refreshHz": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "chipset": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "cpu": "https://i.mediatek.com/dimensity-700",
+          "gpu": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "os": "https://motorolanews.com/blazing-fast-5g-speed-with-the-new-moto-g50-5g/",
+          "ramGb": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "storageGb": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "rearCameraMp": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "frontCameraMp": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "batteryMah": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "chargingW": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "dimensions": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "weightG": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "sim": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "cellular": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "wifi": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+          "ports": "https://en-us.support.motorola.com/app/answers/detail/a_id/160450/p/689",
+          "sound": "https://en-us.support.motorola.com/app/answers/detail/a_id/160450/p/689"
+        },
+        "pricePhp": 10899,
         "priceCondition": null,
-        "priceType": null,
-        "priceObservedAt": null,
-        "priceSourceUrl": null,
-        "listingStatus": "Not verified",
-        "notes": null,
+        "priceType": "GigaHertz Philippines selected-variant listing observed 2026-11-26; condition not stated",
+        "priceObservedAt": "2026-11-26",
+        "priceSourceUrl": "https://www.gigahertz.com.ph/products/motorola-moto-g50-5g",
+        "listingStatus": "In stock",
+        "notes": "Dated exact-configuration offer. The retailer's product page shows branch pickup availability for the selected item; its technical-specification section contains mismatched data and is not used for specifications.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "XT2149-1",
         "workbookRow": null
       }
     ],

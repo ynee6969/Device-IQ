@@ -114,6 +114,20 @@ assert.deepEqual(blackShark5Pro.variants.map((variant) => variant.label), [
 assert.ok(blackShark5Pro.variants.every((variant) => variant.pricePhp === null));
 assert.ok(blackShark5Pro.variants.every((variant) => variant.specs.rearCameraMp === null && variant.specs.frontCameraMp === null && variant.specs.wifi === null));
 assert.equal(blackShark5Pro.imageId, null);
+const motoG50 = publicDevices.find((device) => device.id === "device_195cb093808ae0");
+assert.ok(motoG50);
+assert.equal(motoG50.model, "Moto G50");
+assert.equal(motoG50.productLine, "Moto G50 5G");
+assert.equal(motoG50.modelNumber, "XT2149-1");
+assert.equal(motoG50.releaseDate, "2021-08-20");
+assert.equal(motoG50.philippineAvailabilityDate, "2021-08-30");
+assert.equal(motoG50.scopeStatus, "Pending");
+assert.deepEqual(motoG50.variants.map((variant) => variant.label), ["4 GB RAM / 128 GB storage"]);
+assert.equal(motoG50.variants[0]?.specs.chipset, "MediaTek Dimensity 700");
+assert.equal(motoG50.variants[0]?.pricePhp, 10899);
+assert.equal(motoG50.variants[0]?.priceCondition, null);
+assert.equal(motoG50.variants[0]?.listingStatus, "In stock");
+assert.equal(motoG50.imageId, null);
 assert.deepEqual(Object.fromEntries(["Included", "Pending date", "Pending", "Excluded", "Held out"].map((status) => [status, publicDevices.filter((device) => device.scopeStatus === status).length])), { Included: 28, "Pending date": 29, Pending: 396, Excluded: 3, "Held out": 7 });
 assert.ok(publicDevices.every((device) => device.variants.length &&
   device.sources.every((source) => source.url.startsWith("https://"))));

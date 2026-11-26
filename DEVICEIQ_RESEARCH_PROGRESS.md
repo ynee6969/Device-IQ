@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T14:54:28+08:00
+Updated: 2026-11-26T15:07:14+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-26T14:54:28+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 561 |
-| Models with manually verified source fields | 296 |
-| Configurations with manually verified source fields | 404 |
+| Models with manually verified source fields | 297 |
+| Configurations with manually verified source fields | 405 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
-| Models with all fields assessed | 0 |
+| Models with all fields assessed | 1 |
 | Specification-complete models | 0 |
-| Incomplete models | 456 |
+| Incomplete models | 455 |
 | Applicable field assignments | 26197 |
-| Fields assessed | 12162 |
-| Verified fields | 11678 |
-| Pending fields | 14035 |
+| Fields assessed | 12208 |
+| Verified fields | 11716 |
+| Pending fields | 13989 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -39,7 +39,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2021 | smartphones | Huawei | 3 | 0 | 3 | 0 | 0 | 3 | 89 | 89 | 49 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Infinix | 3 | 0 | 3 | 0 | 0 | 3 | 83 | 83 | 55 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Lenovo | 2 | 0 | 2 | 0 | 0 | 2 | 57 | 57 | 35 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | smartphones | Motorola | 3 | 0 | 3 | 0 | 0 | 3 | 29 | 29 | 109 | 1 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | smartphones | Motorola | 3 | 1 | 3 | 0 | 1 | 2 | 75 | 67 | 63 | 1 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Nokia | 4 | 0 | 4 | 0 | 0 | 4 | 107 | 107 | 77 | 4 | 4 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | OPPO | 3 | 0 | 3 | 0 | 0 | 3 | 28 | 28 | 110 | 1 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | OnePlus | 3 | 0 | 3 | 0 | 0 | 3 | 60 | 60 | 78 | 2 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |

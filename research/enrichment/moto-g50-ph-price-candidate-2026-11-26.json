@@ -1,0 +1,51 @@
+{
+  "run_at": "2026-11-26T15:07:05+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_195cb093808ae0",
+      "brand": "Motorola",
+      "model_name": "Moto G50",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_195cb093808ae0",
+      "amount_php": 10495,
+      "configuration_id": "device_195cb093808ae0-4gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2021-08-30",
+      "excerpt": "Philippine launch reports list PHP 10,495 for the Moto G50 5G 4 GB / 128 GB configuration; historical price, not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/motorola-moto-g50-5g-specs-price-philippines-2/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T15:07:05+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_ph_launch_price_not_current"
+    },
+    {
+      "device_id": "device_195cb093808ae0",
+      "amount_php": 10899,
+      "configuration_id": "device_195cb093808ae0-4gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 128,
+      "price_type": "current_ph_retailer_listing_condition_not_stated",
+      "source_published_at": null,
+      "excerpt": "GigaHertz selected Gray 4 GB RAM / 128 GB Storage listing was PHP 10,899; pickup available at multiple Philippine branches. Item condition not stated.",
+      "source_url": "https://www.gigahertz.com.ph/products/motorola-moto-g50-5g",
+      "source_kind": "exact_variant_ph_retailer_price_observation",
+      "observed_at": "2026-11-26T15:07:05+08:00",
+      "local_availability_verified": true,
+      "availability_status": "pickup_available_at_listed_ph_branches"
+    }
+  ]
+}
