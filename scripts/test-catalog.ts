@@ -80,6 +80,13 @@ assert.deepEqual(redmagic7Pro.variants.map((variant) => variant.label), [
   "16 GB RAM / 512 GB storage (Supernova)",
 ]);
 assert.ok(redmagic7Pro.variants.every((variant) => variant.pricePhp === null));
+const oneplus10Pro = publicDevices.find((device) => device.id === "device_63c58f9b94a470");
+assert.ok(oneplus10Pro);
+assert.equal(oneplus10Pro.modelNumber, "NE2213");
+assert.equal(oneplus10Pro.scopeStatus, "Pending");
+assert.equal(oneplus10Pro.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(oneplus10Pro.variants.map((variant) => variant.label), ["12 GB RAM / 256 GB storage (Volcanic Black / Emerald Forest)"]);
+assert.equal(oneplus10Pro.variants[0]?.pricePhp, null);
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");

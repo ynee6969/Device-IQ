@@ -17167,47 +17167,236 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "OnePlus",
-    "model": "10 Pro",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "model": "OnePlus 10 Pro",
+    "manufacturer": "OnePlus Technology (Shenzhen) Co., Ltd.",
+    "productLine": "OnePlus 10 Series",
+    "modelNumber": "NE2213",
+    "releaseDate": "2022-03-31",
+    "philippineAvailabilityDate": "2022-04-02",
+    "philippineDateLabel": "Philippine preorder start date",
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "NE2213 model match, local 12/256 configuration, colors, SRP, and preorder price verified; current price unavailable; RAM type, wired charging, display brightness, and IP rating conflicts preserved; workbook eligibility remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "The OnePlus 10 Pro 5G was announced for the Philippines in April 2022 and offered for preorder through Digital Walker from April 2 to April 6. Later reports say it was available nationwide through Digital Walker. The documented Philippine configuration is 12 GB / 256 GB in Volcanic Black and Emerald Forest, with PHP 52,990 SRP and PHP 48,990 preorder promotion. Current stock and price are not verified.",
+    "availabilityStatus": "Philippine preorder coverage identifies Digital Walker, later reported as OnePlus's official Philippine distributor, with NTC GEC listing NE2213 as OnePlus 10 Pro 5G. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 86 OnePlus 10 Pro matches NTC model NE2213 / OnePlus 10 Pro 5G. Philippine preorder reporting identifies one local hardware configuration, 12 GB / 256 GB, offered in Volcanic Black and Emerald Forest. The colors share identical memory/storage and remain one configuration. Local SRP is PHP 52,990; PHP 48,990 was a dated April 2-6 preorder offer. The OnePlus global specification lists LPDDR5 and 80 W wired charging, while Philippine secondary sources disagree on LPDDR5X versus LPDDR5 and 65 W versus 80 W; the catalog leaves those fields unresolved. Some sources claim IP68 but exact NE2213 coverage is not consistent, so ingress protection remains blank. Current local price is blank. Exact official product images are available but reuse rights are not stated, so the neutral placeholder remains. Workbook eligibility is Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "OnePlus lists LPDDR5, while GIZGUIDE and ManilaShaker list LPDDR5X",
+        "action": "Keep RAM type blank until hardware-specific Philippine NE2213 documentation resolves the difference."
+      },
+      {
+        "issue": "OnePlus and April 2 preorder coverage list 80 W wired charging, while April 21 local availability reports list 65 W",
+        "action": "Keep wired charging power blank pending confirmation for the local NE2213 retail unit."
+      },
+      {
+        "issue": "Display brightness reports vary between 800 nits and 1300 nits",
+        "action": "Keep normalized brightness blank."
+      },
+      {
+        "issue": "IP68 claims may apply to region/operator-specific variants and are not established for the Philippine NE2213 unit",
+        "action": "Keep the ingress-protection rating blank unless exact local documentation is found."
+      },
+      {
+        "issue": "No current dated, orderable Philippine offer was verified",
+        "action": "Keep current price blank and retain 2022 prices as historical only."
+      },
+      {
+        "issue": "Exact OnePlus product images are available, but reuse terms or permission are not recorded",
+        "action": "Keep the neutral placeholder until image rights are documented."
+      },
+      {
+        "issue": "Workbook eligibility is Pending",
+        "action": "Preserve the study's Pending status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "National Telecommunications Commission Philippines",
+        "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment registration and model-code match",
+        "note": "The NTC 2022 GEC lists ONEPLUS model NE2213 as OnePlus 10 Pro 5G. This supports the Philippine model identity; it does not independently establish the retail configuration."
+      },
+      {
+        "organization": "OnePlus Global",
+        "url": "https://www.oneplus.com/global/10-pro/specs",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary exact-model-family hardware, configuration, color, and connectivity specifications",
+        "note": "OnePlus lists the global model's 12 GB LPDDR5 / 256 GB UFS 3.1 option, Emerald Forest and Volcanic Black colors, display, cameras, battery, 80 W wired and 50 W wireless charging, connectivity, ports, sensors, and dimensions. It is a global specification page; Philippine channel and variant evidence is established separately."
+      },
+      {
+        "organization": "OnePlus Official",
+        "url": "https://www.youtube.com/watch?v=nKSOPsG0ma8",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-03-31",
+        "purpose": "Manufacturer global launch event date",
+        "note": "OnePlus's verified global launch-event video was published March 31, 2022. The Chinese announcement was earlier; this field uses the global event date."
+      },
+      {
+        "organization": "Unbox Philippines",
+        "url": "https://unbox.ph/gadget/oneplus-10-pro-now-available-for-pre-order-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-02",
+        "purpose": "Philippine Digital Walker preorder date, exact local configuration, SRP, preorder discount, and local hardware",
+        "note": "Published April 2, 2022. Reports preorder through Digital Walker beginning April 2, ending April 6, for the 12 GB / 256 GB configuration. It gives PHP 52,990 SRP and PHP 4,000 off during preorder (PHP 48,990), and describes 80 W wired / 50 W wireless charging. This is dated local launch evidence, not a current offer."
+      },
+      {
+        "organization": "GIZGUIDE Philippines",
+        "url": "https://www.gizguide.com/2022/04/oneplus-10-pro-price-specs-official-philippines.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-01",
+        "purpose": "Local official SRP, preorder window, color options, and Philippine hardware specifications",
+        "note": "Published April 1, 2022 and attributes the local SRP to Digital Walker. Identifies Volcanic Black and Emerald Forest colors, 12 GB / 256 GB local retail configuration, PHP 52,990 SRP, PHP 48,990 preorder, and 80 W / 50 W charging. It reports LPDDR5X whereas OnePlus's global spec page says LPDDR5; retain that memory-type discrepancy."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/oneplus-10-pro-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-01",
+        "purpose": "Local SRP and preorder offer cross-check",
+        "note": "Published April 1, 2022. Reports Digital Walker's 12 GB / 256 GB listing at PHP 48,990 during the April 2-6 preorder, lists IP68 in its specification summary, and identifies local color/configuration details. This is a historical promotional price, not the SRP or a current offer."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/oneplus-10-pro-now-official-coming-to-ph/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-01",
+        "purpose": "Philippine market announcement cross-check",
+        "note": "Published April 1, 2022. Reports OnePlus confirmed the 10 Pro 5G was coming to the Philippines. It supports local launch context but does not alone establish completed sale or exact distributor stock."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/android/oneplus-10-pro-specs-price-availability/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-21",
+        "purpose": "Local authorized-channel availability, price, and regional hardware cross-check",
+        "note": "Published April 21, 2022. Reports OnePlus 10 Pro available at Digital Walker, identified as OnePlus's official Philippine distributor, and PHP 52,990. Its article says 65 W wired charging and 800-nit peak brightness; both are retained as source conflicts against the manufacturer/global and other local launch specifications."
+      },
+      {
+        "organization": "ManilaShaker Philippines",
+        "url": "https://manilashaker.com/oneplus-10-pro-now-available-via-digital-walker-stores/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-04-21",
+        "purpose": "Independent Digital Walker availability and local configuration cross-check",
+        "note": "Published April 21, 2022. Identifies Digital Walker as official distributor, says the phone is available nationwide, lists 12 GB / 256 GB at PHP 52,990 and the two local color names. It also reports 65 W wired charging, conflicting with the OnePlus global specification and preorder reporting."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-1-mobile-platform",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Snapdragon 8 Gen 1 platform reference",
+        "note": "Qualcomm's product page documents the chipset family and Adreno graphics platform; platform capabilities are not substituted for handset-specific details."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary chipset process and CPU capability reference",
+        "note": "Qualcomm's product brief specifies the 4 nm Snapdragon 8 Gen 1 process and CPU capability up to 3.0 GHz with Cortex-X2 technology. Core-cluster detail is cross-checked with NanoReview."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/phone/oneplus-10-pro",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model secondary technical cross-check",
+        "note": "Exact OnePlus 10 Pro page used for chipset architecture, display, camera, battery, connectivity, and build cross-checks. Benchmark scores are not copied into the catalog; regional details are checked against OnePlus and local sources."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/soc/qualcomm-snapdragon-8-gen-1",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent Snapdragon 8 Gen 1 architecture cross-check",
+        "note": "Used for CPU cluster details only; chipset benchmarks are not treated as phone specifications."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-oneplus-10-pro",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Global model/configuration and secondary technical cross-check",
+        "note": "The exact model page distinguishes global and regional variants and corroborates the 12 GB / 256 GB global configuration. Price listings are not treated as current Philippine prices."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/oneplus_10_pro-11234.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact model-number family, regional hardware, and secondary specification cross-check",
+        "note": "Exact OnePlus 10 Pro listing includes models NE2210/NE2211/NE2213/NE2215/NE2217 and distinguishes international 80 W charging from North American 65 W. NTC model NE2213 is locally registered, but local coverage still disagrees on charging; do not assume the region-specific hardware solely from a shared family listing."
+      }
+    ],
     "variants": [
       {
-        "id": "device_63c58f9b94a470-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_63c58f9b94a470-12gb-256gb-ph",
+        "label": "12 GB RAM / 256 GB storage (Volcanic Black / Emerald Forest)",
+        "specs": {
+          "displayInches": 6.7,
+          "displayType": "Fluid AMOLED LTPO 2.0",
+          "resolution": "3216 x 1440",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 8 Gen 1",
+          "cpu": "1x Cortex-X2 3.0 GHz + 3x Cortex-A710 2.5 GHz + 4x Cortex-A510 1.8 GHz",
+          "gpu": "Qualcomm Adreno 730",
+          "os": "OxygenOS 12.1 based on Android 12",
+          "ramGb": 12,
+          "storageGb": 256,
+          "frontCameraMp": 32,
+          "batteryMah": 5000,
+          "wirelessChargingW": 50,
+          "dimensions": "163.0 x 73.9 x 8.55 mm",
+          "weightG": 200.5,
+          "sim": "Dual Nano-SIM; eSIM not recorded",
+          "cellular": "Manufacturer-published global 2G/3G/4G/5G bands; Philippine carrier compatibility not independently tested",
+          "wifi": "Wi-Fi 6, dual-band",
+          "ports": "USB Type-C 3.1 Gen 1; OTG",
+          "gnss": "Dual-band GPS, GLONASS, Galileo, BeiDou, A-GPS",
+          "sound": "Dual stereo speakers; Dolby Atmos; no 3.5 mm jack"
+        },
+        "specSources": {
+          "displayInches": "https://www.oneplus.com/global/10-pro/specs",
+          "displayType": "https://www.oneplus.com/global/10-pro/specs",
+          "resolution": "https://www.oneplus.com/global/10-pro/specs",
+          "refreshHz": "https://www.oneplus.com/global/10-pro/specs",
+          "chipset": "https://www.oneplus.com/global/10-pro/specs",
+          "cpu": "https://nanoreview.net/en/soc/qualcomm-snapdragon-8-gen-1",
+          "gpu": "https://www.oneplus.com/global/10-pro/specs",
+          "os": "https://unbox.ph/gadget/oneplus-10-pro-now-available-for-pre-order-in-the-philippines/",
+          "ramGb": "https://unbox.ph/gadget/oneplus-10-pro-now-available-for-pre-order-in-the-philippines/",
+          "storageGb": "https://unbox.ph/gadget/oneplus-10-pro-now-available-for-pre-order-in-the-philippines/",
+          "frontCameraMp": "https://www.oneplus.com/global/10-pro/specs",
+          "batteryMah": "https://www.oneplus.com/global/10-pro/specs",
+          "wirelessChargingW": "https://www.oneplus.com/global/10-pro/specs",
+          "dimensions": "https://www.oneplus.com/global/10-pro/specs",
+          "weightG": "https://www.oneplus.com/global/10-pro/specs",
+          "sim": "https://www.oneplus.com/global/10-pro/specs",
+          "cellular": "https://www.oneplus.com/global/10-pro/specs",
+          "wifi": "https://www.oneplus.com/global/10-pro/specs",
+          "ports": "https://www.oneplus.com/global/10-pro/specs",
+          "gnss": "https://www.oneplus.com/global/10-pro/specs",
+          "sound": "https://www.oneplus.com/global/10-pro/specs"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine preorder and local availability sources identify 12 GB / 256 GB in Volcanic Black and Emerald Forest. The colors share one hardware configuration. Historical SRP PHP 52,990; April 2-6, 2022 preorder promotion PHP 48,990. Current price not verified.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "NE2213",
         "workbookRow": null
       }
     ],

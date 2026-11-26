@@ -1,0 +1,152 @@
+{
+  "run_at": "2026-11-26T18:53:15+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_63c58f9b94a470",
+      "brand": "OnePlus",
+      "model_name": "10 Pro",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_63c58f9b94a470",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC 2022 GEC lists OnePlus model NE2213 as OnePlus 10 Pro 5G."
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "source_url": "https://unbox.ph/gadget/oneplus-10-pro-now-available-for-pre-order-in-the-philippines/",
+      "result": "Digital Walker's April 2-6 Philippine preorder documents 12/256 configuration, PHP 52,990 SRP, PHP 48,990 promotion, and local 80W/50W charging specs."
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "source_url": "https://manilashaker.com/oneplus-10-pro-now-available-via-digital-walker-stores/",
+      "result": "Digital Walker nationwide availability reported April 21; local reports disagree on wired charging power and RAM type."
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "source_url": "https://www.oneplus.com/global/10-pro/specs",
+      "result": "Manufacturer global specifications confirm the OnePlus 10 Pro hardware family, colors, and exact global specifications; region-specific claims are kept distinct."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_63c58f9b94a470",
+      "amount_php": 52990,
+      "configuration_id": "device_63c58f9b94a470-12gb-256gb-ph",
+      "configuration_match": "exact_philippine_ne2213_12gb_256gb_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-04-02",
+      "excerpt": "historical local launch SRP: OnePlus 10 Pro NE2213 12 GB / 256 GB listed at PHP 52,990; historical price observation, not current.",
+      "source_url": "https://unbox.ph/gadget/oneplus-10-pro-now-available-for-pre-order-in-the-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:53:15+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "amount_php": 52990,
+      "configuration_id": "device_63c58f9b94a470-12gb-256gb-ph",
+      "configuration_match": "exact_philippine_ne2213_12gb_256gb_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-04-01",
+      "excerpt": "Digital Walker-attributed Philippine SRP: OnePlus 10 Pro NE2213 12 GB / 256 GB listed at PHP 52,990; historical price observation, not current.",
+      "source_url": "https://www.gizguide.com/2022/04/oneplus-10-pro-price-specs-official-philippines.html",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:53:15+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "amount_php": 52990,
+      "configuration_id": "device_63c58f9b94a470-12gb-256gb-ph",
+      "configuration_match": "exact_philippine_ne2213_12gb_256gb_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-04-21",
+      "excerpt": "historical local authorized-channel price: OnePlus 10 Pro NE2213 12 GB / 256 GB listed at PHP 52,990; historical price observation, not current.",
+      "source_url": "https://www.noypigeeks.com/android/oneplus-10-pro-specs-price-availability/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:53:15+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "amount_php": 52990,
+      "configuration_id": "device_63c58f9b94a470-12gb-256gb-ph",
+      "configuration_match": "exact_philippine_ne2213_12gb_256gb_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-04-21",
+      "excerpt": "historical local distributor retail price: OnePlus 10 Pro NE2213 12 GB / 256 GB listed at PHP 52,990; historical price observation, not current.",
+      "source_url": "https://manilashaker.com/oneplus-10-pro-now-available-via-digital-walker-stores/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:53:15+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "amount_php": 48990,
+      "configuration_id": "device_63c58f9b94a470-12gb-256gb-ph",
+      "configuration_match": "exact_philippine_ne2213_12gb_256gb_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_preorder_promotion",
+      "source_published_at": "2022-04-02",
+      "excerpt": "April 2-6 preorder promotion: OnePlus 10 Pro NE2213 12 GB / 256 GB listed at PHP 48,990; historical price observation, not current.",
+      "source_url": "https://unbox.ph/gadget/oneplus-10-pro-now-available-for-pre-order-in-the-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:53:15+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "amount_php": 48990,
+      "configuration_id": "device_63c58f9b94a470-12gb-256gb-ph",
+      "configuration_match": "exact_philippine_ne2213_12gb_256gb_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_preorder_promotion",
+      "source_published_at": "2022-04-01",
+      "excerpt": "April 2-6 preorder promotion: OnePlus 10 Pro NE2213 12 GB / 256 GB listed at PHP 48,990; historical price observation, not current.",
+      "source_url": "https://www.gizguide.com/2022/04/oneplus-10-pro-price-specs-official-philippines.html",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:53:15+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63c58f9b94a470",
+      "amount_php": 48990,
+      "configuration_id": "device_63c58f9b94a470-12gb-256gb-ph",
+      "configuration_match": "exact_philippine_ne2213_12gb_256gb_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_preorder_promotion",
+      "source_published_at": "2022-04-01",
+      "excerpt": "Digital Walker preorder promotion announced April 1; order window began April 2: OnePlus 10 Pro NE2213 12 GB / 256 GB listed at PHP 48,990; historical price observation, not current.",
+      "source_url": "https://www.yugatech.com/mobile/oneplus-10-pro-price-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T18:53:15+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}
