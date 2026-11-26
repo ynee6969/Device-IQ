@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T19:06:49+08:00
+Updated: 2026-11-26T19:17:45+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -9,18 +9,18 @@ Updated: 2026-11-26T19:06:49+08:00
 | Measure | Count |
 | --- | ---: |
 | Device models | 456 |
-| Configurations | 568 |
-| Models with manually verified source fields | 314 |
-| Configurations with manually verified source fields | 429 |
+| Configurations | 569 |
+| Models with manually verified source fields | 315 |
+| Configurations with manually verified source fields | 431 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 2 |
 | Specification-complete models | 0 |
 | Incomplete models | 454 |
-| Applicable field assignments | 26519 |
-| Fields assessed | 13279 |
-| Verified fields | 12605 |
-| Pending fields | 13240 |
+| Applicable field assignments | 26565 |
+| Fields assessed | 13365 |
+| Verified fields | 12689 |
+| Pending fields | 13200 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -71,7 +71,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2022 | smartphones | Nothing | 1 | 0 | 1 | 0 | 0 | 1 | 29 | 29 | 17 | 1 | 1 | 0 | 0 | 1 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | OPPO | 3 | 1 | 3 | 0 | 0 | 3 | 132 | 119 | 6 | 2 | 3 | 0 | 0 | 1 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | OnePlus | 2 | 1 | 2 | 0 | 0 | 2 | 75 | 70 | 17 | 1 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2022 | smartphones | POCO | 4 | 0 | 4 | 0 | 0 | 4 | 121 | 121 | 109 | 3 | 3 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
+| 2022 | smartphones | POCO | 4 | 1 | 4 | 0 | 0 | 4 | 207 | 205 | 69 | 3 | 4 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | REDMAGIC | 2 | 2 | 2 | 0 | 0 | 2 | 225 | 200 | 5 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | Samsung | 3 | 2 | 3 | 0 | 0 | 3 | 92 | 82 | 92 | 0 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | TCL | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 92 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
@@ -230,7 +230,7 @@ The table counts the existing records and this run's review state; it does not m
 ## Current blockers and next actions
 
 1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.
-2. Review the 5883 source-derived field observations and 446 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
+2. Review the 5883 source-derived field observations and 448 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
 3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover 18/18 laptop models and 22 exact configurations.
 4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.
 5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.

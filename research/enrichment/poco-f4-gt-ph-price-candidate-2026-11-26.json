@@ -1,0 +1,120 @@
+{
+  "run_at": "2026-11-26T19:17:35+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "brand": "POCO",
+      "model_name": "F4 GT",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC 2022 GEC lists POCO model 21121210G; Xiaomi's official guide maps that exact code to POCO F4 GT."
+    },
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "source_url": "https://unbox.ph/gadget/poco-f4-gt-official-in-the-philippines-with-php-27-6k-starting-price/",
+      "result": "Philippine launch pricing for 8/128 and 12/256 configurations, with SRPs and dated April 28-May 12 early-bird prices."
+    },
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "source_url": "https://www.po.co/global/product/poco-f4-gt/specs/",
+      "result": "Manufacturer specs confirm both configurations and exact global hardware; local records remain specific to dated Philippine launch pricing."
+    },
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "source_url": "https://www.mi.com/global/support/faq/details/KA-09391/",
+      "result": "Official FAQ states IP53; a Philippine launch source states IPX4, so ingress protection remains unresolved."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "amount_php": 27590,
+      "configuration_id": "device_fadbe684bc9a48-8gb-128gb-ph",
+      "configuration_match": "philippine_21121210g_8gb_128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-04-27",
+      "excerpt": "Historical Philippine SRP for POCO F4 GT 8/128: PHP 27,590; not a current price.",
+      "source_url": "https://unbox.ph/gadget/poco-f4-gt-official-in-the-philippines-with-php-27-6k-starting-price/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T19:17:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "amount_php": 24390,
+      "configuration_id": "device_fadbe684bc9a48-8gb-128gb-ph",
+      "configuration_match": "philippine_21121210g_8gb_128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_promotion",
+      "source_published_at": "2022-04-27",
+      "excerpt": "Historical April 28-May 12, 2022 early-bird Philippine promotion for POCO F4 GT 8/128: PHP 24,390; not a current price.",
+      "source_url": "https://unbox.ph/gadget/poco-f4-gt-official-in-the-philippines-with-php-27-6k-starting-price/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T19:17:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "amount_php": 30990,
+      "configuration_id": "device_fadbe684bc9a48-12gb-256gb-ph",
+      "configuration_match": "philippine_21121210g_12gb_256gb",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-04-27",
+      "excerpt": "Historical Philippine SRP for POCO F4 GT 12/256: PHP 30,990; not a current price.",
+      "source_url": "https://unbox.ph/gadget/poco-f4-gt-official-in-the-philippines-with-php-27-6k-starting-price/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T19:17:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "amount_php": 27990,
+      "configuration_id": "device_fadbe684bc9a48-12gb-256gb-ph",
+      "configuration_match": "philippine_21121210g_12gb_256gb",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_promotion",
+      "source_published_at": "2022-04-27",
+      "excerpt": "Historical April 28-May 12, 2022 early-bird Philippine promotion for POCO F4 GT 12/256: PHP 27,990; not a current price.",
+      "source_url": "https://unbox.ph/gadget/poco-f4-gt-official-in-the-philippines-with-php-27-6k-starting-price/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26T19:17:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_fadbe684bc9a48",
+      "amount_php": 30790,
+      "configuration_id": "device_fadbe684bc9a48-12gb-256gb-ph",
+      "configuration_match": "philippine_listed_global_21121210g_12gb_256gb",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_last_verified_store_price",
+      "source_published_at": "2026-11-12",
+      "excerpt": "YugaTech Shop's exact POCO F4 GT 12+256GB Global Version page records a verified lowest store price of PHP 30,790 on November 12, 2026; the page currently reports no verified price and the store link now says check at store.",
+      "source_url": "https://www.yugatech.com/shop/poco-f4-gt-12-plus-256gb-global-version/",
+      "source_kind": "dated_local_price_snapshot",
+      "observed_at": "2026-11-26T19:17:35+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}

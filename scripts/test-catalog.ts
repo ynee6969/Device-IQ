@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [376, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 575);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [377, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 576);
 const redmagic7Pro = publicDevices.find((device) => device.id === "device_5e189eced7d16d");
 assert.ok(redmagic7Pro);
 assert.equal(redmagic7Pro.modelNumber, "NX709J");
@@ -87,6 +87,17 @@ assert.equal(oneplus10Pro.scopeStatus, "Pending");
 assert.equal(oneplus10Pro.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
 assert.deepEqual(oneplus10Pro.variants.map((variant) => variant.label), ["12 GB RAM / 256 GB storage (Volcanic Black / Emerald Forest)"]);
 assert.equal(oneplus10Pro.variants[0]?.pricePhp, null);
+const pocoF4Gt = publicDevices.find((device) => device.id === "device_fadbe684bc9a48");
+assert.ok(pocoF4Gt);
+assert.equal(pocoF4Gt.modelNumber, "21121210G");
+assert.equal(pocoF4Gt.philippineAvailabilityDate, "2022-04-28");
+assert.equal(pocoF4Gt.scopeStatus, "Pending");
+assert.equal(pocoF4Gt.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(pocoF4Gt.variants.map((variant) => variant.label), [
+  "8 GB RAM / 128 GB storage (Stealth Black / Knight Silver / Cyber Yellow)",
+  "12 GB RAM / 256 GB storage (Stealth Black / Knight Silver / Cyber Yellow)",
+]);
+assert.ok(pocoF4Gt.variants.every((variant) => variant.pricePhp === null));
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");
