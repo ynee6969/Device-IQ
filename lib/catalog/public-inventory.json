@@ -4959,7 +4959,7 @@
     "manufacturer": "Black Shark",
     "productLine": "Black Shark 5 Series",
     "modelNumber": "SHARK PAR-H0",
-    "releaseDate": "2022-04-04",
+    "releaseDate": "2022-06-09",
     "philippineAvailabilityDate": "2022-07-02",
     "philippineDateLabel": "Reported Philippine official sale date",
     "philippineReleaseYear": 2022,
@@ -4973,7 +4973,7 @@
     "philippineAvailability": "The standard Black Shark 5 was announced for local sale in official Black Shark Philippines channels. YugaTech and REVU report July 2, 2022; NTC lists its SHARK PAR-H0 code. This verifies Philippine availability of the model family and the two launch configurations, while the workbook's scope status remains Pending.",
     "availabilityStatus": "Philippine official sale reported from July 2, 2022 through Black Shark's official Shopee Philippines store and pop-up booth; NTC's 2022 GEC lists BLACK SHARK SHARK PAR-H0.",
     "discontinued": null,
-    "researchNotes": "Matched to the standard Black Shark 5, not Black Shark 5 Pro. The NTC 2022 GEC lists BLACK SHARK SHARK PAR-H0 and the model manual names PAR-H0; GSMArena uses PAR-A0 for a separate global/regional code, whose band table is not used for the PH unit. YugaTech and REVU support two local RAM/storage variants: 8/128 and 12/256, with launch SRPs PHP 26,999 and PHP 34,999 and early-bird prices PHP 25,999 and PHP 33,999 (July 2–18, 2022). On 2026-11-26 Bermor showed both exact RAM/storage configurations active and in stock at its online warehouse, with listed sale prices PHP 24,995 and PHP 32,450; condition is not stated. Camera sensor details, Bluetooth version, and the audio jack conflict between reviewed sources and remain unresolved. An exact official Black Shark product image was located, but reuse terms are not established, so the neutral placeholder remains. The inventory scope label is retained as Pending.",
+    "researchNotes": "Matched to the standard Black Shark 5, not Black Shark 5 Pro. The NTC 2022 GEC lists BLACK SHARK SHARK PAR-H0 and the model manual names PAR-H0; GSMArena uses PAR-A0 for a separate global/regional code, whose band table is not used for the PH unit. Black Shark's manufacturer press release states the series was unveiled to the global market on June 9, 2022; this is recorded separately from the Philippine official sale date of July 2, 2022 reported by YugaTech and REVU. YugaTech and REVU support two local RAM/storage variants: 8/128 and 12/256, with launch SRPs PHP 26,999 and PHP 34,999 and early-bird prices PHP 25,999 and PHP 33,999 (July 2–18, 2022). On 2026-11-26 Bermor showed both exact RAM/storage configurations active and in stock at its online warehouse, with listed sale prices PHP 24,995 and PHP 32,450; condition is not stated. Camera sensor details, Bluetooth version, and the audio jack conflict between reviewed sources and remain unresolved. An exact official Black Shark product image was located, but reuse terms are not established, so the neutral placeholder remains. The inventory scope label is retained as Pending.",
     "openIssues": [
       {
         "issue": "Rear camera source conflict: local launch coverage/GSMArena report 13 MP ultrawide + 2 MP macro, while blackshark.gg reports 8 MP + 5 MP",
@@ -5088,6 +5088,14 @@
         "publishedAt": null,
         "purpose": "Check for reuse/republishing terms associated with the alternate Black Shark specification host",
         "note": "The site's terms prohibit infringing intellectual-property rights but do not provide an explicit license for reusing the product image. Rights to embed the official global CDN image remain unestablished."
+      },
+      {
+        "organization": "Black Shark (Global)",
+        "url": "https://blackshark.gg/blogs/press-room/black-shark-launches-the-mobile-gaming-flagship-black-shark-5-series-globally",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-06-09",
+        "purpose": "Manufacturer-stated global availability of the Black Shark 5 series",
+        "note": "Black Shark's global press release says the Black Shark 5 series was unveiled to the global market on June 9, 2022. This manufacturer date is recorded separately from the Philippine official sale start reported as July 2, 2022. GSMArena's April 4 release date refers to its technical model listing and is not used as the manufacturer-stated global availability date."
       }
     ],
     "variants": [
@@ -5215,46 +5223,245 @@
     "category": "smartphones",
     "brand": "Black Shark",
     "model": "5 Pro",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "manufacturer": "Black Shark",
+    "productLine": "Black Shark 5 Series",
+    "modelNumber": "SHARK KTUS-H0",
+    "releaseDate": "2022-06-09",
+    "philippineAvailabilityDate": "2022-07-02",
+    "philippineDateLabel": "Reported Philippine official sale date",
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Current price range not mapped to variants; camera, Wi-Fi, and Bluetooth source conflicts; image reuse rights not established; scope remains Pending",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Contemporaneous Philippine reports identify the 8/128 and 12/256 Black Shark 5 Pro variants in the brand's official local sales channels. NTC's 2022 GEC records the exact PH model code. The workbook scope status remains Pending.",
+    "availabilityStatus": "Philippine official sale reported from July 2, 2022 through Black Shark's official Shopee Philippines store and pop-up booth; NTC GEC identifies SHARK KTUS-H0 as Black Shark 5 Pro.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Matched to Black Shark 5 Pro / SHARK KTUS-H0, not the standard Black Shark 5. The NTC GEC names the marketing model and code; the manufacturer manual confirms the same code. Global manufacturer release is June 9, 2022; Philippine official sale was reported from July 2. Local launch variants are 8/128 at PHP 37,999 and 12/256 at PHP 43,999; early-bird prices were PHP 36,999 and PHP 42,999 from July 2–18, 2022. Gufi's indexed listing shows a PHP 41,199–44,199 range, but the index is about four months old and does not map the two bounds to exact variants or verify present stock, so public current prices remain blank. The alternate blackshark.gg spec page conflicts with local and Xiaomi technical sources on camera and radio values; disputed public fields stay blank. An exact official product image was located, but image reuse rights are undocumented, so the placeholder remains. The workbook scope label remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Gufi lists only an indexed PHP 41,199–44,199 range; no exact variant mapping or current stock confirmation",
+        "action": "Keep public current prices blank until a dated selected-variant offer is verified."
+      },
+      {
+        "issue": "Rear camera/ultrawide and front-camera values conflict with an alternate Black Shark specifications page",
+        "action": "Preserve source claims in the audit and leave the disputed numeric catalog fields blank."
+      },
+      {
+        "issue": "Wi-Fi 6 versus Wi-Fi 6E and Bluetooth 5.2 versus 5.0 conflict",
+        "action": "Keep these connectivity values unresolved for the Philippine KTUS-H0 configuration."
+      },
+      {
+        "issue": "Exact official product image reuse permission is not recorded",
+        "action": "Keep the neutral placeholder until usage rights are documented."
+      },
+      {
+        "issue": "Workbook eligibility remains Pending",
+        "action": "Do not change study eligibility based only on verified Philippine availability."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "Black Shark (Global)",
+        "url": "https://global.blackshark.com/products/black-shark-5-pro",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact model name, colors, and exact-model image source page",
+        "note": "The manufacturer page identifies Black Shark 5 Pro and displays Stella Black and Nebula White. Its exact Stellar Black product image was located on the official CDN; no image reuse license was found, so the asset is not embedded."
+      },
+      {
+        "organization": "Black Shark (Global)",
+        "url": "https://blackshark.gg/blogs/press-room/black-shark-launches-the-mobile-gaming-flagship-black-shark-5-series-globally",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer global availability date and product-family launch context",
+        "note": "Black Shark's global press room states that the Black Shark 5 series became officially available June 9, 2022. The regional Chinese announcement/release date may differ; this field records the stated global availability date."
+      },
+      {
+        "organization": "National Telecommunications Commission (NTC)",
+        "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine Grant of Equipment Conformity model identity",
+        "note": "The 2022 NTC GEC identifies BLACK SHARK SHARK KTUS-H0 as Black Shark 5 Pro. This is Philippine regulatory model-code evidence."
+      },
+      {
+        "organization": "Black Shark 5 Pro user manual (manufacturer manual mirrored by Device.report)",
+        "url": "https://device.report/m/2abf7c84ef4337f73181cb9e701440fc40a7a6cc648177dd48951993eefb20cd.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Model-code confirmation, SIM size, fingerprint location, and physical port layout",
+        "note": "The manual names Black Shark 5 Pro, SHARK KTUS-H0, and BLACK SHARK. Its diagram identifies the side fingerprint lock, SIM tray, and USB Type-C port; the SIM instructions specify Nano-SIM slots 1 and 2. The PDF is hosted by a manual archive rather than the manufacturer domain."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-06-27",
+        "purpose": "Philippine launch, local configurations/prices, availability, and device specifications",
+        "note": "Published June 27, 2022. YugaTech reports Black Shark Philippines' July launch, July 2–18 early-bird offer, local 8/128 and 12/256 variants and SRPs, Snapdragon 8 Gen 1, display, camera system, battery, connectivity, and build dimensions."
+      },
+      {
+        "organization": "REVU Philippines",
+        "url": "https://www.revu.com.ph/2022/06/black-shark-5-pro-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-06-26",
+        "purpose": "Independent contemporaneous Philippine sale date, official store channels, and launch prices",
+        "note": "Published June 26, 2022. REVU reports Black Shark's official Philippines Shopee store and SM City North EDSA pop-up, local sale beginning July 2, both Philippine Black Shark 5 Pro configurations and launch SRPs, plus the July 2–18 PHP 1,000 promotion."
+      },
+      {
+        "organization": "Xiaomi / Black Shark official specifications (China)",
+        "url": "https://www.mi.com/blackshark5pro/specs",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer technical specifications for the Black Shark 5 Pro product family",
+        "note": "The official Xiaomi-hosted Black Shark 5 Pro specification page lists the Snapdragon 8 Gen 1/Adreno 730 platform, LPDDR5 and enhanced UFS 3.1 + SSD storage, display, HM2 main sensor, camera modules, battery/charging, dimensions, and SIM/network details. The page is the Chinese-market specification; local-only bands and availability are sourced separately."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary chipset platform process, CPU/GPU family, and USB platform capability reference",
+        "note": "Qualcomm's Snapdragon 8 Gen 1 brief reports 4 nm process technology, Kryo CPU with Cortex-X2 technology up to 3.0 GHz, and the Adreno graphics subsystem. It does not identify this handset's regional configuration."
+      },
+      {
+        "organization": "Gufi Philippines",
+        "url": "https://gufi.com.ph/product-category/our-brands/black-shark/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Unmapped Philippine retailer price-range candidate; not a dated exact-variant offer",
+        "note": "The indexed Black Shark category page shows a Black Shark 5 Pro price range PHP 41,199–44,199 and Add to cart, but the search index says it was crawled about four months earlier. It does not expose which price belongs to which RAM/storage variant or current stock for a selected option. It is retained only as a pending range candidate, not a current public variant price."
+      },
+      {
+        "organization": "Black Shark specification page at blackshark.gg",
+        "url": "https://blackshark.gg/pages/specs-blackshark5-pro",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Record alternate technical claims that conflict with local launch and Xiaomi manufacturer specifications",
+        "note": "The page lists 8 MP ultrawide, 20 MP front, Bluetooth 5.0, Wi-Fi details, and a 3.5 mm jack; the Philippine launch and Xiaomi-hosted specs report 13 MP ultrawide, 16 MP front, and local Bluetooth 5.2. This page's contradictory Black Shark 5 family entries include a Snapdragon 870/Adreno 660 pairing, so its conflicting claims are retained for audit and not silently selected."
+      }
+    ],
     "variants": [
       {
-        "id": "device_abadb9044528e9-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_abadb9044528e9-8gb-128gb-ph",
+        "label": "8 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.67,
+          "displayType": "Flexible OLED",
+          "resolution": "1080 x 2400",
+          "refreshHz": 144,
+          "chipset": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "cpu": "Kryo CPU; Cortex-X2 up to 3.0 GHz; core layout not recorded",
+          "gpu": "Adreno 730",
+          "os": "Android 12; Joy UI 13",
+          "ramGb": 8,
+          "storageGb": 128,
+          "rearCameraMp": null,
+          "frontCameraMp": null,
+          "video": "Rear up to 4K/60 fps and 1080p/960 fps slow motion; front up to 1080p/30 fps",
+          "batteryMah": 4650,
+          "chargingW": 120,
+          "dimensions": "163.86 x 76.53 x 9.5 mm",
+          "weightG": 220,
+          "sim": "Dual Nano-SIM; eSIM not recorded",
+          "cellular": "5G / 4G LTE; exact local bands not recorded",
+          "wifi": null,
+          "ports": "USB Type-C; protocol not recorded",
+          "sound": "Stereo speakers; 3.5 mm jack not recorded"
+        },
+        "specSources": {
+          "displayInches": "https://www.mi.com/blackshark5pro/specs",
+          "displayType": "https://www.mi.com/blackshark5pro/specs",
+          "resolution": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "refreshHz": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "chipset": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "cpu": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+          "gpu": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "os": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "ramGb": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "storageGb": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "video": "https://www.mi.com/blackshark5pro/specs",
+          "batteryMah": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "chargingW": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "dimensions": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "weightG": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "sim": "https://device.report/m/2abf7c84ef4337f73181cb9e701440fc40a7a6cc648177dd48951993eefb20cd.pdf",
+          "cellular": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "ports": "https://device.report/m/2abf7c84ef4337f73181cb9e701440fc40a7a6cc648177dd48951993eefb20cd.pdf",
+          "sound": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Exact Philippine Black Shark 5 Pro launch configuration reported by YugaTech and REVU. Separate from the standard Black Shark 5 and from global 16/256 variants.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "SHARK KTUS-H0",
+        "workbookRow": null
+      },
+      {
+        "id": "device_abadb9044528e9-12gb-256gb-ph",
+        "label": "12 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.67,
+          "displayType": "Flexible OLED",
+          "resolution": "1080 x 2400",
+          "refreshHz": 144,
+          "chipset": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "cpu": "Kryo CPU; Cortex-X2 up to 3.0 GHz; core layout not recorded",
+          "gpu": "Adreno 730",
+          "os": "Android 12; Joy UI 13",
+          "ramGb": 12,
+          "storageGb": 256,
+          "rearCameraMp": null,
+          "frontCameraMp": null,
+          "video": "Rear up to 4K/60 fps and 1080p/960 fps slow motion; front up to 1080p/30 fps",
+          "batteryMah": 4650,
+          "chargingW": 120,
+          "dimensions": "163.86 x 76.53 x 9.5 mm",
+          "weightG": 220,
+          "sim": "Dual Nano-SIM; eSIM not recorded",
+          "cellular": "5G / 4G LTE; exact local bands not recorded",
+          "wifi": null,
+          "ports": "USB Type-C; protocol not recorded",
+          "sound": "Stereo speakers; 3.5 mm jack not recorded"
+        },
+        "specSources": {
+          "displayInches": "https://www.mi.com/blackshark5pro/specs",
+          "displayType": "https://www.mi.com/blackshark5pro/specs",
+          "resolution": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "refreshHz": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "chipset": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "cpu": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+          "gpu": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "os": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "ramGb": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "storageGb": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "video": "https://www.mi.com/blackshark5pro/specs",
+          "batteryMah": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "chargingW": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "dimensions": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "weightG": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "sim": "https://device.report/m/2abf7c84ef4337f73181cb9e701440fc40a7a6cc648177dd48951993eefb20cd.pdf",
+          "cellular": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "ports": "https://device.report/m/2abf7c84ef4337f73181cb9e701440fc40a7a6cc648177dd48951993eefb20cd.pdf",
+          "sound": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceType": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Exact Philippine Black Shark 5 Pro launch configuration reported by YugaTech and REVU. Separate from the standard Black Shark 5 and from global 16/256 variants.",
+        "sku": null,
+        "modelCode": "SHARK KTUS-H0",
         "workbookRow": null
       }
     ],

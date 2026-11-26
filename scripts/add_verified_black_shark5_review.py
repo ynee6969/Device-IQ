@@ -24,6 +24,7 @@ URL_FCC = "https://fccid.io/m/bb15278ddda91619447401bb44747e13cf0a90a231a5feee1d
 URL_YUGA = "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/"
 URL_REVU = "https://www.revu.com.ph/2022/06/black-shark-5-pro-price-philippines/"
 URL_GSMARENA = "https://www.gsmarena.com/xiaomi_black_shark_5-11454.php"
+URL_GLOBAL_RELEASE = "https://blackshark.gg/blogs/press-room/black-shark-launches-the-mobile-gaming-flagship-black-shark-5-series-globally"
 URL_QUALCOMM = "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/prod_brief_qcom_sd870_5g.pdf"
 URL_BERMOR = "https://bermorzone.com.ph/shop/gadgets/mobile-phones/xiaomi-black-shark-5-8gb-12gb128gb-256gb-gray-black/"
 URL_ALT_SPECS = "https://blackshark.gg/pages/specs-blackshark5"
@@ -69,6 +70,9 @@ SOURCES = [
            "Exact-family technical specification cross-check; not used to claim Philippine SKU availability",
            "The exact Black Shark 5 specification page reports the 6.67-inch 144 Hz AMOLED display, Snapdragon 870, global memory/storage family, cameras, battery, dimensions, weight, and connectivity. It gives model code SHARK PAR-A0, which differs from the PH GEC/manual SHARK PAR-H0; its global band table and model code are not assigned to the Philippine configuration.",
            "2022-03-30"),
+    source("black_shark_5_global_release", "Black Shark (Global)", URL_GLOBAL_RELEASE,
+           "Manufacturer-stated global availability of the Black Shark 5 series",
+           "Black Shark's global press release says the Black Shark 5 series was unveiled to the global market on June 9, 2022. This manufacturer date is recorded separately from the Philippine official sale start reported as July 2, 2022. GSMArena's April 4 release date refers to its technical model listing and is not used as the manufacturer-stated global availability date."),
     source("qualcomm_sd870_brief", "Qualcomm", URL_QUALCOMM,
            "Primary Snapdragon 870 platform specifications",
            "Qualcomm's Snapdragon 870 brief corroborates the platform CPU/GPU family and Wi-Fi 6, Bluetooth 5.2, and 5G capabilities. Device-level values are taken from handset-specific sources.",
@@ -119,8 +123,8 @@ def fields_for(config: dict) -> list[dict]:
 
     add("model_number", "black_shark_5_ntc_gec", "SHARK PAR-H0; NTC 2022 GEC lists BLACK SHARK SHARK PAR-H0",
         "SHARK PAR-H0", status="VERIFIED", note="The NTC GEC lists the code and the matching Black Shark 5 user manual explicitly pairs it with this marketing model. GSMArena lists PAR-A0 for a global/regional variant; that code is not substituted for the PH GEC/manual code.")
-    add("global_release_date", "black_shark_5_gsmarena", "GSMArena reports release on April 4, 2022; announced March 30, 2022",
-        "2022-04-04", status="VERIFIED_SECONDARY", note="Global-family release date from an exact Black Shark 5 technical record. This is separate from the reported Philippine official sale start of July 2, 2022 and does not claim the first individual sale.")
+    add("global_release_date", "black_shark_5_global_release", "Black Shark Global states the Black Shark 5 series was unveiled to the global market on June 9, 2022",
+        "2022-06-09", status="VERIFIED", note="Manufacturer-stated global market unveiling date. The reported Philippine official sale began July 2, 2022. GSMArena lists April 4 for a technical model record; that date is not substituted for the manufacturer's stated global availability.")
     add("configuration", "black_shark_5_yugatech_ph", f"{ram} GB + {storage} GB Philippine official-store configuration",
         f"{ram} GB RAM / {storage} GB storage", status="VERIFIED_SECONDARY", note="This exact pair is listed in contemporaneous Philippine launch coverage and matches the retailer selector. Black Shark 5 Pro and global-only memory pairings are excluded.")
     add("philippine_release_date", "black_shark_5_revu_ph", "Official Philippine sale begins July 2, 2022",
@@ -228,7 +232,7 @@ def main() -> None:
                 "modelNumber": "SHARK PAR-H0",
                 "philippineReleaseYear": 2022,
                 "philippineDateLabel": "Reported Philippine official sale date",
-                "researchNotes": "Matched to the standard Black Shark 5, not Black Shark 5 Pro. The NTC 2022 GEC lists BLACK SHARK SHARK PAR-H0 and the model manual names PAR-H0; GSMArena uses PAR-A0 for a separate global/regional code, whose band table is not used for the PH unit. YugaTech and REVU support two local RAM/storage variants: 8/128 and 12/256, with launch SRPs PHP 26,999 and PHP 34,999 and early-bird prices PHP 25,999 and PHP 33,999 (July 2–18, 2022). On 2026-11-26 Bermor showed both exact RAM/storage configurations active and in stock at its online warehouse, with listed sale prices PHP 24,995 and PHP 32,450; condition is not stated. Camera sensor details, Bluetooth version, and the audio jack conflict between reviewed sources and remain unresolved. An exact official Black Shark product image was located, but reuse terms are not established, so the neutral placeholder remains. The inventory scope label is retained as Pending.",
+        "researchNotes": "Matched to the standard Black Shark 5, not Black Shark 5 Pro. The NTC 2022 GEC lists BLACK SHARK SHARK PAR-H0 and the model manual names PAR-H0; GSMArena uses PAR-A0 for a separate global/regional code, whose band table is not used for the PH unit. Black Shark's manufacturer press release states the series was unveiled to the global market on June 9, 2022; this is recorded separately from the Philippine official sale date of July 2, 2022 reported by YugaTech and REVU. YugaTech and REVU support two local RAM/storage variants: 8/128 and 12/256, with launch SRPs PHP 26,999 and PHP 34,999 and early-bird prices PHP 25,999 and PHP 33,999 (July 2–18, 2022). On 2026-11-26 Bermor showed both exact RAM/storage configurations active and in stock at its online warehouse, with listed sale prices PHP 24,995 and PHP 32,450; condition is not stated. Camera sensor details, Bluetooth version, and the audio jack conflict between reviewed sources and remain unresolved. An exact official Black Shark product image was located, but reuse terms are not established, so the neutral placeholder remains. The inventory scope label is retained as Pending.",
                 "qualityFlag": "Camera, Bluetooth, and audio source conflicts; image reuse rights not established; workbook scope remains Pending",
                 "openIssues": [
                     {"issue": "Rear camera source conflict: local launch coverage/GSMArena report 13 MP ultrawide + 2 MP macro, while blackshark.gg reports 8 MP + 5 MP", "action": "Keep rear camera field and primary-camera catalog number blank until an exact-model primary source resolves the conflict."},

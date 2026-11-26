@@ -1,0 +1,100 @@
+{
+  "run_at": "2026-11-26T14:54:20+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_abadb9044528e9",
+      "brand": "Black Shark",
+      "model_name": "5 Pro",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_abadb9044528e9",
+      "amount_php": 37999,
+      "configuration_id": "device_abadb9044528e9-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 37,999 Philippine launch SRP for Philippine 8 GB / 128 GB configuration; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T14:54:20+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_ph_launch_srp_not_current"
+    },
+    {
+      "device_id": "device_abadb9044528e9",
+      "amount_php": 36999,
+      "configuration_id": "device_abadb9044528e9-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_early_bird_promotion",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 36,999 early-bird price for Philippine 8 GB / 128 GB configuration, offered July 2–18, 2022; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "dated_ph_launch_promotion",
+      "observed_at": "2026-11-26T14:54:20+08:00",
+      "local_availability_verified": true,
+      "availability_status": "dated_ph_promotion_not_current"
+    },
+    {
+      "device_id": "device_abadb9044528e9",
+      "amount_php": 43999,
+      "configuration_id": "device_abadb9044528e9-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 43,999 Philippine launch SRP for Philippine 12 GB / 256 GB configuration; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T14:54:20+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_ph_launch_srp_not_current"
+    },
+    {
+      "device_id": "device_abadb9044528e9",
+      "amount_php": 42999,
+      "configuration_id": "device_abadb9044528e9-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_early_bird_promotion",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 42,999 early-bird price for Philippine 12 GB / 256 GB configuration, offered July 2–18, 2022; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "dated_ph_launch_promotion",
+      "observed_at": "2026-11-26T14:54:20+08:00",
+      "local_availability_verified": true,
+      "availability_status": "dated_ph_promotion_not_current"
+    },
+    {
+      "device_id": "device_abadb9044528e9",
+      "amount_php": 41199,
+      "range_max_php": 44199,
+      "configuration_id": null,
+      "configuration_match": "ambiguous_variant_range",
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "price_type": "undated_indexed_ph_retailer_range_candidate",
+      "source_published_at": null,
+      "excerpt": "Gufi's indexed Black Shark category page showed PHP 41,199–44,199 and Add to cart, but was crawled about four months earlier and did not map range bounds to RAM/storage or confirm current stock; not a current exact-variant offer.",
+      "source_url": "https://gufi.com.ph/product-category/our-brands/black-shark/",
+      "source_kind": "unmapped_retailer_range_candidate",
+      "observed_at": null,
+      "local_availability_verified": false,
+      "availability_status": "pending_variant_mapping_and_current_stock"
+    }
+  ]
+}

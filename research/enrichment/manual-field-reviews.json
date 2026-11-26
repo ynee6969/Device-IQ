@@ -138452,6 +138452,15 @@
           "accessDate": "2026-11-26",
           "purpose": "Check for reuse/republishing terms associated with the alternate Black Shark specification host",
           "note": "The site's terms prohibit infringing intellectual-property rights but do not provide an explicit license for reusing the product image. Rights to embed the official global CDN image remain unestablished."
+        },
+        {
+          "id": "black_shark_5_global_release",
+          "publisher": "Black Shark (Global)",
+          "url": "https://blackshark.gg/blogs/press-room/black-shark-launches-the-mobile-gaming-flagship-black-shark-5-series-globally",
+          "publicationDate": "2022-06-09",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer-stated global availability of the Black Shark 5 series",
+          "note": "Black Shark's global press release says the Black Shark 5 series was unveiled to the global market on June 9, 2022. This manufacturer date is recorded separately from the Philippine official sale start reported as July 2, 2022. GSMArena's April 4 release date refers to its technical model listing and is not used as the manufacturer-stated global availability date."
         }
       ],
       "fields": [
@@ -138466,11 +138475,11 @@
         },
         {
           "fieldId": "global_release_date",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "black_shark_5_gsmarena",
-          "sourceValue": "GSMArena reports release on April 4, 2022; announced March 30, 2022",
-          "normalizedValue": "2022-04-04",
-          "note": "Global-family release date from an exact Black Shark 5 technical record. This is separate from the reported Philippine official sale start of July 2, 2022 and does not claim the first individual sale.",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_global_release",
+          "sourceValue": "Black Shark Global states the Black Shark 5 series was unveiled to the global market on June 9, 2022",
+          "normalizedValue": "2022-06-09",
+          "note": "Manufacturer-stated global market unveiling date. The reported Philippine official sale began July 2, 2022. GSMArena lists April 4 for a technical model record; that date is not substituted for the manufacturer's stated global availability.",
           "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
         },
         {
@@ -138954,7 +138963,7 @@
         "modelNumber": "SHARK PAR-H0",
         "philippineReleaseYear": 2022,
         "philippineDateLabel": "Reported Philippine official sale date",
-        "researchNotes": "Matched to the standard Black Shark 5, not Black Shark 5 Pro. The NTC 2022 GEC lists BLACK SHARK SHARK PAR-H0 and the model manual names PAR-H0; GSMArena uses PAR-A0 for a separate global/regional code, whose band table is not used for the PH unit. YugaTech and REVU support two local RAM/storage variants: 8/128 and 12/256, with launch SRPs PHP 26,999 and PHP 34,999 and early-bird prices PHP 25,999 and PHP 33,999 (July 2–18, 2022). On 2026-11-26 Bermor showed both exact RAM/storage configurations active and in stock at its online warehouse, with listed sale prices PHP 24,995 and PHP 32,450; condition is not stated. Camera sensor details, Bluetooth version, and the audio jack conflict between reviewed sources and remain unresolved. An exact official Black Shark product image was located, but reuse terms are not established, so the neutral placeholder remains. The inventory scope label is retained as Pending.",
+        "researchNotes": "Matched to the standard Black Shark 5, not Black Shark 5 Pro. The NTC 2022 GEC lists BLACK SHARK SHARK PAR-H0 and the model manual names PAR-H0; GSMArena uses PAR-A0 for a separate global/regional code, whose band table is not used for the PH unit. Black Shark's manufacturer press release states the series was unveiled to the global market on June 9, 2022; this is recorded separately from the Philippine official sale date of July 2, 2022 reported by YugaTech and REVU. YugaTech and REVU support two local RAM/storage variants: 8/128 and 12/256, with launch SRPs PHP 26,999 and PHP 34,999 and early-bird prices PHP 25,999 and PHP 33,999 (July 2–18, 2022). On 2026-11-26 Bermor showed both exact RAM/storage configurations active and in stock at its online warehouse, with listed sale prices PHP 24,995 and PHP 32,450; condition is not stated. Camera sensor details, Bluetooth version, and the audio jack conflict between reviewed sources and remain unresolved. An exact official Black Shark product image was located, but reuse terms are not established, so the neutral placeholder remains. The inventory scope label is retained as Pending.",
         "qualityFlag": "Camera, Bluetooth, and audio source conflicts; image reuse rights not established; workbook scope remains Pending",
         "openIssues": [
           {
@@ -139090,6 +139099,15 @@
           "accessDate": "2026-11-26",
           "purpose": "Check for reuse/republishing terms associated with the alternate Black Shark specification host",
           "note": "The site's terms prohibit infringing intellectual-property rights but do not provide an explicit license for reusing the product image. Rights to embed the official global CDN image remain unestablished."
+        },
+        {
+          "id": "black_shark_5_global_release",
+          "publisher": "Black Shark (Global)",
+          "url": "https://blackshark.gg/blogs/press-room/black-shark-launches-the-mobile-gaming-flagship-black-shark-5-series-globally",
+          "publicationDate": "2022-06-09",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer-stated global availability of the Black Shark 5 series",
+          "note": "Black Shark's global press release says the Black Shark 5 series was unveiled to the global market on June 9, 2022. This manufacturer date is recorded separately from the Philippine official sale start reported as July 2, 2022. GSMArena's April 4 release date refers to its technical model listing and is not used as the manufacturer-stated global availability date."
         }
       ],
       "fields": [
@@ -139104,11 +139122,11 @@
         },
         {
           "fieldId": "global_release_date",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "black_shark_5_gsmarena",
-          "sourceValue": "GSMArena reports release on April 4, 2022; announced March 30, 2022",
-          "normalizedValue": "2022-04-04",
-          "note": "Global-family release date from an exact Black Shark 5 technical record. This is separate from the reported Philippine official sale start of July 2, 2022 and does not claim the first individual sale.",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_global_release",
+          "sourceValue": "Black Shark Global states the Black Shark 5 series was unveiled to the global market on June 9, 2022",
+          "normalizedValue": "2022-06-09",
+          "note": "Manufacturer-stated global market unveiling date. The reported Philippine official sale began July 2, 2022. GSMArena lists April 4 for a technical model record; that date is not substituted for the manufacturer's stated global availability.",
           "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
         },
         {
@@ -139562,6 +139580,1198 @@
           "sourceValue": "Manual diagram identifies the side power button as fingerprint lock; other sensor list is not recorded for PH model SHARK PAR-H0",
           "normalizedValue": "Side-mounted fingerprint reader; other sensors not recorded",
           "note": "The manual's model-specific diagram confirms the side fingerprint reader. Remaining sensors are not transferred from a GSMArena record using the different SHARK PAR-A0 code.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        }
+      ]
+    },
+    {
+      "deviceId": "device_abadb9044528e9",
+      "configurationId": "device_abadb9044528e9-8gb-128gb-ph",
+      "brand": "Black Shark",
+      "model": "5 Pro",
+      "configuration": "8 GB RAM / 128 GB storage",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "black_shark_5_pro_global_product",
+          "publisher": "Black Shark (Global)",
+          "url": "https://global.blackshark.com/products/black-shark-5-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact model name, colors, and exact-model image source page",
+          "note": "The manufacturer page identifies Black Shark 5 Pro and displays Stella Black and Nebula White. Its exact Stellar Black product image was located on the official CDN; no image reuse license was found, so the asset is not embedded."
+        },
+        {
+          "id": "black_shark_5_pro_global_release",
+          "publisher": "Black Shark (Global)",
+          "url": "https://blackshark.gg/blogs/press-room/black-shark-launches-the-mobile-gaming-flagship-black-shark-5-series-globally",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer global availability date and product-family launch context",
+          "note": "Black Shark's global press room states that the Black Shark 5 series became officially available June 9, 2022. The regional Chinese announcement/release date may differ; this field records the stated global availability date."
+        },
+        {
+          "id": "black_shark_5_pro_ntc_gec",
+          "publisher": "National Telecommunications Commission (NTC)",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine Grant of Equipment Conformity model identity",
+          "note": "The 2022 NTC GEC identifies BLACK SHARK SHARK KTUS-H0 as Black Shark 5 Pro. This is Philippine regulatory model-code evidence."
+        },
+        {
+          "id": "black_shark_5_pro_manual",
+          "publisher": "Black Shark 5 Pro user manual (manufacturer manual mirrored by Device.report)",
+          "url": "https://device.report/m/2abf7c84ef4337f73181cb9e701440fc40a7a6cc648177dd48951993eefb20cd.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Model-code confirmation, SIM size, fingerprint location, and physical port layout",
+          "note": "The manual names Black Shark 5 Pro, SHARK KTUS-H0, and BLACK SHARK. Its diagram identifies the side fingerprint lock, SIM tray, and USB Type-C port; the SIM instructions specify Nano-SIM slots 1 and 2. The PDF is hosted by a manual archive rather than the manufacturer domain."
+        },
+        {
+          "id": "black_shark_5_pro_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "publicationDate": "2022-06-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch, local configurations/prices, availability, and device specifications",
+          "note": "Published June 27, 2022. YugaTech reports Black Shark Philippines' July launch, July 2–18 early-bird offer, local 8/128 and 12/256 variants and SRPs, Snapdragon 8 Gen 1, display, camera system, battery, connectivity, and build dimensions."
+        },
+        {
+          "id": "black_shark_5_pro_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2022/06/black-shark-5-pro-price-philippines/",
+          "publicationDate": "2022-06-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent contemporaneous Philippine sale date, official store channels, and launch prices",
+          "note": "Published June 26, 2022. REVU reports Black Shark's official Philippines Shopee store and SM City North EDSA pop-up, local sale beginning July 2, both Philippine Black Shark 5 Pro configurations and launch SRPs, plus the July 2–18 PHP 1,000 promotion."
+        },
+        {
+          "id": "black_shark_5_pro_xiaomi_specs",
+          "publisher": "Xiaomi / Black Shark official specifications (China)",
+          "url": "https://www.mi.com/blackshark5pro/specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer technical specifications for the Black Shark 5 Pro product family",
+          "note": "The official Xiaomi-hosted Black Shark 5 Pro specification page lists the Snapdragon 8 Gen 1/Adreno 730 platform, LPDDR5 and enhanced UFS 3.1 + SSD storage, display, HM2 main sensor, camera modules, battery/charging, dimensions, and SIM/network details. The page is the Chinese-market specification; local-only bands and availability are sourced separately."
+        },
+        {
+          "id": "qualcomm_snapdragon_8_gen_1_brief",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary chipset platform process, CPU/GPU family, and USB platform capability reference",
+          "note": "Qualcomm's Snapdragon 8 Gen 1 brief reports 4 nm process technology, Kryo CPU with Cortex-X2 technology up to 3.0 GHz, and the Adreno graphics subsystem. It does not identify this handset's regional configuration."
+        },
+        {
+          "id": "black_shark_5_pro_gufi_range_candidate",
+          "publisher": "Gufi Philippines",
+          "url": "https://gufi.com.ph/product-category/our-brands/black-shark/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Unmapped Philippine retailer price-range candidate; not a dated exact-variant offer",
+          "note": "The indexed Black Shark category page shows a Black Shark 5 Pro price range PHP 41,199–44,199 and Add to cart, but the search index says it was crawled about four months earlier. It does not expose which price belongs to which RAM/storage variant or current stock for a selected option. It is retained only as a pending range candidate, not a current public variant price."
+        },
+        {
+          "id": "black_shark_5_pro_alt_specs_conflict",
+          "publisher": "Black Shark specification page at blackshark.gg",
+          "url": "https://blackshark.gg/pages/specs-blackshark5-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Record alternate technical claims that conflict with local launch and Xiaomi manufacturer specifications",
+          "note": "The page lists 8 MP ultrawide, 20 MP front, Bluetooth 5.0, Wi-Fi details, and a 3.5 mm jack; the Philippine launch and Xiaomi-hosted specs report 13 MP ultrawide, 16 MP front, and local Bluetooth 5.2. This page's contradictory Black Shark 5 family entries include a Snapdragon 870/Adreno 660 pairing, so its conflicting claims are retained for audit and not silently selected."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_ntc_gec",
+          "sourceValue": "NTC GEC: BLACK SHARK SHARK KTUS-H0; the Black Shark 5 Pro manual names model SHARK KTUS-H0",
+          "normalizedValue": "SHARK KTUS-H0",
+          "note": "The NTC 2022 GEC directly maps SHARK KTUS-H0 to Black Shark 5 Pro; the matching manufacturer manual independently confirms the model-code spelling.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_global_release",
+          "sourceValue": "Black Shark Global states the Black Shark 5 series was officially available June 9, 2022",
+          "normalizedValue": "2022-06-09",
+          "note": "Manufacturer-stated global availability date. Philippine official sale was later, from July 2, 2022.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "8 GB RAM / 128 GB storage Philippine launch variant",
+          "normalizedValue": "8 GB RAM / 128 GB storage",
+          "note": "This exact configuration appears in contemporaneous Philippine launch coverage. The 16/256 global version and Black Shark 5 (non-Pro) are not merged into this local SKU.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_revu_ph",
+          "sourceValue": "Official Black Shark Philippines sale begins July 2, 2022",
+          "normalizedValue": "2022-07-02",
+          "note": "Reported local sale start through the official Shopee Philippines store and brand pop-up booth; not a claim of the first individual completed sale.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "PHP 37,999 Philippine launch SRP for 8/128 GB",
+          "normalizedValue": 37999,
+          "note": "Historical Philippine SRP corroborated by REVU; July 2–18, 2022 early-bird price is separately recorded and neither figure is presented as current.",
+          "unit": "PHP",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "black_shark_5_pro_gufi_range_candidate",
+          "sourceValue": "Indexed Gufi Philippines price range PHP 41,199–44,199; source crawl is about four months old and does not map range bounds to RAM/storage or confirm live stock",
+          "normalizedValue": null,
+          "note": "The retailer price range is preserved only as an unmapped candidate. No exact, current, in-stock offer was verified for this configuration; historical launch pricing is not reused as a current price.",
+          "unit": "PHP",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "6.67-inch display (YugaTech rounds to 6.7 inches)",
+          "normalizedValue": 6.67,
+          "note": "Official Xiaomi specification gives 6.67 inches; local launch source uses the rounded 6.7-inch value.",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.67,
+          "unit": "in",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Flexible OLED display",
+          "normalizedValue": "Flexible OLED",
+          "note": "Manufacturer specification names a flexible OLED panel; local launch coverage describes AMOLED.",
+          "catalogKey": "displayType",
+          "catalogValue": "Flexible OLED",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "FHD+ 2400 x 1080 pixels",
+          "normalizedValue": "1080 x 2400",
+          "note": "Local launch specification gives FHD+ at 2400 x 1080.",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "144 Hz display refresh; 720 Hz touch sampling",
+          "normalizedValue": 144,
+          "note": "144 Hz is the display refresh rate. The 720 Hz figure is touch sampling and is kept separate.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 144,
+          "unit": "Hz",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Peak brightness not stated in the cited Philippine launch source",
+          "normalizedValue": null,
+          "note": "No exact brightness value is asserted from the source set used for the PH configuration.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Panel protection material/grade is not identified in the reviewed manufacturer specification",
+          "normalizedValue": null,
+          "note": "No protective-glass brand or generation is inferred.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "note": "Local launch coverage identifies the Pro chipset; the standard Black Shark 5 uses Snapdragon 870.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon_8_gen_1_brief",
+          "sourceValue": "4 nm process technology",
+          "normalizedValue": "4 nm",
+          "note": "Qualcomm's platform brief gives the Snapdragon 8 Gen 1 process node; this is a chipset property.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon_8_gen_1_brief",
+          "sourceValue": "Kryo CPU with Arm Cortex-X2 technology up to 3.0 GHz; full handset core layout not recorded",
+          "normalizedValue": "Kryo CPU; Cortex-X2 up to 3.0 GHz; core layout not recorded",
+          "note": "Recorded only to the level named by Qualcomm; the full core count/cluster layout is not inferred.",
+          "catalogKey": "cpu",
+          "catalogValue": "Kryo CPU; Cortex-X2 up to 3.0 GHz; core layout not recorded",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Adreno 730 GPU",
+          "normalizedValue": "Adreno 730",
+          "note": "Philippine launch coverage specifies Adreno 730 for the Snapdragon 8 Gen 1 Black Shark 5 Pro.",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 730",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Joy UI 13 based on Android 12",
+          "normalizedValue": "Android 12; Joy UI 13",
+          "note": "Launch software only; later upgrade state is not inferred.",
+          "catalogKey": "os",
+          "catalogValue": "Android 12; Joy UI 13",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_global_product",
+          "sourceValue": "No manufacturer OS/security update duration identified",
+          "normalizedValue": null,
+          "note": "No update-duration promise was identified in the reviewed manufacturer sources.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "8 GB LPDDR5 configuration",
+          "normalizedValue": 8,
+          "note": "Exact local variant capacity from Philippine launch coverage.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "LPDDR5, 6,400 MHz",
+          "normalizedValue": "LPDDR5",
+          "note": "Memory type and rated data rate from local launch specifications.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "128 GB Philippine launch configuration",
+          "normalizedValue": 128,
+          "note": "Exact local configuration capacity.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Enhanced UFS 3.1 + SSD storage array system 2.0",
+          "normalizedValue": "UFS 3.1 + SSD storage array",
+          "note": "Manufacturer identifies the storage technology. The capacity remains the exact local 128 GB or 256 GB SKU value.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "Manual identifies two Nano-SIM positions; a microSD slot is not specified",
+          "normalizedValue": null,
+          "note": "The reviewed local sources do not explicitly confirm microSD expansion support; absence is not inferred from the SIM tray drawing.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech and Xiaomi manufacturer specifications: 108 MP main + 13 MP ultrawide + 5 MP macro; blackshark.gg alternate page: 108 MP + 8 MP + 5 MP",
+          "normalizedValue": null,
+          "note": "Main resolution and macro resolution agree, but ultrawide resolution conflicts. The catalog's primary-camera number remains blank while the source discrepancy is unresolved.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": null,
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Samsung HM2 108 MP sensor, 1/1.52-inch format, f/1.75, 7P lens",
+          "normalizedValue": "Samsung HM2, 108 MP, 1/1.52 in",
+          "note": "Manufacturer specification names HM2; the value is limited to this exact product family.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech/Xiaomi specs: 13 MP, 120-degree ultrawide; alternate page: 8 MP, 120-degree ultrawide",
+          "normalizedValue": null,
+          "note": "The exact-model sources disagree on ultrawide resolution; neither is silently selected.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "No separate optical zoom telephoto module is specified; a 5 MP 3–7 cm autofocus macro camera is listed",
+          "normalizedValue": "No separate optical zoom telephoto; 5 MP autofocus macro",
+          "note": "The manufacturer describes a close-focus macro lens. It is not presented as a long-range optical zoom camera.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech/Xiaomi specs: 16 MP front camera; alternate page: 20 MP",
+          "normalizedValue": null,
+          "note": "The published front-camera resolutions conflict; the catalog numeric value remains blank.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": null,
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Rear: 4K/60 fps; 1080p/60 fps; 720p/30 fps; 1080p slow motion at 120/240/960 fps. Front: 1080p/30 fps",
+          "normalizedValue": "Rear up to 4K/60 fps and 1080p/960 fps slow motion; front up to 1080p/30 fps",
+          "note": "Manufacturer's video modes; individual features depend on camera mode and software settings.",
+          "catalogKey": "video",
+          "catalogValue": "Rear up to 4K/60 fps and 1080p/960 fps slow motion; front up to 1080p/30 fps",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "4,650 mAh battery",
+          "normalizedValue": 4650,
+          "note": "Rated capacity from Philippine launch specifications.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4650,
+          "unit": "mAh",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_global_release",
+          "sourceValue": "Manufacturer describes a 4,650 mAh battery; cell chemistry is not stated in the primary source",
+          "normalizedValue": "Dual-cell battery; chemistry not recorded",
+          "note": "Dual-cell construction is described in manufacturer series material; lithium-ion chemistry is not inferred.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "120 W wired charging",
+          "normalizedValue": 120,
+          "note": "Maximum wired charging rating in the Philippine launch source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 120,
+          "unit": "W",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Wireless charging capability is not listed in the reviewed manufacturer specification",
+          "normalizedValue": null,
+          "note": "No wireless-charging support is claimed from the absence of a listing.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "163.86 x 76.53 x 9.5 mm",
+          "normalizedValue": "163.86 x 76.53 x 9.5 mm",
+          "note": "Local launch and Xiaomi manufacturer specifications agree. The alternate page gives rounded measurement values and disclaims exact physical variation.",
+          "catalogKey": "dimensions",
+          "catalogValue": "163.86 x 76.53 x 9.5 mm",
+          "unit": "mm",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "220 g",
+          "normalizedValue": 220,
+          "note": "Weight reported by the Philippine launch source and official product specification.",
+          "catalogKey": "weightG",
+          "catalogValue": 220,
+          "unit": "g",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_global_release",
+          "sourceValue": "Manufacturer describes a 3D curved glass back with nano-optical coating; frame material not recorded",
+          "normalizedValue": "3D curved glass back; frame material not recorded",
+          "note": "Only the back material is recorded. The manufacturer press release does not identify frame material.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_global_product",
+          "sourceValue": "No IP rating identified in reviewed manufacturer information",
+          "normalizedValue": null,
+          "note": "No water/dust rating is inferred.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "Two Nano-SIM positions; eSIM support not stated",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "The model-specific manual states Nano-SIM in card slots 1 and 2. eSIM support is not inferred.",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not recorded",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "5G and 4G LTE; exact band set for the Philippine SHARK KTUS-H0 SKU not established",
+          "normalizedValue": "5G / 4G LTE; exact local bands not recorded",
+          "note": "Local source confirms 5G/LTE. Technical band lists from other regional codes are not substituted for PH model KTUS-H0.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G / 4G LTE; exact local bands not recorded",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech/local launch source lists Wi-Fi 6; Black Shark global press material lists Wi-Fi 6E",
+          "normalizedValue": null,
+          "note": "Wi-Fi 6 versus Wi-Fi 6E is a material generation/feature discrepancy; local configuration support is left unresolved.",
+          "catalogKey": "wifi",
+          "catalogValue": null,
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech lists Bluetooth 5.2; blackshark.gg specification page lists Bluetooth 5.0",
+          "normalizedValue": null,
+          "note": "Published Bluetooth versions conflict. The catalog does not choose between them pending exact-model clarification.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "USB Type-C port shown in the model-specific manual; data protocol not stated",
+          "normalizedValue": "USB Type-C; protocol not recorded",
+          "note": "Connector type only; USB generation and transfer rate are not inferred.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; protocol not recorded",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "NFC listed",
+          "normalizedValue": "Yes",
+          "note": "Local launch specification lists NFC.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "GPS, A-GPS, GLONASS, Galileo, BeiDou, and QZSS",
+          "normalizedValue": "GPS, A-GPS, GLONASS, Galileo, BeiDou, QZSS",
+          "note": "Navigation systems from Philippine launch specifications.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Stereo speakers are specified; 3.5 mm headphone-jack availability is not established in PH sources",
+          "normalizedValue": "Stereo speakers; 3.5 mm jack not recorded",
+          "note": "Local launch source confirms stereo speakers. A separate alternate page says 3.5 mm jack, but local/model-specific sources do not verify it; no jack status is asserted.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; 3.5 mm jack not recorded",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "Side power/fingerprint key shown in the manual; other sensor list not recorded for the PH configuration",
+          "normalizedValue": "Side-mounted fingerprint reader; other sensors not recorded",
+          "note": "Model-specific manual diagram places fingerprint unlock on the side power key. Additional sensor types are not transferred from a different regional model-code listing.",
+          "configurationMatch": "Philippine 8 GB RAM / 128 GB storage configuration"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_abadb9044528e9-8gb-128gb-ph",
+          "label": "8 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": "SHARK KTUS-H0",
+          "notes": "Exact Philippine Black Shark 5 Pro launch configuration reported by YugaTech and REVU. Separate from the standard Black Shark 5 and from global 16/256 variants."
+        },
+        {
+          "id": "device_abadb9044528e9-12gb-256gb-ph",
+          "label": "12 GB RAM / 256 GB storage",
+          "sku": null,
+          "modelCode": "SHARK KTUS-H0",
+          "notes": "Exact Philippine Black Shark 5 Pro launch configuration reported by YugaTech and REVU. Separate from the standard Black Shark 5 and from global 16/256 variants."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine official sale reported from July 2, 2022 through Black Shark's official Shopee Philippines store and pop-up booth; NTC GEC identifies SHARK KTUS-H0 as Black Shark 5 Pro.",
+        "philippineAvailability": "Contemporaneous Philippine reports identify the 8/128 and 12/256 Black Shark 5 Pro variants in the brand's official local sales channels. NTC's 2022 GEC records the exact PH model code. The workbook scope status remains Pending.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Black Shark",
+        "productLine": "Black Shark 5 Series",
+        "modelNumber": "SHARK KTUS-H0",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported Philippine official sale date",
+        "researchNotes": "Matched to Black Shark 5 Pro / SHARK KTUS-H0, not the standard Black Shark 5. The NTC GEC names the marketing model and code; the manufacturer manual confirms the same code. Global manufacturer release is June 9, 2022; Philippine official sale was reported from July 2. Local launch variants are 8/128 at PHP 37,999 and 12/256 at PHP 43,999; early-bird prices were PHP 36,999 and PHP 42,999 from July 2–18, 2022. Gufi's indexed listing shows a PHP 41,199–44,199 range, but the index is about four months old and does not map the two bounds to exact variants or verify present stock, so public current prices remain blank. The alternate blackshark.gg spec page conflicts with local and Xiaomi technical sources on camera and radio values; disputed public fields stay blank. An exact official product image was located, but image reuse rights are undocumented, so the placeholder remains. The workbook scope label remains Pending.",
+        "qualityFlag": "Current price range not mapped to variants; camera, Wi-Fi, and Bluetooth source conflicts; image reuse rights not established; scope remains Pending",
+        "openIssues": [
+          {
+            "issue": "Gufi lists only an indexed PHP 41,199–44,199 range; no exact variant mapping or current stock confirmation",
+            "action": "Keep public current prices blank until a dated selected-variant offer is verified."
+          },
+          {
+            "issue": "Rear camera/ultrawide and front-camera values conflict with an alternate Black Shark specifications page",
+            "action": "Preserve source claims in the audit and leave the disputed numeric catalog fields blank."
+          },
+          {
+            "issue": "Wi-Fi 6 versus Wi-Fi 6E and Bluetooth 5.2 versus 5.0 conflict",
+            "action": "Keep these connectivity values unresolved for the Philippine KTUS-H0 configuration."
+          },
+          {
+            "issue": "Exact official product image reuse permission is not recorded",
+            "action": "Keep the neutral placeholder until usage rights are documented."
+          },
+          {
+            "issue": "Workbook eligibility remains Pending",
+            "action": "Do not change study eligibility based only on verified Philippine availability."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_abadb9044528e9",
+      "configurationId": "device_abadb9044528e9-12gb-256gb-ph",
+      "brand": "Black Shark",
+      "model": "5 Pro",
+      "configuration": "12 GB RAM / 256 GB storage",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "black_shark_5_pro_global_product",
+          "publisher": "Black Shark (Global)",
+          "url": "https://global.blackshark.com/products/black-shark-5-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact model name, colors, and exact-model image source page",
+          "note": "The manufacturer page identifies Black Shark 5 Pro and displays Stella Black and Nebula White. Its exact Stellar Black product image was located on the official CDN; no image reuse license was found, so the asset is not embedded."
+        },
+        {
+          "id": "black_shark_5_pro_global_release",
+          "publisher": "Black Shark (Global)",
+          "url": "https://blackshark.gg/blogs/press-room/black-shark-launches-the-mobile-gaming-flagship-black-shark-5-series-globally",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer global availability date and product-family launch context",
+          "note": "Black Shark's global press room states that the Black Shark 5 series became officially available June 9, 2022. The regional Chinese announcement/release date may differ; this field records the stated global availability date."
+        },
+        {
+          "id": "black_shark_5_pro_ntc_gec",
+          "publisher": "National Telecommunications Commission (NTC)",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine Grant of Equipment Conformity model identity",
+          "note": "The 2022 NTC GEC identifies BLACK SHARK SHARK KTUS-H0 as Black Shark 5 Pro. This is Philippine regulatory model-code evidence."
+        },
+        {
+          "id": "black_shark_5_pro_manual",
+          "publisher": "Black Shark 5 Pro user manual (manufacturer manual mirrored by Device.report)",
+          "url": "https://device.report/m/2abf7c84ef4337f73181cb9e701440fc40a7a6cc648177dd48951993eefb20cd.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Model-code confirmation, SIM size, fingerprint location, and physical port layout",
+          "note": "The manual names Black Shark 5 Pro, SHARK KTUS-H0, and BLACK SHARK. Its diagram identifies the side fingerprint lock, SIM tray, and USB Type-C port; the SIM instructions specify Nano-SIM slots 1 and 2. The PDF is hosted by a manual archive rather than the manufacturer domain."
+        },
+        {
+          "id": "black_shark_5_pro_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+          "publicationDate": "2022-06-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch, local configurations/prices, availability, and device specifications",
+          "note": "Published June 27, 2022. YugaTech reports Black Shark Philippines' July launch, July 2–18 early-bird offer, local 8/128 and 12/256 variants and SRPs, Snapdragon 8 Gen 1, display, camera system, battery, connectivity, and build dimensions."
+        },
+        {
+          "id": "black_shark_5_pro_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2022/06/black-shark-5-pro-price-philippines/",
+          "publicationDate": "2022-06-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent contemporaneous Philippine sale date, official store channels, and launch prices",
+          "note": "Published June 26, 2022. REVU reports Black Shark's official Philippines Shopee store and SM City North EDSA pop-up, local sale beginning July 2, both Philippine Black Shark 5 Pro configurations and launch SRPs, plus the July 2–18 PHP 1,000 promotion."
+        },
+        {
+          "id": "black_shark_5_pro_xiaomi_specs",
+          "publisher": "Xiaomi / Black Shark official specifications (China)",
+          "url": "https://www.mi.com/blackshark5pro/specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer technical specifications for the Black Shark 5 Pro product family",
+          "note": "The official Xiaomi-hosted Black Shark 5 Pro specification page lists the Snapdragon 8 Gen 1/Adreno 730 platform, LPDDR5 and enhanced UFS 3.1 + SSD storage, display, HM2 main sensor, camera modules, battery/charging, dimensions, and SIM/network details. The page is the Chinese-market specification; local-only bands and availability are sourced separately."
+        },
+        {
+          "id": "qualcomm_snapdragon_8_gen_1_brief",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/snapdragon-8-gen-1-mobile-platform-product-brief.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary chipset platform process, CPU/GPU family, and USB platform capability reference",
+          "note": "Qualcomm's Snapdragon 8 Gen 1 brief reports 4 nm process technology, Kryo CPU with Cortex-X2 technology up to 3.0 GHz, and the Adreno graphics subsystem. It does not identify this handset's regional configuration."
+        },
+        {
+          "id": "black_shark_5_pro_gufi_range_candidate",
+          "publisher": "Gufi Philippines",
+          "url": "https://gufi.com.ph/product-category/our-brands/black-shark/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Unmapped Philippine retailer price-range candidate; not a dated exact-variant offer",
+          "note": "The indexed Black Shark category page shows a Black Shark 5 Pro price range PHP 41,199–44,199 and Add to cart, but the search index says it was crawled about four months earlier. It does not expose which price belongs to which RAM/storage variant or current stock for a selected option. It is retained only as a pending range candidate, not a current public variant price."
+        },
+        {
+          "id": "black_shark_5_pro_alt_specs_conflict",
+          "publisher": "Black Shark specification page at blackshark.gg",
+          "url": "https://blackshark.gg/pages/specs-blackshark5-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Record alternate technical claims that conflict with local launch and Xiaomi manufacturer specifications",
+          "note": "The page lists 8 MP ultrawide, 20 MP front, Bluetooth 5.0, Wi-Fi details, and a 3.5 mm jack; the Philippine launch and Xiaomi-hosted specs report 13 MP ultrawide, 16 MP front, and local Bluetooth 5.2. This page's contradictory Black Shark 5 family entries include a Snapdragon 870/Adreno 660 pairing, so its conflicting claims are retained for audit and not silently selected."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_ntc_gec",
+          "sourceValue": "NTC GEC: BLACK SHARK SHARK KTUS-H0; the Black Shark 5 Pro manual names model SHARK KTUS-H0",
+          "normalizedValue": "SHARK KTUS-H0",
+          "note": "The NTC 2022 GEC directly maps SHARK KTUS-H0 to Black Shark 5 Pro; the matching manufacturer manual independently confirms the model-code spelling.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_global_release",
+          "sourceValue": "Black Shark Global states the Black Shark 5 series was officially available June 9, 2022",
+          "normalizedValue": "2022-06-09",
+          "note": "Manufacturer-stated global availability date. Philippine official sale was later, from July 2, 2022.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "12 GB RAM / 256 GB storage Philippine launch variant",
+          "normalizedValue": "12 GB RAM / 256 GB storage",
+          "note": "This exact configuration appears in contemporaneous Philippine launch coverage. The 16/256 global version and Black Shark 5 (non-Pro) are not merged into this local SKU.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_revu_ph",
+          "sourceValue": "Official Black Shark Philippines sale begins July 2, 2022",
+          "normalizedValue": "2022-07-02",
+          "note": "Reported local sale start through the official Shopee Philippines store and brand pop-up booth; not a claim of the first individual completed sale.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "PHP 43,999 Philippine launch SRP for 12/256 GB",
+          "normalizedValue": 43999,
+          "note": "Historical Philippine SRP corroborated by REVU; July 2–18, 2022 early-bird price is separately recorded and neither figure is presented as current.",
+          "unit": "PHP",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "black_shark_5_pro_gufi_range_candidate",
+          "sourceValue": "Indexed Gufi Philippines price range PHP 41,199–44,199; source crawl is about four months old and does not map range bounds to RAM/storage or confirm live stock",
+          "normalizedValue": null,
+          "note": "The retailer price range is preserved only as an unmapped candidate. No exact, current, in-stock offer was verified for this configuration; historical launch pricing is not reused as a current price.",
+          "unit": "PHP",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "6.67-inch display (YugaTech rounds to 6.7 inches)",
+          "normalizedValue": 6.67,
+          "note": "Official Xiaomi specification gives 6.67 inches; local launch source uses the rounded 6.7-inch value.",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.67,
+          "unit": "in",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Flexible OLED display",
+          "normalizedValue": "Flexible OLED",
+          "note": "Manufacturer specification names a flexible OLED panel; local launch coverage describes AMOLED.",
+          "catalogKey": "displayType",
+          "catalogValue": "Flexible OLED",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "FHD+ 2400 x 1080 pixels",
+          "normalizedValue": "1080 x 2400",
+          "note": "Local launch specification gives FHD+ at 2400 x 1080.",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "144 Hz display refresh; 720 Hz touch sampling",
+          "normalizedValue": 144,
+          "note": "144 Hz is the display refresh rate. The 720 Hz figure is touch sampling and is kept separate.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 144,
+          "unit": "Hz",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Peak brightness not stated in the cited Philippine launch source",
+          "normalizedValue": null,
+          "note": "No exact brightness value is asserted from the source set used for the PH configuration.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Panel protection material/grade is not identified in the reviewed manufacturer specification",
+          "normalizedValue": null,
+          "note": "No protective-glass brand or generation is inferred.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "note": "Local launch coverage identifies the Pro chipset; the standard Black Shark 5 uses Snapdragon 870.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1 5G",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon_8_gen_1_brief",
+          "sourceValue": "4 nm process technology",
+          "normalizedValue": "4 nm",
+          "note": "Qualcomm's platform brief gives the Snapdragon 8 Gen 1 process node; this is a chipset property.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon_8_gen_1_brief",
+          "sourceValue": "Kryo CPU with Arm Cortex-X2 technology up to 3.0 GHz; full handset core layout not recorded",
+          "normalizedValue": "Kryo CPU; Cortex-X2 up to 3.0 GHz; core layout not recorded",
+          "note": "Recorded only to the level named by Qualcomm; the full core count/cluster layout is not inferred.",
+          "catalogKey": "cpu",
+          "catalogValue": "Kryo CPU; Cortex-X2 up to 3.0 GHz; core layout not recorded",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Adreno 730 GPU",
+          "normalizedValue": "Adreno 730",
+          "note": "Philippine launch coverage specifies Adreno 730 for the Snapdragon 8 Gen 1 Black Shark 5 Pro.",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 730",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Joy UI 13 based on Android 12",
+          "normalizedValue": "Android 12; Joy UI 13",
+          "note": "Launch software only; later upgrade state is not inferred.",
+          "catalogKey": "os",
+          "catalogValue": "Android 12; Joy UI 13",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_global_product",
+          "sourceValue": "No manufacturer OS/security update duration identified",
+          "normalizedValue": null,
+          "note": "No update-duration promise was identified in the reviewed manufacturer sources.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "12 GB LPDDR5 configuration",
+          "normalizedValue": 12,
+          "note": "Exact local variant capacity from Philippine launch coverage.",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "LPDDR5, 6,400 MHz",
+          "normalizedValue": "LPDDR5",
+          "note": "Memory type and rated data rate from local launch specifications.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "256 GB Philippine launch configuration",
+          "normalizedValue": 256,
+          "note": "Exact local configuration capacity.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Enhanced UFS 3.1 + SSD storage array system 2.0",
+          "normalizedValue": "UFS 3.1 + SSD storage array",
+          "note": "Manufacturer identifies the storage technology. The capacity remains the exact local 128 GB or 256 GB SKU value.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "Manual identifies two Nano-SIM positions; a microSD slot is not specified",
+          "normalizedValue": null,
+          "note": "The reviewed local sources do not explicitly confirm microSD expansion support; absence is not inferred from the SIM tray drawing.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech and Xiaomi manufacturer specifications: 108 MP main + 13 MP ultrawide + 5 MP macro; blackshark.gg alternate page: 108 MP + 8 MP + 5 MP",
+          "normalizedValue": null,
+          "note": "Main resolution and macro resolution agree, but ultrawide resolution conflicts. The catalog's primary-camera number remains blank while the source discrepancy is unresolved.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": null,
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Samsung HM2 108 MP sensor, 1/1.52-inch format, f/1.75, 7P lens",
+          "normalizedValue": "Samsung HM2, 108 MP, 1/1.52 in",
+          "note": "Manufacturer specification names HM2; the value is limited to this exact product family.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech/Xiaomi specs: 13 MP, 120-degree ultrawide; alternate page: 8 MP, 120-degree ultrawide",
+          "normalizedValue": null,
+          "note": "The exact-model sources disagree on ultrawide resolution; neither is silently selected.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "No separate optical zoom telephoto module is specified; a 5 MP 3–7 cm autofocus macro camera is listed",
+          "normalizedValue": "No separate optical zoom telephoto; 5 MP autofocus macro",
+          "note": "The manufacturer describes a close-focus macro lens. It is not presented as a long-range optical zoom camera.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech/Xiaomi specs: 16 MP front camera; alternate page: 20 MP",
+          "normalizedValue": null,
+          "note": "The published front-camera resolutions conflict; the catalog numeric value remains blank.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": null,
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Rear: 4K/60 fps; 1080p/60 fps; 720p/30 fps; 1080p slow motion at 120/240/960 fps. Front: 1080p/30 fps",
+          "normalizedValue": "Rear up to 4K/60 fps and 1080p/960 fps slow motion; front up to 1080p/30 fps",
+          "note": "Manufacturer's video modes; individual features depend on camera mode and software settings.",
+          "catalogKey": "video",
+          "catalogValue": "Rear up to 4K/60 fps and 1080p/960 fps slow motion; front up to 1080p/30 fps",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "4,650 mAh battery",
+          "normalizedValue": 4650,
+          "note": "Rated capacity from Philippine launch specifications.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4650,
+          "unit": "mAh",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_global_release",
+          "sourceValue": "Manufacturer describes a 4,650 mAh battery; cell chemistry is not stated in the primary source",
+          "normalizedValue": "Dual-cell battery; chemistry not recorded",
+          "note": "Dual-cell construction is described in manufacturer series material; lithium-ion chemistry is not inferred.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "120 W wired charging",
+          "normalizedValue": 120,
+          "note": "Maximum wired charging rating in the Philippine launch source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 120,
+          "unit": "W",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_xiaomi_specs",
+          "sourceValue": "Wireless charging capability is not listed in the reviewed manufacturer specification",
+          "normalizedValue": null,
+          "note": "No wireless-charging support is claimed from the absence of a listing.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "163.86 x 76.53 x 9.5 mm",
+          "normalizedValue": "163.86 x 76.53 x 9.5 mm",
+          "note": "Local launch and Xiaomi manufacturer specifications agree. The alternate page gives rounded measurement values and disclaims exact physical variation.",
+          "catalogKey": "dimensions",
+          "catalogValue": "163.86 x 76.53 x 9.5 mm",
+          "unit": "mm",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "220 g",
+          "normalizedValue": 220,
+          "note": "Weight reported by the Philippine launch source and official product specification.",
+          "catalogKey": "weightG",
+          "catalogValue": 220,
+          "unit": "g",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_global_release",
+          "sourceValue": "Manufacturer describes a 3D curved glass back with nano-optical coating; frame material not recorded",
+          "normalizedValue": "3D curved glass back; frame material not recorded",
+          "note": "Only the back material is recorded. The manufacturer press release does not identify frame material.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "black_shark_5_pro_global_product",
+          "sourceValue": "No IP rating identified in reviewed manufacturer information",
+          "normalizedValue": null,
+          "note": "No water/dust rating is inferred.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "Two Nano-SIM positions; eSIM support not stated",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "The model-specific manual states Nano-SIM in card slots 1 and 2. eSIM support is not inferred.",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not recorded",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "5G and 4G LTE; exact band set for the Philippine SHARK KTUS-H0 SKU not established",
+          "normalizedValue": "5G / 4G LTE; exact local bands not recorded",
+          "note": "Local source confirms 5G/LTE. Technical band lists from other regional codes are not substituted for PH model KTUS-H0.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G / 4G LTE; exact local bands not recorded",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech/local launch source lists Wi-Fi 6; Black Shark global press material lists Wi-Fi 6E",
+          "normalizedValue": null,
+          "note": "Wi-Fi 6 versus Wi-Fi 6E is a material generation/feature discrepancy; local configuration support is left unresolved.",
+          "catalogKey": "wifi",
+          "catalogValue": null,
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "black_shark_5_pro_alt_specs_conflict",
+          "sourceValue": "YugaTech lists Bluetooth 5.2; blackshark.gg specification page lists Bluetooth 5.0",
+          "normalizedValue": null,
+          "note": "Published Bluetooth versions conflict. The catalog does not choose between them pending exact-model clarification.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "USB Type-C port shown in the model-specific manual; data protocol not stated",
+          "normalizedValue": "USB Type-C; protocol not recorded",
+          "note": "Connector type only; USB generation and transfer rate are not inferred.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; protocol not recorded",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "NFC listed",
+          "normalizedValue": "Yes",
+          "note": "Local launch specification lists NFC.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "GPS, A-GPS, GLONASS, Galileo, BeiDou, and QZSS",
+          "normalizedValue": "GPS, A-GPS, GLONASS, Galileo, BeiDou, QZSS",
+          "note": "Navigation systems from Philippine launch specifications.",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "black_shark_5_pro_yugatech_ph",
+          "sourceValue": "Stereo speakers are specified; 3.5 mm headphone-jack availability is not established in PH sources",
+          "normalizedValue": "Stereo speakers; 3.5 mm jack not recorded",
+          "note": "Local launch source confirms stereo speakers. A separate alternate page says 3.5 mm jack, but local/model-specific sources do not verify it; no jack status is asserted.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; 3.5 mm jack not recorded",
+          "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "black_shark_5_pro_manual",
+          "sourceValue": "Side power/fingerprint key shown in the manual; other sensor list not recorded for the PH configuration",
+          "normalizedValue": "Side-mounted fingerprint reader; other sensors not recorded",
+          "note": "Model-specific manual diagram places fingerprint unlock on the side power key. Additional sensor types are not transferred from a different regional model-code listing.",
           "configurationMatch": "Philippine 12 GB RAM / 256 GB storage configuration"
         }
       ]

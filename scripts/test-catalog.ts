@@ -67,8 +67,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [368, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 567);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [369, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 568);
 const blackShark4 = publicDevices.find((device) => device.id === "device_fa4c0f6cdc39f6");
 assert.ok(blackShark4);
 assert.deepEqual(blackShark4.variants.map((variant) => variant.label), [
@@ -83,7 +83,7 @@ assert.equal(blackShark4Eight128?.listingStatus, "In stock");
 const blackShark5 = publicDevices.find((device) => device.id === "device_a9d69522a3d0fe");
 assert.ok(blackShark5);
 assert.equal(blackShark5.modelNumber, "SHARK PAR-H0");
-assert.equal(blackShark5.releaseDate, "2022-04-04");
+assert.equal(blackShark5.releaseDate, "2022-06-09");
 assert.equal(blackShark5.philippineAvailabilityDate, "2022-07-02");
 assert.equal(blackShark5.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
 assert.equal(blackShark5.scopeStatus, "Pending");
@@ -101,6 +101,19 @@ assert.equal(blackShark5Twelve256?.listingStatus, "In stock");
 assert.equal(blackShark5Eight128?.specs.rearCameraMp, null);
 assert.equal(blackShark5Eight128?.specs.frontCameraMp, null);
 assert.equal(blackShark5Eight128?.specs.sound, null);
+const blackShark5Pro = publicDevices.find((device) => device.id === "device_abadb9044528e9");
+assert.ok(blackShark5Pro);
+assert.equal(blackShark5Pro.modelNumber, "SHARK KTUS-H0");
+assert.equal(blackShark5Pro.releaseDate, "2022-06-09");
+assert.equal(blackShark5Pro.philippineAvailabilityDate, "2022-07-02");
+assert.equal(blackShark5Pro.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.equal(blackShark5Pro.scopeStatus, "Pending");
+assert.deepEqual(blackShark5Pro.variants.map((variant) => variant.label), [
+  "8 GB RAM / 128 GB storage", "12 GB RAM / 256 GB storage",
+]);
+assert.ok(blackShark5Pro.variants.every((variant) => variant.pricePhp === null));
+assert.ok(blackShark5Pro.variants.every((variant) => variant.specs.rearCameraMp === null && variant.specs.frontCameraMp === null && variant.specs.wifi === null));
+assert.equal(blackShark5Pro.imageId, null);
 assert.deepEqual(Object.fromEntries(["Included", "Pending date", "Pending", "Excluded", "Held out"].map((status) => [status, publicDevices.filter((device) => device.scopeStatus === status).length])), { Included: 28, "Pending date": 29, Pending: 396, Excluded: 3, "Held out": 7 });
 assert.ok(publicDevices.every((device) => device.variants.length &&
   device.sources.every((source) => source.url.startsWith("https://"))));
