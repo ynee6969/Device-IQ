@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [377, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 576);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [379, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 578);
 const redmagic7Pro = publicDevices.find((device) => device.id === "device_5e189eced7d16d");
 assert.ok(redmagic7Pro);
 assert.equal(redmagic7Pro.modelNumber, "NX709J");
@@ -98,6 +98,21 @@ assert.deepEqual(pocoF4Gt.variants.map((variant) => variant.label), [
   "12 GB RAM / 256 GB storage (Stealth Black / Knight Silver / Cyber Yellow)",
 ]);
 assert.ok(pocoF4Gt.variants.every((variant) => variant.pricePhp === null));
+const samsungZFold4 = publicDevices.find((device) => device.id === "device_63467ee4825c94");
+assert.ok(samsungZFold4);
+assert.equal(samsungZFold4.modelNumber, "SM-F936B/DS");
+assert.equal(samsungZFold4.releaseDate, "2022-08-26");
+assert.equal(samsungZFold4.philippineAvailabilityDate, "2022-09-02");
+assert.equal(samsungZFold4.scopeStatus, "Pending");
+assert.equal(samsungZFold4.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(samsungZFold4.variants.map((variant) => variant.label), [
+  "12 GB RAM / 256 GB storage", "12 GB RAM / 512 GB storage", "12 GB RAM / 1 TB storage",
+]);
+assert.deepEqual(samsungZFold4.variants.map((variant) => variant.specs.storageGb), [256, 512, 1024]);
+assert.ok(samsungZFold4.variants.every((variant) => variant.pricePhp === null));
+assert.equal(samsungZFold4.variants[0]?.specs.chipset, "Qualcomm Snapdragon 8+ Gen 1");
+assert.equal(samsungZFold4.imageId, null);
+assert.ok(samsungZFold4.sources.some((source) => source.url.includes("ntc.gov.ph") && source.note?.includes("SM-F936B/DS")));
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");

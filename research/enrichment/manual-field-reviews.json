@@ -158073,6 +158073,1415 @@
           "configurationMatch": "POCO F4 GT 21121210G, Philippine 12 GB RAM / 256 GB storage configuration"
         }
       ]
+    },
+    {
+      "deviceId": "device_63467ee4825c94",
+      "configurationId": "device_63467ee4825c94-12gb-256gb-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold4",
+      "configuration": "12 GB RAM / 256 GB storage",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "samsung_fold4_ntc_2022",
+          "publisher": "National Telecommunications Commission",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": "2022",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine equipment-registration model match",
+          "note": "The 2022 GEC identifies SAMSUNG model SM-F936B/DS as Galaxy Z Fold4."
+        },
+        {
+          "id": "samsung_fold4_ph_availability",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/explore/entertainment/galaxy-z-fold4-new-fold-phone-2022/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine release date and local launch context",
+          "note": "Samsung Philippines states the Galaxy Z Fold4 became available from 2 September 2022. This is a local market availability date, distinct from the global announcement and selected-market release dates."
+        },
+        {
+          "id": "samsung_fold4_ph_newsroom",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/the-future-of-foldables-is-now-samsungs-galaxy-z-flip4-and-z-fold4-are-now-up-for-grabs",
+          "publicationDate": "2022-09-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine authorized availability, configuration-specific SRPs, and local colors",
+          "note": "Samsung Newsroom Philippines reports the Fold4 was orderable through Samsung, authorized stores, major retailers, and Globe and Smart partners; lists PHP 98,990 / 105,990 / 119,990 SRPs for 256 GB / 512 GB / online-exclusive 1 TB; and names local color options. The September 2022 promotions in the article have expired."
+        },
+        {
+          "id": "samsung_fold4_ph_product",
+          "publisher": "Samsung Philippines Official Store",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold4-phantom-black-256gb-sm-f936bzkdphl/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Local product identity, storage selector, exact 256 GB image asset, and current sale-state check",
+          "note": "The local product page identifies the Phantom Black 256 GB SM-F936BZKDPHL SKU, presents 12 GB/256 GB, 12 GB/512 GB and 12 GB/1 TB choices, and currently marks the product not for sale. The page image is an exact Fold4 256 GB Phantom Black image; no reusable image permission is documented."
+        },
+        {
+          "id": "samsung_fold4_global_specs",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://samsungmobilepress.com/articles/introducing-samsung-galaxy-z-flip4-and-galaxy-z-fold4-the-most-versatile-devices-changing-the-way-we-interact-with-smartphones",
+          "publicationDate": "2022-08-10",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch specification table for the Galaxy Z Fold4 family",
+          "note": "Samsung's 10 August 2022 press materials list the Fold4's display panels, camera modules, 12 GB memory tiers, battery, charging, IPX8, launch OS, connectivity, SIM capabilities, colors, dimensions and weight. Market-dependent features are retained with their caveats."
+        },
+        {
+          "id": "samsung_fold4_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-z-fold4-z-flip4-price-philippines/",
+          "publicationDate": "2022-08-10",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch/date and SRP cross-check",
+          "note": "YugaTech reports Philippine availability from 2 September 2022 and the three local prices. This corroborates Samsung's local launch materials; it does not establish a current offer."
+        },
+        {
+          "id": "samsung_fold4_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_z_fold4-11737.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model technical cross-check",
+          "note": "The exact Galaxy Z Fold4 page is used only to cross-check the 12 GB memory family, 256/512/1 TB storage tiers, battery, camera, IPX8, and charging figures. GSMArena's international retailer prices are not Philippine prices, and dimensions are not used where source precision differs."
+        },
+        {
+          "id": "samsung_fold4_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-z-fold4",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent model-family and regional-variant cross-check",
+          "note": "Kimovil identifies the Galaxy Z Fold4 global SM-F936B family and multiple memory/storage variants. Country-specific listing prices and regional model variants are not treated as Philippine evidence."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "12 GB RAM / 256 GB storage",
+          "normalizedValue": null,
+          "note": "Samsung Philippines lists this exact RAM/storage tier in its local product selector."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "12 GB RAM",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "256 GB internal storage",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Announced 10 August 2022; general availability began 26 August in selected countries",
+          "normalizedValue": "2022-08-26",
+          "note": "Manufacturer-reported general-availability date for selected countries, not the Philippine release date."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_availability",
+          "sourceValue": "Samsung Philippines reports launch availability beginning 2 September 2022",
+          "normalizedValue": "2022-09-02",
+          "note": "Philippine local availability; preorder and global announcement dates are recorded separately in sources."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_newsroom",
+          "sourceValue": "Philippine SRP for 256 GB: PHP 98,990",
+          "normalizedValue": 98990,
+          "unit": "PHP",
+          "note": "Historical September 2022 Philippine SRP published by Samsung Newsroom Philippines; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "No current dated, orderable Philippine offer verified; page states not for sale",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank. The 2022 SRP is historical, not a current price."
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ntc_2022",
+          "sourceValue": "Philippine NTC model SM-F936B/DS",
+          "normalizedValue": "SM-F936B/DS",
+          "note": "NTC's 2022 GEC marketing-name column directly identifies this model code as Galaxy Z Fold4."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main screen 7.6 in; cover screen 6.2 in",
+          "normalizedValue": 7.6,
+          "catalogKey": "displayInches",
+          "catalogValue": 7.6,
+          "unit": "in",
+          "note": "The public numeric field stores the main screen diagonal; the separate cover screen size is preserved in sourceValue."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Dynamic AMOLED 2X main and cover displays",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main: 2176 x 1812; cover: 2316 x 904",
+          "normalizedValue": "Main 2176 x 1812; cover 2316 x 904",
+          "catalogKey": "resolution",
+          "catalogValue": "Main 2176 x 1812; cover 2316 x 904"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main adaptive 1–120 Hz; cover adaptive 48–120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz",
+          "note": "Catalog numeric value is the maximum refresh rate. The two panels have different adaptive ranges."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Samsung describes the main display as brighter; this table gives no numeric brightness",
+          "normalizedValue": null,
+          "unit": "nits",
+          "note": "No numeric brightness value is recorded because the reviewed primary launch specification does not give one."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Qualcomm Snapdragon 8+ Gen 1 Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 8+ Gen 1",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8+ Gen 1"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "4 nm octa-core application processor",
+          "normalizedValue": "Octa-core, 4 nm",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, 4 nm"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "Adreno 730",
+          "normalizedValue": "Qualcomm Adreno 730",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 730",
+          "note": "Secondary exact-model reference; Samsung's launch page does not enumerate the GPU separately."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Android 12L with One UI 4.1.1 at launch",
+          "normalizedValue": "Android 12L / One UI 4.1.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 12L / One UI 4.1.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "normalizedValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "note": "The public field retains all rear cameras as text; Samsung's camera table provides each module separately."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "50 MP wide; Dual Pixel AF, OIS, f/1.8",
+          "normalizedValue": "50 MP; Dual Pixel AF; OIS; f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "12 MP, f/2.2, 123-degree field of view",
+          "normalizedValue": "12 MP; f/2.2; 123°"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "10 MP, PDAF, OIS, f/2.4; 3x optical zoom",
+          "normalizedValue": "10 MP; PDAF; OIS; f/2.4; 3x optical zoom"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "10 MP cover camera plus 4 MP under-display camera",
+          "normalizedValue": "10 MP cover + 4 MP under-display",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": "10 MP cover + 4 MP under-display",
+          "note": "Numeric catalog field stores the cover selfie camera; source value retains the separate under-display camera."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1",
+          "note": "Exact-model secondary cross-check; Samsung's reviewed launch table does not name the flash storage standard."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "4,400 mAh typical dual battery; 4,275 mAh rated minimum",
+          "normalizedValue": 4400,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4400,
+          "unit": "mAh",
+          "note": "Samsung distinguishes typical and minimum rated capacities; catalog stores the stated typical value."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Super Fast Charging with 25 W adapter or higher; adapter sold separately",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Fast Wireless Charging 2.0; Wireless PowerShare",
+          "normalizedValue": "Fast wireless charging; reverse wireless charging"
+        },
+        {
+          "fieldId": "wireless_charging_watts",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "15 W fast wireless charging",
+          "normalizedValue": 15,
+          "catalogKey": "wirelessChargingW",
+          "catalogValue": 15,
+          "unit": "W",
+          "note": "GSMArena exact-model cross-check; Samsung's press materials name Fast Wireless Charging 2.0 without a watt figure."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "normalizedValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "263 g",
+          "normalizedValue": 263,
+          "catalogKey": "weightG",
+          "catalogValue": 263,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Armor Aluminum frame and hinge cover; Gorilla Glass Victus+ on cover screen and rear glass",
+          "normalizedValue": "Armor Aluminum; Gorilla Glass Victus+ cover/rear; reinforced foldable main panel"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "IPX8 water resistance; not dust-resistant",
+          "normalizedValue": "IPX8; not dust-resistant"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "5G and LTE; network support varies by market and carrier",
+          "normalizedValue": "5G; LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; LTE"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Up to two Nano-SIM cards and one eSIM; availability varies by region and carrier",
+          "normalizedValue": "Up to 2 Nano-SIM + 1 eSIM; regional support varies",
+          "catalogKey": "sim",
+          "catalogValue": "Up to 2 Nano-SIM + 1 eSIM; regional support varies"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Wi-Fi 6E (802.11 a/b/g/n/ac/ax); availability varies by market",
+          "normalizedValue": "Wi-Fi 6E",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Not enumerated in the reviewed exact-model launch specification",
+          "normalizedValue": null,
+          "note": "This is left blank; no regional NFC claim was promoted from an unrelated variant."
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Side capacitive fingerprint, accelerometer, barometer, gyro, geomagnetic, Hall, proximity, light",
+          "normalizedValue": "Side fingerprint; accelerometer; barometer; gyroscope; geomagnetic; Hall; proximity; light"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "No maximum recording mode specified in the reviewed launch specification table",
+          "normalizedValue": null,
+          "note": "Video resolution and frame rates remain blank pending an exact regional primary specification."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "No support end date stated in the launch specification",
+          "normalizedValue": null,
+          "note": "A current support period is not inferred from later update availability or generic Samsung policy."
+        }
+      ],
+      "modelCode": "SM-F936B/DS",
+      "replacementVariants": [
+        {
+          "id": "device_63467ee4825c94-12gb-256gb-ph",
+          "label": "12 GB RAM / 256 GB storage",
+          "modelCode": "SM-F936B/DS",
+          "sku": null,
+          "notes": "Philippine configuration; color-specific SKU not assigned."
+        },
+        {
+          "id": "device_63467ee4825c94-12gb-512gb-ph",
+          "label": "12 GB RAM / 512 GB storage",
+          "modelCode": "SM-F936B/DS",
+          "sku": null,
+          "notes": "Philippine configuration; color-specific SKU not assigned."
+        },
+        {
+          "id": "device_63467ee4825c94-12gb-1tb-ph",
+          "label": "12 GB RAM / 1 TB storage",
+          "modelCode": "SM-F936B/DS",
+          "sku": null,
+          "notes": "Online-exclusive Philippine 1 TB capacity; color-specific SKU not assigned."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine official and authorized-channel availability documented from 2 September 2022",
+        "philippineAvailability": "Samsung Philippines lists a 2 September 2022 local release. Samsung Newsroom confirms the device was available through Samsung, authorized stores, major retailers, and telco partners. The documented local configurations are 12 GB/256 GB (PHP 98,990), 12 GB/512 GB (PHP 105,990), and online-exclusive 12 GB/1 TB (PHP 119,990), all historical launch SRPs. Samsung lists Gray Green and Phantom Black locally and an online-exclusive Beige 256 GB option; storage/color pairings are not inferred beyond those explicit statements. Current stock and price are not verified.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Exact NTC SM-F936B/DS match; three Philippine storage tiers and historical SRPs documented; current price and image reuse rights unresolved; study scope remains Pending.",
+        "catalogModel": "Galaxy Z Fold4",
+        "manufacturer": "Samsung Electronics Co., Ltd.",
+        "productLine": "Galaxy Z Series",
+        "modelNumber": "SM-F936B/DS",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine local release date",
+        "researchNotes": "Workbook row 101's Samsung Z Fold4 claim matches NTC GEC model SM-F936B/DS. Samsung Philippines documents a 2 September 2022 local launch and three configurations: 12/256 at PHP 98,990, 12/512 at PHP 105,990, and online-exclusive 12/1 TB at PHP 119,990. These are historical SRPs, not current offers. Samsung lists Gray Green and Phantom Black locally and an online-exclusive Beige 256 GB option; storage/color pairings are not inferred beyond explicit statements. Exact-model technical specifications are sourced to Samsung's launch table, with secondary GSMArena cross-checks kept identified as such. Current price is blank because the local product page says not for sale and no current dated offer was verified. Product image reuse rights are not established, so the neutral placeholder remains. Workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "No current dated, orderable Philippine price was verified",
+            "action": "Keep all current-price fields blank; retain launch SRPs as historical evidence."
+          },
+          {
+            "issue": "Samsung's exact product image is available, but reuse permission is not recorded",
+            "action": "Keep the neutral placeholder until a reusable license or written permission is established."
+          },
+          {
+            "issue": "Numeric display brightness, NFC, video recording modes, and support end date are not established by the reviewed exact-model primary specifications",
+            "action": "Show these fields as not recorded until exact-model evidence is found."
+          },
+          {
+            "issue": "Workbook study scope is Pending",
+            "action": "Preserve the original workbook eligibility status."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_63467ee4825c94",
+      "configurationId": "device_63467ee4825c94-12gb-512gb-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold4",
+      "configuration": "12 GB RAM / 512 GB storage",
+      "configurationLabel": "12 GB RAM / 512 GB storage",
+      "sources": [
+        {
+          "id": "samsung_fold4_ntc_2022",
+          "publisher": "National Telecommunications Commission",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": "2022",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine equipment-registration model match",
+          "note": "The 2022 GEC identifies SAMSUNG model SM-F936B/DS as Galaxy Z Fold4."
+        },
+        {
+          "id": "samsung_fold4_ph_availability",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/explore/entertainment/galaxy-z-fold4-new-fold-phone-2022/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine release date and local launch context",
+          "note": "Samsung Philippines states the Galaxy Z Fold4 became available from 2 September 2022. This is a local market availability date, distinct from the global announcement and selected-market release dates."
+        },
+        {
+          "id": "samsung_fold4_ph_newsroom",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/the-future-of-foldables-is-now-samsungs-galaxy-z-flip4-and-z-fold4-are-now-up-for-grabs",
+          "publicationDate": "2022-09-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine authorized availability, configuration-specific SRPs, and local colors",
+          "note": "Samsung Newsroom Philippines reports the Fold4 was orderable through Samsung, authorized stores, major retailers, and Globe and Smart partners; lists PHP 98,990 / 105,990 / 119,990 SRPs for 256 GB / 512 GB / online-exclusive 1 TB; and names local color options. The September 2022 promotions in the article have expired."
+        },
+        {
+          "id": "samsung_fold4_ph_product",
+          "publisher": "Samsung Philippines Official Store",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold4-phantom-black-256gb-sm-f936bzkdphl/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Local product identity, storage selector, exact 256 GB image asset, and current sale-state check",
+          "note": "The local product page identifies the Phantom Black 256 GB SM-F936BZKDPHL SKU, presents 12 GB/256 GB, 12 GB/512 GB and 12 GB/1 TB choices, and currently marks the product not for sale. The page image is an exact Fold4 256 GB Phantom Black image; no reusable image permission is documented."
+        },
+        {
+          "id": "samsung_fold4_global_specs",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://samsungmobilepress.com/articles/introducing-samsung-galaxy-z-flip4-and-galaxy-z-fold4-the-most-versatile-devices-changing-the-way-we-interact-with-smartphones",
+          "publicationDate": "2022-08-10",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch specification table for the Galaxy Z Fold4 family",
+          "note": "Samsung's 10 August 2022 press materials list the Fold4's display panels, camera modules, 12 GB memory tiers, battery, charging, IPX8, launch OS, connectivity, SIM capabilities, colors, dimensions and weight. Market-dependent features are retained with their caveats."
+        },
+        {
+          "id": "samsung_fold4_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-z-fold4-z-flip4-price-philippines/",
+          "publicationDate": "2022-08-10",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch/date and SRP cross-check",
+          "note": "YugaTech reports Philippine availability from 2 September 2022 and the three local prices. This corroborates Samsung's local launch materials; it does not establish a current offer."
+        },
+        {
+          "id": "samsung_fold4_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_z_fold4-11737.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model technical cross-check",
+          "note": "The exact Galaxy Z Fold4 page is used only to cross-check the 12 GB memory family, 256/512/1 TB storage tiers, battery, camera, IPX8, and charging figures. GSMArena's international retailer prices are not Philippine prices, and dimensions are not used where source precision differs."
+        },
+        {
+          "id": "samsung_fold4_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-z-fold4",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent model-family and regional-variant cross-check",
+          "note": "Kimovil identifies the Galaxy Z Fold4 global SM-F936B family and multiple memory/storage variants. Country-specific listing prices and regional model variants are not treated as Philippine evidence."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "12 GB RAM / 512 GB storage",
+          "normalizedValue": null,
+          "note": "Samsung Philippines lists this exact RAM/storage tier in its local product selector."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "12 GB RAM",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "512 GB internal storage",
+          "normalizedValue": 512,
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Announced 10 August 2022; general availability began 26 August in selected countries",
+          "normalizedValue": "2022-08-26",
+          "note": "Manufacturer-reported general-availability date for selected countries, not the Philippine release date."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_availability",
+          "sourceValue": "Samsung Philippines reports launch availability beginning 2 September 2022",
+          "normalizedValue": "2022-09-02",
+          "note": "Philippine local availability; preorder and global announcement dates are recorded separately in sources."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_newsroom",
+          "sourceValue": "Philippine SRP for 512 GB: PHP 105,990",
+          "normalizedValue": 105990,
+          "unit": "PHP",
+          "note": "Historical September 2022 Philippine SRP published by Samsung Newsroom Philippines; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "No current dated, orderable Philippine offer verified; page states not for sale",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank. The 2022 SRP is historical, not a current price."
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ntc_2022",
+          "sourceValue": "Philippine NTC model SM-F936B/DS",
+          "normalizedValue": "SM-F936B/DS",
+          "note": "NTC's 2022 GEC marketing-name column directly identifies this model code as Galaxy Z Fold4."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main screen 7.6 in; cover screen 6.2 in",
+          "normalizedValue": 7.6,
+          "catalogKey": "displayInches",
+          "catalogValue": 7.6,
+          "unit": "in",
+          "note": "The public numeric field stores the main screen diagonal; the separate cover screen size is preserved in sourceValue."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Dynamic AMOLED 2X main and cover displays",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main: 2176 x 1812; cover: 2316 x 904",
+          "normalizedValue": "Main 2176 x 1812; cover 2316 x 904",
+          "catalogKey": "resolution",
+          "catalogValue": "Main 2176 x 1812; cover 2316 x 904"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main adaptive 1–120 Hz; cover adaptive 48–120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz",
+          "note": "Catalog numeric value is the maximum refresh rate. The two panels have different adaptive ranges."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Samsung describes the main display as brighter; this table gives no numeric brightness",
+          "normalizedValue": null,
+          "unit": "nits",
+          "note": "No numeric brightness value is recorded because the reviewed primary launch specification does not give one."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Qualcomm Snapdragon 8+ Gen 1 Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 8+ Gen 1",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8+ Gen 1"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "4 nm octa-core application processor",
+          "normalizedValue": "Octa-core, 4 nm",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, 4 nm"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "Adreno 730",
+          "normalizedValue": "Qualcomm Adreno 730",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 730",
+          "note": "Secondary exact-model reference; Samsung's launch page does not enumerate the GPU separately."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Android 12L with One UI 4.1.1 at launch",
+          "normalizedValue": "Android 12L / One UI 4.1.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 12L / One UI 4.1.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "normalizedValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "note": "The public field retains all rear cameras as text; Samsung's camera table provides each module separately."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "50 MP wide; Dual Pixel AF, OIS, f/1.8",
+          "normalizedValue": "50 MP; Dual Pixel AF; OIS; f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "12 MP, f/2.2, 123-degree field of view",
+          "normalizedValue": "12 MP; f/2.2; 123°"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "10 MP, PDAF, OIS, f/2.4; 3x optical zoom",
+          "normalizedValue": "10 MP; PDAF; OIS; f/2.4; 3x optical zoom"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "10 MP cover camera plus 4 MP under-display camera",
+          "normalizedValue": "10 MP cover + 4 MP under-display",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": "10 MP cover + 4 MP under-display",
+          "note": "Numeric catalog field stores the cover selfie camera; source value retains the separate under-display camera."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1",
+          "note": "Exact-model secondary cross-check; Samsung's reviewed launch table does not name the flash storage standard."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "4,400 mAh typical dual battery; 4,275 mAh rated minimum",
+          "normalizedValue": 4400,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4400,
+          "unit": "mAh",
+          "note": "Samsung distinguishes typical and minimum rated capacities; catalog stores the stated typical value."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Super Fast Charging with 25 W adapter or higher; adapter sold separately",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Fast Wireless Charging 2.0; Wireless PowerShare",
+          "normalizedValue": "Fast wireless charging; reverse wireless charging"
+        },
+        {
+          "fieldId": "wireless_charging_watts",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "15 W fast wireless charging",
+          "normalizedValue": 15,
+          "catalogKey": "wirelessChargingW",
+          "catalogValue": 15,
+          "unit": "W",
+          "note": "GSMArena exact-model cross-check; Samsung's press materials name Fast Wireless Charging 2.0 without a watt figure."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "normalizedValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "263 g",
+          "normalizedValue": 263,
+          "catalogKey": "weightG",
+          "catalogValue": 263,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Armor Aluminum frame and hinge cover; Gorilla Glass Victus+ on cover screen and rear glass",
+          "normalizedValue": "Armor Aluminum; Gorilla Glass Victus+ cover/rear; reinforced foldable main panel"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "IPX8 water resistance; not dust-resistant",
+          "normalizedValue": "IPX8; not dust-resistant"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "5G and LTE; network support varies by market and carrier",
+          "normalizedValue": "5G; LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; LTE"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Up to two Nano-SIM cards and one eSIM; availability varies by region and carrier",
+          "normalizedValue": "Up to 2 Nano-SIM + 1 eSIM; regional support varies",
+          "catalogKey": "sim",
+          "catalogValue": "Up to 2 Nano-SIM + 1 eSIM; regional support varies"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Wi-Fi 6E (802.11 a/b/g/n/ac/ax); availability varies by market",
+          "normalizedValue": "Wi-Fi 6E",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Not enumerated in the reviewed exact-model launch specification",
+          "normalizedValue": null,
+          "note": "This is left blank; no regional NFC claim was promoted from an unrelated variant."
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Side capacitive fingerprint, accelerometer, barometer, gyro, geomagnetic, Hall, proximity, light",
+          "normalizedValue": "Side fingerprint; accelerometer; barometer; gyroscope; geomagnetic; Hall; proximity; light"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "No maximum recording mode specified in the reviewed launch specification table",
+          "normalizedValue": null,
+          "note": "Video resolution and frame rates remain blank pending an exact regional primary specification."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "No support end date stated in the launch specification",
+          "normalizedValue": null,
+          "note": "A current support period is not inferred from later update availability or generic Samsung policy."
+        }
+      ],
+      "modelCode": "SM-F936B/DS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine official and authorized-channel availability documented from 2 September 2022",
+        "philippineAvailability": "Samsung Philippines lists a 2 September 2022 local release. Samsung Newsroom confirms the device was available through Samsung, authorized stores, major retailers, and telco partners. The documented local configurations are 12 GB/256 GB (PHP 98,990), 12 GB/512 GB (PHP 105,990), and online-exclusive 12 GB/1 TB (PHP 119,990), all historical launch SRPs. Samsung lists Gray Green and Phantom Black locally and an online-exclusive Beige 256 GB option; storage/color pairings are not inferred beyond those explicit statements. Current stock and price are not verified.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Exact NTC SM-F936B/DS match; three Philippine storage tiers and historical SRPs documented; current price and image reuse rights unresolved; study scope remains Pending.",
+        "catalogModel": "Galaxy Z Fold4",
+        "manufacturer": "Samsung Electronics Co., Ltd.",
+        "productLine": "Galaxy Z Series",
+        "modelNumber": "SM-F936B/DS",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine local release date",
+        "researchNotes": "Workbook row 101's Samsung Z Fold4 claim matches NTC GEC model SM-F936B/DS. Samsung Philippines documents a 2 September 2022 local launch and three configurations: 12/256 at PHP 98,990, 12/512 at PHP 105,990, and online-exclusive 12/1 TB at PHP 119,990. These are historical SRPs, not current offers. Samsung lists Gray Green and Phantom Black locally and an online-exclusive Beige 256 GB option; storage/color pairings are not inferred beyond explicit statements. Exact-model technical specifications are sourced to Samsung's launch table, with secondary GSMArena cross-checks kept identified as such. Current price is blank because the local product page says not for sale and no current dated offer was verified. Product image reuse rights are not established, so the neutral placeholder remains. Workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "No current dated, orderable Philippine price was verified",
+            "action": "Keep all current-price fields blank; retain launch SRPs as historical evidence."
+          },
+          {
+            "issue": "Samsung's exact product image is available, but reuse permission is not recorded",
+            "action": "Keep the neutral placeholder until a reusable license or written permission is established."
+          },
+          {
+            "issue": "Numeric display brightness, NFC, video recording modes, and support end date are not established by the reviewed exact-model primary specifications",
+            "action": "Show these fields as not recorded until exact-model evidence is found."
+          },
+          {
+            "issue": "Workbook study scope is Pending",
+            "action": "Preserve the original workbook eligibility status."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_63467ee4825c94",
+      "configurationId": "device_63467ee4825c94-12gb-1tb-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold4",
+      "configuration": "12 GB RAM / 1 TB storage",
+      "configurationLabel": "12 GB RAM / 1 TB storage",
+      "sources": [
+        {
+          "id": "samsung_fold4_ntc_2022",
+          "publisher": "National Telecommunications Commission",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": "2022",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine equipment-registration model match",
+          "note": "The 2022 GEC identifies SAMSUNG model SM-F936B/DS as Galaxy Z Fold4."
+        },
+        {
+          "id": "samsung_fold4_ph_availability",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/explore/entertainment/galaxy-z-fold4-new-fold-phone-2022/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine release date and local launch context",
+          "note": "Samsung Philippines states the Galaxy Z Fold4 became available from 2 September 2022. This is a local market availability date, distinct from the global announcement and selected-market release dates."
+        },
+        {
+          "id": "samsung_fold4_ph_newsroom",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/the-future-of-foldables-is-now-samsungs-galaxy-z-flip4-and-z-fold4-are-now-up-for-grabs",
+          "publicationDate": "2022-09-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine authorized availability, configuration-specific SRPs, and local colors",
+          "note": "Samsung Newsroom Philippines reports the Fold4 was orderable through Samsung, authorized stores, major retailers, and Globe and Smart partners; lists PHP 98,990 / 105,990 / 119,990 SRPs for 256 GB / 512 GB / online-exclusive 1 TB; and names local color options. The September 2022 promotions in the article have expired."
+        },
+        {
+          "id": "samsung_fold4_ph_product",
+          "publisher": "Samsung Philippines Official Store",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold4-phantom-black-256gb-sm-f936bzkdphl/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Local product identity, storage selector, exact 256 GB image asset, and current sale-state check",
+          "note": "The local product page identifies the Phantom Black 256 GB SM-F936BZKDPHL SKU, presents 12 GB/256 GB, 12 GB/512 GB and 12 GB/1 TB choices, and currently marks the product not for sale. The page image is an exact Fold4 256 GB Phantom Black image; no reusable image permission is documented."
+        },
+        {
+          "id": "samsung_fold4_global_specs",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://samsungmobilepress.com/articles/introducing-samsung-galaxy-z-flip4-and-galaxy-z-fold4-the-most-versatile-devices-changing-the-way-we-interact-with-smartphones",
+          "publicationDate": "2022-08-10",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch specification table for the Galaxy Z Fold4 family",
+          "note": "Samsung's 10 August 2022 press materials list the Fold4's display panels, camera modules, 12 GB memory tiers, battery, charging, IPX8, launch OS, connectivity, SIM capabilities, colors, dimensions and weight. Market-dependent features are retained with their caveats."
+        },
+        {
+          "id": "samsung_fold4_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-z-fold4-z-flip4-price-philippines/",
+          "publicationDate": "2022-08-10",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch/date and SRP cross-check",
+          "note": "YugaTech reports Philippine availability from 2 September 2022 and the three local prices. This corroborates Samsung's local launch materials; it does not establish a current offer."
+        },
+        {
+          "id": "samsung_fold4_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_z_fold4-11737.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model technical cross-check",
+          "note": "The exact Galaxy Z Fold4 page is used only to cross-check the 12 GB memory family, 256/512/1 TB storage tiers, battery, camera, IPX8, and charging figures. GSMArena's international retailer prices are not Philippine prices, and dimensions are not used where source precision differs."
+        },
+        {
+          "id": "samsung_fold4_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-z-fold4",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent model-family and regional-variant cross-check",
+          "note": "Kimovil identifies the Galaxy Z Fold4 global SM-F936B family and multiple memory/storage variants. Country-specific listing prices and regional model variants are not treated as Philippine evidence."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "12 GB RAM / 1 TB storage",
+          "normalizedValue": null,
+          "note": "Samsung Philippines lists this exact RAM/storage tier in its local product selector."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "12 GB RAM",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "1024 GB internal storage",
+          "normalizedValue": 1024,
+          "catalogKey": "storageGb",
+          "catalogValue": 1024,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Announced 10 August 2022; general availability began 26 August in selected countries",
+          "normalizedValue": "2022-08-26",
+          "note": "Manufacturer-reported general-availability date for selected countries, not the Philippine release date."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_availability",
+          "sourceValue": "Samsung Philippines reports launch availability beginning 2 September 2022",
+          "normalizedValue": "2022-09-02",
+          "note": "Philippine local availability; preorder and global announcement dates are recorded separately in sources."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ph_newsroom",
+          "sourceValue": "Philippine SRP for 1024 GB: PHP 119,990",
+          "normalizedValue": 119990,
+          "unit": "PHP",
+          "note": "Historical September 2022 Philippine SRP published by Samsung Newsroom Philippines; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_ph_product",
+          "sourceValue": "No current dated, orderable Philippine offer verified; page states not for sale",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank. The 2022 SRP is historical, not a current price."
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_ntc_2022",
+          "sourceValue": "Philippine NTC model SM-F936B/DS",
+          "normalizedValue": "SM-F936B/DS",
+          "note": "NTC's 2022 GEC marketing-name column directly identifies this model code as Galaxy Z Fold4."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main screen 7.6 in; cover screen 6.2 in",
+          "normalizedValue": 7.6,
+          "catalogKey": "displayInches",
+          "catalogValue": 7.6,
+          "unit": "in",
+          "note": "The public numeric field stores the main screen diagonal; the separate cover screen size is preserved in sourceValue."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Dynamic AMOLED 2X main and cover displays",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main: 2176 x 1812; cover: 2316 x 904",
+          "normalizedValue": "Main 2176 x 1812; cover 2316 x 904",
+          "catalogKey": "resolution",
+          "catalogValue": "Main 2176 x 1812; cover 2316 x 904"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Main adaptive 1–120 Hz; cover adaptive 48–120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz",
+          "note": "Catalog numeric value is the maximum refresh rate. The two panels have different adaptive ranges."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Samsung describes the main display as brighter; this table gives no numeric brightness",
+          "normalizedValue": null,
+          "unit": "nits",
+          "note": "No numeric brightness value is recorded because the reviewed primary launch specification does not give one."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Qualcomm Snapdragon 8+ Gen 1 Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 8+ Gen 1",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8+ Gen 1"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "4 nm octa-core application processor",
+          "normalizedValue": "Octa-core, 4 nm",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, 4 nm"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "Adreno 730",
+          "normalizedValue": "Qualcomm Adreno 730",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 730",
+          "note": "Secondary exact-model reference; Samsung's launch page does not enumerate the GPU separately."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Android 12L with One UI 4.1.1 at launch",
+          "normalizedValue": "Android 12L / One UI 4.1.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 12L / One UI 4.1.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "normalizedValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "50 MP wide + 12 MP ultra-wide + 10 MP telephoto",
+          "note": "The public field retains all rear cameras as text; Samsung's camera table provides each module separately."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "50 MP wide; Dual Pixel AF, OIS, f/1.8",
+          "normalizedValue": "50 MP; Dual Pixel AF; OIS; f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "12 MP, f/2.2, 123-degree field of view",
+          "normalizedValue": "12 MP; f/2.2; 123°"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "10 MP, PDAF, OIS, f/2.4; 3x optical zoom",
+          "normalizedValue": "10 MP; PDAF; OIS; f/2.4; 3x optical zoom"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "10 MP cover camera plus 4 MP under-display camera",
+          "normalizedValue": "10 MP cover + 4 MP under-display",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": "10 MP cover + 4 MP under-display",
+          "note": "Numeric catalog field stores the cover selfie camera; source value retains the separate under-display camera."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1",
+          "note": "Exact-model secondary cross-check; Samsung's reviewed launch table does not name the flash storage standard."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "4,400 mAh typical dual battery; 4,275 mAh rated minimum",
+          "normalizedValue": 4400,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4400,
+          "unit": "mAh",
+          "note": "Samsung distinguishes typical and minimum rated capacities; catalog stores the stated typical value."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Super Fast Charging with 25 W adapter or higher; adapter sold separately",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Fast Wireless Charging 2.0; Wireless PowerShare",
+          "normalizedValue": "Fast wireless charging; reverse wireless charging"
+        },
+        {
+          "fieldId": "wireless_charging_watts",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_fold4_gsmarena",
+          "sourceValue": "15 W fast wireless charging",
+          "normalizedValue": 15,
+          "catalogKey": "wirelessChargingW",
+          "catalogValue": 15,
+          "unit": "W",
+          "note": "GSMArena exact-model cross-check; Samsung's press materials name Fast Wireless Charging 2.0 without a watt figure."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "normalizedValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "Folded 67.1 x 155.1 x 15.8–14.2 mm; unfolded 130.1 x 155.1 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "263 g",
+          "normalizedValue": 263,
+          "catalogKey": "weightG",
+          "catalogValue": 263,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Armor Aluminum frame and hinge cover; Gorilla Glass Victus+ on cover screen and rear glass",
+          "normalizedValue": "Armor Aluminum; Gorilla Glass Victus+ cover/rear; reinforced foldable main panel"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "IPX8 water resistance; not dust-resistant",
+          "normalizedValue": "IPX8; not dust-resistant"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "5G and LTE; network support varies by market and carrier",
+          "normalizedValue": "5G; LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; LTE"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Up to two Nano-SIM cards and one eSIM; availability varies by region and carrier",
+          "normalizedValue": "Up to 2 Nano-SIM + 1 eSIM; regional support varies",
+          "catalogKey": "sim",
+          "catalogValue": "Up to 2 Nano-SIM + 1 eSIM; regional support varies"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Wi-Fi 6E (802.11 a/b/g/n/ac/ax); availability varies by market",
+          "normalizedValue": "Wi-Fi 6E",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Not enumerated in the reviewed exact-model launch specification",
+          "normalizedValue": null,
+          "note": "This is left blank; no regional NFC claim was promoted from an unrelated variant."
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "Side capacitive fingerprint, accelerometer, barometer, gyro, geomagnetic, Hall, proximity, light",
+          "normalizedValue": "Side fingerprint; accelerometer; barometer; gyroscope; geomagnetic; Hall; proximity; light"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "No maximum recording mode specified in the reviewed launch specification table",
+          "normalizedValue": null,
+          "note": "Video resolution and frame rates remain blank pending an exact regional primary specification."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_fold4_global_specs",
+          "sourceValue": "No support end date stated in the launch specification",
+          "normalizedValue": null,
+          "note": "A current support period is not inferred from later update availability or generic Samsung policy."
+        }
+      ],
+      "modelCode": "SM-F936B/DS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine official and authorized-channel availability documented from 2 September 2022",
+        "philippineAvailability": "Samsung Philippines lists a 2 September 2022 local release. Samsung Newsroom confirms the device was available through Samsung, authorized stores, major retailers, and telco partners. The documented local configurations are 12 GB/256 GB (PHP 98,990), 12 GB/512 GB (PHP 105,990), and online-exclusive 12 GB/1 TB (PHP 119,990), all historical launch SRPs. Samsung lists Gray Green and Phantom Black locally and an online-exclusive Beige 256 GB option; storage/color pairings are not inferred beyond those explicit statements. Current stock and price are not verified.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Exact NTC SM-F936B/DS match; three Philippine storage tiers and historical SRPs documented; current price and image reuse rights unresolved; study scope remains Pending.",
+        "catalogModel": "Galaxy Z Fold4",
+        "manufacturer": "Samsung Electronics Co., Ltd.",
+        "productLine": "Galaxy Z Series",
+        "modelNumber": "SM-F936B/DS",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine local release date",
+        "researchNotes": "Workbook row 101's Samsung Z Fold4 claim matches NTC GEC model SM-F936B/DS. Samsung Philippines documents a 2 September 2022 local launch and three configurations: 12/256 at PHP 98,990, 12/512 at PHP 105,990, and online-exclusive 12/1 TB at PHP 119,990. These are historical SRPs, not current offers. Samsung lists Gray Green and Phantom Black locally and an online-exclusive Beige 256 GB option; storage/color pairings are not inferred beyond explicit statements. Exact-model technical specifications are sourced to Samsung's launch table, with secondary GSMArena cross-checks kept identified as such. Current price is blank because the local product page says not for sale and no current dated offer was verified. Product image reuse rights are not established, so the neutral placeholder remains. Workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "No current dated, orderable Philippine price was verified",
+            "action": "Keep all current-price fields blank; retain launch SRPs as historical evidence."
+          },
+          {
+            "issue": "Samsung's exact product image is available, but reuse permission is not recorded",
+            "action": "Keep the neutral placeholder until a reusable license or written permission is established."
+          },
+          {
+            "issue": "Numeric display brightness, NFC, video recording modes, and support end date are not established by the reviewed exact-model primary specifications",
+            "action": "Show these fields as not recorded until exact-model evidence is found."
+          },
+          {
+            "issue": "Workbook study scope is Pending",
+            "action": "Preserve the original workbook eligibility status."
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_63467ee4825c94",
+      "brand": "Samsung",
+      "model_name": "Galaxy Z Fold4",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_63467ee4825c94",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "2022 NTC GEC lists SM-F936B/DS as Samsung Galaxy Z Fold4."
+    },
+    {
+      "device_id": "device_63467ee4825c94",
+      "source_url": "https://news.samsung.com/ph/the-future-of-foldables-is-now-samsungs-galaxy-z-flip4-and-z-fold4-are-now-up-for-grabs",
+      "result": "Samsung Newsroom Philippines confirms local authorized-channel availability and three launch SRPs; 1 TB is online exclusive."
+    },
+    {
+      "device_id": "device_63467ee4825c94",
+      "source_url": "https://samsungmobilepress.com/articles/introducing-samsung-galaxy-z-flip4-and-galaxy-z-fold4-the-most-versatile-devices-changing-the-way-we-interact-with-smartphones",
+      "result": "Samsung Mobile Press supplies exact family technical specifications; market-specific variation caveats are retained."
+    },
+    {
+      "device_id": "device_63467ee4825c94",
+      "source_url": "https://www.gsmarena.com/samsung_galaxy_z_fold4-11737.php",
+      "result": "GSMArena exact-model technical cross-check; international prices and unresolved regional details are not promoted as Philippine data."
+    },
+    {
+      "device_id": "device_63467ee4825c94",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-z-fold4",
+      "result": "Kimovil exact model-family variant cross-check only; no Philippine pricing inferred."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_63467ee4825c94",
+      "amount_php": 98990,
+      "configuration_id": "device_63467ee4825c94-12gb-256gb-ph",
+      "configuration_match": "philippine_sm-f936b-ds_12gb_256gb",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-09-06",
+      "excerpt": "Samsung Newsroom Philippines lists the Galaxy Z Fold4 256 GB configuration at PHP 98,990 SRP in September 2022; historical, not current.",
+      "source_url": "https://news.samsung.com/ph/the-future-of-foldables-is-now-samsungs-galaxy-z-flip4-and-z-fold4-are-now-up-for-grabs",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63467ee4825c94",
+      "amount_php": 105990,
+      "configuration_id": "device_63467ee4825c94-12gb-512gb-ph",
+      "configuration_match": "philippine_sm-f936b-ds_12gb_512gb",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-09-06",
+      "excerpt": "Samsung Newsroom Philippines lists the Galaxy Z Fold4 512 GB configuration at PHP 105,990 SRP in September 2022; historical, not current.",
+      "source_url": "https://news.samsung.com/ph/the-future-of-foldables-is-now-samsungs-galaxy-z-flip4-and-z-fold4-are-now-up-for-grabs",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_63467ee4825c94",
+      "amount_php": 119990,
+      "configuration_id": "device_63467ee4825c94-12gb-1tb-ph",
+      "configuration_match": "philippine_sm-f936b-ds_12gb_1024gb",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 1024,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-09-06",
+      "excerpt": "Samsung Newsroom Philippines lists the Galaxy Z Fold4 1024 GB configuration at PHP 119,990 SRP in September 2022; historical, not current.",
+      "source_url": "https://news.samsung.com/ph/the-future-of-foldables-is-now-samsungs-galaxy-z-flip4-and-z-fold4-are-now-up-for-grabs",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}

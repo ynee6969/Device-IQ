@@ -2320,14 +2320,14 @@
     "altText": "Image unavailable for Samsung Z Flip7"
   },
   "device_63467ee4825c94": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Samsung Philippines provides an exact Galaxy Z Fold4 Phantom Black 256 GB product image, but the project has no reusable license or written permission to republish it. Keep the neutral placeholder.",
+    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-fold4-phantom-black-256gb-sm-f936bzkdphl/buy/",
+    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/2208/gallery/ph-galaxy-z-fold4-f936-sm-f936bzkdphl-533084749?$1164_776_PNG$=",
+    "scope": "Exact Galaxy Z Fold4 model, Phantom Black 256 GB image; not a color-specific claim for other variants",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Samsung Z Fold4"
+    "altText": "Image unavailable for Samsung Galaxy Z Fold4"
   },
   "device_8b71a65802ab50": {
     "status": "NO_RELIABLE_MATCH",
