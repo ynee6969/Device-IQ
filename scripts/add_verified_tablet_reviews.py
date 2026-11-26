@@ -55,6 +55,10 @@ def add_review(manual, catalog, item):
                   "configuration": item["configuration"], "configurationLabel": item["configuration"],
                   "sources": [], "fields": []}
         manual["records"].append(review)
+    if item.get("modelCode"):
+        review["modelCode"] = item["modelCode"]
+    if item.get("sku"):
+        review["sku"] = item["sku"]
     if item.get("replacementVariants"):
         review["replacementVariants"] = item["replacementVariants"]
     if item.get("availabilityEvidence"):

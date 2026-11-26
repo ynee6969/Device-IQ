@@ -308,6 +308,10 @@ for review in manual_reviews.get("records", []):
         source = sources_by_id.get(reviewed_field.get("sourceId"))
         if not source or not source.get("url", "").startswith("https://"):
             raise ValueError(f"Manual field lacks a valid source: {device['id']} {reviewed_field.get('fieldId')}")
+        if reviewed_field.get("clearDeviceAvailabilityDate"):
+            # A by-date or year-level source can verify local availability
+            # without supplying an exact first-sale date.
+            device["philippineAvailabilityDate"] = None
         clear_catalog_key = reviewed_field.get("clearCatalogKey")
         if clear_catalog_key:
             # A reviewed field can be valid at model level while not having one

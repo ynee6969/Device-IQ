@@ -12,7 +12,6 @@ import hashlib
 import json
 import os
 import re
-import shutil
 from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
@@ -223,8 +222,10 @@ def make_workbook_copy(source: Path, target: Path, audit_rows: list[dict], summa
     from openpyxl import load_workbook
     from openpyxl.utils import get_column_letter
     target.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(source, target)
-    wb = load_workbook(target)
+    # Open the supplied inventory for reading and save only to the separate
+    # audit output. shutil.copy2 can fail on Windows when Excel has the source
+    # workbook memory-mapped; openpyxl can read it without changing the source.
+    wb = load_workbook(source)
     for name in ("SPEC FIELD AUDIT", "AUDIT SUMMARY", "REFERENCE LOOKUPS", "PRICE CANDIDATES", "IMAGE AUDIT"):
         if name in wb.sheetnames:
             del wb[name]
