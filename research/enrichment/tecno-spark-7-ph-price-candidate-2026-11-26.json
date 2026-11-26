@@ -1,0 +1,56 @@
+{
+  "run_at": "2026-11-26T17:28:07+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_cca2630fec4a42",
+      "brand": "TECNO",
+      "model_name": "Spark 7",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_cca2630fec4a42",
+      "source_url": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+      "result": "NoypiGeeks reported the local 3 GB / 64 GB model available through TECNO's official Shopee store for PHP 4,990 on August 12, 2021; historical only."
+    },
+    {
+      "device_id": "device_cca2630fec4a42",
+      "source_url": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+      "result": "YugaTech independently reported Philippine availability and the same PHP 4,990 price for the 3 GB / 64 GB configuration on August 13, 2021."
+    },
+    {
+      "device_id": "device_cca2630fec4a42",
+      "source_url": "https://www.pinoytechnoguide.com/pricelists/TECNO",
+      "result": "The current PinoyTechGuide TECNO price index was checked; it omits the base Spark 7. This is not evidence that no second-hand/private sale exists."
+    },
+    {
+      "device_id": "device_cca2630fec4a42",
+      "source_url": "https://www.gsmarena.com/tecno_spark_7-price-10845.php",
+      "result": "GSMArena global partner prices are not used as Philippine live offers and may refer to other variants or markets."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_cca2630fec4a42",
+      "amount_php": 4990,
+      "configuration_id": "device_cca2630fec4a42-3gb-64gb-ph",
+      "configuration_match": "exact_philippine_3gb_64gb_configuration",
+      "variant_ram_gb": 3,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2021-08-12",
+      "excerpt": "NoypiGeeks reported TECNO Spark 7 3 GB / 64 GB available in the Philippines for PHP 4,990 via TECNO's official Shopee store.",
+      "source_url": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26T17:28:07+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    }
+  ]
+}

@@ -32048,44 +32048,173 @@
     "category": "smartphones",
     "brand": "TECNO",
     "model": "Spark 7",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "TECNO Mobile",
+    "productLine": "TECNO Spark",
     "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "releaseDate": "2021-04-16",
+    "philippineAvailabilityDate": "2021-08-12",
+    "philippineDateLabel": "Philippine availability report date",
+    "philippineReleaseYear": 2021,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Philippine availability, one 3 GB / 64 GB configuration, and historical launch price verified; no current price; exact local model code and several hardware details unresolved; image reuse rights not established.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Philippine availability of TECNO Spark 7 3 GB / 64 GB was reported on August 12, 2021 by NoypiGeeks and on August 13 by YugaTech, both citing TECNO's official Shopee store. NTC lists multiple Spark 7 model codes but does not map one to this retail configuration. This is dated reported availability, not an exact first transaction date.",
+    "availabilityStatus": "YugaTech and NoypiGeeks report the 3 GB / 64 GB Spark 7 available through TECNO's official Shopee store in August 2021. NTC GEC records Spark 7 registrations, but the precise code-to-retail-configuration mapping is unresolved. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 39 matched to TECNO Spark 7. YugaTech and NoypiGeeks identify the Philippine 3 GB / 64 GB configuration and report PHP 4,990 through TECNO's official Shopee store in August 2021; Revu independently corroborates the local model and selected specifications. The PHP 4,990 price is historical only. NTC lists multiple Spark 7 codes without mapping one to the local retail configuration. The global 2 GB / 32 GB variant is not added as a Philippine configuration. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "No current dated, orderable Philippine offer was verified",
+        "action": "Keep current price blank; preserve PHP 4,990 as historical only."
+      },
+      {
+        "issue": "NTC associates several codes with Spark 7 without a retail configuration mapping",
+        "action": "Leave the singular local model number blank until a manufacturer or retail document maps the exact 3 GB / 64 GB SKU."
+      },
+      {
+        "issue": "Global 2 GB / 32 GB version is mentioned but Philippine sale was not established",
+        "action": "Keep only the locally reported 3 GB / 64 GB variant."
+      },
+      {
+        "issue": "Memory type, storage interface, weight, materials, battery chemistry, and exact cellular bands were not established for the Philippine configuration",
+        "action": "Keep these fields blank rather than transferring chipset capabilities or unmatched regional specifications."
+      },
+      {
+        "issue": "Local product photos match the model but image reuse terms were not found",
+        "action": "Use the neutral unavailable-image placeholder until reuse permission is established."
+      },
+      {
+        "issue": "Workbook eligibility status remains Pending",
+        "action": "Preserve Pending and apply existing study eligibility rules."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-13",
+        "purpose": "Philippine launch, local configuration, historical price, and specification evidence",
+        "note": "Published August 13, 2021. Reports official Philippine launch, an available 3 GB / 64 GB model at PHP 4,990 through TECNO's official Shopee store, display, chipset, cameras, software, battery, dimensions, and colors."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-12",
+        "purpose": "Independent Philippine availability, price, and specification cross-check",
+        "note": "Published August 12, 2021. Reports the 3 GB / 64 GB Spark 7 available in TECNO's official Shopee store for PHP 4,990; lists the 6.5-inch HD+ IPS panel, Helio A25, cameras, battery, software, connectivity, dimensions, and rear fingerprint reader. It says it was unknown whether the global 2 GB / 32 GB version would reach the Philippines."
+      },
+      {
+        "organization": "Revu Philippines",
+        "url": "https://www.revu.com.ph/2021/08/tecno-spark-7-price-in-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-14",
+        "purpose": "Independent Philippine launch and display/charging specification cross-check",
+        "note": "Published August 14, 2021. Identifies the local 3 GB / 64 GB model at PHP 4,990 and reports a 6.52-inch HD+ LCD at 60 Hz, Helio A25, IMG GE8320, 10 W charging, and launch software. Its display-size figure is more precise than other local reports, which round it to 6.5 inches."
+      },
+      {
+        "organization": "National Telecommunications Commission Philippines",
+        "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment registration and marketed-name evidence",
+        "note": "The NTC GEC register associates model codes KF6j, KF6K, and PR651 with the marketing name SPARK 7 and applicant Twireless Inc. The register supports local equipment registration but does not identify which code or RAM/storage configuration was sold at retail."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/tecno_spark_7-price-10845.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model global release and technical cross-check",
+        "note": "The listing identifies TECNO Spark 7 and records release on April 16, 2021, Android 11 / HiOS 7.5, Helio A25, 6.5-inch 720p display, 16 MP camera, and 6000 mAh battery. The listing spans global RAM/storage options; local launch sources control the Philippine configuration."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/tecno_spark_7_is_coming_to_india_next_week_with_6000_mah_battery_android_11-news-48591.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-04-11",
+        "purpose": "Contemporaneous global-market release context",
+        "note": "GSMArena's April 11, 2021 report says the Spark 7 would go on sale in India on April 16. This supports the earliest reviewed market release date, not a worldwide simultaneous release."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-a25",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary chipset architecture and capabilities reference",
+        "note": "MediaTek lists the Helio A25 as TSMC 12 nm, octa-core Cortex-A53 with 1.8 GHz and 1.5 GHz frequency bins, IMG PowerVR GE8320, and support for multiple memory/storage/connectivity standards. SoC capabilities are not used to infer which RAM type, storage interface, Wi-Fi, Bluetooth, or cellular bands were implemented in this handset."
+      },
+      {
+        "organization": "PinoyTechGuide",
+        "url": "https://www.pinoytechnoguide.com/pricelists/TECNO",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Current Philippine TECNO price-list review",
+        "note": "The current TECNO list was reviewed on November 26, 2026. It lists newer Spark models and Spark 7T / Spark 7 Pro, but not the base Spark 7. This does not establish that no used or private sale exists; no current price is assigned."
+      }
+    ],
     "variants": [
       {
-        "id": "device_cca2630fec4a42-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_cca2630fec4a42-3gb-64gb-ph",
+        "label": "3 GB RAM / 64 GB storage",
+        "specs": {
+          "displayInches": 6.52,
+          "displayType": "IPS LCD",
+          "resolution": "720 x 1600",
+          "refreshHz": 60,
+          "chipset": "MediaTek Helio A25",
+          "cpu": "Octa-core Arm Cortex-A53 (1.8 GHz / 1.5 GHz bins)",
+          "gpu": "IMG PowerVR GE8320",
+          "os": "HiOS 7.5 based on Android 11",
+          "ramGb": 3,
+          "storageGb": 64,
+          "rearCameraMp": 16,
+          "frontCameraMp": 8,
+          "video": "Video Bokeh; resolution and frame rate not recorded",
+          "batteryMah": 6000,
+          "chargingW": 10,
+          "dimensions": "164.8 x 76.1 x 9.5 mm",
+          "sim": "Dual SIM dual standby; SIM type and eSIM not recorded",
+          "cellular": "4G LTE; exact local bands not recorded",
+          "wifi": "Wi-Fi 802.11 b/g/n",
+          "ports": "microUSB; data standard not recorded",
+          "gnss": "GPS; other GNSS constellations not recorded"
+        },
+        "specSources": {
+          "displayInches": "https://www.revu.com.ph/2021/08/tecno-spark-7-price-in-philippines/",
+          "displayType": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+          "resolution": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "refreshHz": "https://www.revu.com.ph/2021/08/tecno-spark-7-price-in-philippines/",
+          "chipset": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "cpu": "https://www.mediatek.com/products/smartphones/mediatek-helio-a25",
+          "gpu": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+          "os": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "ramGb": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "storageGb": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "rearCameraMp": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "frontCameraMp": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "video": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+          "batteryMah": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "chargingW": "https://www.revu.com.ph/2021/08/tecno-spark-7-price-in-philippines/",
+          "dimensions": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "sim": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+          "cellular": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "wifi": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+          "ports": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+          "gnss": "https://www.noypigeeks.com/android/tecno-spark-7-ph/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "YugaTech and NoypiGeeks report this as the Philippine 3 GB / 64 GB official-store configuration. NoypiGeeks noted that Philippine availability of the global 2 GB / 32 GB version was unknown; it is not added as a local variant. Colors are not separate inventory SKUs.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

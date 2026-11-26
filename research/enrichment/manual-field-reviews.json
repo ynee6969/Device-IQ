@@ -147598,6 +147598,616 @@
         }
       ],
       "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_cca2630fec4a42",
+      "configurationId": "device_cca2630fec4a42-3gb-64gb-ph",
+      "brand": "TECNO",
+      "model": "Spark 7",
+      "configuration": "3 GB RAM / 64 GB storage",
+      "configurationLabel": "3 GB RAM / 64 GB storage",
+      "modelCode": null,
+      "sources": [
+        {
+          "id": "tecno_spark7_yugatech",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/tecno-spark-7-specs-price-philippines/",
+          "publicationDate": "2021-08-13",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch, local configuration, historical price, and specification evidence",
+          "note": "Published August 13, 2021. Reports official Philippine launch, an available 3 GB / 64 GB model at PHP 4,990 through TECNO's official Shopee store, display, chipset, cameras, software, battery, dimensions, and colors."
+        },
+        {
+          "id": "tecno_spark7_noypi",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/tecno-spark-7-ph/",
+          "publicationDate": "2021-08-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine availability, price, and specification cross-check",
+          "note": "Published August 12, 2021. Reports the 3 GB / 64 GB Spark 7 available in TECNO's official Shopee store for PHP 4,990; lists the 6.5-inch HD+ IPS panel, Helio A25, cameras, battery, software, connectivity, dimensions, and rear fingerprint reader. It says it was unknown whether the global 2 GB / 32 GB version would reach the Philippines."
+        },
+        {
+          "id": "tecno_spark7_revu",
+          "publisher": "Revu Philippines",
+          "url": "https://www.revu.com.ph/2021/08/tecno-spark-7-price-in-philippines/",
+          "publicationDate": "2021-08-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch and display/charging specification cross-check",
+          "note": "Published August 14, 2021. Identifies the local 3 GB / 64 GB model at PHP 4,990 and reports a 6.52-inch HD+ LCD at 60 Hz, Helio A25, IMG GE8320, 10 W charging, and launch software. Its display-size figure is more precise than other local reports, which round it to 6.5 inches."
+        },
+        {
+          "id": "tecno_spark7_ntc_gec",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine equipment registration and marketed-name evidence",
+          "note": "The NTC GEC register associates model codes KF6j, KF6K, and PR651 with the marketing name SPARK 7 and applicant Twireless Inc. The register supports local equipment registration but does not identify which code or RAM/storage configuration was sold at retail."
+        },
+        {
+          "id": "tecno_spark7_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/tecno_spark_7-price-10845.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model global release and technical cross-check",
+          "note": "The listing identifies TECNO Spark 7 and records release on April 16, 2021, Android 11 / HiOS 7.5, Helio A25, 6.5-inch 720p display, 16 MP camera, and 6000 mAh battery. The listing spans global RAM/storage options; local launch sources control the Philippine configuration."
+        },
+        {
+          "id": "tecno_spark7_gsmarena_india_launch",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/tecno_spark_7_is_coming_to_india_next_week_with_6000_mah_battery_android_11-news-48591.php",
+          "publicationDate": "2021-04-11",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous global-market release context",
+          "note": "GSMArena's April 11, 2021 report says the Spark 7 would go on sale in India on April 16. This supports the earliest reviewed market release date, not a worldwide simultaneous release."
+        },
+        {
+          "id": "tecno_spark7_mediatek_a25",
+          "publisher": "MediaTek",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-a25",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary chipset architecture and capabilities reference",
+          "note": "MediaTek lists the Helio A25 as TSMC 12 nm, octa-core Cortex-A53 with 1.8 GHz and 1.5 GHz frequency bins, IMG PowerVR GE8320, and support for multiple memory/storage/connectivity standards. SoC capabilities are not used to infer which RAM type, storage interface, Wi-Fi, Bluetooth, or cellular bands were implemented in this handset."
+        },
+        {
+          "id": "tecno_spark7_ptg_price_list",
+          "publisher": "PinoyTechGuide",
+          "url": "https://www.pinoytechnoguide.com/pricelists/TECNO",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Current Philippine TECNO price-list review",
+          "note": "The current TECNO list was reviewed on November 26, 2026. It lists newer Spark models and Spark 7T / Spark 7 Pro, but not the base Spark 7. This does not establish that no used or private sale exists; no current price is assigned."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tecno_spark7_ntc_gec",
+          "sourceValue": "NTC associates KF6j, KF6K, and PR651 with marketing name SPARK 7; retail configuration mapping not shown",
+          "normalizedValue": null,
+          "note": "Keep the exact model number blank. The NTC register contains multiple codes and does not map one uniquely to the Philippine 3 GB / 64 GB retail configuration.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_gsmarena",
+          "sourceValue": "GSMArena lists release on April 16, 2021; its contemporaneous report identifies India sale beginning that day",
+          "normalizedValue": "2021-04-16",
+          "note": "Use the earliest reviewed market release date as a global release-history date; this does not imply a simultaneous worldwide launch or Philippine availability.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "TECNO Spark 7 (3 GB + 64 GB) listed as available in the Philippines",
+          "normalizedValue": "3 GB RAM / 64 GB storage",
+          "note": "YugaTech and NoypiGeeks independently identify this local configuration. NoypiGeeks explicitly says whether the global 2 GB / 32 GB version would arrive locally was unknown; do not add it as a Philippine variant.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "NoypiGeeks reported the 3 GB / 64 GB model available in the Philippines on August 12, 2021; YugaTech reported it available on August 13",
+          "normalizedValue": "2021-08-12",
+          "note": "This is the earliest reviewed dated local availability report, corroborated the next day; it is not an exact first-sale transaction timestamp.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "PHP 4,990 for the Philippine 3 GB / 64 GB model, reported August 12, 2021",
+          "normalizedValue": 4990,
+          "note": "Historical launch-era price tied to the exact local configuration and official Shopee store link; do not display as a current offer.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "tecno_spark7_ptg_price_list",
+          "sourceValue": "No current dated, orderable Philippine price for the base Spark 7 was listed in the reviewed TECNO index",
+          "normalizedValue": null,
+          "note": "Keep the current catalog price blank. The PHP 4,990 value is a dated 2021 launch price; absence from the current list does not rule out used/private sales.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_revu",
+          "sourceValue": "6.52-inch display; YugaTech and NoypiGeeks round to 6.5 inches",
+          "normalizedValue": 6.52,
+          "note": "Use the more precise local Revu figure; the other local launch references use the rounded 6.5-inch value.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.52,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "6.5-inch HD+ IPS display; Revu describes an LCD panel",
+          "normalizedValue": "IPS LCD",
+          "note": "Independent Philippine launch references support an IPS LCD; LCD is the panel family and IPS is the panel type.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "HD+ 720 x 1600 pixels",
+          "normalizedValue": "720 x 1600",
+          "note": "YugaTech, NoypiGeeks, and Revu report the same HD+ resolution.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "resolution",
+          "catalogValue": "720 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_revu",
+          "sourceValue": "60 Hz refresh rate",
+          "normalizedValue": 60,
+          "note": "Revu's local specification explicitly lists 60 Hz.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_revu",
+          "sourceValue": "No brightness value stated in the reviewed Philippine product reports",
+          "normalizedValue": null,
+          "note": "No peak, typical, or HBM brightness figure is inferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "No named cover-glass protection or scratch-resistance rating recorded",
+          "normalizedValue": null,
+          "note": "No protection rating is inferred from the absence of one in the local launch specifications.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "MediaTek Helio A25",
+          "normalizedValue": "MediaTek Helio A25",
+          "note": "YugaTech and NoypiGeeks identify the Helio A25 in the Philippine model.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio A25"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_mediatek_a25",
+          "sourceValue": "MediaTek specifies a TSMC 12 nm process for Helio A25",
+          "normalizedValue": 12,
+          "note": "Chipset-level manufacturing process, not a separate measurement of the handset.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_mediatek_a25",
+          "sourceValue": "Octa-core Arm Cortex-A53; MediaTek lists 1.8 GHz and 1.5 GHz frequency bins",
+          "normalizedValue": "Octa-core Arm Cortex-A53 (1.8 GHz / 1.5 GHz bins)",
+          "note": "MediaTek's chipset specification does not state how many handset cores run at each frequency; no per-cluster core counts are inferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Arm Cortex-A53 (1.8 GHz / 1.5 GHz bins)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "IMG PowerVR GE8320",
+          "normalizedValue": "IMG PowerVR GE8320",
+          "note": "NoypiGeeks reports this GPU for the Spark 7; MediaTek identifies the same GPU as an A25 capability.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "gpu",
+          "catalogValue": "IMG PowerVR GE8320"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "HiOS 7.5 based on Android 11",
+          "normalizedValue": "HiOS 7.5 based on Android 11",
+          "note": "Local launch reports identify Android 11 and HiOS 7.5 for the reported Philippine model.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "os",
+          "catalogValue": "HiOS 7.5 based on Android 11"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "No OS upgrade or security-support policy found in reviewed sources",
+          "normalizedValue": null,
+          "note": "No update count, end date, or support duration is inferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "3 GB RAM for the Philippine store configuration",
+          "normalizedValue": 3,
+          "note": "Exact local configuration corroborated by YugaTech and NoypiGeeks.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "ramGb",
+          "catalogValue": 3,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_mediatek_a25",
+          "sourceValue": "MediaTek lists LPDDR3 / LPDDR4 / LPDDR4x support for the A25; installed Spark 7 memory type is not stated",
+          "normalizedValue": null,
+          "note": "SoC compatibility is not evidence of the handset's installed RAM type.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "64 GB storage for the Philippine store configuration",
+          "normalizedValue": 64,
+          "note": "Exact local configuration corroborated by YugaTech and NoypiGeeks.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_mediatek_a25",
+          "sourceValue": "MediaTek lists eMMC 5.1 as an A25 platform capability; no device-specific storage interface is recorded for the local SKU",
+          "normalizedValue": null,
+          "note": "Do not transfer a chipset-supported interface into the device record without model-specific evidence.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "Internal storage expandable via microSD; maximum card capacity not stated in the local reference",
+          "normalizedValue": "microSD expansion; maximum capacity not recorded",
+          "note": "No maximum capacity is inferred from another regional configuration.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "16 MP main camera plus a secondary camera described as QVGA by YugaTech and as a depth sensor by NoypiGeeks",
+          "normalizedValue": "16 MP main + auxiliary QVGA / depth camera",
+          "note": "Both Philippine references agree on the 16 MP main and a second auxiliary camera; catalog numeric value denotes only the main camera.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "No sensor manufacturer or sensor model identified in reviewed Philippine launch specifications",
+          "normalizedValue": null,
+          "note": "The 16 MP camera resolution does not identify its sensor model.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "NoypiGeeks says the Spark 7 lacks an ultra-wide camera",
+          "normalizedValue": "No ultra-wide camera reported",
+          "note": "A local launch report explicitly says there is no ultra-wide camera.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "The listed rear system is 16 MP main plus QVGA auxiliary; no telephoto camera is reported",
+          "normalizedValue": "No telephoto camera reported",
+          "note": "No telephoto module appears in the complete local camera description.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "8 MP front camera",
+          "normalizedValue": 8,
+          "note": "YugaTech and NoypiGeeks list an 8 MP front camera.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "Video Bokeh feature reported; capture resolution and frame rate not stated for the Philippine 3 GB / 64 GB configuration",
+          "normalizedValue": "Video Bokeh; resolution and frame rate not recorded",
+          "note": "Record the documented mode without inferring a recording resolution or frame rate.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "video",
+          "catalogValue": "Video Bokeh; resolution and frame rate not recorded"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "6,000 mAh battery",
+          "normalizedValue": 6000,
+          "note": "YugaTech, NoypiGeeks, and Revu report a 6,000 mAh capacity.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "Non-removable battery; chemistry not stated",
+          "normalizedValue": "Non-removable; battery chemistry not recorded",
+          "note": "NoypiGeeks lists a non-removable battery; no Li-ion/Li-Po chemistry is inferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_revu",
+          "sourceValue": "10 W wired charging",
+          "normalizedValue": 10,
+          "note": "Revu's local Spark 7 specification explicitly reports 10 W.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "chargingW",
+          "catalogValue": 10,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "Wireless and reverse charging are not stated in the reviewed local specifications",
+          "normalizedValue": null,
+          "note": "Do not infer lack of support from omission.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "164.8 x 76.1 x 9.5 mm",
+          "normalizedValue": "164.8 x 76.1 x 9.5 mm",
+          "note": "YugaTech and NoypiGeeks report matching dimensions.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.8 x 76.1 x 9.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "No handset weight stated in the reviewed Philippine launch specifications",
+          "normalizedValue": null,
+          "note": "Do not transfer a cross-market or implausible third-party listing into this local configuration.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "weightG",
+          "catalogValue": null,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "Frame and back materials not recorded in reviewed local sources",
+          "normalizedValue": null,
+          "note": "No material composition is inferred from product images.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "No IP rating recorded in reviewed local specifications",
+          "normalizedValue": null,
+          "note": "No water/dust rating is inferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "Dual SIM, dual standby; SIM size and eSIM support not stated",
+          "normalizedValue": "Dual SIM dual standby; SIM type and eSIM not recorded",
+          "note": "NoypiGeeks confirms dual SIM dual standby. Do not infer Nano-SIM or eSIM status.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "sim",
+          "catalogValue": "Dual SIM dual standby; SIM type and eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "4G LTE listed; exact Philippine frequency bands are not stated in the local launch specifications",
+          "normalizedValue": "4G LTE; exact local bands not recorded",
+          "note": "YugaTech reports LTE. NTC registration confirms approval of Spark 7 code entries but is not used to derive a complete handset band list.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE; exact local bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "Wi-Fi 802.11 b/g/n",
+          "normalizedValue": "Wi-Fi 802.11 b/g/n",
+          "note": "NoypiGeeks lists 802.11 b/g/n for Spark 7; MediaTek chipset capabilities are not substituted for device-specific implementation.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 802.11 b/g/n"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "Bluetooth support is listed; version is not stated. YugaTech's Audio Share 2.0 name is a feature, not a Bluetooth version.",
+          "normalizedValue": null,
+          "note": "Do not infer Bluetooth 5 from the Helio A25 chipset specification.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "microUSB connector; USB data generation not stated",
+          "normalizedValue": "microUSB; data standard not recorded",
+          "note": "NoypiGeeks lists microUSB. No USB 2.0 data rate is inferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "ports",
+          "catalogValue": "microUSB; data standard not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_yugatech",
+          "sourceValue": "NFC support is not stated in reviewed local launch specifications",
+          "normalizedValue": null,
+          "note": "Omission from specifications is not treated as proof that NFC is absent.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "GPS listed; other satellite systems not recorded in the local reference",
+          "normalizedValue": "GPS; other GNSS constellations not recorded",
+          "note": "Only GPS is attributed to this handset; MediaTek's additional chipset-level GNSS capability is not transferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS; other GNSS constellations not recorded"
+        },
+        {
+          "fieldId": "audio",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "FM radio listed; headphone jack and speaker configuration not stated in the reviewed Philippine source",
+          "normalizedValue": null,
+          "note": "Do not infer a 3.5 mm jack or speaker count from global listings or product images.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tecno_spark7_noypi",
+          "sourceValue": "Rear-mounted fingerprint scanner reported; a complete sensor list is not provided",
+          "normalizedValue": "Rear fingerprint scanner; other sensors not recorded",
+          "note": "NoypiGeeks identifies the rear fingerprint scanner. No accelerometer, proximity, or ambient-light sensors are inferred.",
+          "configurationMatch": "Exact Philippine TECNO Spark 7 3 GB RAM / 64 GB storage unless a model-level chipset source is noted"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech and NoypiGeeks report the 3 GB / 64 GB Spark 7 available through TECNO's official Shopee store in August 2021. NTC GEC records Spark 7 registrations, but the precise code-to-retail-configuration mapping is unresolved. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Philippine availability of TECNO Spark 7 3 GB / 64 GB was reported on August 12, 2021 by NoypiGeeks and on August 13 by YugaTech, both citing TECNO's official Shopee store. NTC lists multiple Spark 7 model codes but does not map one to this retail configuration. This is dated reported availability, not an exact first transaction date.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "TECNO Mobile",
+        "catalogModel": "Spark 7",
+        "productLine": "TECNO Spark",
+        "modelNumber": null,
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Philippine availability report date",
+        "researchNotes": "Workbook row 39 matched to TECNO Spark 7. YugaTech and NoypiGeeks identify the Philippine 3 GB / 64 GB configuration and report PHP 4,990 through TECNO's official Shopee store in August 2021; Revu independently corroborates the local model and selected specifications. The PHP 4,990 price is historical only. NTC lists multiple Spark 7 codes without mapping one to the local retail configuration. The global 2 GB / 32 GB variant is not added as a Philippine configuration. Workbook eligibility remains Pending.",
+        "qualityFlag": "Philippine availability, one 3 GB / 64 GB configuration, and historical launch price verified; no current price; exact local model code and several hardware details unresolved; image reuse rights not established.",
+        "openIssues": [
+          {
+            "issue": "No current dated, orderable Philippine offer was verified",
+            "action": "Keep current price blank; preserve PHP 4,990 as historical only."
+          },
+          {
+            "issue": "NTC associates several codes with Spark 7 without a retail configuration mapping",
+            "action": "Leave the singular local model number blank until a manufacturer or retail document maps the exact 3 GB / 64 GB SKU."
+          },
+          {
+            "issue": "Global 2 GB / 32 GB version is mentioned but Philippine sale was not established",
+            "action": "Keep only the locally reported 3 GB / 64 GB variant."
+          },
+          {
+            "issue": "Memory type, storage interface, weight, materials, battery chemistry, and exact cellular bands were not established for the Philippine configuration",
+            "action": "Keep these fields blank rather than transferring chipset capabilities or unmatched regional specifications."
+          },
+          {
+            "issue": "Local product photos match the model but image reuse terms were not found",
+            "action": "Use the neutral unavailable-image placeholder until reuse permission is established."
+          },
+          {
+            "issue": "Workbook eligibility status remains Pending",
+            "action": "Preserve Pending and apply existing study eligibility rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_cca2630fec4a42-3gb-64gb-ph",
+          "label": "3 GB RAM / 64 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "YugaTech and NoypiGeeks report this as the Philippine 3 GB / 64 GB official-store configuration. NoypiGeeks noted that Philippine availability of the global 2 GB / 32 GB version was unknown; it is not added as a local variant. Colors are not separate inventory SKUs.",
+          "workbookRow": 39
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
     }
   ]
 }

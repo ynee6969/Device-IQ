@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T17:13:13+08:00
+Updated: 2026-11-26T17:28:09+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-26T17:13:13+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 563 |
-| Models with manually verified source fields | 305 |
-| Configurations with manually verified source fields | 415 |
+| Models with manually verified source fields | 306 |
+| Configurations with manually verified source fields | 416 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 2 |
 | Specification-complete models | 0 |
 | Incomplete models | 454 |
 | Applicable field assignments | 26289 |
-| Fields assessed | 12654 |
-| Verified fields | 12070 |
-| Pending fields | 13635 |
+| Fields assessed | 12699 |
+| Verified fields | 12099 |
+| Pending fields | 13590 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -47,7 +47,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2021 | smartphones | Redmi | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 92 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Samsung | 6 | 6 | 6 | 0 | 0 | 6 | 351 | 349 | 63 | 2 | 6 | 3 | 0 | 2 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | TCL | 2 | 0 | 2 | 0 | 0 | 2 | 58 | 58 | 34 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | smartphones | TECNO | 3 | 1 | 3 | 0 | 0 | 3 | 65 | 56 | 73 | 1 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | smartphones | TECNO | 3 | 2 | 3 | 0 | 0 | 3 | 110 | 85 | 28 | 1 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Xiaomi | 1 | 0 | 1 | 0 | 0 | 1 | 30 | 30 | 16 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | realme | 3 | 0 | 3 | 0 | 0 | 3 | 86 | 86 | 52 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | vivo | 4 | 0 | 4 | 0 | 0 | 4 | 88 | 88 | 96 | 3 | 3 | 0 | 0 | 1 | 3 | PARTIAL_WITH_PENDING_FIELDS |
