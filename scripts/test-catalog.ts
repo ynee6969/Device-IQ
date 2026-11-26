@@ -77,6 +77,15 @@ assert.deepEqual(nord2.variants.map((variant) => variant.label), [
   "8 GB RAM / 128 GB storage — Blue Haze", "12 GB RAM / 256 GB storage — Gray Sierra",
 ]);
 assert.ok(nord2.variants.every((variant) => variant.pricePhp === null));
+const oppoReno5 = publicDevices.find((device) => device.id === "device_914fe6b0343102");
+assert.ok(oppoReno5);
+assert.equal(oppoReno5.model, "Reno5 4G");
+assert.equal(oppoReno5.modelNumber, "CPH2159");
+assert.equal(oppoReno5.philippineAvailabilityDate, "2021-02-20");
+assert.equal(oppoReno5.scopeStatus, "Pending");
+assert.equal(oppoReno5.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(oppoReno5.variants.map((variant) => variant.label), ["8 GB RAM / 128 GB storage"]);
+assert.equal(oppoReno5.variants[0]?.pricePhp, null);
 const blackShark4 = publicDevices.find((device) => device.id === "device_fa4c0f6cdc39f6");
 assert.ok(blackShark4);
 assert.deepEqual(blackShark4.variants.map((variant) => variant.label), [

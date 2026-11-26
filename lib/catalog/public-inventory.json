@@ -19526,47 +19526,240 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "OPPO",
-    "model": "Reno5",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
+    "model": "Reno5 4G",
+    "manufacturer": "OPPO",
+    "productLine": "OPPO Reno5 4G",
+    "modelNumber": "CPH2159",
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2021-02-20",
+    "philippineDateLabel": "Official Philippine availability start date",
+    "philippineReleaseYear": 2021,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Reno5 4G (CPH2159) matched; current price and image reuse are unverified.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "OPPO Philippines states the Reno5 4G was officially available locally from February 20, 2021, and its NTC listing includes CPH2159. OPPO's model page identifies CPH2159 as Reno5 4G. The same Philippine release describes Reno5 5G separately; that model is not merged into this workbook's generic Reno5 row.",
+    "availabilityStatus": "OPPO Philippines reported official Reno5 4G availability beginning February 20, 2021; NTC lists model CPH2159 for Philippine OPPO Mobile Technology Inc. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The workbook's raw claim lists only 'Reno5' and contains no source URL or connectivity suffix. OPPO's model-specific page calls the base product OPPO Reno5 4G and identifies it as CPH2159; the Philippine NTC list includes CPH2159, while separately naming CPH2145 as Reno5 5G. OPPO Philippines independently confirms that Reno5 4G and Reno5 5G were distinct Philippine products, so their specifications and prices are not combined. The 4G model's exact local configuration is 8 GB / 128 GB, with Fantasy Silver and Starry Black color options. OPPO says local availability began February 20, 2021; YugaTech reports the PHP 18,999 launch price. A 2021 official OPPO promotion temporarily lowered the price to PHP 16,999 through July 31, 2021. GSMArena reports an announcement on December 31, 2020 and a release on January 9, 2021, while Kimovil gives December 2020; OPPO's reviewed pages provide no global date, so no single date is assigned. OPPO says CPH2159 lacks NFC, while GSMArena's entry lists NFC as region-dependent; local NFC remains unresolved. GSMArena records an Android 12 / ColorOS 12 upgrade path, but OPPO does not state a software-support duration. Current price references conflict or are not checkout offers: Shoppable displays a new-condition SRP but requires a quote, GreenTelcom's product price conflicts with its category's out-of-stock label, and Pinoy Techno Guide is a price list rather than a seller. Current purchasable price remains unverified and blank. OPPO's official product page has exact-model images, but no reusable image permission was established; the neutral placeholder remains. Workbook scope stays Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "The original workbook claim says only Reno5 and does not give a model code or 4G/5G suffix",
+        "action": "Match the base Reno5 label to OPPO's CPH2159 Reno5 4G page; preserve Reno5 5G (CPH2145) as a separate model and do not merge its fields."
+      },
+      {
+        "issue": "Current price sources do not establish a single purchasable in-stock offer",
+        "action": "Keep current price blank; retain exact-configuration price references as dated candidates with their stock/quote limitations."
+      },
+      {
+        "issue": "OPPO's official page depicts the exact Reno5 4G, but image reuse permission is not stated",
+        "action": "Keep the neutral placeholder until permitted use or written permission is documented."
+      },
+      {
+        "issue": "Global date and NFC differ across secondary/model-region references; OPPO does not publish a global release date",
+        "action": "Leave global date and Philippine NFC status unresolved; retain the source disagreement rather than choosing one value."
+      },
+      {
+        "issue": "Workbook scope/eligibility remains Pending",
+        "action": "Preserve Pending and follow the existing study eligibility rules."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "OPPO Philippines",
+        "url": "https://www.oppo.com/ph/newsroom/press/oppo-reno5-4g-5g-officially-available-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-02-20",
+        "purpose": "Official Philippine release and availability evidence for both Reno5 4G and Reno5 5G",
+        "note": "OPPO states the Reno5 series became officially available in the Philippines on February 20, 2021, and lists separate 4G and 5G models with different prices and camera specifications."
+      },
+      {
+        "organization": "OPPO Philippines",
+        "url": "https://www.oppo.com/ph/newsroom/press/oppo-reno5-preorder/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-02-11",
+        "purpose": "Official preorder dates, launch prices, colors, and local availability date",
+        "note": "The Philippine release says preorder ran through February 19, 2021; reserved units could be claimed from February 20. It lists Reno5 4G at PHP 18,999 and colors Fantasy Silver / Starry Black, separately from Reno5 5G."
+      },
+      {
+        "organization": "OPPO Global",
+        "url": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer model-code match and detailed technical specifications for Reno5 4G",
+        "note": "OPPO identifies the product as Reno5 4G (CPH2159) and lists the 8 GB / 128 GB configuration, display, cameras, CPU/GPU, battery, bands, connectivity, sensors, operating system, and dimensions. The page does not state a global announcement date or software-support duration."
+      },
+      {
+        "organization": "OPPO Global",
+        "url": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer product page and exact-model image reference",
+        "note": "The product page is explicitly for OPPO Reno5 4G and describes its camera, display, charging, and audio features. Product pictures are marked for reference; the page does not grant image reuse rights."
+      },
+      {
+        "organization": "National Telecommunications Commission (NTC), Philippines",
+        "url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/GEC-2009-2021-Updated-.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment-conformity listing for OPPO model CPH2159",
+        "note": "The NTC list contains OPPO CPH2159. The same table separately names CPH2145 as Reno5 5G. OPPO's own specification page maps CPH2159 to Reno5 4G; the NTC row itself does not supply a marketing name for CPH2159."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/oppo-reno5-4g-5g-philippines-price/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-02-10",
+        "purpose": "Contemporaneous Philippine launch report and exact memory / price configuration cross-check",
+        "note": "Published February 10, 2021. YugaTech reports the local Reno5 4G at 8 GB / 128 GB for PHP 18,999 and Reno5 5G as a separate 8 GB / 128 GB model at PHP 23,999; both were scheduled for Philippine availability from February 20."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/smartphones-price-list-2021-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-01-18",
+        "purpose": "Year-end 2021 Philippine launch list cross-check",
+        "note": "Published January 18, 2021 and updated as of December 19, 2021. The list identifies Reno5 4G at PHP 18,999 with Snapdragon 720G and 8 GB / 128 GB, and lists Reno5 5G separately."
+      },
+      {
+        "organization": "OPPO Philippines",
+        "url": "https://www.oppo.com/ph/newsroom/press/oppo-reno5-4g-and-a15s-price-drop/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Historical official 2021 promotional price",
+        "note": "OPPO reported a temporary PHP 2,000 price reduction for Reno5 4G, from PHP 18,999 to PHP 16,999, with the offer ending July 31, 2021. This is historical, not a current offer."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/pricelists/oppo",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Current price-guide candidate cross-check, not a seller offer",
+        "note": "The OPPO Philippines price-list page currently displays Reno5 4G at PHP 18,990. The page is a price guide, not a live seller listing, and does not establish stock, condition, or orderability."
+      },
+      {
+        "organization": "GreenTelcom Philippines",
+        "url": "https://www.greentelcom.ph/shop/smartphones/oppo-reno5-4g-8gb-128gb/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Retail listing candidate for exact 8 GB / 128 GB Reno5 4G",
+        "note": "The product page displays PHP 13,990 and add-to-cart / buy buttons for Reno5 4G 8 GB / 128 GB, but its current stock state is not explicit on that page."
+      },
+      {
+        "organization": "GreenTelcom Philippines",
+        "url": "https://www.greentelcom.ph/product-tag/reno5-4g/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Stock-status cross-check for GreenTelcom Reno5 4G listing",
+        "note": "The store's Reno5 4G category page marks its listing out of stock. That conflicts with the product page's purchase buttons, so the PHP 13,990 amount is not accepted as a confirmed purchasable offer."
+      },
+      {
+        "organization": "Shoppable Philippines",
+        "url": "https://business.shoppable.ph/oppo-b.515/oppo-reno5-4g-cph2159-or-643-amoled-display-or-8gb-ram-128gb-storage-or-64mp-quad-camera-p.26191",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model new-condition marketplace SRP candidate",
+        "note": "The page identifies CPH2159, 8 GB / 128 GB and displays SRP PHP 15,679 VAT-inclusive with condition New, but requires a request for quote and does not establish an exact checkout price or stock."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/compare.php3?idPhone1=10654",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent exact-model specifications cross-check",
+        "note": "GSMArena's Reno5 4G specification page identifies model CPH2159 and lists release timing, microSDXC, Wi-Fi, NFC, and hardware details. Manufacturer values remain primary where available; conflicts are retained."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-oppo-reno5",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary model-alias and configuration cross-check",
+        "note": "Kimovil aliases the Reno5 as CPH2159 and lists one 8 GB / 128 GB configuration. Its price module returned a zero-value placeholder and is not used as a price."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/soc/qualcomm-snapdragon-720g",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary Snapdragon 720G chipset profile reference",
+        "note": "Used only as a supplemental chipset cross-check; no benchmark score or inferred phone performance rating is added to the catalog."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-720g-mobile-platform",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Snapdragon 720G platform specifications",
+        "note": "Qualcomm lists the Kryo 465 CPU family, up to 2.3 GHz, Adreno 618 GPU, and 8 nm process node for Snapdragon 720G."
+      }
+    ],
     "variants": [
       {
-        "id": "device_914fe6b0343102-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_914fe6b0343102-8gb-128gb-ph",
+        "label": "8 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.4,
+          "displayType": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshHz": 90,
+          "chipset": "Qualcomm Snapdragon 720G",
+          "cpu": "Octa-core Qualcomm Kryo 465, up to 2.3 GHz",
+          "gpu": "Qualcomm Adreno 618",
+          "os": "ColorOS 11.1 (Android 11)",
+          "ramGb": 8,
+          "ramType": "LPDDR4X",
+          "storageGb": 128,
+          "rearCameraMp": 64,
+          "frontCameraMp": 44,
+          "video": "Rear 4K30; 1080p30/60; 720p30/60; slow motion 1080p120/480 and 720p240/960. Front 1080p/720p30; slow motion 1080p120/720p240.",
+          "batteryMah": 4310,
+          "chargingW": 50,
+          "dimensions": "159.1 x 73.3 x 7.7–7.8 mm",
+          "weightG": 171,
+          "sim": "Dual Nano-SIM; eSIM not disclosed",
+          "cellular": "4G LTE; FDD 1/3/5/7/8/20/28; TDD 38/40/41; WCDMA 1/5/8; GSM 850/900/1800/1900",
+          "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac), dual-band",
+          "ports": "USB Type-C (USB 2.0, OTG); 3.5 mm jack",
+          "sound": "Dolby Atmos; 3.5 mm audio jack; speaker configuration not disclosed"
+        },
+        "specSources": {
+          "displayInches": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "displayType": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "resolution": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "refreshHz": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "chipset": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "cpu": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-720g-mobile-platform",
+          "gpu": "https://www.qualcomm.com/smartphones/products/7-series/snapdragon-720g-mobile-platform",
+          "os": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "ramGb": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "ramType": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "storageGb": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "rearCameraMp": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "frontCameraMp": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "video": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "batteryMah": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "chargingW": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "dimensions": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "weightG": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "sim": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "cellular": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "wifi": "https://www.gsmarena.com/compare.php3?idPhone1=10654",
+          "ports": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/specs/",
+          "sound": "https://www.gsmarena.com/compare.php3?idPhone1=10654"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine OPPO Reno5 4G configuration. Available colors: Fantasy Silver and Starry Black; colors use this same memory configuration.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "CPH2159",
         "workbookRow": null
       }
     ],

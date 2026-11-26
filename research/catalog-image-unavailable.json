@@ -1620,11 +1620,11 @@
     "altText": "Image unavailable for OPPO OPPO Reno17 series"
   },
   "device_914fe6b0343102": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "OPPO's official Reno5 4G product page shows exact-model images, but the page marks pictures as references and does not state a reusable image license or permission. No image is embedded.",
+    "sourcePage": "https://www.oppo.com/en/smartphones/series-reno/reno5-4g/",
     "assetUrl": null,
-    "scope": null,
+    "scope": "Exact OPPO Reno5 4G CPH2159 model; Fantasy Silver / Starry Black images are shown on the official model page",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for OPPO Reno5"

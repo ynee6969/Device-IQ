@@ -1,0 +1,115 @@
+{
+  "run_at": "2026-11-26T15:57:48+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_914fe6b0343102",
+      "brand": "OPPO",
+      "model_name": "Reno5",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_914fe6b0343102",
+      "source_url": "https://business.shoppable.ph/oppo-b.515/oppo-reno5-4g-cph2159-or-643-amoled-display-or-8gb-ram-128gb-storage-or-64mp-quad-camera-p.26191",
+      "result": "Exact new-condition listing displays SRP but requires quote; current checkout amount and stock not confirmed."
+    },
+    {
+      "device_id": "device_914fe6b0343102",
+      "source_url": "https://www.greentelcom.ph/shop/smartphones/oppo-reno5-4g-8gb-128gb/",
+      "result": "Exact 8 GB / 128 GB product page displays PHP 13,990; category page says out of stock, so not accepted as purchasable."
+    },
+    {
+      "device_id": "device_914fe6b0343102",
+      "source_url": "https://www.pinoytechnoguide.com/pricelists/oppo",
+      "result": "Price guide lists PHP 18,990; no live seller inventory or checkout offer established."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_914fe6b0343102",
+      "amount_php": 18999,
+      "configuration_id": "device_914fe6b0343102-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_list_price",
+      "source_published_at": "2021-02-10",
+      "excerpt": "Reno5 4G 8 GB / 128 GB Philippine launch price PHP 18,999.",
+      "source_url": "https://www.yugatech.com/mobile/oppo-reno5-4g-5g-philippines-price/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T15:57:48+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_914fe6b0343102",
+      "amount_php": 16999,
+      "configuration_id": null,
+      "configuration_match": "Reno5 4G model-level price; RAM/storage not repeated in promo source",
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "price_type": "historical_official_ph_promo_price",
+      "source_published_at": null,
+      "excerpt": "OPPO announced Reno5 4G at PHP 16,999 from its PHP 18,999 price during a promotion ending July 31, 2021; memory configuration is not repeated in that promotion page.",
+      "source_url": "https://www.oppo.com/ph/newsroom/press/oppo-reno5-4g-and-a15s-price-drop/",
+      "source_kind": "historical_manufacturer_promotion",
+      "observed_at": "2026-11-26T15:57:48+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_promotion_not_current"
+    },
+    {
+      "device_id": "device_914fe6b0343102",
+      "amount_php": 15679,
+      "configuration_id": "device_914fe6b0343102-8gb-128gb-ph",
+      "configuration_match": "exact_model_memory_configuration_condition_new_quote_only",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "displayed_srp_new_condition_rfq_only_candidate",
+      "source_published_at": null,
+      "excerpt": "Shoppable displays SRP PHP 15,679 VAT-inclusive for OPPO Reno5 4G CPH2159, 8 GB / 128 GB, condition New; a quote is required and stock/checkout price are not confirmed.",
+      "source_url": "https://business.shoppable.ph/oppo-b.515/oppo-reno5-4g-cph2159-or-643-amoled-display-or-8gb-ram-128gb-storage-or-64mp-quad-camera-p.26191",
+      "source_kind": "marketplace_rfq_price_candidate_not_verified",
+      "observed_at": "2026-11-26T15:57:48+08:00",
+      "local_availability_verified": false,
+      "availability_status": "quote_required_stock_not_verified"
+    },
+    {
+      "device_id": "device_914fe6b0343102",
+      "amount_php": 13990,
+      "configuration_id": "device_914fe6b0343102-8gb-128gb-ph",
+      "configuration_match": "exact_model_memory_configuration_stock_conflict",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "displayed_retailer_price_stock_unverified_candidate",
+      "source_published_at": null,
+      "excerpt": "GreenTelcom product page displays PHP 13,990 and purchase buttons, but its Reno5 4G category page marks the model out of stock; not treated as purchasable.",
+      "source_url": "https://www.greentelcom.ph/shop/smartphones/oppo-reno5-4g-8gb-128gb/",
+      "source_kind": "retailer_listing_price_stock_conflict",
+      "observed_at": "2026-11-26T15:57:48+08:00",
+      "local_availability_verified": false,
+      "availability_status": "product_stock_conflict_not_verified"
+    },
+    {
+      "device_id": "device_914fe6b0343102",
+      "amount_php": 18990,
+      "configuration_id": "device_914fe6b0343102-8gb-128gb-ph",
+      "configuration_match": "exact_model_price_guide_no_seller_offer",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "price_guide_reference_not_store_offer",
+      "source_published_at": null,
+      "excerpt": "Pinoy Techno Guide's OPPO price list displays Reno5 4G at PHP 18,990; the guide does not establish live stock, condition, or an orderable seller offer.",
+      "source_url": "https://www.pinoytechnoguide.com/pricelists/oppo",
+      "source_kind": "philippine_price_guide_candidate",
+      "observed_at": "2026-11-26T15:57:48+08:00",
+      "local_availability_verified": false,
+      "availability_status": "price_guide_only_not_verified_offer"
+    }
+  ]
+}

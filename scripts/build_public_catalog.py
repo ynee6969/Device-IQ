@@ -376,6 +376,8 @@ for review in manual_reviews.get("records", []):
         device["philippineAvailability"] = availability.get("philippineAvailability", device["philippineAvailability"])
         device["localEvidenceObservedAt"] = availability.get("observedAt", device.get("localEvidenceObservedAt"))
         device["qualityFlag"] = availability.get("qualityFlag", device.get("qualityFlag"))
+        if availability.get("catalogModel") is not None:
+            device["model"] = availability["catalogModel"]
         for metadata_key in ("manufacturer", "productLine", "modelNumber", "philippineReleaseYear", "philippineDateLabel", "researchNotes"):
             if availability.get(metadata_key) is not None:
                 device[metadata_key] = availability[metadata_key]
