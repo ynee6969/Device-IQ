@@ -165644,6 +165644,528 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_64797b9452613a",
+      "configurationId": "device_64797b9452613a-ph-8gb-256gb",
+      "brand": "DOOGEE",
+      "model": "S mini",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "modelCode": "SMINI",
+      "replacementVariants": [
+        {
+          "id": "device_64797b9452613a-ph-8gb-256gb",
+          "label": "8 GB RAM / 256 GB storage",
+          "modelCode": "SMINI",
+          "sku": null,
+          "notes": "Philippine launch reporting identifies this configuration. The 7 GB Extended RAM figure is virtual/extended memory and is not part of the 8 GB physical RAM value. The phone also has a secondary 7-segment rear display. Current stock and price are not verified.",
+          "workbookRow": 135
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "sources": [
+        {
+          "id": "doogee_smini_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "publicationDate": "2023-12-09",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model Philippine specifications, reported local market date, introduction price, and first advertised 12.12 offer",
+          "note": "Published 9 December 2023. Names DOOGEE S mini, reports that it arrived in the Philippine market on that date, lists 8 GB physical RAM / 256 GB storage and the core hardware, and states a PHP 13,999 introductory price plus an upcoming PHP 12,699 TikTok Shop 12.12 promotion. The promotion is an advertised offer, not a verified completed transaction."
+        },
+        {
+          "id": "doogee_smini_yugatech_global",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/doogee-smini-officially-released/",
+          "publicationDate": "2023-10-30",
+          "accessDate": "2026-11-26",
+          "purpose": "Global announcement context and exact-model cross-check",
+          "note": "Published 30 October 2023. Describes the DOOGEE Smini as unveiled and reports it available through AliExpress, Amazon, and DOOGEEMall, while explicitly saying there was no Philippine launch news at that time. This does not establish an exact global first-sale date."
+        },
+        {
+          "id": "doogee_smini_yugatech_ph_roundup",
+          "publisher": "YugaSpecs / YugaTech",
+          "url": "https://specs.yugatech.com/news/smartphones-launched-in-the-philippines-december-2023/",
+          "publicationDate": "2023-12-31",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine market-entry date cross-check",
+          "note": "Published 31 December 2023. Lists the DOOGEE S mini among smartphones brought to the Philippine market on 9 December 2023."
+        },
+        {
+          "id": "doogee_smini_gizguide_ph",
+          "publisher": "GizGuide Philippines",
+          "url": "https://www.gizguide.com/2023/12/doogee-smini-official-price-specs-ph.html",
+          "publicationDate": "2023-12-01",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability and price corroboration; exact-model hardware cross-check",
+          "note": "Published 1 December 2023. Reports DOOGEE's Philippine pricing and availability announcement, PHP 13,999 introductory price, and PHP 12,699 12.12 TikTok Shop offer. Provides model-specific display, processor/GPU, memory, cameras, battery, connectivity, sensors, dimensions, and weight. Its article image matches the named Smini, but reuse permission is not stated."
+        },
+        {
+          "id": "doogee_smini_revu_ph",
+          "publisher": "Revu Philippines",
+          "url": "https://www.revu.com.ph/2023/12/doogee-s-mini-price-philippines/",
+          "publicationDate": "2023-12-08",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch-price and promotion corroboration",
+          "note": "Published 8 December 2023. Reports PHP 13,999 as the local official price and PHP 12,699 as a scheduled 12.12 TikTok Shop offer; describes the offer as upcoming, so the promotional amount is not treated as a verified transaction or current price."
+        },
+        {
+          "id": "doogee_smini_fcc",
+          "publisher": "FCC equipment authorization record",
+          "url": "https://fccid.io/2AX4YSMINI",
+          "publicationDate": "2023-10-23",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer and exact model-code identity",
+          "note": "FCC ID 2AX4YSMINI identifies Shenzhen DOOGEE Hengtong Technology Co., Ltd. as grantee and SMINI as product code/model. This is a global certification identity record, not Philippine type approval or sale evidence."
+        },
+        {
+          "id": "doogee_smini_official_parts",
+          "publisher": "DOOGEE Care (manufacturer service site)",
+          "url": "https://care.doogee.com/spare-form?part_id=2119",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer configuration cross-check",
+          "note": "DOOGEE Care's S MINI spare-part record identifies an SMINI mainboard with 8 GB RAM + 256 GB ROM. This corroborates the physical 8/256 configuration; it does not independently establish a Philippine retail SKU."
+        },
+        {
+          "id": "doogee_smini_official_video",
+          "publisher": "DOOGEE official YouTube channel",
+          "url": "https://www.youtube.com/watch?v=iBsySd2h8tE",
+          "publicationDate": "2023-11-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer-published exact-model design and hardware cross-check",
+          "note": "Official DOOGEE Smini introduction video, published 26 November 2023, identifies the 4.5-inch qHD+ IPS display, 50 MP + 2 MP macro cameras, 3,000 mAh battery, and 133.0 x 60.0 x 13.5 mm dimensions. Its publication date is not treated as a release date."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "doogee_smini_official_parts",
+          "sourceValue": "DOOGEE Care service-parts model: SMINI",
+          "normalizedValue": "SMINI",
+          "note": "The manufacturer's service-parts record uses SMINI; the FCC equipment record independently maps product code SMINI to this DOOGEE smartphone."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_global",
+          "sourceValue": "YugaTech reported the model unveiled on 30 October 2023 and globally orderable by then; no exact first global release date was found.",
+          "normalizedValue": null,
+          "note": "An announcement and evidence of availability by a later date do not establish the exact initial global release date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "doogee_smini_official_parts",
+          "sourceValue": "DOOGEE Care SMINI mainboard: 8 GB RAM + 256 GB ROM; YugaTech reports the same Philippine configuration.",
+          "normalizedValue": "8 GB RAM / 256 GB storage",
+          "note": "The manufacturer's service-parts listing confirms the physical 8/256 configuration, and Philippine launch coverage names it. The additional 7 GB is extended/virtual memory, not additional physical RAM."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph_roundup",
+          "sourceValue": "DOOGEE S mini brought to the Philippine market on 9 December 2023; YugaTech's model-specific launch page is dated the same day.",
+          "normalizedValue": "2023-12-09",
+          "note": "This is the reported market-entry date. Exact first transaction and the precise first authorized sale timestamp were not independently documented."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_revu_ph",
+          "sourceValue": "PHP 13,999 official local price / introductory price for DOOGEE S mini, reported 8 December 2023.",
+          "normalizedValue": 13999,
+          "unit": "PHP",
+          "note": "Historical Philippine introductory price reported contemporaneously by Revu, GizGuide, and YugaTech. It is not a current price.",
+          "priceType": "historical_ph_intro_price",
+          "priceObservedAt": "2023-12-08"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Reviewed Philippine prices are dated December 2023 launch reports; no current dated and orderable Philippine offer was verified.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank. PHP 13,999 is a historical intro price; PHP 12,699 was an advertised 12.12 promotion, not a verified current offer."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "4.5-inch display",
+          "normalizedValue": 4.5,
+          "catalogKey": "displayInches",
+          "catalogValue": 4.5,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "qHD+ IPS TFT display",
+          "normalizedValue": "IPS TFT LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS TFT LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "480 x 1170 pixels",
+          "normalizedValue": "480 x 1170",
+          "catalogKey": "resolution",
+          "catalogValue": "480 x 1170"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_revu_ph",
+          "sourceValue": "60 Hz",
+          "normalizedValue": 60,
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "No brightness value in reviewed exact-model specifications",
+          "normalizedValue": null,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "No cover-glass type or display protection rating in reviewed exact-model specifications",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "MediaTek Helio G99",
+          "normalizedValue": "MediaTek Helio G99",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio G99"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "6 nm",
+          "normalizedValue": 6,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Octa-core, maximum clock speed 2.2 GHz",
+          "normalizedValue": "Octa-core up to 2.2 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core up to 2.2 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_gizguide_ph",
+          "sourceValue": "Mali-G57 MC2",
+          "normalizedValue": "Mali-G57 MC2",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G57 MC2"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Android 13",
+          "normalizedValue": "Android 13",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "No software update or security support policy was found in the reviewed sources",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "doogee_smini_official_parts",
+          "sourceValue": "8 GB physical RAM; separate 7 GB extended memory is reported",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "note": "Catalog RAM is physical memory only. The 7 GB extended/virtual-memory marketing figure is not added to installed RAM."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_official_parts",
+          "sourceValue": "RAM type not identified by the manufacturer parts record or reviewed local specifications",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "doogee_smini_official_parts",
+          "sourceValue": "256 GB ROM / internal storage",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Internal storage interface/type not identified",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "microSD support up to 2 TB",
+          "normalizedValue": "microSD up to 2 TB"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "50 MP f/1.8 main camera + 2 MP macro camera",
+          "normalizedValue": "50 MP main f/1.8 + 2 MP macro",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Main camera is listed as 50 MP f/1.8 autofocus; sensor part/model number is not stated",
+          "normalizedValue": "50 MP f/1.8 AF; sensor model not recorded"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "The complete reported rear camera system is 50 MP main + 2 MP macro; no ultrawide module is listed",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "The complete reported rear camera system is 50 MP main + 2 MP macro; no telephoto module is listed",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "8 MP selfie camera",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Video recording modes and maximum resolution were not listed in reviewed exact-model sources",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "3,000 mAh",
+          "normalizedValue": 3000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 3000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Battery chemistry and replaceability were not stated in reviewed exact-model sources",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "18 W charging",
+          "normalizedValue": 18,
+          "catalogKey": "chargingW",
+          "catalogValue": 18,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Wireless and reverse charging are not stated in the reviewed sources",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "doogee_smini_official_video",
+          "sourceValue": "133.0 x 60.0 x 13.5 mm",
+          "normalizedValue": "133.0 x 60.0 x 13.5 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "133.0 x 60.0 x 13.5 mm",
+          "unit": "mm",
+          "note": "Dimensions are also reported by YugaTech Philippines."
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "155 g",
+          "normalizedValue": 155,
+          "catalogKey": "weightG",
+          "catalogValue": 155,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Frame and back materials were not stated in the reviewed exact-model sources",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_gizguide_ph",
+          "sourceValue": "IP68, IP69K, and MIL-STD-810H ratings/compliance are reported for the model",
+          "normalizedValue": "IP68; IP69K; MIL-STD-810H reported",
+          "note": "These are manufacturer/launch-coverage claims as reported by the cited Philippine source; independent durability test results were not reviewed."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_gizguide_ph",
+          "sourceValue": "Hybrid dual nano-SIM / microSD tray; eSIM support not stated",
+          "normalizedValue": "Hybrid dual nano-SIM / microSD; eSIM not recorded",
+          "catalogKey": "sim",
+          "catalogValue": "Hybrid dual nano-SIM / microSD; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "4G LTE; model-specific supported band list was not published in the reviewed Philippine specifications",
+          "normalizedValue": "4G LTE; exact bands not recorded",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE; exact bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Wi-Fi 802.11ac/a/b/g/n",
+          "normalizedValue": "802.11 a/b/g/n/ac",
+          "catalogKey": "wifi",
+          "catalogValue": "802.11 a/b/g/n/ac"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "USB Type-C; USB data version and OTG support not stated",
+          "normalizedValue": "USB Type-C; data version not recorded",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data version not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "NFC supported",
+          "normalizedValue": true
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "GPS, GLONASS, Galileo, BeiDou, and AGPS",
+          "normalizedValue": "GPS; GLONASS; Galileo; BeiDou; AGPS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "doogee_smini_yugatech_ph",
+          "sourceValue": "Headphone jack, speaker layout, and audio codecs not identified in reviewed exact-model specifications",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "doogee_smini_gizguide_ph",
+          "sourceValue": "Accelerometer, light, orientation, proximity, gyroscope, sound, and magnetic sensors; side fingerprint reader is reported",
+          "normalizedValue": "Accelerometer; light; orientation; proximity; gyroscope; sound; magnetic; side fingerprint reader"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch and initial market entry reported on 9 December 2023. Contemporaneous coverage reported the official PHP 13,999 introductory price and a scheduled 12.12 TikTok Shop promotion. Current stock and price are unknown.",
+        "philippineAvailability": "Philippine launch coverage from GizGuide (1 December), Revu (8 December), and YugaTech (9 December 2023) identifies the exact DOOGEE S mini and the DOOGEE Philippines launch offer. YugaTech's year-end market roundup reports arrival on 9 December. The local 8 GB / 256 GB configuration is documented. The exact first authorized-sale transaction is not established; the PHP 12,699 12.12 promotion is retained only as an advertised historical offer, not a completed or current price.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Shenzhen DOOGEE Hengtong Technology Co., Ltd.",
+        "catalogModel": "S mini",
+        "modelNumber": "SMINI",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Reported Philippine market-entry date",
+        "researchNotes": "Workbook row 135 matched to DOOGEE S mini / FCC product code SMINI. DOOGEE Care lists the 8 GB + 256 GB mainboard, and Philippine launch coverage identifies the same physical configuration. Historical PHP 13,999 introductory pricing is confirmed in contemporaneous local reporting. Current price and current stock are not verified. The workbook scope status remains Pending.",
+        "qualityFlag": "Exact model and Philippine 8 GB / 256 GB configuration reviewed. Local launch and historical introductory price are supported by contemporaneous Philippine coverage; current price, exact global first-sale date, and image reuse remain unresolved.",
+        "openIssues": [
+          {
+            "issue": "Exact global first-sale date was not established",
+            "action": "Keep the global release-date field blank; do not substitute the announcement date."
+          },
+          {
+            "issue": "No current dated, orderable Philippine price or stock status was verified",
+            "action": "Keep current price and stock blank; retain the launch price and scheduled 12.12 offer as historical evidence only."
+          },
+          {
+            "issue": "The PHP 12,699 12.12 amount was announced before the event",
+            "action": "Treat it as an advertised promotion, not a verified completed sale."
+          },
+          {
+            "issue": "Exact first authorized-sale transaction time is not recorded",
+            "action": "Describe 9 December 2023 as a reported market-entry date."
+          },
+          {
+            "issue": "Exact-model photos appear in manufacturer and Philippine product coverage, but image reuse permission is not recorded",
+            "action": "Keep the neutral image placeholder until reuse rights are documented."
+          },
+          {
+            "issue": "Workbook eligibility remains Pending",
+            "action": "Preserve the existing study-scope status."
+          }
+        ]
+      }
     }
   ]
 }

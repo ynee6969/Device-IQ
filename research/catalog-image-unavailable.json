@@ -410,11 +410,15 @@
     "altText": "Image unavailable for Coolpad CP12"
   },
   "device_64797b9452613a": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact DOOGEE S mini image is shown in Philippine launch coverage and on the official DOOGEE product/media channels, but a reusable license or written republishing permission is not recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+    "relatedSourcePages": [
+      "https://www.gizguide.com/2023/12/doogee-smini-official-price-specs-ph.html",
+      "https://www.youtube.com/watch?v=iBsySd2h8tE"
+    ],
     "assetUrl": null,
-    "scope": null,
+    "scope": "Exact DOOGEE S mini; Philippine 8 GB / 256 GB configuration",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for DOOGEE S mini"

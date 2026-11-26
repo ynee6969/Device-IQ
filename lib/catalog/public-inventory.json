@@ -6943,46 +6943,173 @@
     "category": "smartphones",
     "brand": "DOOGEE",
     "model": "S mini",
-    "manufacturer": null,
+    "manufacturer": "Shenzhen DOOGEE Hengtong Technology Co., Ltd.",
     "productLine": null,
-    "modelNumber": null,
+    "modelNumber": "SMINI",
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2023-12-09",
+    "philippineDateLabel": "Reported Philippine market-entry date",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact model and Philippine 8 GB / 256 GB configuration reviewed. Local launch and historical introductory price are supported by contemporaneous Philippine coverage; current price, exact global first-sale date, and image reuse remain unresolved.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Philippine launch coverage from GizGuide (1 December), Revu (8 December), and YugaTech (9 December 2023) identifies the exact DOOGEE S mini and the DOOGEE Philippines launch offer. YugaTech's year-end market roundup reports arrival on 9 December. The local 8 GB / 256 GB configuration is documented. The exact first authorized-sale transaction is not established; the PHP 12,699 12.12 promotion is retained only as an advertised historical offer, not a completed or current price.",
+    "availabilityStatus": "Philippine launch and initial market entry reported on 9 December 2023. Contemporaneous coverage reported the official PHP 13,999 introductory price and a scheduled 12.12 TikTok Shop promotion. Current stock and price are unknown.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 135 matched to DOOGEE S mini / FCC product code SMINI. DOOGEE Care lists the 8 GB + 256 GB mainboard, and Philippine launch coverage identifies the same physical configuration. Historical PHP 13,999 introductory pricing is confirmed in contemporaneous local reporting. Current price and current stock are not verified. The workbook scope status remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Exact global first-sale date was not established",
+        "action": "Keep the global release-date field blank; do not substitute the announcement date."
+      },
+      {
+        "issue": "No current dated, orderable Philippine price or stock status was verified",
+        "action": "Keep current price and stock blank; retain the launch price and scheduled 12.12 offer as historical evidence only."
+      },
+      {
+        "issue": "The PHP 12,699 12.12 amount was announced before the event",
+        "action": "Treat it as an advertised promotion, not a verified completed sale."
+      },
+      {
+        "issue": "Exact first authorized-sale transaction time is not recorded",
+        "action": "Describe 9 December 2023 as a reported market-entry date."
+      },
+      {
+        "issue": "Exact-model photos appear in manufacturer and Philippine product coverage, but image reuse permission is not recorded",
+        "action": "Keep the neutral image placeholder until reuse rights are documented."
+      },
+      {
+        "issue": "Workbook eligibility remains Pending",
+        "action": "Preserve the existing study-scope status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-09",
+        "purpose": "Exact-model Philippine specifications, reported local market date, introduction price, and first advertised 12.12 offer",
+        "note": "Published 9 December 2023. Names DOOGEE S mini, reports that it arrived in the Philippine market on that date, lists 8 GB physical RAM / 256 GB storage and the core hardware, and states a PHP 13,999 introductory price plus an upcoming PHP 12,699 TikTok Shop 12.12 promotion. The promotion is an advertised offer, not a verified completed transaction."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/news/doogee-smini-officially-released/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-10-30",
+        "purpose": "Global announcement context and exact-model cross-check",
+        "note": "Published 30 October 2023. Describes the DOOGEE Smini as unveiled and reports it available through AliExpress, Amazon, and DOOGEEMall, while explicitly saying there was no Philippine launch news at that time. This does not establish an exact global first-sale date."
+      },
+      {
+        "organization": "YugaSpecs / YugaTech",
+        "url": "https://specs.yugatech.com/news/smartphones-launched-in-the-philippines-december-2023/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-31",
+        "purpose": "Independent Philippine market-entry date cross-check",
+        "note": "Published 31 December 2023. Lists the DOOGEE S mini among smartphones brought to the Philippine market on 9 December 2023."
+      },
+      {
+        "organization": "GizGuide Philippines",
+        "url": "https://www.gizguide.com/2023/12/doogee-smini-official-price-specs-ph.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-01",
+        "purpose": "Philippine availability and price corroboration; exact-model hardware cross-check",
+        "note": "Published 1 December 2023. Reports DOOGEE's Philippine pricing and availability announcement, PHP 13,999 introductory price, and PHP 12,699 12.12 TikTok Shop offer. Provides model-specific display, processor/GPU, memory, cameras, battery, connectivity, sensors, dimensions, and weight. Its article image matches the named Smini, but reuse permission is not stated."
+      },
+      {
+        "organization": "Revu Philippines",
+        "url": "https://www.revu.com.ph/2023/12/doogee-s-mini-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-08",
+        "purpose": "Philippine launch-price and promotion corroboration",
+        "note": "Published 8 December 2023. Reports PHP 13,999 as the local official price and PHP 12,699 as a scheduled 12.12 TikTok Shop offer; describes the offer as upcoming, so the promotional amount is not treated as a verified transaction or current price."
+      },
+      {
+        "organization": "FCC equipment authorization record",
+        "url": "https://fccid.io/2AX4YSMINI",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-10-23",
+        "purpose": "Manufacturer and exact model-code identity",
+        "note": "FCC ID 2AX4YSMINI identifies Shenzhen DOOGEE Hengtong Technology Co., Ltd. as grantee and SMINI as product code/model. This is a global certification identity record, not Philippine type approval or sale evidence."
+      },
+      {
+        "organization": "DOOGEE Care (manufacturer service site)",
+        "url": "https://care.doogee.com/spare-form?part_id=2119",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer configuration cross-check",
+        "note": "DOOGEE Care's S MINI spare-part record identifies an SMINI mainboard with 8 GB RAM + 256 GB ROM. This corroborates the physical 8/256 configuration; it does not independently establish a Philippine retail SKU."
+      },
+      {
+        "organization": "DOOGEE official YouTube channel",
+        "url": "https://www.youtube.com/watch?v=iBsySd2h8tE",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-11-26",
+        "purpose": "Manufacturer-published exact-model design and hardware cross-check",
+        "note": "Official DOOGEE Smini introduction video, published 26 November 2023, identifies the 4.5-inch qHD+ IPS display, 50 MP + 2 MP macro cameras, 3,000 mAh battery, and 133.0 x 60.0 x 13.5 mm dimensions. Its publication date is not treated as a release date."
+      }
+    ],
     "variants": [
       {
-        "id": "device_64797b9452613a-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_64797b9452613a-ph-8gb-256gb",
+        "label": "8 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 4.5,
+          "displayType": "IPS TFT LCD",
+          "resolution": "480 x 1170",
+          "refreshHz": 60,
+          "chipset": "MediaTek Helio G99",
+          "cpu": "Octa-core up to 2.2 GHz",
+          "gpu": "Mali-G57 MC2",
+          "os": "Android 13",
+          "ramGb": 8,
+          "storageGb": 256,
+          "rearCameraMp": 50,
+          "frontCameraMp": 8,
+          "batteryMah": 3000,
+          "chargingW": 18,
+          "dimensions": "133.0 x 60.0 x 13.5 mm",
+          "weightG": 155,
+          "sim": "Hybrid dual nano-SIM / microSD; eSIM not recorded",
+          "cellular": "4G LTE; exact bands not recorded",
+          "wifi": "802.11 a/b/g/n/ac",
+          "ports": "USB Type-C; data version not recorded"
+        },
+        "specSources": {
+          "displayInches": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "displayType": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "resolution": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "refreshHz": "https://www.revu.com.ph/2023/12/doogee-s-mini-price-philippines/",
+          "chipset": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "cpu": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "gpu": "https://www.gizguide.com/2023/12/doogee-smini-official-price-specs-ph.html",
+          "os": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "ramGb": "https://care.doogee.com/spare-form?part_id=2119",
+          "storageGb": "https://care.doogee.com/spare-form?part_id=2119",
+          "rearCameraMp": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "frontCameraMp": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "batteryMah": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "chargingW": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "dimensions": "https://www.youtube.com/watch?v=iBsySd2h8tE",
+          "weightG": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "sim": "https://www.gizguide.com/2023/12/doogee-smini-official-price-specs-ph.html",
+          "cellular": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "wifi": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+          "ports": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine launch reporting identifies this configuration. The 7 GB Extended RAM figure is virtual/extended memory and is not part of the 8 GB physical RAM value. The phone also has a secondary 7-segment rear display. Current stock and price are not verified.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "SMINI",
         "workbookRow": null
       }
     ],

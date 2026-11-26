@@ -1,0 +1,77 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_64797b9452613a",
+      "brand": "DOOGEE",
+      "model_name": "S mini",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_64797b9452613a",
+      "source_url": "https://fccid.io/2AX4YSMINI",
+      "result": "FCC record identifies the manufacturer and SMINI product/model code."
+    },
+    {
+      "device_id": "device_64797b9452613a",
+      "source_url": "https://care.doogee.com/spare-form?part_id=2119",
+      "result": "DOOGEE Care identifies an SMINI 8 GB + 256 GB mainboard."
+    },
+    {
+      "device_id": "device_64797b9452613a",
+      "source_url": "https://www.yugatech.com/smartphones/doogee-s-mini-specs-price-philippines/",
+      "result": "Exact-model Philippine launch page reports 8/256, local availability on 9 December 2023, and PHP 13,999 intro pricing."
+    },
+    {
+      "device_id": "device_64797b9452613a",
+      "source_url": "https://www.gizguide.com/2023/12/doogee-smini-official-price-specs-ph.html",
+      "result": "Corroborates Philippine launch offer and detailed Smini hardware."
+    },
+    {
+      "device_id": "device_64797b9452613a",
+      "source_url": "https://www.yugatech.com/news/doogee-smini-officially-released/",
+      "result": "Global unveiling coverage predates local launch but does not establish exact first global sale date."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_64797b9452613a",
+      "amount_php": 13999,
+      "configuration_id": "device_64797b9452613a-ph-8gb-256gb",
+      "configuration_match": "exact_philippine_8gb_256gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_intro_price",
+      "source_published_at": "2023-12-08",
+      "excerpt": "Revu reported PHP 13,999 as DOOGEE S mini's official Philippine introductory price. YugaTech and GizGuide also reported the same price.",
+      "source_url": "https://www.revu.com.ph/2023/12/doogee-s-mini-price-philippines/",
+      "source_kind": "historical_local_price_report",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_intro_price_not_current"
+    },
+    {
+      "device_id": "device_64797b9452613a",
+      "amount_php": 12699,
+      "configuration_id": "device_64797b9452613a-ph-8gb-256gb",
+      "configuration_match": "exact_philippine_8gb_256gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_advertised_12_12_promotion",
+      "source_published_at": "2023-12-08",
+      "excerpt": "A PHP 12,699 TikTok Shop 12.12 price was announced in advance; the cited report describes it as an upcoming offer, not a verified completed transaction.",
+      "source_url": "https://www.revu.com.ph/2023/12/doogee-s-mini-price-philippines/",
+      "source_kind": "historical_advertised_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": false,
+      "availability_status": "advertised_offer_not_transaction_verified"
+    }
+  ]
+}

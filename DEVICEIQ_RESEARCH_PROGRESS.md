@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T20:47:34+08:00
+Updated: 2026-11-26T21:04:44+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,18 +10,18 @@ Updated: 2026-11-26T20:47:34+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 575 |
-| Models with manually verified source fields | 323 |
-| Configurations with manually verified source fields | 445 |
+| Models with manually verified source fields | 324 |
+| Configurations with manually verified source fields | 446 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 2 |
 | Specification-complete models | 0 |
 | Incomplete models | 454 |
 | Applicable field assignments | 26847 |
-| Fields assessed | 13918 |
-| Verified fields | 13197 |
-| Pending fields | 12929 |
-| PTG extracted pages | 204 |
+| Fields assessed | 13963 |
+| Verified fields | 13229 |
+| Pending fields | 12884 |
+| PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
 | Existing reviewed catalog images | 48 |
@@ -91,8 +91,8 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | smartphones | ASUS | 1 | 1 | 1 | 0 | 0 | 1 | 74 | 74 | 18 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Apple | 4 | 0 | 4 | 0 | 0 | 4 | 65 | 61 | 119 | 1 | 4 | 0 | 0 | 4 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Coolpad | 2 | 2 | 2 | 0 | 0 | 2 | 135 | 89 | 3 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | DOOGEE | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | HONOR | 4 | 2 | 4 | 0 | 0 | 4 | 132 | 125 | 52 | 3 | 4 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | DOOGEE | 1 | 1 | 1 | 0 | 0 | 1 | 45 | 32 | 1 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | HONOR | 4 | 2 | 4 | 0 | 0 | 4 | 132 | 125 | 52 | 2 | 4 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Huawei | 2 | 1 | 2 | 0 | 0 | 2 | 101 | 98 | 37 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Infinix | 2 | 0 | 2 | 0 | 0 | 2 | 29 | 29 | 63 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Nokia | 3 | 0 | 3 | 0 | 0 | 3 | 55 | 55 | 83 | 2 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -104,7 +104,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | smartphones | Redmi | 2 | 0 | 2 | 0 | 0 | 2 | 51 | 51 | 41 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Samsung | 8 | 6 | 8 | 0 | 0 | 8 | 256 | 244 | 250 | 3 | 6 | 4 | 0 | 0 | 8 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | ZTE | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 92 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | itel | 3 | 1 | 3 | 0 | 0 | 3 | 83 | 83 | 55 | 3 | 3 | 1 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | itel | 3 | 1 | 3 | 0 | 0 | 3 | 83 | 83 | 55 | 2 | 3 | 1 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | realme | 2 | 0 | 2 | 0 | 0 | 2 | 126 | 126 | 58 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | vivo | 2 | 0 | 2 | 0 | 0 | 2 | 62 | 62 | 30 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | tablets | ABC TECH | 3 | 0 | 3 | 0 | 0 | 3 | 0 | 0 | 147 | 0 | 0 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -230,7 +230,7 @@ The table counts the existing records and this run's review state; it does not m
 ## Current blockers and next actions
 
 1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.
-2. Review the 5883 source-derived field observations and 462 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
+2. Review the 5824 source-derived field observations and 188 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
 3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover 18/18 laptop models and 22 exact configurations.
 4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.
 5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.
