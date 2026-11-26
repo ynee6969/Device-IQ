@@ -1,0 +1,51 @@
+{
+  "run_at": "2026-11-26T13:34:30+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_bd830ce3628852",
+      "brand": "HONOR",
+      "model_name": "X9c",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_bd830ce3628852",
+      "amount_php": 16999,
+      "configuration_id": "device_bd830ce3628852-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "retailer_listed_price_out_of_stock",
+      "source_published_at": null,
+      "excerpt": "Octagon's exact HONOR X9c 12GB/256GB Jade Cyan listing showed PHP 16,999 at access on 2026-11-26 and was marked Out of stock. It is not an available offer and is not loaded as the catalog price.",
+      "source_url": "https://www.octagon.com.ph/products/honor-x9c-12gb-256gb-jade-cyan",
+      "source_kind": "retailer_price_observation",
+      "observed_at": "2026-11-26T13:34:30+08:00",
+      "local_availability_verified": false,
+      "availability_status": "out_of_stock"
+    },
+    {
+      "device_id": "device_bd830ce3628852",
+      "amount_php": 16999,
+      "configuration_id": "device_bd830ce3628852-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "independent_current_price_guide_candidate",
+      "source_published_at": "2026-11-16",
+      "excerpt": "Best Tech Asia's Philippine guide updated 2026-11-16 lists the 12GB/256GB HONOR X9c 5G at PHP 16,999 and links to official stores, but does not establish live stock or checkout price.",
+      "source_url": "https://besttechasia.com/honor-x9c-5g-full-specs-price-philippines/",
+      "source_kind": "independent_price_guide",
+      "observed_at": "2026-11-26T13:34:30+08:00",
+      "local_availability_verified": false,
+      "availability_status": "candidate_current_price_stock_unverified"
+    }
+  ]
+}

@@ -650,11 +650,11 @@
     "altText": "Image unavailable for HONOR X9b"
   },
   "device_bd830ce3628852": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact HONOR X9c Jade Cyan image was identified on the official HONOR Philippines specifications page, but no reusable license or written permission is recorded.",
+    "sourcePage": "https://www.honor.com/ph/phones/honor-x9c/spec/",
+    "assetUrl": "https://www-file.honor.com/content/dam/honor/ph/specs/smartphone/honor-x9c/honor-x9c-cyan.png",
+    "scope": "Exact HONOR X9c model, Jade Cyan colorway; the 12 GB / 256 GB configuration is not visually distinguished",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for HONOR X9c"

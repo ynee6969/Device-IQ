@@ -8335,46 +8335,209 @@
     "category": "smartphones",
     "brand": "HONOR",
     "model": "X9c",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HONOR",
+    "productLine": "X Series",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2025-01-10",
+    "philippineDateLabel": "First reported Philippine preorder date",
+    "philippineReleaseYear": 2025,
     "claimedReleaseYear": 2025,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Current stock unverified; IP rating and brightness qualifiers conflict across sources",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "PTG reported preorders through HONOR stores, kiosks, and official online shops on January 10, 2025; YugaTech reported official online purchase availability January 11, 2025.",
+    "availabilityStatus": "Philippine preorders were reported starting January 10, 2025; current stock is not established.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The workbook label HONOR X9c matches HONOR's Philippine X9c 5G product, not the separately marketed X9c Smart. The local configuration established by preorder sources and retailer listing is 12 GB physical RAM / 256 GB storage. PHP 16,999 is the launch SRP; the exact-configuration Octagon listing still shows PHP 16,999 but was out of stock at review time. Current availability is not verified. A general YugaTech specification list mentions 512 GB, but no local 512 GB configuration was confirmed.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Retailer price observation is out of stock",
+        "action": "Keep public purchasable price blank and retain the out-of-stock listing only as a dated observation."
+      },
+      {
+        "issue": "YugaTech lists 512 GB storage generally, but no exact local 512 GB sale listing was found",
+        "action": "Do not add the 512 GB Philippine variant unless an exact local configuration and offer are verified."
+      },
+      {
+        "issue": "Manufacturer uses IP65M while YugaTech launch report says IP65",
+        "action": "Preserve both labels and leave the catalog IP field unresolved until the rating nomenclature is confirmed."
+      },
+      {
+        "issue": "HONOR labels 4000 nits typical brightness; local sources call it peak/HDR",
+        "action": "Keep brightness value unresolved until the measurement qualifier is reconciled."
+      },
+      {
+        "issue": "No official software support duration found",
+        "action": "Keep OS/security update support period blank."
+      },
+      {
+        "issue": "Official product image reuse rights are not established",
+        "action": "Continue showing the neutral placeholder until written permission or a reusable license is documented."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9c/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippines model identity, display, battery, charging, durability, and colorways",
+        "note": "HONOR Philippines identifies HONOR X9c, 6600 mAh silicon-carbon battery, 66 W SuperCharge, 189 g weight, 7.98 mm thickness, Ultra-Bounce Anti-Drop Technology 2.0, and IP65M marketing language."
+      },
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9c/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine model specification page and exact product-image source",
+        "note": "The official Philippines specifications page identifies HONOR X9c and Titanium Purple, Titanium Black, and Jade Cyan. Its text-rendered spec table omits most values; no image asset is copied because reuse rights are not stated."
+      },
+      {
+        "organization": "HONOR",
+        "url": "https://www.honor.com/sa-en/support/phones/honor-x9c/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer support page identifying model code and physical configurations",
+        "note": "HONOR support identifies HONOR X9c as model BRP-NX1 and lists physical 8 GB / 256 GB and 12 GB / 256 GB versions. This is model-code evidence, not a Philippine-specific retail SKU statement."
+      },
+      {
+        "organization": "HONOR Singapore",
+        "url": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official regional technical specification cross-check",
+        "note": "HONOR Singapore's model-specific specifications list display, CPU layout, GPU, MagicOS/Android version, cameras, 6600 mAh battery, charging, connectivity, and sensors. Region-only variants are not imported into the Philippine catalog."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-6-gen-1-mobile-platform",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary source for Snapdragon 6 Gen 1 process technology and platform specifications",
+        "note": "Qualcomm specifies Snapdragon 6 Gen 1 as a 4 nm platform with CPU up to 2.2 GHz. Device-specific CPU layout is taken from HONOR's model specification."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/news/honor-x9c-5g-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-01-11",
+        "purpose": "Contemporaneous Philippine launch, local pricing, market availability, and feature specifications",
+        "note": "Published 2025-01-11. Reports the HONOR X9c 5G launched in the Philippines at PHP 16,999, available through HONOR's official online stores, and provides a detailed local specification list. It mentions 256 GB and 512 GB storage options but gives a single price without a distinct 512 GB local SKU offer."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/honor-gadget-price-list-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-01-11",
+        "purpose": "Dated Philippine launch-price history cross-check",
+        "note": "YugaTech records HONOR X9c 5G at PHP 16,999, verified January 11, 2025; this is launch-era history, not a present offer."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/smartphones/honor-x9c-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-01-10",
+        "purpose": "Philippine price, pre-order, and local configuration cross-check",
+        "note": "Published 2025-01-10. PTG identifies the 12 GB / 256 GB HONOR X9c 5G at PHP 16,999 and reports it available for preorder through HONOR stores, kiosks, and official online stores."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/reviews/honor-x9c-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-01-10",
+        "purpose": "Independent Philippine hands-on review and local 12 GB / 256 GB configuration cross-check",
+        "note": "The local review documents the X9c 5G tested with 12 GB physical RAM and 256 GB storage, the Snapdragon 6 Gen 1, 6600 mAh Si/C battery, and 66 W charging."
+      },
+      {
+        "organization": "REVU Philippines",
+        "url": "https://www.revu.com.ph/2025/01/honor-x9c-5g-review-price-specs/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-01-10",
+        "purpose": "Independent Philippine review and source for build, screen, materials, and feature conflicts",
+        "note": "Published 2025-01-10. REVU identifies its exact 12 GB / 256 GB review unit, polycarbonate rear, 120 Hz curved display, 4,000-nit peak brightness, IP65M, 4K rear video, 16 MP front camera, and 66 W charging."
+      },
+      {
+        "organization": "Octagon Computer Superstore",
+        "url": "https://www.octagon.com.ph/products/honor-x9c-12gb-256gb-jade-cyan",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-configuration Philippine retailer price and stock-status observation",
+        "note": "At access on 2026-11-26, the exact HONOR X9c 12 GB / 256 GB Jade Cyan listing displayed PHP 16,999 but was marked Out of stock. This is a price observation, not an available offer."
+      },
+      {
+        "organization": "Best Tech Asia",
+        "url": "https://besttechasia.com/honor-x9c-5g-full-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2026-11-16",
+        "purpose": "Recent independent Philippine guide-price cross-check",
+        "note": "The 2026 Philippine guide lists the 12 GB / 256 GB model at PHP 16,999 and was updated 2026-11-16. It links to official marketplace stores but does not establish a live, in-stock exact-configuration checkout price."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/spec/honor-x9c-5g-2/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Detailed secondary specification cross-check",
+        "note": "YugaTech's specification database identifies processor, CPU layout, GPU, camera, IP rating, and other technical fields. It lists 8/12 GB RAM and 256/512 GB storage generally; those additional combinations are not treated as Philippine configurations without local variant-specific sale evidence."
+      }
+    ],
     "variants": [
       {
-        "id": "device_bd830ce3628852-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_bd830ce3628852-12gb-256gb-ph",
+        "label": "12 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.78,
+          "displayType": "Curved AMOLED",
+          "resolution": "2700 x 1224",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 6 Gen 1",
+          "cpu": "Octa-core: 4x A78 up to 2.2 GHz + 4x A55 up to 1.8 GHz",
+          "gpu": "Adreno A710",
+          "os": "MagicOS 8.0 (Android 14)",
+          "ramGb": 12,
+          "storageGb": 256,
+          "frontCameraMp": 16,
+          "batteryMah": 6600,
+          "chargingW": 66,
+          "dimensions": "162.8 x 75.5 x 7.98 mm",
+          "weightG": 189,
+          "cellular": "5G and 4G LTE; specific bands not recorded",
+          "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac), dual band",
+          "ports": "USB Type-C, USB 2.0"
+        },
+        "specSources": {
+          "displayInches": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "displayType": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "resolution": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "refreshHz": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "chipset": "https://www.yugatech.com/news/honor-x9c-5g-specs-price-philippines/",
+          "cpu": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "gpu": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "os": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "ramGb": "https://www.pinoytechnoguide.com/smartphones/honor-x9c-5g",
+          "storageGb": "https://www.pinoytechnoguide.com/smartphones/honor-x9c-5g",
+          "frontCameraMp": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "batteryMah": "https://www.honor.com/ph/phones/honor-x9c/",
+          "chargingW": "https://www.honor.com/ph/phones/honor-x9c/",
+          "dimensions": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "weightG": "https://www.honor.com/ph/phones/honor-x9c/",
+          "cellular": "https://www.yugatech.com/news/honor-x9c-5g-specs-price-philippines/",
+          "wifi": "https://www.honor.com/sg/phones/honor-x9c/spec/",
+          "ports": "https://www.honor.com/sg/phones/honor-x9c/spec/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "The 12 GB / 256 GB configuration is established by Philippine preorder reporting, independent local reviews, HONOR support, and an exact Philippine retailer listing. YugaTech's general spec page also mentions 512 GB storage, but no exact 512 GB local sales SKU/offer was verified, so no second Philippine variant is created. HONOR RAM Turbo is virtual memory, not additional physical RAM.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "BRP-NX1",
         "workbookRow": null
       }
     ],
