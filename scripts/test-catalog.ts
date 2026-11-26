@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [380, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 579);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [381, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 580);
 const redmagic7Pro = publicDevices.find((device) => device.id === "device_5e189eced7d16d");
 assert.ok(redmagic7Pro);
 assert.equal(redmagic7Pro.modelNumber, "NX709J");
@@ -145,6 +145,26 @@ assert.ok(tcl20r5g.variants.every((variant) => {
 assert.equal(tcl20r5g.variants[0]?.specs.chipset, "MediaTek Dimensity 700");
 assert.equal(tcl20r5g.imageId, null);
 assert.ok(tcl20r5g.sources.some((source) => source.url.includes("ntc.gov.ph") && source.note?.includes("T767H1")));
+const vivoV23 = publicDevices.find((device) => device.id === "device_768d170ed1109b");
+assert.ok(vivoV23);
+assert.equal(vivoV23.model, "V23 5G");
+assert.equal(vivoV23.modelNumber, "V2130");
+assert.equal(vivoV23.releaseDate, "2022-01-19");
+assert.equal(vivoV23.philippineAvailabilityDate, "2022-02-12");
+assert.equal(vivoV23.scopeStatus, "Pending");
+assert.equal(vivoV23.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(vivoV23.variants.map((variant) => variant.label), [
+  "8 GB RAM / 128 GB storage", "12 GB RAM / 256 GB storage",
+]);
+assert.deepEqual(vivoV23.variants.map((variant) => [variant.specs.ramGb, variant.specs.storageGb]), [[8, 128], [12, 256]]);
+assert.ok(vivoV23.variants.every((variant) => variant.modelCode === "V2130" && variant.pricePhp === null));
+assert.equal(vivoV23.variants[0]?.notes?.includes("availability and price are not verified"), true);
+assert.equal(vivoV23.variants[1]?.specs.chargingW, 44);
+assert.equal(vivoV23.variants[1]?.specs.batteryMah, 4200);
+assert.equal((vivoV23.variants[1]?.specs as Record<string, unknown>).nfc, "Yes");
+assert.equal(vivoV23.imageId, null);
+assert.ok(vivoV23.sources.some((source) => source.url.includes("ntc.gov.ph") && source.note?.includes("V2130")));
+assert.ok(vivoV23.sources.some((source) => source.url.includes("vivo.com/ph") && source.note?.includes("8 GB / 128 GB")));
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");

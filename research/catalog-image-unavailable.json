@@ -2500,14 +2500,17 @@
     "altText": "Image unavailable for TNT Panalo Phone 5G"
   },
   "device_768d170ed1109b": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "The official vivo Philippines product/specification pages link images that match both V23 5G finishes, but a reusable license or permission to republish was not found. Keep the neutral placeholder.",
+    "sourcePage": "https://www.vivo.com/ph/products/param/v235g?id=3996",
+    "assetUrl": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1641524135486/34c7c3d66fd6378d71d51e69e53745e9.png",
+    "relatedAssetUrls": [
+      "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1641524142571/fdeb40a1fcbbabf8a2d40825804cccac.png"
+    ],
+    "scope": "vivo V23 5G V2130; official Stardust Black and Sunshine Gold product images",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for vivo V23"
+    "altText": "Image unavailable for vivo V23 5G"
   },
   "device_3acf9503580082": {
     "status": "NO_RELIABLE_MATCH",

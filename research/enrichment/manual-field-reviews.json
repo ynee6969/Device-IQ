@@ -161154,6 +161154,1214 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_768d170ed1109b",
+      "configurationId": "device_768d170ed1109b-v2130-8gb-128gb-ph-spec",
+      "brand": "vivo",
+      "model": "V23 5G",
+      "configuration": "8 GB RAM / 128 GB storage",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "vivo_v23_ntc_gec",
+          "publisher": "National Telecommunications Commission",
+          "url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/GEC-2009-2021-Updated-.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine model-code match",
+          "note": "The NTC 2009-2021 GEC table lists Smart Phone, vivo V2130, marketing name V23 5G. This ties the local certification record to the exact model family."
+        },
+        {
+          "id": "vivo_v23_ph_specs",
+          "publisher": "vivo Philippines (manufacturer)",
+          "url": "https://www.vivo.com/ph/products/param/v235g?id=3996",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine model specifications, supported RAM/storage choices, color-specific dimensions and connectivity",
+          "note": "The vivo Philippines V23 5G specifications page lists 8 GB / 128 GB and 12 GB / 256 GB, Dimensity 920, Funtouch OS 12, 4,200 mAh, 44 W, and local connectivity details. It lists Stardust Black and Sunshine Gold, whose published dimensions and weights differ."
+        },
+        {
+          "id": "vivo_v23_ph_product",
+          "publisher": "vivo Philippines (manufacturer)",
+          "url": "https://www.vivo.com/ph/product/productDetails?id=3996",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine product identity and model image page",
+          "note": "Official vivo Philippines product page names the model V23 5G. Its linked official product images match the Stardust Black and Sunshine Gold finishes; reuse rights were not established."
+        },
+        {
+          "id": "vivo_v23_ph_announcement",
+          "publisher": "vivo Philippines (official channel)",
+          "url": "https://www.youtube.com/watch?v=kF9JLqeClDg",
+          "publicationDate": "2022-01-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine launch-date announcement",
+          "note": "Published 26 January 2022. vivo Philippines' announcement video says the V23 Series 5G launches online on 12 February 2022; this establishes the announced launch date, not an exact first transaction."
+        },
+        {
+          "id": "vivo_v23_ph_available",
+          "publisher": "vivo Philippines (official channel)",
+          "url": "https://www.youtube.com/watch?v=jxZRHzV2PHU",
+          "publicationDate": "2022-02-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine post-launch availability confirmation",
+          "note": "Published 21 February 2022. vivo Philippines states that the V23 Series 5G is now available and points to official online stores and retail locations."
+        },
+        {
+          "id": "vivo_v23_ptg_ph",
+          "publisher": "Pinoy Techno Guide Philippines",
+          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-v23-5g/amp",
+          "publicationDate": "2022-02-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine price, 12 GB / 256 GB launch configuration, availability and exact-model spec cross-check",
+          "note": "Published 12 February 2022. Lists V23 5G at PHP 27,999 as its official Philippine price, identifies 12 GB / 256 GB, and reports it available through vivo stores, authorized dealers and online shops."
+        },
+        {
+          "id": "vivo_v23_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/vivo-v23-5g-v23e-specs-price-philippines/",
+          "publicationDate": "2022-02-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch, price and specification cross-check",
+          "note": "Published 4 February 2022. Reports the local launch and PHP 27,999 for 12 GB / 256 GB. Its general specification block also mentions 8 GB / 128 GB; retail availability of that configuration is not separately confirmed there."
+        },
+        {
+          "id": "vivo_v23_revu_ph",
+          "publisher": "Revu Philippines",
+          "url": "https://www.revu.com.ph/2022/02/vivo-v23-5g-vivo-v23e-ph-price-available/",
+          "publicationDate": "2022-02-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch configuration and price cross-check",
+          "note": "Published 4 February 2022. Says the lone V23 5G variant launching locally was 12 GB / 256 GB at PHP 27,999. This conflicts with the vivo Philippines specification page, which also lists 8 GB / 128 GB; the latter's local retail status remains unresolved."
+        },
+        {
+          "id": "vivo_v23_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/vivo_v23-review-2368.php",
+          "publicationDate": "2022-01-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact V23 5G technical reference and global configuration cross-check",
+          "note": "GSMArena's review is for the non-Pro vivo V23 5G. It reports the 8/128 and 12/256 variants, Android 12, display, camera and battery details. Its global specifications are not treated as Philippine sale evidence."
+        },
+        {
+          "id": "vivo_v23_gsmarena_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/compare.php3?idPhone1=11308",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model global release timing and hardware reference",
+          "note": "The GSMArena V23 5G specification entry identifies announcement on 5 January 2022 and release on 19 January 2022. Global release timing does not establish Philippine availability."
+        },
+        {
+          "id": "vivo_v23_gsmarena_android14",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/vivo_v23_receives_android_14_update-news-62012.php",
+          "publicationDate": "2024-03-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Later global Android update event",
+          "note": "Published 14 March 2024. Reports rollout of Funtouch OS 14 based on Android 14 for vivo V23. This is an observed global update, not a future update guarantee or proof of Philippine rollout timing."
+        },
+        {
+          "id": "vivo_v23_kimovil_12_256",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/es/donde-comprar-vivo-v23-5g-12gb-256gb",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact 12 GB / 256 GB global technical cross-check",
+          "note": "The exact 12 GB / 256 GB page maps the model to V2130 and lists 12 GB LPDDR4X, 256 GB UFS 3.1, and other hardware. Its international pricing and regional NFC status are not used as Philippine evidence."
+        },
+        {
+          "id": "vivo_v23_kimovil_8_128",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/es/donde-comprar-vivo-v23-5g-in",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact 8 GB / 128 GB global variant cross-check",
+          "note": "The exact 8 GB / 128 GB page maps the V23 5G model to V2130. Its international pricing is not used as Philippine evidence."
+        },
+        {
+          "id": "vivo_v23_yugatech_price_list",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/smartphone-price-list-philippines-2022/",
+          "publicationDate": "2022-02-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated 2022 Philippine price-list entry; historical versus current-price distinction",
+          "note": "The 2022 price list records vivo V23 5G at PHP 27,999 with a February launch month. This is historical context, not a current orderable offer."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ntc_gec",
+          "sourceValue": "NTC entry: vivo V2130, V23 5G",
+          "normalizedValue": "V2130",
+          "note": "The NTC GEC maps the exact model code to V23 5G; vivo Philippines' product page uses the same V23 5G name."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "8 GB RAM / 128 GB storage",
+          "normalizedValue": "8 GB RAM / 128 GB storage",
+          "note": "The official vivo Philippines product specifications list this exact RAM / storage combination."
+        },
+        {
+          "fieldId": "philippine_configuration_availability",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "vivo_v23_revu_ph",
+          "sourceValue": "12 GB / 256 GB is reported as the lone local launch SKU; vivo Philippines' product specifications also list 8 GB / 128 GB",
+          "normalizedValue": null,
+          "note": "The manufacturer Philippines page lists 8 GB / 128 GB, but Revu reports 12 GB / 256 GB as the lone local launch variant. Keep this manufacturer-listed configuration separate and label Philippine retail availability unresolved."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena_specs",
+          "sourceValue": "Announced 5 January 2022; released 19 January 2022",
+          "normalizedValue": "2022-01-19",
+          "note": "The normalized date is the reported initial release date, not the earlier announcement date."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_ph_announcement",
+          "sourceValue": "No configuration-specific Philippine sale date verified; 12 February 2022 evidence pertains to the model launch / 12 GB / 256 GB SKU",
+          "normalizedValue": null,
+          "note": "The date is the announced and reported model launch, not a verified first-sale transaction time. It is not copied to the 8 GB / 128 GB configuration."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_ptg_ph",
+          "sourceValue": "No Philippine launch price verified for 8 GB / 128 GB",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "The PHP 27,999 historical launch price is specifically associated with 12 GB / 256 GB. It is not copied to the 8 GB / 128 GB configuration."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_yugatech_price_list",
+          "sourceValue": "No current dated, orderable Philippine offer verified; PHP 27,999 is the 2022 launch price",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank and retain the price only as a dated historical snapshot."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "6.44-inch display",
+          "normalizedValue": 6.44,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.44,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "2400 x 1080 FHD+",
+          "normalizedValue": "1080 x 2400",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "90 Hz",
+          "normalizedValue": 90,
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Peak brightness not listed in the reviewed manufacturer Philippines specifications",
+          "normalizedValue": null,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Schott Xensation Up protective glass reported for the exact V23 5G",
+          "normalizedValue": "Schott Xensation Up"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "MediaTek Dimensity 920",
+          "normalizedValue": "MediaTek Dimensity 920",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Dimensity 920"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_8_128",
+          "sourceValue": "6 nm",
+          "normalizedValue": 6,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_8_128",
+          "sourceValue": "2 x Cortex-A78 at 2.5 GHz + 6 x Cortex-A55 at 2.0 GHz",
+          "normalizedValue": "2x Cortex-A78 2.5 GHz + 6x Cortex-A55 2.0 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "2x Cortex-A78 2.5 GHz + 6x Cortex-A55 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_8_128",
+          "sourceValue": "Arm Mali-G68 MC4",
+          "normalizedValue": "Mali-G68 MC4",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G68 MC4"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Android 12 with Funtouch OS 12 at launch",
+          "normalizedValue": "Android 12 / Funtouch OS 12",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 / Funtouch OS 12"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena_android14",
+          "sourceValue": "Funtouch OS 14 based on Android 14 was reported rolling out globally in March 2024",
+          "normalizedValue": "Android 14 / Funtouch OS 14 rollout reported 2024-03",
+          "note": "This records an observed global update only; it is not a future support promise or a Philippines-specific rollout confirmation."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "8 GB RAM",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_8_128",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "128 GB ROM",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_8_128",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_8_128",
+          "sourceValue": "No microSD expansion listed for this V2130 configuration",
+          "normalizedValue": "No microSD expansion"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "64 MP main autofocus + 8 MP ultrawide + 2 MP macro",
+          "normalizedValue": "64 MP main + 8 MP ultrawide + 2 MP macro",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "64 MP main + 8 MP ultrawide + 2 MP macro"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "64 MP AF main camera, f/1.89; sensor part number not stated by vivo",
+          "normalizedValue": "64 MP AF; f/1.89; sensor part number not recorded"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "8 MP rear ultrawide, f/2.2",
+          "normalizedValue": "8 MP rear ultrawide; f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "No telephoto camera listed in vivo's triple rear-camera system",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "50 MP autofocus main selfie + 8 MP ultrawide selfie",
+          "normalizedValue": 50,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 50,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_ptg_ph",
+          "sourceValue": "Rear and front video up to 4K at 30 fps",
+          "normalizedValue": "Front/rear 4K@30fps",
+          "catalogKey": "video",
+          "catalogValue": "Front/rear 4K@30fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "4,200 mAh typical",
+          "normalizedValue": 4200,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4200,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_8_128",
+          "sourceValue": "Li-ion polymer; non-removable",
+          "normalizedValue": "Li-ion polymer; non-removable"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "44 W FlashCharge (11 V / 4 A)",
+          "normalizedValue": 44,
+          "catalogKey": "chargingW",
+          "catalogValue": 44,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Wireless charging is not listed in the reviewed manufacturer specifications",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Stardust Black: 157.20 x 72.42 x 7.39 mm; Sunshine Gold: 157.20 x 72.42 x 7.55 mm",
+          "normalizedValue": "Stardust Black 157.20 x 72.42 x 7.39 mm; Sunshine Gold 157.20 x 72.42 x 7.55 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "Stardust Black 157.20 x 72.42 x 7.39 mm; Sunshine Gold 157.20 x 72.42 x 7.55 mm",
+          "unit": "mm",
+          "note": "Both color-specific measurements are preserved instead of collapsing different finishes to one dimension."
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Stardust Black: 179 g; Sunshine Gold: 181 g",
+          "normalizedValue": "179 g Stardust Black; 181 g Sunshine Gold",
+          "catalogKey": "weightG",
+          "catalogValue": "179 g Stardust Black; 181 g Sunshine Gold",
+          "unit": "g",
+          "note": "Both color-specific weights are preserved; the gold finish is 2 g heavier."
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Glass front and back; aluminum frame; Sunshine Gold rear glass uses color-changing Fluorite AG finish",
+          "normalizedValue": "Glass front/back; aluminum frame; color-changing gold finish"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "Kimovil reports IP65, but vivo's reviewed official specifications do not list an IP rating",
+          "normalizedValue": null,
+          "note": "No IP rating is shown in vivo's product specifications; the international Kimovil profile's IP65 claim is not adopted for the Philippine model."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Dual Nano-SIM, dual standby; no eSIM field in the vivo Philippines specification",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "2G GSM B2/B3/B5/B8; 3G WCDMA B1/B2/B4/B5/B8; 4G FDD B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32; 4G TDD B38/B39/B40/B41; 5G n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78",
+          "normalizedValue": "2G/3G/4G/5G; exact bands in sourceValue",
+          "catalogKey": "cellular",
+          "catalogValue": "2G/3G/4G/5G; exact bands in sourceValue"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Dual-band Wi-Fi, 2.4 GHz and 5 GHz; 802.11 standard not stated on vivo PH page",
+          "normalizedValue": "Dual-band 2.4 / 5 GHz; Wi-Fi standard not recorded",
+          "catalogKey": "wifi",
+          "catalogValue": "Dual-band 2.4 / 5 GHz; Wi-Fi standard not recorded"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "NFC supported on the vivo Philippines specification page",
+          "normalizedValue": "Yes",
+          "catalogKey": "nfc",
+          "catalogValue": "Yes",
+          "note": "Local manufacturer page says NFC is supported. A Kimovil international configuration says No; that regional secondary value is not used to override the Philippine product page."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "GPS, BeiDou, GLONASS, Galileo and QZSS",
+          "normalizedValue": "GPS; BeiDou; GLONASS; Galileo; QZSS",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS; BeiDou; GLONASS; Galileo; QZSS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Hi-Res Audio; USB-C audio; no 3.5 mm jack reported",
+          "normalizedValue": "Hi-Res Audio; USB-C; no 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Hi-Res Audio; USB-C; no 3.5 mm jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Accelerometer, ambient-light sensor, proximity sensor, e-compass, in-display fingerprint sensor, gyroscope",
+          "normalizedValue": "Accelerometer; ambient light; proximity; e-compass; in-display fingerprint; gyroscope"
+        },
+        {
+          "fieldId": "color_options",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Stardust Black and Sunshine Gold",
+          "normalizedValue": "Stardust Black; Sunshine Gold"
+        },
+        {
+          "fieldId": "local_configuration_issue",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "vivo_v23_revu_ph",
+          "sourceValue": "The PH product specs list 8 GB / 128 GB; Revu reports 12 GB / 256 GB as the lone local launch variant",
+          "normalizedValue": null,
+          "note": "Keep 8 GB / 128 GB as a manufacturer-listed configuration, but do not claim it was sold locally or assign it the launch price."
+        }
+      ],
+      "modelCode": "V2130",
+      "replacementVariants": [
+        {
+          "id": "device_768d170ed1109b-v2130-8gb-128gb-ph-spec",
+          "label": "8 GB RAM / 128 GB storage",
+          "modelCode": "V2130",
+          "sku": null,
+          "notes": "Listed on the official vivo Philippines specification page. Local press coverage conflicts on whether this configuration was sold at the 2022 launch; current retail availability and price are not verified."
+        },
+        {
+          "id": "device_768d170ed1109b-v2130-12gb-256gb-ph",
+          "label": "12 GB RAM / 256 GB storage",
+          "modelCode": "V2130",
+          "sku": null,
+          "notes": "Philippine launch configuration reported at PHP 27,999; current price is not verified."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Official vivo Philippines V23 5G page and authorized-store launch reports establish local model availability from February 2022; 12 GB / 256 GB is the price-verified launch SKU.",
+        "philippineAvailability": "NTC lists vivo V2130 as V23 5G. vivo Philippines product specifications list 8 GB / 128 GB and 12 GB / 256 GB. Philippine launch coverage and the dated PHP 27,999 price consistently establish 12 GB / 256 GB; Revu describes it as the lone launch configuration, so local sale/price for 8 GB / 128 GB remains unresolved. Current stock and price are not verified.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Workbook row 106 matched to NTC model V2130 / V23 5G. Both RAM/storage options are listed by vivo Philippines; Philippine launch price and local sale evidence are clear for 12/256 only. Current price, 8/128 retail availability, exact current OS policy, brightness, ingress rating and image reuse rights remain unresolved. Workbook scope remains Pending.",
+        "catalogModel": "V23 5G",
+        "manufacturer": "vivo",
+        "productLine": "V Series",
+        "modelNumber": "V2130",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Official Philippine launch date",
+        "researchNotes": "Workbook row 106 vivo V23 maps exactly to the Philippine NTC V2130 entry named V23 5G. vivo's Philippine specification page lists 8 GB / 128 GB and 12 GB / 256 GB; the local launch evidence and PHP 27,999 price specifically establish 12 GB / 256 GB, while Revu calls that the sole launch variant. The 8 GB / 128 GB variant remains visible as manufacturer-listed with unresolved Philippine retail availability and no assigned price. PHP 27,999 is historical, not current. Color-specific body dimensions and weights are kept separately. Official product images match both finishes, but reuse permission is not recorded. Workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "vivo PH lists 8 GB / 128 GB, while a Philippine launch report says 12 GB / 256 GB was the lone local SKU",
+            "action": "Keep 8 GB / 128 GB separate and visible as manufacturer-listed; do not claim local sale or copy the 12 GB / 256 GB price."
+          },
+          {
+            "issue": "No current dated, orderable Philippine price verified",
+            "action": "Keep current price blank; preserve PHP 27,999 only as historical 12 GB / 256 GB launch pricing."
+          },
+          {
+            "issue": "Dimensions and weight differ between Stardust Black and Sunshine Gold",
+            "action": "Display both color-specific values instead of one collapsed measurement."
+          },
+          {
+            "issue": "Kimovil's international 12 GB / 256 GB page says NFC is absent and claims IP65, while vivo PH lists NFC and no IP rating",
+            "action": "Use vivo's Philippine NFC specification; leave IP rating unresolved."
+          },
+          {
+            "issue": "No exact NanoReview V23 5G page was located in this research pass",
+            "action": "Use the exact vivo, NTC, GSMArena and Kimovil records that were verified; do not add a generic NanoReview link as model evidence."
+          },
+          {
+            "issue": "vivo official product imagery is exact-model, but image reuse rights are not established",
+            "action": "Keep the neutral image placeholder and retain both official asset URLs."
+          },
+          {
+            "issue": "Workbook eligibility is Pending",
+            "action": "Preserve the existing study-scope status."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_768d170ed1109b",
+      "configurationId": "device_768d170ed1109b-v2130-12gb-256gb-ph",
+      "brand": "vivo",
+      "model": "V23 5G",
+      "configuration": "12 GB RAM / 256 GB storage",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "vivo_v23_ntc_gec",
+          "publisher": "National Telecommunications Commission",
+          "url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/GEC-2009-2021-Updated-.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine model-code match",
+          "note": "The NTC 2009-2021 GEC table lists Smart Phone, vivo V2130, marketing name V23 5G. This ties the local certification record to the exact model family."
+        },
+        {
+          "id": "vivo_v23_ph_specs",
+          "publisher": "vivo Philippines (manufacturer)",
+          "url": "https://www.vivo.com/ph/products/param/v235g?id=3996",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine model specifications, supported RAM/storage choices, color-specific dimensions and connectivity",
+          "note": "The vivo Philippines V23 5G specifications page lists 8 GB / 128 GB and 12 GB / 256 GB, Dimensity 920, Funtouch OS 12, 4,200 mAh, 44 W, and local connectivity details. It lists Stardust Black and Sunshine Gold, whose published dimensions and weights differ."
+        },
+        {
+          "id": "vivo_v23_ph_product",
+          "publisher": "vivo Philippines (manufacturer)",
+          "url": "https://www.vivo.com/ph/product/productDetails?id=3996",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine product identity and model image page",
+          "note": "Official vivo Philippines product page names the model V23 5G. Its linked official product images match the Stardust Black and Sunshine Gold finishes; reuse rights were not established."
+        },
+        {
+          "id": "vivo_v23_ph_announcement",
+          "publisher": "vivo Philippines (official channel)",
+          "url": "https://www.youtube.com/watch?v=kF9JLqeClDg",
+          "publicationDate": "2022-01-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine launch-date announcement",
+          "note": "Published 26 January 2022. vivo Philippines' announcement video says the V23 Series 5G launches online on 12 February 2022; this establishes the announced launch date, not an exact first transaction."
+        },
+        {
+          "id": "vivo_v23_ph_available",
+          "publisher": "vivo Philippines (official channel)",
+          "url": "https://www.youtube.com/watch?v=jxZRHzV2PHU",
+          "publicationDate": "2022-02-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine post-launch availability confirmation",
+          "note": "Published 21 February 2022. vivo Philippines states that the V23 Series 5G is now available and points to official online stores and retail locations."
+        },
+        {
+          "id": "vivo_v23_ptg_ph",
+          "publisher": "Pinoy Techno Guide Philippines",
+          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-v23-5g/amp",
+          "publicationDate": "2022-02-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine price, 12 GB / 256 GB launch configuration, availability and exact-model spec cross-check",
+          "note": "Published 12 February 2022. Lists V23 5G at PHP 27,999 as its official Philippine price, identifies 12 GB / 256 GB, and reports it available through vivo stores, authorized dealers and online shops."
+        },
+        {
+          "id": "vivo_v23_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/vivo-v23-5g-v23e-specs-price-philippines/",
+          "publicationDate": "2022-02-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch, price and specification cross-check",
+          "note": "Published 4 February 2022. Reports the local launch and PHP 27,999 for 12 GB / 256 GB. Its general specification block also mentions 8 GB / 128 GB; retail availability of that configuration is not separately confirmed there."
+        },
+        {
+          "id": "vivo_v23_revu_ph",
+          "publisher": "Revu Philippines",
+          "url": "https://www.revu.com.ph/2022/02/vivo-v23-5g-vivo-v23e-ph-price-available/",
+          "publicationDate": "2022-02-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch configuration and price cross-check",
+          "note": "Published 4 February 2022. Says the lone V23 5G variant launching locally was 12 GB / 256 GB at PHP 27,999. This conflicts with the vivo Philippines specification page, which also lists 8 GB / 128 GB; the latter's local retail status remains unresolved."
+        },
+        {
+          "id": "vivo_v23_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/vivo_v23-review-2368.php",
+          "publicationDate": "2022-01-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact V23 5G technical reference and global configuration cross-check",
+          "note": "GSMArena's review is for the non-Pro vivo V23 5G. It reports the 8/128 and 12/256 variants, Android 12, display, camera and battery details. Its global specifications are not treated as Philippine sale evidence."
+        },
+        {
+          "id": "vivo_v23_gsmarena_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/compare.php3?idPhone1=11308",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model global release timing and hardware reference",
+          "note": "The GSMArena V23 5G specification entry identifies announcement on 5 January 2022 and release on 19 January 2022. Global release timing does not establish Philippine availability."
+        },
+        {
+          "id": "vivo_v23_gsmarena_android14",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/vivo_v23_receives_android_14_update-news-62012.php",
+          "publicationDate": "2024-03-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Later global Android update event",
+          "note": "Published 14 March 2024. Reports rollout of Funtouch OS 14 based on Android 14 for vivo V23. This is an observed global update, not a future update guarantee or proof of Philippine rollout timing."
+        },
+        {
+          "id": "vivo_v23_kimovil_12_256",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/es/donde-comprar-vivo-v23-5g-12gb-256gb",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact 12 GB / 256 GB global technical cross-check",
+          "note": "The exact 12 GB / 256 GB page maps the model to V2130 and lists 12 GB LPDDR4X, 256 GB UFS 3.1, and other hardware. Its international pricing and regional NFC status are not used as Philippine evidence."
+        },
+        {
+          "id": "vivo_v23_kimovil_8_128",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/es/donde-comprar-vivo-v23-5g-in",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact 8 GB / 128 GB global variant cross-check",
+          "note": "The exact 8 GB / 128 GB page maps the V23 5G model to V2130. Its international pricing is not used as Philippine evidence."
+        },
+        {
+          "id": "vivo_v23_yugatech_price_list",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/smartphone-price-list-philippines-2022/",
+          "publicationDate": "2022-02-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated 2022 Philippine price-list entry; historical versus current-price distinction",
+          "note": "The 2022 price list records vivo V23 5G at PHP 27,999 with a February launch month. This is historical context, not a current orderable offer."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ntc_gec",
+          "sourceValue": "NTC entry: vivo V2130, V23 5G",
+          "normalizedValue": "V2130",
+          "note": "The NTC GEC maps the exact model code to V23 5G; vivo Philippines' product page uses the same V23 5G name."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "12 GB RAM / 256 GB storage",
+          "normalizedValue": "12 GB RAM / 256 GB storage",
+          "note": "The official vivo Philippines product specifications list this exact RAM / storage combination."
+        },
+        {
+          "fieldId": "philippine_configuration_availability",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_revu_ph",
+          "sourceValue": "12 GB / 256 GB is reported as the lone local launch SKU; vivo Philippines' product specifications also list 8 GB / 128 GB",
+          "normalizedValue": "confirmed local launch SKU",
+          "note": "PTG and YugaTech list this 12 GB / 256 GB local launch configuration and Revu independently reports it as the local launch SKU."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena_specs",
+          "sourceValue": "Announced 5 January 2022; released 19 January 2022",
+          "normalizedValue": "2022-01-19",
+          "note": "The normalized date is the reported initial release date, not the earlier announcement date."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_ph_announcement",
+          "sourceValue": "vivo Philippines announced a 12 February 2022 local launch; PTG reported availability on that date",
+          "normalizedValue": "2022-02-12",
+          "note": "The date is the announced and reported model launch, not a verified first-sale transaction time. It is not copied to the 8 GB / 128 GB configuration."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_ptg_ph",
+          "sourceValue": "PHP 27,999 for the 12 GB / 256 GB Philippine launch SKU",
+          "normalizedValue": 27999,
+          "unit": "PHP",
+          "note": "The PHP 27,999 historical launch price is specifically associated with 12 GB / 256 GB. It is not copied to the 8 GB / 128 GB configuration."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_yugatech_price_list",
+          "sourceValue": "No current dated, orderable Philippine offer verified; PHP 27,999 is the 2022 launch price",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank and retain the price only as a dated historical snapshot."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "6.44-inch display",
+          "normalizedValue": 6.44,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.44,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "2400 x 1080 FHD+",
+          "normalizedValue": "1080 x 2400",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "90 Hz",
+          "normalizedValue": 90,
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Peak brightness not listed in the reviewed manufacturer Philippines specifications",
+          "normalizedValue": null,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Schott Xensation Up protective glass reported for the exact V23 5G",
+          "normalizedValue": "Schott Xensation Up"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "MediaTek Dimensity 920",
+          "normalizedValue": "MediaTek Dimensity 920",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Dimensity 920"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "6 nm",
+          "normalizedValue": 6,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "2 x Cortex-A78 at 2.5 GHz + 6 x Cortex-A55 at 2.0 GHz",
+          "normalizedValue": "2x Cortex-A78 2.5 GHz + 6x Cortex-A55 2.0 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "2x Cortex-A78 2.5 GHz + 6x Cortex-A55 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "Arm Mali-G68 MC4",
+          "normalizedValue": "Mali-G68 MC4",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G68 MC4"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Android 12 with Funtouch OS 12 at launch",
+          "normalizedValue": "Android 12 / Funtouch OS 12",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 / Funtouch OS 12"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena_android14",
+          "sourceValue": "Funtouch OS 14 based on Android 14 was reported rolling out globally in March 2024",
+          "normalizedValue": "Android 14 / Funtouch OS 14 rollout reported 2024-03",
+          "note": "This records an observed global update only; it is not a future support promise or a Philippines-specific rollout confirmation."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "12 GB RAM",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "256 GB ROM",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "No microSD expansion listed for this V2130 configuration",
+          "normalizedValue": "No microSD expansion"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "64 MP main autofocus + 8 MP ultrawide + 2 MP macro",
+          "normalizedValue": "64 MP main + 8 MP ultrawide + 2 MP macro",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "64 MP main + 8 MP ultrawide + 2 MP macro"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "64 MP AF main camera, f/1.89; sensor part number not stated by vivo",
+          "normalizedValue": "64 MP AF; f/1.89; sensor part number not recorded"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "8 MP rear ultrawide, f/2.2",
+          "normalizedValue": "8 MP rear ultrawide; f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "No telephoto camera listed in vivo's triple rear-camera system",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "50 MP autofocus main selfie + 8 MP ultrawide selfie",
+          "normalizedValue": 50,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 50,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_ptg_ph",
+          "sourceValue": "Rear and front video up to 4K at 30 fps",
+          "normalizedValue": "Front/rear 4K@30fps",
+          "catalogKey": "video",
+          "catalogValue": "Front/rear 4K@30fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "4,200 mAh typical",
+          "normalizedValue": 4200,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4200,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "Li-ion polymer; non-removable",
+          "normalizedValue": "Li-ion polymer; non-removable"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "44 W FlashCharge (11 V / 4 A)",
+          "normalizedValue": 44,
+          "catalogKey": "chargingW",
+          "catalogValue": 44,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Wireless charging is not listed in the reviewed manufacturer specifications",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Stardust Black: 157.20 x 72.42 x 7.39 mm; Sunshine Gold: 157.20 x 72.42 x 7.55 mm",
+          "normalizedValue": "Stardust Black 157.20 x 72.42 x 7.39 mm; Sunshine Gold 157.20 x 72.42 x 7.55 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "Stardust Black 157.20 x 72.42 x 7.39 mm; Sunshine Gold 157.20 x 72.42 x 7.55 mm",
+          "unit": "mm",
+          "note": "Both color-specific measurements are preserved instead of collapsing different finishes to one dimension."
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Stardust Black: 179 g; Sunshine Gold: 181 g",
+          "normalizedValue": "179 g Stardust Black; 181 g Sunshine Gold",
+          "catalogKey": "weightG",
+          "catalogValue": "179 g Stardust Black; 181 g Sunshine Gold",
+          "unit": "g",
+          "note": "Both color-specific weights are preserved; the gold finish is 2 g heavier."
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Glass front and back; aluminum frame; Sunshine Gold rear glass uses color-changing Fluorite AG finish",
+          "normalizedValue": "Glass front/back; aluminum frame; color-changing gold finish"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "vivo_v23_kimovil_12_256",
+          "sourceValue": "Kimovil reports IP65, but vivo's reviewed official specifications do not list an IP rating",
+          "normalizedValue": null,
+          "note": "No IP rating is shown in vivo's product specifications; the international Kimovil profile's IP65 claim is not adopted for the Philippine model."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Dual Nano-SIM, dual standby; no eSIM field in the vivo Philippines specification",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "2G GSM B2/B3/B5/B8; 3G WCDMA B1/B2/B4/B5/B8; 4G FDD B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32; 4G TDD B38/B39/B40/B41; 5G n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78",
+          "normalizedValue": "2G/3G/4G/5G; exact bands in sourceValue",
+          "catalogKey": "cellular",
+          "catalogValue": "2G/3G/4G/5G; exact bands in sourceValue"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Dual-band Wi-Fi, 2.4 GHz and 5 GHz; 802.11 standard not stated on vivo PH page",
+          "normalizedValue": "Dual-band 2.4 / 5 GHz; Wi-Fi standard not recorded",
+          "catalogKey": "wifi",
+          "catalogValue": "Dual-band 2.4 / 5 GHz; Wi-Fi standard not recorded"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "NFC supported on the vivo Philippines specification page",
+          "normalizedValue": "Yes",
+          "catalogKey": "nfc",
+          "catalogValue": "Yes",
+          "note": "Local manufacturer page says NFC is supported. A Kimovil international configuration says No; that regional secondary value is not used to override the Philippine product page."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "GPS, BeiDou, GLONASS, Galileo and QZSS",
+          "normalizedValue": "GPS; BeiDou; GLONASS; Galileo; QZSS",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS; BeiDou; GLONASS; Galileo; QZSS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_v23_gsmarena",
+          "sourceValue": "Hi-Res Audio; USB-C audio; no 3.5 mm jack reported",
+          "normalizedValue": "Hi-Res Audio; USB-C; no 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Hi-Res Audio; USB-C; no 3.5 mm jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Accelerometer, ambient-light sensor, proximity sensor, e-compass, in-display fingerprint sensor, gyroscope",
+          "normalizedValue": "Accelerometer; ambient light; proximity; e-compass; in-display fingerprint; gyroscope"
+        },
+        {
+          "fieldId": "color_options",
+          "status": "VERIFIED",
+          "sourceId": "vivo_v23_ph_specs",
+          "sourceValue": "Stardust Black and Sunshine Gold",
+          "normalizedValue": "Stardust Black; Sunshine Gold"
+        }
+      ],
+      "modelCode": "V2130",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Official vivo Philippines V23 5G page and authorized-store launch reports establish local model availability from February 2022; 12 GB / 256 GB is the price-verified launch SKU.",
+        "philippineAvailability": "NTC lists vivo V2130 as V23 5G. vivo Philippines product specifications list 8 GB / 128 GB and 12 GB / 256 GB. Philippine launch coverage and the dated PHP 27,999 price consistently establish 12 GB / 256 GB; Revu describes it as the lone launch configuration, so local sale/price for 8 GB / 128 GB remains unresolved. Current stock and price are not verified.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Workbook row 106 matched to NTC model V2130 / V23 5G. Both RAM/storage options are listed by vivo Philippines; Philippine launch price and local sale evidence are clear for 12/256 only. Current price, 8/128 retail availability, exact current OS policy, brightness, ingress rating and image reuse rights remain unresolved. Workbook scope remains Pending.",
+        "catalogModel": "V23 5G",
+        "manufacturer": "vivo",
+        "productLine": "V Series",
+        "modelNumber": "V2130",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Official Philippine launch date",
+        "researchNotes": "Workbook row 106 vivo V23 maps exactly to the Philippine NTC V2130 entry named V23 5G. vivo's Philippine specification page lists 8 GB / 128 GB and 12 GB / 256 GB; the local launch evidence and PHP 27,999 price specifically establish 12 GB / 256 GB, while Revu calls that the sole launch variant. The 8 GB / 128 GB variant remains visible as manufacturer-listed with unresolved Philippine retail availability and no assigned price. PHP 27,999 is historical, not current. Color-specific body dimensions and weights are kept separately. Official product images match both finishes, but reuse permission is not recorded. Workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "vivo PH lists 8 GB / 128 GB, while a Philippine launch report says 12 GB / 256 GB was the lone local SKU",
+            "action": "Keep 8 GB / 128 GB separate and visible as manufacturer-listed; do not claim local sale or copy the 12 GB / 256 GB price."
+          },
+          {
+            "issue": "No current dated, orderable Philippine price verified",
+            "action": "Keep current price blank; preserve PHP 27,999 only as historical 12 GB / 256 GB launch pricing."
+          },
+          {
+            "issue": "Dimensions and weight differ between Stardust Black and Sunshine Gold",
+            "action": "Display both color-specific values instead of one collapsed measurement."
+          },
+          {
+            "issue": "Kimovil's international 12 GB / 256 GB page says NFC is absent and claims IP65, while vivo PH lists NFC and no IP rating",
+            "action": "Use vivo's Philippine NFC specification; leave IP rating unresolved."
+          },
+          {
+            "issue": "No exact NanoReview V23 5G page was located in this research pass",
+            "action": "Use the exact vivo, NTC, GSMArena and Kimovil records that were verified; do not add a generic NanoReview link as model evidence."
+          },
+          {
+            "issue": "vivo official product imagery is exact-model, but image reuse rights are not established",
+            "action": "Keep the neutral image placeholder and retain both official asset URLs."
+          },
+          {
+            "issue": "Workbook eligibility is Pending",
+            "action": "Preserve the existing study-scope status."
+          }
+        ]
+      }
     }
   ]
 }

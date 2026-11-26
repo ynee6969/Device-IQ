@@ -1,0 +1,66 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_768d170ed1109b",
+      "brand": "vivo",
+      "model_name": "V23 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_768d170ed1109b",
+      "source_url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/GEC-2009-2021-Updated-.pdf",
+      "result": "NTC GEC lists V2130 as vivo V23 5G."
+    },
+    {
+      "device_id": "device_768d170ed1109b",
+      "source_url": "https://www.vivo.com/ph/products/param/v235g?id=3996",
+      "result": "vivo Philippines lists 8/128 and 12/256 configurations; actual local launch SKU evidence is strongest for 12/256."
+    },
+    {
+      "device_id": "device_768d170ed1109b",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/vivo-v23-5g/amp",
+      "result": "PTG reports PHP 27,999 official Philippine price for 12/256 and local store availability on 12 February 2022."
+    },
+    {
+      "device_id": "device_768d170ed1109b",
+      "source_url": "https://www.revu.com.ph/2022/02/vivo-v23-5g-vivo-v23e-ph-price-available/",
+      "result": "Revu reports 12/256 as the lone local launch variant; 8/128 PH retail availability remains unresolved."
+    },
+    {
+      "device_id": "device_768d170ed1109b",
+      "source_url": "https://www.gsmarena.com/vivo_v23-review-2368.php",
+      "result": "Exact-model review cross-checks global platform, display, camera, battery and configurations."
+    },
+    {
+      "device_id": "device_768d170ed1109b",
+      "source_url": "https://www.kimovil.com/es/donde-comprar-vivo-v23-5g-12gb-256gb",
+      "result": "Exact 12/256 profile confirms V2130 and UFS 3.1; international NFC/IP assertions are not used to override local manufacturer specifications."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_768d170ed1109b",
+      "amount_php": 27999,
+      "configuration_id": "device_768d170ed1109b-v2130-12gb-256gb-ph",
+      "configuration_match": "philippine_v2130_12gb_256gb",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-02-12",
+      "excerpt": "Pinoy Techno Guide reports the vivo V23 5G 12 GB / 256 GB at PHP 27,999 as its official Philippine price on 12 February 2022; historical launch price, not a current offer.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/vivo-v23-5g/amp",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}
