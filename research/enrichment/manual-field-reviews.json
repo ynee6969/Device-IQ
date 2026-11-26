@@ -126655,6 +126655,906 @@
         "observedAt": "2026-11-26",
         "qualityFlag": "Philippine availability dated; exact first-sale transaction time not disclosed"
       }
+    },
+    {
+      "deviceId": "device_f6ce8c275dee32",
+      "configurationId": "device_f6ce8c275dee32-samsung-12gb-256gb",
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold3 5G",
+      "configuration": "12 GB RAM / 256 GB storage",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "samsung_fold3_ph_256_identity",
+          "publisher": "Samsung Business Philippines",
+          "url": "https://www.samsung.com/ph/business/smartphones/galaxy-z/galaxy-z-fold3-5g-phantom-green-256gb-sm-f926bzgdphl/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Local product identity and supported memory choices",
+          "note": "Samsung Philippines identifies the Galaxy Z Fold3 5G and lists 12 GB/256 GB and 12 GB/512 GB choices. The cited Phantom Green order code is color-specific and is not assigned to the color-unspecified workbook configuration."
+        },
+        {
+          "id": "samsung_fold3_ph_512_sku",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/support/model/SM-F926BZGGPHL/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine 12 GB/512 GB support SKU and regional model code",
+          "note": "Samsung Philippines identifies local SKU SM-F926BZGGPHL and family model SM-F926B/DS. The local code is Phantom Green; because the workbook does not identify color, the SKU remains blank on the 12 GB/512 GB catalog variant."
+        },
+        {
+          "id": "samsung_fold3_ph_preorder_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-zseries3/samsung-care/",
+          "publicationDate": "2021-08-19",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine pre-order period",
+          "note": "Samsung Philippines' terms state that Galaxy Z Fold3 pre-orders ran 19 August–21 September 2021 through Samsung Online Store/pre-order portals, with separate operator windows. This confirms Philippine authorized-channel availability before general retail sale."
+        },
+        {
+          "id": "samsung_fold3_ph_srp_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-pnb/q3/",
+          "publicationDate": "2021-09-13",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine SRP by 256 GB and 512 GB configurations",
+          "note": "Samsung Philippines lists PHP 87,990 for the Galaxy Z Fold3 5G 256 GB and PHP 95,990 for 512 GB. The offer page marks Fold3 prices as starting 13 September 2021; these are historical SRPs, not current prices."
+        },
+        {
+          "id": "samsung_fold3_global_specs_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/the-next-chapter-in-mobile-innovation-unfold-your-world-with-galaxy-z-fold3-5g-and-galaxy-z-flip3-5g",
+          "publicationDate": "2021-08-11",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications at launch",
+          "note": "Samsung's launch specification table supplies the Fold3 display panels and resolutions, cameras, processor platform, RAM/storage types, battery, charging, water-resistance, operating system, connectivity, dimensions, and weight."
+        },
+        {
+          "id": "samsung_fold3_ph_processor",
+          "publisher": "Samsung Philippines Support",
+          "url": "https://www.samsung.com/ph/support/mobile-devices/what-is-the-difference-between-galaxy-z-fold3-and-galaxy-z-fold4/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine model processor identification",
+          "note": "Samsung Philippines' comparison identifies Snapdragon 888 as the Galaxy Z Fold3 processor."
+        },
+        {
+          "id": "samsung_fold3_ph_model_256",
+          "publisher": "Samsung Philippines Support",
+          "url": "https://www.samsung.com/ph/support/model/SM-F926BZSDPHL/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine 12 GB/256 GB support SKU and regional model code",
+          "note": "Samsung Philippines identifies local SKU SM-F926BZSDPHL and family model SM-F926B/DS. This Phantom Silver order code is color-specific and is not assigned to the color-unspecified workbook configuration."
+        },
+        {
+          "id": "samsung_fold3_global_3q_report_2021",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_3Q_Interim_Report_vF.pdf",
+          "publicationDate": "2021-11-15",
+          "accessDate": "2026-11-26",
+          "purpose": "Launch operating-system version and folded/unfolded hardware context",
+          "note": "Samsung's 2021 third-quarter report lists the Fold3 launch OS as Android 11 with One UI 3.1.1, along with foldable dimensions and model-level details."
+        },
+        {
+          "id": "yugatech_fold3_ph_launch_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-z-fold3-flip3-5g-specs-price-philippines/",
+          "publicationDate": "2021-08-11",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch prices, configuration details, and general-sale date",
+          "note": "YugaTech's 11 August 2021 Philippine launch report lists 12 GB/256 GB at PHP 87,990 and 12 GB/512 GB at PHP 95,990, gives model-specific specs, and reports general availability through Samsung and authorized partners from 22 September 2021. Prices are cross-checked against Samsung Philippines' dated SRP table."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_256_identity",
+          "sourceValue": "12 GB RAM / 256 GB storage",
+          "normalizedValue": "12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_256_identity",
+          "sourceValue": "12 GB",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_256_identity",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "General Philippine availability reported beginning 22 September 2021; official Samsung pre-orders opened 19 August.",
+          "normalizedValue": "2021-09-22",
+          "note": "Records the reported general-sale date. Samsung Philippines' official pre-order terms independently document local authorized pre-orders beginning 19 August 2021."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "Philippine launch coverage reports PHP 87,990 for the 256 GB configuration.",
+          "normalizedValue": 87990,
+          "unit": "PHP",
+          "note": "Launch-period Philippine price reported by YugaTech on 11 August 2021 and corroborated by Samsung Philippines' dated SRP table; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_srp_2021",
+          "sourceValue": "Historical Samsung Philippines SRP, effective 13 September 2021: PHP 87,990",
+          "normalizedValue": 87990,
+          "unit": "PHP",
+          "note": "Dated Samsung Philippines SRP effective 13 September 2021; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines SRP (not a current offer)",
+          "priceObservedAt": "2021-09-13"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_model_256",
+          "sourceValue": "Philippine model family SM-F926B/DS",
+          "normalizedValue": "SM-F926B/DS",
+          "note": "The base family code applies to both capacities. Samsung Philippines' color-specific SKUs are retained as source evidence but not assigned to the color-unspecified workbook variants."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Main display 7.6 in; cover display 6.2 in",
+          "normalizedValue": 7.6,
+          "catalogKey": "displayInches",
+          "catalogValue": 7.6,
+          "unit": "in",
+          "note": "The public numeric display-size field stores the 7.6-inch main panel; the 6.2-inch cover panel remains in sourceValue."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Dynamic AMOLED 2X on the main and cover displays",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Main: 2208 x 1768; cover: 2268 x 832",
+          "normalizedValue": "Main 2208 x 1768; cover 2268 x 832",
+          "catalogKey": "resolution",
+          "catalogValue": "Main 2208 x 1768; cover 2268 x 832"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Both displays: adaptive refresh rate up to 120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Main panel: 900 nits HBM / 1200 nits peak; cover: 1000 nits HBM / 1500 nits peak",
+          "normalizedValue": "Main: 900 HBM / 1200 peak nits; cover: 1000 HBM / 1500 peak nits",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "Corning Gorilla Glass Victus is listed for the cover glass",
+          "normalizedValue": "Corning Gorilla Glass Victus"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_processor",
+          "sourceValue": "Qualcomm Snapdragon 888",
+          "normalizedValue": "Qualcomm Snapdragon 888",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 888"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "5 nm 64-bit octa-core processor: up to 2.84 GHz + 2.4 GHz + 1.8 GHz",
+          "normalizedValue": "Octa-core; 2.84 / 2.4 / 1.8 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core; 2.84 / 2.4 / 1.8 GHz"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "5 nm process",
+          "normalizedValue": "5 nm"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_3q_report_2021",
+          "sourceValue": "Android 11 with One UI 3.1.1 at launch",
+          "normalizedValue": "Android 11 / One UI 3.1.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP wide/main with OIS + 12 MP ultra-wide + 12 MP telephoto with OIS",
+          "normalizedValue": 12,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "note": "The numeric public camera field stores the 12 MP wide/main camera; the sourceValue preserves all three rear modules."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP wide-angle main; Dual Pixel AF, OIS, f/1.8",
+          "normalizedValue": "12 MP; Dual Pixel AF; OIS; f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP ultra-wide, f/2.2",
+          "normalizedValue": "12 MP; f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP telephoto, OIS, f/2.4, 2x optical zoom",
+          "normalizedValue": "12 MP; OIS; f/2.4; 2x optical zoom"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "10 MP cover selfie camera plus 4 MP under-display camera, f/1.8",
+          "normalizedValue": 10,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 10,
+          "unit": "MP",
+          "note": "The numeric public field stores the 10 MP cover camera; Samsung also lists a separate 4 MP under-display camera."
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "HDR10+ recording and Tracking AF; maximum recording mode not stated in this source table",
+          "normalizedValue": "HDR10+ recording; Tracking AF",
+          "catalogKey": "video",
+          "catalogValue": "HDR10+ recording; Tracking AF"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "256 GB / 512 GB UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "4,400 mAh typical dual battery; 4,275 mAh rated minimum",
+          "normalizedValue": 4400,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4400,
+          "unit": "mAh",
+          "note": "Samsung distinguishes the 4,400 mAh typical capacity from 4,275 mAh rated minimum; the catalog stores typical capacity."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "25 W wired fast charging",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "10 W fast wireless charging; 4.5 W reverse wireless charging",
+          "normalizedValue": "10 W wireless; 4.5 W reverse"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Folded: 67.1 x 158.2 x 14.4–16.0 mm; unfolded: 128.1 x 158.2 x 6.4 mm",
+          "normalizedValue": "Folded 67.1 x 158.2 x 14.4–16.0 mm; unfolded 128.1 x 158.2 x 6.4 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "Folded 67.1 x 158.2 x 14.4–16.0 mm; unfolded 128.1 x 158.2 x 6.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "271 g",
+          "normalizedValue": 271,
+          "catalogKey": "weightG",
+          "catalogValue": 271,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "Armor Aluminum body; Corning Gorilla Glass Victus exterior glass",
+          "normalizedValue": "Armor Aluminum; Gorilla Glass Victus"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "IPX8 water resistance; Samsung states it is not dust-resistant",
+          "normalizedValue": "IPX8; not dust-resistant"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "5G and LTE; supported bands and speeds vary by market and carrier",
+          "normalizedValue": "5G; LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; LTE"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Two Nano-SIM slots and one eSIM; eSIM availability varies by region/carrier",
+          "normalizedValue": "2 Nano-SIM; eSIM support varies",
+          "catalogKey": "sim",
+          "catalogValue": "2 Nano-SIM; eSIM support varies"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Wi-Fi 6E (802.11 a/b/g/n/ac/ax)",
+          "normalizedValue": "Wi-Fi 6E",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "NFC support listed",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "GPS, Galileo, GLONASS, and BeiDou",
+          "normalizedValue": "GPS; Galileo; GLONASS; BeiDou"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Stereo speakers with Dolby Atmos",
+          "normalizedValue": "Stereo speakers; Dolby Atmos",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; Dolby Atmos"
+        }
+      ],
+      "modelCode": "SM-F926B/DS",
+      "replacementVariants": [
+        {
+          "id": "device_f6ce8c275dee32-samsung-12gb-256gb",
+          "label": "12 GB RAM / 256 GB storage",
+          "modelCode": "SM-F926B/DS",
+          "sku": null,
+          "notes": "Color-specific Philippine Samsung SKU not recorded for the inventory configuration."
+        },
+        {
+          "id": "device_f6ce8c275dee32-samsung-12gb-512gb",
+          "label": "12 GB RAM / 512 GB storage",
+          "modelCode": "SM-F926B/DS",
+          "sku": null,
+          "notes": "Color-specific Philippine Samsung SKU not recorded for the inventory configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine pre-orders opened 19 August 2021; general sale reported from 22 September 2021",
+        "philippineAvailability": "Samsung Philippines' official terms document pre-orders from 19 August to 21 September 2021. YugaTech reported general availability through Samsung.com/ph, authorized Samsung stores, online partners, and telco partners beginning 22 September 2021. The catalog date is the reported general-sale start, not a first individual transaction timestamp.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Official Philippine pre-order period and reported general-sale date documented"
+      }
+    },
+    {
+      "deviceId": "device_f6ce8c275dee32",
+      "configurationId": "device_f6ce8c275dee32-samsung-12gb-512gb",
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold3 5G",
+      "configuration": "12 GB RAM / 512 GB storage",
+      "configurationLabel": "12 GB RAM / 512 GB storage",
+      "sources": [
+        {
+          "id": "samsung_fold3_ph_256_identity",
+          "publisher": "Samsung Business Philippines",
+          "url": "https://www.samsung.com/ph/business/smartphones/galaxy-z/galaxy-z-fold3-5g-phantom-green-256gb-sm-f926bzgdphl/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Local product identity and supported memory choices",
+          "note": "Samsung Philippines identifies the Galaxy Z Fold3 5G and lists 12 GB/256 GB and 12 GB/512 GB choices. The cited Phantom Green order code is color-specific and is not assigned to the color-unspecified workbook configuration."
+        },
+        {
+          "id": "samsung_fold3_ph_512_sku",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/support/model/SM-F926BZGGPHL/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine 12 GB/512 GB support SKU and regional model code",
+          "note": "Samsung Philippines identifies local SKU SM-F926BZGGPHL and family model SM-F926B/DS. The local code is Phantom Green; because the workbook does not identify color, the SKU remains blank on the 12 GB/512 GB catalog variant."
+        },
+        {
+          "id": "samsung_fold3_ph_preorder_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-zseries3/samsung-care/",
+          "publicationDate": "2021-08-19",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine pre-order period",
+          "note": "Samsung Philippines' terms state that Galaxy Z Fold3 pre-orders ran 19 August–21 September 2021 through Samsung Online Store/pre-order portals, with separate operator windows. This confirms Philippine authorized-channel availability before general retail sale."
+        },
+        {
+          "id": "samsung_fold3_ph_srp_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-pnb/q3/",
+          "publicationDate": "2021-09-13",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine SRP by 256 GB and 512 GB configurations",
+          "note": "Samsung Philippines lists PHP 87,990 for the Galaxy Z Fold3 5G 256 GB and PHP 95,990 for 512 GB. The offer page marks Fold3 prices as starting 13 September 2021; these are historical SRPs, not current prices."
+        },
+        {
+          "id": "samsung_fold3_global_specs_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/the-next-chapter-in-mobile-innovation-unfold-your-world-with-galaxy-z-fold3-5g-and-galaxy-z-flip3-5g",
+          "publicationDate": "2021-08-11",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications at launch",
+          "note": "Samsung's launch specification table supplies the Fold3 display panels and resolutions, cameras, processor platform, RAM/storage types, battery, charging, water-resistance, operating system, connectivity, dimensions, and weight."
+        },
+        {
+          "id": "samsung_fold3_ph_processor",
+          "publisher": "Samsung Philippines Support",
+          "url": "https://www.samsung.com/ph/support/mobile-devices/what-is-the-difference-between-galaxy-z-fold3-and-galaxy-z-fold4/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine model processor identification",
+          "note": "Samsung Philippines' comparison identifies Snapdragon 888 as the Galaxy Z Fold3 processor."
+        },
+        {
+          "id": "samsung_fold3_ph_model_256",
+          "publisher": "Samsung Philippines Support",
+          "url": "https://www.samsung.com/ph/support/model/SM-F926BZSDPHL/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine 12 GB/256 GB support SKU and regional model code",
+          "note": "Samsung Philippines identifies local SKU SM-F926BZSDPHL and family model SM-F926B/DS. This Phantom Silver order code is color-specific and is not assigned to the color-unspecified workbook configuration."
+        },
+        {
+          "id": "samsung_fold3_global_3q_report_2021",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_3Q_Interim_Report_vF.pdf",
+          "publicationDate": "2021-11-15",
+          "accessDate": "2026-11-26",
+          "purpose": "Launch operating-system version and folded/unfolded hardware context",
+          "note": "Samsung's 2021 third-quarter report lists the Fold3 launch OS as Android 11 with One UI 3.1.1, along with foldable dimensions and model-level details."
+        },
+        {
+          "id": "yugatech_fold3_ph_launch_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-z-fold3-flip3-5g-specs-price-philippines/",
+          "publicationDate": "2021-08-11",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch prices, configuration details, and general-sale date",
+          "note": "YugaTech's 11 August 2021 Philippine launch report lists 12 GB/256 GB at PHP 87,990 and 12 GB/512 GB at PHP 95,990, gives model-specific specs, and reports general availability through Samsung and authorized partners from 22 September 2021. Prices are cross-checked against Samsung Philippines' dated SRP table."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_256_identity",
+          "sourceValue": "12 GB RAM / 512 GB storage",
+          "normalizedValue": "12 GB RAM / 512 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_256_identity",
+          "sourceValue": "12 GB",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_256_identity",
+          "sourceValue": "512 GB",
+          "normalizedValue": 512,
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "General Philippine availability reported beginning 22 September 2021; official Samsung pre-orders opened 19 August.",
+          "normalizedValue": "2021-09-22",
+          "note": "Records the reported general-sale date. Samsung Philippines' official pre-order terms independently document local authorized pre-orders beginning 19 August 2021."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "Philippine launch coverage reports PHP 95,990 for the 512 GB configuration.",
+          "normalizedValue": 95990,
+          "unit": "PHP",
+          "note": "Launch-period Philippine price reported by YugaTech on 11 August 2021 and corroborated by Samsung Philippines' dated SRP table; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_srp_2021",
+          "sourceValue": "Historical Samsung Philippines SRP, effective 13 September 2021: PHP 95,990",
+          "normalizedValue": 95990,
+          "unit": "PHP",
+          "note": "Dated Samsung Philippines SRP effective 13 September 2021; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines SRP (not a current offer)",
+          "priceObservedAt": "2021-09-13"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_model_256",
+          "sourceValue": "Philippine model family SM-F926B/DS",
+          "normalizedValue": "SM-F926B/DS",
+          "note": "The base family code applies to both capacities. Samsung Philippines' color-specific SKUs are retained as source evidence but not assigned to the color-unspecified workbook variants."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Main display 7.6 in; cover display 6.2 in",
+          "normalizedValue": 7.6,
+          "catalogKey": "displayInches",
+          "catalogValue": 7.6,
+          "unit": "in",
+          "note": "The public numeric display-size field stores the 7.6-inch main panel; the 6.2-inch cover panel remains in sourceValue."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Dynamic AMOLED 2X on the main and cover displays",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Main: 2208 x 1768; cover: 2268 x 832",
+          "normalizedValue": "Main 2208 x 1768; cover 2268 x 832",
+          "catalogKey": "resolution",
+          "catalogValue": "Main 2208 x 1768; cover 2268 x 832"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Both displays: adaptive refresh rate up to 120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Main panel: 900 nits HBM / 1200 nits peak; cover: 1000 nits HBM / 1500 nits peak",
+          "normalizedValue": "Main: 900 HBM / 1200 peak nits; cover: 1000 HBM / 1500 peak nits",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "Corning Gorilla Glass Victus is listed for the cover glass",
+          "normalizedValue": "Corning Gorilla Glass Victus"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_ph_processor",
+          "sourceValue": "Qualcomm Snapdragon 888",
+          "normalizedValue": "Qualcomm Snapdragon 888",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 888"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "5 nm 64-bit octa-core processor: up to 2.84 GHz + 2.4 GHz + 1.8 GHz",
+          "normalizedValue": "Octa-core; 2.84 / 2.4 / 1.8 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core; 2.84 / 2.4 / 1.8 GHz"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "5 nm process",
+          "normalizedValue": "5 nm"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_3q_report_2021",
+          "sourceValue": "Android 11 with One UI 3.1.1 at launch",
+          "normalizedValue": "Android 11 / One UI 3.1.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP wide/main with OIS + 12 MP ultra-wide + 12 MP telephoto with OIS",
+          "normalizedValue": 12,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "note": "The numeric public camera field stores the 12 MP wide/main camera; the sourceValue preserves all three rear modules."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP wide-angle main; Dual Pixel AF, OIS, f/1.8",
+          "normalizedValue": "12 MP; Dual Pixel AF; OIS; f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP ultra-wide, f/2.2",
+          "normalizedValue": "12 MP; f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "12 MP telephoto, OIS, f/2.4, 2x optical zoom",
+          "normalizedValue": "12 MP; OIS; f/2.4; 2x optical zoom"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "10 MP cover selfie camera plus 4 MP under-display camera, f/1.8",
+          "normalizedValue": 10,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 10,
+          "unit": "MP",
+          "note": "The numeric public field stores the 10 MP cover camera; Samsung also lists a separate 4 MP under-display camera."
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "HDR10+ recording and Tracking AF; maximum recording mode not stated in this source table",
+          "normalizedValue": "HDR10+ recording; Tracking AF",
+          "catalogKey": "video",
+          "catalogValue": "HDR10+ recording; Tracking AF"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "256 GB / 512 GB UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "4,400 mAh typical dual battery; 4,275 mAh rated minimum",
+          "normalizedValue": 4400,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4400,
+          "unit": "mAh",
+          "note": "Samsung distinguishes the 4,400 mAh typical capacity from 4,275 mAh rated minimum; the catalog stores typical capacity."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "25 W wired fast charging",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "10 W fast wireless charging; 4.5 W reverse wireless charging",
+          "normalizedValue": "10 W wireless; 4.5 W reverse"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Folded: 67.1 x 158.2 x 14.4–16.0 mm; unfolded: 128.1 x 158.2 x 6.4 mm",
+          "normalizedValue": "Folded 67.1 x 158.2 x 14.4–16.0 mm; unfolded 128.1 x 158.2 x 6.4 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "Folded 67.1 x 158.2 x 14.4–16.0 mm; unfolded 128.1 x 158.2 x 6.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "271 g",
+          "normalizedValue": 271,
+          "catalogKey": "weightG",
+          "catalogValue": 271,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_fold3_ph_launch_2021",
+          "sourceValue": "Armor Aluminum body; Corning Gorilla Glass Victus exterior glass",
+          "normalizedValue": "Armor Aluminum; Gorilla Glass Victus"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "IPX8 water resistance; Samsung states it is not dust-resistant",
+          "normalizedValue": "IPX8; not dust-resistant"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "5G and LTE; supported bands and speeds vary by market and carrier",
+          "normalizedValue": "5G; LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; LTE"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Two Nano-SIM slots and one eSIM; eSIM availability varies by region/carrier",
+          "normalizedValue": "2 Nano-SIM; eSIM support varies",
+          "catalogKey": "sim",
+          "catalogValue": "2 Nano-SIM; eSIM support varies"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Wi-Fi 6E (802.11 a/b/g/n/ac/ax)",
+          "normalizedValue": "Wi-Fi 6E",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "NFC support listed",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "GPS, Galileo, GLONASS, and BeiDou",
+          "normalizedValue": "GPS; Galileo; GLONASS; BeiDou"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_fold3_global_specs_2021",
+          "sourceValue": "Stereo speakers with Dolby Atmos",
+          "normalizedValue": "Stereo speakers; Dolby Atmos",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; Dolby Atmos"
+        }
+      ],
+      "modelCode": "SM-F926B/DS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine pre-orders opened 19 August 2021; general sale reported from 22 September 2021",
+        "philippineAvailability": "Samsung Philippines' official terms document pre-orders from 19 August to 21 September 2021. YugaTech reported general availability through Samsung.com/ph, authorized Samsung stores, online partners, and telco partners beginning 22 September 2021. The catalog date is the reported general-sale start, not a first individual transaction timestamp.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Official Philippine pre-order period and reported general-sale date documented"
+      }
     }
   ]
 }
