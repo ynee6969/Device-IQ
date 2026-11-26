@@ -826,7 +826,7 @@ def main():
                     "device_id": manual_record["deviceId"], "amount_php": reviewed_field.get("normalizedValue"),
                     "variant_ram_gb": specs.get("ramGb"), "variant_storage_gb": specs.get("storageGb"),
                     "configuration_match": reviewed_field.get("configurationMatch", "pending review"),
-                    "price_type": "manufacturer starting price candidate", "source_published_at": source.get("publicationDate"),
+                    "price_type": reviewed_field.get("priceType") or "manual current-price candidate", "source_published_at": source.get("publicationDate"),
                     "observed_at": source.get("accessDate"), "local_availability_verified": False,
                     "source_url": source.get("url"), "excerpt": reviewed_field.get("sourceValue"),
                 })

@@ -142005,6 +142005,1241 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_15827b1eab335d",
+      "configurationId": "device_15827b1eab335d-8gb-128gb-ph",
+      "brand": "OnePlus",
+      "model": "Nord 2",
+      "configuration": "8 GB RAM / 128 GB storage — Blue Haze",
+      "configurationLabel": "8 GB RAM / 128 GB storage — Blue Haze",
+      "sources": [
+        {
+          "id": "nord2_oneplus_global_press",
+          "publisher": "OnePlus",
+          "url": "https://www.oneplus.com/global/press/press-release/OnePlus-Nord-2-5G-The-Next-Big-Step",
+          "publicationDate": "2021-07-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch release, global model specifications, and software-update commitment",
+          "note": "OnePlus's press release is dated July 21, 2021. It identifies the Nord 2 5G's Dimensity 1200-AI platform, 50 MP Sony IMX766 main camera with OIS, 8 MP ultrawide, 32 MP selfie camera, 4,500 mAh battery, Warp Charge 65, OxygenOS 11.3, and a plan for two years of major Android updates plus three years of security updates. The update statement records the launch commitment, not a claim that each update was delivered."
+        },
+        {
+          "id": "nord2_oneplus_official_specs",
+          "publisher": "OnePlus Support",
+          "url": "https://www.oneplus.com/no/nord-2-5g/specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications for display, exact configurations, cameras, battery, connectivity, ports, sensors, and audio",
+          "note": "OnePlus's Nord 2 5G specifications page gives configuration ranges and product details. Its Norway path is regional; the Philippine DN2103 match is established separately by the local NTC record. Market-specific band activation and local carrier support are not inferred from the page alone."
+        },
+        {
+          "id": "nord2_oneplus_manual",
+          "publisher": "OnePlus Support",
+          "url": "https://service.oneplus.com/content/dam/support/user-manuals/common/OnePlus_Nord_2_User_Manual_EN.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer user manual for water-resistance wording and device operation",
+          "note": "The model-specific manual says the device is designed for water resistance under certain conditions and cautions against excessive submersion. It does not provide a formal IP rating."
+        },
+        {
+          "id": "nord2_ntc_aug_gec",
+          "publisher": "National Telecommunications Commission (NTC), Region VII",
+          "url": "https://region7.ntc.gov.ph/wp-content/uploads/2024/01/GEC_08312021.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine GEC evidence for DN2103 / Nord 2 5G and local applicant",
+          "note": "The NTC table lists ONEPLUS DN2103 / NORD 2 5G, applicant Digits Trading Corp, as a smartphone issued July 30, 2021. The table labels the record ESD-GEC-2106881."
+        },
+        {
+          "id": "nord2_ntc_sept_gec",
+          "publisher": "National Telecommunications Commission (NTC), Caraga",
+          "url": "https://caraga.ntc.gov.ph/wp-content/uploads/2021/11/GEC_09302021.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent NTC copy cross-check for the Philippine DN2103 model",
+          "note": "This NTC copy also lists ONEPLUS DN2103 / NORD 2 5G for Digits Trading Corp, dated July 30, 2021, but shows ESD-GEC-2106851 rather than ESD-GEC-2106881. The model-code and marketing-name row agrees; the grant-number discrepancy is preserved rather than silently resolved."
+        },
+        {
+          "id": "nord2_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/oneplus-nord-2-5g-specs-price-now-official/",
+          "publicationDate": "2021-07-23",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch date, preorder seller, exact local configurations/colors, launch prices, and local specification cross-check",
+          "note": "Published July 23, 2021. YugaTech reports the Nord 2 5G's Philippine unveiling and preorder through Digital Walker. It identifies Blue Haze 8 GB/128 GB at PHP 21,990 and Gray Sierra 12 GB/256 GB at PHP 25,990, along with the local specification list."
+        },
+        {
+          "id": "nord2_manilashaker_ph",
+          "publisher": "ManilaShaker Philippines",
+          "url": "https://manilashaker.com/oneplus-nord-2-5g-officially-launched-price-and-specifications/",
+          "publicationDate": "2021-07-24",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine price/configuration, launch timing, and build cross-check",
+          "note": "Published July 24, 2021. ManilaShaker independently reports the two Philippine launch configurations and prices, preorder availability at Digital Walker, and Gorilla Glass 5 front/back construction. No frame material is asserted from this source."
+        },
+        {
+          "id": "nord2_mediatek_dimensity1200",
+          "publisher": "MediaTek",
+          "url": "https://i.mediatek.com/dimensity-1200",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Dimensity 1200 platform process, CPU architecture, and GPU details",
+          "note": "MediaTek describes the Dimensity 1200 family as a 6 nm platform with Cortex-A78/Cortex-A55 CPU cores and Mali-G77 MC9 graphics. These are chipset-family specifications; the local phone's Dimensity 1200-AI identity is separately confirmed by OnePlus and Philippine launch sources."
+        },
+        {
+          "id": "nord2_digitalwalker_product",
+          "publisher": "Digital Walker Philippines",
+          "url": "https://digitalwalker.ph/collections/oneplus/products/oneplus-nord-2",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Current check of the Philippine product page linked from the 2021 launch source",
+          "note": "The Digital Walker Nord 2 product URL linked by YugaTech returned HTTP 404 when checked on November 26, 2026. This is evidence that the old page is unavailable, not proof that the model is discontinued or that no other seller has stock."
+        },
+        {
+          "id": "nord2_shopee_candidate",
+          "publisher": "Shopee Philippines marketplace / T&L Telecom Philippines",
+          "url": "https://shopee.ph/OnePlus-Nord-2-%28DN2103%29-Dual-SIm-Nano-SIM-5G-12GB-256GB-Media-Tek-Dimensity-1200-AI-6.43-inch-Display-i.92926624.20934641209",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Review of a present search-result marketplace price candidate for the 12 GB/256 GB model",
+          "note": "The listing title identifies Nord 2 DN2103 12 GB/256 GB and the result shows PHP 22,885 after voucher, but also marks it Sold Out. Its delivery estimate was November 2-9, 2026, already past at the November 26 review date; seller authorization, condition, and current purchasability are not established. The amount is retained only as a rejected stale/sold-out candidate, not a current price."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "nord2_ntc_aug_gec",
+          "sourceValue": "NTC lists ONEPLUS DN2103 / NORD 2 5G for Digits Trading Corp; OnePlus official Nord 2 page matches the product family",
+          "normalizedValue": "DN2103",
+          "note": "Exact Philippine model-code/marketing-name match. NTC record copies disagree on grant number (ESD-GEC-2106881 vs ESD-GEC-2106851); both show DN2103 / Nord 2 5G and July 30, 2021.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "OnePlus manufacturer press release dated July 21, 2021",
+          "normalizedValue": "2021-07-21",
+          "note": "Uses the manufacturer press-release date. The Philippine seller announcement/preorder date was July 23, 2021.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "Philippine launch configuration: 8 GB RAM / 128 GB storage / Blue Haze",
+          "normalizedValue": "8 GB RAM / 128 GB storage / Blue Haze",
+          "note": "YugaTech maps this RAM/storage configuration to this Philippine color; the second local configuration is retained as a separate variant.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "YugaTech reports Philippine unveiling and Digital Walker preorder beginning July 23, 2021",
+          "normalizedValue": "2021-07-23",
+          "note": "Reported local launch/preorder start date, not a claim about the first completed retail sale.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "Philippine launch price PHP 21,990 for 8 GB / 128 GB Blue Haze",
+          "normalizedValue": 21990,
+          "note": "Historical Philippine launch price for this exact configuration; not a current offer.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "nord2_digitalwalker_product",
+          "sourceValue": "No current exact 8 GB / 128 GB purchasable offer found; linked Digital Walker product page returned 404 on November 26, 2026",
+          "normalizedValue": null,
+          "note": "No verified, currently purchasable Philippine offer for this exact configuration was found. The historical Digital Walker product URL now returns 404. A sold-out, stale marketplace result is retained only as a pending candidate, not as a current price.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "6.43-inch display measured diagonally in the full rectangle",
+          "normalizedValue": 6.43,
+          "note": "OnePlus lists 6.43 inches full-rectangle; its note gives 6.22 inches accounting for rounded corners.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.43,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Fluid AMOLED",
+          "normalizedValue": "Fluid AMOLED",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "displayType",
+          "catalogValue": "Fluid AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "2400 x 1080 pixels, 20:9, 410 ppi",
+          "normalizedValue": "1080 x 2400",
+          "note": "OnePlus product specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "90 Hz refresh rate",
+          "normalizedValue": 90,
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "No numeric typical or peak brightness value stated on the reviewed OnePlus specification page",
+          "normalizedValue": null,
+          "note": "No brightness value is inferred from display type or marketing language.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_manilashaker_ph",
+          "sourceValue": "Corning Gorilla Glass 5 on the front",
+          "normalizedValue": "Corning Gorilla Glass 5",
+          "note": "Contemporaneous Philippine specification reports Gorilla Glass 5 on front and back; this field records the front display protection only.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "MediaTek Dimensity 1200-AI",
+          "normalizedValue": "MediaTek Dimensity 1200-AI",
+          "note": "Manufacturer launch release; Philippine coverage reports the same chipset.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Dimensity 1200-AI"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "nord2_mediatek_dimensity1200",
+          "sourceValue": "MediaTek Dimensity 1200 platform uses a 6 nm process",
+          "normalizedValue": "6 nm",
+          "note": "Chipset process specification, not a handset fabrication claim.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "nord2_mediatek_dimensity1200",
+          "sourceValue": "Octa-core: 1 x Cortex-A78 up to 3.0 GHz + 3 x Cortex-A78 up to 2.6 GHz + 4 x Cortex-A55 up to 2.0 GHz",
+          "normalizedValue": "1 x Cortex-A78 3.0 GHz + 3 x Cortex-A78 2.6 GHz + 4 x Cortex-A55 2.0 GHz",
+          "note": "MediaTek Dimensity 1200 platform specification; the phone's AI-tuned model name is separately listed by OnePlus.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "cpu",
+          "catalogValue": "1 x Cortex-A78 3.0 GHz + 3 x Cortex-A78 2.6 GHz + 4 x Cortex-A55 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "ARM Mali-G77 MC9",
+          "normalizedValue": "ARM Mali-G77 MC9",
+          "note": "OnePlus lists Mali-G77 MC9 for the handset; MediaTek identifies the same graphics family for Dimensity 1200.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "gpu",
+          "catalogValue": "ARM Mali-G77 MC9"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "OxygenOS 11.3 based on Android 11 at launch",
+          "normalizedValue": "OxygenOS 11.3 (Android 11)",
+          "note": "Manufacturer specification at launch; later software versions are not represented as the shipped OS.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "os",
+          "catalogValue": "OxygenOS 11.3 (Android 11)"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "OnePlus promised two years of major Android updates and three years of security updates at launch",
+          "normalizedValue": "Launch commitment: 2 years of major Android updates + 3 years of security updates",
+          "note": "Manufacturer's launch commitment; this record does not assert that every update was delivered to every regional SKU.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "8 GB RAM",
+          "normalizedValue": 8,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "LPDDR4X RAM",
+          "normalizedValue": "LPDDR4X",
+          "note": "OnePlus lists LPDDR4X for its Nord 2 configurations.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "128 GB storage",
+          "normalizedValue": 128,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "UFS 3.1 storage",
+          "normalizedValue": "UFS 3.1",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "No microSD or expandable-storage specification stated on the reviewed manufacturer pages",
+          "normalizedValue": null,
+          "note": "Silence is not treated as proof that a specific expansion path is impossible.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "50 MP Sony IMX766 main with OIS + 8 MP ultrawide + 2 MP monochrome",
+          "normalizedValue": "50 MP main + 8 MP ultrawide + 2 MP monochrome",
+          "note": "OnePlus's official specification gives the three camera roles; the catalog numeric field represents main-camera megapixels.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "50 MP Sony IMX766, f/1.88, optical image stabilization",
+          "normalizedValue": "Sony IMX766, 50 MP, OIS",
+          "note": "Manufacturer specification; no separate sensor die-size measurement is recorded.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "8 MP ultrawide, 119.7-degree field of view, f/2.25, EIS",
+          "normalizedValue": "8 MP ultrawide, 119.7-degree FOV",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "No telephoto module; third rear lens is a 2 MP monochrome camera",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "OnePlus identifies the third rear lens as monochrome, not telephoto.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "32 MP Sony IMX615, f/2.45",
+          "normalizedValue": 32,
+          "note": "Manufacturer specification; this numeric field records resolution only.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Rear: 4K 30 fps; 1080p 30/60 fps; 720p 30/60 fps; slow motion 1080p 120 fps and 720p 240 fps. Front: 1080p 30 fps and 720p 30 fps.",
+          "normalizedValue": "Rear 4K30; 1080p30/60; 720p30/60; slow motion 1080p120/720p240. Front 1080p30/720p30.",
+          "note": "Mode and frame-rate combinations from the manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "4,500 mAh typical dual-cell battery",
+          "normalizedValue": 4500,
+          "note": "OnePlus lists 4,500 mAh typical capacity; performance may vary.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Dual-cell battery; cell chemistry not stated",
+          "normalizedValue": "Dual-cell; chemistry not recorded",
+          "note": "Only the manufacturer-published cell arrangement is recorded; lithium-polymer chemistry is not inferred.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "Warp Charge 65",
+          "normalizedValue": 65,
+          "note": "Manufacturer launch release and specification list 65 W Warp Charge.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "chargingW",
+          "catalogValue": 65,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Wireless or reverse charging support not specified in reviewed manufacturer materials",
+          "normalizedValue": null,
+          "note": "No support or absence is inferred from silence.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "159.12 x 73.31 x 8.25 mm",
+          "normalizedValue": "159.12 x 73.31 x 8.25 mm",
+          "note": "Manufacturer product specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "dimensions",
+          "catalogValue": "159.12 x 73.31 x 8.25 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "189 g; manufacturer notes measurement may vary by configuration/process",
+          "normalizedValue": 189,
+          "note": "Manufacturer product specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "weightG",
+          "catalogValue": 189,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_manilashaker_ph",
+          "sourceValue": "Gorilla Glass 5 front and back; frame material not recorded",
+          "normalizedValue": "Gorilla Glass 5 front/back; frame not recorded",
+          "note": "Contemporaneous Philippine coverage reports front/back glass protection. No frame material is inferred.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_manual",
+          "sourceValue": "OnePlus says the device is designed for water resistance under certain conditions; no formal IP rating is stated",
+          "normalizedValue": "Water resistance under certain conditions; IP rating not recorded",
+          "note": "Manufacturer manual wording is not converted to an IP certification or immersion guarantee.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Dual nano-SIM slot; eSIM support not stated",
+          "normalizedValue": "Dual nano-SIM; eSIM not recorded",
+          "note": "Manufacturer lists two nano-SIM slots; eSIM is left unrecorded.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "sim",
+          "catalogValue": "Dual nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "4G LTE FDD B1/2/3/4/5/7/8/12/17/18/19/20/26/28/38/32/34/39/40/41/66; 5G NSA N1/3/7/8/20/28/38/41/78; 5G SA N1/3/7/20/28/78/41/8",
+          "normalizedValue": "LTE FDD B1/2/3/4/5/7/8/12/17/18/19/20/26/28/38/32/34/39/40/41/66; NR NSA N1/3/7/8/20/28/38/41/78; NR SA N1/3/7/20/28/78/41/8",
+          "note": "OnePlus publishes these bands for its Nord 2 5G specifications page. It cautions network availability varies by carrier; the local NTC GEC's radio ranges are not treated as carrier-band validation.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "cellular",
+          "catalogValue": "LTE FDD B1/2/3/4/5/7/8/12/17/18/19/20/26/28/38/32/34/39/40/41/66; NR NSA N1/3/7/8/20/28/38/41/78; NR SA N1/3/7/20/28/78/41/8"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac/ax, 2.4/5 GHz, 2x2 MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), dual-band 2x2 MIMO",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), dual-band 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Bluetooth 5.2; aptX, aptX HD, LDAC, AAC support listed",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "USB 2.0 Type-C; included Warp Type-C cable supports USB 2.0",
+          "normalizedValue": "USB 2.0 Type-C",
+          "note": "Manufacturer specification; charging power and data standard are separate capabilities.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "ports",
+          "catalogValue": "USB 2.0 Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "NFC enabled",
+          "normalizedValue": "Yes",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "GPS, GLONASS, Galileo, BeiDou, NavIC",
+          "normalizedValue": "GPS, GLONASS, Galileo, BeiDou, NavIC",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Dual stereo speakers; noise-cancellation support",
+          "normalizedValue": "Dual stereo speakers; noise-cancellation support",
+          "note": "Manufacturer specification; this does not imply an included headset.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze",
+          "catalogKey": "sound",
+          "catalogValue": "Dual stereo speakers; noise-cancellation support"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "In-display fingerprint sensor, accelerometer, electronic compass, gyroscope, ambient-light sensor, SAR sensor, proximity sensor",
+          "normalizedValue": "In-display fingerprint; accelerometer; electronic compass; gyroscope; ambient light; SAR; proximity",
+          "note": "Full sensor list as published by OnePlus.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 8 GB RAM / 128 GB storage / Blue Haze"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch and Digital Walker preorder reported July 23, 2021; NTC records local DN2103 equipment conformity for Digits Trading Corp. No currently purchasable exact-variant local price was verified.",
+        "philippineAvailability": "YugaTech reports the OnePlus Nord 2 5G's Philippine unveiling and preorder at Digital Walker beginning July 23, 2021, with two exact local configurations: 8 GB / 128 GB Blue Haze at PHP 21,990 and 12 GB / 256 GB Gray Sierra at PHP 25,990. NTC records DN2103 / Nord 2 5G for Digits Trading Corp. Two NTC report copies disagree on the grant number (2106881 vs 2106851), while the model code, marketing name, applicant, and issue date agree. Workbook scope remains Pending.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "OnePlus",
+        "productLine": "OnePlus Nord 2 5G",
+        "modelNumber": "DN2103",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Reported Philippine launch/preorder start date",
+        "researchNotes": "The workbook label OnePlus Nord 2 matches the Philippine-market Nord 2 5G model DN2103. OnePlus's manufacturer press release is dated July 21, 2021; local launch coverage reports preorder starting July 23. NTC records model DN2103 as Nord 2 5G for Digits Trading Corp on July 30, but two regional NTC report copies differ on the grant number (ESD-GEC-2106881 vs ESD-GEC-2106851), so both are retained as a source discrepancy. Philippine launch evidence supports two separate variants, Blue Haze 8/128 GB at PHP 21,990 and Gray Sierra 12/256 GB at PHP 25,990. OnePlus's published specification page provides detailed model specifications, while MediaTek supplies chipset-level process/CPU details. The Digital Walker URL linked from the 2021 article returned 404 on November 26, 2026. A Shopee result for DN2103 12/256 listed PHP 22,885 after voucher but marked the item Sold Out and displayed a stale November 2-9 delivery estimate; it is not treated as a current purchasable price. Current exact-variant prices remain Not recorded. The OnePlus product page links a Gray Sierra image, but reuse permission is not stated; the neutral placeholder remains. Workbook scope stays Pending.",
+        "qualityFlag": "Philippine DN2103 model and two launch configurations verified; current purchasable prices not found; grant-number discrepancy retained; image reuse rights not established; workbook scope remains Pending",
+        "openIssues": [
+          {
+            "issue": "NTC source copies label the DN2103 GEC record as both ESD-GEC-2106881 and ESD-GEC-2106851",
+            "action": "Preserve both source references and do not silently choose a grant number; the DN2103 / Nord 2 5G identity is consistent."
+          },
+          {
+            "issue": "No current purchasable price was established for either Philippine configuration",
+            "action": "Keep current price blank; preserve the sold-out marketplace price only as a rejected, stale candidate."
+          },
+          {
+            "issue": "The Shopee result is sold out and its displayed delivery window was already past at review time; item condition and seller authorization are unstated",
+            "action": "Do not present PHP 22,885 as a current offer or use it for active price filtering."
+          },
+          {
+            "issue": "The exact Digital Walker product page linked from the launch report now returns 404",
+            "action": "Do not infer product discontinuation from the unavailable page alone."
+          },
+          {
+            "issue": "OnePlus official Nord 2 image is associated with the Gray Sierra product page but has no stated reuse terms",
+            "action": "Keep the neutral placeholder unless image reuse permission is documented."
+          },
+          {
+            "issue": "Workbook scope/eligibility remains Pending",
+            "action": "Preserve Pending and follow the existing study eligibility rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_15827b1eab335d-8gb-128gb-ph",
+          "label": "8 GB RAM / 128 GB storage — Blue Haze",
+          "sku": null,
+          "modelCode": "DN2103",
+          "notes": "Philippine launch variant: Blue Haze, 8 GB RAM / 128 GB storage. Model code DN2103."
+        },
+        {
+          "id": "device_15827b1eab335d-12gb-256gb-ph",
+          "label": "12 GB RAM / 256 GB storage — Gray Sierra",
+          "sku": null,
+          "modelCode": "DN2103",
+          "notes": "Philippine launch variant: Gray Sierra, 12 GB RAM / 256 GB storage. Model code DN2103."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_15827b1eab335d",
+      "configurationId": "device_15827b1eab335d-12gb-256gb-ph",
+      "brand": "OnePlus",
+      "model": "Nord 2",
+      "configuration": "12 GB RAM / 256 GB storage — Gray Sierra",
+      "configurationLabel": "12 GB RAM / 256 GB storage — Gray Sierra",
+      "sources": [
+        {
+          "id": "nord2_oneplus_global_press",
+          "publisher": "OnePlus",
+          "url": "https://www.oneplus.com/global/press/press-release/OnePlus-Nord-2-5G-The-Next-Big-Step",
+          "publicationDate": "2021-07-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch release, global model specifications, and software-update commitment",
+          "note": "OnePlus's press release is dated July 21, 2021. It identifies the Nord 2 5G's Dimensity 1200-AI platform, 50 MP Sony IMX766 main camera with OIS, 8 MP ultrawide, 32 MP selfie camera, 4,500 mAh battery, Warp Charge 65, OxygenOS 11.3, and a plan for two years of major Android updates plus three years of security updates. The update statement records the launch commitment, not a claim that each update was delivered."
+        },
+        {
+          "id": "nord2_oneplus_official_specs",
+          "publisher": "OnePlus Support",
+          "url": "https://www.oneplus.com/no/nord-2-5g/specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications for display, exact configurations, cameras, battery, connectivity, ports, sensors, and audio",
+          "note": "OnePlus's Nord 2 5G specifications page gives configuration ranges and product details. Its Norway path is regional; the Philippine DN2103 match is established separately by the local NTC record. Market-specific band activation and local carrier support are not inferred from the page alone."
+        },
+        {
+          "id": "nord2_oneplus_manual",
+          "publisher": "OnePlus Support",
+          "url": "https://service.oneplus.com/content/dam/support/user-manuals/common/OnePlus_Nord_2_User_Manual_EN.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer user manual for water-resistance wording and device operation",
+          "note": "The model-specific manual says the device is designed for water resistance under certain conditions and cautions against excessive submersion. It does not provide a formal IP rating."
+        },
+        {
+          "id": "nord2_ntc_aug_gec",
+          "publisher": "National Telecommunications Commission (NTC), Region VII",
+          "url": "https://region7.ntc.gov.ph/wp-content/uploads/2024/01/GEC_08312021.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine GEC evidence for DN2103 / Nord 2 5G and local applicant",
+          "note": "The NTC table lists ONEPLUS DN2103 / NORD 2 5G, applicant Digits Trading Corp, as a smartphone issued July 30, 2021. The table labels the record ESD-GEC-2106881."
+        },
+        {
+          "id": "nord2_ntc_sept_gec",
+          "publisher": "National Telecommunications Commission (NTC), Caraga",
+          "url": "https://caraga.ntc.gov.ph/wp-content/uploads/2021/11/GEC_09302021.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent NTC copy cross-check for the Philippine DN2103 model",
+          "note": "This NTC copy also lists ONEPLUS DN2103 / NORD 2 5G for Digits Trading Corp, dated July 30, 2021, but shows ESD-GEC-2106851 rather than ESD-GEC-2106881. The model-code and marketing-name row agrees; the grant-number discrepancy is preserved rather than silently resolved."
+        },
+        {
+          "id": "nord2_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/oneplus-nord-2-5g-specs-price-now-official/",
+          "publicationDate": "2021-07-23",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch date, preorder seller, exact local configurations/colors, launch prices, and local specification cross-check",
+          "note": "Published July 23, 2021. YugaTech reports the Nord 2 5G's Philippine unveiling and preorder through Digital Walker. It identifies Blue Haze 8 GB/128 GB at PHP 21,990 and Gray Sierra 12 GB/256 GB at PHP 25,990, along with the local specification list."
+        },
+        {
+          "id": "nord2_manilashaker_ph",
+          "publisher": "ManilaShaker Philippines",
+          "url": "https://manilashaker.com/oneplus-nord-2-5g-officially-launched-price-and-specifications/",
+          "publicationDate": "2021-07-24",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine price/configuration, launch timing, and build cross-check",
+          "note": "Published July 24, 2021. ManilaShaker independently reports the two Philippine launch configurations and prices, preorder availability at Digital Walker, and Gorilla Glass 5 front/back construction. No frame material is asserted from this source."
+        },
+        {
+          "id": "nord2_mediatek_dimensity1200",
+          "publisher": "MediaTek",
+          "url": "https://i.mediatek.com/dimensity-1200",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Dimensity 1200 platform process, CPU architecture, and GPU details",
+          "note": "MediaTek describes the Dimensity 1200 family as a 6 nm platform with Cortex-A78/Cortex-A55 CPU cores and Mali-G77 MC9 graphics. These are chipset-family specifications; the local phone's Dimensity 1200-AI identity is separately confirmed by OnePlus and Philippine launch sources."
+        },
+        {
+          "id": "nord2_digitalwalker_product",
+          "publisher": "Digital Walker Philippines",
+          "url": "https://digitalwalker.ph/collections/oneplus/products/oneplus-nord-2",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Current check of the Philippine product page linked from the 2021 launch source",
+          "note": "The Digital Walker Nord 2 product URL linked by YugaTech returned HTTP 404 when checked on November 26, 2026. This is evidence that the old page is unavailable, not proof that the model is discontinued or that no other seller has stock."
+        },
+        {
+          "id": "nord2_shopee_candidate",
+          "publisher": "Shopee Philippines marketplace / T&L Telecom Philippines",
+          "url": "https://shopee.ph/OnePlus-Nord-2-%28DN2103%29-Dual-SIm-Nano-SIM-5G-12GB-256GB-Media-Tek-Dimensity-1200-AI-6.43-inch-Display-i.92926624.20934641209",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Review of a present search-result marketplace price candidate for the 12 GB/256 GB model",
+          "note": "The listing title identifies Nord 2 DN2103 12 GB/256 GB and the result shows PHP 22,885 after voucher, but also marks it Sold Out. Its delivery estimate was November 2-9, 2026, already past at the November 26 review date; seller authorization, condition, and current purchasability are not established. The amount is retained only as a rejected stale/sold-out candidate, not a current price."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "nord2_ntc_aug_gec",
+          "sourceValue": "NTC lists ONEPLUS DN2103 / NORD 2 5G for Digits Trading Corp; OnePlus official Nord 2 page matches the product family",
+          "normalizedValue": "DN2103",
+          "note": "Exact Philippine model-code/marketing-name match. NTC record copies disagree on grant number (ESD-GEC-2106881 vs ESD-GEC-2106851); both show DN2103 / Nord 2 5G and July 30, 2021.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "OnePlus manufacturer press release dated July 21, 2021",
+          "normalizedValue": "2021-07-21",
+          "note": "Uses the manufacturer press-release date. The Philippine seller announcement/preorder date was July 23, 2021.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "Philippine launch configuration: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "normalizedValue": "12 GB RAM / 256 GB storage / Gray Sierra",
+          "note": "YugaTech maps this RAM/storage configuration to this Philippine color; the second local configuration is retained as a separate variant.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "YugaTech reports Philippine unveiling and Digital Walker preorder beginning July 23, 2021",
+          "normalizedValue": "2021-07-23",
+          "note": "Reported local launch/preorder start date, not a claim about the first completed retail sale.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "Philippine launch price PHP 25,990 for 12 GB / 256 GB Gray Sierra",
+          "normalizedValue": 25990,
+          "note": "Historical Philippine launch price for this exact configuration; not a current offer.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "nord2_shopee_candidate",
+          "sourceValue": "Shopee result showed PHP 22,885 after voucher for 12 GB / 256 GB DN2103 but marked Sold Out with a past delivery window; rejected as current price",
+          "normalizedValue": 22885,
+          "note": "No verified, currently purchasable Philippine offer for this exact configuration was found. The historical Digital Walker product URL now returns 404. A sold-out, stale marketplace result is retained only as a pending candidate, not as a current price.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "unit": "PHP",
+          "priceType": "Shopee display price after voucher; sold out and stale; rejected as current price"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "6.43-inch display measured diagonally in the full rectangle",
+          "normalizedValue": 6.43,
+          "note": "OnePlus lists 6.43 inches full-rectangle; its note gives 6.22 inches accounting for rounded corners.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.43,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Fluid AMOLED",
+          "normalizedValue": "Fluid AMOLED",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "displayType",
+          "catalogValue": "Fluid AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "2400 x 1080 pixels, 20:9, 410 ppi",
+          "normalizedValue": "1080 x 2400",
+          "note": "OnePlus product specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "90 Hz refresh rate",
+          "normalizedValue": 90,
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "No numeric typical or peak brightness value stated on the reviewed OnePlus specification page",
+          "normalizedValue": null,
+          "note": "No brightness value is inferred from display type or marketing language.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_manilashaker_ph",
+          "sourceValue": "Corning Gorilla Glass 5 on the front",
+          "normalizedValue": "Corning Gorilla Glass 5",
+          "note": "Contemporaneous Philippine specification reports Gorilla Glass 5 on front and back; this field records the front display protection only.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "MediaTek Dimensity 1200-AI",
+          "normalizedValue": "MediaTek Dimensity 1200-AI",
+          "note": "Manufacturer launch release; Philippine coverage reports the same chipset.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Dimensity 1200-AI"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "nord2_mediatek_dimensity1200",
+          "sourceValue": "MediaTek Dimensity 1200 platform uses a 6 nm process",
+          "normalizedValue": "6 nm",
+          "note": "Chipset process specification, not a handset fabrication claim.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "nord2_mediatek_dimensity1200",
+          "sourceValue": "Octa-core: 1 x Cortex-A78 up to 3.0 GHz + 3 x Cortex-A78 up to 2.6 GHz + 4 x Cortex-A55 up to 2.0 GHz",
+          "normalizedValue": "1 x Cortex-A78 3.0 GHz + 3 x Cortex-A78 2.6 GHz + 4 x Cortex-A55 2.0 GHz",
+          "note": "MediaTek Dimensity 1200 platform specification; the phone's AI-tuned model name is separately listed by OnePlus.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "cpu",
+          "catalogValue": "1 x Cortex-A78 3.0 GHz + 3 x Cortex-A78 2.6 GHz + 4 x Cortex-A55 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "ARM Mali-G77 MC9",
+          "normalizedValue": "ARM Mali-G77 MC9",
+          "note": "OnePlus lists Mali-G77 MC9 for the handset; MediaTek identifies the same graphics family for Dimensity 1200.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "gpu",
+          "catalogValue": "ARM Mali-G77 MC9"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "OxygenOS 11.3 based on Android 11 at launch",
+          "normalizedValue": "OxygenOS 11.3 (Android 11)",
+          "note": "Manufacturer specification at launch; later software versions are not represented as the shipped OS.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "os",
+          "catalogValue": "OxygenOS 11.3 (Android 11)"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "OnePlus promised two years of major Android updates and three years of security updates at launch",
+          "normalizedValue": "Launch commitment: 2 years of major Android updates + 3 years of security updates",
+          "note": "Manufacturer's launch commitment; this record does not assert that every update was delivered to every regional SKU.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "12 GB RAM",
+          "normalizedValue": 12,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "LPDDR4X RAM",
+          "normalizedValue": "LPDDR4X",
+          "note": "OnePlus lists LPDDR4X for its Nord 2 configurations.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_yugatech_ph",
+          "sourceValue": "256 GB storage",
+          "normalizedValue": 256,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "UFS 3.1 storage",
+          "normalizedValue": "UFS 3.1",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "No microSD or expandable-storage specification stated on the reviewed manufacturer pages",
+          "normalizedValue": null,
+          "note": "Silence is not treated as proof that a specific expansion path is impossible.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "50 MP Sony IMX766 main with OIS + 8 MP ultrawide + 2 MP monochrome",
+          "normalizedValue": "50 MP main + 8 MP ultrawide + 2 MP monochrome",
+          "note": "OnePlus's official specification gives the three camera roles; the catalog numeric field represents main-camera megapixels.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "50 MP Sony IMX766, f/1.88, optical image stabilization",
+          "normalizedValue": "Sony IMX766, 50 MP, OIS",
+          "note": "Manufacturer specification; no separate sensor die-size measurement is recorded.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "8 MP ultrawide, 119.7-degree field of view, f/2.25, EIS",
+          "normalizedValue": "8 MP ultrawide, 119.7-degree FOV",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "No telephoto module; third rear lens is a 2 MP monochrome camera",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "OnePlus identifies the third rear lens as monochrome, not telephoto.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "32 MP Sony IMX615, f/2.45",
+          "normalizedValue": 32,
+          "note": "Manufacturer specification; this numeric field records resolution only.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Rear: 4K 30 fps; 1080p 30/60 fps; 720p 30/60 fps; slow motion 1080p 120 fps and 720p 240 fps. Front: 1080p 30 fps and 720p 30 fps.",
+          "normalizedValue": "Rear 4K30; 1080p30/60; 720p30/60; slow motion 1080p120/720p240. Front 1080p30/720p30.",
+          "note": "Mode and frame-rate combinations from the manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "4,500 mAh typical dual-cell battery",
+          "normalizedValue": 4500,
+          "note": "OnePlus lists 4,500 mAh typical capacity; performance may vary.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Dual-cell battery; cell chemistry not stated",
+          "normalizedValue": "Dual-cell; chemistry not recorded",
+          "note": "Only the manufacturer-published cell arrangement is recorded; lithium-polymer chemistry is not inferred.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_global_press",
+          "sourceValue": "Warp Charge 65",
+          "normalizedValue": 65,
+          "note": "Manufacturer launch release and specification list 65 W Warp Charge.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "chargingW",
+          "catalogValue": 65,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Wireless or reverse charging support not specified in reviewed manufacturer materials",
+          "normalizedValue": null,
+          "note": "No support or absence is inferred from silence.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "159.12 x 73.31 x 8.25 mm",
+          "normalizedValue": "159.12 x 73.31 x 8.25 mm",
+          "note": "Manufacturer product specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "dimensions",
+          "catalogValue": "159.12 x 73.31 x 8.25 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "189 g; manufacturer notes measurement may vary by configuration/process",
+          "normalizedValue": 189,
+          "note": "Manufacturer product specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "weightG",
+          "catalogValue": 189,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nord2_manilashaker_ph",
+          "sourceValue": "Gorilla Glass 5 front and back; frame material not recorded",
+          "normalizedValue": "Gorilla Glass 5 front/back; frame not recorded",
+          "note": "Contemporaneous Philippine coverage reports front/back glass protection. No frame material is inferred.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_manual",
+          "sourceValue": "OnePlus says the device is designed for water resistance under certain conditions; no formal IP rating is stated",
+          "normalizedValue": "Water resistance under certain conditions; IP rating not recorded",
+          "note": "Manufacturer manual wording is not converted to an IP certification or immersion guarantee.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Dual nano-SIM slot; eSIM support not stated",
+          "normalizedValue": "Dual nano-SIM; eSIM not recorded",
+          "note": "Manufacturer lists two nano-SIM slots; eSIM is left unrecorded.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "sim",
+          "catalogValue": "Dual nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "4G LTE FDD B1/2/3/4/5/7/8/12/17/18/19/20/26/28/38/32/34/39/40/41/66; 5G NSA N1/3/7/8/20/28/38/41/78; 5G SA N1/3/7/20/28/78/41/8",
+          "normalizedValue": "LTE FDD B1/2/3/4/5/7/8/12/17/18/19/20/26/28/38/32/34/39/40/41/66; NR NSA N1/3/7/8/20/28/38/41/78; NR SA N1/3/7/20/28/78/41/8",
+          "note": "OnePlus publishes these bands for its Nord 2 5G specifications page. It cautions network availability varies by carrier; the local NTC GEC's radio ranges are not treated as carrier-band validation.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "cellular",
+          "catalogValue": "LTE FDD B1/2/3/4/5/7/8/12/17/18/19/20/26/28/38/32/34/39/40/41/66; NR NSA N1/3/7/8/20/28/38/41/78; NR SA N1/3/7/20/28/78/41/8"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac/ax, 2.4/5 GHz, 2x2 MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), dual-band 2x2 MIMO",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), dual-band 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Bluetooth 5.2; aptX, aptX HD, LDAC, AAC support listed",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "USB 2.0 Type-C; included Warp Type-C cable supports USB 2.0",
+          "normalizedValue": "USB 2.0 Type-C",
+          "note": "Manufacturer specification; charging power and data standard are separate capabilities.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "ports",
+          "catalogValue": "USB 2.0 Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "NFC enabled",
+          "normalizedValue": "Yes",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "GPS, GLONASS, Galileo, BeiDou, NavIC",
+          "normalizedValue": "GPS, GLONASS, Galileo, BeiDou, NavIC",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "Dual stereo speakers; noise-cancellation support",
+          "normalizedValue": "Dual stereo speakers; noise-cancellation support",
+          "note": "Manufacturer specification; this does not imply an included headset.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra",
+          "catalogKey": "sound",
+          "catalogValue": "Dual stereo speakers; noise-cancellation support"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "nord2_oneplus_official_specs",
+          "sourceValue": "In-display fingerprint sensor, accelerometer, electronic compass, gyroscope, ambient-light sensor, SAR sensor, proximity sensor",
+          "normalizedValue": "In-display fingerprint; accelerometer; electronic compass; gyroscope; ambient light; SAR; proximity",
+          "note": "Full sensor list as published by OnePlus.",
+          "configurationMatch": "Philippine OnePlus Nord 2 5G DN2103: 12 GB RAM / 256 GB storage / Gray Sierra"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch and Digital Walker preorder reported July 23, 2021; NTC records local DN2103 equipment conformity for Digits Trading Corp. No currently purchasable exact-variant local price was verified.",
+        "philippineAvailability": "YugaTech reports the OnePlus Nord 2 5G's Philippine unveiling and preorder at Digital Walker beginning July 23, 2021, with two exact local configurations: 8 GB / 128 GB Blue Haze at PHP 21,990 and 12 GB / 256 GB Gray Sierra at PHP 25,990. NTC records DN2103 / Nord 2 5G for Digits Trading Corp. Two NTC report copies disagree on the grant number (2106881 vs 2106851), while the model code, marketing name, applicant, and issue date agree. Workbook scope remains Pending.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "OnePlus",
+        "productLine": "OnePlus Nord 2 5G",
+        "modelNumber": "DN2103",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Reported Philippine launch/preorder start date",
+        "researchNotes": "The workbook label OnePlus Nord 2 matches the Philippine-market Nord 2 5G model DN2103. OnePlus's manufacturer press release is dated July 21, 2021; local launch coverage reports preorder starting July 23. NTC records model DN2103 as Nord 2 5G for Digits Trading Corp on July 30, but two regional NTC report copies differ on the grant number (ESD-GEC-2106881 vs ESD-GEC-2106851), so both are retained as a source discrepancy. Philippine launch evidence supports two separate variants, Blue Haze 8/128 GB at PHP 21,990 and Gray Sierra 12/256 GB at PHP 25,990. OnePlus's published specification page provides detailed model specifications, while MediaTek supplies chipset-level process/CPU details. The Digital Walker URL linked from the 2021 article returned 404 on November 26, 2026. A Shopee result for DN2103 12/256 listed PHP 22,885 after voucher but marked the item Sold Out and displayed a stale November 2-9 delivery estimate; it is not treated as a current purchasable price. Current exact-variant prices remain Not recorded. The OnePlus product page links a Gray Sierra image, but reuse permission is not stated; the neutral placeholder remains. Workbook scope stays Pending.",
+        "qualityFlag": "Philippine DN2103 model and two launch configurations verified; current purchasable prices not found; grant-number discrepancy retained; image reuse rights not established; workbook scope remains Pending",
+        "openIssues": [
+          {
+            "issue": "NTC source copies label the DN2103 GEC record as both ESD-GEC-2106881 and ESD-GEC-2106851",
+            "action": "Preserve both source references and do not silently choose a grant number; the DN2103 / Nord 2 5G identity is consistent."
+          },
+          {
+            "issue": "No current purchasable price was established for either Philippine configuration",
+            "action": "Keep current price blank; preserve the sold-out marketplace price only as a rejected, stale candidate."
+          },
+          {
+            "issue": "The Shopee result is sold out and its displayed delivery window was already past at review time; item condition and seller authorization are unstated",
+            "action": "Do not present PHP 22,885 as a current offer or use it for active price filtering."
+          },
+          {
+            "issue": "The exact Digital Walker product page linked from the launch report now returns 404",
+            "action": "Do not infer product discontinuation from the unavailable page alone."
+          },
+          {
+            "issue": "OnePlus official Nord 2 image is associated with the Gray Sierra product page but has no stated reuse terms",
+            "action": "Keep the neutral placeholder unless image reuse permission is documented."
+          },
+          {
+            "issue": "Workbook scope/eligibility remains Pending",
+            "action": "Preserve Pending and follow the existing study eligibility rules."
+          }
+        ]
+      }
     }
   ]
 }

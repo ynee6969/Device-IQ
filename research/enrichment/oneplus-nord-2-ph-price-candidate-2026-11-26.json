@@ -1,0 +1,73 @@
+{
+  "run_at": "2026-11-26T15:35:30+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_15827b1eab335d",
+      "brand": "OnePlus",
+      "model_name": "Nord 2",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_15827b1eab335d",
+      "source_url": "https://digitalwalker.ph/collections/oneplus/products/oneplus-nord-2",
+      "result": "HTTP 404 on 2026-11-26; unavailable page is not proof of discontinuation"
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_15827b1eab335d",
+      "amount_php": 21990,
+      "configuration_id": "device_15827b1eab335d-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_list_price",
+      "source_published_at": "2021-07-23",
+      "excerpt": "Philippine launch price PHP 21,990 for 8 GB / 128 GB Blue Haze.",
+      "source_url": "https://www.yugatech.com/news/oneplus-nord-2-5g-specs-price-now-official/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T15:35:30+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_15827b1eab335d",
+      "amount_php": 25990,
+      "configuration_id": "device_15827b1eab335d-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_list_price",
+      "source_published_at": "2021-07-23",
+      "excerpt": "Philippine launch price PHP 25,990 for 12 GB / 256 GB Gray Sierra.",
+      "source_url": "https://www.yugatech.com/news/oneplus-nord-2-5g-specs-price-now-official/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T15:35:30+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_15827b1eab335d",
+      "amount_php": 22885,
+      "configuration_id": "device_15827b1eab335d-12gb-256gb-ph",
+      "configuration_match": "exact_configuration_but_sold_out_and_stale",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "rejected_sold_out_marketplace_candidate_after_voucher",
+      "source_published_at": null,
+      "excerpt": "Shopee result displayed PHP 22,885 after voucher for DN2103 12 GB / 256 GB, but marked Sold Out and showed a November 2-9 delivery estimate already past at review time; not treated as current or purchasable. Condition and seller authorization not established.",
+      "source_url": "https://shopee.ph/OnePlus-Nord-2-%28DN2103%29-Dual-SIm-Nano-SIM-5G-12GB-256GB-Media-Tek-Dimensity-1200-AI-6.43-inch-Display-i.92926624.20934641209",
+      "source_kind": "sold_out_marketplace_price_candidate_not_current",
+      "observed_at": "2026-11-26T15:35:30+08:00",
+      "local_availability_verified": false,
+      "availability_status": "sold_out_stale_listing_price_not_current"
+    }
+  ]
+}

@@ -67,8 +67,16 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [369, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 568);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [370, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 569);
+const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
+assert.ok(nord2);
+assert.equal(nord2.scopeStatus, "Pending");
+assert.equal(nord2.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.deepEqual(nord2.variants.map((variant) => variant.label), [
+  "8 GB RAM / 128 GB storage — Blue Haze", "12 GB RAM / 256 GB storage — Gray Sierra",
+]);
+assert.ok(nord2.variants.every((variant) => variant.pricePhp === null));
 const blackShark4 = publicDevices.find((device) => device.id === "device_fa4c0f6cdc39f6");
 assert.ok(blackShark4);
 assert.deepEqual(blackShark4.variants.map((variant) => variant.label), [
