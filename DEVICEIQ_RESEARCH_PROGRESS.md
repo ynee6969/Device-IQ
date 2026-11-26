@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T12:43:54+08:00
+Updated: 2026-11-26T12:53:53+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-26T12:43:54+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 556 |
-| Models with manually verified source fields | 286 |
-| Configurations with manually verified source fields | 389 |
+| Models with manually verified source fields | 287 |
+| Configurations with manually verified source fields | 390 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 12 |
 | Specification-complete models | 0 |
 | Incomplete models | 445 |
 | Applicable field assignments | 25433 |
-| Fields assessed | 11511 |
-| Verified fields | 11138 |
-| Pending fields | 13922 |
+| Fields assessed | 11554 |
+| Verified fields | 11170 |
+| Pending fields | 13879 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -120,7 +120,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2024 | smartphones | CHERRY | 2 | 0 | 2 | 0 | 0 | 2 | 59 | 59 | 31 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | CMF | 1 | 0 | 1 | 0 | 0 | 1 | 64 | 64 | 26 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | HMD | 4 | 0 | 4 | 0 | 0 | 4 | 0 | 0 | 180 | 0 | 0 | 0 | 0 | 1 | 3 | PARTIAL_WITH_PENDING_FIELDS |
-| 2024 | smartphones | HONOR | 4 | 0 | 4 | 0 | 0 | 4 | 63 | 63 | 117 | 2 | 2 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
+| 2024 | smartphones | HONOR | 4 | 1 | 4 | 0 | 0 | 4 | 106 | 95 | 74 | 2 | 3 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | Huawei | 3 | 0 | 3 | 0 | 0 | 3 | 59 | 59 | 76 | 2 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | Infinix | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2024 | smartphones | Nothing | 2 | 0 | 2 | 0 | 0 | 2 | 102 | 102 | 33 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |

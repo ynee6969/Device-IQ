@@ -131701,6 +131701,542 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_38ef56f303cc59",
+      "configurationId": "device_38ef56f303cc59-12gb-256gb-ph",
+      "brand": "HONOR",
+      "model": "X9b",
+      "configuration": "12 GB RAM / 256 GB storage",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "honor_x9b_ph_official_product",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-x9b/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine product identity and model-family reference",
+          "note": "HONOR Philippines identifies the product as HONOR X9b 5G. This official product page corroborates model identity; the accessible page text does not expose a complete specification table."
+        },
+        {
+          "id": "honor_x9b_ph_official_specs",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-x9b/spec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine model specification page and product imagery",
+          "note": "The official Philippines specifications page identifies HONOR X9b and presents its color variants. Its text rendering does not expose the specification values, so values below are attributed to the contemporaneous Philippine reporting that prints them."
+        },
+        {
+          "id": "honor_x9b_ph_launch_yugatech",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "publicationDate": "2024-01-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, exact configuration, specifications, preorder date, and price",
+          "note": "Published 2024-01-12. Reports the HONOR X9b 5G Philippine preorder from January 12–19 at PHP 16,999 and identifies a 12 GB RAM / 256 GB storage configuration with detailed specifications."
+        },
+        {
+          "id": "honor_x9b_ph_price_history_yugatech",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/honor-phone-price-list-philippines/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine price-history cross-check",
+          "note": "The HONOR phone price-list row identifies HONOR X9b 5G at PHP 16,999 and marks the entry verified January 13, 2024. This is historical launch-era evidence, not a current offer."
+        },
+        {
+          "id": "honor_x9b_ph_review_ptg",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/reviews/honor-x9b-5g",
+          "publicationDate": "2024-01-22",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine hands-on review and specification cross-check",
+          "note": "Published 2024-01-22. The review identifies the HONOR X9b 5G, lists 12 GB RAM / 256 GB storage, and reports the Philippine official price as PHP 16,999. It also describes the tested device and its features."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "No Philippine SKU or model code stated",
+          "normalizedValue": null,
+          "note": "The Philippine launch and manufacturer pages reviewed identify the marketing model but do not expose a Philippine SKU/model code.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "12 GB RAM / 256 GB storage",
+          "normalizedValue": "12 GB RAM / 256 GB storage",
+          "note": "YugaTech's contemporaneous Philippine launch report gives this exact configuration; PTG's Philippine review independently lists the same RAM and storage.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Preorders ran January 12–19, 2024",
+          "normalizedValue": "2024-01-12",
+          "note": "This is the first documented Philippine preorder date, not a separately verified first retail-sale date.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "PHP 16,999 preorder price, reported 2024-01-12",
+          "normalizedValue": 16999,
+          "note": "Historical Philippine preorder/launch-era price for the reported 12 GB / 256 GB configuration; not a current offer.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_price_history_yugatech",
+          "sourceValue": "The listed PHP 16,999 entry is dated January 13, 2024; no current dated offer is supplied",
+          "normalizedValue": null,
+          "note": "The accessible price history is explicitly dated 2024. No current Philippine price observation is inferred from it.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "6.78 inches",
+          "normalizedValue": 6.78,
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.78,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "1200 × 2652 pixels; 1.5K",
+          "normalizedValue": "1200 x 2652",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "1200 x 2652"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "1200 nits peak",
+          "normalizedValue": 1200,
+          "note": "The source labels 1200 nits as peak brightness.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Ultra-Bounce Anti-Drop Display; source reports SGS 5-Star Overall Drop Resistance certification",
+          "normalizedValue": "Ultra-Bounce Anti-Drop Display; SGS 5-Star Overall Drop Resistance reported",
+          "note": "Retains the source's marketing/certification wording without inferring a glass material or guaranteeing drop outcomes.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Qualcomm Snapdragon 6 Gen 1",
+          "normalizedValue": "Qualcomm Snapdragon 6 Gen 1",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 6 Gen 1"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Octa-core, up to 2.2 GHz",
+          "normalizedValue": "Octa-core, up to 2.2 GHz",
+          "note": "YugaTech gives the core count and maximum clock; individual core layout is not supplied.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, up to 2.2 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Adreno A710",
+          "normalizedValue": "Adreno A710",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno A710"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "MagicOS 7.2 based on Android 13",
+          "normalizedValue": "MagicOS 7.2 (Android 13)",
+          "note": "Software version reported at Philippine launch; later updates are not inferred.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "MagicOS 7.2 (Android 13)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "12 GB RAM",
+          "normalizedValue": 12,
+          "note": "Exact Philippine launch configuration. No virtual RAM is added to the physical RAM figure.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "RAM type not listed",
+          "normalizedValue": null,
+          "note": "The source reports capacity but not memory technology.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "256 GB storage",
+          "normalizedValue": 256,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Storage technology not listed",
+          "normalizedValue": null,
+          "note": "The reviewed Philippine sources do not identify eMMC/UFS storage type.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Storage expansion support not listed",
+          "normalizedValue": null,
+          "note": "No expansion information is stated in the reviewed launch specification.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "108 MP f/1.75 main + 5 MP f/2.2 wide/depth + 2 MP f/2.4 macro",
+          "normalizedValue": "108 MP main + 5 MP wide/depth + 2 MP macro",
+          "note": "Module roles and apertures follow YugaTech's launch specification.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "108 MP main camera; sensor model not stated",
+          "normalizedValue": null,
+          "note": "Resolution does not identify the camera sensor model.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "5 MP f/2.2 wide/depth camera",
+          "normalizedValue": "5 MP wide/depth",
+          "note": "The source combines the wide and depth role; it does not support describing this as a dedicated ultra-wide-only module.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "The listed rear system consists of main, wide/depth, and macro modules; no telephoto module is listed",
+          "normalizedValue": "No dedicated telephoto module listed",
+          "note": "The source enumerates the complete triple-rear-camera system without a telephoto module.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "16 MP f/2.45",
+          "normalizedValue": 16,
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Video recording modes not listed",
+          "normalizedValue": null,
+          "note": "No video resolution/frame-rate modes are provided in the reviewed launch specification.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "5800 mAh",
+          "normalizedValue": 5800,
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5800,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Battery chemistry not listed",
+          "normalizedValue": null,
+          "note": "The reviewed sources state capacity but not cell chemistry or rated/typical distinction.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "35 W",
+          "normalizedValue": 35,
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 35,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Wireless charging not listed",
+          "normalizedValue": null,
+          "note": "Wireless or reverse charging is not specified in the reviewed sources.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "163.6 × 75.5 × 7.98 mm",
+          "normalizedValue": "163.6 x 75.5 x 7.98 mm",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "163.6 x 75.5 x 7.98 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "185 g",
+          "normalizedValue": 185,
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 185,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Sunrise Orange is identified as vegan leather; materials for other colors not stated",
+          "normalizedValue": "Sunrise Orange variant: vegan leather back; other color materials not recorded",
+          "note": "Color-specific material information is not generalized to every unit or variant.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "IP53 splash and dust resistance",
+          "normalizedValue": "IP53",
+          "note": "Rating reported by YugaTech; it does not imply water immersion resistance.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Dual Nano-SIM",
+          "normalizedValue": "Dual Nano-SIM",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "5G and 4G LTE; specific bands not listed",
+          "normalizedValue": "5G NR and 4G LTE; bands not recorded",
+          "note": "Network generations are listed; no Philippine band mapping is inferred.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "cellular",
+          "catalogValue": "5G NR and 4G LTE; bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "802.11 a/b/g/n/ac",
+          "normalizedValue": "802.11 a/b/g/n/ac",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "802.11 a/b/g/n/ac"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Bluetooth 5.1",
+          "normalizedValue": "Bluetooth 5.1",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "note": "YugaTech's Philippine specification list; transfer speed is not stated.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "NFC",
+          "normalizedValue": "Yes",
+          "note": "YugaTech lists NFC support.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo",
+          "normalizedValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_x9b_ph_review_ptg",
+          "sourceValue": "No stereo loudspeakers (PTG review observation)",
+          "normalizedValue": "No stereo loudspeakers reported",
+          "note": "A hands-on review reports no stereo loudspeakers; speaker hardware details are otherwise not expanded.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_x9b_ph_launch_yugatech",
+          "sourceValue": "Sensor list not provided",
+          "normalizedValue": null,
+          "note": "No complete sensor list is present in the reviewed launch sources.",
+          "configurationMatch": "Model-level source; Philippine configuration 12 GB RAM / 256 GB storage"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_38ef56f303cc59-12gb-256gb-ph",
+          "label": "12 GB RAM / 256 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "YugaTech's contemporaneous Philippine launch report and Pinoy Techno Guide's local review identify the 12 GB RAM / 256 GB configuration. No Philippine SKU or model code is recorded."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine preorder was reported January 12–19, 2024; current stock is not established.",
+        "philippineAvailability": "YugaTech reported preorders through HONOR Experience/Partner Stores and official online shops beginning January 12, 2024.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HONOR",
+        "productLine": "X Series",
+        "philippineReleaseYear": 2024,
+        "philippineDateLabel": "Philippine preorder start",
+        "researchNotes": "The inventory label HONOR X9b matches the official HONOR Philippines product and Philippine HONOR X9b 5G reports. The documented local configuration is 12 GB RAM / 256 GB storage. PHP 16,999 and January 12, 2024 are historical preorder evidence, not a current price or retail first-sale date.",
+        "qualityFlag": "Exact local SKU and retail first-sale date not recorded; price is historical",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine SKU/model code is not recorded",
+            "action": "Keep SKU/model code blank until a source names it."
+          },
+          {
+            "issue": "Current retail price and stock are not verified",
+            "action": "Retain PHP 16,999 as launch-era evidence only; do not show it as a current offer."
+          },
+          {
+            "issue": "Some detailed specifications are not disclosed in the reviewed sources",
+            "action": "Keep unlisted CPU layout, memory/storage type, camera sensor model, video modes, battery chemistry, and sensors not recorded."
+          },
+          {
+            "issue": "Exact retail first-sale date is not recorded",
+            "action": "Label January 12, 2024 as preorder start only."
+          },
+          {
+            "issue": "Official product image reuse terms are not established",
+            "action": "Continue showing the neutral placeholder until image-use rights are confirmed."
+          }
+        ]
+      }
     }
   ]
 }

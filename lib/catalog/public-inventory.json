@@ -7805,44 +7805,139 @@
     "category": "smartphones",
     "brand": "HONOR",
     "model": "X9b",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HONOR",
+    "productLine": "X Series",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2024-01-12",
+    "philippineDateLabel": "Philippine preorder start",
+    "philippineReleaseYear": 2024,
     "claimedReleaseYear": 2024,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact local SKU and retail first-sale date not recorded; price is historical",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "YugaTech reported preorders through HONOR Experience/Partner Stores and official online shops beginning January 12, 2024.",
+    "availabilityStatus": "Philippine preorder was reported January 12–19, 2024; current stock is not established.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The inventory label HONOR X9b matches the official HONOR Philippines product and Philippine HONOR X9b 5G reports. The documented local configuration is 12 GB RAM / 256 GB storage. PHP 16,999 and January 12, 2024 are historical preorder evidence, not a current price or retail first-sale date.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Exact Philippine SKU/model code is not recorded",
+        "action": "Keep SKU/model code blank until a source names it."
+      },
+      {
+        "issue": "Current retail price and stock are not verified",
+        "action": "Retain PHP 16,999 as launch-era evidence only; do not show it as a current offer."
+      },
+      {
+        "issue": "Some detailed specifications are not disclosed in the reviewed sources",
+        "action": "Keep unlisted CPU layout, memory/storage type, camera sensor model, video modes, battery chemistry, and sensors not recorded."
+      },
+      {
+        "issue": "Exact retail first-sale date is not recorded",
+        "action": "Label January 12, 2024 as preorder start only."
+      },
+      {
+        "issue": "Official product image reuse terms are not established",
+        "action": "Continue showing the neutral placeholder until image-use rights are confirmed."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9b/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine product identity and model-family reference",
+        "note": "HONOR Philippines identifies the product as HONOR X9b 5G. This official product page corroborates model identity; the accessible page text does not expose a complete specification table."
+      },
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9b/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine model specification page and product imagery",
+        "note": "The official Philippines specifications page identifies HONOR X9b and presents its color variants. Its text rendering does not expose the specification values, so values below are attributed to the contemporaneous Philippine reporting that prints them."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2024-01-12",
+        "purpose": "Contemporaneous Philippine launch, exact configuration, specifications, preorder date, and price",
+        "note": "Published 2024-01-12. Reports the HONOR X9b 5G Philippine preorder from January 12–19 at PHP 16,999 and identifies a 12 GB RAM / 256 GB storage configuration with detailed specifications."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/honor-phone-price-list-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Dated Philippine price-history cross-check",
+        "note": "The HONOR phone price-list row identifies HONOR X9b 5G at PHP 16,999 and marks the entry verified January 13, 2024. This is historical launch-era evidence, not a current offer."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/reviews/honor-x9b-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2024-01-22",
+        "purpose": "Independent Philippine hands-on review and specification cross-check",
+        "note": "Published 2024-01-22. The review identifies the HONOR X9b 5G, lists 12 GB RAM / 256 GB storage, and reports the Philippine official price as PHP 16,999. It also describes the tested device and its features."
+      }
+    ],
     "variants": [
       {
-        "id": "device_38ef56f303cc59-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_38ef56f303cc59-12gb-256gb-ph",
+        "label": "12 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.78,
+          "displayType": "AMOLED",
+          "resolution": "1200 x 2652",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 6 Gen 1",
+          "cpu": "Octa-core, up to 2.2 GHz",
+          "gpu": "Adreno A710",
+          "os": "MagicOS 7.2 (Android 13)",
+          "ramGb": 12,
+          "storageGb": 256,
+          "frontCameraMp": 16,
+          "batteryMah": 5800,
+          "chargingW": 35,
+          "dimensions": "163.6 x 75.5 x 7.98 mm",
+          "weightG": 185,
+          "cellular": "5G NR and 4G LTE; bands not recorded",
+          "wifi": "802.11 a/b/g/n/ac",
+          "ports": "USB Type-C"
+        },
+        "specSources": {
+          "displayInches": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "displayType": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "resolution": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "refreshHz": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "chipset": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "cpu": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "gpu": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "os": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "ramGb": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "storageGb": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "frontCameraMp": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "batteryMah": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "chargingW": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "dimensions": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "weightG": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "cellular": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "wifi": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/",
+          "ports": "https://www.yugatech.com/news/honor-x9b-5g-specs-price-philippines/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "YugaTech's contemporaneous Philippine launch report and Pinoy Techno Guide's local review identify the 12 GB RAM / 256 GB configuration. No Philippine SKU or model code is recorded.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null
