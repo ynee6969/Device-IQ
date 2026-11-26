@@ -145744,6 +145744,1199 @@
         }
       ],
       "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_5bc54f4d744bec",
+      "configurationId": "device_5bc54f4d744bec-4gb-64gb-ph",
+      "brand": "Coolpad",
+      "model": "CP12",
+      "configuration": "4 GB RAM / 64 GB storage",
+      "configurationLabel": "4 GB RAM / 64 GB storage",
+      "sources": [
+        {
+          "id": "coolpad_cp12_official_video",
+          "publisher": "Coolpad Official",
+          "url": "https://www.youtube.com/watch?v=5fgVz_MJohM",
+          "publicationDate": "2023-08-24",
+          "accessDate": "2026-11-26",
+          "purpose": "Official product identity and official-unboxing reference",
+          "note": "Coolpad's verified channel published a CP12 unboxing video on August 24, 2023. It establishes the manufacturer's use of the CP12 product name, but the video description does not state a model code, Philippine SKU, specifications, or first sale date."
+        },
+        {
+          "id": "coolpad_cp12_global_page",
+          "publisher": "Coolpad Global",
+          "url": "https://www.coolpad.com/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Attempted official product-page review",
+          "note": "The Coolpad global website was checked for a CP12 model-specific specification page, but no readable exact-model specification content was available in this review. No facts are promoted from the site homepage."
+        },
+        {
+          "id": "coolpad_cp12_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "publicationDate": "2023-10-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability, configurations, launch prices, and local specification evidence",
+          "note": "Published October 5, 2023, YugaTech reports Coolpad's Philippine introduction of the CP12. Its CP12 spec list identifies 4 GB RAM, 64 GB / 128 GB storage, UNISOC SC9863A, cameras, connectivity, Android 13, battery, colors, and 3.5 mm audio. The article reports Bluetooth 4.2 while other local references say 5.0; its dimensions list 8.4 mm while two other sources list 8.3 mm. Exact-model photos appear on the page without recorded reuse terms."
+        },
+        {
+          "id": "coolpad_cp12_noypi_ph",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/coolpad-cp12/",
+          "publicationDate": "2023-10-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch price and exact-model specification cross-check",
+          "note": "Published October 5, 2023, it reports PHP 3,899 for 4 GB / 64 GB and PHP 4,299 for 4 GB / 128 GB, with an official Shopee store noted. It corroborates the local display, 4G chipset, memory, cameras, battery, OS, USB-C, and sensors; it lists Bluetooth 5.0 and dimensions 8.3 mm, differing from YugaTech's Bluetooth 4.2 and 8.4 mm."
+        },
+        {
+          "id": "coolpad_cp12_unboxdiaries",
+          "publisher": "Unbox Diaries",
+          "url": "https://unboxdiaries.com/phones/coolpad-cp12/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model specification cross-check, including the 128 GB configuration",
+          "note": "The exact-model page provides detailed 4 GB / 128 GB specs, including eMMC 5.1, 10 W charging, Li-Po battery, 1080p30 rear video, USB-C 2.0 OTG, and sensors. It says Bluetooth 5.0 and no 3.5 mm headphone jack, conflicting with YugaTech's Bluetooth 4.2 and reported headphone jack. Its price is TBA, so it does not establish a current offer."
+        },
+        {
+          "id": "coolpad_cp12_unisoc_sc9863a",
+          "publisher": "UNISOC",
+          "url": "https://www.unisoc.com/en/product/SmartPhone/9863A",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary SC9863A CPU, GPU, process, memory, storage-platform, connectivity, and radio-capability reference",
+          "note": "UNISOC specifies an octa-core Arm Cortex-A55 SC9863A up to 1.6 GHz, PowerVR GE8322, process alternatives 28 nm HPC+ / 22 nm, LPDDR3/LPDDR4X and eMMC 5.1 platform support, Wi-Fi b/g/n, Bluetooth 4.2, LTE, GPS/GLONASS/BeiDou, and FM. The platform's alternative capabilities are not assumed to be present in each CP12 configuration."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_official_video",
+          "sourceValue": "Coolpad's official channel identifies the product as CP12 but supplies no separate alphanumeric hardware model code",
+          "normalizedValue": null,
+          "note": "Keep the model-code field blank; the public product name itself is CP12.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_official_video",
+          "sourceValue": "Coolpad's official unboxing video is dated August 24, 2023; no official global first-sale date was found",
+          "normalizedValue": null,
+          "note": "An unboxing publication date is not a first-sale date. Keep the global release date unset.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Philippine CP12 configuration: 4 GB RAM / 64 GB storage",
+          "normalizedValue": "4 GB RAM / 64 GB storage",
+          "note": "YugaTech's Philippine launch coverage identifies both 4 GB storage variants separately; this review is for the listed configuration only.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "YugaTech and NoypiGeeks reported the CP12 launched/available in the Philippines on October 5, 2023",
+          "normalizedValue": "2023-10-05",
+          "note": "Dated local launch coverage, not an exact first transaction timestamp.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Philippine launch price: PHP 3,899 for 4 GB / 64 GB",
+          "normalizedValue": 3899,
+          "note": "Historical local launch price for this exact configuration; not a current price.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "The reviewed local prices are dated October 2023; no current dated and orderable Philippine offer was verified",
+          "normalizedValue": null,
+          "note": "Keep the public catalog current price blank; retain launch prices in the candidate audit only.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "6.517-inch waterdrop display, commonly rounded to 6.52 inches",
+          "normalizedValue": 6.52,
+          "note": "YugaTech and NoypiGeeks list this same rounded size.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.52,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "6.52-inch IPS LCD display",
+          "normalizedValue": "IPS LCD",
+          "note": "NoypiGeeks and Unbox Diaries list IPS LCD.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "HD+ 1600 x 720 pixels",
+          "normalizedValue": "1600 x 720",
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "1600 x 720"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "60 Hz",
+          "normalizedValue": 60,
+          "note": "NoypiGeeks and Unbox Diaries list 60 Hz.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No brightness value recorded in the reviewed local exact-model sources",
+          "normalizedValue": null,
+          "note": "Do not infer brightness.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No cover-glass type or display-protection rating recorded",
+          "normalizedValue": null,
+          "note": "Keep display protection blank.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "UNISOC SC9863A",
+          "normalizedValue": "UNISOC SC9863A",
+          "note": "YugaTech and NoypiGeeks identify the same exact-model chipset; UNISOC provides its official platform page.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "UNISOC SC9863A"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "UNISOC lists process alternatives 28 nm HPC+ / 22 nm for SC9863A without identifying which is used in this phone",
+          "normalizedValue": null,
+          "note": "Do not select one of the platform's alternative process values for the CP12.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "Octa-core Arm Cortex-A55, maximum 1.6 GHz; Unbox Diaries reports 4x1.6 GHz plus 4x1.2 GHz",
+          "normalizedValue": "Octa-core Cortex-A55, up to 1.6 GHz",
+          "note": "UNISOC confirms the architecture and top frequency; the per-cluster arrangement is secondary-source detail and is not made the catalog value.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Cortex-A55, up to 1.6 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "Imagination PowerVR GE8322 (UNISOC product page has a minor label typo in the rendered heading)",
+          "normalizedValue": "Imagination PowerVR GE8322",
+          "note": "UNISOC, YugaTech, and NoypiGeeks identify the GE8322.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Imagination PowerVR GE8322"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Android 13",
+          "normalizedValue": "Android 13",
+          "note": "Exact-model local launch spec.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No update policy, support duration, or end-of-support date found",
+          "normalizedValue": null,
+          "note": "No software-support commitment is inferred.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "4 GB RAM",
+          "normalizedValue": 4,
+          "note": "Both documented Philippine configurations have 4 GB RAM.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "The SoC platform supports LPDDR3 or LPDDR4/4X; the CP12's installed RAM type is not identified",
+          "normalizedValue": null,
+          "note": "Platform support is not proof of the installed memory type.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "64 GB storage",
+          "normalizedValue": 64,
+          "note": "This separate configuration is explicitly listed in Philippine launch coverage.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "The 4 GB / 64 GB Philippine configuration is confirmed, but its installed storage interface is not stated",
+          "normalizedValue": null,
+          "note": "Only the 128 GB variant's local spec table identifies eMMC 5.1; the 64 GB interface remains unrecorded.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "YugaTech lists a microSD slot; NoypiGeeks says the 128 GB configuration is expandable via microSD",
+          "normalizedValue": "microSD supported; capacity limit and tray sharing not confirmed for PH SKUs",
+          "note": "Do not infer a maximum card size or SIM-tray arrangement.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "13 MP main camera + 2 MP macro camera",
+          "normalizedValue": "13 MP main + 2 MP macro",
+          "note": "Catalog numeric value is the main rear-camera resolution.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "13 MP wide main camera with autofocus; sensor maker/model not stated",
+          "normalizedValue": "13 MP wide autofocus; sensor model not disclosed",
+          "note": "No sensor identity is inferred from the resolution.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "The complete listed rear system is 13 MP main + 2 MP macro; no ultrawide camera is listed",
+          "normalizedValue": "No ultrawide camera listed",
+          "note": "Based on the complete two-camera rear specification.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "The complete listed rear system is 13 MP main + 2 MP macro; no telephoto camera is listed",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "Based on the complete two-camera rear specification.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "5 MP front camera",
+          "normalizedValue": 5,
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 5,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "Rear video listed at 1080p30; complete modes and front-camera frame rate are not specified",
+          "normalizedValue": "Rear 1080p30; other modes not recorded",
+          "note": "Do not infer additional video modes from the SoC platform.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "video",
+          "catalogValue": "Rear 1080p30; other modes not recorded"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "4,500 mAh",
+          "normalizedValue": 4500,
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "Li-Po, non-removable",
+          "normalizedValue": "Li-Po; non-removable",
+          "note": "Exact-model technical listing; the local launch sources confirm capacity but do not state chemistry.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "10 W wired charging",
+          "normalizedValue": 10,
+          "note": "NoypiGeeks and Unbox Diaries list 10 W.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 10,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Wireless and reverse wireless charging are not stated in the reviewed exact-model sources",
+          "normalizedValue": null,
+          "note": "Do not infer absence from silence.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "164.2 x 75.7 x 8.3 mm; YugaTech reports thickness as 8.4 mm",
+          "normalizedValue": "164.2 x 75.7 x 8.3 mm",
+          "note": "Two local detailed references use 8.3 mm; YugaTech rounds/reports 8.4 mm. Preserve the difference in this note.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.2 x 75.7 x 8.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "190 g",
+          "normalizedValue": 190,
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 190,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "NoypiGeeks describes a glass-like rear panel; Unbox Diaries lists glass front and rear, but no readable Coolpad material specification was found",
+          "normalizedValue": null,
+          "note": "The descriptions are not precise enough to assert front/rear construction. Leave materials unset.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No IP rating or water-resistance certification recorded",
+          "normalizedValue": null,
+          "note": "No protection rating is inferred.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Dual-SIM; eSIM not documented",
+          "normalizedValue": "Dual-SIM; eSIM not disclosed",
+          "note": "YugaTech and NoypiGeeks list dual-SIM; microSD tray sharing is not established.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "sim",
+          "catalogValue": "Dual-SIM; eSIM not disclosed"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "HSPA+ and 4G LTE; exact CP12 variant band list is not recorded",
+          "normalizedValue": "HSPA+ / 4G LTE; bands not recorded",
+          "note": "The SC9863A is an LTE platform; do not infer local carrier-band compatibility.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "cellular",
+          "catalogValue": "HSPA+ / 4G LTE; bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Wi-Fi 802.11 b/g/n",
+          "normalizedValue": "Wi-Fi 802.11 b/g/n",
+          "note": "YugaTech and UNISOC list b/g/n platform support.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 802.11 b/g/n"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "UNISOC and YugaTech list Bluetooth 4.2; NoypiGeeks and Unbox Diaries list Bluetooth 5.0",
+          "normalizedValue": null,
+          "note": "The chipset page lists Bluetooth 4.2, but two exact-model pages report 5.0. Keep the public Bluetooth value unset pending model-specific primary evidence.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "bluetooth",
+          "catalogValue": null
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "USB Type-C 2.0 with OTG",
+          "normalizedValue": "USB Type-C 2.0; OTG",
+          "note": "YugaTech independently confirms the Type-C connector.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C 2.0; OTG"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "NFC: No",
+          "normalizedValue": false,
+          "note": "Exact-model listing gives an explicit negative value; YugaTech and NoypiGeeks do not list NFC.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "GPS, GLONASS, and BeiDou",
+          "normalizedValue": "GPS, GLONASS, BeiDou",
+          "note": "NoypiGeeks exact-model table; UNISOC lists GPS/GLONASS/BeiDou platform capability.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        },
+        {
+          "fieldId": "audio",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "YugaTech lists a 3.5 mm headphone jack; Unbox Diaries says no headphone jack",
+          "normalizedValue": null,
+          "note": "Exact-model sources directly disagree. Keep the headphone-jack/audio value unset until the Philippine hardware is checked.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage",
+          "catalogKey": "sound",
+          "catalogValue": null
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "Side fingerprint reader, accelerometer, and proximity sensor; YugaTech also lists face unlock",
+          "normalizedValue": "Side fingerprint reader, accelerometer, proximity; face unlock",
+          "note": "Only sensor/authentication items explicitly listed by exact-model sources are included.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 64 GB storage"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech and NoypiGeeks reported the Coolpad CP12 in the Philippine market on October 5, 2023; NoypiGeeks noted an official Shopee store. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Contemporaneous YugaTech and NoypiGeeks coverage reports the Coolpad CP12 launched in the Philippines on October 5, 2023, with PHP 3,899 / 4 GB / 64 GB and PHP 4,299 / 4 GB / 128 GB configurations. NoypiGeeks noted an official Shopee store. This records local launch reporting, not an exact first-sale transaction timestamp.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Coolpad",
+        "catalogModel": "CP12",
+        "productLine": "Coolpad CP12",
+        "modelNumber": null,
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Philippine launch report date",
+        "researchNotes": "Workbook CP12 row matched to the Coolpad CP12 launched in the Philippines in October 2023. Two separately priced local configurations are documented: 4 GB / 64 GB and 4 GB / 128 GB. Current price, exact global first-sale date, separate model code, Bluetooth version, headphone jack, and image reuse remain unresolved; eligibility remains Pending.",
+        "qualityFlag": "CP12 local match; two PH variants recorded; current offer, model code, some hardware details, and image rights unresolved.",
+        "openIssues": [
+          {
+            "issue": "The official CP12 product name is confirmed, but the reviewed sources do not establish a separate hardware model code",
+            "action": "Keep modelNumber blank."
+          },
+          {
+            "issue": "YugaTech/UNISOC list Bluetooth 4.2 while NoypiGeeks and Unbox Diaries list 5.0",
+            "action": "Leave Bluetooth unresolved pending model-specific primary evidence."
+          },
+          {
+            "issue": "YugaTech lists a 3.5 mm jack while Unbox Diaries says no headphone jack",
+            "action": "Leave audio/headphone-jack details unresolved."
+          },
+          {
+            "issue": "Reported body thickness ranges from 8.3 to 8.4 mm across local sources",
+            "action": "Retain the source precision discrepancy; this does not create separate device variants."
+          },
+          {
+            "issue": "Only dated 2023 launch prices were verified",
+            "action": "Show current prices as not recorded; retain the two launch prices as historical observations."
+          },
+          {
+            "issue": "Exact product images are published by review sites without recorded reuse permission",
+            "action": "Continue to use the neutral placeholder until documented permission is available."
+          },
+          {
+            "issue": "Workbook eligibility status remains Pending",
+            "action": "Preserve Pending and follow the existing study eligibility rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_5bc54f4d744bec-4gb-64gb-ph",
+          "label": "4 GB RAM / 64 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Blue, Silver, and Black were listed for the model; which colors apply to this storage SKU is not recorded.",
+          "workbookRow": 134
+        },
+        {
+          "id": "device_5bc54f4d744bec-4gb-128gb-ph",
+          "label": "4 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Blue, Silver, and Black were listed for the model; which colors apply to this storage SKU is not recorded.",
+          "workbookRow": 134
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_5bc54f4d744bec",
+      "configurationId": "device_5bc54f4d744bec-4gb-128gb-ph",
+      "brand": "Coolpad",
+      "model": "CP12",
+      "configuration": "4 GB RAM / 128 GB storage",
+      "configurationLabel": "4 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "coolpad_cp12_official_video",
+          "publisher": "Coolpad Official",
+          "url": "https://www.youtube.com/watch?v=5fgVz_MJohM",
+          "publicationDate": "2023-08-24",
+          "accessDate": "2026-11-26",
+          "purpose": "Official product identity and official-unboxing reference",
+          "note": "Coolpad's verified channel published a CP12 unboxing video on August 24, 2023. It establishes the manufacturer's use of the CP12 product name, but the video description does not state a model code, Philippine SKU, specifications, or first sale date."
+        },
+        {
+          "id": "coolpad_cp12_global_page",
+          "publisher": "Coolpad Global",
+          "url": "https://www.coolpad.com/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Attempted official product-page review",
+          "note": "The Coolpad global website was checked for a CP12 model-specific specification page, but no readable exact-model specification content was available in this review. No facts are promoted from the site homepage."
+        },
+        {
+          "id": "coolpad_cp12_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "publicationDate": "2023-10-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability, configurations, launch prices, and local specification evidence",
+          "note": "Published October 5, 2023, YugaTech reports Coolpad's Philippine introduction of the CP12. Its CP12 spec list identifies 4 GB RAM, 64 GB / 128 GB storage, UNISOC SC9863A, cameras, connectivity, Android 13, battery, colors, and 3.5 mm audio. The article reports Bluetooth 4.2 while other local references say 5.0; its dimensions list 8.4 mm while two other sources list 8.3 mm. Exact-model photos appear on the page without recorded reuse terms."
+        },
+        {
+          "id": "coolpad_cp12_noypi_ph",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/coolpad-cp12/",
+          "publicationDate": "2023-10-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch price and exact-model specification cross-check",
+          "note": "Published October 5, 2023, it reports PHP 3,899 for 4 GB / 64 GB and PHP 4,299 for 4 GB / 128 GB, with an official Shopee store noted. It corroborates the local display, 4G chipset, memory, cameras, battery, OS, USB-C, and sensors; it lists Bluetooth 5.0 and dimensions 8.3 mm, differing from YugaTech's Bluetooth 4.2 and 8.4 mm."
+        },
+        {
+          "id": "coolpad_cp12_unboxdiaries",
+          "publisher": "Unbox Diaries",
+          "url": "https://unboxdiaries.com/phones/coolpad-cp12/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model specification cross-check, including the 128 GB configuration",
+          "note": "The exact-model page provides detailed 4 GB / 128 GB specs, including eMMC 5.1, 10 W charging, Li-Po battery, 1080p30 rear video, USB-C 2.0 OTG, and sensors. It says Bluetooth 5.0 and no 3.5 mm headphone jack, conflicting with YugaTech's Bluetooth 4.2 and reported headphone jack. Its price is TBA, so it does not establish a current offer."
+        },
+        {
+          "id": "coolpad_cp12_unisoc_sc9863a",
+          "publisher": "UNISOC",
+          "url": "https://www.unisoc.com/en/product/SmartPhone/9863A",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary SC9863A CPU, GPU, process, memory, storage-platform, connectivity, and radio-capability reference",
+          "note": "UNISOC specifies an octa-core Arm Cortex-A55 SC9863A up to 1.6 GHz, PowerVR GE8322, process alternatives 28 nm HPC+ / 22 nm, LPDDR3/LPDDR4X and eMMC 5.1 platform support, Wi-Fi b/g/n, Bluetooth 4.2, LTE, GPS/GLONASS/BeiDou, and FM. The platform's alternative capabilities are not assumed to be present in each CP12 configuration."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_official_video",
+          "sourceValue": "Coolpad's official channel identifies the product as CP12 but supplies no separate alphanumeric hardware model code",
+          "normalizedValue": null,
+          "note": "Keep the model-code field blank; the public product name itself is CP12.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_official_video",
+          "sourceValue": "Coolpad's official unboxing video is dated August 24, 2023; no official global first-sale date was found",
+          "normalizedValue": null,
+          "note": "An unboxing publication date is not a first-sale date. Keep the global release date unset.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Philippine CP12 configuration: 4 GB RAM / 128 GB storage",
+          "normalizedValue": "4 GB RAM / 128 GB storage",
+          "note": "YugaTech's Philippine launch coverage identifies both 4 GB storage variants separately; this review is for the listed configuration only.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "YugaTech and NoypiGeeks reported the CP12 launched/available in the Philippines on October 5, 2023",
+          "normalizedValue": "2023-10-05",
+          "note": "Dated local launch coverage, not an exact first transaction timestamp.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Philippine launch price: PHP 4,299 for 4 GB / 128 GB",
+          "normalizedValue": 4299,
+          "note": "Historical local launch price for this exact configuration; not a current price.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "The reviewed local prices are dated October 2023; no current dated and orderable Philippine offer was verified",
+          "normalizedValue": null,
+          "note": "Keep the public catalog current price blank; retain launch prices in the candidate audit only.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "6.517-inch waterdrop display, commonly rounded to 6.52 inches",
+          "normalizedValue": 6.52,
+          "note": "YugaTech and NoypiGeeks list this same rounded size.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.52,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "6.52-inch IPS LCD display",
+          "normalizedValue": "IPS LCD",
+          "note": "NoypiGeeks and Unbox Diaries list IPS LCD.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "HD+ 1600 x 720 pixels",
+          "normalizedValue": "1600 x 720",
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "1600 x 720"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "60 Hz",
+          "normalizedValue": 60,
+          "note": "NoypiGeeks and Unbox Diaries list 60 Hz.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No brightness value recorded in the reviewed local exact-model sources",
+          "normalizedValue": null,
+          "note": "Do not infer brightness.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No cover-glass type or display-protection rating recorded",
+          "normalizedValue": null,
+          "note": "Keep display protection blank.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "UNISOC SC9863A",
+          "normalizedValue": "UNISOC SC9863A",
+          "note": "YugaTech and NoypiGeeks identify the same exact-model chipset; UNISOC provides its official platform page.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "UNISOC SC9863A"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "UNISOC lists process alternatives 28 nm HPC+ / 22 nm for SC9863A without identifying which is used in this phone",
+          "normalizedValue": null,
+          "note": "Do not select one of the platform's alternative process values for the CP12.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "Octa-core Arm Cortex-A55, maximum 1.6 GHz; Unbox Diaries reports 4x1.6 GHz plus 4x1.2 GHz",
+          "normalizedValue": "Octa-core Cortex-A55, up to 1.6 GHz",
+          "note": "UNISOC confirms the architecture and top frequency; the per-cluster arrangement is secondary-source detail and is not made the catalog value.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Cortex-A55, up to 1.6 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "Imagination PowerVR GE8322 (UNISOC product page has a minor label typo in the rendered heading)",
+          "normalizedValue": "Imagination PowerVR GE8322",
+          "note": "UNISOC, YugaTech, and NoypiGeeks identify the GE8322.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Imagination PowerVR GE8322"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Android 13",
+          "normalizedValue": "Android 13",
+          "note": "Exact-model local launch spec.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No update policy, support duration, or end-of-support date found",
+          "normalizedValue": null,
+          "note": "No software-support commitment is inferred.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "4 GB RAM",
+          "normalizedValue": 4,
+          "note": "Both documented Philippine configurations have 4 GB RAM.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "The SoC platform supports LPDDR3 or LPDDR4/4X; the CP12's installed RAM type is not identified",
+          "normalizedValue": null,
+          "note": "Platform support is not proof of the installed memory type.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "128 GB storage",
+          "normalizedValue": 128,
+          "note": "This separate configuration is explicitly listed in Philippine launch coverage.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "NoypiGeeks lists 128 GB eMMC 5.1 for the CP12; YugaTech confirms this Philippine configuration is 4 GB / 128 GB",
+          "normalizedValue": "eMMC 5.1",
+          "note": "Only the 128 GB variant's local spec table identifies eMMC 5.1; the 64 GB interface remains unrecorded.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "storageType",
+          "catalogValue": "eMMC 5.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "YugaTech lists a microSD slot; NoypiGeeks says the 128 GB configuration is expandable via microSD",
+          "normalizedValue": "microSD supported; capacity limit and tray sharing not confirmed for PH SKUs",
+          "note": "Do not infer a maximum card size or SIM-tray arrangement.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "13 MP main camera + 2 MP macro camera",
+          "normalizedValue": "13 MP main + 2 MP macro",
+          "note": "Catalog numeric value is the main rear-camera resolution.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "13 MP wide main camera with autofocus; sensor maker/model not stated",
+          "normalizedValue": "13 MP wide autofocus; sensor model not disclosed",
+          "note": "No sensor identity is inferred from the resolution.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "The complete listed rear system is 13 MP main + 2 MP macro; no ultrawide camera is listed",
+          "normalizedValue": "No ultrawide camera listed",
+          "note": "Based on the complete two-camera rear specification.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "The complete listed rear system is 13 MP main + 2 MP macro; no telephoto camera is listed",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "Based on the complete two-camera rear specification.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "5 MP front camera",
+          "normalizedValue": 5,
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 5,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "Rear video listed at 1080p30; complete modes and front-camera frame rate are not specified",
+          "normalizedValue": "Rear 1080p30; other modes not recorded",
+          "note": "Do not infer additional video modes from the SoC platform.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "video",
+          "catalogValue": "Rear 1080p30; other modes not recorded"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "4,500 mAh",
+          "normalizedValue": 4500,
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "Li-Po, non-removable",
+          "normalizedValue": "Li-Po; non-removable",
+          "note": "Exact-model technical listing; the local launch sources confirm capacity but do not state chemistry.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "10 W wired charging",
+          "normalizedValue": 10,
+          "note": "NoypiGeeks and Unbox Diaries list 10 W.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 10,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Wireless and reverse wireless charging are not stated in the reviewed exact-model sources",
+          "normalizedValue": null,
+          "note": "Do not infer absence from silence.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "164.2 x 75.7 x 8.3 mm; YugaTech reports thickness as 8.4 mm",
+          "normalizedValue": "164.2 x 75.7 x 8.3 mm",
+          "note": "Two local detailed references use 8.3 mm; YugaTech rounds/reports 8.4 mm. Preserve the difference in this note.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.2 x 75.7 x 8.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "190 g",
+          "normalizedValue": 190,
+          "note": "YugaTech and NoypiGeeks agree.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 190,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "NoypiGeeks describes a glass-like rear panel; Unbox Diaries lists glass front and rear, but no readable Coolpad material specification was found",
+          "normalizedValue": null,
+          "note": "The descriptions are not precise enough to assert front/rear construction. Leave materials unset.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "No IP rating or water-resistance certification recorded",
+          "normalizedValue": null,
+          "note": "No protection rating is inferred.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Dual-SIM; eSIM not documented",
+          "normalizedValue": "Dual-SIM; eSIM not disclosed",
+          "note": "YugaTech and NoypiGeeks list dual-SIM; microSD tray sharing is not established.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "sim",
+          "catalogValue": "Dual-SIM; eSIM not disclosed"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "HSPA+ and 4G LTE; exact CP12 variant band list is not recorded",
+          "normalizedValue": "HSPA+ / 4G LTE; bands not recorded",
+          "note": "The SC9863A is an LTE platform; do not infer local carrier-band compatibility.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "cellular",
+          "catalogValue": "HSPA+ / 4G LTE; bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "Wi-Fi 802.11 b/g/n",
+          "normalizedValue": "Wi-Fi 802.11 b/g/n",
+          "note": "YugaTech and UNISOC list b/g/n platform support.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 802.11 b/g/n"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "coolpad_cp12_unisoc_sc9863a",
+          "sourceValue": "UNISOC and YugaTech list Bluetooth 4.2; NoypiGeeks and Unbox Diaries list Bluetooth 5.0",
+          "normalizedValue": null,
+          "note": "The chipset page lists Bluetooth 4.2, but two exact-model pages report 5.0. Keep the public Bluetooth value unset pending model-specific primary evidence.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "bluetooth",
+          "catalogValue": null
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "USB Type-C 2.0 with OTG",
+          "normalizedValue": "USB Type-C 2.0; OTG",
+          "note": "YugaTech independently confirms the Type-C connector.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C 2.0; OTG"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "NFC: No",
+          "normalizedValue": false,
+          "note": "Exact-model listing gives an explicit negative value; YugaTech and NoypiGeeks do not list NFC.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_noypi_ph",
+          "sourceValue": "GPS, GLONASS, and BeiDou",
+          "normalizedValue": "GPS, GLONASS, BeiDou",
+          "note": "NoypiGeeks exact-model table; UNISOC lists GPS/GLONASS/BeiDou platform capability.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "audio",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "coolpad_cp12_yugatech_ph",
+          "sourceValue": "YugaTech lists a 3.5 mm headphone jack; Unbox Diaries says no headphone jack",
+          "normalizedValue": null,
+          "note": "Exact-model sources directly disagree. Keep the headphone-jack/audio value unset until the Philippine hardware is checked.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage",
+          "catalogKey": "sound",
+          "catalogValue": null
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "coolpad_cp12_unboxdiaries",
+          "sourceValue": "Side fingerprint reader, accelerometer, and proximity sensor; YugaTech also lists face unlock",
+          "normalizedValue": "Side fingerprint reader, accelerometer, proximity; face unlock",
+          "note": "Only sensor/authentication items explicitly listed by exact-model sources are included.",
+          "configurationMatch": "Philippine Coolpad CP12, 4 GB RAM / 128 GB storage"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech and NoypiGeeks reported the Coolpad CP12 in the Philippine market on October 5, 2023; NoypiGeeks noted an official Shopee store. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Contemporaneous YugaTech and NoypiGeeks coverage reports the Coolpad CP12 launched in the Philippines on October 5, 2023, with PHP 3,899 / 4 GB / 64 GB and PHP 4,299 / 4 GB / 128 GB configurations. NoypiGeeks noted an official Shopee store. This records local launch reporting, not an exact first-sale transaction timestamp.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Coolpad",
+        "catalogModel": "CP12",
+        "productLine": "Coolpad CP12",
+        "modelNumber": null,
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Philippine launch report date",
+        "researchNotes": "Workbook CP12 row matched to the Coolpad CP12 launched in the Philippines in October 2023. Two separately priced local configurations are documented: 4 GB / 64 GB and 4 GB / 128 GB. Current price, exact global first-sale date, separate model code, Bluetooth version, headphone jack, and image reuse remain unresolved; eligibility remains Pending.",
+        "qualityFlag": "CP12 local match; two PH variants recorded; current offer, model code, some hardware details, and image rights unresolved.",
+        "openIssues": [
+          {
+            "issue": "The official CP12 product name is confirmed, but the reviewed sources do not establish a separate hardware model code",
+            "action": "Keep modelNumber blank."
+          },
+          {
+            "issue": "YugaTech/UNISOC list Bluetooth 4.2 while NoypiGeeks and Unbox Diaries list 5.0",
+            "action": "Leave Bluetooth unresolved pending model-specific primary evidence."
+          },
+          {
+            "issue": "YugaTech lists a 3.5 mm jack while Unbox Diaries says no headphone jack",
+            "action": "Leave audio/headphone-jack details unresolved."
+          },
+          {
+            "issue": "Reported body thickness ranges from 8.3 to 8.4 mm across local sources",
+            "action": "Retain the source precision discrepancy; this does not create separate device variants."
+          },
+          {
+            "issue": "Only dated 2023 launch prices were verified",
+            "action": "Show current prices as not recorded; retain the two launch prices as historical observations."
+          },
+          {
+            "issue": "Exact product images are published by review sites without recorded reuse permission",
+            "action": "Continue to use the neutral placeholder until documented permission is available."
+          },
+          {
+            "issue": "Workbook eligibility status remains Pending",
+            "action": "Preserve Pending and follow the existing study eligibility rules."
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "run_at": "2026-11-26T16:58:33+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_5bc54f4d744bec",
+      "brand": "Coolpad",
+      "model_name": "CP12",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_5bc54f4d744bec",
+      "source_url": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+      "result": "YugaTech lists two Philippine CP12 configurations: 4 GB / 64 GB at PHP 3,899 and 4 GB / 128 GB at PHP 4,299; both prices are historical."
+    },
+    {
+      "device_id": "device_5bc54f4d744bec",
+      "source_url": "https://www.noypigeeks.com/android/coolpad-cp12/",
+      "result": "NoypiGeeks independently reports the same two local configuration prices and notes an official Shopee store; no active offer was verified."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_5bc54f4d744bec",
+      "amount_php": 3899,
+      "configuration_id": "device_5bc54f4d744bec-4gb-64gb-ph",
+      "configuration_match": "exact_philippine_4gb_64gb_configuration",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-10-05",
+      "excerpt": "Philippine launch coverage lists PHP 3,899 for the 4 GB / 64 GB Coolpad CP12 configuration.",
+      "source_url": "https://www.noypigeeks.com/android/coolpad-cp12/",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26T16:58:33+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_5bc54f4d744bec",
+      "amount_php": 4299,
+      "configuration_id": "device_5bc54f4d744bec-4gb-128gb-ph",
+      "configuration_match": "exact_philippine_4gb_128gb_configuration",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-10-05",
+      "excerpt": "Philippine launch coverage lists PHP 4,299 for the 4 GB / 128 GB Coolpad CP12 configuration.",
+      "source_url": "https://www.noypigeeks.com/android/coolpad-cp12/",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26T16:58:33+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { CATALOG_VERSION, catalogDevices, catalogRows } from "../lib/catalog/pilot";
 import { catalogDevices as publicDevices, catalogRows as publicRows, excludedDevicesForCategory } from "../lib/catalog/data";
 import { fieldOptions, filterDefinitions, filterRows, pageRows, sortRows, type FilterSelections } from "../lib/catalog/filtering";
@@ -67,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [370, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 569);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [371, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 570);
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");
@@ -130,6 +131,31 @@ assert.equal(coolpadCool20Plus.variants[0]?.specs.gpu, "Arm Mali-G52 MC2");
 assert.equal(coolpadCool20Plus.variants[0]?.specs.batteryMah, 4500);
 assert.equal(coolpadCool20Plus.imageId, null);
 assert.ok(coolpadCool20Plus.sources.some((source) => source.url.includes("yugatech.com") && source.note?.includes("6 GB / 128 GB")));
+const coolpadCp12 = publicDevices.find((device) => device.id === "device_5bc54f4d744bec");
+assert.ok(coolpadCp12);
+assert.equal(coolpadCp12.model, "CP12");
+assert.equal(coolpadCp12.modelNumber, null);
+assert.equal(coolpadCp12.releaseDate, null);
+assert.equal(coolpadCp12.philippineAvailabilityDate, "2023-10-05");
+assert.equal(coolpadCp12.scopeStatus, "Pending");
+assert.equal(coolpadCp12.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.equal(coolpadCp12.workbookRow, 134);
+assert.deepEqual(coolpadCp12.variants.map((variant) => variant.label), [
+  "4 GB RAM / 64 GB storage", "4 GB RAM / 128 GB storage",
+]);
+assert.ok(coolpadCp12.variants.every((variant) => variant.pricePhp === null));
+assert.deepEqual(coolpadCp12.variants.map((variant) => [variant.specs.ramGb, variant.specs.storageGb]), [[4, 64], [4, 128]]);
+assert.equal(coolpadCp12.variants[0]?.specs.storageType, undefined);
+assert.equal(coolpadCp12.variants[1]?.specs.storageType, "eMMC 5.1");
+assert.ok(coolpadCp12.variants.every((variant) => variant.specs.batteryMah === 4500 && variant.specs.chipset === "UNISOC SC9863A"));
+assert.ok(coolpadCp12.variants.every((variant) => {
+  const specs = variant.specs as Record<string, unknown>;
+  return specs.bluetooth === null && specs.sound === null;
+}));
+assert.equal(coolpadCp12.imageId, null);
+assert.ok(coolpadCp12.sources.some((source) => source.url.includes("yugatech.com") && source.note?.includes("64 GB / 128 GB")));
+const cp12Prices = JSON.parse(readFileSync(new URL("../research/enrichment/coolpad-cp12-ph-price-candidate-2026-11-26.json", import.meta.url), "utf8"));
+assert.deepEqual(cp12Prices.prices.map((price: { variant_storage_gb: number; amount_php: number }) => [price.variant_storage_gb, price.amount_php]), [[64, 3899], [128, 4299]]);
 const blackShark4 = publicDevices.find((device) => device.id === "device_fa4c0f6cdc39f6");
 assert.ok(blackShark4);
 assert.deepEqual(blackShark4.variants.map((variant) => variant.label), [
