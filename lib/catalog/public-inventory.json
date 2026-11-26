@@ -15422,47 +15422,210 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "Nokia",
-    "model": "X30 5G",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "model": "Nokia X30 5G",
+    "manufacturer": "HMD Global Oy (Nokia brand licensee)",
+    "productLine": "Nokia X-series",
+    "modelNumber": "TA-1450",
+    "releaseDate": "2022-09-01",
+    "philippineAvailabilityDate": "2022-10-28",
+    "philippineDateLabel": "Reported authorized Philippine retail availability date",
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact Nokia X30 5G model and TA-1450 registration matched; local 8 GB / 256 GB availability and launch price verified from Philippine launch sources; current price unavailable; storage type, expansion, SIM/eSIM, and OS-support claims unresolved; eligibility remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Philippine launch coverage reports the Nokia X30 5G 8 GB / 256 GB variant at PHP 27,990 and identifies authorized online and nationwide physical retail availability beginning October 28, 2022. The NTC 2022 GEC lists Nokia TA-1450, which matches HMD's exact-model code. This confirms reported historical Philippine availability, not present-day stock or orderability.",
+    "availabilityStatus": "Philippine reporting says authorized retail availability for the 8 GB / 256 GB variant began October 28, 2022. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 82 'X30 5G' matches Nokia X30 5G. HMD lists model TA-1450; the same Nokia model code appears in the Philippine NTC GEC. Philippine launch reporting identifies one local retail configuration, 8 GB / 256 GB, first available through authorized retailers on October 28, 2022 at PHP 27,990. HMD's global launch date was September 1, 2022. Current Philippine price remains blank; PHP 18,990 is preserved as a June 2023 historical price observation. Storage type, microSD support, SIM/eSIM layout, and OS-upgrade count remain unresolved source conflicts. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "HMD's current TA-1450 specs list two OS upgrades while its global launch release promises three",
+        "action": "Keep OS-upgrade count unresolved until HMD clarifies regional policy."
+      },
+      {
+        "issue": "YugaTech/Kimovil say 256 GB UFS 3.0 but a Nokia datasheet transcription says UFS 2.2",
+        "action": "Keep storage technology blank pending authoritative clarification."
+      },
+      {
+        "issue": "YugaTech/Kimovil report a microSD slot but GSMArena says no card slot",
+        "action": "Keep storage expansion blank."
+      },
+      {
+        "issue": "Physical SIM and eSIM combinations differ among model references",
+        "action": "Keep Philippine SIM/eSIM configuration blank until a local TA-1450 unit or authoritative regional documentation is checked."
+      },
+      {
+        "issue": "Only historical Philippine prices were verified",
+        "action": "Keep current price blank; retain dated launch and June 2023 price observations."
+      },
+      {
+        "issue": "HMD and Philippine news pages contain exact product images but no documented reusable license was found",
+        "action": "Keep the neutral image placeholder until reuse rights are documented."
+      },
+      {
+        "issue": "Workbook eligibility is Pending",
+        "action": "Preserve the study's Pending status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HMD Global / Nokia",
+        "url": "https://www.hmd.com/en_in/nokia-x-30/specs",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary exact-model specifications for TA-1450",
+        "note": "HMD's India specification page identifies model TA-1450 and lists the 8 GB / 256 GB configuration. It documents display, cameras, connectivity, battery, Android 12, IP67, dimensions, weight, materials, networks, audio, and sensors. The regional page does not establish local Philippine operator compatibility or local sale by itself."
+      },
+      {
+        "organization": "HMD Global",
+        "url": "https://www.hmd.com/en_eg/press/nokia-x30-press-release",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-09-01",
+        "purpose": "Primary global launch date and launch support/material claims",
+        "note": "Published September 1, 2022; HMD says the phone launches and is available from that day in global 6/128 GB and 8/256 GB configurations. This is the global launch date; GSMArena separately records September 21 as retail release. HMD's launch release promises three OS upgrades, while its current TA-1450 specifications page says two; keep update count unresolved. The press release describes 100% recycled aluminium frame and 65% recycled plastic back."
+      },
+      {
+        "organization": "HMD Global",
+        "url": "https://www.hmd.com/en_int/support/nokia-x30-5g-user-guide/keys-and-parts",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary model-family and SIM/eSIM support documentation",
+        "note": "HMD's X30 5G guide page links instructions for using eSIM and identifies the X30 5G family. The reviewed support content does not establish which SIM tray/eSIM combination shipped in the Philippine 8/256 GB sale unit."
+      },
+      {
+        "organization": "National Telecommunications Commission Philippines",
+        "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment registration and model-code cross-check",
+        "note": "NTC's 2022 GEC equipment list includes Nokia TA-1450. HMD's exact-model technical specifications page identifies the same code. Registration supports local equipment identity, but does not independently prove a specific retail configuration."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/nokia-x30-5g-launches-in-the-philippines-priced/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-10-28",
+        "purpose": "Philippine release date, local configuration, launch price, and specifications",
+        "note": "Published October 28, 2022. Reports official Philippine release, the 8 GB / 256 GB variant at PHP 27,990, Cloudy Blue, and October 28 availability through authorized online retailers and stores. Also lists local specifications. Its claims of UFS 3.0 and hybrid microSD conflict with other device references, so those fields remain unresolved."
+      },
+      {
+        "organization": "HungryGeeks Philippines",
+        "url": "https://hungrygeeks.com.ph/nokia-x30-5g-now-in-ph-priced-at-php-27990/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-10-26",
+        "purpose": "Contemporaneous Philippine sale date and exact retail configuration cross-check",
+        "note": "Published October 26, 2022. Says the device had officially arrived in the Philippines, PHP 27,990, and that authorized nationwide retailers would start carrying it on October 28. The local spec list corroborates 8/256 GB, Snapdragon 695, Android 12, cameras, battery, and IP67."
+      },
+      {
+        "organization": "Unbox Philippines",
+        "url": "https://unbox.ph/news/nokia-x30-now-in-the-philippines-with-premium-price-tag/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-10-26",
+        "purpose": "Independent Philippine launch and technical cross-check",
+        "note": "Published October 26, 2022. Reports Philippine availability from October 28 at PHP 27,990 and 8 GB / 256 GB. Its article has inconsistent details: prose says IP57 while its specification list says IP67; it also lists Bluetooth 5.0 while HMD and YugaTech list 5.1. Manufacturer specifications and corroborating local sources are preferred for those fields; the discrepancies are retained here."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/promos/nokia-x30-5g-price-drop/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-06-05",
+        "purpose": "Dated historical local price change and exact configuration cross-check",
+        "note": "Published June 5, 2023. Reports 8 GB / 256 GB and a reduction from the PHP 27,990 launch price to PHP 18,990. This is a historical price observation and is not represented as current or orderable."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-695-5g-mobile-platform",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Snapdragon 695 chipset/platform details",
+        "note": "Qualcomm specifies Snapdragon 695 5G, 6 nm process, Kryo 660 CPU up to 2.2 GHz, and Adreno 619 GPU. Platform capabilities are not substituted for handset-specific claims."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/soc/qualcomm-snapdragon-695",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent chipset architecture cross-check",
+        "note": "Lists Snapdragon 695 with two Kryo 660 Gold/Cortex-A78 cores up to 2.2 GHz and six Kryo 660 Silver/Cortex-A55 cores up to 1.8 GHz, 6 nm, and Adreno 619. This is chipset-level information, not a handset benchmark."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-nokia-x30-5g-8gb-256gb",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model and global 8 GB / 256 GB configuration cross-check",
+        "note": "The exact X30 5G 8/256 page lists the international model and core hardware. Kimovil reports UFS 3.0 and microSD, while a Nokia datasheet transcription elsewhere lists UFS 2.2 and GSMArena says there is no card slot. These disagreements are not used to assert Philippine-specific storage type or expansion."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/nokia_x30-11831.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model global release and independent specifications cross-check",
+        "note": "Lists global announcement on September 1 and retail release on September 21, 2022; the device is described with 6/128 and 8/256 options, IP67, no card slot, and nano-SIM/eSIM or dual nano-SIM variants. The release date represents its retail-status entry, distinct from HMD's official global launch/availability date."
+      }
+    ],
     "variants": [
       {
-        "id": "device_71110a4a38ebff-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_71110a4a38ebff-8gb-256gb-ph",
+        "label": "8 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.43,
+          "displayType": "AMOLED",
+          "resolution": "1080 x 2400",
+          "refreshHz": 90,
+          "chipset": "Qualcomm Snapdragon 695 5G",
+          "cpu": "2x Cortex-A78 2.2 GHz + 6x Cortex-A55 1.8 GHz",
+          "gpu": "Qualcomm Adreno 619",
+          "os": "Android 12",
+          "ramGb": 8,
+          "storageGb": 256,
+          "frontCameraMp": 16,
+          "batteryMah": 4200,
+          "chargingW": 33,
+          "dimensions": "158.9 x 73.9 x 7.99 mm",
+          "weightG": 185,
+          "cellular": "GSM 850/900/1800/1900; WCDMA B1/B5/B8; LTE B1/2/3/4/5/7/8/12/17/20/28/32/38/39/40/41; 5G n1/3/5/7/8/28/38/40/41/77/78",
+          "wifi": "Wi-Fi 6 (802.11ax-ready), dual-band",
+          "ports": "USB Type-C; USB 2.0; OTG",
+          "gnss": "GPS, A-GPS, GLONASS, BeiDou, Galileo L1/L5",
+          "sound": "Single speaker; dual microphones; OZO audio capture; aptX HD/Classic/Adaptive"
+        },
+        "specSources": {
+          "displayInches": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "displayType": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "resolution": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "refreshHz": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "chipset": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "cpu": "https://nanoreview.net/en/soc/qualcomm-snapdragon-695",
+          "gpu": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-695-5g-mobile-platform",
+          "os": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "ramGb": "https://www.yugatech.com/mobile/nokia-x30-5g-launches-in-the-philippines-priced/",
+          "storageGb": "https://www.yugatech.com/mobile/nokia-x30-5g-launches-in-the-philippines-priced/",
+          "frontCameraMp": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "batteryMah": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "chargingW": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "dimensions": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "weightG": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "cellular": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "wifi": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "ports": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "gnss": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "sound": "https://www.hmd.com/en_in/nokia-x-30/specs"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine launch sources report this exact local configuration at PHP 27,990 and availability through authorized retailers from October 28, 2022. A dated PHP 18,990 promotion was reported June 5, 2023. Current price is not verified. Storage type, expansion and SIM layout remain unresolved.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "TA-1450",
         "workbookRow": null
       }
     ],

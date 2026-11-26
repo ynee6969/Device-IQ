@@ -151360,6 +151360,651 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_71110a4a38ebff",
+      "configurationId": "device_71110a4a38ebff-8gb-256gb-ph",
+      "brand": "Nokia",
+      "model": "X30 5G",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "modelCode": "TA-1450",
+      "sources": [
+        {
+          "id": "nokia_x30_hmd_specs",
+          "publisher": "HMD Global / Nokia",
+          "url": "https://www.hmd.com/en_in/nokia-x-30/specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary exact-model specifications for TA-1450",
+          "note": "HMD's India specification page identifies model TA-1450 and lists the 8 GB / 256 GB configuration. It documents display, cameras, connectivity, battery, Android 12, IP67, dimensions, weight, materials, networks, audio, and sensors. The regional page does not establish local Philippine operator compatibility or local sale by itself."
+        },
+        {
+          "id": "nokia_x30_hmd_launch",
+          "publisher": "HMD Global",
+          "url": "https://www.hmd.com/en_eg/press/nokia-x30-press-release",
+          "publicationDate": "2022-09-01",
+          "accessDate": "2026-11-26",
+          "purpose": "Primary global launch date and launch support/material claims",
+          "note": "Published September 1, 2022; HMD says the phone launches and is available from that day in global 6/128 GB and 8/256 GB configurations. This is the global launch date; GSMArena separately records September 21 as retail release. HMD's launch release promises three OS upgrades, while its current TA-1450 specifications page says two; keep update count unresolved. The press release describes 100% recycled aluminium frame and 65% recycled plastic back."
+        },
+        {
+          "id": "nokia_x30_hmd_user_guide",
+          "publisher": "HMD Global",
+          "url": "https://www.hmd.com/en_int/support/nokia-x30-5g-user-guide/keys-and-parts",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary model-family and SIM/eSIM support documentation",
+          "note": "HMD's X30 5G guide page links instructions for using eSIM and identifies the X30 5G family. The reviewed support content does not establish which SIM tray/eSIM combination shipped in the Philippine 8/256 GB sale unit."
+        },
+        {
+          "id": "nokia_x30_ntc_gec",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine equipment registration and model-code cross-check",
+          "note": "NTC's 2022 GEC equipment list includes Nokia TA-1450. HMD's exact-model technical specifications page identifies the same code. Registration supports local equipment identity, but does not independently prove a specific retail configuration."
+        },
+        {
+          "id": "nokia_x30_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/nokia-x30-5g-launches-in-the-philippines-priced/",
+          "publicationDate": "2022-10-28",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine release date, local configuration, launch price, and specifications",
+          "note": "Published October 28, 2022. Reports official Philippine release, the 8 GB / 256 GB variant at PHP 27,990, Cloudy Blue, and October 28 availability through authorized online retailers and stores. Also lists local specifications. Its claims of UFS 3.0 and hybrid microSD conflict with other device references, so those fields remain unresolved."
+        },
+        {
+          "id": "nokia_x30_hungrygeeks_ph",
+          "publisher": "HungryGeeks Philippines",
+          "url": "https://hungrygeeks.com.ph/nokia-x30-5g-now-in-ph-priced-at-php-27990/",
+          "publicationDate": "2022-10-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine sale date and exact retail configuration cross-check",
+          "note": "Published October 26, 2022. Says the device had officially arrived in the Philippines, PHP 27,990, and that authorized nationwide retailers would start carrying it on October 28. The local spec list corroborates 8/256 GB, Snapdragon 695, Android 12, cameras, battery, and IP67."
+        },
+        {
+          "id": "nokia_x30_unbox_ph",
+          "publisher": "Unbox Philippines",
+          "url": "https://unbox.ph/news/nokia-x30-now-in-the-philippines-with-premium-price-tag/",
+          "publicationDate": "2022-10-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch and technical cross-check",
+          "note": "Published October 26, 2022. Reports Philippine availability from October 28 at PHP 27,990 and 8 GB / 256 GB. Its article has inconsistent details: prose says IP57 while its specification list says IP67; it also lists Bluetooth 5.0 while HMD and YugaTech list 5.1. Manufacturer specifications and corroborating local sources are preferred for those fields; the discrepancies are retained here."
+        },
+        {
+          "id": "nokia_x30_noypigeeks_ph",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/promos/nokia-x30-5g-price-drop/",
+          "publicationDate": "2023-06-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated historical local price change and exact configuration cross-check",
+          "note": "Published June 5, 2023. Reports 8 GB / 256 GB and a reduction from the PHP 27,990 launch price to PHP 18,990. This is a historical price observation and is not represented as current or orderable."
+        },
+        {
+          "id": "nokia_x30_qualcomm_695",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-695-5g-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Snapdragon 695 chipset/platform details",
+          "note": "Qualcomm specifies Snapdragon 695 5G, 6 nm process, Kryo 660 CPU up to 2.2 GHz, and Adreno 619 GPU. Platform capabilities are not substituted for handset-specific claims."
+        },
+        {
+          "id": "nokia_x30_nanoreview_695",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/soc/qualcomm-snapdragon-695",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent chipset architecture cross-check",
+          "note": "Lists Snapdragon 695 with two Kryo 660 Gold/Cortex-A78 cores up to 2.2 GHz and six Kryo 660 Silver/Cortex-A55 cores up to 1.8 GHz, 6 nm, and Adreno 619. This is chipset-level information, not a handset benchmark."
+        },
+        {
+          "id": "nokia_x30_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-nokia-x30-5g-8gb-256gb",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model and global 8 GB / 256 GB configuration cross-check",
+          "note": "The exact X30 5G 8/256 page lists the international model and core hardware. Kimovil reports UFS 3.0 and microSD, while a Nokia datasheet transcription elsewhere lists UFS 2.2 and GSMArena says there is no card slot. These disagreements are not used to assert Philippine-specific storage type or expansion."
+        },
+        {
+          "id": "nokia_x30_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/nokia_x30-11831.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model global release and independent specifications cross-check",
+          "note": "Lists global announcement on September 1 and retail release on September 21, 2022; the device is described with 6/128 and 8/256 options, IP67, no card slot, and nano-SIM/eSIM or dual nano-SIM variants. The release date represents its retail-status entry, distinct from HMD's official global launch/availability date."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_ntc_gec",
+          "sourceValue": "NTC lists Nokia model TA-1450; HMD identifies TA-1450 on its Nokia X30 5G specification page",
+          "normalizedValue": "TA-1450",
+          "note": "Exact model-code match between the Philippine NTC 2022 GEC and HMD's TA-1450 specifications page; local launch coverage identifies the marketed model as Nokia X30 5G.",
+          "configurationMatch": "Nokia X30 5G TA-1450, locally marketed 8 GB / 256 GB variant"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_launch",
+          "sourceValue": "HMD announced launch and global availability on September 1, 2022; GSMArena lists retail release September 21",
+          "normalizedValue": "2022-09-01",
+          "note": "Use HMD's primary global launch/availability date. GSMArena's September 21 entry appears to represent later retail release; the dates are distinguished rather than silently conflated.",
+          "configurationMatch": "Global Nokia X30 5G model"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nokia_x30_yugatech_ph",
+          "sourceValue": "Nokia X30 5G Philippine retail version, 8 GB RAM / 256 GB storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage",
+          "note": "YugaTech identifies the local priced variant as 8/256 GB; HMD specs and the global release confirm this as a genuine X30 configuration. The global 6/128 option is not added as a Philippine variant because no local source establishes its sale.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nokia_x30_hungrygeeks_ph",
+          "sourceValue": "Local launch report says the phone had arrived by October 26, 2022; authorized online and physical retail availability started October 28",
+          "normalizedValue": "2022-10-28",
+          "note": "October 28 is the reported start of authorized nationwide retail availability, not merely the earlier October 26 announcement/report date.",
+          "configurationMatch": "Philippine Nokia X30 5G launch; local 8 GB / 256 GB configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nokia_x30_yugatech_ph",
+          "sourceValue": "PHP 27,990 launch price for the Nokia X30 5G 8 GB / 256 GB",
+          "normalizedValue": 27990,
+          "note": "Historical Philippine launch price for the exact local configuration; not a current offer.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "nokia_x30_noypigeeks_ph",
+          "sourceValue": "Reviewed local price sources are dated 2022–2023; no current dated and orderable Philippine offer was verified",
+          "normalizedValue": null,
+          "note": "Keep current price blank. Preserve PHP 27,990 launch pricing and the dated PHP 18,990 2023 promotion as historical only.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "6.43-inch AMOLED display",
+          "normalizedValue": 6.43,
+          "note": "HMD's TA-1450 specification and Philippine launch sources agree.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.43,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "note": "HMD and Philippine launch coverage identify the AMOLED panel.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "FHD+ 1080 x 2400 pixels",
+          "normalizedValue": "1080 x 2400",
+          "note": "HMD lists 1080 x 2400; local launch sources describe the same FHD+ resolution.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "90 Hz",
+          "normalizedValue": 90,
+          "note": "HMD lists a 90 Hz refresh rate.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "400 nits typical; 700 nits peak",
+          "normalizedValue": 400,
+          "note": "HMD specifies both values; catalog numeric stores typical brightness and preserves the peak value in the source text.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Corning Gorilla Glass Victus",
+          "normalizedValue": "Corning Gorilla Glass Victus",
+          "note": "HMD's exact TA-1450 page identifies the cover glass; Philippine launch coverage corroborates it.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Qualcomm Snapdragon 695 5G",
+          "normalizedValue": "Qualcomm Snapdragon 695 5G",
+          "note": "HMD and local launch sources identify Snapdragon 695 5G.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 695 5G"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_qualcomm_695",
+          "sourceValue": "6 nm process",
+          "normalizedValue": 6,
+          "note": "Qualcomm's product page identifies the Snapdragon 695 as a 6 nm platform.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nokia_x30_nanoreview_695",
+          "sourceValue": "2x Kryo 660 Gold / Cortex-A78 up to 2.2 GHz + 6x Kryo 660 Silver / Cortex-A55 up to 1.8 GHz",
+          "normalizedValue": "2x Cortex-A78 2.2 GHz + 6x Cortex-A55 1.8 GHz",
+          "note": "NanoReview's chipset-level core breakdown; Qualcomm confirms Kryo 660 and up to 2.2 GHz. This does not represent a measured handset performance score.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "2x Cortex-A78 2.2 GHz + 6x Cortex-A55 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_qualcomm_695",
+          "sourceValue": "Qualcomm Adreno 619",
+          "normalizedValue": "Qualcomm Adreno 619",
+          "note": "Qualcomm identifies the Snapdragon 695 GPU as Adreno 619; HMD and YugaTech agree.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Qualcomm Adreno 619"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Android 12 at launch",
+          "normalizedValue": "Android 12",
+          "note": "HMD's exact model specification and Philippine launch coverage identify Android 12 at launch; later updates are not substituted.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "Android 12"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nokia_x30_hmd_launch",
+          "sourceValue": "HMD's launch release promises 3 OS upgrades; current HMD TA-1450 specification page lists 2 OS upgrades",
+          "normalizedValue": null,
+          "note": "Manufacturer launch and current regional product pages disagree. Leave the promised OS-upgrade count unresolved; the global launch also promised three years of security updates.",
+          "configurationMatch": "TA-1450 model; HMD global launch policy conflicts with current HMD India specification page"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nokia_x30_yugatech_ph",
+          "sourceValue": "8 GB RAM in the Philippine 8 GB / 256 GB variant",
+          "normalizedValue": 8,
+          "note": "Exact Philippine-priced variant from YugaTech, matched to HMD's 8 GB / 256 GB model configuration.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "RAM technology not stated on the reviewed exact-model manufacturer page",
+          "normalizedValue": null,
+          "note": "Do not infer the RAM standard from chipset or model family.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nokia_x30_yugatech_ph",
+          "sourceValue": "256 GB internal storage in the Philippine 8 GB / 256 GB variant",
+          "normalizedValue": 256,
+          "note": "Exact local retail configuration confirmed by YugaTech and matched to the HMD product specification.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nokia_x30_yugatech_ph",
+          "sourceValue": "YugaTech and Kimovil list UFS 3.0 for 256 GB; a Nokia datasheet transcription lists UFS 2.2",
+          "normalizedValue": null,
+          "note": "The 256 GB storage technology is inconsistent across exact-model sources. Do not publish a UFS version until HMD or the Philippine unit resolves the discrepancy.",
+          "configurationMatch": "Nokia X30 5G 8 GB / 256 GB; exact variant storage type disputed"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nokia_x30_yugatech_ph",
+          "sourceValue": "YugaTech and Kimovil report a hybrid microSD slot; GSMArena says there is no card slot; HMD guide does not resolve it",
+          "normalizedValue": null,
+          "note": "Keep external storage support blank because reviewed sources disagree and the HMD guide does not document microSD support.",
+          "configurationMatch": "Nokia X30 5G TA-1450; storage expansion unresolved"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Dual rear system: 50 MP main with OIS and 13 MP 123-degree ultrawide",
+          "normalizedValue": "50 MP main OIS + 13 MP ultrawide",
+          "note": "HMD's exact-model specification describes both rear modules and their roles; local YugaTech corroborates the configuration.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "50 MP main, f/1.9, OIS, 1/1.57-inch sensor format; no sensor manufacturer/model stated",
+          "normalizedValue": "50 MP, f/1.9, OIS, 1/1.57-inch",
+          "note": "Record optical details from HMD; do not infer a named sensor model.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "13 MP ultrawide, 123-degree field of view, f/2.4",
+          "normalizedValue": "13 MP, 123-degree FOV, f/2.4",
+          "note": "HMD's exact-model rear camera specification; local launch sources agree on resolution and role.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "HMD specifies a two-module rear camera system and lists no telephoto module",
+          "normalizedValue": "No telephoto module listed",
+          "note": "The manufacturer lists both rear modules and neither is telephoto.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "16 MP front camera, f/2.4",
+          "normalizedValue": 16,
+          "note": "HMD's exact-model specification identifies 16 MP; Philippine launch sources agree.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Specific rear and front video resolution/frame-rate modes not stated in the reviewed manufacturer page",
+          "normalizedValue": null,
+          "note": "Do not infer video modes from the chipset's supported capture capabilities.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "4200 mAh non-removable battery",
+          "normalizedValue": 4200,
+          "note": "HMD and Philippine launch sources agree on rated capacity.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4200,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Battery chemistry not disclosed; HMD states non-removable",
+          "normalizedValue": null,
+          "note": "Do not infer lithium chemistry from product class.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "33 W wired fast charging; QC 3.0, PD 3.0, PPS",
+          "normalizedValue": 33,
+          "note": "HMD lists 33 W and supported charging standards; supplied charger availability is separate (33 W charger sold separately at global launch).",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 33,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Wireless or reverse wireless charging is not listed in the reviewed manufacturer specification",
+          "normalizedValue": null,
+          "note": "Omission is not recorded as a confirmed unsupported feature.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "158.9 x 73.9 x 7.99 mm",
+          "normalizedValue": "158.9 x 73.9 x 7.99 mm",
+          "note": "HMD exact-model measurement; Philippine sources round the depth to 8.0 mm.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "158.9 x 73.9 x 7.99 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "185 g",
+          "normalizedValue": 185,
+          "note": "HMD exact-model weight; Philippine sources agree.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 185,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Front Gorilla Glass Victus; frame 100% recycled aluminium; back 65% recycled plastic (64.5% on current specification page)",
+          "normalizedValue": "Gorilla Glass Victus front; 100% recycled aluminium frame; 64.5% recycled plastic back",
+          "note": "HMD's specifications page states 64.5% recycled plastic in back; the launch release rounds this to 65%. Materials are documented as manufacturer's claims.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "IP67 on HMD specs and YugaTech; Unbox article prose says IP57 but its own spec list says IP67",
+          "normalizedValue": "IP67",
+          "note": "HMD's TA-1450 specification and multiple local/exact-model sources say IP67. Unbox contains an internal typo/inconsistency (IP57 in prose, IP67 in specs); the consistent manufacturer and local specification evidence supports IP67.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "HMD lists NFC + eSIM; GSMArena lists nano-SIM/eSIM or dual nano-SIM; YugaTech calls local slot hybrid dual SIM",
+          "normalizedValue": null,
+          "note": "SIM/eSIM and physical slot arrangement varies by regional model; local configuration applicability is not resolved. Do not publish an inferred SIM layout.",
+          "configurationMatch": "Nokia X30 TA-1450; Philippine SIM tray/eSIM configuration unresolved"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "TA-1450: GSM 850/900/1800/1900; WCDMA B1/B5/B8; LTE B1/2/3/4/5/7/8/12/17/20/28/32/38/39/40/41; 5G n1/3/5/7/8/28/38/40/41/77/78",
+          "normalizedValue": "GSM 850/900/1800/1900; WCDMA B1/B5/B8; LTE B1/2/3/4/5/7/8/12/17/20/28/32/38/39/40/41; 5G n1/3/5/7/8/28/38/40/41/77/78",
+          "note": "HMD's exact TA-1450 page lists these radio bands; NTC registration ties TA-1450 to a Philippine equipment record. Band support does not guarantee carrier certification or coverage.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "cellular",
+          "catalogValue": "GSM 850/900/1800/1900; WCDMA B1/B5/B8; LTE B1/2/3/4/5/7/8/12/17/20/28/32/38/39/40/41; 5G n1/3/5/7/8/28/38/40/41/77/78"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Dual-band 2.4/5 GHz 802.11 a/b/g/n/ac/ax-ready; local launch coverage calls it Wi-Fi 6",
+          "normalizedValue": "Wi-Fi 6 (802.11ax-ready), dual-band",
+          "note": "HMD lists ax-ready dual-band Wi-Fi; local launch sources report Wi-Fi 6.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax-ready), dual-band"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Bluetooth 5.1 in HMD exact TA-1450 specifications and YugaTech; Unbox says 5.0",
+          "normalizedValue": "Bluetooth 5.1",
+          "note": "HMD's exact model specification and YugaTech agree on 5.1. Unbox reports 5.0 in one list; the manufacturer value takes precedence and the discrepancy remains documented.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "USB Type-C, USB 2.0, OTG",
+          "normalizedValue": "USB Type-C; USB 2.0; OTG",
+          "note": "HMD specifies connector, interface, and OTG support.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0; OTG"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "Yes",
+          "note": "HMD exact TA-1450 specification and Philippine launch reports identify NFC support.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "GPS/AGPS, GLONASS, BeiDou, Galileo L1/L5 dual-band",
+          "normalizedValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo L1/L5",
+          "note": "HMD's exact-model navigation listing; no unsupported system is inferred.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo L1/L5"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "One speaker, two microphones; OZO Spatial Audio capture and aptX HD/Classic/Adaptive",
+          "normalizedValue": "Single speaker; dual microphones; OZO audio capture; aptX HD/Classic/Adaptive",
+          "note": "HMD lists one speaker and two microphones plus audio capture and codec features.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage",
+          "catalogKey": "sound",
+          "catalogValue": "Single speaker; dual microphones; OZO audio capture; aptX HD/Classic/Adaptive"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "nokia_x30_hmd_specs",
+          "sourceValue": "Accelerometer, ambient light sensor, e-compass, gyroscope, proximity sensor; under-display fingerprint sensor",
+          "normalizedValue": "Accelerometer, ambient light, e-compass, gyroscope, proximity, under-display fingerprint",
+          "note": "HMD exact-model specification lists the sensors and fingerprint reader.",
+          "configurationMatch": "Philippine Nokia X30 5G, 8 GB RAM / 256 GB storage"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine reporting says authorized retail availability for the 8 GB / 256 GB variant began October 28, 2022. Workbook eligibility remains Pending.",
+        "philippineAvailability": "Philippine launch coverage reports the Nokia X30 5G 8 GB / 256 GB variant at PHP 27,990 and identifies authorized online and nationwide physical retail availability beginning October 28, 2022. The NTC 2022 GEC lists Nokia TA-1450, which matches HMD's exact-model code. This confirms reported historical Philippine availability, not present-day stock or orderability.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HMD Global Oy (Nokia brand licensee)",
+        "catalogModel": "Nokia X30 5G",
+        "productLine": "Nokia X-series",
+        "modelNumber": "TA-1450",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported authorized Philippine retail availability date",
+        "researchNotes": "Workbook row 82 'X30 5G' matches Nokia X30 5G. HMD lists model TA-1450; the same Nokia model code appears in the Philippine NTC GEC. Philippine launch reporting identifies one local retail configuration, 8 GB / 256 GB, first available through authorized retailers on October 28, 2022 at PHP 27,990. HMD's global launch date was September 1, 2022. Current Philippine price remains blank; PHP 18,990 is preserved as a June 2023 historical price observation. Storage type, microSD support, SIM/eSIM layout, and OS-upgrade count remain unresolved source conflicts. Workbook eligibility remains Pending.",
+        "qualityFlag": "Exact Nokia X30 5G model and TA-1450 registration matched; local 8 GB / 256 GB availability and launch price verified from Philippine launch sources; current price unavailable; storage type, expansion, SIM/eSIM, and OS-support claims unresolved; eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "HMD's current TA-1450 specs list two OS upgrades while its global launch release promises three",
+            "action": "Keep OS-upgrade count unresolved until HMD clarifies regional policy."
+          },
+          {
+            "issue": "YugaTech/Kimovil say 256 GB UFS 3.0 but a Nokia datasheet transcription says UFS 2.2",
+            "action": "Keep storage technology blank pending authoritative clarification."
+          },
+          {
+            "issue": "YugaTech/Kimovil report a microSD slot but GSMArena says no card slot",
+            "action": "Keep storage expansion blank."
+          },
+          {
+            "issue": "Physical SIM and eSIM combinations differ among model references",
+            "action": "Keep Philippine SIM/eSIM configuration blank until a local TA-1450 unit or authoritative regional documentation is checked."
+          },
+          {
+            "issue": "Only historical Philippine prices were verified",
+            "action": "Keep current price blank; retain dated launch and June 2023 price observations."
+          },
+          {
+            "issue": "HMD and Philippine news pages contain exact product images but no documented reusable license was found",
+            "action": "Keep the neutral image placeholder until reuse rights are documented."
+          },
+          {
+            "issue": "Workbook eligibility is Pending",
+            "action": "Preserve the study's Pending status."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_71110a4a38ebff-8gb-256gb-ph",
+          "label": "8 GB RAM / 256 GB storage",
+          "sku": null,
+          "modelCode": "TA-1450",
+          "notes": "Philippine launch sources report this exact local configuration at PHP 27,990 and availability through authorized retailers from October 28, 2022. A dated PHP 18,990 promotion was reported June 5, 2023. Current price is not verified. Storage type, expansion and SIM layout remain unresolved.",
+          "workbookRow": 82
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
     }
   ]
 }

@@ -1,0 +1,82 @@
+{
+  "run_at": "2026-11-26T18:14:55+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_71110a4a38ebff",
+      "brand": "Nokia",
+      "model_name": "Nokia X30 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_71110a4a38ebff",
+      "source_url": "https://www.yugatech.com/mobile/nokia-x30-5g-launches-in-the-philippines-priced/",
+      "result": "YugaTech reports the official Philippine 8 GB / 256 GB X30 5G release at PHP 27,990 with authorized retail availability from October 28, 2022."
+    },
+    {
+      "device_id": "device_71110a4a38ebff",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC's 2022 GEC includes Nokia TA-1450; HMD's exact-model specifications page identifies the same model code."
+    },
+    {
+      "device_id": "device_71110a4a38ebff",
+      "source_url": "https://www.hmd.com/en_eg/press/nokia-x30-press-release",
+      "result": "HMD launched Nokia X30 5G globally September 1, 2022; it states availability from that day. GSMArena separately lists September 21 as retail release."
+    },
+    {
+      "device_id": "device_71110a4a38ebff",
+      "source_url": "https://www.noypigeeks.com/promos/nokia-x30-5g-price-drop/",
+      "result": "NoypiGeeks reported a dated June 5, 2023 historical price change from PHP 27,990 to PHP 18,990 for the 8 GB / 256 GB model."
+    },
+    {
+      "device_id": "device_71110a4a38ebff",
+      "source_url": "https://www.hmd.com/en_in/nokia-x-30/specs",
+      "result": "HMD's TA-1450 specifications support core hardware fields; its OS-upgrade count conflicts with the launch release and storage expansion is not specified."
+    },
+    {
+      "device_id": "device_71110a4a38ebff",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-nokia-x30-5g-8gb-256gb",
+      "result": "Exact global 8/256 model page used only as a cross-check; disputed UFS type and microSD claims are not treated as settled local facts."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_71110a4a38ebff",
+      "amount_php": 27990,
+      "configuration_id": "device_71110a4a38ebff-8gb-256gb-ph",
+      "configuration_match": "exact_philippine_8gb_256gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-10-28",
+      "excerpt": "Philippine launch coverage lists PHP 27,990 for the Nokia X30 5G 8 GB / 256 GB; authorized nationwide retailers were reported to begin availability October 28, 2022.",
+      "source_url": "https://www.yugatech.com/mobile/nokia-x30-5g-launches-in-the-philippines-priced/",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26T18:14:55+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_71110a4a38ebff",
+      "amount_php": 18990,
+      "configuration_id": "device_71110a4a38ebff-8gb-256gb-ph",
+      "configuration_match": "exact_philippine_8gb_256gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_price_promotion",
+      "source_published_at": "2023-06-05",
+      "excerpt": "NoypiGeeks reported a PHP 9,000 reduction from PHP 27,990 to PHP 18,990 for Nokia X30 5G, 8 GB RAM / 256 GB storage. Historical promotional price; no current availability inferred.",
+      "source_url": "https://www.noypigeeks.com/promos/nokia-x30-5g-price-drop/",
+      "source_kind": "dated_local_price_promotion",
+      "observed_at": "2026-11-26T18:14:55+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_promotion_not_current"
+    }
+  ]
+}

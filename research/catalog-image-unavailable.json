@@ -1200,11 +1200,11 @@
     "altText": "Image unavailable for Nokia G42 5G"
   },
   "device_71110a4a38ebff": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Exact Nokia X30 5G product images are available on HMD and Philippine technology pages, but no reusable license or permission to copy/embed is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://www.hmd.com/en_in/nokia-x-30/specs",
     "assetUrl": null,
-    "scope": null,
+    "scope": "Nokia X30 5G; Philippine 8 GB / 256 GB variant",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Nokia X30 5G"
