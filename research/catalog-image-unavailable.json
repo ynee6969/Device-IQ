@@ -3453,11 +3453,11 @@
     "altText": "Image unavailable for NEXAL Pad"
   },
   "device_122fb62b2868fc": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "HMD's product/specification page links an exact Ocean Blue Nokia T10 image, but a reusable license or permission to republish was not found. Keep the neutral placeholder.",
+    "sourcePage": "https://www.hmd.com/en_int/nokia-t-10",
+    "assetUrl": "https://cdn.sanity.io/images/nsyec4mj/production/09fa93cd86409cd2b8b807a6c16b3c616ac7e21d-2373x4000.png?auto=format&h=330&q=80&w=195",
+    "scope": "Nokia T10 Ocean Blue; model family includes local TA-1503 4 GB / 64 GB LTE configuration",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Nokia T10"

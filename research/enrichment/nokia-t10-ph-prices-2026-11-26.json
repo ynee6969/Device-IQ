@@ -1,0 +1,66 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_122fb62b2868fc",
+      "brand": "Nokia",
+      "model_name": "T10",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_122fb62b2868fc",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC 2022 GEC lists Nokia TA-1503 as a tablet; HMD T10 guide lists TA-1503 as a Nokia T10 code."
+    },
+    {
+      "device_id": "device_122fb62b2868fc",
+      "source_url": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+      "result": "Philippine report identifies 4 GB / 64 GB T10 at PHP 9,690 in December 2022."
+    },
+    {
+      "device_id": "device_122fb62b2868fc",
+      "source_url": "https://www.gsmarena.com/nokia_t10_is_an_affordable_8_tablet_with_lte_and_octacore_chipset-news-55014.php",
+      "result": "Exact global 3 GB / 32 GB Wi-Fi and 4G variants; global sales and local sale are kept distinct."
+    },
+    {
+      "device_id": "device_122fb62b2868fc",
+      "source_url": "https://www.hmd.com/en_int/nokia-t-10/specs",
+      "result": "Manufacturer specifications cover product hardware, two RAM and storage capacities, Wi-Fi, optional 4G, battery and build."
+    },
+    {
+      "device_id": "device_122fb62b2868fc",
+      "source_url": "https://www.kimovil.com/es/donde-comprar-nokia-t10",
+      "result": "Exact global T10 profile confirms 3/32 and 4/64; NFC no claim conflicts with a local report and remains unresolved."
+    },
+    {
+      "device_id": "device_122fb62b2868fc",
+      "source_url": "https://www.pinoytechnoguide.com/brand/nokia",
+      "result": "Reviewed PTG Nokia archive; no exact T10 page found."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_122fb62b2868fc",
+      "amount_php": 9690,
+      "configuration_id": "device_122fb62b2868fc-lte-4gb-64gb-ph",
+      "configuration_match": "philippine_TA-1503_LTE_4gb_64gb",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-12-16",
+      "excerpt": "YugaTech and NoypiGeeks report the Nokia T10 4 GB / 64 GB at PHP 9,690 in Philippine launch coverage dated 16 December 2022; historical price, not a current offer.",
+      "source_url": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}

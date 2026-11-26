@@ -44547,46 +44547,295 @@
     "category": "tablets",
     "brand": "Nokia",
     "model": "T10",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "manufacturer": "HMD Global Oy (Nokia brand licensee)",
+    "productLine": "Nokia T-series tablets",
+    "modelNumber": "TA-1503",
+    "releaseDate": "2022-08-20",
+    "philippineAvailabilityDate": "2022-12-16",
+    "philippineDateLabel": "Reported Philippine availability by 16 December 2022",
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact T10 model family and TA-1503 code matched; Philippine 4 GB / 64 GB LTE configuration and historical price supported by local reports; 3 GB / 32 GB Philippine sale unverified; battery, NFC and brightness discrepancies documented; current price and image reuse rights unresolved; study scope remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "NTC lists Nokia tablet code TA-1503; HMD's T10 user guide includes TA-1503 among Nokia T10 codes. Philippine launch reporting identifies the 4 GB / 64 GB LTE voice-calling version at PHP 9,690. This establishes historical local availability for that configuration, not current stock or exact first sale. The global 3 GB / 32 GB Wi-Fi configuration remains Philippine-unverified.",
+    "availabilityStatus": "Philippine launch reporting confirms the Nokia T10 4 GB / 64 GB LTE voice-calling configuration was available through Nokia stores and authorized resellers by 16 December 2022. The separate 3 GB / 32 GB global Wi-Fi configuration has no verified local sale evidence.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 119 Nokia T10 matches HMD's exact model family. NTC lists TA-1503 as a Nokia tablet and HMD's T10 user guide maps that code to the Nokia T10. Local press confirms 4 GB / 64 GB LTE with voice calling at PHP 9,690 by December 2022. The separate global 3 GB / 32 GB Wi-Fi configuration is kept as its own visible record variant, without Philippine availability or price claims. A 5,280 mAh local report conflicts with HMD's 5,250 mAh specification; NFC reports conflict; brightness figures vary. Current price and image reuse rights are unresolved. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "No exact first authorized sale date is documented",
+        "action": "Retain the reported local availability-by date and year; do not label it the first sale."
+      },
+      {
+        "issue": "Philippine sale of global 3 GB / 32 GB configuration is unverified",
+        "action": "Keep it as a separate global configuration with no local price or eligibility claim."
+      },
+      {
+        "issue": "Only historical PHP 9,690 price is verified",
+        "action": "Keep current price blank and date the historical 4 GB / 64 GB observation."
+      },
+      {
+        "issue": "Battery capacity is 5,250 mAh on HMD specs and 5,280 mAh in one local article",
+        "action": "Use HMD's 5,250 mAh value and preserve the discrepancy in field notes."
+      },
+      {
+        "issue": "NFC listings conflict and HMD does not resolve them",
+        "action": "Leave NFC blank."
+      },
+      {
+        "issue": "Published display brightness values do not align",
+        "action": "Keep a conflict note and do not publish one normalized brightness value."
+      },
+      {
+        "issue": "Exact-model HMD image is visible, but reuse permission is not established",
+        "action": "Retain the neutral placeholder and source metadata."
+      },
+      {
+        "issue": "No exact Nokia T10 page was found in the reviewed Pinoy Techno Guide archive or NanoReview",
+        "action": "Use exact HMD, NTC, GSMArena, Kimovil and local Philippine reporting; do not substitute generic pages."
+      },
+      {
+        "issue": "Workbook eligibility remains Pending",
+        "action": "Preserve the supplied study-scope status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_int/nokia-t-10/specs",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Nokia T10 specifications, supported memory choices, and exact-model image",
+        "note": "HMD lists the T10 hardware and 3/32 plus 4/64 memory capacities, display, cameras, connectivity, 5,250 mAh battery, 10 W charging, IPX2 rating, Android 12, materials, and supported memory-card size. Its global page is not Philippine SKU evidence."
+      },
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_int/nokia-t-10",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official product identity, discontinuation state, and image page",
+        "note": "HMD identifies the Nokia T10; the product imagery matches the Ocean Blue Nokia T10. Image reuse permission was not located."
+      },
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_int/press/nokia-8210-2660-5710-t10-press-release",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-07-12",
+        "purpose": "Global announcement date and update policy",
+        "note": "HMD announced Nokia T10 on 12 July 2022 and stated two Android OS upgrades and three years of monthly security updates from global launch."
+      },
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_int/support/nokia-t10-user-guide/insert-cards?locale=en-USA",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Regional model code and SIM tray support",
+        "note": "HMD's Nokia T10 guide maps TA-1503 to the exact T10 model family and documents a nano-SIM plus memory-card tray for TA-1503. The page does not establish the memory configuration for that code."
+      },
+      {
+        "organization": "National Telecommunications Commission",
+        "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment certification model code",
+        "note": "The 2022 NTC GEC lists NOKIA tablet computer TA-1503. The separate HMD T10 guide includes TA-1503 among Nokia T10 codes, supporting the exact model match; the NTC row alone does not state the trade name."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-12-16",
+        "purpose": "Philippine launch, 4 GB / 64 GB local configuration, historic price and local spec cross-check",
+        "note": "Published 16 December 2022. Reports Philippine launch, PHP 9,690 for the 4 GB / 64 GB configuration, authorized sales channels, and core specifications. Treat the price as historical, not current."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/android/nokia-t10-t21-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-12-16",
+        "purpose": "Independent Philippine availability, local configuration, and historical price cross-check",
+        "note": "Published 16 December 2022. Reports Nokia T10 in the Philippines with 4 GB / 64 GB and PHP 9,690; it does not establish an exact first-sale transaction date."
+      },
+      {
+        "organization": "Technobaboy Philippines",
+        "url": "https://www.technobaboy.com/2022/12/21/nokia-t10-nokia-t21-budget-tablets-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-12-21",
+        "purpose": "Local LTE SKU, price, and specification cross-check; discrepancy audit",
+        "note": "Published 21 December 2022. Identifies the locally available LTE/voice-calling 4 GB / 64 GB model at PHP 9,690. Its article reports 5,280 mAh and NFC; these differ from the HMD battery specification and Kimovil NFC entry, so the battery uses the manufacturer value with the conflict noted and NFC remains unresolved."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/nokia_t10-11669.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model global technical and configuration cross-check",
+        "note": "The exact Nokia T10 page lists model configurations, chipset, display, camera, battery, and other hardware. Global configurations are not treated as Philippine sale evidence."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/nokia_t10_is_an_affordable_8_tablet_with_lte_and_octacore_chipset-news-55014.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-07-12",
+        "purpose": "Exact-model launch and Wi-Fi / LTE configuration cross-check",
+        "note": "Published 12 July 2022. Reports the global Nokia T10 launch, 3/32 GB Wi-Fi model at launch, and additional LTE/4 GB/64 GB choices by market."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/es/donde-comprar-nokia-t10",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact Nokia T10 global configuration and connectivity cross-check",
+        "note": "Exact Nokia T10 profile lists 3/32 and 4/64 versions. Kimovil reports NFC absent; its international profile is not Philippine availability evidence."
+      },
+      {
+        "organization": "Notebookcheck",
+        "url": "https://www.notebookcheck.net/Nokia-T10-Android-12-tablet-introduced-for-US-159-with-LTE-connectivity-and-second-screen-support-when-paired-to-a-Windows-PC.634511.0.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-07-12",
+        "purpose": "Independent exact-model hardware and display cross-check",
+        "note": "Exact Nokia T10 launch coverage identifies the device and hardware. Its display-brightness claim differs from other published values; retain the differing measurements without selecting a single normalized value."
+      },
+      {
+        "organization": "Notebookcheck",
+        "url": "https://www.notebookcheck.com/Test-Nokia-T10-Tablet-Handliches-Pad-mit-Update-Versprechen.682197.0.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent exact-model product review and display measurement",
+        "note": "Notebookcheck's Nokia T10 review describes its IPS display and reports its measured/claimed brightness context. It is not a Philippine SKU source."
+      },
+      {
+        "organization": "Clubic",
+        "url": "https://www.clubic.com/pro/entreprises/nokia/test-produit-441858-test-nokia-t10-une-tablette-8-pouces-low-cost-sans-pretention-et-sans-surprises.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent exact-model display measurement cross-check",
+        "note": "Clubic reports an average 360 cd/m² and peak 450 cd/m². These figures differ from Notebookcheck's 400 cd/m² value and are not collapsed into one number."
+      },
+      {
+        "organization": "HMD Global (manufacturer datasheet; mirrored copy)",
+        "url": "https://jmcomms.com/wp-content/uploads/2022/07/Nokia-T10-data-sheet.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer launch datasheet cross-check for display brightness and technical details",
+        "note": "The HMD-branded Nokia T10 launch datasheet states 360 nits typical and 450 nits boost. The PDF is available through a third-party mirror, not HMD's own host."
+      },
+      {
+        "organization": "Pinoy Techno Guide Philippines",
+        "url": "https://www.pinoytechnoguide.com/brand/nokia",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Check for exact-model Philippine page availability",
+        "note": "The reviewed Nokia brand archive does not list an exact Nokia T10 page. No generic PTG record or other model was substituted as evidence."
+      }
+    ],
     "variants": [
       {
-        "id": "device_122fb62b2868fc-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_122fb62b2868fc-wifi-3gb-32gb-global",
+        "label": "3 GB RAM / 32 GB storage (global Wi-Fi configuration; Philippine sale unverified)",
+        "specs": {
+          "displayInches": 8,
+          "displayType": "IPS LCD",
+          "resolution": "1280 x 800",
+          "chipset": "Unisoc T606",
+          "gpu": "Mali-G57 MP1",
+          "os": "Android 12",
+          "ramGb": 3,
+          "storageGb": 32,
+          "frontCameraMp": 2,
+          "batteryMah": 5250,
+          "chargingW": 10,
+          "dimensions": "208 x 123.2 x 9 mm",
+          "weightG": 375,
+          "cellular": "Wi-Fi-only",
+          "wifi": "Wi-Fi 5 (802.11ac), dual-band",
+          "ports": "USB Type-C; USB 2.0; OTG",
+          "sound": "Stereo speakers; OZO Playback; 3.5 mm jack"
+        },
+        "specSources": {
+          "displayInches": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "displayType": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+          "resolution": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "chipset": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "gpu": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+          "os": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "ramGb": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "storageGb": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "frontCameraMp": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "batteryMah": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "chargingW": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "dimensions": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "weightG": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "cellular": "https://www.gsmarena.com/nokia_t10_is_an_affordable_8_tablet_with_lte_and_octacore_chipset-news-55014.php",
+          "wifi": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "ports": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "sound": "https://www.hmd.com/en_int/nokia-t-10/specs"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Exact global T10 configuration; no Philippine sale or price evidence found for this version.",
         "sku": null,
         "modelCode": null,
+        "workbookRow": null
+      },
+      {
+        "id": "device_122fb62b2868fc-lte-4gb-64gb-ph",
+        "label": "4 GB RAM / 64 GB storage; LTE with voice calling (Philippine configuration)",
+        "specs": {
+          "displayInches": 8,
+          "displayType": "IPS LCD",
+          "resolution": "1280 x 800",
+          "chipset": "Unisoc T606",
+          "gpu": "Mali-G57 MP1",
+          "os": "Android 12",
+          "ramGb": 4,
+          "storageGb": 64,
+          "frontCameraMp": 2,
+          "batteryMah": 5250,
+          "chargingW": 10,
+          "dimensions": "208 x 123.2 x 9 mm",
+          "weightG": 375,
+          "cellular": "4G LTE with voice calling; exact Philippine bands not recorded",
+          "wifi": "Wi-Fi 5 (802.11ac), dual-band",
+          "ports": "USB Type-C; USB 2.0; OTG",
+          "sound": "Stereo speakers; OZO Playback; 3.5 mm jack"
+        },
+        "specSources": {
+          "displayInches": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "displayType": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+          "resolution": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "chipset": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "gpu": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+          "os": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "ramGb": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+          "storageGb": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+          "frontCameraMp": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "batteryMah": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "chargingW": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "dimensions": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "weightG": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "cellular": "https://www.yugatech.com/personal-computing/nokia-t10-t21-tablet-priced-in-the-philippines/",
+          "wifi": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "ports": "https://www.hmd.com/en_int/nokia-t-10/specs",
+          "sound": "https://www.hmd.com/en_int/nokia-t-10/specs"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceType": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "Philippine launch reports identify this LTE/voice-calling configuration at PHP 9,690 in December 2022; current price is not verified.",
+        "sku": null,
+        "modelCode": "TA-1503",
         "workbookRow": null
       }
     ],
