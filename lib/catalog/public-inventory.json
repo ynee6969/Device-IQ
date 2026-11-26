@@ -15637,44 +15637,257 @@
     "category": "smartphones",
     "brand": "Nokia",
     "model": "G42 5G",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HMD Global Oy (Nokia brand licensee)",
+    "productLine": "Nokia G-series smartphones",
     "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "releaseDate": "2023-06-28",
+    "philippineAvailabilityDate": "2023-09-13",
+    "philippineDateLabel": "Reported Philippine orderability by 13 September 2023 (6 GB / 128 GB cross-border listing)",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact Nokia G42 5G product family and two Philippine RAM/storage configurations matched; local regional model code remains unconfirmed; dated local prices only; current price unverified; image reuse rights not established; sensor list conflict retained; study scope remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "NoypiGeeks reports Nokia Mobile identified its Shopee cross-border shop as the Nokia Official Flagship Store and listed the 6 GB / 128 GB Nokia G42 5G for Philippine buyers in September 2023, shipping from mainland China. GizGuide later reports a Philippine 4 GB / 128 GB version on sale by 25 December 2023. These sources support historical local orderability; they do not establish a domestic stock location, exact local first transaction, current availability, or the shipped unit's TA model code.",
+    "availabilityStatus": "Historical Philippine availability is reported for the 6 GB / 128 GB version through Nokia's cross-border Official Flagship Store on Shopee; a Philippine 4 GB / 128 GB sale was reported by December 2023. Current Philippine stock and price are unverified.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 149 Nokia G42 5G matches HMD's exact G42 product family. HMD globally covers TA-1581 and TA-1591, but reviewed local seller coverage does not state which code was shipped. Separate Philippine 4 GB / 128 GB and 6 GB / 128 GB configurations are retained. The 6/128 version was listed through Nokia's cross-border official Shopee shop by 13 September 2023; the 4/128 version was reported on sale by 25 December 2023. Current Philippine price is not verified. The record's study scope remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "The cross-border listing does not identify whether its unit is TA-1581 or TA-1591",
+        "action": "Keep the Philippine model number blank until the seller SKU, box label, or local regulatory record confirms it."
+      },
+      {
+        "issue": "Exact first-sale date for the 4 GB / 128 GB Philippine variant is not established",
+        "action": "Retain the 25 December 2023 dated sale report as evidence available by that date, not as a launch date."
+      },
+      {
+        "issue": "No current orderable Philippine price was verified",
+        "action": "Keep current price blank; preserve 2023 price observations as historical only."
+      },
+      {
+        "issue": "HMD and local product pages show exact-model images but no reusable license or permission was found",
+        "action": "Keep the neutral image placeholder and preserve image source provenance."
+      },
+      {
+        "issue": "HMD's sensor list omits a gyroscope while GizGuide lists one",
+        "action": "Keep the sensor field unresolved rather than presenting either list as complete."
+      },
+      {
+        "issue": "Workbook eligibility remains Pending",
+        "action": "Preserve the supplied study-scope status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_int/nokia-g-42/specs",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model specifications and official product imagery",
+        "note": "HMD publishes Nokia G42 5G display, cameras, connectivity, battery, storage options, CPU/GPU, OS, supported update policy, build, ingress rating, audio, and sensors. This international model page does not identify the Philippine Shopee unit's regional model code or current local availability."
+      },
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_int/nokia-g-42",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer product identity and exact-model image page",
+        "note": "HMD's product page identifies the Nokia G42 5G and displays exact-model imagery. No reusable image license or permission was located."
+      },
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_int/support/nokia-g42-5g-user-guide/keys-and-parts",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Model-code family cross-check",
+        "note": "HMD states that this Nokia G42 5G user guide applies to TA-1581 and TA-1591. The Philippine cross-border listing does not state which code it ships; neither code is assigned to the local configurations."
+      },
+      {
+        "organization": "HMD Global (manufacturer)",
+        "url": "https://www.hmd.com/en_au/blog/the-story-behind-nokia-g-42-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-06-28",
+        "purpose": "Global announcement date and product identity",
+        "note": "HMD's dated Nokia G42 story is published 28 June 2023 and describes the model launch. This is the global announcement date, not a Philippine sale date."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/nokia-g42-5g-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-09-13",
+        "purpose": "Philippine 6/128 listing, cross-border price, local specification cross-check",
+        "note": "Published 13 September 2023. Reports the Nokia G42 5G had landed in the Philippines and lists 4 GB and 6 GB RAM options with 128 GB storage. The priced 6 GB / 128 GB option was PHP 11,242 through Nokia's cross-border Shopee store; it was not called a standard SRP. The page lists a separate promotional voucher, which is not treated as a completed transaction or a lower observed device price."
+      },
+      {
+        "organization": "YugaSpecs / YugaTech Philippines",
+        "url": "https://specs.yugatech.com/news/smartphones-launched-in-the-philippines-september-2023/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-09-13",
+        "purpose": "Philippine announcement-date corroboration",
+        "note": "The September 2023 local launch roundup dates the Nokia G42 5G Philippine launch to 13 September 2023. It does not identify an exact first transaction timestamp or a local regional model code."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/android/nokia-g42-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-09-14",
+        "purpose": "Local launch, authorized cross-border shop, and 6/128 configuration evidence",
+        "note": "Published 14 September 2023. Reports a Nokia Mobile Facebook announcement that the 6 GB / 128 GB G42 was offered through the Nokia Official Flagship Store cross-border Shopee shop, shipping from mainland China, at PHP 11,242 with an extra voucher. This supports historical official-store Philippine orderability, not domestic warehouse origin, present stock, or a regional TA code."
+      },
+      {
+        "organization": "GizGuide Philippines",
+        "url": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-25",
+        "purpose": "Exact 4/128 Philippine configuration, historical SRP and promotion, hardware cross-check",
+        "note": "Published 25 December 2023. Identifies the Philippine 4 GB / 128 GB configuration, states an original SRP of PHP 11,990 and a Christmas promotional price of PHP 8,990, and provides local specifications. The article is treated as evidence of availability by its publication date, not the configuration's first-sale date."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/nokia_g42_5g_announced_with_snapdragon_480_and_50mp_main_cam-news-58995.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-06-28",
+        "purpose": "Exact global model, launch timing, memory options, and hardware cross-check",
+        "note": "The exact Nokia G42 5G launch article reports 4/128 and 6/128 GB options, 28 June 2023 announcement, Snapdragon 480+, Android 13, 5,000 mAh battery, camera configuration, and display. Global configuration details are not treated as proof of Philippine sale."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/phone/nokia-g42",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary technical cross-check for memory, processor, storage, and imaging fields",
+        "note": "Exact Nokia G42 profile reports LPDDR4X RAM, UFS 2.2 storage, 8 nm Snapdragon 480 Plus, CPU core arrangement, and camera/video capabilities. It warns that some specifications can differ by region; local availability and regional code are sourced separately."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-nokia-g42",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Global configuration and regional-variation cross-check",
+        "note": "Exact Nokia G42 profile lists distinct global 4/128 and 6/128 GB configurations and warns that country/region bands differ. It is not used as evidence of Philippine availability or price."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/nokia-phone-price-list-philippines",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-11-05",
+        "purpose": "Dated local price-history cross-check",
+        "note": "The price-list entry records a verified PHP 11,290 report dated 5 November 2023. Its age means this is historical evidence only and is not presented as a current price."
+      }
+    ],
     "variants": [
       {
-        "id": "device_9ba373722ace11-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_9ba373722ace11-ph-4gb-128gb",
+        "label": "4 GB RAM / 128 GB storage (Philippine configuration; reported on sale by 25 December 2023)",
+        "specs": {
+          "displayInches": 6.56,
+          "displayType": "IPS LCD",
+          "resolution": "720 x 1612",
+          "refreshHz": 90,
+          "chipset": "Qualcomm Snapdragon 480+ 5G",
+          "gpu": "Adreno 619",
+          "os": "Android 13",
+          "ramGb": 4,
+          "storageGb": 128,
+          "frontCameraMp": 8,
+          "batteryMah": 5000,
+          "chargingW": 20,
+          "dimensions": "165 x 75.8 x 8.55 mm",
+          "weightG": 193.8,
+          "cellular": "4G LTE and 5G; local band set not recorded",
+          "wifi": "Wi-Fi 6 ready (802.11 a/b/g/n/ac/ax)",
+          "ports": "USB Type-C; USB 2.0; OTG",
+          "gnss": "GPS; A-GPS; GLONASS; BDS; Galileo",
+          "sound": "Mono speaker; 3.5 mm jack; OZO Playback; FM radio with headset"
+        },
+        "specSources": {
+          "displayInches": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "displayType": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+          "resolution": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "refreshHz": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "chipset": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "gpu": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "os": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "ramGb": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+          "storageGb": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+          "frontCameraMp": "https://www.noypigeeks.com/android/nokia-g42-philippines/",
+          "batteryMah": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "chargingW": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "dimensions": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "weightG": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "cellular": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+          "wifi": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "ports": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "gnss": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "sound": "https://www.hmd.com/en_int/nokia-g-42/specs"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "GizGuide reports a Philippine 4/128 GB version and dated 2023 Christmas promotion. Exact local model code and first-sale date are unknown; current price is not verified.",
+        "sku": null,
+        "modelCode": null,
+        "workbookRow": null
+      },
+      {
+        "id": "device_9ba373722ace11-ph-crossborder-6gb-128gb",
+        "label": "6 GB RAM / 128 GB storage (Philippine cross-border Shopee configuration)",
+        "specs": {
+          "displayInches": 6.56,
+          "displayType": "IPS LCD",
+          "resolution": "720 x 1612",
+          "refreshHz": 90,
+          "chipset": "Qualcomm Snapdragon 480+ 5G",
+          "gpu": "Adreno 619",
+          "os": "Android 13",
+          "ramGb": 6,
+          "storageGb": 128,
+          "frontCameraMp": 8,
+          "batteryMah": 5000,
+          "chargingW": 20,
+          "dimensions": "165 x 75.8 x 8.55 mm",
+          "weightG": 193.8,
+          "cellular": "4G LTE and 5G; local band set not recorded",
+          "wifi": "Wi-Fi 6 ready (802.11 a/b/g/n/ac/ax)",
+          "ports": "USB Type-C; USB 2.0; OTG",
+          "gnss": "GPS; A-GPS; GLONASS; BDS; Galileo",
+          "sound": "Mono speaker; 3.5 mm jack; OZO Playback; FM radio with headset"
+        },
+        "specSources": {
+          "displayInches": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "displayType": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+          "resolution": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "refreshHz": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "chipset": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "gpu": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "os": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "ramGb": "https://www.yugatech.com/mobile/nokia-g42-5g-specs-price-philippines/",
+          "storageGb": "https://www.yugatech.com/mobile/nokia-g42-5g-specs-price-philippines/",
+          "frontCameraMp": "https://www.noypigeeks.com/android/nokia-g42-philippines/",
+          "batteryMah": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "chargingW": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "dimensions": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "weightG": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "cellular": "https://www.yugatech.com/mobile/nokia-g42-5g-specs-price-philippines/",
+          "wifi": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "ports": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "gnss": "https://www.hmd.com/en_int/nokia-g-42/specs",
+          "sound": "https://www.hmd.com/en_int/nokia-g-42/specs"
+        },
+        "pricePhp": null,
+        "priceCondition": null,
+        "priceType": null,
+        "priceObservedAt": null,
+        "priceSourceUrl": null,
+        "listingStatus": "Not verified",
+        "notes": "NoypiGeeks and YugaTech report a Nokia Official Flagship Store cross-border listing for Philippine buyers in September 2023. HMD TA model code and present-day price are not verified.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

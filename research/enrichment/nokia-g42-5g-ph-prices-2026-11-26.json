@@ -1,0 +1,124 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_9ba373722ace11",
+      "brand": "Nokia",
+      "model_name": "G42 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://www.hmd.com/en_int/nokia-g-42/specs",
+      "result": "HMD exact-model specifications checked against display, platform, memory, camera, battery, connectivity, build, and sensors."
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://www.hmd.com/en_int/support/nokia-g42-5g-user-guide/keys-and-parts",
+      "result": "HMD guide names TA-1581 and TA-1591 but does not map either code to the Philippine cross-border seller unit."
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://www.noypigeeks.com/android/nokia-g42-philippines/",
+      "result": "NoypiGeeks reports Nokia Mobile's cross-border Nokia Official Flagship Store Shopee listing for the 6/128 variant and PHP 11,242."
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+      "result": "GizGuide reports Philippine 4/128 configuration, PHP 11,990 original SRP, and a PHP 8,990 Christmas promotion as of 25 December 2023."
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://www.gsmarena.com/nokia_g42_5g_announced_with_snapdragon_480_and_50mp_main_cam-news-58995.php",
+      "result": "GSMArena corroborates exact G42 model and global 4/128 and 6/128 configurations; global configuration alone is not local-market evidence."
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://nanoreview.net/en/phone/nokia-g42",
+      "result": "NanoReview technical profile checked for memory/storage interfaces, chipset process, CPU, and video modes; region-specific claims were not substituted for local evidence."
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-nokia-g42",
+      "result": "Kimovil exact-model page corroborates distinct global 4/128 and 6/128 configurations; no Philippine listing was inferred from its global prices."
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "source_url": "https://www.pinoytechnoguide.com/",
+      "result": "An exact Nokia G42 page was not found in the Pinoy Techno Guide search; no generic or similar-model page was substituted."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_9ba373722ace11",
+      "amount_php": 11990,
+      "configuration_id": "device_9ba373722ace11-ph-4gb-128gb",
+      "configuration_match": "exact_philippine_4gb_128gb_configuration",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_reported_srp",
+      "source_published_at": "2023-12-25",
+      "excerpt": "GizGuide reported an original PHP 11,990 SRP for the Philippine Nokia G42 5G 4 GB / 128 GB configuration on 25 December 2023; this is historical, not a current offer.",
+      "source_url": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+      "source_kind": "historical_local_reported_srp",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "amount_php": 8990,
+      "configuration_id": "device_9ba373722ace11-ph-4gb-128gb",
+      "configuration_match": "exact_philippine_4gb_128gb_configuration",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_christmas_promotion",
+      "source_published_at": "2023-12-25",
+      "excerpt": "GizGuide reported PHP 8,990 as a Christmas Shopee promotional offer, reduced from the reported PHP 11,990 SRP; historical promotion, not a current offer.",
+      "source_url": "https://www.gizguide.com/2023/12/nokia-g42-5g-sale-ph.html",
+      "source_kind": "dated_local_price_promotion",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_promotion_not_current"
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "amount_php": 11242,
+      "configuration_id": "device_9ba373722ace11-ph-crossborder-6gb-128gb",
+      "configuration_match": "exact_philippine_crossborder_6gb_128gb_listing",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_crossborder_store_listing",
+      "source_published_at": "2023-09-13",
+      "excerpt": "YugaTech reported PHP 11,242 for the 6 GB / 128 GB model via Nokia's cross-border Shopee store; a separate extra voucher was advertised. The listing price is not a verified completed transaction or current offer.",
+      "source_url": "https://www.yugatech.com/mobile/nokia-g42-5g-specs-price-philippines/",
+      "source_kind": "historical_local_store_listing",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_9ba373722ace11",
+      "amount_php": 11290,
+      "configuration_id": null,
+      "configuration_match": "Nokia_G42_5G_RAM_configuration_unspecified_in_price_list",
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "price_type": "historical_ph_verified_price_list",
+      "source_published_at": "2023-11-05",
+      "excerpt": "YugaTech's local price list reports PHP 11,290 dated 5 November 2023, but does not identify this price-list entry's RAM/storage configuration. Kept as a model-level historical observation, not assigned as the 6/128 SKU's current price.",
+      "source_url": "https://www.yugatech.com/nokia-phone-price-list-philippines",
+      "source_kind": "historical_local_price_list",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_configuration_unspecified"
+    }
+  ]
+}
