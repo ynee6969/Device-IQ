@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T10:58:09+08:00
+Updated: 2026-11-26T11:17:59+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -9,18 +9,18 @@ Updated: 2026-11-26T10:58:09+08:00
 | Measure | Count |
 | --- | ---: |
 | Device models | 456 |
-| Configurations | 555 |
-| Models with manually verified source fields | 279 |
+| Configurations | 554 |
+| Models with manually verified source fields | 280 |
 | Configurations with manually verified source fields | 381 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 12 |
 | Specification-complete models | 0 |
 | Incomplete models | 445 |
-| Applicable field assignments | 25382 |
-| Fields assessed | 11187 |
-| Verified fields | 10848 |
-| Pending fields | 14195 |
+| Applicable field assignments | 25337 |
+| Fields assessed | 11228 |
+| Verified fields | 10889 |
+| Pending fields | 14109 |
 | PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -45,7 +45,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2021 | smartphones | OnePlus | 3 | 0 | 3 | 0 | 0 | 3 | 60 | 60 | 75 | 2 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | POCO | 3 | 0 | 3 | 0 | 0 | 3 | 81 | 81 | 54 | 3 | 3 | 0 | 0 | 1 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Redmi | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | smartphones | Samsung | 6 | 6 | 6 | 0 | 0 | 6 | 310 | 308 | 140 | 2 | 5 | 3 | 0 | 2 | 4 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | smartphones | Samsung | 6 | 6 | 6 | 0 | 0 | 6 | 351 | 349 | 54 | 2 | 6 | 3 | 0 | 2 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | TCL | 2 | 0 | 2 | 0 | 0 | 2 | 58 | 58 | 32 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | TECNO | 3 | 0 | 3 | 0 | 0 | 3 | 26 | 26 | 109 | 1 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Xiaomi | 1 | 0 | 1 | 0 | 0 | 1 | 30 | 30 | 15 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |

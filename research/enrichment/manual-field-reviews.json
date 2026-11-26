@@ -45772,462 +45772,6 @@
       ]
     },
     {
-      "deviceId": "device_408426b533b92e",
-      "configurationId": "config_07943b6753bcc7",
-      "brand": "Samsung",
-      "model": "Galaxy S21 5G",
-      "configurationLabel": "256 GB storage; RAM not verified",
-      "sources": [
-        {
-          "id": "candidate_b72cba17aeaa31",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-5g",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": 4000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 4000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Bluetooth: Bluetooth 5.0",
-          "normalizedValue": "Bluetooth 5.0",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Charging: 25W Fast Charging, 15W Fast Wireless Charging & 4.5W Reverse Wireless Charging Charging",
-          "normalizedValue": 25,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "W",
-          "catalogKey": "chargingW",
-          "catalogValue": 25
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Chipset: Samsung Exynos 2100",
-          "normalizedValue": "Samsung Exynos 2100",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "Samsung Exynos 2100"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "CPU: Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz",
-          "normalizedValue": "Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": 6.2,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.2
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "GPU: Mali-G78 MP14",
-          "normalizedValue": "Mali-G78 MP14",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Mali-G78 MP14"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "NFC: Yes",
-          "normalizedValue": "Yes",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "OS: Android 11 with One UI 3.1",
-          "normalizedValue": "Android 11 with One UI 3.1",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 11 with One UI 3.1"
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Weight: 169 g",
-          "normalizedValue": 169,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 169
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Wi-Fi: Wi-Fi 6",
-          "normalizedValue": "Wi-Fi 6",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6"
-        }
-      ],
-      "additionalVariants": [
-        {
-          "id": "device_408426b533b92e-auto-8gb-256gb",
-          "label": "8 GB RAM / 256 GB storage"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_408426b533b92e",
-      "configurationId": "device_408426b533b92e-auto-8gb-256gb",
-      "brand": "Samsung",
-      "model": "Galaxy S21 5G",
-      "configurationLabel": "8 GB RAM / 256 GB storage",
-      "sources": [
-        {
-          "id": "candidate_b72cba17aeaa31",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-5g",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "RAM: 8 GB",
-          "normalizedValue": 8,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "ramGb",
-          "catalogValue": 8
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Storage: 256GB",
-          "normalizedValue": 256,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "storageGb",
-          "catalogValue": 256
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Exact configuration 8 GB RAM / 256 GB storage is stated by the source.",
-          "normalizedValue": "8 GB RAM / 256 GB storage",
-          "note": "Configuration evidence matches RAM and storage as an exact pair."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": 4000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 4000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Bluetooth: Bluetooth 5.0",
-          "normalizedValue": "Bluetooth 5.0",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Charging: 25W Fast Charging, 15W Fast Wireless Charging & 4.5W Reverse Wireless Charging Charging",
-          "normalizedValue": 25,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "W",
-          "catalogKey": "chargingW",
-          "catalogValue": 25
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Chipset: Samsung Exynos 2100",
-          "normalizedValue": "Samsung Exynos 2100",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "Samsung Exynos 2100"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "CPU: Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz",
-          "normalizedValue": "Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": 6.2,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.2
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "GPU: Mali-G78 MP14",
-          "normalizedValue": "Mali-G78 MP14",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Mali-G78 MP14"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "NFC: Yes",
-          "normalizedValue": "Yes",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "OS: Android 11 with One UI 3.1",
-          "normalizedValue": "Android 11 with One UI 3.1",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 11 with One UI 3.1"
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Weight: 169 g",
-          "normalizedValue": 169,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 169
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Wi-Fi: Wi-Fi 6",
-          "normalizedValue": "Wi-Fi 6",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_7327b88b5fe9d6",
-      "configurationId": "config_aec7e905ce4e48",
-      "brand": "Samsung",
-      "model": "Galaxy S21 Ultra 5G",
-      "configurationLabel": "256 GB storage; RAM not verified",
-      "sources": [
-        {
-          "id": "candidate_9837e5e73250c9",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-ultra-5g",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": 5000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 5000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Bluetooth: Bluetooth 5.1",
-          "normalizedValue": "Bluetooth 5.1",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Charging: 25W Fast Charging (USB Power Delivery 3.0), 15W Fast Wireless Charging & 4.5W Reverse Wireless Charging Charging",
-          "normalizedValue": 25,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "W",
-          "catalogKey": "chargingW",
-          "catalogValue": 25
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Chipset: Samsung Exynos 2100",
-          "normalizedValue": "Samsung Exynos 2100",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "Samsung Exynos 2100"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "CPU: Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz",
-          "normalizedValue": "Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU1x Cortex-X1 @ 2.9GHz + 3x Cortex-A78 @ 2.8GHz + 4x Cortex-A55 @ 2.2GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Display: 6.8-inch QHD+ Dynamic AMOLED 2X Display (1440 x 3200 Pixels 515 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": 6.8,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.8
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "GPU: Mali-G78 MP14",
-          "normalizedValue": "Mali-G78 MP14",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Mali-G78 MP14"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "NFC: Yes",
-          "normalizedValue": "Yes",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "OS: Android 11 with One UI 3.1",
-          "normalizedValue": "Android 11 with One UI 3.1",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 11 with One UI 3.1"
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Weight: 227 g",
-          "normalizedValue": 227,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 227
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Wi-Fi: Wi-Fi 6E",
-          "normalizedValue": "Wi-Fi 6E",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6E"
-        }
-      ]
-    },
-    {
       "deviceId": "device_043c45f5f5aaea",
       "configurationId": "device_043c45f5f5aaea-unrecorded",
       "brand": "Samsung",
@@ -76850,522 +76394,6 @@
           "sourceValue": "Sensors: Accelerometer | Electronic compass | Hall sensor | IR blaster | Virtual proximity sensor | Virtual light sensor",
           "normalizedValue": "Accelerometer | Electronic compass | Hall sensor | IR blaster | Virtual proximity sensor | Virtual light sensor",
           "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        }
-      ]
-    },
-    {
-      "deviceId": "device_408426b533b92e",
-      "configurationId": "config_07943b6753bcc7",
-      "brand": "Samsung",
-      "model": "Galaxy S21 5G",
-      "configurationLabel": "256 GB storage; RAM not verified",
-      "sources": [
-        {
-          "id": "candidate_b72cba17aeaa31",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-5g",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Sound: Hi-Res Audio Tuned by AKGUSB Type-C Audio Output",
-          "normalizedValue": "Hi-Res Audio Tuned by AKGUSB Type-C Audio Output",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "Hi-Res Audio Tuned by AKGUSB Type-C Audio Output"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": "Li-Po Battery (Non-removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Cellular: 5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "Corning Gorilla Glass Victus",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "Dynamic AMOLED 2X",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "Dynamic AMOLED 2X"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Front Camera: 10 Megapixels (f/2.2 Aperture, Dual Pixel Autofocus) -4K@60fps Video Recording",
-          "normalizedValue": 10,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 10
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Location: A-GPS, GLONASS, Galileo & BeiDou",
-          "normalizedValue": "A-GPS, GLONASS, Galileo & BeiDou",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ingress_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Durability: IP68 Water & Dust Resistant",
-          "normalizedValue": "IP68 Water & Dust Resistant",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, Night Mode & 30x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Build Materials: Glass Front, Plastic Back and Aluminum Frame",
-          "normalizedValue": "Glass Front, Plastic Back and Aluminum Frame",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "120",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "Hz",
-          "catalogKey": "refreshHz",
-          "catalogValue": "120"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "1080 x 2400",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2400"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Sensors: Barometer, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Barometer, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Expansion: None",
-          "normalizedValue": "None",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "telephoto_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, Night Mode & 30x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ultrawide_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, Night Mode & 30x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "8K@24fps/4K@60fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "video",
-          "catalogValue": "8K@24fps/4K@60fps Video Recording"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_408426b533b92e",
-      "configurationId": "device_408426b533b92e-auto-8gb-256gb",
-      "brand": "Samsung",
-      "model": "Galaxy S21 5G",
-      "configurationLabel": "8 GB RAM / 256 GB storage",
-      "sources": [
-        {
-          "id": "candidate_b72cba17aeaa31",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-5g",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Sound: Hi-Res Audio Tuned by AKGUSB Type-C Audio Output",
-          "normalizedValue": "Hi-Res Audio Tuned by AKGUSB Type-C Audio Output",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "Hi-Res Audio Tuned by AKGUSB Type-C Audio Output"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": "Li-Po Battery (Non-removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Cellular: 5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "Corning Gorilla Glass Victus",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "Dynamic AMOLED 2X",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "Dynamic AMOLED 2X"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Front Camera: 10 Megapixels (f/2.2 Aperture, Dual Pixel Autofocus) -4K@60fps Video Recording",
-          "normalizedValue": 10,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 10
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Location: A-GPS, GLONASS, Galileo & BeiDou",
-          "normalizedValue": "A-GPS, GLONASS, Galileo & BeiDou",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ingress_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Durability: IP68 Water & Dust Resistant",
-          "normalizedValue": "IP68 Water & Dust Resistant",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, Night Mode & 30x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Build Materials: Glass Front, Plastic Back and Aluminum Frame",
-          "normalizedValue": "Glass Front, Plastic Back and Aluminum Frame",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "120",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "Hz",
-          "catalogKey": "refreshHz",
-          "catalogValue": "120"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Display: 6.2-inch FHD+ Dynamic AMOLED 2X Display (1080 x 2400 Pixels 421 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "1080 x 2400",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2400"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Sensors: Barometer, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Barometer, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Expansion: None",
-          "normalizedValue": "None",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "telephoto_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, Night Mode & 30x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ultrawide_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, Night Mode & 30x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_b72cba17aeaa31",
-          "sourceValue": "Rear Camera: Triple Cameras: 12MP Main Camera (f/1.8 Aperture, Dual Pixel Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, 120° FoV)64MP Telephoto (f/2.0 Aperture, PD Autofocus, 3x Optical Zoom)-LED Flash -8K@24fps/4K@60fps Video Recording, ",
-          "normalizedValue": "8K@24fps/4K@60fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "video",
-          "catalogValue": "8K@24fps/4K@60fps Video Recording"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_7327b88b5fe9d6",
-      "configurationId": "config_aec7e905ce4e48",
-      "brand": "Samsung",
-      "model": "Galaxy S21 Ultra 5G",
-      "configurationLabel": "256 GB storage; RAM not verified",
-      "sources": [
-        {
-          "id": "candidate_9837e5e73250c9",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-ultra-5g",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Sound: HiRes Audio Tuned by AKGUSB Type-C Audio Output",
-          "normalizedValue": "HiRes Audio Tuned by AKGUSB Type-C Audio Output",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "HiRes Audio Tuned by AKGUSB Type-C Audio Output"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": "Li-Po Battery (Non-removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Cellular: 5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Display: 6.8-inch QHD+ Dynamic AMOLED 2X Display (1440 x 3200 Pixels 515 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "Corning Gorilla Glass Victus",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Display: 6.8-inch QHD+ Dynamic AMOLED 2X Display (1440 x 3200 Pixels 515 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "Dynamic AMOLED 2X",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "Dynamic AMOLED 2X"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Front Camera: 40 Megapixels (f/2.2 Aperture, PD Autofocus) -4K@60fps Video Recording",
-          "normalizedValue": 40,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 40
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Location: A-GPS, GLONASS, Galileo & BeiDou",
-          "normalizedValue": "A-GPS, GLONASS, Galileo & BeiDou",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ingress_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Durability: IP68 Water & Dust Resistant",
-          "normalizedValue": "IP68 Water & Dust Resistant",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Rear Camera: Quad Cameras: 108MP Main Camera (f/1.8 Aperture, Laser AF, PD Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, Dual Pixel AF, 120° FoV)10MP Periscope Telephoto (f/4.9 Aperture, Dual Pixel AF, 10x Optical Zoom)10MP Telephoto (f/2",
-          "normalizedValue": "108MP Main Camera (f/1.8 Aperture, Laser AF, PD Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, Dual Pixel AF, 120° FoV)10MP Periscope Telephoto (f/4.9 Aperture, Dual Pixel AF, 10x Optical Zoom)10MP Telephoto (f/2.4 Aperture, Dual Pixel AF, 3x Optical Zoom)-LED Flash -8K@30fps/4K@60fps Video Recording, Night Mode & 100x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Build Materials: Glass Front & Back with Aluminum Frame",
-          "normalizedValue": "Glass Front & Back with Aluminum Frame",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Display: 6.8-inch QHD+ Dynamic AMOLED 2X Display (1440 x 3200 Pixels 515 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "120",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "Hz",
-          "catalogKey": "refreshHz",
-          "catalogValue": "120"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Display: 6.8-inch QHD+ Dynamic AMOLED 2X Display (1440 x 3200 Pixels 515 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+ & Punch-hole",
-          "normalizedValue": "1440 x 3200",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "1440 x 3200"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Sensors: Barometer, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Barometer, Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Expansion: None",
-          "normalizedValue": "None",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "telephoto_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Rear Camera: Quad Cameras: 108MP Main Camera (f/1.8 Aperture, Laser AF, PD Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, Dual Pixel AF, 120° FoV)10MP Periscope Telephoto (f/4.9 Aperture, Dual Pixel AF, 10x Optical Zoom)10MP Telephoto (f/2",
-          "normalizedValue": "108MP Main Camera (f/1.8 Aperture, Laser AF, PD Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, Dual Pixel AF, 120° FoV)10MP Periscope Telephoto (f/4.9 Aperture, Dual Pixel AF, 10x Optical Zoom)10MP Telephoto (f/2.4 Aperture, Dual Pixel AF, 3x Optical Zoom)-LED Flash -8K@30fps/4K@60fps Video Recording, Night Mode & 100x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ultrawide_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Rear Camera: Quad Cameras: 108MP Main Camera (f/1.8 Aperture, Laser AF, PD Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, Dual Pixel AF, 120° FoV)10MP Periscope Telephoto (f/4.9 Aperture, Dual Pixel AF, 10x Optical Zoom)10MP Telephoto (f/2",
-          "normalizedValue": "108MP Main Camera (f/1.8 Aperture, Laser AF, PD Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, Dual Pixel AF, 120° FoV)10MP Periscope Telephoto (f/4.9 Aperture, Dual Pixel AF, 10x Optical Zoom)10MP Telephoto (f/2.4 Aperture, Dual Pixel AF, 3x Optical Zoom)-LED Flash -8K@30fps/4K@60fps Video Recording, Night Mode & 100x Space Zoom",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_9837e5e73250c9",
-          "sourceValue": "Rear Camera: Quad Cameras: 108MP Main Camera (f/1.8 Aperture, Laser AF, PD Autofocus, OIS)12MP Ultra-wide (f/2.2 Aperture, Dual Pixel AF, 120° FoV)10MP Periscope Telephoto (f/4.9 Aperture, Dual Pixel AF, 10x Optical Zoom)10MP Telephoto (f/2",
-          "normalizedValue": "8K@30fps/4K@60fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "video",
-          "catalogValue": "8K@30fps/4K@60fps Video Recording"
         }
       ]
     },
@@ -127554,6 +126582,1409 @@
         "philippineAvailability": "Samsung Philippines' official terms document pre-orders from 19 August to 21 September 2021. YugaTech reported general availability through Samsung.com/ph, authorized Samsung stores, online partners, and telco partners beginning 22 September 2021. The catalog date is the reported general-sale start, not a first individual transaction timestamp.",
         "observedAt": "2026-11-26",
         "qualityFlag": "Official Philippine pre-order period and reported general-sale date documented"
+      }
+    },
+    {
+      "deviceId": "device_408426b533b92e",
+      "configurationId": "config_07943b6753bcc7",
+      "brand": "Samsung",
+      "model": "Galaxy S21 5G",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "candidate_b72cba17aeaa31",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-5g",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
+          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+        },
+        {
+          "id": "samsung_s21_ph_product",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/smartphones/galaxy-s/galaxy-s21-5g-g991-sm-g991bzagphl/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine SKU identity and product page",
+          "note": "Samsung Philippines' Phantom Gray product entry identifies local SKU SM-G991BZAGPHL and publishes exact 8 GB/256 GB specifications. The color-specific SKU is not applied to the inventory variant."
+        },
+        {
+          "id": "samsung_s21_ph_official_srp_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-s21-5g/flexi-tradeup/",
+          "publicationDate": "2021-01-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine SRP and local model/SKU table for the S21 family",
+          "note": "Samsung Philippines' 2021 promotion lists the S21, S21+, and S21 Ultra SRPs by capacity and color-specific SKU; the SRPs are historical and are not current offers."
+        },
+        {
+          "id": "gadgetmatch_s21_ph_launch_2021",
+          "publisher": "GadgetMatch",
+          "url": "https://www.gadgetmatch.com/samsung-galaxy-s21-series-price-availability-philippines/",
+          "publicationDate": "2021-01-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch prices and availability dates",
+          "note": "The 14 January 2021 report states the standard Galaxy S21 5G would be available from 5 February and S21+ / S21 Ultra from 29 January. Samsung Philippines' SRP table independently supports the prices and configurations."
+        },
+        {
+          "id": "gsmarena_s21_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_s21_5g-10626.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model technical cross-check",
+          "note": "The exact S21-series model page is used for chipset-region distinctions, GPU, storage interface, expandable-storage status, and secondary hardware details not consistently printed in local Samsung tables."
+        },
+        {
+          "id": "samsung_s21_global_specs_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/make-every-day-epic-with-samsung-galaxy-s21-and-galaxy-s21plus",
+          "publicationDate": "2021-01-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch specifications for Galaxy S21 and Galaxy S21+",
+          "note": "Samsung's launch specification table gives the model-specific displays, cameras, processors, RAM/storage tiers, battery, charging, software, and connectivity for S21 and S21+."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "4,000 mAh typical; 3,880 mAh rated minimum",
+          "normalizedValue": 4000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4000,
+          "unit": "mAh",
+          "note": "Samsung reports 3880 mAh rated minimum; the public field stores typical capacity."
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "Up to 25 W wired charging.",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "Exynos 2100 for the international SM-G99xB/DS model family; other regions used Snapdragon 888.",
+          "normalizedValue": "Samsung Exynos 2100",
+          "catalogKey": "chipset",
+          "catalogValue": "Samsung Exynos 2100",
+          "note": "Samsung's Philippine model code is the international B/DS family; GSMArena distinguishes this model from Snapdragon regional variants."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "5 nm octa-core, up to 2.9 GHz + 2.8 GHz + 2.2 GHz",
+          "normalizedValue": "Octa-core 2.9 / 2.8 / 2.2 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core 2.9 / 2.8 / 2.2 GHz",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "6.2 inches (full rectangle)",
+          "normalizedValue": 6.2,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.2,
+          "unit": "in"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "Mali-G78 MP14 on the international Exynos 2100 variant.",
+          "normalizedValue": "Mali-G78 MP14",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G78 MP14"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "NFC supported.",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "Android 11 with One UI 3.1 at launch.",
+          "normalizedValue": "Android 11 / One UI 3.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Dual Nano-SIM; SIM1 + SIM2 or SIM1 + eSIM, subject to market/carrier support.",
+          "normalizedValue": "Dual Nano-SIM / eSIM varies",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM / eSIM varies",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "169 g",
+          "normalizedValue": 169,
+          "catalogKey": "weightG",
+          "catalogValue": 169,
+          "unit": "g"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Wi-Fi 6",
+          "normalizedValue": "Wi-Fi 6",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gadgetmatch_s21_ph_launch_2021",
+          "sourceValue": "Contemporaneous Philippine reporting gives authorized-channel availability from 2021-02-05.",
+          "normalizedValue": "2021-02-05",
+          "note": "This is the reported Philippine availability date; it does not change the workbook's Excluded scope status."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_official_srp_2021",
+          "sourceValue": "Samsung Philippines historical SRP for 8 GB RAM / 256 GB storage: PHP 47,990.",
+          "normalizedValue": 47990,
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_official_srp_2021",
+          "sourceValue": "Historical Samsung Philippines SRP effective 29 January 2021: PHP 47,990.",
+          "normalizedValue": 47990,
+          "unit": "PHP",
+          "note": "Dated historical SRP; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines official SRP (not a current offer)",
+          "priceObservedAt": "2021-01-29",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Philippine family model SM-G991B/DS; the cited Samsung SKU is color-specific.",
+          "normalizedValue": "SM-G991B/DS",
+          "note": "The color-specific order code is not assigned to this color-unspecified inventory configuration."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "8 GB RAM / 256 GB storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Dynamic AMOLED 2X",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "2400 x 1080 (FHD+)",
+          "normalizedValue": "2400 x 1080",
+          "catalogKey": "resolution",
+          "catalogValue": "2400 x 1080",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Adaptive 48–120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Corning Gorilla Glass Victus",
+          "normalizedValue": "Corning Gorilla Glass Victus"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "Exynos 2100 is manufactured on a 5 nm process.",
+          "normalizedValue": "5 nm"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "Not recorded in the reviewed product pages.",
+          "normalizedValue": null,
+          "note": "A current published software-support schedule was not established in this model review."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "LPDDR5",
+          "normalizedValue": "LPDDR5"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "No microSD card slot.",
+          "normalizedValue": "No microSD card slot"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "12 MP wide with OIS + 12 MP ultra-wide + 64 MP telephoto with hybrid 3x optical zoom",
+          "normalizedValue": 12,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "note": "The catalog's numeric rear-camera field stores the main wide sensor; source value preserves the complete camera array."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "12 MP wide, Dual Pixel AF, OIS, f/1.8",
+          "normalizedValue": "12 MP wide, Dual Pixel AF, OIS, f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "12 MP ultra-wide, f/2.2",
+          "normalizedValue": "12 MP ultra-wide, f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "64 MP telephoto, PDAF, OIS, f/2.0; hybrid 3x optical zoom",
+          "normalizedValue": "64 MP telephoto, PDAF, OIS, f/2.0; hybrid 3x optical zoom"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "10 MP front camera, Dual Pixel AF, f/2.2",
+          "normalizedValue": 10,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 10,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "Rear video recording up to UHD 8K at 24 fps.",
+          "normalizedValue": "Rear video recording up to UHD 8K at 24 fps.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video recording up to UHD 8K at 24 fps.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "candidate_b72cba17aeaa31",
+          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
+          "normalizedValue": "Li-Po Battery (Non-removable)",
+          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "15 W wireless charging and reverse wireless PowerShare.",
+          "normalizedValue": "15 W wireless; reverse wireless PowerShare"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "151.7 x 71.2 x 7.9 mm",
+          "normalizedValue": "151.7 x 71.2 x 7.9",
+          "catalogKey": "dimensions",
+          "catalogValue": "151.7 x 71.2 x 7.9",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21_specs",
+          "sourceValue": "Glass front, plastic back, aluminum frame",
+          "normalizedValue": "Glass front, plastic back, aluminum frame"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "5G Sub-6, LTE, WCDMA, and GSM; supported bands vary by region and carrier.",
+          "normalizedValue": "5G Sub-6; LTE; WCDMA; GSM",
+          "catalogKey": "cellular",
+          "catalogValue": "5G Sub-6; LTE; WCDMA; GSM",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "USB Type-C, USB 3.2 Gen 1.",
+          "normalizedValue": "USB Type-C; USB 3.2 Gen 1",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "GPS, GLONASS, BeiDou, and Galileo.",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "normalizedValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Accelerometer, barometer, fingerprint sensor, gyroscope, geomagnetic sensor, hall sensor, light sensor, and proximity sensor.",
+          "normalizedValue": "Accelerometer; barometer; fingerprint; gyroscope; geomagnetic; hall; light; proximity"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_product",
+          "sourceValue": "Up to 1,300 peak nits",
+          "normalizedValue": "Up to 1,300 peak nits",
+          "unit": "nits"
+        }
+      ],
+      "modelCode": "SM-G991B/DS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine authorized-channel availability reported from 2021-02-05",
+        "philippineAvailability": "Contemporaneous Philippine launch coverage gives the local availability date; the S21+ and Ultra dates are also reported by YugaTech. Existing study eligibility remains Excluded because the claimed year is outside the workbook's selected window.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Local model/configuration and historical SRP verified; source dates retained as secondary evidence"
+      },
+      "configuration": "8 GB RAM / 256 GB storage"
+    },
+    {
+      "deviceId": "device_7327b88b5fe9d6",
+      "configurationId": "config_aec7e905ce4e48",
+      "brand": "Samsung",
+      "model": "Galaxy S21 Ultra 5G",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "candidate_9837e5e73250c9",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-s21-ultra-5g",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
+          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+        },
+        {
+          "id": "samsung_s21ultra_ph_product",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/support/model/SM-G998BZKGPHL/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine SKU identity and product page",
+          "note": "Samsung Philippines support identifies local Phantom Black SKU SM-G998BZKGPHL and family model SM-G998B/DS. The color-specific SKU is not applied to the color-unspecified inventory variant."
+        },
+        {
+          "id": "samsung_s21_ph_official_srp_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-s21-5g/flexi-tradeup/",
+          "publicationDate": "2021-01-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine SRP and local model/SKU table for the S21 family",
+          "note": "Samsung Philippines' 2021 promotion lists the S21, S21+, and S21 Ultra SRPs by capacity and color-specific SKU; the SRPs are historical and are not current offers."
+        },
+        {
+          "id": "gadgetmatch_s21_ph_launch_2021",
+          "publisher": "GadgetMatch",
+          "url": "https://www.gadgetmatch.com/samsung-galaxy-s21-series-price-availability-philippines/",
+          "publicationDate": "2021-01-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch prices and availability dates",
+          "note": "The 14 January 2021 report states the standard Galaxy S21 5G would be available from 5 February and S21+ / S21 Ultra from 29 January. Samsung Philippines' SRP table independently supports the prices and configurations."
+        },
+        {
+          "id": "gsmarena_s21ultra_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_s21_ultra_5g-10596.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model technical cross-check",
+          "note": "The exact S21-series model page is used for chipset-region distinctions, GPU, storage interface, expandable-storage status, and secondary hardware details not consistently printed in local Samsung tables."
+        },
+        {
+          "id": "yugatech_s21_ph_availability_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-s21-series-galaxy-buds-pro-now-available-nationwide/",
+          "publicationDate": "2021-01-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine authorized-channel availability for Galaxy S21+ and S21 Ultra",
+          "note": "YugaTech reported on 29 January 2021 that the S21+ and S21 Ultra were available through Samsung and authorized partners; the article explicitly said the standard S21's availability had not yet been announced."
+        },
+        {
+          "id": "samsung_s21_ultra_global_specs_2021",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/articles/samsung-galaxy-s21-ultra-the-ultimate-smartphone-experience-designed-to-be-epic-in-every-way",
+          "publicationDate": "2021-01-15",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch specifications for Galaxy S21 Ultra 5G",
+          "note": "Samsung's 15 January 2021 specification table documents the Ultra display, camera system, memory configurations, battery, dimensions, connectivity, and IP rating."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "5,000 mAh typical; 4,855 mAh rated minimum",
+          "normalizedValue": 5000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh",
+          "note": "Samsung reports 4855 mAh rated minimum; the public field stores typical capacity."
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "Up to 25 W wired charging.",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "Exynos 2100 for the international SM-G99xB/DS model family; other regions used Snapdragon 888.",
+          "normalizedValue": "Samsung Exynos 2100",
+          "catalogKey": "chipset",
+          "catalogValue": "Samsung Exynos 2100",
+          "note": "Samsung's Philippine model code is the international B/DS family; GSMArena distinguishes this model from Snapdragon regional variants."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "5 nm octa-core, up to 2.9 GHz + 2.8 GHz + 2.2 GHz",
+          "normalizedValue": "Octa-core 2.9 / 2.8 / 2.2 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core 2.9 / 2.8 / 2.2 GHz",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "6.8 inches (full rectangle)",
+          "normalizedValue": 6.8,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.8,
+          "unit": "in"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "Mali-G78 MP14 on the international Exynos 2100 variant.",
+          "normalizedValue": "Mali-G78 MP14",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G78 MP14"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "NFC supported.",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Android 11 with One UI 3.1 at launch.",
+          "normalizedValue": "Android 11 / One UI 3.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Dual Nano-SIM; SIM1 + SIM2 or SIM1 + eSIM, subject to market/carrier support.",
+          "normalizedValue": "Dual Nano-SIM / eSIM varies",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM / eSIM varies",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "227 g",
+          "normalizedValue": 227,
+          "catalogKey": "weightG",
+          "catalogValue": 227,
+          "unit": "g"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Wi-Fi 6E",
+          "normalizedValue": "Wi-Fi 6E",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_s21_ph_availability_2021",
+          "sourceValue": "Contemporaneous Philippine reporting gives authorized-channel availability from 2021-01-29.",
+          "normalizedValue": "2021-01-29",
+          "note": "This is the reported Philippine availability date; it does not change the workbook's Excluded scope status."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_official_srp_2021",
+          "sourceValue": "Samsung Philippines historical SRP for 12 GB RAM / 256 GB storage: PHP 69,990.",
+          "normalizedValue": 69990,
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_official_srp_2021",
+          "sourceValue": "Historical Samsung Philippines SRP effective 29 January 2021: PHP 69,990.",
+          "normalizedValue": 69990,
+          "unit": "PHP",
+          "note": "Dated historical SRP; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines official SRP (not a current offer)",
+          "priceObservedAt": "2021-01-29",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21ultra_ph_product",
+          "sourceValue": "Philippine family model SM-G998B/DS; the cited Samsung SKU is color-specific.",
+          "normalizedValue": "SM-G998B/DS",
+          "note": "The color-specific order code is not assigned to this color-unspecified inventory configuration."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "12 GB RAM / 256 GB storage",
+          "normalizedValue": "12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "12 GB",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Dynamic AMOLED 2X",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "3200 x 1440 (QHD+)",
+          "normalizedValue": "3200 x 1440",
+          "catalogKey": "resolution",
+          "catalogValue": "3200 x 1440",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Adaptive 10–120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Corning Gorilla Glass Victus",
+          "normalizedValue": "Corning Gorilla Glass Victus"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "Exynos 2100 is manufactured on a 5 nm process.",
+          "normalizedValue": "5 nm"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "Not recorded in the reviewed product pages.",
+          "normalizedValue": null,
+          "note": "A current published software-support schedule was not established in this model review."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "LPDDR5",
+          "normalizedValue": "LPDDR5"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "No microSD card slot.",
+          "normalizedValue": "No microSD card slot"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "108 MP wide with OIS + 12 MP ultra-wide + 10 MP telephoto (3x) + 10 MP periscope telephoto (10x)",
+          "normalizedValue": 108,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 108,
+          "unit": "MP",
+          "note": "The catalog's numeric rear-camera field stores the main wide sensor; source value preserves the complete camera array."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "108 MP wide, PDAF, OIS, f/1.8",
+          "normalizedValue": "108 MP wide, PDAF, OIS, f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "12 MP ultra-wide, Dual Pixel AF, f/2.2",
+          "normalizedValue": "12 MP ultra-wide, Dual Pixel AF, f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "10 MP telephoto (3x optical) + 10 MP periscope telephoto (10x optical); both with Dual Pixel AF and OIS",
+          "normalizedValue": "10 MP telephoto (3x optical) + 10 MP periscope telephoto (10x optical); both with Dual Pixel AF and OIS"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "40 MP front camera, PDAF, f/2.2",
+          "normalizedValue": 40,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 40,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Up to 8K at 24 fps; 4K at 60 fps across the camera lenses.",
+          "normalizedValue": "Up to 8K at 24 fps; 4K at 60 fps across the camera lenses.",
+          "catalogKey": "video",
+          "catalogValue": "Up to 8K at 24 fps; 4K at 60 fps across the camera lenses.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "candidate_9837e5e73250c9",
+          "sourceValue": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
+          "normalizedValue": "Li-Po Battery (Non-removable)",
+          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "15 W wireless charging and reverse wireless PowerShare.",
+          "normalizedValue": "15 W wireless; reverse wireless PowerShare"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "165.1 x 75.6 x 8.9 mm",
+          "normalizedValue": "165.1 x 75.6 x 8.9",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.1 x 75.6 x 8.9",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21ultra_specs",
+          "sourceValue": "Glass front and back, aluminum frame",
+          "normalizedValue": "Glass front and back, aluminum frame"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "5G Sub-6, LTE, WCDMA, and GSM; supported bands vary by region and carrier.",
+          "normalizedValue": "5G Sub-6; LTE; WCDMA; GSM",
+          "catalogKey": "cellular",
+          "catalogValue": "5G Sub-6; LTE; WCDMA; GSM",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "USB Type-C, USB 3.2 Gen 1.",
+          "normalizedValue": "USB Type-C; USB 3.2 Gen 1",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "GPS, GLONASS, BeiDou, and Galileo.",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "normalizedValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Accelerometer, barometer, fingerprint sensor, gyroscope, geomagnetic sensor, hall sensor, light sensor, and proximity sensor.",
+          "normalizedValue": "Accelerometer; barometer; fingerprint; gyroscope; geomagnetic; hall; light; proximity"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ultra_global_specs_2021",
+          "sourceValue": "Up to 1,500 peak nits",
+          "normalizedValue": "Up to 1,500 peak nits",
+          "unit": "nits"
+        }
+      ],
+      "modelCode": "SM-G998B/DS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine authorized-channel availability reported from 2021-01-29",
+        "philippineAvailability": "Contemporaneous Philippine launch coverage gives the local availability date; the S21+ and Ultra dates are also reported by YugaTech. Existing study eligibility remains Excluded because the claimed year is outside the workbook's selected window.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Local model/configuration and historical SRP verified; source dates retained as secondary evidence"
+      },
+      "configuration": "12 GB RAM / 256 GB storage"
+    },
+    {
+      "deviceId": "device_2abcf9948e9239",
+      "configurationId": "config_13d4c1daf696b2",
+      "brand": "Samsung",
+      "model": "Galaxy S21+ 5G",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "samsung_s21plus_ph_product",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/smartphones/galaxy-s/galaxy-s21-5g-g996-sm-g996bzvgphl/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine SKU identity and product page",
+          "note": "Samsung Philippines' Phantom Violet product entry identifies local SKU SM-G996BZVGPHL and exact 8 GB/256 GB specifications. The color-specific SKU is not applied to the inventory variant."
+        },
+        {
+          "id": "samsung_s21_ph_official_srp_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-s21-5g/flexi-tradeup/",
+          "publicationDate": "2021-01-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine SRP and local model/SKU table for the S21 family",
+          "note": "Samsung Philippines' 2021 promotion lists the S21, S21+, and S21 Ultra SRPs by capacity and color-specific SKU; the SRPs are historical and are not current offers."
+        },
+        {
+          "id": "gadgetmatch_s21_ph_launch_2021",
+          "publisher": "GadgetMatch",
+          "url": "https://www.gadgetmatch.com/samsung-galaxy-s21-series-price-availability-philippines/",
+          "publicationDate": "2021-01-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch prices and availability dates",
+          "note": "The 14 January 2021 report states the standard Galaxy S21 5G would be available from 5 February and S21+ / S21 Ultra from 29 January. Samsung Philippines' SRP table independently supports the prices and configurations."
+        },
+        {
+          "id": "gsmarena_s21plus_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_s21_plus_5g-10625.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model technical cross-check",
+          "note": "The exact S21-series model page is used for chipset-region distinctions, GPU, storage interface, expandable-storage status, and secondary hardware details not consistently printed in local Samsung tables."
+        },
+        {
+          "id": "yugatech_s21_ph_availability_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-s21-series-galaxy-buds-pro-now-available-nationwide/",
+          "publicationDate": "2021-01-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine authorized-channel availability for Galaxy S21+ and S21 Ultra",
+          "note": "YugaTech reported on 29 January 2021 that the S21+ and S21 Ultra were available through Samsung and authorized partners; the article explicitly said the standard S21's availability had not yet been announced."
+        },
+        {
+          "id": "samsung_s21_global_specs_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/make-every-day-epic-with-samsung-galaxy-s21-and-galaxy-s21plus",
+          "publicationDate": "2021-01-14",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer launch specifications for Galaxy S21 and Galaxy S21+",
+          "note": "Samsung's launch specification table gives the model-specific displays, cameras, processors, RAM/storage tiers, battery, charging, software, and connectivity for S21 and S21+."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_s21_ph_availability_2021",
+          "sourceValue": "Contemporaneous Philippine reporting gives authorized-channel availability from 2021-01-29.",
+          "normalizedValue": "2021-01-29",
+          "note": "This is the reported Philippine availability date; it does not change the workbook's Excluded scope status."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_official_srp_2021",
+          "sourceValue": "Samsung Philippines historical SRP for 8 GB RAM / 256 GB storage: PHP 57,990.",
+          "normalizedValue": 57990,
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_ph_official_srp_2021",
+          "sourceValue": "Historical Samsung Philippines SRP effective 29 January 2021: PHP 57,990.",
+          "normalizedValue": 57990,
+          "unit": "PHP",
+          "note": "Dated historical SRP; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines official SRP (not a current offer)",
+          "priceObservedAt": "2021-01-29",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Philippine family model SM-G996B/DS; the cited Samsung SKU is color-specific.",
+          "normalizedValue": "SM-G996B/DS",
+          "note": "The color-specific order code is not assigned to this color-unspecified inventory configuration."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "8 GB RAM / 256 GB storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "6.7 inches (full rectangle)",
+          "normalizedValue": 6.7,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.7,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Dynamic AMOLED 2X",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "2400 x 1080 (FHD+)",
+          "normalizedValue": "2400 x 1080",
+          "catalogKey": "resolution",
+          "catalogValue": "2400 x 1080"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Adaptive 48–120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Corning Gorilla Glass Victus",
+          "normalizedValue": "Corning Gorilla Glass Victus"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "Exynos 2100 for the international SM-G99xB/DS model family; other regions used Snapdragon 888.",
+          "normalizedValue": "Samsung Exynos 2100",
+          "catalogKey": "chipset",
+          "catalogValue": "Samsung Exynos 2100",
+          "note": "Samsung's Philippine model code is the international B/DS family; GSMArena distinguishes this model from Snapdragon regional variants."
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "Exynos 2100 is manufactured on a 5 nm process.",
+          "normalizedValue": "5 nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "5 nm octa-core, up to 2.9 GHz + 2.8 GHz + 2.2 GHz",
+          "normalizedValue": "Octa-core 2.9 / 2.8 / 2.2 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core 2.9 / 2.8 / 2.2 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "Mali-G78 MP14 on the international Exynos 2100 variant.",
+          "normalizedValue": "Mali-G78 MP14",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G78 MP14"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "Android 11 with One UI 3.1 at launch.",
+          "normalizedValue": "Android 11 / One UI 3.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "Not recorded in the reviewed product pages.",
+          "normalizedValue": null,
+          "note": "A current published software-support schedule was not established in this model review."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "LPDDR5",
+          "normalizedValue": "LPDDR5"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "No microSD card slot.",
+          "normalizedValue": "No microSD card slot"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "12 MP wide with OIS + 12 MP ultra-wide + 64 MP telephoto with hybrid 3x optical zoom",
+          "normalizedValue": 12,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "note": "The catalog's numeric rear-camera field stores the main wide sensor; source value preserves the complete camera array."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "12 MP wide, Dual Pixel AF, OIS, f/1.8",
+          "normalizedValue": "12 MP wide, Dual Pixel AF, OIS, f/1.8"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "12 MP ultra-wide, f/2.2",
+          "normalizedValue": "12 MP ultra-wide, f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "64 MP telephoto, PDAF, OIS, f/2.0; hybrid 3x optical zoom",
+          "normalizedValue": "64 MP telephoto, PDAF, OIS, f/2.0; hybrid 3x optical zoom"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "10 MP front camera, Dual Pixel AF, f/2.2",
+          "normalizedValue": 10,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 10,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "Rear video recording up to UHD 8K at 24 fps.",
+          "normalizedValue": "Rear video recording up to UHD 8K at 24 fps.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video recording up to UHD 8K at 24 fps."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21_global_specs_2021",
+          "sourceValue": "4,800 mAh typical; 4,660 mAh rated minimum",
+          "normalizedValue": 4800,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4800,
+          "unit": "mAh",
+          "note": "Samsung reports 4660 mAh rated minimum; the public field stores typical capacity."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "Not recorded in the reviewed product pages.",
+          "normalizedValue": null,
+          "note": "The reviewed local manufacturer pages do not identify cell chemistry."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "Up to 25 W wired charging.",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "15 W wireless charging and reverse wireless PowerShare.",
+          "normalizedValue": "15 W wireless; reverse wireless PowerShare"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "161.5 x 75.6 x 7.8 mm",
+          "normalizedValue": "161.5 x 75.6 x 7.8",
+          "catalogKey": "dimensions",
+          "catalogValue": "161.5 x 75.6 x 7.8",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "200 g",
+          "normalizedValue": 200,
+          "catalogKey": "weightG",
+          "catalogValue": 200,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_s21plus_specs",
+          "sourceValue": "Glass front and back, aluminum frame",
+          "normalizedValue": "Glass front and back, aluminum frame"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Dual Nano-SIM; SIM1 + SIM2 or SIM1 + eSIM, subject to market/carrier support.",
+          "normalizedValue": "Dual Nano-SIM / eSIM varies",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM / eSIM varies"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "5G Sub-6, LTE, WCDMA, and GSM; supported bands vary by region and carrier.",
+          "normalizedValue": "5G Sub-6; LTE; WCDMA; GSM",
+          "catalogKey": "cellular",
+          "catalogValue": "5G Sub-6; LTE; WCDMA; GSM"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Wi-Fi 6",
+          "normalizedValue": "Wi-Fi 6",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "USB Type-C, USB 3.2 Gen 1.",
+          "normalizedValue": "USB Type-C; USB 3.2 Gen 1",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "NFC supported.",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "GPS, GLONASS, BeiDou, and Galileo.",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "normalizedValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; USB Type-C audio output; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Accelerometer, barometer, fingerprint sensor, gyroscope, geomagnetic sensor, hall sensor, light sensor, and proximity sensor.",
+          "normalizedValue": "Accelerometer; barometer; fingerprint; gyroscope; geomagnetic; hall; light; proximity"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s21plus_ph_product",
+          "sourceValue": "Up to 1,300 peak nits",
+          "normalizedValue": "Up to 1,300 peak nits",
+          "unit": "nits"
+        }
+      ],
+      "modelCode": "SM-G996B/DS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine authorized-channel availability reported from 2021-01-29",
+        "philippineAvailability": "Contemporaneous Philippine launch coverage gives the local availability date; the S21+ and Ultra dates are also reported by YugaTech. Existing study eligibility remains Excluded because the claimed year is outside the workbook's selected window.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Local model/configuration and historical SRP verified; source dates retained as secondary evidence"
       }
     }
   ]
