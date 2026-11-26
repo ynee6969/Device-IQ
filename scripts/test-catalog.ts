@@ -67,8 +67,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [367, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 566);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [368, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 567);
 const blackShark4 = publicDevices.find((device) => device.id === "device_fa4c0f6cdc39f6");
 assert.ok(blackShark4);
 assert.deepEqual(blackShark4.variants.map((variant) => variant.label), [
@@ -79,6 +79,28 @@ const blackShark4Eight128 = blackShark4.variants.find((variant) => variant.specs
 assert.equal(blackShark4Eight128?.pricePhp, 20545);
 assert.equal(blackShark4Eight128?.priceCondition, null);
 assert.equal(blackShark4Eight128?.priceType, "KIMSTORE listing observed 2026-11-26; one unit left; condition not stated");
+assert.equal(blackShark4Eight128?.listingStatus, "In stock");
+const blackShark5 = publicDevices.find((device) => device.id === "device_a9d69522a3d0fe");
+assert.ok(blackShark5);
+assert.equal(blackShark5.modelNumber, "SHARK PAR-H0");
+assert.equal(blackShark5.releaseDate, "2022-04-04");
+assert.equal(blackShark5.philippineAvailabilityDate, "2022-07-02");
+assert.equal(blackShark5.verificationStatus, "VERIFIED_AUTHORIZED_AVAILABILITY");
+assert.equal(blackShark5.scopeStatus, "Pending");
+assert.deepEqual(blackShark5.variants.map((variant) => variant.label), [
+  "8 GB RAM / 128 GB storage", "12 GB RAM / 256 GB storage",
+]);
+const blackShark5Eight128 = blackShark5.variants.find((variant) => variant.specs.ramGb === 8 && variant.specs.storageGb === 128);
+const blackShark5Twelve256 = blackShark5.variants.find((variant) => variant.specs.ramGb === 12 && variant.specs.storageGb === 256);
+assert.equal(blackShark5Eight128?.pricePhp, 24995);
+assert.equal(blackShark5Eight128?.priceCondition, null);
+assert.equal(blackShark5Eight128?.listingStatus, "In stock");
+assert.equal(blackShark5Twelve256?.pricePhp, 32450);
+assert.equal(blackShark5Twelve256?.priceCondition, null);
+assert.equal(blackShark5Twelve256?.listingStatus, "In stock");
+assert.equal(blackShark5Eight128?.specs.rearCameraMp, null);
+assert.equal(blackShark5Eight128?.specs.frontCameraMp, null);
+assert.equal(blackShark5Eight128?.specs.sound, null);
 assert.deepEqual(Object.fromEntries(["Included", "Pending date", "Pending", "Excluded", "Held out"].map((status) => [status, publicDevices.filter((device) => device.scopeStatus === status).length])), { Included: 28, "Pending date": 29, Pending: 396, Excluded: 3, "Held out": 7 });
 assert.ok(publicDevices.every((device) => device.variants.length &&
   device.sources.every((source) => source.url.startsWith("https://"))));

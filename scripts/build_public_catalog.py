@@ -349,6 +349,13 @@ for review in manual_reviews.get("records", []):
                 "priceObservedAt": reviewed_field.get("priceObservedAt") or source.get("publicationDate") or source.get("accessDate"), "priceSourceUrl": source["url"],
                 "notes": reviewed_field.get("note") or variant.get("notes"),
             })
+            if reviewed_field.get("listingStatus") in {"In stock", "Out of stock", "Not verified"}:
+                variant["listingStatus"] = reviewed_field["listingStatus"]
+        if reviewed_field.get("fieldId") == "global_release_date" and reviewed_field.get("normalizedValue"):
+            if reviewed_field.get("status") in {"VERIFIED", "VERIFIED_SECONDARY"}:
+                device["releaseDate"] = reviewed_field["normalizedValue"]
+        elif reviewed_field.get("fieldId") == "global_release_date" and reviewed_field.get("status") == "CONFLICTING_INFORMATION":
+            device["releaseDate"] = None
         if reviewed_field.get("fieldId") == "philippine_release_date" and reviewed_field.get("normalizedValue"):
             if reviewed_field.get("status") in {"VERIFIED", "VERIFIED_SECONDARY"}:
                 device["philippineAvailabilityDate"] = reviewed_field["normalizedValue"]

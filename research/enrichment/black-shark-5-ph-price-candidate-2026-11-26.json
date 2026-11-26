@@ -1,0 +1,125 @@
+{
+  "run_at": "2026-11-26T14:38:53+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_a9d69522a3d0fe",
+      "brand": "Black Shark",
+      "model_name": "5",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_a9d69522a3d0fe",
+      "amount_php": 26999,
+      "configuration_id": "device_a9d69522a3d0fe-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 26,999 Philippine launch SRP for Philippine 8 GB / 128 GB configuration; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T14:38:53+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_ph_launch_srp_not_current"
+    },
+    {
+      "device_id": "device_a9d69522a3d0fe",
+      "amount_php": 25999,
+      "configuration_id": "device_a9d69522a3d0fe-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_early_bird_promotion",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 25,999 early-bird price for Philippine 8 GB / 128 GB configuration, offered July 2–18, 2022; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "dated_ph_launch_promotion",
+      "observed_at": "2026-11-26T14:38:53+08:00",
+      "local_availability_verified": true,
+      "availability_status": "dated_ph_promotion_not_current"
+    },
+    {
+      "device_id": "device_a9d69522a3d0fe",
+      "amount_php": 24995,
+      "regular_price_php": 27000,
+      "configuration_id": "device_a9d69522a3d0fe-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "color_options": [
+        "Grey",
+        "Black"
+      ],
+      "price_type": "current_ph_retailer_sale_listing_condition_not_stated",
+      "source_published_at": null,
+      "excerpt": "Bermor variation data observed 2026-11-26: Philippine 8 GB / 128 GB configuration, PHP 24,995 sale (regular PHP 27,000); Grey and Black variations show active/in-stock online warehouse status. Condition not stated.",
+      "source_url": "https://bermorzone.com.ph/shop/gadgets/mobile-phones/xiaomi-black-shark-5-8gb-12gb128gb-256gb-gray-black/",
+      "source_kind": "retailer_price_observation",
+      "observed_at": "2026-11-26T14:38:53+08:00",
+      "local_availability_verified": true,
+      "availability_status": "listed_in_stock_online_warehouse_condition_not_stated"
+    },
+    {
+      "device_id": "device_a9d69522a3d0fe",
+      "amount_php": 34999,
+      "configuration_id": "device_a9d69522a3d0fe-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 34,999 Philippine launch SRP for Philippine 12 GB / 256 GB configuration; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "historical_ph_launch_price_report",
+      "observed_at": "2026-11-26T14:38:53+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_ph_launch_srp_not_current"
+    },
+    {
+      "device_id": "device_a9d69522a3d0fe",
+      "amount_php": 33999,
+      "configuration_id": "device_a9d69522a3d0fe-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_early_bird_promotion",
+      "source_published_at": "2022-06-27",
+      "excerpt": "YugaTech reported PHP 33,999 early-bird price for Philippine 12 GB / 256 GB configuration, offered July 2–18, 2022; not a current offer.",
+      "source_url": "https://www.yugatech.com/mobile/black-shark-5-pro-now-official-price-philippines/",
+      "source_kind": "dated_ph_launch_promotion",
+      "observed_at": "2026-11-26T14:38:53+08:00",
+      "local_availability_verified": true,
+      "availability_status": "dated_ph_promotion_not_current"
+    },
+    {
+      "device_id": "device_a9d69522a3d0fe",
+      "amount_php": 32450,
+      "regular_price_php": 35000,
+      "configuration_id": "device_a9d69522a3d0fe-12gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "color_options": [
+        "Grey",
+        "Black"
+      ],
+      "price_type": "current_ph_retailer_sale_listing_condition_not_stated",
+      "source_published_at": null,
+      "excerpt": "Bermor variation data observed 2026-11-26: Philippine 12 GB / 256 GB configuration, PHP 32,450 sale (regular PHP 35,000); Grey and Black variations show active/in-stock online warehouse status. Condition not stated.",
+      "source_url": "https://bermorzone.com.ph/shop/gadgets/mobile-phones/xiaomi-black-shark-5-8gb-12gb128gb-256gb-gray-black/",
+      "source_kind": "retailer_price_observation",
+      "observed_at": "2026-11-26T14:38:53+08:00",
+      "local_availability_verified": true,
+      "availability_status": "listed_in_stock_online_warehouse_condition_not_stated"
+    }
+  ]
+}

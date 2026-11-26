@@ -8,6 +8,13 @@
       "catalogKey": null
     },
     {
+      "id": "global_release_date",
+      "label": "Global release date",
+      "group": "Release history",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
       "id": "configuration",
       "label": "RAM and storage configuration",
       "group": "Identity",
@@ -321,6 +328,13 @@
       "id": "model_number",
       "label": "Exact model / regional number",
       "group": "Identity",
+      "unit": "",
+      "catalogKey": null
+    },
+    {
+      "id": "global_release_date",
+      "label": "Global release date",
+      "group": "Release history",
       "unit": "",
       "catalogKey": null
     },

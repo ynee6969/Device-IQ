@@ -95,7 +95,8 @@ SOURCES = [
 
 def field(fid: str, source_id: str, value, normalized_value, *, status="VERIFIED_SECONDARY",
           key=None, catalog_value="__normalized__", unit=None, note: str, match: str,
-          price_condition="__absent__", price_type=None, price_observed_at=None) -> dict:
+          price_condition="__absent__", price_type=None, price_observed_at=None,
+          listing_status=None) -> dict:
     item = {"fieldId": fid, "status": status, "sourceId": source_id,
             "sourceValue": value, "normalizedValue": normalized_value,
             "note": note, "configurationMatch": match}
@@ -110,6 +111,8 @@ def field(fid: str, source_id: str, value, normalized_value, *, status="VERIFIED
         item["priceType"] = price_type
     if price_observed_at is not None:
         item["priceObservedAt"] = price_observed_at
+    if listing_status is not None:
+        item["listingStatus"] = listing_status
     return item
 
 
@@ -141,7 +144,7 @@ def fields_for(config: dict) -> list[dict]:
             note="A live Philippine retailer listing observed 2026-11-26. The page showed one remaining unit for the exact 8/128 selection. Product condition is not stated and remains Not recorded.",
             price_condition=None,
             price_type="KIMSTORE listing observed 2026-11-26; one unit left; condition not stated",
-            price_observed_at=OBSERVED)
+            price_observed_at=OBSERVED, listing_status="In stock")
     else:
         add("current_price_php", "black_shark_4_kimstore_current",
             "The current KIMSTORE page's selected offer is 8 GB / 128 GB; no current price for this configuration was established",

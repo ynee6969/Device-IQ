@@ -290,11 +290,11 @@
     "altText": "Image unavailable for Black Shark 4"
   },
   "device_a9d69522a3d0fe": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact Black Shark 5 Mirror Black image is available from the manufacturer product page, but no reusable image license or written permission is recorded.",
+    "sourcePage": "https://global.blackshark.com/products/black-shark-5",
+    "assetUrl": "https://global.blackshark.com/cdn/shop/files/5-Mirror-Black-back.png?v=1750929394&width=1000",
+    "scope": "Exact Black Shark 5, Mirror Black finish; image does not establish a RAM/storage configuration",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Black Shark 5"

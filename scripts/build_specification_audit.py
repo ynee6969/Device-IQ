@@ -36,6 +36,7 @@ def field(field_id: str, label: str, group: str, unit: str = "", catalog_key: st
 
 PHONE_FIELDS = [
     field("model_number", "Exact model / regional number", "Identity"),
+    field("global_release_date", "Global release date", "Release history"),
     field("configuration", "RAM and storage configuration", "Identity"),
     field("philippine_release_date", "Philippine launch or first authorized sale date", "Philippine market"),
     field("official_launch_price_php", "Official Philippine launch price", "Philippine market", "PHP"),
