@@ -460,11 +460,11 @@
     "altText": "Image unavailable for HMD Pulse Pro"
   },
   "device_32de18b7c0de7e": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact HONOR 400 Desert Gold product image was identified on the official HONOR Philippines specification page, but no reusable license or written permission is recorded.",
+    "sourcePage": "https://www.honor.com/ph/phones/honor-400/spec/",
+    "assetUrl": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-400/honor-400-id-gold-back.png",
+    "scope": "Exact HONOR 400 model, Desert Gold color; RAM/storage configuration is not visually distinguished",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for HONOR 400"

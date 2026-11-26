@@ -132237,6 +132237,672 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_32de18b7c0de7e",
+      "configurationId": "device_32de18b7c0de7e-12gb-512gb-ph",
+      "brand": "HONOR",
+      "model": "400",
+      "configuration": "12 GB RAM / 512 GB storage",
+      "configurationLabel": "12 GB RAM / 512 GB storage",
+      "sources": [
+        {
+          "id": "honor_400_ph_official_product",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-400/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine product identity, battery, display, camera, charging, and durability cross-check",
+          "note": "HONOR Philippines identifies the HONOR 400 and publishes 6000 mAh battery, 80 W maximum wired charging, 200 MP + 12 MP rear cameras, 50 MP front camera, 5000-nit peak display, 184 g weight, 7.3 mm thickness, IP66 resistance, and four local colors."
+        },
+        {
+          "id": "honor_400_ph_official_specs",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-400/spec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine detailed specifications",
+          "note": "The official Philippine HONOR 400 specification page identifies the exact model. Indexed page text lists display resolution, refresh rate, processor, GPU, memory, cameras, battery, cellular and connectivity details; specific values are cited in individual fields."
+        },
+        {
+          "id": "honor_400_official_product_report",
+          "publisher": "HONOR",
+          "url": "https://www.honor.com/content/dam/honor/global/honor-esg/green_environmental_protection/1230pdf/phones/HONOR%20Environmental%20Report-HONOR%20400.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer environmental report for exact model dimensions and mass",
+          "note": "HONOR's product environmental report identifies the HONOR 400 and specifies a 6.55-inch display, 156.5 × 74.6 × 7.3 mm dimensions, and 184 g handset weight."
+        },
+        {
+          "id": "honor_400_ph_launch_yugatech",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/honor-400-5g-now-official-priced-specs-in-the-philippines/",
+          "publicationDate": "2025-06-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, preorder window, configuration range, and technical cross-check",
+          "note": "Published 2025-06-17. Reports Philippine preorder dates June 18–27, 2025, a PHP 22,999 starting price, and multiple memory configurations. Its article reports 90 W charging and a 165.5 mm height; those two values conflict with HONOR's published 80 W maximum and 156.5 mm height, so the manufacturer values are retained and the conflict is preserved in the field audit."
+        },
+        {
+          "id": "honor_400_ph_specs_ptg",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "publicationDate": "2025-06-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine model, 12 GB / 512 GB configuration, preorder date, price, and full specification cross-check",
+          "note": "Published 2025-06-17. The Philippine product entry identifies HONOR 400 5G with 12 GB RAM / 512 GB storage, PHP 22,999 official price, and preorders beginning June 18, 2025. It lists detailed specifications; isolated values that conflict with the manufacturer or PTG hands-on review are retained as candidate evidence."
+        },
+        {
+          "id": "honor_400_ph_review_ptg",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/reviews/honor-400-5g",
+          "publicationDate": "2025-07-12",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent hands-on review, local availability, and field-level conflict review",
+          "note": "Published 2025-07-12. The review states the device was available through HONOR stores, authorized dealers, and official online stores. It identifies the 12 GB / 512 GB tested configuration and reports 80 W maximum phone charging, 156.7 mm height, and IP65; the height and ingress rating differ slightly from HONOR's official material, and are retained as candidate evidence."
+        },
+        {
+          "id": "honor_400_current_price_guanzon",
+          "publisher": "Guanzon Merchandising Corporation",
+          "url": "https://www.guanzongroup.com.ph/product/honor-400-5g/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Current Philippine price-reference candidate for the exact 12 GB / 512 GB model",
+          "note": "The retailer product page lists HONOR 400 5G 12 GB + 512 GB at PHP 22,999 and explicitly warns that displayed prices are for reference, may vary by branch, and can change. It provides an inquiry button but does not confirm a currently available unit; retain as a price candidate, not a public current price.",
+          "sourceKind": "retailer_price_candidate"
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_400_ph_launch_yugatech",
+          "sourceValue": "Philippine model code/SKU not listed",
+          "normalizedValue": null,
+          "note": "The reviewed official product and Philippine launch pages identify the marketing model but do not state the Philippine hardware SKU.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "12 GB RAM / 512 GB storage",
+          "normalizedValue": "12 GB RAM / 512 GB storage",
+          "note": "PTG's exact Philippine device entry and hands-on review identify the 12 GB / 512 GB configuration; YugaTech also lists 12 GB and 512 GB among the local options.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Announced June 17, 2025; preorders June 18–27, 2025",
+          "normalizedValue": "2025-06-18",
+          "note": "Records the first documented Philippine preorder date, not a separately established first retail-sale date.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "PHP 22,999 official price, published 2025-06-17",
+          "normalizedValue": 22999,
+          "note": "Historical Philippine launch-era official price associated with the documented 12 GB / 512 GB configuration; not a current offer.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "honor_400_current_price_guanzon",
+          "sourceValue": "PHP 22,999 retailer price reference for 12 GB / 512 GB; current branch availability is not confirmed",
+          "normalizedValue": 22999,
+          "note": "A Philippine retailer page lists this exact configuration and price but calls prices reference-only and directs customers to inquire. Keep as a dated candidate until current stock/offer is confirmed.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "PHP",
+          "localAvailabilityVerified": false
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "6.55 inches",
+          "normalizedValue": 6.55,
+          "note": "HONOR Philippines specification and PTG local product page.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.55,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "note": "HONOR Philippines specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "2736 × 1264 pixels",
+          "normalizedValue": "2736 x 1264",
+          "note": "HONOR Philippines indexed specification is used. PTG's product table lists 1264 × 2780; this discrepancy is retained as candidate evidence rather than copied into the catalog.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "resolution",
+          "catalogValue": "2736 x 1264",
+          "candidateEvidence": [
+            {
+              "value": "1264 × 2780 pixels",
+              "unit": null,
+              "sourceUrl": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "The source's display table gives 1264 × 2780; HONOR's indexed Philippine specification gives 2736 × 1264.",
+              "configurationMatch": "Exact HONOR 400 5G model; local storage variant not distinguished",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "HONOR Philippines specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_product",
+          "sourceValue": "5000 nits HDR peak brightness",
+          "normalizedValue": 5000,
+          "note": "HONOR Philippines product page labels 5000 nits as HDR peak brightness.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Scratch-resistant glass",
+          "normalizedValue": "Scratch-resistant glass",
+          "note": "PTG's exact Philippine specification entry.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "Qualcomm Snapdragon 7 Gen 3",
+          "normalizedValue": "Qualcomm Snapdragon 7 Gen 3",
+          "note": "HONOR Philippines specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 7 Gen 3"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "4 nm",
+          "normalizedValue": 4,
+          "note": "PTG lists Snapdragon 7 Gen 3 (4 nm) for the Philippine model.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Octa-core: 1 × Cortex-A715 at 2.63 GHz + 3 × Cortex-A715 at 2.4 GHz + 4 × Cortex-A510 at 1.8 GHz",
+          "normalizedValue": "Octa-core 1+3+4; up to 2.63 GHz",
+          "note": "PTG's Philippine device page lists the core families and frequencies.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core 1+3+4; up to 2.63 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "Adreno 720",
+          "normalizedValue": "Adreno 720",
+          "note": "HONOR Philippines specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 720"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Android 15 with MagicOS 9.0",
+          "normalizedValue": "Android 15 / MagicOS 9.0",
+          "note": "Software versions reported for the Philippine product; later update history is not inferred.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "os",
+          "catalogValue": "Android 15 / MagicOS 9.0"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "Published software support policy not listed",
+          "normalizedValue": null,
+          "note": "No duration or number of Android/security updates is stated in the reviewed official product specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "12 GB physical RAM",
+          "normalizedValue": 12,
+          "note": "PTG identifies 12 GB physical RAM for its exact Philippine 512 GB product entry.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "RAM type not listed",
+          "normalizedValue": null,
+          "note": "The reviewed Philippine sources state capacity but do not identify RAM technology or speed.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "512 GB",
+          "normalizedValue": 512,
+          "note": "PTG's exact Philippine product entry identifies 512 GB internal storage.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Storage technology not listed",
+          "normalizedValue": null,
+          "note": "The reviewed local product sources do not identify the UFS generation.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "No expansion listed",
+          "normalizedValue": "No expansion listed",
+          "note": "PTG's Philippine device specification lists storage expansion as none.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "200 MP main camera with OIS + 12 MP 112° ultra-wide camera",
+          "normalizedValue": "200 MP main + 12 MP ultra-wide",
+          "note": "HONOR Philippines identifies the 200 MP main and 12 MP 112° ultra-wide camera system; PTG provides matching resolution and aperture details.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_product",
+          "sourceValue": "200 MP main camera; 1/1.4-inch image sensor, sensor model not stated",
+          "normalizedValue": "1/1.4-inch sensor; model not disclosed",
+          "note": "HONOR Philippines specifies 1/1.4-inch sensor size but does not name its manufacturer/model.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "12 MP macro/ultra-wide camera, f/2.2, 112° field of view",
+          "normalizedValue": "12 MP ultra-wide/macro; 112° FoV",
+          "note": "PTG lists the local camera module as macro/ultra-wide; this does not establish a separate macro module.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "honor_400_ph_review_ptg",
+          "sourceValue": "The rear camera system has main and ultra-wide modules; no dedicated telephoto camera",
+          "normalizedValue": "No dedicated telephoto camera",
+          "note": "PTG's hands-on review explicitly states there is no dedicated telephoto camera.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "50 MP f/2.0",
+          "normalizedValue": 50,
+          "note": "PTG's Philippine specifications; also cross-checked against HONOR Philippines product page.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 50,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Rear up to 4K; front up to 4K",
+          "normalizedValue": "Rear video up to 4K; front video up to 4K",
+          "note": "PTG's Philippine specification entry lists up to 4K recording for rear and front cameras.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K; front video up to 4K"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_product",
+          "sourceValue": "Up to 6000 mAh silicon-carbon battery",
+          "normalizedValue": 6000,
+          "note": "HONOR Philippines states up to 6000 mAh; PTG reports a 6000 mAh high-density silicon-carbon battery.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_product",
+          "sourceValue": "Silicon-carbon battery; capacity stated as up to 6000 mAh",
+          "normalizedValue": "Silicon-carbon",
+          "note": "HONOR Philippines product page identifies the silicon-carbon battery.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_product",
+          "sourceValue": "Maximum wired charging power 80 W",
+          "normalizedValue": 80,
+          "note": "HONOR Philippines states that the handset supports a maximum 80 W wired charge. PTG review also reports the phone maxes at 80 W. YugaTech's launch article reports 90 W support and a 100 W adapter; that conflict is retained here, while the manufacturer maximum is used for the public value.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "chargingW",
+          "catalogValue": 80,
+          "unit": "W",
+          "candidateEvidence": [
+            {
+              "value": "90 W charging support",
+              "unit": null,
+              "sourceUrl": "https://www.yugatech.com/news/honor-400-5g-now-official-priced-specs-in-the-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "YugaTech's launch article states 90 W wired charging and separately lists a 100 W SuperCharge adapter.",
+              "configurationMatch": "Exact HONOR 400 5G model; local storage variant not distinguished",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "80 W maximum wired charging",
+              "unit": null,
+              "sourceUrl": "https://www.pinoytechnoguide.com/reviews/honor-400-5g",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2025-07-12",
+              "excerpt": "PTG's hands-on review says the handset supports up to 80 W; this agrees with HONOR's 80 W maximum.",
+              "configurationMatch": "Exact HONOR 400 5G model; local storage variant not distinguished",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "88 W fast charging",
+              "unit": null,
+              "sourceUrl": "https://www.guanzongroup.com.ph/product/honor-400-5g/",
+              "sourceKind": "retailer_product_page",
+              "observedAt": "2026-11-26",
+              "excerpt": "Guanzon's product summary says 88 W, while its specification table gives up to 20V/4A (80 W); HONOR's maximum is 80 W.",
+              "configurationMatch": "Exact HONOR 400 5G model; 12 GB / 512 GB variant on this retailer product page",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_400_ph_official_specs",
+          "sourceValue": "Wireless charging not listed",
+          "normalizedValue": null,
+          "note": "No wireless charging capability is stated in the reviewed local product specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_official_product_report",
+          "sourceValue": "156.5 × 74.6 × 7.3 mm",
+          "normalizedValue": "156.5 x 74.6 x 7.3 mm",
+          "note": "HONOR manufacturer environmental report gives these exact dimensions. PTG review lists 156.7 mm height and YugaTech lists 165.5 mm; both differences are preserved as source evidence, not silently substituted.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "dimensions",
+          "catalogValue": "156.5 x 74.6 x 7.3 mm",
+          "unit": "mm",
+          "candidateEvidence": [
+            {
+              "value": "156.7 × 74.6 × 7.3 mm",
+              "unit": null,
+              "sourceUrl": "https://www.pinoytechnoguide.com/reviews/honor-400-5g",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2025-07-12",
+              "excerpt": "PTG review specifications give 156.7 mm height; HONOR's product report gives 156.5 mm.",
+              "configurationMatch": "Exact HONOR 400 5G model; local storage variant not distinguished",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "165.5 × 74.6 × 7.3 mm",
+              "unit": null,
+              "sourceUrl": "https://www.yugatech.com/news/honor-400-5g-now-official-priced-specs-in-the-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "YugaTech's launch article lists 165.5 mm height; the HONOR environmental report gives 156.5 mm.",
+              "configurationMatch": "Exact HONOR 400 5G model; local storage variant not distinguished",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_official_product_report",
+          "sourceValue": "184 g handset with battery",
+          "normalizedValue": 184,
+          "note": "HONOR manufacturer environmental report; PTG local page also reports 184 g.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "weightG",
+          "catalogValue": 184,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Glass front and back; metal frame",
+          "normalizedValue": "Glass front/back; metal frame",
+          "note": "PTG's Philippine specification table describes these build materials.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "honor_400_ph_official_product",
+          "sourceValue": "IP66 dust and water resistance",
+          "normalizedValue": "IP66",
+          "note": "HONOR Philippines states IP66; the PTG local product specification also lists IP66. Its hands-on review separately says IP65, which is retained as conflicting candidate evidence.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "candidateEvidence": [
+            {
+              "value": "IP65",
+              "unit": null,
+              "sourceUrl": "https://www.pinoytechnoguide.com/reviews/honor-400-5g",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2025-07-12",
+              "excerpt": "PTG hands-on review states IP65; HONOR product page and the PTG product specification list IP66.",
+              "configurationMatch": "Exact HONOR 400 5G model; local storage variant not distinguished",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Dual SIM: Nano-SIM plus eSIM",
+          "normalizedValue": "Nano-SIM + eSIM",
+          "note": "PTG's exact Philippine product specification; YugaTech also lists dual Nano-SIM and eSIM.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "5G, 4G LTE, 3G HSPA+, 2G EDGE/GPRS; specific bands not listed",
+          "normalizedValue": "5G, 4G LTE, 3G, 2G; bands not recorded",
+          "note": "Generations are recorded without inferring exact Philippine band support.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "cellular",
+          "catalogValue": "5G, 4G LTE, 3G, 2G; bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Wi-Fi 802.11 b/g/n/ac/6",
+          "normalizedValue": "Wi-Fi 6",
+          "note": "PTG's Philippine specification lists Wi-Fi 6. Exact band details are not recorded.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Bluetooth 5.4",
+          "normalizedValue": "Bluetooth 5.4",
+          "note": "PTG's Philippine specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "USB Type-C; data generation not listed",
+          "normalizedValue": "USB Type-C",
+          "note": "PTG's Philippine specifications; data transfer speed is not stated.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "NFC support",
+          "normalizedValue": "Yes",
+          "note": "PTG's Philippine specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "GPS, GLONASS, Galileo, BeiDou, QZSS",
+          "normalizedValue": "GPS, GLONASS, Galileo, BeiDou, QZSS",
+          "note": "PTG's Philippine specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Stereo speakers; USB Type-C audio output",
+          "normalizedValue": "Stereo speakers; USB Type-C audio",
+          "note": "PTG's Philippine specification.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_400_ph_specs_ptg",
+          "sourceValue": "Gyroscope, compass, ambient-light sensor, proximity sensor, accelerometer",
+          "normalizedValue": "Gyroscope, compass, ambient light, proximity, accelerometer",
+          "note": "PTG's Philippine specification; list is retained as published.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_32de18b7c0de7e-12gb-512gb-ph",
+          "label": "12 GB RAM / 512 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "PTG identifies the Philippine HONOR 400 5G as 12 GB RAM / 512 GB storage. YugaTech lists multiple memory options but does not map every price/configuration pair. No local SKU is recorded."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine preorders were reported June 18–27, 2025; current stock is not established.",
+        "philippineAvailability": "PTG's Philippine product page records preorders from June 18 to June 27, 2025; the 2025-07-12 hands-on review later states that the phone was available at HONOR stores, authorized dealers, and official online stores.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HONOR",
+        "productLine": "N Series",
+        "philippineReleaseYear": 2025,
+        "philippineDateLabel": "Philippine preorder start",
+        "researchNotes": "The workbook's HONOR 400 label matches the manufacturer HONOR 400 and Philippine HONOR 400 5G. PTG identifies the 12 GB / 512 GB configuration at PHP 22,999. The value is historical launch-era price evidence; no current retail price is verified. Conflicting YugaTech/PTG secondary specifications are preserved, with manufacturer values used for charging, dimensions, display resolution, and ingress rating where available.",
+        "qualityFlag": "Launch price is historical; some secondary specifications conflict",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine SKU/model code is not recorded",
+            "action": "Leave SKU/model code blank until a source names it."
+          },
+          {
+            "issue": "Current retail availability is not verified",
+            "action": "Keep the June 2025 price as historical and the Guanzon reference quote as a separate unverified candidate."
+          },
+          {
+            "issue": "Guanzon's 2026 PHP 22,999 price is reference-only and has no confirmed in-stock checkout",
+            "action": "Keep the exact-configuration price in the audit candidate queue; do not expose as a current offer yet."
+          },
+          {
+            "issue": "YugaTech reports 90 W charging and 165.5 mm height, conflicting with HONOR's 80 W and 156.5 mm values",
+            "action": "Keep the manufacturer values in the public catalog and preserve the conflicting article values in the field audit."
+          },
+          {
+            "issue": "PTG's hands-on review lists IP65 and 156.7 mm height, while HONOR and PTG's product table list IP66 and the manufacturer report lists 156.5 mm",
+            "action": "Preserve the review discrepancies as evidence; do not substitute them for manufacturer values."
+          },
+          {
+            "issue": "Official image reuse terms are not established",
+            "action": "Continue showing the neutral placeholder until rights are clear."
+          }
+        ]
+      }
     }
   ]
 }

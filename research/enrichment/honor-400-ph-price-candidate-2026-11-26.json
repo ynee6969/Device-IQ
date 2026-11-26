@@ -1,0 +1,50 @@
+{
+  "run_at": "2026-11-26T13:03:23+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_32de18b7c0de7e",
+      "brand": "HONOR",
+      "model_name": "400",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_32de18b7c0de7e",
+      "amount_php": 22999,
+      "configuration_id": "device_32de18b7c0de7e-12gb-512gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "independent_reported_historical_price",
+      "source_published_at": "2025-06-17",
+      "excerpt": "PTG's Philippine HONOR 400 5G entry associates the 12 GB RAM / 512 GB configuration with a PHP 22,999 official price and preorders beginning June 18, 2025. Historical, not current.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T13:03:23+08:00",
+      "local_availability_verified": true
+    },
+    {
+      "device_id": "device_32de18b7c0de7e",
+      "amount_php": 22999,
+      "configuration_id": "device_32de18b7c0de7e-12gb-512gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "retailer_reference_pending_availability",
+      "source_published_at": null,
+      "excerpt": "Guanzon lists the exact 12 GB + 512 GB HONOR 400 5G configuration at PHP 22,999 but says prices are reference-only and branch-dependent; page does not establish current stock.",
+      "source_url": "https://www.guanzongroup.com.ph/product/honor-400-5g/",
+      "source_kind": "authorized_retailer_reference",
+      "observed_at": "2026-11-26T13:03:23+08:00",
+      "local_availability_verified": false,
+      "availability_status": "pending_in_stock_confirmation"
+    }
+  ]
+}

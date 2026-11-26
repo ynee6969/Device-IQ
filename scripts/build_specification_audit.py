@@ -485,10 +485,11 @@ def main():
                         candidate_evidence = [*candidate_evidence, {
                             "value": clean(manual_field.get("normalizedValue")),
                             "unit": manual_field.get("unit"), "source_url": manual_source["url"],
-                            "source_kind": "official", "observed_at": manual_source.get("accessDate"),
+                            "source_kind": manual_source.get("sourceKind", "official"), "observed_at": manual_source.get("accessDate"),
                             "excerpt": clean(manual_field.get("sourceValue")),
                             "configuration_match": manual_field.get("configurationMatch", "model-level candidate needs configuration review"),
                             "review_status": STATUS_PENDING,
+                            "local_availability_verified": bool(manual_field.get("localAvailabilityVerified", False)),
                         }]
                         notes = manual_field.get("note") or "Manual source candidate; exact field/configuration relationship remains under review."
                     elif manual_field.get("status") == STATUS_PENDING:

@@ -6083,44 +6083,161 @@
     "category": "smartphones",
     "brand": "HONOR",
     "model": "400",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HONOR",
+    "productLine": "N Series",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2025-06-18",
+    "philippineDateLabel": "Philippine preorder start",
+    "philippineReleaseYear": 2025,
     "claimedReleaseYear": 2025,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Launch price is historical; some secondary specifications conflict",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "PTG's Philippine product page records preorders from June 18 to June 27, 2025; the 2025-07-12 hands-on review later states that the phone was available at HONOR stores, authorized dealers, and official online stores.",
+    "availabilityStatus": "Philippine preorders were reported June 18–27, 2025; current stock is not established.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The workbook's HONOR 400 label matches the manufacturer HONOR 400 and Philippine HONOR 400 5G. PTG identifies the 12 GB / 512 GB configuration at PHP 22,999. The value is historical launch-era price evidence; no current retail price is verified. Conflicting YugaTech/PTG secondary specifications are preserved, with manufacturer values used for charging, dimensions, display resolution, and ingress rating where available.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Exact Philippine SKU/model code is not recorded",
+        "action": "Leave SKU/model code blank until a source names it."
+      },
+      {
+        "issue": "Current retail availability is not verified",
+        "action": "Keep the June 2025 price as historical and the Guanzon reference quote as a separate unverified candidate."
+      },
+      {
+        "issue": "Guanzon's 2026 PHP 22,999 price is reference-only and has no confirmed in-stock checkout",
+        "action": "Keep the exact-configuration price in the audit candidate queue; do not expose as a current offer yet."
+      },
+      {
+        "issue": "YugaTech reports 90 W charging and 165.5 mm height, conflicting with HONOR's 80 W and 156.5 mm values",
+        "action": "Keep the manufacturer values in the public catalog and preserve the conflicting article values in the field audit."
+      },
+      {
+        "issue": "PTG's hands-on review lists IP65 and 156.7 mm height, while HONOR and PTG's product table list IP66 and the manufacturer report lists 156.5 mm",
+        "action": "Preserve the review discrepancies as evidence; do not substitute them for manufacturer values."
+      },
+      {
+        "issue": "Official image reuse terms are not established",
+        "action": "Continue showing the neutral placeholder until rights are clear."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-400/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine product identity, battery, display, camera, charging, and durability cross-check",
+        "note": "HONOR Philippines identifies the HONOR 400 and publishes 6000 mAh battery, 80 W maximum wired charging, 200 MP + 12 MP rear cameras, 50 MP front camera, 5000-nit peak display, 184 g weight, 7.3 mm thickness, IP66 resistance, and four local colors."
+      },
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-400/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine detailed specifications",
+        "note": "The official Philippine HONOR 400 specification page identifies the exact model. Indexed page text lists display resolution, refresh rate, processor, GPU, memory, cameras, battery, cellular and connectivity details; specific values are cited in individual fields."
+      },
+      {
+        "organization": "HONOR",
+        "url": "https://www.honor.com/content/dam/honor/global/honor-esg/green_environmental_protection/1230pdf/phones/HONOR%20Environmental%20Report-HONOR%20400.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer environmental report for exact model dimensions and mass",
+        "note": "HONOR's product environmental report identifies the HONOR 400 and specifies a 6.55-inch display, 156.5 × 74.6 × 7.3 mm dimensions, and 184 g handset weight."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/news/honor-400-5g-now-official-priced-specs-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-06-17",
+        "purpose": "Contemporaneous Philippine launch, preorder window, configuration range, and technical cross-check",
+        "note": "Published 2025-06-17. Reports Philippine preorder dates June 18–27, 2025, a PHP 22,999 starting price, and multiple memory configurations. Its article reports 90 W charging and a 165.5 mm height; those two values conflict with HONOR's published 80 W maximum and 156.5 mm height, so the manufacturer values are retained and the conflict is preserved in the field audit."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-06-17",
+        "purpose": "Exact Philippine model, 12 GB / 512 GB configuration, preorder date, price, and full specification cross-check",
+        "note": "Published 2025-06-17. The Philippine product entry identifies HONOR 400 5G with 12 GB RAM / 512 GB storage, PHP 22,999 official price, and preorders beginning June 18, 2025. It lists detailed specifications; isolated values that conflict with the manufacturer or PTG hands-on review are retained as candidate evidence."
+      },
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/reviews/honor-400-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2025-07-12",
+        "purpose": "Independent hands-on review, local availability, and field-level conflict review",
+        "note": "Published 2025-07-12. The review states the device was available through HONOR stores, authorized dealers, and official online stores. It identifies the 12 GB / 512 GB tested configuration and reports 80 W maximum phone charging, 156.7 mm height, and IP65; the height and ingress rating differ slightly from HONOR's official material, and are retained as candidate evidence."
+      },
+      {
+        "organization": "Guanzon Merchandising Corporation",
+        "url": "https://www.guanzongroup.com.ph/product/honor-400-5g/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Current Philippine price-reference candidate for the exact 12 GB / 512 GB model",
+        "note": "The retailer product page lists HONOR 400 5G 12 GB + 512 GB at PHP 22,999 and explicitly warns that displayed prices are for reference, may vary by branch, and can change. It provides an inquiry button but does not confirm a currently available unit; retain as a price candidate, not a public current price."
+      }
+    ],
     "variants": [
       {
-        "id": "device_32de18b7c0de7e-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_32de18b7c0de7e-12gb-512gb-ph",
+        "label": "12 GB RAM / 512 GB storage",
+        "specs": {
+          "displayInches": 6.55,
+          "displayType": "AMOLED",
+          "resolution": "2736 x 1264",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 7 Gen 3",
+          "cpu": "Octa-core 1+3+4; up to 2.63 GHz",
+          "gpu": "Adreno 720",
+          "os": "Android 15 / MagicOS 9.0",
+          "ramGb": 12,
+          "storageGb": 512,
+          "frontCameraMp": 50,
+          "video": "Rear video up to 4K; front video up to 4K",
+          "batteryMah": 6000,
+          "chargingW": 80,
+          "dimensions": "156.5 x 74.6 x 7.3 mm",
+          "weightG": 184,
+          "cellular": "5G, 4G LTE, 3G, 2G; bands not recorded",
+          "wifi": "Wi-Fi 6",
+          "ports": "USB Type-C"
+        },
+        "specSources": {
+          "displayInches": "https://www.honor.com/ph/phones/honor-400/spec/",
+          "displayType": "https://www.honor.com/ph/phones/honor-400/spec/",
+          "resolution": "https://www.honor.com/ph/phones/honor-400/spec/",
+          "refreshHz": "https://www.honor.com/ph/phones/honor-400/spec/",
+          "chipset": "https://www.honor.com/ph/phones/honor-400/spec/",
+          "cpu": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "gpu": "https://www.honor.com/ph/phones/honor-400/spec/",
+          "os": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "ramGb": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "storageGb": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "frontCameraMp": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "video": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "batteryMah": "https://www.honor.com/ph/phones/honor-400/",
+          "chargingW": "https://www.honor.com/ph/phones/honor-400/",
+          "dimensions": "https://www.honor.com/content/dam/honor/global/honor-esg/green_environmental_protection/1230pdf/phones/HONOR%20Environmental%20Report-HONOR%20400.pdf",
+          "weightG": "https://www.honor.com/content/dam/honor/global/honor-esg/green_environmental_protection/1230pdf/phones/HONOR%20Environmental%20Report-HONOR%20400.pdf",
+          "cellular": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "wifi": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g",
+          "ports": "https://www.pinoytechnoguide.com/smartphones/honor-400-5g"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "PTG identifies the Philippine HONOR 400 5G as 12 GB RAM / 512 GB storage. YugaTech lists multiple memory options but does not map every price/configuration pair. No local SKU is recorded.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null
