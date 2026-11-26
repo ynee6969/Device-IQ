@@ -1,0 +1,51 @@
+{
+  "run_at": "2026-11-26T13:57:14+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_111b3317778f61",
+      "brand": "HONOR",
+      "model_name": "Play 20A",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_111b3317778f61",
+      "amount_php": 8999,
+      "configuration_id": "device_111b3317778f61-4gb-64gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "retailer_cash_price_stock_information_not_reserved",
+      "source_published_at": null,
+      "excerpt": "iWarehouse listed the exact new 4GB/64GB HONOR Play 20A at PHP 8,999 cash and showed five locations; it warns that stock information is not reserved and asks customers to call before visiting.",
+      "source_url": "https://iwarehouse.ph/products/3134-honor-play-20a",
+      "source_kind": "retailer_price_observation",
+      "observed_at": "2026-11-26T13:57:14+08:00",
+      "local_availability_verified": false,
+      "availability_status": "branch_stock_listed_not_reserved_call_to_confirm"
+    },
+    {
+      "device_id": "device_111b3317778f61",
+      "amount_php": 8099,
+      "configuration_id": "device_111b3317778f61-4gb-64gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_philippine_online_launch_promotion",
+      "source_published_at": "2026-11-07",
+      "excerpt": "HONOR Philippines' 11.11 Shopee early-access promotion was reported at PHP 8,099 against PHP 8,999 SRP. This dated November 11, 2026 offer is historical and not treated as the current price.",
+      "source_url": "https://jamonline.ph/tech-news/honor-play-20a-philippines-price-specs-promo/",
+      "source_kind": "official_campaign_report",
+      "observed_at": "2026-11-26T13:57:14+08:00",
+      "local_availability_verified": false,
+      "availability_status": "dated_2026_11_11_campaign_not_current"
+    }
+  ]
+}

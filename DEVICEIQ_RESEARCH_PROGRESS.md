@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T13:45:57+08:00
+Updated: 2026-11-26T13:57:16+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-26T13:45:57+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 556 |
-| Models with manually verified source fields | 292 |
-| Configurations with manually verified source fields | 395 |
+| Models with manually verified source fields | 293 |
+| Configurations with manually verified source fields | 396 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 13 |
 | Specification-complete models | 0 |
 | Incomplete models | 444 |
 | Applicable field assignments | 25433 |
-| Fields assessed | 11771 |
-| Verified fields | 11356 |
-| Pending fields | 13662 |
+| Fields assessed | 11815 |
+| Verified fields | 11393 |
+| Pending fields | 13618 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -191,7 +191,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2025 | tablets | itel | 3 | 0 | 3 | 0 | 0 | 3 | 0 | 0 | 144 | 0 | 0 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | laptops | ASUS | 8 | 8 | 8 | 0 | 0 | 8 | 250 | 248 | 242 | 0 | 8 | 8 | 0 | 0 | 8 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | Apple | 1 | 1 | 1 | 0 | 0 | 1 | 55 | 53 | 35 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2026 | smartphones | HONOR | 5 | 1 | 5 | 0 | 0 | 5 | 130 | 124 | 95 | 3 | 4 | 0 | 0 | 0 | 5 | PARTIAL_WITH_PENDING_FIELDS |
+| 2026 | smartphones | HONOR | 5 | 2 | 5 | 0 | 0 | 5 | 174 | 161 | 51 | 3 | 5 | 0 | 0 | 0 | 5 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | Huawei | 2 | 0 | 2 | 0 | 0 | 2 | 59 | 59 | 31 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | Infinix | 4 | 0 | 4 | 0 | 0 | 4 | 151 | 151 | 164 | 2 | 2 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2026 | smartphones | Nothing | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |

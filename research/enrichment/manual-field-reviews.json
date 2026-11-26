@@ -135332,6 +135332,629 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_111b3317778f61",
+      "configurationId": "device_111b3317778f61-4gb-64gb-ph",
+      "brand": "HONOR",
+      "model": "Play 20A",
+      "configuration": "4 GB physical RAM / 64 GB storage",
+      "configurationLabel": "4 GB RAM / 64 GB storage",
+      "replacementVariants": [
+        {
+          "id": "device_111b3317778f61-4gb-64gb-ph",
+          "label": "4 GB RAM / 64 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "The exact Philippine 4 GB / 64 GB configuration is identified by local launch coverage, REVU's 4/64 review unit, and the iWarehouse listing. PTG's page has incompatible 3 GB RAM and 64/128 GB statements; the 2026 Philippine unit is not merged with older devices or other-market memory configurations. The Smart Rear Screen is a display feature, not a second device variant."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "sources": [
+        {
+          "id": "honor_play20a_global_official_product",
+          "publisher": "HONOR Global",
+          "url": "https://www.honor.com/global/phones/honor-play20-a/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer model identity and shared rear-screen, battery, display, storage expansion, color, and chipset features",
+          "note": "HONOR Global identifies the 2026 HONOR Play20A, the 2-inch Smart Rear Screen, 6.9-inch main display, 90 Hz, MediaTek G81, 6,000 mAh typical / 5,850 mAh rated battery, and a three-card slot. This global marketing page mentions 128 GB storage and is not used to infer a Philippine memory variant."
+        },
+        {
+          "id": "honor_play20a_global_image",
+          "publisher": "HONOR Global",
+          "url": "https://www.honor.com/global/phones/honor-play20-a/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model official image source page and Reddish/Light Blue product image provenance",
+          "note": "The manufacturer product page displays the Play20A in its official finishes. The linked Light Blue product-list image is recorded separately; reuse rights are not stated, so it is not copied into the site."
+        },
+        {
+          "id": "mediatek_helio_g81_official",
+          "publisher": "MediaTek",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g81",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary source for Helio G81 CPU/GPU/platform feature cross-check",
+          "note": "MediaTek's official G81 page documents the octa-core Cortex-A75/A55 CPU, Mali-G52 MC2 GPU, Wi-Fi 5, Bluetooth capabilities, FM radio capability, and positioning support. The handset's own feature list is still used for device-level values."
+        },
+        {
+          "id": "nanoreview_helio_g81",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/soc/mediatek-helio-g81",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent technical source for Helio G81 process node",
+          "note": "NanoReview lists the Helio G81 as a 12 nm platform. This is chipset process information, not a Philippine availability or device-SKU source.",
+          "sourceKind": "independent_chipset_reference"
+        },
+        {
+          "id": "honor_play20a_ph_ptg",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/honor-play20a",
+          "publicationDate": "2026-11-07",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine model page, features, price-history, and technical cross-check",
+          "note": "Published 2026-11-07. The page identifies the 2026 Philippine Play20A and many device features, but is internally inconsistent: its overview says 3 GB RAM / 128 GB storage, its specification table says 3 GB / 64 GB, and its promo text labels the November 11 promotion as 2025. The exact local 4 GB / 64 GB configuration and 2026 promo window are verified from other local sources and retailer evidence; PTG's disputed RAM, storage, and promo-year values are not used.",
+          "sourceKind": "independent_ph_reference"
+        },
+        {
+          "id": "honor_play20a_ph_jam_launch",
+          "publisher": "JamOnline",
+          "url": "https://jamonline.ph/tech-news/honor-play-20a-philippines-price-specs-promo/",
+          "publicationDate": "2026-11-07",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch and online early-access offer dates",
+          "note": "Published 2026-11-07. Reports HONOR Philippines introducing the Play 20A for a Shopee 11.11 early-access deal at PHP 8,099 from a PHP 8,999 SRP, before nationwide store release on November 28, 2026."
+        },
+        {
+          "id": "honor_play20a_ph_jam_availability",
+          "publisher": "JamOnline",
+          "url": "https://jamonline.ph/tech-news/honor-play-20a-pad-x7b-philippines-price/",
+          "publicationDate": "2026-11-13",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine online availability, launch SRP, and Smart Rear Screen cross-check",
+          "note": "Published 2026-11-13. Reports that the Play 20A was available exclusively on Shopee for PHP 8,099 against an PHP 8,999 SRP, and describes the 2-inch rear display, 6.9-inch 90 Hz main display, and 6,000 mAh battery."
+        },
+        {
+          "id": "honor_play20a_ph_noypigeeks",
+          "publisher": "NoypiGeeks",
+          "url": "https://www.noypigeeks.com/android/honor-play-20a-philippines/",
+          "publicationDate": "2026-11-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch, exact 4 GB / 64 GB configuration, local price, and specifications",
+          "note": "Published 2026-11-06. Identifies the Philippine Play 20A with Helio G81, 4 GB RAM / 64 GB storage, PHP 8,999 SRP, 6,000 mAh battery and 15 W wired charging, Android 16 Go, IP52, and local feature specifications."
+        },
+        {
+          "id": "honor_play20a_ph_revu_review",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2026/11/honor-play-20a-review-price-specs/",
+          "publicationDate": "2026-11",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent hands-on review and exact tested 4 GB / 64 GB configuration",
+          "note": "Published in November 2026. REVU's reviewed unit has 4 GB physical RAM and 64 GB storage; it confirms the Helio G81, Android 16 Go, 6.9-inch 90 Hz LCD, 13 MP and 5 MP cameras, 6,000 mAh battery, 15 W charging, and physical design. Its hands-on measurements and descriptions remain distinct from manufacturer claims.",
+          "sourceKind": "independent_ph_review"
+        },
+        {
+          "id": "honor_play20a_ph_besttech",
+          "publisher": "Best Tech Asia",
+          "url": "https://besttechasia.com/honor-play20a-full-specs-price-philippines/",
+          "publicationDate": "2026-11-16",
+          "accessDate": "2026-11-26",
+          "purpose": "Recent Philippine guide-price and specification cross-check",
+          "note": "Last updated 2026-11-16. Lists the Philippine 4 GB / 64 GB version at PHP 8,999 SRP and the PHP 8,099 11.11 Shopee launch price, with nationwide retail availability expected from November 28. It is an editorial guide, not a checkout offer.",
+          "sourceKind": "independent_price_guide"
+        },
+        {
+          "id": "honor_play20a_ph_iwarehouse",
+          "publisher": "iWarehouse",
+          "url": "https://iwarehouse.ph/products/3134-honor-play-20a",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-configuration Philippine retailer cash price and branch-stock observation",
+          "note": "At access on 2026-11-26, the exact new HONOR Play 20A 4 GB / 64 GB was listed from PHP 8,999 cash and shown at five store locations. The retailer warns that stock information is not reserved and asks buyers to call before visiting; the price is recorded with that availability caveat.",
+          "sourceKind": "retailer_price_observation"
+        },
+        {
+          "id": "honor_play20a_ph_price_specs_crosscheck",
+          "publisher": "PhilNews",
+          "url": "https://philnews.ph/2026/11/11/honor-play-20a-2026-full-specs-features-price-in-philippines/",
+          "publicationDate": "2026-11-11",
+          "accessDate": "2026-11-26",
+          "purpose": "Local 4 GB / 64 GB variant and price comparison cross-check",
+          "note": "Published 2026-11-11. Reports the Philippine 4 GB / 64 GB model at PHP 8,999 SRP, PHP 8,099 Shopee launch price, Android 16 Go, Helio G81, 6,000 mAh battery, and local launch/retail dates. Used as a cross-check rather than the primary device-spec source.",
+          "sourceKind": "independent_ph_reference"
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "No model code or Philippine SKU code stated in the reviewed manufacturer, launch, and retailer sources",
+          "normalizedValue": null,
+          "note": "No regional model code is inferred from the product name.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Philippine model: 4 GB RAM / 64 GB storage; PTG page separately lists 3 GB and conflicting storage values",
+          "normalizedValue": "4 GB physical RAM / 64 GB storage",
+          "note": "NoypiGeeks, REVU's tested unit, PhilNews, and the exact iWarehouse listing all identify 4 GB / 64 GB. PTG's overview/table disagree internally on RAM and storage; the manufacturer global page's 128 GB marketing value is not treated as a Philippine variant.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_jam_launch",
+          "sourceValue": "Shopee early-access release reported for November 11, 2026; nationwide store release scheduled November 28, 2026",
+          "normalizedValue": "2026-11-11",
+          "note": "This records the first reported Philippine online availability date. Nationwide retail was scheduled for November 28; iWarehouse lists branch availability earlier but warns that stock is informational.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_jam_launch",
+          "sourceValue": "PHP 8,999 SRP; PHP 8,099 Shopee 11.11 promotional price",
+          "normalizedValue": 8999,
+          "note": "PHP 8,999 is the Philippine SRP. PHP 8,099 was a dated 11.11 launch promotion, not the standard price.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_iwarehouse",
+          "sourceValue": "PHP 8,999 cash price for the exact 4 GB / 64 GB model; retailer lists it at five locations but says stock is informational and not reserved",
+          "normalizedValue": 8999,
+          "note": "Current new-retail cash listing observed 2026-11-26. The retailer lists five locations but says inventory is not reserved; call to confirm before travel. The PHP 8,099 Shopee offer was a dated 11.11 promotion and is not presented as current.",
+          "configurationMatch": "Exact Philippine HONOR Play 20A 4 GB RAM / 64 GB storage retailer configuration",
+          "unit": "PHP",
+          "priceCondition": "new",
+          "priceType": "Philippine retailer cash price PHP 8,999 observed 2026-11-26; branch stock informational and not reserved",
+          "priceObservedAt": "2026-11-26"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "6.9-inch main display plus 2.0-inch Smart Rear Screen (240 × 296 pixels)",
+          "normalizedValue": 6.9,
+          "note": "HONOR Global confirms the main display size and Smart Rear Screen; local sources specify the secondary display resolution.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.9,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_ptg",
+          "sourceValue": "Main 6.9-inch IPS LCD; secondary 2-inch Smart Rear LCD",
+          "normalizedValue": "IPS LCD",
+          "note": "Local model sources identify the main screen as LCD/IPS LCD. The 2-inch rear display is recorded in the display-size field and source notes, not merged into the main-panel type.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Main: 720 × 1600 pixels (HD+); rear: 240 × 296 pixels",
+          "normalizedValue": "720 x 1600",
+          "note": "The main-panel resolution is the catalog value; the smaller rear-display resolution is retained in the source value.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "resolution",
+          "catalogValue": "720 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "Main display supports up to 90 Hz",
+          "normalizedValue": 90,
+          "note": "HONOR Global states up to 90 Hz and notes that actual refresh varies by app and scene.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_revu_review",
+          "sourceValue": "REVU reports typical brightness around 600 nits; manufacturer page does not provide a matching measured-condition figure",
+          "normalizedValue": "Approximately 600 nits typical (review report)",
+          "note": "This is retained as a secondary review figure with its typical-brightness qualifier, not presented as a manufacturer-certified peak value.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_ptg",
+          "sourceValue": "Aluminosilicate glass on the main display",
+          "normalizedValue": "Aluminosilicate glass",
+          "note": "PTG lists aluminosilicate cover glass; REVU independently describes the front glass as scratch-resistant.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "MediaTek G81 / Helio G81",
+          "normalizedValue": "MediaTek Helio G81",
+          "note": "HONOR's official product page says MediaTek G81; Philippine sources identify it as Helio G81.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio G81"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_helio_g81",
+          "sourceValue": "12 nm",
+          "normalizedValue": 12,
+          "note": "NanoReview lists the Helio G81 process node as 12 nm; this is chipset-level information.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "mediatek_helio_g81_official",
+          "sourceValue": "Octa-core: 2 × Cortex-A75 up to 2.0 GHz + 6 × Cortex-A55 up to 1.7 GHz",
+          "normalizedValue": "Octa-core: 2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.7 GHz",
+          "note": "MediaTek's official Helio G81 page specifies the same CPU cluster and clock ceiling.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.7 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "mediatek_helio_g81_official",
+          "sourceValue": "Arm Mali-G52 MC2",
+          "normalizedValue": "Arm Mali-G52 MC2",
+          "note": "MediaTek's official Helio G81 specifications identify Mali-G52 MC2.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G52 MC2"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Android 16 Go Edition at Philippine launch",
+          "normalizedValue": "Android 16 Go Edition",
+          "note": "Local launch and review sources report Android 16 Go. No later operating-system upgrade is inferred.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "os",
+          "catalogValue": "Android 16 Go Edition"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "No official Philippine OS/security update duration found in reviewed sources",
+          "normalizedValue": null,
+          "note": "No update count or end-of-support date is inferred.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "4 GB physical RAM in the Philippine 4 GB / 64 GB configuration",
+          "normalizedValue": 4,
+          "note": "Exact local 4 GB configuration is supported by NoypiGeeks, REVU's tested unit, PhilNews, and the retailer listing. PTG's page gives an inconsistent 3 GB figure; it is not adopted.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "mediatek_helio_g81_official",
+          "sourceValue": "Device-specific RAM generation not stated; platform supports LPDDR4x",
+          "normalizedValue": null,
+          "note": "A chipset-supported memory type does not establish the exact phone's installed RAM type.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "64 GB internal storage in the Philippine configuration",
+          "normalizedValue": 64,
+          "note": "NoypiGeeks, REVU, PhilNews, and iWarehouse identify the local 64 GB version. Global 128 GB and other-market configurations are not added as Philippine variants.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "mediatek_helio_g81_official",
+          "sourceValue": "Device-specific storage interface not stated; platform supports eMMC 5.1",
+          "normalizedValue": null,
+          "note": "The chipset's maximum supported interface is not taken as proof of the installed storage interface.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "HONOR says storage can be expanded up to 1 TB using a three-card slot",
+          "normalizedValue": "Dedicated microSD expansion up to 1 TB",
+          "note": "The official product page describes a three-card slot and expansion up to 1 TB; local spec pages also identify microSD expansion.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Single 13 MP f/2.2 autofocus main camera with LED flash; Smart Rear Screen can be used as its selfie viewfinder",
+          "normalizedValue": "13 MP f/2.2 main camera with autofocus and LED flash",
+          "note": "The handset has one listed rear imaging camera; the rear display is a viewfinder feature, not another camera.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "13 MP f/2.2 autofocus main camera; sensor maker/model not disclosed",
+          "normalizedValue": null,
+          "note": "The sensor vendor and sensor model are not named in the reviewed sources.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "No ultrawide camera listed",
+          "normalizedValue": "No ultrawide module listed",
+          "note": "The local model sources list a single rear camera.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "No telephoto camera listed",
+          "normalizedValue": "No telephoto module listed",
+          "note": "The local model sources list a single rear camera.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "5 MP f/2.2 front camera",
+          "normalizedValue": 5,
+          "note": "Local model and review sources report a 5 MP front camera.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 5,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_ptg",
+          "sourceValue": "Rear video up to 1080p at 30 fps; front video up to 1080p at 30 fps",
+          "normalizedValue": "Rear up to 1080p/30; front up to 1080p/30",
+          "note": "Maximum listed recording modes in the local specification reference.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "6,000 mAh typical capacity; 5,850 mAh rated capacity",
+          "normalizedValue": 6000,
+          "note": "HONOR Global explicitly distinguishes typical and rated capacities; the catalog numeric value is the typical figure.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_ptg",
+          "sourceValue": "Lithium-ion polymer (non-removable)",
+          "normalizedValue": "Lithium-ion polymer",
+          "note": "Battery chemistry is listed in the local specification reference; the battery is not user-removable.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "15 W wired charging",
+          "normalizedValue": 15,
+          "note": "Local launch specification reports 15 W wired charging.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "chargingW",
+          "catalogValue": 15,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_play20a_global_official_product",
+          "sourceValue": "No wireless charging support listed in reviewed sources",
+          "normalizedValue": null,
+          "note": "No wireless charging capability is inferred.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "171.1 × 79.0 × 8.4 mm",
+          "normalizedValue": "171.1 x 79 x 8.4 mm",
+          "note": "Local model-specific dimensions, ordered height × width × thickness.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "dimensions",
+          "catalogValue": "171.1 x 79 x 8.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_revu_review",
+          "sourceValue": "206.5 g",
+          "normalizedValue": 206.5,
+          "note": "REVU's hands-on review reports the same model's weight.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "weightG",
+          "catalogValue": 206.5,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_ptg",
+          "sourceValue": "Glass front, plastic back",
+          "normalizedValue": "Glass front; plastic rear",
+          "note": "Local specification listing; finish material is not generalized beyond this statement.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "IP52 dust and splash resistance",
+          "normalizedValue": "IP52",
+          "note": "Local source lists IP52. This is not described as waterproof or suitable for immersion.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Dual Nano-SIM; eSIM support not stated",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "Only physical SIM slots are recorded; lack of eSIM support is not inferred.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "2G GSM, 3G HSPA+, and 4G LTE; no 5G; exact Philippine band list not recorded",
+          "normalizedValue": "2G / 3G / 4G LTE; no 5G; band list not recorded",
+          "note": "Local references identify this as a 4G LTE handset. No carrier-specific band compatibility is inferred.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "cellular",
+          "catalogValue": "2G / 3G / 4G LTE; no 5G; band list not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Dual-band Wi-Fi 802.11 a/b/g/n/ac (Wi-Fi 5)",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac), dual band",
+          "note": "Local device listing identifies Wi-Fi 5; MediaTek's G81 platform source also lists 802.11ac support.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac), dual band"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Bluetooth 5.1",
+          "normalizedValue": "Bluetooth 5.1",
+          "note": "Reported in the local specification reference.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "USB Type-C; transfer protocol/version not stated",
+          "normalizedValue": "USB Type-C; protocol not recorded",
+          "note": "Connector type is recorded without inferring USB data speed.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; protocol not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_ptg",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "PTG's device specification explicitly lists NFC as unavailable.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "GPS, A-GPS, GLONASS, Galileo, BeiDou",
+          "normalizedValue": "GPS, A-GPS, GLONASS, Galileo, BeiDou",
+          "note": "Local model sources list these navigation systems.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "3.5 mm headphone jack; single loudspeaker; FM radio listed",
+          "normalizedValue": "3.5 mm headphone jack; single loudspeaker; FM radio",
+          "note": "Audio details from Philippine launch/specification references.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_play20a_ph_noypigeeks",
+          "sourceValue": "Accelerometer, ambient-light sensor, proximity sensor; side-mounted fingerprint reader and face unlock",
+          "normalizedValue": "Accelerometer, ambient light, proximity; side fingerprint reader; face unlock",
+          "note": "Sensors and biometrics from local model-specific references.",
+          "configurationMatch": "Philippine 4 GB physical RAM / 64 GB storage configuration"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "HONOR Play20A Shopee early access was reported from November 11, 2026; nationwide store release was scheduled for November 28. iWarehouse lists branch availability but says stock is informational and not reserved.",
+        "philippineAvailability": "JamOnline reports HONOR Philippines' exclusive Shopee early-access sale from November 11 and nationwide store release on November 28, 2026; iWarehouse lists the exact local 4 GB / 64 GB model at several branches with a call-to-confirm stock warning.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HONOR",
+        "productLine": "Play Series",
+        "philippineReleaseYear": 2026,
+        "philippineDateLabel": "First reported Philippine online early-access date",
+        "researchNotes": "The workbook's HONOR Play 20A record matches the 2026 HONOR Play20A with a Smart Rear Screen, not an older reused Play 20A name or a different Play-series model. The confirmed Philippine configuration is 4 GB physical RAM / 64 GB storage. Local coverage and an exact retailer list PHP 8,999; PHP 8,099 was a dated 11.11 online promotion. PTG's page has conflicting memory values and incorrectly dates the promotion as 2025; those disputed values are not used. The official manufacturer image URL is recorded, but reuse terms are unstated and the neutral catalog placeholder remains.",
+        "qualityFlag": "PTG memory and promo-date inconsistencies; retailer stock is informational and not reserved",
+        "openIssues": [
+          {
+            "issue": "PTG's page conflicts internally on RAM/storage and gives a 2025 promo year",
+            "action": "Use the corroborated local 4 GB / 64 GB configuration and 2026 promotion dates; preserve PTG's inconsistency in source notes."
+          },
+          {
+            "issue": "Current retailer stock is not reserved",
+            "action": "The listed PHP 8,999 cash price is shown with the observed date; advise checking the branch before purchase."
+          },
+          {
+            "issue": "Official product image reuse terms are not stated",
+            "action": "Continue showing the neutral placeholder until reusable licensing or written permission is documented."
+          },
+          {
+            "issue": "Official OS/security update duration not found",
+            "action": "Leave support duration unrecorded."
+          }
+        ]
+      }
     }
   ]
 }
