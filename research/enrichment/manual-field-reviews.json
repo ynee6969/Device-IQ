@@ -143917,6 +143917,649 @@
         }
       ],
       "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_97f548edfe54b5",
+      "configurationId": "device_97f548edfe54b5-8gb-128gb-ph",
+      "brand": "OPPO",
+      "model": "Reno6",
+      "configuration": "8 GB RAM / 128 GB storage",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "reno6_oppo_ph_launch",
+          "publisher": "OPPO Philippines",
+          "url": "https://www.oppo.com/ph/newsroom/press/oppo-reno6-launch/",
+          "publicationDate": "2021-08-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine launch, configuration, color, availability, and launch price evidence",
+          "note": "OPPO's local announcement separates Reno6 5G from Reno6 Z 5G, states the 5G model's PHP 26,999 price and 8 GB / 128 GB configuration, and says it would be available from August 28, 2021. It names Aurora and Stellar Black as colors. The release also identifies the Dimensity 900, 4,300 mAh battery, and 65 W SuperVOOC 2.0."
+        },
+        {
+          "id": "reno6_oppo_global_specs",
+          "publisher": "OPPO Global",
+          "url": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact model-code and manufacturer specifications for Reno6 5G CPH2251",
+          "note": "OPPO identifies this specification page as Reno6 5G (CPH2251), with 8 GB / 128 GB, LPDDR4X, display, camera/video, chipset, battery, connectivity, OS, sensors, and dimensions. It says external memory is not supported. Its listed image assets are reference images; no reuse license is stated."
+        },
+        {
+          "id": "reno6_oppo_product",
+          "publisher": "OPPO Global",
+          "url": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official exact-model product imagery reference and product overview",
+          "note": "The product page is for OPPO Reno6 5G. It depicts the exact model, but its product imagery is not accompanied by a reusable image license or permission statement."
+        },
+        {
+          "id": "reno6_ntc_gec",
+          "publisher": "National Telecommunications Commission (NTC), Philippines",
+          "url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/GEC-2009-2021-Updated-.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine equipment-conformity record for model CPH2251",
+          "note": "The NTC GEC table lists OPPO CPH2251 with marketing name OPPO Reno6 5G; the grant was issued July 6, 2021 to Emerald Wireless Tech Inc. The same table separately lists CPH2237 as Reno6 Z 5G, which is not merged into this record."
+        },
+        {
+          "id": "reno6_yugatech_launch",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/oppo-reno6-6z-5g-specs-price-philippines/",
+          "publicationDate": "2021-08-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch configuration, price, availability, and spec cross-check",
+          "note": "The Philippine launch report identifies Reno6 5G (8 GB / 128 GB) at PHP 26,999, with availability scheduled for August 28, 2021. It distinguishes the Reno6 Z 5G and gives local device details. It does not establish a present-day price."
+        },
+        {
+          "id": "reno6_yugatech_hands_on",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/oppo-reno6-5g-specs-price-hands-on-philippines/",
+          "publicationDate": "2021-07-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model technical cross-check and storage-expansion discrepancy",
+          "note": "The hands-on identifies the Reno6 5G and lists core specifications. In one passage it describes a tray for two SIMs and microSD, conflicting with OPPO's exact CPH2251 specification that says external memory is not supported. The conflict is retained. Its pre-launch global configuration list is not treated as evidence of additional Philippine configurations."
+        },
+        {
+          "id": "reno6_manilashaker_launch",
+          "publisher": "ManilaShaker Philippines",
+          "url": "https://manilashaker.com/oppo-reno6-5g-now-officially-available-in-the-philippines/",
+          "publicationDate": "2021-08-27",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent local availability and technical cross-check",
+          "note": "Published August 27, 2021, it reports Philippine availability beginning August 28 and PHP 26,999 for Reno6 5G. It corroborates 8 GB / 128 GB and several specifications. Its text says Mali-G78 MC4; OPPO's model-specific page and MediaTek's chipset documentation identify Mali-G68 MC4, so the latter is retained and the secondary typo is documented."
+        },
+        {
+          "id": "reno6_mediatek_dimensity900",
+          "publisher": "MediaTek",
+          "url": "https://www.mediatek.com/products/laptops-and-tablets/tablets/mediatek-dimensity-900",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Dimensity 900 CPU, GPU, process-node, and platform evidence",
+          "note": "MediaTek specifies TSMC 6 nm, two Cortex-A78 cores up to 2.4 GHz, six Cortex-A55 cores up to 2 GHz, and Mali-G68 MC4. These are chipset-family specifications; OPPO identifies Dimensity 900 in CPH2251."
+        },
+        {
+          "id": "reno6_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/oppo_reno6_5g-10932.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Secondary exact-model release-date and specification cross-check",
+          "note": "GSMArena's exact Reno6 5G record (phone ID 10932) search result reports release on June 11, 2021. A direct page fetch returned HTTP 402 during review, so no additional values were extracted from the page."
+        },
+        {
+          "id": "reno6_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-oppo-reno-6-in",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Secondary model alias, configuration, and release-month cross-check",
+          "note": "Kimovil lists CPH2251 / Reno6 5G as an alias and gives a May 2021 release month, while its configuration section separates China and International entries. Because that month does not match GSMArena's June 11 release date and the page groups region variants, it is not used to assign one exact global release date."
+        },
+        {
+          "id": "reno6_nanoreview_dimensity900",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/soc/mediatek-dimensity-900",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Secondary Dimensity 900 architecture cross-check",
+          "note": "NanoReview independently lists the chipset's 6 nm process and 2x Cortex-A78 / 6x Cortex-A55 layout. Benchmark scores and device-performance ratings are not copied into DeviceIQ."
+        },
+        {
+          "id": "reno6_lahatdito_offer",
+          "publisher": "LahatDito Philippines marketplace / Gadget Shop",
+          "url": "https://www.lahatdito.com.ph/product/Oppo-Reno6-Smartphone--5G-8128GB-x2lQ7",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact title/configuration current-price candidate review",
+          "note": "The marketplace page title says Reno6 5G 8+128 GB and displays PHP 32,518, in-stock text, and 300 available units. The search/browser snapshot was last crawled about 10 months before this review; seller authorization, current orderability, and item condition were not independently confirmed. The amount is retained as a stale candidate, not a current catalog price.",
+          "sourceKind": "marketplace_candidate"
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "reno6_ntc_gec",
+          "sourceValue": "NTC lists OPPO CPH2251 as OPPO Reno6 5G; OPPO's specification page labels Reno6 5G as CPH2251",
+          "normalizedValue": "CPH2251",
+          "note": "Exact product identity is corroborated by the Philippine NTC entry and the manufacturer's model-specific specification page. NTC separately lists CPH2237 as Reno6 Z 5G.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "reno6_gsmarena",
+          "sourceValue": "GSMArena's CPH2251 Reno6 5G record reports release June 11, 2021; Kimovil groups the CPH2251/international entry under a May 2021 release month; OPPO's reviewed product pages give no global date",
+          "normalizedValue": null,
+          "note": "The exact day and month-level secondary dates differ, and the Kimovil profile groups regional configurations. Leave one global release date unset; Philippine availability is separately documented as August 28, 2021.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_ph_launch",
+          "sourceValue": "OPPO Philippines lists Reno6 5G at 8 GB RAM / 128 GB storage in Aurora or Stellar Black",
+          "normalizedValue": "8 GB RAM / 128 GB storage; Aurora / Stellar Black",
+          "note": "The local OPPO announcement states the Philippine configuration and colors. This row is matched to CPH2251 Reno6 5G; Reno6 Z 5G and non-Philippine configurations remain separate.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_ph_launch",
+          "sourceValue": "OPPO Philippines says Reno6 5G would be available from August 28, 2021",
+          "normalizedValue": "2021-08-28",
+          "note": "Official local availability date. OPPO's August announcement gives Reno6 Z 5G a separate August 14 date.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_ph_launch",
+          "sourceValue": "Official Philippine launch price for Reno6 5G: PHP 26,999",
+          "normalizedValue": 26999,
+          "note": "Historical local launch price for the 8 GB / 128 GB CPH2251 configuration; this is not a current offer.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "reno6_lahatdito_offer",
+          "sourceValue": "Marketplace page shows PHP 32,518 for a Reno6 5G 8+128 GB listing, but its captured page was last crawled about 10 months earlier; seller authorization, condition, and current orderability are unconfirmed",
+          "normalizedValue": 32518,
+          "note": "Stale marketplace candidate only. Keep the catalog's current price blank until a dated, presently orderable Philippine offer and item condition are independently confirmed.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "unit": "PHP",
+          "priceType": "stale_marketplace_offer_candidate"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "6.4-inch display",
+          "normalizedValue": 6.4,
+          "note": "Manufacturer's CPH2251 specification. Local coverage sometimes prints 6.43 inches; OPPO's documented 6.4-inch value is used consistently.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.4,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "AMOLED (rigid screen)",
+          "normalizedValue": "AMOLED",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "FHD+ 1080 × 2400",
+          "normalizedValue": "2400 x 1080",
+          "note": "Manufacturer specification; catalog convention records height by width.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "resolution",
+          "catalogValue": "2400 x 1080"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Maximum 90 Hz; selectable 90 Hz or 60 Hz",
+          "normalizedValue": 90,
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "430 nits typical; 600 nits typical in sunlight; 750 nits local peak",
+          "normalizedValue": "430 nits typical; 600 nits sunlight typical maximum; 750 nits local peak",
+          "note": "Manufacturer distinguishes typical, sunlight, and local peak figures; they are not collapsed into one brightness number.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reno6_manilashaker_launch",
+          "sourceValue": "ManilaShaker reports Corning Gorilla Glass 5 on the front; OPPO's reviewed spec page does not name the cover-glass generation",
+          "normalizedValue": "Corning Gorilla Glass 5 (front; secondary report)",
+          "note": "Secondary Philippine report only. No claim is made about rear-glass protection or the frame.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "MediaTek Dimensity 900",
+          "normalizedValue": "MediaTek Dimensity 900",
+          "note": "Manufacturer identifies this chipset for Reno6 5G CPH2251.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Dimensity 900"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "reno6_mediatek_dimensity900",
+          "sourceValue": "TSMC 6 nm process for the MediaTek Dimensity 900",
+          "normalizedValue": "6 nm (TSMC)",
+          "note": "Chipset-vendor specification, applied to the phone's manufacturer-identified Dimensity 900 platform.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "reno6_mediatek_dimensity900",
+          "sourceValue": "Octa-core: 2x Arm Cortex-A78 up to 2.4 GHz + 6x Arm Cortex-A55 up to 2.0 GHz",
+          "normalizedValue": "8-core: 2x Cortex-A78 up to 2.4 GHz + 6x Cortex-A55 up to 2.0 GHz",
+          "note": "MediaTek platform specifications. These are chipset CPU details, not a measured benchmark.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core: 2x Cortex-A78 up to 2.4 GHz + 6x Cortex-A55 up to 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "OPPO and MediaTek list Arm Mali-G68 MC4; ManilaShaker's local article says Mali-G78 MC4",
+          "normalizedValue": "Arm Mali-G68 MC4",
+          "note": "The manufacturer and SoC vendor agree on Mali-G68 MC4. ManilaShaker's Mali-G78 entry is retained here as a documented secondary-source typo rather than copied into the catalog.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G68 MC4"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "ColorOS 11.3 based on Android 11",
+          "normalizedValue": "ColorOS 11.3 (Android 11)",
+          "note": "Launch-era OS specification, not a claim about the version currently installed on every unit.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "os",
+          "catalogValue": "ColorOS 11.3 (Android 11)"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "No model-specific update duration or end-of-support date is stated on the reviewed manufacturer page",
+          "normalizedValue": null,
+          "note": "No upgrade commitment, delivered upgrade history, or support end date is inferred.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "8 GB RAM",
+          "normalizedValue": 8,
+          "note": "Matches the sole Philippine 8 GB / 128 GB configuration stated by OPPO Philippines.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "LPDDR4X at 2133 MHz, 2 × 16-bit",
+          "normalizedValue": "LPDDR4X",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR4X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "128 GB ROM",
+          "normalizedValue": 128,
+          "note": "Exact Philippine configuration confirmed in OPPO's local launch release.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reno6_manilashaker_launch",
+          "sourceValue": "ManilaShaker reports 128 GB UFS 2.1 for the local Reno6 5G",
+          "normalizedValue": "UFS 2.1",
+          "note": "Secondary Philippine report tied to the exact local 8 GB / 128 GB device; OPPO's reviewed spec page does not state the storage interface.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "OPPO's exact CPH2251 spec says external memory is not supported; YugaTech's hands-on describes a tray accepting two Nano-SIM cards and a microSD card",
+          "normalizedValue": null,
+          "note": "The source claims conflict. Do not show a definitive expandable-storage value until the CPH2251 Philippine variant is resolved.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "64 MP main + 8 MP ultrawide + 2 MP macro",
+          "normalizedValue": "64 MP main + 8 MP ultrawide + 2 MP macro",
+          "note": "Manufacturer lists three rear modules; the catalog numeric field represents the main-camera resolution.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 64
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "64 MP main camera, f/1.7, 81° FOV, 6P lens, AF; sensor make/model not stated",
+          "normalizedValue": "64 MP main, f/1.7, 81° FOV; sensor model not disclosed",
+          "note": "Manufacturer specification; no sensor identity or sensor size is inferred.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "8 MP ultrawide, f/2.2, 120° FOV, 5P lens",
+          "normalizedValue": "8 MP ultrawide, f/2.2, 120° FOV",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "The complete rear-camera list contains main, ultrawide, and macro modules; no telephoto module is listed",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "The manufacturer's complete three-module list does not include a telephoto camera.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "32 MP front camera, f/2.4, 85° FOV",
+          "normalizedValue": 32,
+          "note": "Manufacturer specification; numeric catalog field records resolution.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Rear: 4K 30 fps; 1080p 30/60 fps; 720p 30/60 fps. Front: 1080p or 720p at 30 fps",
+          "normalizedValue": "Rear 4K30, 1080p30/60, 720p30/60; front 1080p/720p30",
+          "note": "Manufacturer's listed modes and frame rates.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K30, 1080p30/60, 720p30/60; front 1080p/720p30"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "4,300 mAh / 16.64 Wh typical; two series-connected cells",
+          "normalizedValue": 4300,
+          "note": "Manufacturer's typical capacity; the local OPPO release confirms the 4,300 mAh capacity.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4300,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reno6_gsmarena",
+          "sourceValue": "GSMArena identifies a non-removable Li-Po battery; OPPO lists capacity but not chemistry on its spec page",
+          "normalizedValue": "Lithium-polymer; secondary source",
+          "note": "Chemistry is taken from the exact-model secondary listing, not inferred from capacity or charging behavior.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_ph_launch",
+          "sourceValue": "65 W SuperVOOC 2.0",
+          "normalizedValue": 65,
+          "note": "OPPO Philippines confirms the local model's wired charging rate and protocol.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "chargingW",
+          "catalogValue": 65,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Wireless and reverse wireless charging are not stated on the reviewed manufacturer specification page",
+          "normalizedValue": null,
+          "note": "Silence is not interpreted as a confirmed hardware absence.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "About 156.8 × 72.1 × 7.59 mm",
+          "normalizedValue": "156.8 x 72.1 x 7.59 mm",
+          "note": "Manufacturer says dimensions may vary by configuration and measurement.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "dimensions",
+          "catalogValue": "156.8 x 72.1 x 7.59 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "About 182 g",
+          "normalizedValue": 182,
+          "note": "Manufacturer says weight may vary by configuration and measurement.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "weightG",
+          "catalogValue": 182,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "reno6_manilashaker_launch",
+          "sourceValue": "ManilaShaker reports Gorilla Glass 5 on the front; rear-cover and frame materials are not established by the reviewed sources",
+          "normalizedValue": null,
+          "note": "Front display protection is recorded separately. Rear and frame materials remain blank.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "No IP rating or water-resistance certification is stated on the reviewed manufacturer page",
+          "normalizedValue": null,
+          "note": "No protection rating is inferred.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Dual Nano-SIM supported; eSIM is not stated",
+          "normalizedValue": "Dual Nano-SIM; eSIM not disclosed",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not disclosed"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G WCDMA 1/2/4/5/6/8/19; 4G TD-LTE 38/39/40/41 and FDD 1/2/3/4/5/7/8/12/17/18/19/20/26/28/66; 5G NR n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n66/n77/n78",
+          "normalizedValue": "2G/3G/4G/5G bands as listed by OPPO for CPH2251",
+          "note": "Manufacturer's model-page bands. This list does not guarantee carrier compatibility or service availability in the Philippines.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "cellular",
+          "catalogValue": "2G/3G/4G/5G bands as listed by OPPO for CPH2251"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11a/b/g/n; 2.4/5.1/5.8 GHz; Wi-Fi Display/tethering; 2×2 MIMO and MU-MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), dual-band",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), dual-band"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Bluetooth 5.2; SBC, AAC, aptX, LDAC, LHDC",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "USB Type-C, USB 2.0, OTG; Type-C earphone support",
+          "normalizedValue": "USB Type-C (USB 2.0, OTG); Type-C audio",
+          "note": "Manufacturer specification. No 3.5 mm-jack claim is added.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C (USB 2.0, OTG); Type-C audio"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "NFC supports Android Beam, UICC, HCE, and NFC-SIM functions",
+          "normalizedValue": "NFC supported",
+          "note": "Manufacturer specification for model CPH2251.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "BeiDou, GPS, GLONASS, Galileo, and QZSS; A-GPS, Wi-Fi, mobile-network, and electronic-compass positioning also listed",
+          "normalizedValue": "BeiDou, GPS, GLONASS, Galileo, QZSS",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Type-C earphone support; loudspeaker channel configuration is not stated on the manufacturer specification page",
+          "normalizedValue": "Type-C audio; speaker configuration not disclosed",
+          "note": "No stereo-speaker or 3.5 mm-jack claim is inferred.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "reno6_oppo_global_specs",
+          "sourceValue": "Geomagnetic, color-temperature, on-screen proximity, on-screen optical, accelerometer, gravity, gyroscope, and pedometer sensors",
+          "normalizedValue": "Geomagnetic, color temperature, proximity, optical, accelerometer, gravity, gyroscope, pedometer",
+          "note": "Manufacturer specification.",
+          "configurationMatch": "Philippine OPPO Reno6 5G (CPH2251), 8 GB RAM / 128 GB storage; Aurora or Stellar Black"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "OPPO Philippines announced the Reno6 5G for official Philippine availability beginning August 28, 2021; the NTC lists CPH2251 as Reno6 5G. Workbook eligibility remains Pending.",
+        "philippineAvailability": "OPPO Philippines announced Reno6 5G separately from Reno6 Z 5G and stated local availability beginning August 28, 2021. The NTC GEC list identifies CPH2251 as OPPO Reno6 5G. The workbook's unsuffixed Reno6 row is matched to CPH2251 Reno6 5G using this local evidence; Reno6 Z 5G (CPH2237) is not merged.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "OPPO",
+        "catalogModel": "Reno6 5G",
+        "productLine": "OPPO Reno6 5G",
+        "modelNumber": "CPH2251",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Official Philippine availability start date",
+        "researchNotes": "Matched to OPPO Reno6 5G (CPH2251), separate from Reno6 Z 5G (CPH2237). Philippine configuration: 8 GB / 128 GB; scope remains Pending. Current price, global release date, storage expansion, and image reuse remain unresolved.",
+        "qualityFlag": "Reno6 5G (CPH2251) matched; storage expansion, global date, current price, and image reuse unresolved.",
+        "openIssues": [
+          {
+            "issue": "Workbook label is unsuffixed Reno6",
+            "action": "Display as Reno6 5G (CPH2251), supported by OPPO Philippines and NTC; keep Reno6 Z 5G (CPH2237) separate."
+          },
+          {
+            "issue": "Global release date differs between GSMArena and Kimovil and the manufacturer does not state an exact global date",
+            "action": "Leave the exact global release date blank and preserve both secondary source statements."
+          },
+          {
+            "issue": "OPPO says external memory is not supported; a YugaTech hands-on describes a microSD card tray",
+            "action": "Keep expandable-storage status unresolved until the Philippines CPH2251 configuration is confirmed."
+          },
+          {
+            "issue": "LahatDito price page was last crawled about 10 months before review; current offer, condition, and seller authorization are unconfirmed",
+            "action": "Retain PHP 32,518 as a stale candidate only; do not show a catalog current price."
+          },
+          {
+            "issue": "Exact product images appear on OPPO's page without a reusable license",
+            "action": "Use the neutral placeholder unless documented image-use permission is established."
+          },
+          {
+            "issue": "Workbook scope/eligibility remains Pending",
+            "action": "Preserve Pending and follow the existing study eligibility rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_97f548edfe54b5-8gb-128gb-ph",
+          "label": "8 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": "CPH2251",
+          "notes": "Philippine OPPO Reno6 5G configuration. Available colors: Aurora and Stellar Black.",
+          "workbookRow": 26
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
     }
   ]
 }

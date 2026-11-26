@@ -1,0 +1,62 @@
+{
+  "run_at": "2026-11-26T16:19:50+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_97f548edfe54b5",
+      "brand": "OPPO",
+      "model_name": "Reno6 5G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_97f548edfe54b5",
+      "source_url": "https://www.oppo.com/ph/newsroom/press/oppo-reno6-launch/",
+      "result": "Official Philippine launch reference confirms PHP 26,999 for 8 GB / 128 GB; historical launch price only."
+    },
+    {
+      "device_id": "device_97f548edfe54b5",
+      "source_url": "https://www.lahatdito.com.ph/product/Oppo-Reno6-Smartphone--5G-8128GB-x2lQ7",
+      "result": "Exact-title 8+128 marketplace page displays PHP 32,518 and in-stock text, but page snapshot is about 10 months old; not accepted as current."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_97f548edfe54b5",
+      "amount_php": 26999,
+      "configuration_id": "device_97f548edfe54b5-8gb-128gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_official_launch_price",
+      "source_published_at": "2021-08-06",
+      "excerpt": "OPPO Philippines announced Reno6 5G 8 GB / 128 GB at PHP 26,999, available from August 28, 2021.",
+      "source_url": "https://www.oppo.com/ph/newsroom/press/oppo-reno6-launch/",
+      "source_kind": "manufacturer_ph_launch_price",
+      "observed_at": "2026-11-26T16:19:50+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_97f548edfe54b5",
+      "amount_php": 32518,
+      "configuration_id": "device_97f548edfe54b5-8gb-128gb-ph",
+      "configuration_match": "exact_model_and_memory_title_condition_not_stated_stale_page_snapshot",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "stale_marketplace_offer_candidate",
+      "source_published_at": null,
+      "excerpt": "LahatDito listing title says OPPO Reno6 5G 8+128 GB and showed PHP 32,518 / in-stock text / 300 available, but the page snapshot was last crawled about 10 months before review. Item condition, seller authorization, and current orderability are unverified.",
+      "source_url": "https://www.lahatdito.com.ph/product/Oppo-Reno6-Smartphone--5G-8128GB-x2lQ7",
+      "source_kind": "stale_marketplace_price_candidate_not_verified",
+      "observed_at": "2026-11-26T16:19:50+08:00",
+      "local_availability_verified": false,
+      "availability_status": "stale_snapshot_condition_and_current_stock_unverified"
+    }
+  ]
+}

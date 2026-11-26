@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T16:06:34+08:00
+Updated: 2026-11-26T16:26:04+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-26T16:06:34+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 562 |
-| Models with manually verified source fields | 300 |
-| Configurations with manually verified source fields | 409 |
+| Models with manually verified source fields | 301 |
+| Configurations with manually verified source fields | 410 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 2 |
 | Specification-complete models | 0 |
 | Incomplete models | 454 |
 | Applicable field assignments | 26243 |
-| Fields assessed | 12390 |
-| Verified fields | 11877 |
-| Pending fields | 13853 |
+| Fields assessed | 12435 |
+| Verified fields | 11915 |
+| Pending fields | 13808 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -41,7 +41,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2021 | smartphones | Lenovo | 2 | 0 | 2 | 0 | 0 | 2 | 57 | 57 | 35 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Motorola | 3 | 2 | 3 | 0 | 2 | 1 | 121 | 108 | 17 | 1 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Nokia | 4 | 0 | 4 | 0 | 0 | 4 | 107 | 107 | 77 | 4 | 4 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
-| 2021 | smartphones | OPPO | 3 | 1 | 3 | 0 | 0 | 3 | 73 | 66 | 65 | 1 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | smartphones | OPPO | 3 | 2 | 3 | 0 | 0 | 3 | 118 | 104 | 20 | 1 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | OnePlus | 3 | 1 | 3 | 0 | 0 | 3 | 151 | 142 | 33 | 2 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | POCO | 3 | 0 | 3 | 0 | 0 | 3 | 81 | 81 | 57 | 3 | 3 | 0 | 0 | 1 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Redmi | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 92 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
@@ -230,7 +230,7 @@ The table counts the existing records and this run's review state; it does not m
 ## Current blockers and next actions
 
 1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.
-2. Review the 5883 source-derived field observations and 427 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
+2. Review the 5883 source-derived field observations and 428 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
 3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover 18/18 laptop models and 22 exact configurations.
 4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.
 5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.

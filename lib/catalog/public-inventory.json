@@ -19771,47 +19771,210 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "OPPO",
-    "model": "Reno6",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
+    "model": "Reno6 5G",
+    "manufacturer": "OPPO",
+    "productLine": "OPPO Reno6 5G",
+    "modelNumber": "CPH2251",
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2021-08-28",
+    "philippineDateLabel": "Official Philippine availability start date",
+    "philippineReleaseYear": 2021,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Reno6 5G (CPH2251) matched; storage expansion, global date, current price, and image reuse unresolved.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "OPPO Philippines announced Reno6 5G separately from Reno6 Z 5G and stated local availability beginning August 28, 2021. The NTC GEC list identifies CPH2251 as OPPO Reno6 5G. The workbook's unsuffixed Reno6 row is matched to CPH2251 Reno6 5G using this local evidence; Reno6 Z 5G (CPH2237) is not merged.",
+    "availabilityStatus": "OPPO Philippines announced the Reno6 5G for official Philippine availability beginning August 28, 2021; the NTC lists CPH2251 as Reno6 5G. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Matched to OPPO Reno6 5G (CPH2251), separate from Reno6 Z 5G (CPH2237). Philippine configuration: 8 GB / 128 GB; scope remains Pending. Current price, global release date, storage expansion, and image reuse remain unresolved.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Workbook label is unsuffixed Reno6",
+        "action": "Display as Reno6 5G (CPH2251), supported by OPPO Philippines and NTC; keep Reno6 Z 5G (CPH2237) separate."
+      },
+      {
+        "issue": "Global release date differs between GSMArena and Kimovil and the manufacturer does not state an exact global date",
+        "action": "Leave the exact global release date blank and preserve both secondary source statements."
+      },
+      {
+        "issue": "OPPO says external memory is not supported; a YugaTech hands-on describes a microSD card tray",
+        "action": "Keep expandable-storage status unresolved until the Philippines CPH2251 configuration is confirmed."
+      },
+      {
+        "issue": "LahatDito price page was last crawled about 10 months before review; current offer, condition, and seller authorization are unconfirmed",
+        "action": "Retain PHP 32,518 as a stale candidate only; do not show a catalog current price."
+      },
+      {
+        "issue": "Exact product images appear on OPPO's page without a reusable license",
+        "action": "Use the neutral placeholder unless documented image-use permission is established."
+      },
+      {
+        "issue": "Workbook scope/eligibility remains Pending",
+        "action": "Preserve Pending and follow the existing study eligibility rules."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "OPPO Philippines",
+        "url": "https://www.oppo.com/ph/newsroom/press/oppo-reno6-launch/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-06",
+        "purpose": "Official Philippine launch, configuration, color, availability, and launch price evidence",
+        "note": "OPPO's local announcement separates Reno6 5G from Reno6 Z 5G, states the 5G model's PHP 26,999 price and 8 GB / 128 GB configuration, and says it would be available from August 28, 2021. It names Aurora and Stellar Black as colors. The release also identifies the Dimensity 900, 4,300 mAh battery, and 65 W SuperVOOC 2.0."
+      },
+      {
+        "organization": "OPPO Global",
+        "url": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact model-code and manufacturer specifications for Reno6 5G CPH2251",
+        "note": "OPPO identifies this specification page as Reno6 5G (CPH2251), with 8 GB / 128 GB, LPDDR4X, display, camera/video, chipset, battery, connectivity, OS, sensors, and dimensions. It says external memory is not supported. Its listed image assets are reference images; no reuse license is stated."
+      },
+      {
+        "organization": "OPPO Global",
+        "url": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official exact-model product imagery reference and product overview",
+        "note": "The product page is for OPPO Reno6 5G. It depicts the exact model, but its product imagery is not accompanied by a reusable image license or permission statement."
+      },
+      {
+        "organization": "National Telecommunications Commission (NTC), Philippines",
+        "url": "https://www.ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/GEC-2009-2021-Updated-.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine equipment-conformity record for model CPH2251",
+        "note": "The NTC GEC table lists OPPO CPH2251 with marketing name OPPO Reno6 5G; the grant was issued July 6, 2021 to Emerald Wireless Tech Inc. The same table separately lists CPH2237 as Reno6 Z 5G, which is not merged into this record."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/oppo-reno6-6z-5g-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-06",
+        "purpose": "Contemporaneous Philippine launch configuration, price, availability, and spec cross-check",
+        "note": "The Philippine launch report identifies Reno6 5G (8 GB / 128 GB) at PHP 26,999, with availability scheduled for August 28, 2021. It distinguishes the Reno6 Z 5G and gives local device details. It does not establish a present-day price."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/oppo-reno6-5g-specs-price-hands-on-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-07-27",
+        "purpose": "Independent exact-model technical cross-check and storage-expansion discrepancy",
+        "note": "The hands-on identifies the Reno6 5G and lists core specifications. In one passage it describes a tray for two SIMs and microSD, conflicting with OPPO's exact CPH2251 specification that says external memory is not supported. The conflict is retained. Its pre-launch global configuration list is not treated as evidence of additional Philippine configurations."
+      },
+      {
+        "organization": "ManilaShaker Philippines",
+        "url": "https://manilashaker.com/oppo-reno6-5g-now-officially-available-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-08-27",
+        "purpose": "Independent local availability and technical cross-check",
+        "note": "Published August 27, 2021, it reports Philippine availability beginning August 28 and PHP 26,999 for Reno6 5G. It corroborates 8 GB / 128 GB and several specifications. Its text says Mali-G78 MC4; OPPO's model-specific page and MediaTek's chipset documentation identify Mali-G68 MC4, so the latter is retained and the secondary typo is documented."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://www.mediatek.com/products/laptops-and-tablets/tablets/mediatek-dimensity-900",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Dimensity 900 CPU, GPU, process-node, and platform evidence",
+        "note": "MediaTek specifies TSMC 6 nm, two Cortex-A78 cores up to 2.4 GHz, six Cortex-A55 cores up to 2 GHz, and Mali-G68 MC4. These are chipset-family specifications; OPPO identifies Dimensity 900 in CPH2251."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/oppo_reno6_5g-10932.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary exact-model release-date and specification cross-check",
+        "note": "GSMArena's exact Reno6 5G record (phone ID 10932) search result reports release on June 11, 2021. A direct page fetch returned HTTP 402 during review, so no additional values were extracted from the page."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-oppo-reno-6-in",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary model alias, configuration, and release-month cross-check",
+        "note": "Kimovil lists CPH2251 / Reno6 5G as an alias and gives a May 2021 release month, while its configuration section separates China and International entries. Because that month does not match GSMArena's June 11 release date and the page groups region variants, it is not used to assign one exact global release date."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/en/soc/mediatek-dimensity-900",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Secondary Dimensity 900 architecture cross-check",
+        "note": "NanoReview independently lists the chipset's 6 nm process and 2x Cortex-A78 / 6x Cortex-A55 layout. Benchmark scores and device-performance ratings are not copied into DeviceIQ."
+      },
+      {
+        "organization": "LahatDito Philippines marketplace / Gadget Shop",
+        "url": "https://www.lahatdito.com.ph/product/Oppo-Reno6-Smartphone--5G-8128GB-x2lQ7",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact title/configuration current-price candidate review",
+        "note": "The marketplace page title says Reno6 5G 8+128 GB and displays PHP 32,518, in-stock text, and 300 available units. The search/browser snapshot was last crawled about 10 months before this review; seller authorization, current orderability, and item condition were not independently confirmed. The amount is retained as a stale candidate, not a current catalog price."
+      }
+    ],
     "variants": [
       {
-        "id": "device_97f548edfe54b5-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_97f548edfe54b5-8gb-128gb-ph",
+        "label": "8 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.4,
+          "displayType": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshHz": 90,
+          "chipset": "MediaTek Dimensity 900",
+          "cpu": "8-core: 2x Cortex-A78 up to 2.4 GHz + 6x Cortex-A55 up to 2.0 GHz",
+          "gpu": "Arm Mali-G68 MC4",
+          "os": "ColorOS 11.3 (Android 11)",
+          "ramGb": 8,
+          "ramType": "LPDDR4X",
+          "storageGb": 128,
+          "rearCameraMp": 64,
+          "frontCameraMp": 32,
+          "video": "Rear 4K30, 1080p30/60, 720p30/60; front 1080p/720p30",
+          "batteryMah": 4300,
+          "chargingW": 65,
+          "dimensions": "156.8 x 72.1 x 7.59 mm",
+          "weightG": 182,
+          "sim": "Dual Nano-SIM; eSIM not disclosed",
+          "cellular": "2G/3G/4G/5G bands as listed by OPPO for CPH2251",
+          "wifi": "Wi-Fi 6 (802.11ax), dual-band",
+          "ports": "USB Type-C (USB 2.0, OTG); Type-C audio"
+        },
+        "specSources": {
+          "displayInches": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "displayType": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "resolution": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "refreshHz": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "chipset": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "cpu": "https://www.mediatek.com/products/laptops-and-tablets/tablets/mediatek-dimensity-900",
+          "gpu": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "os": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "ramGb": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "ramType": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "storageGb": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "rearCameraMp": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "frontCameraMp": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "video": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "batteryMah": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "chargingW": "https://www.oppo.com/ph/newsroom/press/oppo-reno6-launch/",
+          "dimensions": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "weightG": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "sim": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "cellular": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "wifi": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/",
+          "ports": "https://www.oppo.com/en/smartphones/series-reno/reno6-5g/specs/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine OPPO Reno6 5G configuration. Available colors: Aurora and Stellar Black.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "CPH2251",
         "workbookRow": null
       }
     ],

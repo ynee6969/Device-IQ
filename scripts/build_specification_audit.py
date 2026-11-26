@@ -486,7 +486,7 @@ def main():
                         candidate_evidence = [*candidate_evidence, {
                             "value": clean(manual_field.get("normalizedValue")),
                             "unit": manual_field.get("unit"), "source_url": manual_source["url"],
-                            "source_kind": manual_source.get("sourceKind", "official"), "observed_at": manual_source.get("accessDate"),
+                            "source_kind": manual_source.get("sourceKind", "unclassified_manual_review"), "observed_at": manual_source.get("accessDate"),
                             "excerpt": clean(manual_field.get("sourceValue")),
                             "configuration_match": manual_field.get("configurationMatch", "model-level candidate needs configuration review"),
                             "review_status": STATUS_PENDING,
