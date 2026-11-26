@@ -1,0 +1,182 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_504422c5fc36f4",
+      "brand": "REDMAGIC",
+      "model_name": "8 Pro",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://eu.redmagic.gg/pages/redmagic-8-pro-specs",
+      "result": "Manufacturer global specs confirm Matte 12/256 and Void 16/512, hardware, cameras, battery, connectivity and sensors."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://global.redmagic.gg/blogs/news/the-redmagic-8-pro-is-almost-here",
+      "result": "Official global announcement dated 16 January 2023; sale date given as 2 February."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+      "result": "Philippine launch coverage dated 21 February identifies local channels, both configs and local prices; values conflict with other PH sources."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+      "result": "Philippine launch article corroborates 12/256 and 16/512, records different local price values and calls the 2 MP module macro."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://www.yugatech.com/news/redmagic-8-pro-now-available-in-the-philippines/",
+      "result": "YugaTech reports Digital Walker availability and both configurations/colors in August 2023; historical price observations retained."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://www.gizguide.com/2023/08/redmagic-8-pro-digital-walker.html",
+      "result": "GizGuide reports Digital Walker availability, Titanium 16/512, prices, and a camera module label; its RAM specification summary contains a typo."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://www.gsmarena.com/nubia_red_magic_8_pro-review-2520.php",
+      "result": "Exact international 12/256 review cross-checks hardware, but differs from manufacturer page on body depth; the dimensions field is withheld."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://nanoreview.net/en/phone/zte-nubia-red-magic-8-pro",
+      "result": "Chipset CPU/GPU, process, battery and general hardware cross-check; not used as PH configuration proof."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-nubia-Red-Magic-8-Pro",
+      "result": "Global 12/256 and 16/512 are listed separately from China-market 8 GB and Pro+ configurations."
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "source_url": "https://manuals.plus/m/6fff331b1f28c822c826e465c7bd3d6ef4651ab7c5a014167ad6df113f2039c7_optim.pdf",
+      "result": "Manufacturer-authored user guide copy identifies international model NX729J; no Philippine NTC record tying this code to the local unit found."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_504422c5fc36f4",
+      "amount_php": 42999,
+      "configuration_id": "device_504422c5fc36f4-ph-12gb-256gb-matte",
+      "configuration_match": "exact_philippine_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_or_retail_price",
+      "source_published_at": "2023-02-21",
+      "excerpt": "Technobaboy reports PHP 42,999 for the 12/256 model at Philippine launch.",
+      "source_url": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "amount_php": 43990,
+      "configuration_id": "device_504422c5fc36f4-ph-12gb-256gb-matte",
+      "configuration_match": "exact_philippine_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_or_retail_price",
+      "source_published_at": "2023-02-21",
+      "excerpt": "UNBOX PH reports PHP 43,990 official local price for 12/256.",
+      "source_url": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "amount_php": 42999,
+      "configuration_id": "device_504422c5fc36f4-ph-12gb-256gb-matte",
+      "configuration_match": "exact_philippine_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_or_retail_price",
+      "source_published_at": "2023-08-26",
+      "excerpt": "YugaTech reports the 12/256 Matte at PHP 42,999 through Digital Walker.",
+      "source_url": "https://www.yugatech.com/news/redmagic-8-pro-now-available-in-the-philippines/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "amount_php": 42999,
+      "configuration_id": "device_504422c5fc36f4-ph-12gb-256gb-matte",
+      "configuration_match": "exact_philippine_configuration",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_or_retail_price",
+      "source_published_at": "2023-08-23",
+      "excerpt": "GizGuide reports the 12/256 Matte at PHP 42,999 through Digital Walker.",
+      "source_url": "https://www.gizguide.com/2023/08/redmagic-8-pro-digital-walker.html",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "amount_php": 53990,
+      "configuration_id": "device_504422c5fc36f4-ph-16gb-512gb-void",
+      "configuration_match": "exact_philippine_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_or_retail_price",
+      "source_published_at": "2023-02-21",
+      "excerpt": "UNBOX PH reports PHP 53,990 official local price for 16/512.",
+      "source_url": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "amount_php": 53999,
+      "configuration_id": "device_504422c5fc36f4-ph-16gb-512gb-void",
+      "configuration_match": "exact_philippine_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_or_retail_price",
+      "source_published_at": "2023-08-26",
+      "excerpt": "YugaTech reports the 16/512 Void/Titanium at PHP 53,999 through Digital Walker.",
+      "source_url": "https://www.yugatech.com/news/redmagic-8-pro-now-available-in-the-philippines/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_504422c5fc36f4",
+      "amount_php": 53999,
+      "configuration_id": "device_504422c5fc36f4-ph-16gb-512gb-void",
+      "configuration_match": "exact_philippine_configuration",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_or_retail_price",
+      "source_published_at": "2023-08-23",
+      "excerpt": "GizGuide reports the 16/512 Titanium at PHP 53,999 through Digital Walker.",
+      "source_url": "https://www.gizguide.com/2023/08/redmagic-8-pro-digital-walker.html",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    }
+  ]
+}

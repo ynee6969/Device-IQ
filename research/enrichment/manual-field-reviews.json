@@ -168356,6 +168356,1250 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_504422c5fc36f4",
+      "configurationId": "device_504422c5fc36f4-ph-12gb-256gb-matte",
+      "brand": "REDMAGIC",
+      "model": "8 Pro",
+      "configuration": "12 GB RAM / 256 GB storage · Matte",
+      "configurationLabel": "12 GB RAM / 256 GB storage · Matte",
+      "sources": [
+        {
+          "id": "redmagic8_global_specs",
+          "publisher": "REDMAGIC (manufacturer)",
+          "url": "https://eu.redmagic.gg/pages/redmagic-8-pro-specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications for REDMAGIC 8 Pro global model",
+          "note": "The manufacturer page lists the global Matte 12/256 and Void 16/512 configurations, dimensions, display, Snapdragon platform, memory, cameras, battery, network bands, connectivity and sensors. Regional Philippine radio approval is not established by this page."
+        },
+        {
+          "id": "redmagic8_global_announcement",
+          "publisher": "REDMAGIC (manufacturer)",
+          "url": "https://global.redmagic.gg/blogs/news/the-redmagic-8-pro-is-almost-here",
+          "publicationDate": "2023-01-16",
+          "accessDate": "2026-11-26",
+          "purpose": "Global announcement date and global configuration naming",
+          "note": "REDMAGIC's global article dated 16 January 2023 previews the device and states that it would go on sale on 2 February 2023. The article distinguishes Matte 12/256 from Void 16/512."
+        },
+        {
+          "id": "redmagic8_global_sale",
+          "publisher": "REDMAGIC (manufacturer)",
+          "url": "https://global.redmagic.gg/blogs/news/the-redmagic-8-pro-a-gaming-revolution",
+          "publicationDate": "2023-02-02",
+          "accessDate": "2026-11-26",
+          "purpose": "First global sale date and international configuration cross-check",
+          "note": "Manufacturer's global launch article says sales began 2 February 2023; Matte is 12/256 and Void is 16/512. Global USD prices are not treated as Philippine prices."
+        },
+        {
+          "id": "redmagic8_user_guide",
+          "publisher": "Nubia Technology manufacturer user guide (copy hosted by Manuals.plus)",
+          "url": "https://manuals.plus/m/6fff331b1f28c822c826e465c7bd3d6ef4651ab7c5a014167ad6df113f2039c7_optim.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer-authored regulatory guide for global model code",
+          "note": "The guide identifies radio model NX729J and hardware version NX729J_V1AMB. This supports the international model code only; it is not an NTC Philippines certification or proof of the exact code on a local retail unit."
+        },
+        {
+          "id": "redmagic8_ph_unbox",
+          "publisher": "UNBOX PH",
+          "url": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+          "publicationDate": "2023-02-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine official-launch coverage, configurations and local prices",
+          "note": "Published 21 February 2023. Reports official Philippine availability through local channels and prices of PHP 43,990 for 12/256 and PHP 53,990 for 16/512. These conflict slightly with other local reports and are retained as dated historical price observations, not current prices."
+        },
+        {
+          "id": "redmagic8_ph_technobaboy",
+          "publisher": "Technobaboy Philippines",
+          "url": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+          "publicationDate": "2023-02-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch, hardware and price cross-check",
+          "note": "Published 21 February 2023. Reports local launch, 12/256 and 16/512 configurations and prices of PHP 42,999 and PHP 53,999. The 2 MP rear module is described as macro, unlike UNBOX PH's depth description."
+        },
+        {
+          "id": "redmagic8_ph_yugatech",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/redmagic-8-pro-now-available-in-the-philippines/",
+          "publicationDate": "2023-08-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Local retail availability at Digital Walker, exact configurations and prices",
+          "note": "Published 26 August 2023. Reports the phone available at Digital Walker, 12/256 Matte at PHP 42,999, and 16/512 Void/Titanium at PHP 53,999. The price is a historical local retail report, not a current offer."
+        },
+        {
+          "id": "redmagic8_ph_gizguide",
+          "publisher": "GizGuide Philippines",
+          "url": "https://www.gizguide.com/2023/08/redmagic-8-pro-digital-walker.html",
+          "publicationDate": "2023-08-23",
+          "accessDate": "2026-11-26",
+          "purpose": "Digital Walker availability, local Titanium configuration and pricing cross-check",
+          "note": "Published 23 August 2023. Reports Digital Walker availability, 12/256 Matte at PHP 42,999 and 16/512 Titanium at PHP 53,999. Its spec summary has a conflicting RAM typo; configuration matching follows the local price/availability statements and manufacturer configuration table."
+        },
+        {
+          "id": "redmagic8_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/nubia_red_magic_8_pro-review-2520.php",
+          "publicationDate": "2023-01-16",
+          "accessDate": "2026-11-26",
+          "purpose": "International 12/256 review configuration and independent hardware cross-check",
+          "note": "GSMArena's 16 January 2023 review unit is the international Matte 12/256, 6000 mAh, 65 W version. Its global review supports CPU, display, camera, audio, connectivity and no microSD, but does not establish Philippine price or local regulatory status."
+        },
+        {
+          "id": "redmagic8_nanoreview",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/phone/zte-nubia-red-magic-8-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent chipset and technical cross-check",
+          "note": "Exact-model profile cross-checks Snapdragon 8 Gen 2, 4 nm process, CPU/GPU architecture, display, battery and network data. The default profile shows another memory variant; its RAM/storage selection is not used as Philippine SKU evidence."
+        },
+        {
+          "id": "redmagic8_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-nubia-Red-Magic-8-Pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Global configuration comparison only",
+          "note": "Kimovil lists global 12/256 and 16/512 separately from China-market 8/128, 8/256 and other 165 W variants. Used only to guard against mixing Chinese Pro/Pro+ specifications into the international Philippine configurations."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_user_guide",
+          "sourceValue": "Manufacturer-authored guide lists REDMAGIC 8 Pro radio model NX729J (hardware NX729J_V1AMB); Philippine NTC listing for this model was not located.",
+          "normalizedValue": "NX729J",
+          "note": "NX729J is the manufacturer global model code; do not treat this as confirmation of a Philippine NTC certificate or local box SKU."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_sale",
+          "sourceValue": "REDMAGIC says global sale began 2 February 2023; product introduction was announced 16 January 2023.",
+          "normalizedValue": "2023-02-02",
+          "note": "Records the first global sale date; the 16 January announcement is preserved separately in source notes."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "12 GB RAM / 256 GB storage · Matte",
+          "normalizedValue": "12 GB RAM / 256 GB storage · Matte"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_ph_unbox",
+          "sourceValue": "Philippine official launch reported 21 February 2023; Digital Walker store availability was reported in August 2023.",
+          "normalizedValue": "2023-02-21",
+          "note": "The date is the earliest corroborated Philippine official launch report, not an exact first-sale transaction."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic8_ph_unbox",
+          "sourceValue": "Local launch sources conflict: Technobaboy reports PHP 42,999 for the 12/256 model at Philippine launch.; UNBOX PH reports PHP 43,990 official local price for 12/256.; YugaTech reports the 12/256 Matte at PHP 42,999 through Digital Walker.; GizGuide reports the 12/256 Matte at PHP 42,999 through Digital Walker.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Do not select a single launch SRP while contemporaneous Philippine sources report different values.",
+          "candidateEvidence": [
+            {
+              "value": "PHP 42,999",
+              "sourceUrl": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Technobaboy reports PHP 42,999 for the 12/256 model at Philippine launch.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "PHP 43,990",
+              "sourceUrl": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "UNBOX PH reports PHP 43,990 official local price for 12/256.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmagic8_ph_yugatech",
+          "sourceValue": "Reviewed evidence is historical; no dated, orderable Philippine offer for this exact configuration was verified on 26 November 2026.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current catalog price blank; retain historical price observations by source and date.",
+          "candidateEvidence": [
+            {
+              "value": "Technobaboy reports PHP 42,999 for the 12/256 model at Philippine launch.",
+              "sourceUrl": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+              "sourceKind": "historical_local_price",
+              "observedAt": "2026-11-26",
+              "excerpt": "Technobaboy reports PHP 42,999 for the 12/256 model at Philippine launch.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "UNBOX PH reports PHP 43,990 official local price for 12/256.",
+              "sourceUrl": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+              "sourceKind": "historical_local_price",
+              "observedAt": "2026-11-26",
+              "excerpt": "UNBOX PH reports PHP 43,990 official local price for 12/256.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "YugaTech reports the 12/256 Matte at PHP 42,999 through Digital Walker.",
+              "sourceUrl": "https://www.yugatech.com/news/redmagic-8-pro-now-available-in-the-philippines/",
+              "sourceKind": "historical_local_price",
+              "observedAt": "2026-11-26",
+              "excerpt": "YugaTech reports the 12/256 Matte at PHP 42,999 through Digital Walker.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "GizGuide reports the 12/256 Matte at PHP 42,999 through Digital Walker.",
+              "sourceUrl": "https://www.gizguide.com/2023/08/redmagic-8-pro-digital-walker.html",
+              "sourceKind": "historical_local_price",
+              "observedAt": "2026-11-26",
+              "excerpt": "GizGuide reports the 12/256 Matte at PHP 42,999 through Digital Walker.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "6.8 inches",
+          "normalizedValue": 6.8,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.8,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "1116 x 2480 pixels",
+          "normalizedValue": "1116 x 2480",
+          "catalogKey": "resolution",
+          "catalogValue": "1116 x 2480"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Up to 120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "1300 nits maximum brightness",
+          "normalizedValue": 1300,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Corning Gorilla Glass; NanoReview identifies Gorilla Glass 5",
+          "normalizedValue": "Corning Gorilla Glass 5"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 2",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Snapdragon 8 Gen 2 fabricated on TSMC 4 nm process",
+          "normalizedValue": 4,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Octa-core: 1x Cortex-X3 up to 3.2 GHz + 2x Cortex-A715 up to 2.8 GHz + 2x Cortex-A710 up to 2.8 GHz + 3x Cortex-A510 up to 2.0 GHz",
+          "normalizedValue": "1x Cortex-X3 3.2 GHz + 2x Cortex-A715 2.8 GHz + 2x Cortex-A710 2.8 GHz + 3x Cortex-A510 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Adreno GPU; exact model Adreno 740 cross-checked by GSMArena",
+          "normalizedValue": "Adreno 740",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 740"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "REDMAGIC OS 6.0 based on Android 13",
+          "normalizedValue": "Android 13 with REDMAGIC OS 6.0",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 with REDMAGIC OS 6.0"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "No guaranteed OS-upgrade or security-update duration stated in reviewed manufacturer materials; official update log exists.",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "12 GB LPDDR5X RAM in the 12 GB RAM / 256 GB storage · Matte global configuration",
+          "normalizedValue": 12,
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR5X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "256 GB UFS 4.0 storage in the 12 GB RAM / 256 GB storage · Matte global configuration",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "UFS 4.0",
+          "normalizedValue": "UFS 4.0",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 4.0"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_gsmarena",
+          "sourceValue": "No microSD card slot",
+          "normalizedValue": "No microSD slot"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "50 MP + 8 MP + 2 MP rear camera system. The manufacturer page gives resolutions; local reports disagree whether the 2 MP module is macro or depth.",
+          "normalizedValue": "50 MP main + 8 MP ultra-wide + 2 MP module; module role unresolved",
+          "note": "Resolution/count are supported by the manufacturer; the final module role is deliberately not assigned because Philippine sources conflict.",
+          "candidateEvidence": [
+            {
+              "value": "2 MP macro module reported",
+              "sourceUrl": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Technobaboy describes the 2 MP rear camera as macro.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "2 MP depth sensor reported",
+              "sourceUrl": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "UNBOX PH describes the 2 MP rear camera as a depth sensor.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "50 MP Samsung GN5, 1/1.57-inch sensor, f/1.88",
+          "normalizedValue": "50 MP Samsung GN5; 1/1.57 in; f/1.88"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "8 MP ultra-wide camera, 120-degree field of view, f/2.2",
+          "normalizedValue": "8 MP; 120 degrees; f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Manufacturer lists a three-module 50/8/2 MP rear array and no telephoto camera",
+          "normalizedValue": "No telephoto module listed"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "16 MP second-generation under-display camera",
+          "normalizedValue": 16,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Rear: up to 8K/30, 4K/30 or 60, 1080p/30 or 60, 720p/30; front: 1080p/30 or 60 reported by GSMArena",
+          "normalizedValue": "Rear up to 8K/30; 4K/60; 1080p/60. Front 1080p/60",
+          "catalogKey": "video",
+          "catalogValue": "Rear up to 8K/30; 4K/60; 1080p/60. Front 1080p/60"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "6000 mAh dual-cell battery",
+          "normalizedValue": 6000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Lithium-polymer (Li-Po); non-removable",
+          "normalizedValue": "Li-Po; non-removable"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "65 W quick charging for global version",
+          "normalizedValue": 65,
+          "catalogKey": "chargingW",
+          "catalogValue": 65,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Wireless charging: No",
+          "normalizedValue": "No wireless charging"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Manufacturer lists 163.98 x 76.35 x 9.47 mm; GSMArena lists 164.0 x 76.4 x 8.9 mm.",
+          "normalizedValue": null,
+          "unit": "mm",
+          "note": "The recorded depth conflicts materially between the manufacturer and GSMArena international review; withhold dimensions pending resolution.",
+          "candidateEvidence": [
+            {
+              "value": "9.47 mm",
+              "sourceUrl": "https://eu.redmagic.gg/pages/redmagic-8-pro-specs",
+              "sourceKind": "manufacturer_global",
+              "observedAt": "2026-11-26",
+              "excerpt": "Manufacturer specification table lists 163.98 x 76.35 x 9.47 mm.",
+              "configurationMatch": "12 GB RAM / 256 GB storage · Matte",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "8.9 mm",
+              "sourceUrl": "https://www.gsmarena.com/nubia_red_magic_8_pro-review-2520.php",
+              "sourceKind": "independent_global_review",
+              "observedAt": "2026-11-26",
+              "excerpt": "GSMArena lists 164.0 x 76.4 x 8.9 mm for the international 12/256 review unit.",
+              "configurationMatch": "international Matte 12 GB / 256 GB",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "228 g",
+          "normalizedValue": 228,
+          "catalogKey": "weightG",
+          "catalogValue": 228,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Metal middle frame and glass rear cover",
+          "normalizedValue": "Metal frame; glass rear"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_gsmarena",
+          "sourceValue": "No ingress-protection rating listed for this model",
+          "normalizedValue": "No IP rating listed"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Dual nano-SIM; eSIM is not listed by the manufacturer",
+          "normalizedValue": "Dual nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Global page: 2G GSM 2/3/5/8; 3G WCDMA 1/2/4/5/6/8/19; LTE FDD 1/2/3/4/5/7/8/12/17/18/19/20/26/28A/28B/66 and TDD 34/38/39/40/41; 5G SA/NSA bands listed by manufacturer. Philippine SKU-specific band approval not confirmed.",
+          "normalizedValue": "5G SA/NSA; global bands per manufacturer; Philippine SKU-specific compatibility not confirmed",
+          "catalogKey": "cellular",
+          "catalogValue": "5G SA/NSA; global bands per manufacturer; Philippine SKU-specific compatibility not confirmed"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Wi-Fi 7 802.11b/g/n/ac/ax/be, tri-band 2.4/5/6 GHz",
+          "normalizedValue": "Wi-Fi 7; tri-band 2.4/5/6 GHz",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 7; tri-band 2.4/5/6 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "USB 3.1 Type-C with DisplayPort output; converter required for HDMI",
+          "normalizedValue": "USB Type-C 3.1; DisplayPort output",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C 3.1; DisplayPort output"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "NFC: Yes",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "GPS and AGPS listed by manufacturer; GSMArena also lists GLONASS, BDS, Galileo and QZSS",
+          "normalizedValue": "GPS; AGPS; additional GNSS not specified in manufacturer page",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS; AGPS; additional GNSS not specified in manufacturer page"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_gsmarena",
+          "sourceValue": "Stereo speakers and 3.5 mm headphone jack",
+          "normalizedValue": "Stereo speakers; 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; 3.5 mm jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Under-display fingerprint, G-sensor, electronic compass, gyroscope, proximity, ambient-light sensor and sensor hub",
+          "normalizedValue": "Under-display fingerprint; accelerometer; compass; gyroscope; proximity; ambient light; sensor hub"
+        }
+      ],
+      "modelCode": "NX729J",
+      "replacementVariants": [
+        {
+          "id": "device_504422c5fc36f4-ph-12gb-256gb-matte",
+          "label": "12 GB RAM / 256 GB storage · Matte",
+          "sku": null,
+          "modelCode": "NX729J",
+          "notes": "International Matte configuration; Philippine launch sources verify this local memory/storage configuration. Local price reports conflict; current price not verified."
+        },
+        {
+          "id": "device_504422c5fc36f4-ph-16gb-512gb-void",
+          "label": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+          "sku": null,
+          "modelCode": "NX729J",
+          "notes": "International Void configuration; Philippine retail reports also identify a Titanium 16/512 version. Local price reports conflict; current price not verified."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+        "availabilityStatus": "Philippine launch coverage dated 21 February 2023 identifies the REDMAGIC 8 Pro as officially available through local channels. Digital Walker retail availability was separately reported in August 2023. Current stock and price are not verified.",
+        "philippineAvailability": "UNBOX PH and Philippine technology outlets reported the REDMAGIC 8 Pro as officially launched in the Philippines on 21 February 2023. Later YugaTech and GizGuide reporting identified Digital Walker retail availability. The local 12/256 Matte and 16/512 Void/Titanium configurations match the international REDMAGIC 8 Pro, not the China-market 8/128 or Pro+ variants. Local launch-price reports conflict and are preserved as historical observations. The NX729J model code is supported by the global manufacturer user guide, but a Philippine NTC record tying it to a local unit was not located.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "ZTE nubia (REDMAGIC)",
+        "catalogModel": "8 Pro",
+        "productLine": "REDMAGIC 8 series",
+        "modelNumber": "NX729J",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Philippine official launch reported 21 February 2023; Digital Walker retail availability reported in August 2023",
+        "researchNotes": "Workbook row 160 REDMAGIC 8 Pro matches the global model sold through Philippine local channels in two exact configurations: Matte 12 GB / 256 GB and Void 16 GB / 512 GB; later Philippine retailer reports also mention a Titanium 16/512 option. The global model was announced 16 January 2023 and global sale began 2 February. Philippine launch coverage is dated 21 February. Local reports disagree on launch prices (PHP 42,999 vs PHP 43,990 for 12/256; PHP 53,999 vs PHP 53,990 for 16/512) and on whether the 2 MP rear module is macro or depth. Manufacturer and GSMArena dimensions disagree on depth; dimensions withheld. Current local price is not verified. Manufacturer guide identifies global code NX729J, but Philippine NTC registration of this specific model was not located. Image reuse rights were not established. Workbook study scope remains Pending.",
+        "qualityFlag": "Philippine official launch verified; exact 12/256 Matte and 16/512 Void/Titanium configurations supported. Historical local prices and 2 MP camera role conflict; body depth conflicts; current price and Philippine NTC linkage unverified; image reuse rights not established; study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Philippine launch reports conflict on local price for both configurations",
+            "action": "Retain source-specific dated historical price candidates and leave current catalog price blank."
+          },
+          {
+            "issue": "Local sources call the 2 MP camera module macro or depth",
+            "action": "Keep its role unresolved while retaining manufacturer-confirmed rear camera resolutions."
+          },
+          {
+            "issue": "Manufacturer and GSMArena list different body depth",
+            "action": "Leave the catalog dimensions blank until an exact-unit or region-specific source resolves the conflict."
+          },
+          {
+            "issue": "NX729J is a global manufacturer code; a Philippine NTC record tied to this device was not found",
+            "action": "Do not claim Philippine type approval or local box-code confirmation."
+          },
+          {
+            "issue": "Manufacturer product imagery is visible but no reuse license or written permission was found",
+            "action": "Retain the neutral placeholder and exact-model image source-page metadata."
+          },
+          {
+            "issue": "Workbook study scope is Pending",
+            "action": "Preserve the supplied scope status; availability verification does not change eligibility."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_504422c5fc36f4",
+      "configurationId": "device_504422c5fc36f4-ph-16gb-512gb-void",
+      "brand": "REDMAGIC",
+      "model": "8 Pro",
+      "configuration": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+      "configurationLabel": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+      "sources": [
+        {
+          "id": "redmagic8_global_specs",
+          "publisher": "REDMAGIC (manufacturer)",
+          "url": "https://eu.redmagic.gg/pages/redmagic-8-pro-specs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications for REDMAGIC 8 Pro global model",
+          "note": "The manufacturer page lists the global Matte 12/256 and Void 16/512 configurations, dimensions, display, Snapdragon platform, memory, cameras, battery, network bands, connectivity and sensors. Regional Philippine radio approval is not established by this page."
+        },
+        {
+          "id": "redmagic8_global_announcement",
+          "publisher": "REDMAGIC (manufacturer)",
+          "url": "https://global.redmagic.gg/blogs/news/the-redmagic-8-pro-is-almost-here",
+          "publicationDate": "2023-01-16",
+          "accessDate": "2026-11-26",
+          "purpose": "Global announcement date and global configuration naming",
+          "note": "REDMAGIC's global article dated 16 January 2023 previews the device and states that it would go on sale on 2 February 2023. The article distinguishes Matte 12/256 from Void 16/512."
+        },
+        {
+          "id": "redmagic8_global_sale",
+          "publisher": "REDMAGIC (manufacturer)",
+          "url": "https://global.redmagic.gg/blogs/news/the-redmagic-8-pro-a-gaming-revolution",
+          "publicationDate": "2023-02-02",
+          "accessDate": "2026-11-26",
+          "purpose": "First global sale date and international configuration cross-check",
+          "note": "Manufacturer's global launch article says sales began 2 February 2023; Matte is 12/256 and Void is 16/512. Global USD prices are not treated as Philippine prices."
+        },
+        {
+          "id": "redmagic8_user_guide",
+          "publisher": "Nubia Technology manufacturer user guide (copy hosted by Manuals.plus)",
+          "url": "https://manuals.plus/m/6fff331b1f28c822c826e465c7bd3d6ef4651ab7c5a014167ad6df113f2039c7_optim.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer-authored regulatory guide for global model code",
+          "note": "The guide identifies radio model NX729J and hardware version NX729J_V1AMB. This supports the international model code only; it is not an NTC Philippines certification or proof of the exact code on a local retail unit."
+        },
+        {
+          "id": "redmagic8_ph_unbox",
+          "publisher": "UNBOX PH",
+          "url": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+          "publicationDate": "2023-02-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine official-launch coverage, configurations and local prices",
+          "note": "Published 21 February 2023. Reports official Philippine availability through local channels and prices of PHP 43,990 for 12/256 and PHP 53,990 for 16/512. These conflict slightly with other local reports and are retained as dated historical price observations, not current prices."
+        },
+        {
+          "id": "redmagic8_ph_technobaboy",
+          "publisher": "Technobaboy Philippines",
+          "url": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+          "publicationDate": "2023-02-21",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch, hardware and price cross-check",
+          "note": "Published 21 February 2023. Reports local launch, 12/256 and 16/512 configurations and prices of PHP 42,999 and PHP 53,999. The 2 MP rear module is described as macro, unlike UNBOX PH's depth description."
+        },
+        {
+          "id": "redmagic8_ph_yugatech",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/redmagic-8-pro-now-available-in-the-philippines/",
+          "publicationDate": "2023-08-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Local retail availability at Digital Walker, exact configurations and prices",
+          "note": "Published 26 August 2023. Reports the phone available at Digital Walker, 12/256 Matte at PHP 42,999, and 16/512 Void/Titanium at PHP 53,999. The price is a historical local retail report, not a current offer."
+        },
+        {
+          "id": "redmagic8_ph_gizguide",
+          "publisher": "GizGuide Philippines",
+          "url": "https://www.gizguide.com/2023/08/redmagic-8-pro-digital-walker.html",
+          "publicationDate": "2023-08-23",
+          "accessDate": "2026-11-26",
+          "purpose": "Digital Walker availability, local Titanium configuration and pricing cross-check",
+          "note": "Published 23 August 2023. Reports Digital Walker availability, 12/256 Matte at PHP 42,999 and 16/512 Titanium at PHP 53,999. Its spec summary has a conflicting RAM typo; configuration matching follows the local price/availability statements and manufacturer configuration table."
+        },
+        {
+          "id": "redmagic8_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/nubia_red_magic_8_pro-review-2520.php",
+          "publicationDate": "2023-01-16",
+          "accessDate": "2026-11-26",
+          "purpose": "International 12/256 review configuration and independent hardware cross-check",
+          "note": "GSMArena's 16 January 2023 review unit is the international Matte 12/256, 6000 mAh, 65 W version. Its global review supports CPU, display, camera, audio, connectivity and no microSD, but does not establish Philippine price or local regulatory status."
+        },
+        {
+          "id": "redmagic8_nanoreview",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/phone/zte-nubia-red-magic-8-pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent chipset and technical cross-check",
+          "note": "Exact-model profile cross-checks Snapdragon 8 Gen 2, 4 nm process, CPU/GPU architecture, display, battery and network data. The default profile shows another memory variant; its RAM/storage selection is not used as Philippine SKU evidence."
+        },
+        {
+          "id": "redmagic8_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-nubia-Red-Magic-8-Pro",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Global configuration comparison only",
+          "note": "Kimovil lists global 12/256 and 16/512 separately from China-market 8/128, 8/256 and other 165 W variants. Used only to guard against mixing Chinese Pro/Pro+ specifications into the international Philippine configurations."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_user_guide",
+          "sourceValue": "Manufacturer-authored guide lists REDMAGIC 8 Pro radio model NX729J (hardware NX729J_V1AMB); Philippine NTC listing for this model was not located.",
+          "normalizedValue": "NX729J",
+          "note": "NX729J is the manufacturer global model code; do not treat this as confirmation of a Philippine NTC certificate or local box SKU."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_sale",
+          "sourceValue": "REDMAGIC says global sale began 2 February 2023; product introduction was announced 16 January 2023.",
+          "normalizedValue": "2023-02-02",
+          "note": "Records the first global sale date; the 16 January announcement is preserved separately in source notes."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+          "normalizedValue": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_ph_unbox",
+          "sourceValue": "Philippine official launch reported 21 February 2023; Digital Walker store availability was reported in August 2023.",
+          "normalizedValue": "2023-02-21",
+          "note": "The date is the earliest corroborated Philippine official launch report, not an exact first-sale transaction."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic8_ph_unbox",
+          "sourceValue": "Local launch sources conflict: UNBOX PH reports PHP 53,990 official local price for 16/512.; YugaTech reports the 16/512 Void/Titanium at PHP 53,999 through Digital Walker.; GizGuide reports the 16/512 Titanium at PHP 53,999 through Digital Walker.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Do not select a single launch SRP while contemporaneous Philippine sources report different values.",
+          "candidateEvidence": [
+            {
+              "value": "PHP 53,990",
+              "sourceUrl": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "UNBOX PH reports PHP 53,990 official local price for 16/512.",
+              "configurationMatch": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "redmagic8_ph_yugatech",
+          "sourceValue": "Reviewed evidence is historical; no dated, orderable Philippine offer for this exact configuration was verified on 26 November 2026.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current catalog price blank; retain historical price observations by source and date.",
+          "candidateEvidence": [
+            {
+              "value": "UNBOX PH reports PHP 53,990 official local price for 16/512.",
+              "sourceUrl": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+              "sourceKind": "historical_local_price",
+              "observedAt": "2026-11-26",
+              "excerpt": "UNBOX PH reports PHP 53,990 official local price for 16/512.",
+              "configurationMatch": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "YugaTech reports the 16/512 Void/Titanium at PHP 53,999 through Digital Walker.",
+              "sourceUrl": "https://www.yugatech.com/news/redmagic-8-pro-now-available-in-the-philippines/",
+              "sourceKind": "historical_local_price",
+              "observedAt": "2026-11-26",
+              "excerpt": "YugaTech reports the 16/512 Void/Titanium at PHP 53,999 through Digital Walker.",
+              "configurationMatch": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "GizGuide reports the 16/512 Titanium at PHP 53,999 through Digital Walker.",
+              "sourceUrl": "https://www.gizguide.com/2023/08/redmagic-8-pro-digital-walker.html",
+              "sourceKind": "historical_local_price",
+              "observedAt": "2026-11-26",
+              "excerpt": "GizGuide reports the 16/512 Titanium at PHP 53,999 through Digital Walker.",
+              "configurationMatch": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "6.8 inches",
+          "normalizedValue": 6.8,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.8,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "1116 x 2480 pixels",
+          "normalizedValue": "1116 x 2480",
+          "catalogKey": "resolution",
+          "catalogValue": "1116 x 2480"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Up to 120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "1300 nits maximum brightness",
+          "normalizedValue": 1300,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Corning Gorilla Glass; NanoReview identifies Gorilla Glass 5",
+          "normalizedValue": "Corning Gorilla Glass 5"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 2",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Snapdragon 8 Gen 2 fabricated on TSMC 4 nm process",
+          "normalizedValue": 4,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Octa-core: 1x Cortex-X3 up to 3.2 GHz + 2x Cortex-A715 up to 2.8 GHz + 2x Cortex-A710 up to 2.8 GHz + 3x Cortex-A510 up to 2.0 GHz",
+          "normalizedValue": "1x Cortex-X3 3.2 GHz + 2x Cortex-A715 2.8 GHz + 2x Cortex-A710 2.8 GHz + 3x Cortex-A510 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Adreno GPU; exact model Adreno 740 cross-checked by GSMArena",
+          "normalizedValue": "Adreno 740",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 740"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "REDMAGIC OS 6.0 based on Android 13",
+          "normalizedValue": "Android 13 with REDMAGIC OS 6.0",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 with REDMAGIC OS 6.0"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "No guaranteed OS-upgrade or security-update duration stated in reviewed manufacturer materials; official update log exists.",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "16 GB LPDDR5X RAM in the 16 GB RAM / 512 GB storage · Void (Titanium also reported locally) global configuration",
+          "normalizedValue": 16,
+          "catalogKey": "ramGb",
+          "catalogValue": 16,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR5X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "512 GB UFS 4.0 storage in the 16 GB RAM / 512 GB storage · Void (Titanium also reported locally) global configuration",
+          "normalizedValue": 512,
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "UFS 4.0",
+          "normalizedValue": "UFS 4.0",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 4.0"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_gsmarena",
+          "sourceValue": "No microSD card slot",
+          "normalizedValue": "No microSD slot"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "50 MP + 8 MP + 2 MP rear camera system. The manufacturer page gives resolutions; local reports disagree whether the 2 MP module is macro or depth.",
+          "normalizedValue": "50 MP main + 8 MP ultra-wide + 2 MP module; module role unresolved",
+          "note": "Resolution/count are supported by the manufacturer; the final module role is deliberately not assigned because Philippine sources conflict.",
+          "candidateEvidence": [
+            {
+              "value": "2 MP macro module reported",
+              "sourceUrl": "https://www.technobaboy.com/2023/02/21/zte-redmagic-8-pro-gaming-phone-price-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Technobaboy describes the 2 MP rear camera as macro.",
+              "configurationMatch": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "2 MP depth sensor reported",
+              "sourceUrl": "https://unbox.ph/gadget/red-magic-8-pro-official-in-the-philippines/",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "UNBOX PH describes the 2 MP rear camera as a depth sensor.",
+              "configurationMatch": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "50 MP Samsung GN5, 1/1.57-inch sensor, f/1.88",
+          "normalizedValue": "50 MP Samsung GN5; 1/1.57 in; f/1.88"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "8 MP ultra-wide camera, 120-degree field of view, f/2.2",
+          "normalizedValue": "8 MP; 120 degrees; f/2.2"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Manufacturer lists a three-module 50/8/2 MP rear array and no telephoto camera",
+          "normalizedValue": "No telephoto module listed"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "16 MP second-generation under-display camera",
+          "normalizedValue": 16,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Rear: up to 8K/30, 4K/30 or 60, 1080p/30 or 60, 720p/30; front: 1080p/30 or 60 reported by GSMArena",
+          "normalizedValue": "Rear up to 8K/30; 4K/60; 1080p/60. Front 1080p/60",
+          "catalogKey": "video",
+          "catalogValue": "Rear up to 8K/30; 4K/60; 1080p/60. Front 1080p/60"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "6000 mAh dual-cell battery",
+          "normalizedValue": 6000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Lithium-polymer (Li-Po); non-removable",
+          "normalizedValue": "Li-Po; non-removable"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "65 W quick charging for global version",
+          "normalizedValue": 65,
+          "catalogKey": "chargingW",
+          "catalogValue": 65,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_nanoreview",
+          "sourceValue": "Wireless charging: No",
+          "normalizedValue": "No wireless charging"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Manufacturer lists 163.98 x 76.35 x 9.47 mm; GSMArena lists 164.0 x 76.4 x 8.9 mm.",
+          "normalizedValue": null,
+          "unit": "mm",
+          "note": "The recorded depth conflicts materially between the manufacturer and GSMArena international review; withhold dimensions pending resolution.",
+          "candidateEvidence": [
+            {
+              "value": "9.47 mm",
+              "sourceUrl": "https://eu.redmagic.gg/pages/redmagic-8-pro-specs",
+              "sourceKind": "manufacturer_global",
+              "observedAt": "2026-11-26",
+              "excerpt": "Manufacturer specification table lists 163.98 x 76.35 x 9.47 mm.",
+              "configurationMatch": "16 GB RAM / 512 GB storage · Void (Titanium also reported locally)",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "8.9 mm",
+              "sourceUrl": "https://www.gsmarena.com/nubia_red_magic_8_pro-review-2520.php",
+              "sourceKind": "independent_global_review",
+              "observedAt": "2026-11-26",
+              "excerpt": "GSMArena lists 164.0 x 76.4 x 8.9 mm for the international 12/256 review unit.",
+              "configurationMatch": "international Matte 12 GB / 256 GB",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "228 g",
+          "normalizedValue": 228,
+          "catalogKey": "weightG",
+          "catalogValue": 228,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Metal middle frame and glass rear cover",
+          "normalizedValue": "Metal frame; glass rear"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_gsmarena",
+          "sourceValue": "No ingress-protection rating listed for this model",
+          "normalizedValue": "No IP rating listed"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Dual nano-SIM; eSIM is not listed by the manufacturer",
+          "normalizedValue": "Dual nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Global page: 2G GSM 2/3/5/8; 3G WCDMA 1/2/4/5/6/8/19; LTE FDD 1/2/3/4/5/7/8/12/17/18/19/20/26/28A/28B/66 and TDD 34/38/39/40/41; 5G SA/NSA bands listed by manufacturer. Philippine SKU-specific band approval not confirmed.",
+          "normalizedValue": "5G SA/NSA; global bands per manufacturer; Philippine SKU-specific compatibility not confirmed",
+          "catalogKey": "cellular",
+          "catalogValue": "5G SA/NSA; global bands per manufacturer; Philippine SKU-specific compatibility not confirmed"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Wi-Fi 7 802.11b/g/n/ac/ax/be, tri-band 2.4/5/6 GHz",
+          "normalizedValue": "Wi-Fi 7; tri-band 2.4/5/6 GHz",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 7; tri-band 2.4/5/6 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "USB 3.1 Type-C with DisplayPort output; converter required for HDMI",
+          "normalizedValue": "USB Type-C 3.1; DisplayPort output",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C 3.1; DisplayPort output"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "NFC: Yes",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "GPS and AGPS listed by manufacturer; GSMArena also lists GLONASS, BDS, Galileo and QZSS",
+          "normalizedValue": "GPS; AGPS; additional GNSS not specified in manufacturer page",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS; AGPS; additional GNSS not specified in manufacturer page"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "redmagic8_gsmarena",
+          "sourceValue": "Stereo speakers and 3.5 mm headphone jack",
+          "normalizedValue": "Stereo speakers; 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; 3.5 mm jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "redmagic8_global_specs",
+          "sourceValue": "Under-display fingerprint, G-sensor, electronic compass, gyroscope, proximity, ambient-light sensor and sensor hub",
+          "normalizedValue": "Under-display fingerprint; accelerometer; compass; gyroscope; proximity; ambient light; sensor hub"
+        }
+      ],
+      "modelCode": "NX729J"
     }
   ]
 }
