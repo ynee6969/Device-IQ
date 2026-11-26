@@ -1,0 +1,77 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "brand": "Infinix",
+      "model_name": "ZERO 30 4G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "source_url": "https://wap.id.infinixmobility.com/specs/zero-30",
+      "result": "Manufacturer specification page identifies ZERO 30 4G model X6731B and exact hardware details."
+    },
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "source_url": "https://www.yugatech.com/news/infinix-zero-30-4g-specs-price-philippines/",
+      "result": "Philippine launch source identifies the 4G configuration, 8/256 memory, PHP 9,999 likely SRP and advertised PHP 8,999 first sale on 4 December."
+    },
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "source_url": "https://www.revu.com.ph/2023/12/infinix-zero-30-price-philippines/",
+      "result": "Confirms 4G identity, 4 December first online sale, PHP 9,999 SRP and PHP 8,999 introductory promotion."
+    },
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "source_url": "https://www.techpinas.com/2023/12/Infinix-ZERO-30-4G.html",
+      "result": "Exact-model hands-on report maps X6731B to ZERO 30 4G, reports local release on 4 December 2023 and detailed specs."
+    },
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "source_url": "https://www.gizguide.com/2023/12/infinix-zero-30-4g-price-specs-official-ph.html",
+      "result": "Local launch corroboration; article's 200 MP statement conflicts with manufacturer and multiple exact-model sources reporting 108 MP."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "amount_php": 9999,
+      "configuration_id": "device_d14dd9dfdf860b-ph-x6731b-8gb-256gb",
+      "configuration_match": "exact_philippine_x6731b_8gb_256gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2023-12-02",
+      "excerpt": "Revu reports PHP 9,999 as the Philippine suggested retail price for ZERO 30 4G; YugaTech and TechPinas also report PHP 9,999.",
+      "source_url": "https://www.revu.com.ph/2023/12/infinix-zero-30-price-philippines/",
+      "source_kind": "historical_local_price_report",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current"
+    },
+    {
+      "device_id": "device_d14dd9dfdf860b",
+      "amount_php": 8999,
+      "configuration_id": "device_d14dd9dfdf860b-ph-x6731b-8gb-256gb",
+      "configuration_match": "exact_philippine_x6731b_8gb_256gb_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_first_sale_promotion",
+      "source_published_at": "2023-12-02",
+      "excerpt": "PHP 8,999 was announced as the first Infinix TikTok Shop sale price for 4 December 2023, instead of the PHP 9,999 SRP. It is retained as a historical promotion, not a current offer.",
+      "source_url": "https://www.revu.com.ph/2023/12/infinix-zero-30-price-philippines/",
+      "source_kind": "historical_advertised_price_report",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_first_sale_offer_not_current"
+    }
+  ]
+}

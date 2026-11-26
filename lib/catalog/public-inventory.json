@@ -12549,47 +12549,186 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "Infinix",
-    "model": "ZERO 30",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
+    "model": "ZERO 30 4G",
+    "manufacturer": "Infinix Mobility Limited",
+    "productLine": "ZERO Series",
+    "modelNumber": "X6731B",
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2023-12-04",
+    "philippineDateLabel": "Reported Philippine first-sale date",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Matched unsuffixed workbook name to Philippine ZERO 30 4G / X6731B using contemporaneous local launch evidence. The separate 5G model is not included. Current price, global first-sale date, finish-specific body materials, exact Philippine carrier bands, and image reuse remain unresolved.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "The workbook's unsuffixed ZERO 30 row is matched to the Philippine ZERO 30 4G, model X6731B. Revu, YugaTech, GizGuide and TechPinas distinguish this 4G model from ZERO 30 5G and report a 4 December 2023 first online-sale/debut date with an 8 GB / 256 GB configuration. YugaSpecs' later roundup lists a 3 December debut, so 4 December is recorded as the reported first sale date; the exact first transaction is not established. Historical PHP 9,999 SRP and PHP 8,999 promotional pricing are not current prices.",
+    "availabilityStatus": "Philippine first online sale was reported for 4 December 2023 through Infinix Mobile's TikTok Shop; PHP 9,999 SRP and a PHP 8,999 introductory offer were reported at launch. Current stock and price are unknown.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 143 lists Infinix ZERO 30 without a 4G/5G suffix. Exact Philippine launch coverage identifies the 4G model X6731B and its 8 GB / 256 GB local configuration. ZERO 30 5G is a separate model and was not merged into this record. Current price and stock are unknown; workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "The workbook name omits the 4G/5G suffix",
+        "action": "Use the Philippine ZERO 30 4G X6731B match from exact local launch sources; keep ZERO 30 5G separate."
+      },
+      {
+        "issue": "YugaSpecs lists a 3 December debut while contemporaneous first-sale reports say 4 December",
+        "action": "Label 4 December as the reported first online sale date; do not claim an exact first transaction."
+      },
+      {
+        "issue": "One GizGuide paragraph says 200 MP, conflicting with Infinix, YugaTech and Revu's 108 MP exact-model specification",
+        "action": "Use the manufacturer's X6731B value of 108 MP and retain the contradictory article note."
+      },
+      {
+        "issue": "YugaTech reports Wi-Fi 6 while the Infinix X6731B page lists Wi-Fi 5",
+        "action": "Use the exact-model manufacturer specification: Wi-Fi 5."
+      },
+      {
+        "issue": "Body material reports vary with finish and source",
+        "action": "Leave the single materials field unresolved; do not assign one finish's material to all colors."
+      },
+      {
+        "issue": "No current dated, orderable Philippine offer or current stock was verified",
+        "action": "Keep the current price and stock blank; retain only historical launch pricing."
+      },
+      {
+        "issue": "Exact product images are available on manufacturer and Philippine pages but no reuse permission is recorded",
+        "action": "Continue using the neutral placeholder until rights are documented."
+      },
+      {
+        "issue": "Workbook eligibility remains Pending",
+        "action": "Preserve the existing study-scope status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "Infinix Indonesia (manufacturer)",
+        "url": "https://wap.id.infinixmobility.com/specs/zero-30",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer specifications for exact model X6731B",
+        "note": "Official Infinix product specifications identify ZERO 30 4G model X6731B and publish its dimensions, weight, colors, chipset/CPU/GPU, display, camera sensors and modes, RAM/storage types, battery, SIM, Wi-Fi 5, USB-C/OTG, NFC, IP54, sensors, and XOS 13 / Android 13. Region-specific network bands are not copied into the Philippine record."
+      },
+      {
+        "organization": "Infinix Mobility Limited (manufacturer)",
+        "url": "https://www.infinixmobility.com/declaration_pdf/20231215/X6731B_C_Declaration_of_conformity.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-15",
+        "purpose": "Manufacturer model-code corroboration",
+        "note": "Infinix's declaration of conformity identifies model number X6731B. It does not establish Philippine retail availability or an exact local SKU."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/news/infinix-zero-30-4g-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-03",
+        "purpose": "Exact 4G model Philippine launch, 8/256 local configuration, SRP and first-sale offer",
+        "note": "Published 3 December 2023. Explicitly names the ZERO 30 4G; lists 8 GB physical RAM / 256 GB storage, 108 MP rear main camera, 50 MP front camera, and says first TikTok Shop sale was scheduled for 4 December at PHP 8,999, with a PHP 9,999 Lazada listing described as likely SRP. The page says Wi-Fi 6, which conflicts with Infinix's exact X6731B page (Wi-Fi 5); the manufacturer value is used."
+      },
+      {
+        "organization": "Revu Philippines",
+        "url": "https://www.revu.com.ph/2023/12/infinix-zero-30-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-02",
+        "purpose": "Philippine 4G identity, launch offer and SRP corroboration",
+        "note": "Published 2 December 2023. Says the 4G version of ZERO 30 would first be available on Infinix Mobile's TikTok Shop on 4 December for PHP 8,999 instead of the PHP 9,999 suggested retail price, then on Lazada, Shopee and retail stores. Confirms this record is the 4G model rather than ZERO 30 5G."
+      },
+      {
+        "organization": "TechPinas Philippines",
+        "url": "https://www.techpinas.com/2023/12/Infinix-ZERO-30-4G.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-09",
+        "purpose": "Exact-model code, Philippine release date, hands-on technical cross-check, dimensions and material observations",
+        "note": "Published 9 December 2023. Identifies Infinix ZERO 30 4G and model X6731B; reports Philippine market debut on 4 December 2023, PHP 9,999 SRP and PHP 8,999 introductory TikTok Shop price. Provides hands-on display, camera/video, storage interface, battery, dimensions, weight, audio and sensor details. Material descriptions can vary by finish and are not collapsed into one public claim."
+      },
+      {
+        "organization": "GizGuide Philippines",
+        "url": "https://www.gizguide.com/2023/12/infinix-zero-30-4g-price-specs-official-ph.html",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-04",
+        "purpose": "Philippine launch, local availability and hardware cross-check; source discrepancy review",
+        "note": "Published 4 December 2023. Identifies the 4G variant, PHP 9,999 SRP, local e-commerce availability and early-bird sale. The article's narrative contains an anomalous 200 MP camera claim while its headline and other exact-model sources identify 108 MP; the 200 MP figure is rejected. It also describes the 4G phone's Wi-Fi as dual-band without a version."
+      },
+      {
+        "organization": "YugaSpecs / YugaTech",
+        "url": "https://specs.yugatech.com/news/smartphones-launched-in-the-philippines-december-2023/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-12-31",
+        "purpose": "Philippine public-debut date cross-check",
+        "note": "Published 31 December 2023. Lists Infinix Zero 30 4G as debuting in the Philippines on 3 December 2023. Contemporaneous first-sale reports and TechPinas instead identify 4 December as the initial sale/market debut date; this source is retained to show the one-day announcement/debut discrepancy."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/spec/infinix-zero-30-4g/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact 4G model specification cross-check",
+        "note": "YugaTech's exact-model specification record lists 108 MP + 2 MP + 2 MP rear cameras, 50 MP front camera, 8 GB / 256 GB, Wi-Fi 6, NFC, 4G LTE, and other model features. Its Wi-Fi 6 value conflicts with the Infinix exact X6731B page; manufacturer Wi-Fi 5 is used."
+      }
+    ],
     "variants": [
       {
-        "id": "device_d14dd9dfdf860b-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_d14dd9dfdf860b-ph-x6731b-8gb-256gb",
+        "label": "8 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.78,
+          "displayType": "Curved LTPS AMOLED",
+          "resolution": "1080 x 2400",
+          "refreshHz": 120,
+          "chipset": "MediaTek Helio G99",
+          "cpu": "2x Cortex-A76 2.2 GHz + 6x Cortex-A55 2.0 GHz",
+          "gpu": "Arm Mali-G57 MC2",
+          "os": "Android 13 / XOS 13",
+          "ramGb": 8,
+          "storageGb": 256,
+          "rearCameraMp": 108,
+          "frontCameraMp": 50,
+          "video": "2K@30; 1080p@30/60; 720p@30; 720p@120 slow motion",
+          "batteryMah": 5000,
+          "chargingW": 45,
+          "dimensions": "164.52 x 75 x 7.9 mm",
+          "weightG": 182,
+          "sim": "Dual nano-SIM; eSIM not recorded",
+          "cellular": "4G LTE; exact PH bands not recorded",
+          "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "ports": "USB Type-C; OTG; data version not recorded",
+          "sound": "USB-C audio; stereo speakers; JBL tuning; DTS/Hi-Res; no 3.5 mm jack"
+        },
+        "specSources": {
+          "displayInches": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "displayType": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "resolution": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "refreshHz": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "chipset": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "cpu": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "gpu": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "os": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "ramGb": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "storageGb": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "rearCameraMp": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "frontCameraMp": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "video": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "batteryMah": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "chargingW": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "dimensions": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "weightG": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "sim": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "cellular": "https://www.yugatech.com/news/infinix-zero-30-4g-specs-price-philippines/",
+          "wifi": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "ports": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "sound": "https://wap.id.infinixmobility.com/specs/zero-30"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine sources match this record to the 4G model X6731B, not ZERO 30 5G. 8 GB is physical RAM; up to 8 GB Extended RAM is virtual. Colors reported locally: Sunset Gold, Misty Green, Pearly White. Current price/stock not verified.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "X6731B",
         "workbookRow": null
       }
     ],

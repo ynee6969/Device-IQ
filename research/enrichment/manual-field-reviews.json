@@ -166166,6 +166166,544 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_d14dd9dfdf860b",
+      "configurationId": "device_d14dd9dfdf860b-ph-x6731b-8gb-256gb",
+      "brand": "Infinix",
+      "model": "ZERO 30 4G",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "modelCode": "X6731B",
+      "replacementVariants": [
+        {
+          "id": "device_d14dd9dfdf860b-ph-x6731b-8gb-256gb",
+          "label": "8 GB RAM / 256 GB storage",
+          "modelCode": "X6731B",
+          "sku": null,
+          "notes": "Philippine sources match this record to the 4G model X6731B, not ZERO 30 5G. 8 GB is physical RAM; up to 8 GB Extended RAM is virtual. Colors reported locally: Sunset Gold, Misty Green, Pearly White. Current price/stock not verified.",
+          "workbookRow": 143
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "sources": [
+        {
+          "id": "infinix_zero30_official_specs",
+          "publisher": "Infinix Indonesia (manufacturer)",
+          "url": "https://wap.id.infinixmobility.com/specs/zero-30",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications for exact model X6731B",
+          "note": "Official Infinix product specifications identify ZERO 30 4G model X6731B and publish its dimensions, weight, colors, chipset/CPU/GPU, display, camera sensors and modes, RAM/storage types, battery, SIM, Wi-Fi 5, USB-C/OTG, NFC, IP54, sensors, and XOS 13 / Android 13. Region-specific network bands are not copied into the Philippine record."
+        },
+        {
+          "id": "infinix_zero30_official_declaration",
+          "publisher": "Infinix Mobility Limited (manufacturer)",
+          "url": "https://www.infinixmobility.com/declaration_pdf/20231215/X6731B_C_Declaration_of_conformity.pdf",
+          "publicationDate": "2023-12-15",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer model-code corroboration",
+          "note": "Infinix's declaration of conformity identifies model number X6731B. It does not establish Philippine retail availability or an exact local SKU."
+        },
+        {
+          "id": "infinix_zero30_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/infinix-zero-30-4g-specs-price-philippines/",
+          "publicationDate": "2023-12-03",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact 4G model Philippine launch, 8/256 local configuration, SRP and first-sale offer",
+          "note": "Published 3 December 2023. Explicitly names the ZERO 30 4G; lists 8 GB physical RAM / 256 GB storage, 108 MP rear main camera, 50 MP front camera, and says first TikTok Shop sale was scheduled for 4 December at PHP 8,999, with a PHP 9,999 Lazada listing described as likely SRP. The page says Wi-Fi 6, which conflicts with Infinix's exact X6731B page (Wi-Fi 5); the manufacturer value is used."
+        },
+        {
+          "id": "infinix_zero30_revu_ph",
+          "publisher": "Revu Philippines",
+          "url": "https://www.revu.com.ph/2023/12/infinix-zero-30-price-philippines/",
+          "publicationDate": "2023-12-02",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine 4G identity, launch offer and SRP corroboration",
+          "note": "Published 2 December 2023. Says the 4G version of ZERO 30 would first be available on Infinix Mobile's TikTok Shop on 4 December for PHP 8,999 instead of the PHP 9,999 suggested retail price, then on Lazada, Shopee and retail stores. Confirms this record is the 4G model rather than ZERO 30 5G."
+        },
+        {
+          "id": "infinix_zero30_techpinas_ph",
+          "publisher": "TechPinas Philippines",
+          "url": "https://www.techpinas.com/2023/12/Infinix-ZERO-30-4G.html",
+          "publicationDate": "2023-12-09",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model code, Philippine release date, hands-on technical cross-check, dimensions and material observations",
+          "note": "Published 9 December 2023. Identifies Infinix ZERO 30 4G and model X6731B; reports Philippine market debut on 4 December 2023, PHP 9,999 SRP and PHP 8,999 introductory TikTok Shop price. Provides hands-on display, camera/video, storage interface, battery, dimensions, weight, audio and sensor details. Material descriptions can vary by finish and are not collapsed into one public claim."
+        },
+        {
+          "id": "infinix_zero30_gizguide_ph",
+          "publisher": "GizGuide Philippines",
+          "url": "https://www.gizguide.com/2023/12/infinix-zero-30-4g-price-specs-official-ph.html",
+          "publicationDate": "2023-12-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch, local availability and hardware cross-check; source discrepancy review",
+          "note": "Published 4 December 2023. Identifies the 4G variant, PHP 9,999 SRP, local e-commerce availability and early-bird sale. The article's narrative contains an anomalous 200 MP camera claim while its headline and other exact-model sources identify 108 MP; the 200 MP figure is rejected. It also describes the 4G phone's Wi-Fi as dual-band without a version."
+        },
+        {
+          "id": "infinix_zero30_yugatech_roundup",
+          "publisher": "YugaSpecs / YugaTech",
+          "url": "https://specs.yugatech.com/news/smartphones-launched-in-the-philippines-december-2023/",
+          "publicationDate": "2023-12-31",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine public-debut date cross-check",
+          "note": "Published 31 December 2023. Lists Infinix Zero 30 4G as debuting in the Philippines on 3 December 2023. Contemporaneous first-sale reports and TechPinas instead identify 4 December as the initial sale/market debut date; this source is retained to show the one-day announcement/debut discrepancy."
+        },
+        {
+          "id": "infinix_zero30_yugatech_specs",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/spec/infinix-zero-30-4g/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact 4G model specification cross-check",
+          "note": "YugaTech's exact-model specification record lists 108 MP + 2 MP + 2 MP rear cameras, 50 MP front camera, 8 GB / 256 GB, Wi-Fi 6, NFC, 4G LTE, and other model features. Its Wi-Fi 6 value conflicts with the Infinix exact X6731B page; manufacturer Wi-Fi 5 is used."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Infinix ZERO 30 4G model X6731B",
+          "normalizedValue": "X6731B",
+          "note": "Exact model code appears on Infinix's manufacturer specification page and declaration of conformity."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "No exact global first-sale date is stated on the reviewed Infinix X6731B specification page.",
+          "normalizedValue": null,
+          "note": "The 4G model is described as a separate product from ZERO 30 5G; no announcement date is substituted for an exact first global release date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_yugatech_ph",
+          "sourceValue": "Philippine ZERO 30 4G configuration: 8 GB physical RAM / 256 GB storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage",
+          "note": "Contemporaneous Philippine coverage identifies this local 4G configuration. The additional 8 GB is extended memory, not physical RAM."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_revu_ph",
+          "sourceValue": "Infinix Mobile's first-sale reports specify 4 December 2023; TechPinas reports the same market debut. YugaSpecs' year-end roundup lists a 3 December debut.",
+          "normalizedValue": "2023-12-04",
+          "note": "Stored as the reported first online-sale date (4 December), supported by contemporaneous Revu, YugaTech, GizGuide and TechPinas coverage. YugaSpecs gives 3 December as the debut date; exact first transaction time is not independently established."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_revu_ph",
+          "sourceValue": "PHP 9,999 suggested retail price for the Philippine ZERO 30 4G 8 GB / 256 GB configuration",
+          "normalizedValue": 9999,
+          "unit": "PHP",
+          "note": "Contemporaneous Philippine coverage identifies PHP 9,999 as SRP. PHP 8,999 was an advertised first-sale promotion, not the regular SRP or a current offer.",
+          "priceType": "historical_ph_suggested_retail_price",
+          "priceObservedAt": "2023-12-02"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "infinix_zero30_yugatech_ph",
+          "sourceValue": "Reviewed Philippine prices are dated December 2023 launch reports; no current dated, orderable 8 GB / 256 GB offer was verified.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank. PHP 9,999 SRP and PHP 8,999 first-sale promotion are historical."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "6.78-inch display",
+          "normalizedValue": 6.78,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.78,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Flexible AMOLED, LTPS, curved display",
+          "normalizedValue": "Curved LTPS AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "Curved LTPS AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "FHD+ 1080 x 2400 pixels",
+          "normalizedValue": "1080 x 2400",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "60 Hz / 120 Hz; 120 Hz maximum",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz",
+          "note": "Catalog value is the published maximum; Infinix also lists 60 Hz operation."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "950 nits peak",
+          "normalizedValue": 950,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Corning Gorilla Glass 5",
+          "normalizedValue": "Corning Gorilla Glass 5"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "MediaTek Helio G99",
+          "normalizedValue": "MediaTek Helio G99",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio G99"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "6 nm",
+          "normalizedValue": 6,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Octa-core: 2 x Cortex-A76 at 2.2 GHz + 6 x Cortex-A55 at 2.0 GHz",
+          "normalizedValue": "2x Cortex-A76 2.2 GHz + 6x Cortex-A55 2.0 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "2x Cortex-A76 2.2 GHz + 6x Cortex-A55 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Arm Mali-G57 MC2",
+          "normalizedValue": "Arm Mali-G57 MC2",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G57 MC2"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "XOS 13 based on Android 13",
+          "normalizedValue": "Android 13 / XOS 13",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 / XOS 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "No published OS/security support period was found in reviewed manufacturer material",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "8 GB RAM; up to 8 GB extended RAM",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "note": "Only the 8 GB installed RAM is shown as catalog RAM; extended/virtual memory is excluded."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "256 GB ROM",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "UFS 2.2",
+          "normalizedValue": "UFS 2.2"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_yugatech_ph",
+          "sourceValue": "No card slot / microSD expansion",
+          "normalizedValue": "No microSD card slot"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "108 MP main (ISOCELL HM6, f/1.75, PDAF) + 2 MP + 2 MP; Philippine reports identify main OIS and macro/depth auxiliary roles",
+          "normalizedValue": "108 MP main OIS + 2 MP macro + 2 MP depth",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 108,
+          "unit": "MP",
+          "note": "The manufacturer X6731B page lists a 108 MP main module and two 2 MP modules. One GizGuide article paragraph says 200 MP; that conflicts with the manufacturer, YugaTech and Revu and is not used."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "108 MP Samsung ISOCELL HM6, 1/1.67-inch, 6P lens, PDAF; f/1.75",
+          "normalizedValue": "Samsung ISOCELL HM6; 108 MP; f/1.75; PDAF"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Complete listed rear system is 108 MP + 2 MP + 2 MP; no ultrawide module is listed",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Complete listed rear system is 108 MP + 2 MP + 2 MP; no telephoto module is listed",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "50 MP Samsung ISOCELL JN1, f/2.45, PDAF",
+          "normalizedValue": 50,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 50,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Rear and front: 2K 30 fps, 1080p 30/60 fps; 720p 30 fps and 720p 120 fps slow motion",
+          "normalizedValue": "2K@30; 1080p@30/60; 720p@30; 720p@120 slow motion",
+          "catalogKey": "video",
+          "catalogValue": "2K@30; 1080p@30/60; 720p@30; 720p@120 slow motion"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "5,000 mAh typical capacity",
+          "normalizedValue": 5000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_techpinas_ph",
+          "sourceValue": "Li-Po, non-removable battery",
+          "normalizedValue": "Li-Po; non-removable"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "45 W wired charging; 11 V / 4.1 A or 10 V / 4.5 A; 75% in 30 minutes advertised",
+          "normalizedValue": 45,
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Wireless and reverse wireless charging are not stated in the reviewed manufacturer specifications",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "164.52 x 75 x 7.9 mm",
+          "normalizedValue": "164.52 x 75 x 7.9 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.52 x 75 x 7.9 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "182 g",
+          "normalizedValue": 182,
+          "catalogKey": "weightG",
+          "catalogValue": 182,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "infinix_zero30_techpinas_ph",
+          "sourceValue": "Local reports describe a glass front and a leather-like rear finish; another local report describes a glass/plastic body. Frame and color-specific back material are not consistently established.",
+          "normalizedValue": null,
+          "note": "Material descriptions vary by source/finish; keep body materials blank rather than generalizing across the three colors."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "IP54 splash, water and dust resistance; manufacturer says laboratory tested",
+          "normalizedValue": "IP54"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Dual nano-SIM; eSIM is not listed",
+          "normalizedValue": "Dual nano-SIM; eSIM not recorded",
+          "catalogKey": "sim",
+          "catalogValue": "Dual nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_yugatech_ph",
+          "sourceValue": "4G LTE / 3G / 2G; exact Philippine carrier band list not recorded in local launch material",
+          "normalizedValue": "4G LTE; exact PH bands not recorded",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE; exact PH bands not recorded",
+          "note": "This is the ZERO 30 4G model X6731B. No 5G support is assigned. Manufacturer Indonesia bands are not treated as a Philippine band list."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Infinix X6731B manufacturer page lists Wi-Fi 5 (802.11 a/b/g/n/ac); YugaTech describes it as Wi-Fi 6",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "note": "Use the manufacturer specification for exact model X6731B; the Philippine YugaTech article's Wi-Fi 6 claim conflicts and is not adopted."
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Bluetooth support is listed, but the manufacturer's model page does not state the version",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "USB Type-C, OTG supported; data standard/version not listed",
+          "normalizedValue": "USB Type-C; OTG; data version not recorded",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; OTG; data version not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "NFC supported",
+          "normalizedValue": true
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "GPS navigation supported; other satellite constellations are not listed on the reviewed manufacturer page",
+          "normalizedValue": "GPS; other GNSS constellations not recorded"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "Type-C earphone output; DTS and Hi-Res Audio; local coverage reports stereo speakers with JBL tuning; no 3.5 mm jack",
+          "normalizedValue": "USB-C audio; stereo speakers; JBL tuning; DTS/Hi-Res; no 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "USB-C audio; stereo speakers; JBL tuning; DTS/Hi-Res; no 3.5 mm jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "infinix_zero30_official_specs",
+          "sourceValue": "G-sensor, e-compass, gyroscope, light sensor, proximity sensor, in-display fingerprint; Z-axis linear motor",
+          "normalizedValue": "G-sensor; e-compass; gyroscope; light; proximity; in-display fingerprint; Z-axis motor"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine first online sale was reported for 4 December 2023 through Infinix Mobile's TikTok Shop; PHP 9,999 SRP and a PHP 8,999 introductory offer were reported at launch. Current stock and price are unknown.",
+        "philippineAvailability": "The workbook's unsuffixed ZERO 30 row is matched to the Philippine ZERO 30 4G, model X6731B. Revu, YugaTech, GizGuide and TechPinas distinguish this 4G model from ZERO 30 5G and report a 4 December 2023 first online-sale/debut date with an 8 GB / 256 GB configuration. YugaSpecs' later roundup lists a 3 December debut, so 4 December is recorded as the reported first sale date; the exact first transaction is not established. Historical PHP 9,999 SRP and PHP 8,999 promotional pricing are not current prices.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Infinix Mobility Limited",
+        "catalogModel": "ZERO 30 4G",
+        "productLine": "ZERO Series",
+        "modelNumber": "X6731B",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Reported Philippine first-sale date",
+        "researchNotes": "Workbook row 143 lists Infinix ZERO 30 without a 4G/5G suffix. Exact Philippine launch coverage identifies the 4G model X6731B and its 8 GB / 256 GB local configuration. ZERO 30 5G is a separate model and was not merged into this record. Current price and stock are unknown; workbook eligibility remains Pending.",
+        "qualityFlag": "Matched unsuffixed workbook name to Philippine ZERO 30 4G / X6731B using contemporaneous local launch evidence. The separate 5G model is not included. Current price, global first-sale date, finish-specific body materials, exact Philippine carrier bands, and image reuse remain unresolved.",
+        "openIssues": [
+          {
+            "issue": "The workbook name omits the 4G/5G suffix",
+            "action": "Use the Philippine ZERO 30 4G X6731B match from exact local launch sources; keep ZERO 30 5G separate."
+          },
+          {
+            "issue": "YugaSpecs lists a 3 December debut while contemporaneous first-sale reports say 4 December",
+            "action": "Label 4 December as the reported first online sale date; do not claim an exact first transaction."
+          },
+          {
+            "issue": "One GizGuide paragraph says 200 MP, conflicting with Infinix, YugaTech and Revu's 108 MP exact-model specification",
+            "action": "Use the manufacturer's X6731B value of 108 MP and retain the contradictory article note."
+          },
+          {
+            "issue": "YugaTech reports Wi-Fi 6 while the Infinix X6731B page lists Wi-Fi 5",
+            "action": "Use the exact-model manufacturer specification: Wi-Fi 5."
+          },
+          {
+            "issue": "Body material reports vary with finish and source",
+            "action": "Leave the single materials field unresolved; do not assign one finish's material to all colors."
+          },
+          {
+            "issue": "No current dated, orderable Philippine offer or current stock was verified",
+            "action": "Keep the current price and stock blank; retain only historical launch pricing."
+          },
+          {
+            "issue": "Exact product images are available on manufacturer and Philippine pages but no reuse permission is recorded",
+            "action": "Continue using the neutral placeholder until rights are documented."
+          },
+          {
+            "issue": "Workbook eligibility remains Pending",
+            "action": "Preserve the existing study-scope status."
+          }
+        ]
+      }
     }
   ]
 }

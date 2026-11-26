@@ -894,14 +894,18 @@
     "altText": "Image unavailable for Infinix SMART 10 Plus"
   },
   "device_d14dd9dfdf860b": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Exact Infinix ZERO 30 4G / X6731B product images are shown on Infinix and Philippine launch pages, but a reusable license or written permission to republish is not recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://wap.id.infinixmobility.com/specs/zero-30",
+    "relatedSourcePages": [
+      "https://www.yugatech.com/news/infinix-zero-30-4g-specs-price-philippines/",
+      "https://www.techpinas.com/2023/12/Infinix-ZERO-30-4G.html"
+    ],
     "assetUrl": null,
-    "scope": null,
+    "scope": "Exact Infinix ZERO 30 4G / X6731B; Philippine 8 GB / 256 GB configuration",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Infinix ZERO 30"
+    "altText": "Image unavailable for Infinix ZERO 30 4G"
   },
   "device_e8a5c1ec8bfd41": {
     "status": "NO_RELIABLE_MATCH",
