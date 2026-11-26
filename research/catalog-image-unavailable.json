@@ -480,11 +480,11 @@
     "altText": "Image unavailable for HONOR 70"
   },
   "device_1298822c3211ec": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact HONOR 90 5G image was identified on the Philippine source page, but no reusable license or written permission is recorded.",
+    "sourcePage": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+    "assetUrl": "https://www.pinoytechnoguide.com/wp-content/uploads/2023/08/HONOR-90-5G.jpg.webp",
+    "scope": "Exact model; configuration not visually distinguished",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for HONOR 90"

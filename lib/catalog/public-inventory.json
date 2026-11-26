@@ -6262,44 +6262,117 @@
     "category": "smartphones",
     "brand": "HONOR",
     "model": "90",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HONOR",
+    "productLine": "N Series",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2023-08-16",
+    "philippineDateLabel": "Philippine preorder start",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "No Philippine SKU recorded; launch-era price is not current",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Pinoy Techno Guide reported preorders from 2023-08-16 through 2023-08-25 in HONOR stores and official online shops. YugaTech independently reported the Philippine launch and the same configuration and price.",
+    "availabilityStatus": "Official Philippine launch was reported on 2023-08-15; preorders began 2023-08-16. Current stock is not established.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The inventory label '90' matches the manufacturer name HONOR 90 and Philippine model HONOR 90 5G. The documented Philippine configuration is 12 GB physical RAM / 512 GB storage. The 7 GB RAM Turbo feature is not counted as physical RAM. PHP 24,990 is launch-era price evidence; no current price or stock is verified.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Exact Philippine SKU/model code is not recorded",
+        "action": "Keep SKU and model code blank until an exact source lists them."
+      },
+      {
+        "issue": "Current retail price and stock are not verified",
+        "action": "Keep the 2023 PHP 24,990 price as historical evidence, not a current offer."
+      },
+      {
+        "issue": "The 200 MP camera sensor model is not named",
+        "action": "Keep sensor identity pending; do not substitute a guessed sensor."
+      },
+      {
+        "issue": "Image reuse rights are not established",
+        "action": "Continue showing the neutral placeholder."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "Pinoy Techno Guide",
+        "url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-08-15",
+        "purpose": "Exact Philippine model, configuration, specifications, preorder date, and price reference",
+        "note": "The exact HONOR 90 5G Philippine page identifies the 12 GB / 512 GB configuration, states the PHP 24,990 official price, and reports preorders from 2023-08-16 through 2023-08-25. The reported preorder start is recorded separately from a retail first-sale date."
+      },
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-90/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer model identity and cross-check of product features",
+        "note": "HONOR Philippines identifies the product as HONOR 90 and describes its 200 MP rear camera, 50 MP selfie camera, 5000 mAh battery, and up to 66 W charging. Local configuration, preorder dates, and historical price are documented by Philippine sources."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/news/honor-90-5g-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-08-15",
+        "purpose": "Contemporaneous Philippine launch, configuration, and price cross-check",
+        "note": "YugaTech reports the HONOR 90 5G Philippine launch, 12 GB RAM plus 7 GB RAM Turbo, 512 GB storage, PHP 24,990 suggested retail price, and early-bird preorder from Aug 16–25, 2023."
+      }
+    ],
     "variants": [
       {
-        "id": "device_1298822c3211ec-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_1298822c3211ec-12gb-512gb-ph",
+        "label": "12 GB RAM / 512 GB storage",
+        "specs": {
+          "displayInches": 6.7,
+          "displayType": "AMOLED",
+          "resolution": "1200 x 2640",
+          "refreshHz": 120,
+          "weightG": 183,
+          "chipset": "Qualcomm Snapdragon 7 Gen 1 (Accelerated Edition)",
+          "cpu": "Octa-core: 1 × Cortex-A710 at 2.5 GHz + 3 × Cortex-A710 at 2.36 GHz + 4 × Cortex-A510 at 1.8 GHz",
+          "gpu": "Adreno 644",
+          "video": "Up to 4K video recording with EIS (video stabilization)",
+          "frontCameraMp": 50,
+          "wifi": "Wi-Fi 802.11 b/g/n/ac/6",
+          "sound": "HONOR Histen effects; USB Type-C audio output",
+          "batteryMah": 5000,
+          "chargingW": 66,
+          "ramGb": 12,
+          "storageGb": 512,
+          "os": "Android 13 with MagicOS 7.1"
+        },
+        "specSources": {
+          "displayInches": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "displayType": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "resolution": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "refreshHz": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "weightG": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "chipset": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "cpu": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "gpu": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "video": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "frontCameraMp": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "wifi": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "sound": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "batteryMah": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "chargingW": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "ramGb": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "storageGb": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "os": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Pinoy Techno Guide and YugaTech both identify the Philippine 12 GB RAM / 512 GB storage configuration. YugaTech reports an additional 7 GB RAM Turbo feature; it is not counted as physical RAM. No Philippine SKU is recorded.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

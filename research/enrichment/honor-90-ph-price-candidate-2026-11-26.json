@@ -1,0 +1,34 @@
+{
+  "run_at": "2026-11-26T12:43:51+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_1298822c3211ec",
+      "brand": "HONOR",
+      "model_name": "90",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_1298822c3211ec",
+      "amount_php": 24990,
+      "configuration_id": "device_1298822c3211ec-12gb-512gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "price_type": "independent_reported_official_price",
+      "source_published_at": "2023-08-15",
+      "excerpt": "YugaTech's Philippine launch report identifies HONOR 90 5G at 12 GB RAM / 512 GB and PHP 24,990; dated 2023-08-15. Historical, not current.",
+      "source_url": "https://www.yugatech.com/news/honor-90-5g-price-philippines/",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T12:43:51+08:00",
+      "local_availability_verified": true
+    }
+  ]
+}

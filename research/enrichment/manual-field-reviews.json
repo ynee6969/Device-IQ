@@ -131273,6 +131273,434 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_1298822c3211ec",
+      "configurationId": "device_1298822c3211ec-12gb-512gb-ph",
+      "brand": "HONOR",
+      "model": "90",
+      "configuration": "12 GB RAM / 512 GB storage",
+      "configurationLabel": "12 GB RAM / 512 GB storage",
+      "sources": [
+        {
+          "id": "reviewed_model_source_4e10446654594e",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+          "publicationDate": "2023-08-15",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine model, configuration, specifications, preorder date, and price reference",
+          "note": "The exact HONOR 90 5G Philippine page identifies the 12 GB / 512 GB configuration, states the PHP 24,990 official price, and reports preorders from 2023-08-16 through 2023-08-25. The reported preorder start is recorded separately from a retail first-sale date."
+        },
+        {
+          "id": "honor90_ph_official_product",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-90/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer model identity and cross-check of product features",
+          "note": "HONOR Philippines identifies the product as HONOR 90 and describes its 200 MP rear camera, 50 MP selfie camera, 5000 mAh battery, and up to 66 W charging. Local configuration, preorder dates, and historical price are documented by Philippine sources."
+        },
+        {
+          "id": "honor90_ph_launch_yugatech",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/honor-90-5g-price-philippines/",
+          "publicationDate": "2023-08-15",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, configuration, and price cross-check",
+          "note": "YugaTech reports the HONOR 90 5G Philippine launch, 12 GB RAM plus 7 GB RAM Turbo, 512 GB storage, PHP 24,990 suggested retail price, and early-bird preorder from Aug 16–25, 2023."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "6.7",
+          "normalizedValue": 6.7,
+          "unit": "in",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.7
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "AMOLED",
+          "normalizedValue": "AMOLED",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "displayType",
+          "catalogValue": "AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "1200 x 2640",
+          "normalizedValue": "1200 x 2640",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "resolution",
+          "catalogValue": "1200 x 2640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "120",
+          "normalizedValue": 120,
+          "unit": "Hz",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "1600 nits",
+          "normalizedValue": "1600 nits",
+          "unit": "nits",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Glass front, Polycarbonate back",
+          "normalizedValue": "Glass front, Polycarbonate back",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "183",
+          "normalizedValue": 183,
+          "unit": "g",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "weightG",
+          "catalogValue": 183
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Qualcomm Snapdragon 7 Gen 1 (Accelerated Edition)",
+          "normalizedValue": "Qualcomm Snapdragon 7 Gen 1 (Accelerated Edition)",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 7 Gen 1 (Accelerated Edition)"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Octa-core: 1 × Cortex-A710 at 2.5 GHz + 3 × Cortex-A710 at 2.36 GHz + 4 × Cortex-A510 at 1.8 GHz",
+          "normalizedValue": "Octa-core: 1 × Cortex-A710 at 2.5 GHz + 3 × Cortex-A710 at 2.36 GHz + 4 × Cortex-A510 at 1.8 GHz",
+          "unit": null,
+          "note": "Value is normalized from the exact Philippine product page; the source's stated specification is preserved without adding an unsupported variant detail.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 1 × Cortex-A710 at 2.5 GHz + 3 × Cortex-A710 at 2.36 GHz + 4 × Cortex-A510 at 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Adreno 644",
+          "normalizedValue": "Adreno 644",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 644"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "None",
+          "normalizedValue": "None",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "The page specifies a 200 MP main camera but does not identify its sensor model.",
+          "normalizedValue": null,
+          "unit": null,
+          "note": "A camera resolution does not identify its sensor model. Keep the sensor identity unrecorded until a source names the sensor.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "12 MP ultra-wide/macro camera, f/2.2, autofocus, 112° FoV",
+          "normalizedValue": "12 MP ultra-wide/macro camera, f/2.2, autofocus, 112° FoV",
+          "unit": null,
+          "note": "Value is normalized from the exact Philippine product page; the source's stated specification is preserved without adding an unsupported variant detail.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Up to 4K video recording with EIS (video stabilization)",
+          "normalizedValue": "Up to 4K video recording with EIS (video stabilization)",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "video",
+          "catalogValue": "Up to 4K video recording with EIS (video stabilization)"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "50",
+          "normalizedValue": 50,
+          "unit": "MP",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 50
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Wi-Fi 802.11 b/g/n/ac/6",
+          "normalizedValue": "Wi-Fi 802.11 b/g/n/ac/6",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 802.11 b/g/n/ac/6"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Yes",
+          "normalizedValue": "Yes",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "GPS, GLONASS, GALILEO, BeiDou",
+          "normalizedValue": "GPS, GLONASS, GALILEO, BeiDou",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "HONOR Histen effects; USB Type-C audio output",
+          "normalizedValue": "HONOR Histen effects; USB Type-C audio output",
+          "unit": null,
+          "note": "Value is normalized from the exact Philippine product page; the source's stated specification is preserved without adding an unsupported variant detail.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "sound",
+          "catalogValue": "HONOR Histen effects; USB Type-C audio output"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+          "normalizedValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "5000",
+          "normalizedValue": 5000,
+          "unit": "mAh",
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Li-Po Battery (Non-removable)",
+          "normalizedValue": "Li-Po Battery (Non-removable)",
+          "unit": null,
+          "note": "Exact model page checked. This is a model-level technical fact shared across RAM/storage configurations; variant-specific fields, Philippine release/availability, and prices were not inferred. Independent Philippine reference; manufacturer cross-check remains desirable.",
+          "configurationMatch": "exact model; shared model-level field"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "66 W HONOR SuperCharge; source reports 20% charge in 5 minutes",
+          "normalizedValue": 66,
+          "unit": "W",
+          "note": "Value is normalized from the exact Philippine product page; the source's stated specification is preserved without adding an unsupported variant detail.",
+          "configurationMatch": "exact model; shared model-level field",
+          "catalogKey": "chargingW",
+          "catalogValue": 66
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "12 GB physical RAM; +7 GB RAM Turbo is listed separately",
+          "normalizedValue": 12,
+          "note": "Philippine reference lists 12 GB RAM and separately lists 7 GB RAM Turbo. Only the physical 12 GB is counted.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "512 GB",
+          "normalizedValue": 512,
+          "note": "Exact Philippine HONOR 90 5G page lists 512 GB internal storage.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration",
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Android 13 with MagicOS 7.1",
+          "normalizedValue": "Android 13 with MagicOS 7.1",
+          "note": "Exact Philippine product page specification.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 with MagicOS 7.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "200 MP main (f/1.9, autofocus) + 12 MP ultra-wide/macro (f/2.2, autofocus, 112° FoV) + 2 MP depth; LED flash",
+          "normalizedValue": "200 MP main + 12 MP ultra-wide/macro + 2 MP depth",
+          "note": "Camera modules are transcribed from the exact Philippine specification page.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "The page lists main, ultra-wide/macro, and depth modules; no telephoto module is listed.",
+          "normalizedValue": "No dedicated telephoto camera listed",
+          "note": "The exact model page enumerates the three rear modules without a telephoto camera.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Dual Nano-SIM",
+          "normalizedValue": "Dual Nano-SIM",
+          "note": "Exact Philippine HONOR 90 5G page lists dual Nano-SIM.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor90_ph_launch_yugatech",
+          "sourceValue": "PHP 24,990 suggested retail price, reported 2023-08-15",
+          "normalizedValue": 24990,
+          "note": "Historical Philippine launch-era price only; not represented as a current offer.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "reviewed_model_source_4e10446654594e",
+          "sourceValue": "Preorders from 2023-08-16 to 2023-08-25; announced 2023-08-15",
+          "normalizedValue": "2023-08-16",
+          "note": "First documented Philippine preorder date. It is not described as the first retail sale date.",
+          "configurationMatch": "Exact Philippine 12 GB / 512 GB configuration"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_1298822c3211ec-12gb-512gb-ph",
+          "label": "12 GB RAM / 512 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Pinoy Techno Guide and YugaTech both identify the Philippine 12 GB RAM / 512 GB storage configuration. YugaTech reports an additional 7 GB RAM Turbo feature; it is not counted as physical RAM. No Philippine SKU is recorded."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Official Philippine launch was reported on 2023-08-15; preorders began 2023-08-16. Current stock is not established.",
+        "philippineAvailability": "Pinoy Techno Guide reported preorders from 2023-08-16 through 2023-08-25 in HONOR stores and official online shops. YugaTech independently reported the Philippine launch and the same configuration and price.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HONOR",
+        "productLine": "N Series",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Philippine preorder start",
+        "researchNotes": "The inventory label '90' matches the manufacturer name HONOR 90 and Philippine model HONOR 90 5G. The documented Philippine configuration is 12 GB physical RAM / 512 GB storage. The 7 GB RAM Turbo feature is not counted as physical RAM. PHP 24,990 is launch-era price evidence; no current price or stock is verified.",
+        "qualityFlag": "No Philippine SKU recorded; launch-era price is not current",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine SKU/model code is not recorded",
+            "action": "Keep SKU and model code blank until an exact source lists them."
+          },
+          {
+            "issue": "Current retail price and stock are not verified",
+            "action": "Keep the 2023 PHP 24,990 price as historical evidence, not a current offer."
+          },
+          {
+            "issue": "The 200 MP camera sensor model is not named",
+            "action": "Keep sensor identity pending; do not substitute a guessed sensor."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Continue showing the neutral placeholder."
+          }
+        ]
+      }
     }
   ]
 }

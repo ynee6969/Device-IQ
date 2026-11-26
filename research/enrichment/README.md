@@ -16,10 +16,11 @@ python scripts/store_enrichment.py
 For a focused rerun after reviewing one inventory model, pass its stable device ID. This is useful for correcting a reviewed name alias without recollecting the whole queue:
 
 ```powershell
-node scripts/enrich_devices.mjs --device-id <device_id> --discover-limit 0 --gsmarena-limit 0 --ptg-limit 1 --output research/enrichment/<review-snapshot>.json
+node scripts/enrich_devices.mjs --device-id <device_id> --source-url <reviewed_source_url> --discover-limit 0 --gsmarena-limit 0 --ptg-limit 1 --output research/enrichment/<review-snapshot>.json
 ```
 
 Model identity matching treats a final `+` and the word `Plus` as equivalent product-name notation, while keeping a base model such as `S23` distinct from `S23+`.
+An explicit source URL is still checked against robots rules, approved HTTPS host rules, category, redirects, and the exact-model heading gate before its fields are collected.
 
 The Pinoy Techno Guide sitemaps need no key. The job matches exact smartphone and tablet slugs, marks them as independent Philippine reference candidates, and fetches up to 60 rotating pages each week. To discover additional official pages and GSMArena review links, set `BRAVE_SEARCH_API_KEY` in your environment or as a GitHub Actions repository secret. The key is sent only to the Brave Search API; the weekly job searches up to 60 rotating unsourced models across all three categories and 20 rotating GSMArena model links per run. Search results are **unreviewed candidates**, even when the domain is official. The job checks each fetched host's `robots.txt`, skips unavailable or blocked hosts, uses request timeouts and per-host spacing, and does not bypass access controls.
 

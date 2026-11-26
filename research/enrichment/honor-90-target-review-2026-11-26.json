@@ -1,0 +1,363 @@
+{
+  "run_at": "2026-11-26T04:39:06.294Z",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_1298822c3211ec",
+      "brand": "HONOR",
+      "model_name": "90",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [
+    {
+      "device_id": "device_1298822c3211ec",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "status": "extracted",
+      "http_status": 200,
+      "page_title": "HONOR 90 5G – Full Specs and Official Price in the Philippines"
+    }
+  ],
+  "observations": [
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "display_inches",
+      "value": "6.7",
+      "unit": "in",
+      "excerpt": "Display: 6.7-inch FHD+ AMOLED Display (1200 x 2640 Pixels 435 ppi) with 20:9 Aspect Ratio, 120Hz Refresh Rate, 1600 nits peak brightness, HDR10+, 3,840Hz PWM Dimming, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "display_technology",
+      "value": "AMOLED",
+      "unit": null,
+      "excerpt": "Display: 6.7-inch FHD+ AMOLED Display (1200 x 2640 Pixels 435 ppi) with 20:9 Aspect Ratio, 120Hz Refresh Rate, 1600 nits peak brightness, HDR10+, 3,840Hz PWM Dimming, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "resolution",
+      "value": "1200 x 2640",
+      "unit": null,
+      "excerpt": "Display: 6.7-inch FHD+ AMOLED Display (1200 x 2640 Pixels 435 ppi) with 20:9 Aspect Ratio, 120Hz Refresh Rate, 1600 nits peak brightness, HDR10+, 3,840Hz PWM Dimming, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "refresh_hz",
+      "value": "120",
+      "unit": "Hz",
+      "excerpt": "Display: 6.7-inch FHD+ AMOLED Display (1200 x 2640 Pixels 435 ppi) with 20:9 Aspect Ratio, 120Hz Refresh Rate, 1600 nits peak brightness, HDR10+, 3,840Hz PWM Dimming, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "display_brightness",
+      "value": "1600 nits",
+      "unit": null,
+      "excerpt": "Display: 6.7-inch FHD+ AMOLED Display (1200 x 2640 Pixels 435 ppi) with 20:9 Aspect Ratio, 120Hz Refresh Rate, 1600 nits peak brightness, HDR10+, 3,840Hz PWM Dimming, and punch-hole",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "materials",
+      "value": "Glass front, Polycarbonate back",
+      "unit": null,
+      "excerpt": "Build Materials: Glass front, Polycarbonate back",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "weight",
+      "value": "183",
+      "unit": "g",
+      "excerpt": "Weight: 183 g",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "chipset",
+      "value": "Qualcomm Snapdragon 7 Gen 1 (Accelerated Edition)",
+      "unit": null,
+      "excerpt": "Chipset: Qualcomm Snapdragon 7 Gen 1 (Accelerated Edition)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "cpu",
+      "value": "Octa Core CPU1x Cortex-A710 @ 2.5GHz + 3x Cortex-A710 @ 2.36GHz + 4x Cortex-A510 @ 1.8GHz",
+      "unit": null,
+      "excerpt": "CPU: Octa Core CPU1x Cortex-A710 @ 2.5GHz + 3x Cortex-A710 @ 2.36GHz + 4x Cortex-A510 @ 1.8GHz",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "gpu",
+      "value": "Adreno 644",
+      "unit": null,
+      "excerpt": "GPU: Adreno 644",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "ram_gb",
+      "value": "12",
+      "unit": "GB",
+      "excerpt": "RAM: 12 GB",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "internal_storage_gb",
+      "value": "512",
+      "unit": "GB",
+      "excerpt": "Storage: 512GB",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "storage_expansion",
+      "value": "None",
+      "unit": null,
+      "excerpt": "Expansion: None",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "operating_system",
+      "value": "Android 13 with MagicOS 7.1",
+      "unit": null,
+      "excerpt": "OS: Android 13 with MagicOS 7.1",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "main_camera_sensor",
+      "value": "200MP Main Camera (f/1.9 Aperture, Autofocus)12MP Ultra-wide/Macro (f2.2 Aperture, Autofocus, 112˚ FoV)2MP Depth Sensor-LED Flash -Up to 4K video recording with EIS (video stabilization)",
+      "unit": null,
+      "excerpt": "Rear Camera: Triple Cameras: 200MP Main Camera (f/1.9 Aperture, Autofocus)12MP Ultra-wide/Macro (f2.2 Aperture, Autofocus, 112˚ FoV)2MP Depth Sensor-LED Flash -Up to 4K video recording with EIS (video stabilization)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "ultrawide_camera",
+      "value": "200MP Main Camera (f/1.9 Aperture, Autofocus)12MP Ultra-wide/Macro (f2.2 Aperture, Autofocus, 112˚ FoV)2MP Depth Sensor-LED Flash -Up to 4K video recording with EIS (video stabilization)",
+      "unit": null,
+      "excerpt": "Rear Camera: Triple Cameras: 200MP Main Camera (f/1.9 Aperture, Autofocus)12MP Ultra-wide/Macro (f2.2 Aperture, Autofocus, 112˚ FoV)2MP Depth Sensor-LED Flash -Up to 4K video recording with EIS (video stabilization)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "video_recording",
+      "value": "Up to 4K video recording with EIS (video stabilization)",
+      "unit": null,
+      "excerpt": "Rear Camera: Triple Cameras: 200MP Main Camera (f/1.9 Aperture, Autofocus)12MP Ultra-wide/Macro (f2.2 Aperture, Autofocus, 112˚ FoV)2MP Depth Sensor-LED Flash -Up to 4K video recording with EIS (video stabilization)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "front_camera",
+      "value": "50",
+      "unit": "MP",
+      "excerpt": "Front Camera: 50 Megapixels (f/2.4 Aperture) -Up to 4K video recording",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "cellular",
+      "value": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
+      "unit": null,
+      "excerpt": "Cellular: 5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "sim",
+      "value": "Dual SIM (Nano-SIM)",
+      "unit": null,
+      "excerpt": "SIM Card: Dual SIM (Nano-SIM)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "wifi",
+      "value": "Wi-Fi 802.11 b/g/n/ac/6",
+      "unit": null,
+      "excerpt": "Wi-Fi: Wi-Fi 802.11 b/g/n/ac/6",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "nfc",
+      "value": "Yes",
+      "unit": null,
+      "excerpt": "NFC: Yes",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "bluetooth",
+      "value": "Bluetooth 5.2",
+      "unit": null,
+      "excerpt": "Bluetooth: Bluetooth 5.2",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "gnss",
+      "value": "GPS, GLONASS, GALILEO, BeiDou",
+      "unit": null,
+      "excerpt": "Location: GPS, GLONASS, GALILEO, BeiDou",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "audio",
+      "value": "HONOR Histen EffectsUSB Type-C Audio Output",
+      "unit": null,
+      "excerpt": "Sound: HONOR Histen EffectsUSB Type-C Audio Output",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "sensors",
+      "value": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+      "unit": null,
+      "excerpt": "Sensors: Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "battery_mah",
+      "value": "5000",
+      "unit": "mAh",
+      "excerpt": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "battery_technology",
+      "value": "Li-Po Battery (Non-removable)",
+      "unit": null,
+      "excerpt": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    },
+    {
+      "device_id": "device_1298822c3211ec",
+      "key": "charging",
+      "value": "66W Fast Charging (HONOR SuperCharge, 20% in 5 minutes) Charging",
+      "unit": null,
+      "excerpt": "Charging: 66W Fast Charging (HONOR SuperCharge, 20% in 5 minutes) Charging",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_1298822c3211ec",
+      "amount_php": 24990,
+      "configuration_id": null,
+      "configuration_match": "unspecified",
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "price_type": "independent_reported_official_price",
+      "source_published_at": "2023-08-15",
+      "excerpt": "₱24,990.00 Official price",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/honor-90-5g",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T04:39:06.294Z",
+      "local_availability_verified": false
+    }
+  ],
+  "discovery": []
+}

@@ -18,6 +18,7 @@ const gsmarenaLimit = Number(getArg('--gsmarena-limit', '20'));
 const ptgLimit = Number(getArg('--ptg-limit', '60'));
 const timeoutMs = Number(getArg('--timeout-ms', '9000'));
 const requestedDeviceId = getArg('--device-id', '');
+const requestedSourceUrl = getArg('--source-url', '');
 const maxBytes = 2_000_000;
 const userAgent = 'DeviceIQResearchBot/1.0 (+https://github.com/ynee6969/Device-IQ; evidence collection)';
 const now = new Date().toISOString();
@@ -426,6 +427,13 @@ async function main() {
   const all = tables.device_models.filter(x => ['smartphones', 'tablets', 'laptops'].includes(x.category_id));
   const requested = requestedDeviceId ? all.filter(x => x.device_id === requestedDeviceId) : all;
   if (requestedDeviceId && requested.length !== 1) throw new Error(`Expected one inventory record for ${requestedDeviceId}; found ${requested.length}`);
+  if (requestedSourceUrl && requested.length !== 1) throw new Error('--source-url requires exactly one --device-id');
+  if (requestedSourceUrl) {
+    const sourcePath = new URL(requestedSourceUrl).pathname;
+    const expectedCategoryPath = requested[0].category_id === 'tablets' ? '/tablets/' : '/smartphones/';
+    if (!(ptgUrl(requestedSourceUrl) || officialUrl(requestedSourceUrl))) throw new Error('--source-url must use an allowed official or Pinoy Techno Guide HTTPS URL');
+    if (ptgUrl(requestedSourceUrl) && !sourcePath.startsWith(expectedCategoryPath)) throw new Error('--source-url category does not match the inventory record');
+  }
   const selected = limit > 0 ? requested.slice(0, limit) : requested;
   const ptgModels = selected.filter(x => ['smartphones', 'tablets'].includes(x.category_id));
   const ptgMatches = await ptgSitemapMatches(ptgModels, brandById);
@@ -449,8 +457,9 @@ async function main() {
     const known = [...new Set(evidenceByDevice.get(model.device_id) || [])].filter(officialUrl);
     const discovered = discoverIds.has(model.device_id) ? await discover(model, brand) : [];
     const gsmReferences = gsmIds.has(model.device_id) ? await discoverGsmaReference(model, brand) : [];
-    const urls = [...new Set([...known, ...discovered])].slice(0, 3).map(url => ({ url, source_kind: 'official' }));
-    if (ptgFetchIds.has(model.device_id)) urls.push({ url: ptgMatches.get(model.device_id), source_kind: 'independent_ph_reference' });
+    const explicit = requestedSourceUrl ? [requestedSourceUrl] : [];
+    const urls = [...new Set([...explicit, ...known, ...discovered])].slice(0, 3).map(url => ({ url, source_kind: ptgUrl(url) ? 'independent_ph_reference' : 'official' }));
+    if (ptgFetchIds.has(model.device_id) && !urls.some(x => x.url === ptgMatches.get(model.device_id))) urls.push({ url: ptgMatches.get(model.device_id), source_kind: 'independent_ph_reference' });
     result.models.push({ device_id: model.device_id, brand, model_name: model.model_name, category: model.category_id, status: urls.length ? 'source_queued' : ptgMatches.has(model.device_id) ? 'source_candidate' : 'needs_source_discovery' });
     for (const url of discovered) result.discovery.push({ device_id: model.device_id, source_url: url, source_kind: 'official', status: 'unreviewed_search_candidate' });
     for (const url of gsmReferences) result.discovery.push({ device_id: model.device_id, source_url: url, source_kind: 'gsmarena_review_link', status: 'unreviewed_link_candidate' });

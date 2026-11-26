@@ -15,6 +15,12 @@ test('accepts plus-sign and Plus aliases without matching the distinct base mode
   assert.equal(extractPage(html, { model_name: 'S23' }).status, 'model_mismatch');
 });
 
+test('allows market suffixes while rejecting a distinct HONOR Lite model', () => {
+  const html = '<title>HONOR 90 5G – Full Specs</title><h1>HONOR 90 5G</h1><table><tr><td>Battery</td><td>5000mAh</td></tr></table>';
+  assert.equal(extractPage(html, { model_name: '90' }).status, 'extracted');
+  assert.equal(extractPage(html, { model_name: '90 Lite' }).status, 'model_mismatch');
+});
+
 test('robots groups, longest rule, and disallow', () => {
   const body = 'User-agent: *\nDisallow: /private\nAllow: /private/public\n\nUser-agent: DeviceIQResearchBot\nDisallow: /hidden';
   assert.equal(robotsAllowed(body, '/hidden'), false);
