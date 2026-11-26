@@ -22928,20 +22928,20 @@
     "philippineDateLabel": "Philippine availability date",
     "philippineReleaseYear": null,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing model source",
+    "qualityFlag": "Philippine LTE product listing verified; exact first-sale date and 4 GB SKU not recorded",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Samsung Philippines lists the Galaxy A13 LTE family, and YugaTech reported its 4 GB/128 GB and 6 GB/128 GB Philippine configurations in May 2022. The exact first-sale date and the 4 GB SKU are not recorded.",
+    "availabilityStatus": "Historical Philippine listing; current sale not confirmed",
     "discontinued": null,
     "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Philippine launch or first authorized sale date not recorded",
+        "action": "Find a dated Philippine launch or authorized-sale notice; do not infer it from a general product launch date."
       }
     ],
     "sources": [
@@ -22952,6 +22952,14 @@
         "publishedAt": null,
         "purpose": "Official exact-model and configuration specifications",
         "note": "The Samsung Philippines product page identifies model code SM-A135FZKJPHL and lists the cited configuration and specifications. It does not establish a Philippine launch date or a current price."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-05-19",
+        "purpose": "Historical Philippine LTE configuration and price evidence",
+        "note": "YugaTech reported Philippine prices on 19 May 2022: Galaxy A13 4 GB/128 GB PHP 10,490; Galaxy A13 6 GB/128 GB PHP 11,490; Galaxy A23 6 GB/128 GB PHP 13,990. These are dated historical prices, not current offers."
       }
     ],
     "variants": [
@@ -22988,15 +22996,59 @@
           "weightG": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
           "ports": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/"
         },
-        "pricePhp": null,
-        "priceCondition": null,
-        "priceType": null,
-        "priceObservedAt": null,
-        "priceSourceUrl": null,
+        "pricePhp": 11490,
+        "priceCondition": "new",
+        "priceType": "Historical Philippine price reported by YugaTech (not a current offer)",
+        "priceObservedAt": "2022-05-19",
+        "priceSourceUrl": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
         "listingStatus": "Not verified",
-        "notes": "Exact 6 GB / 128 GB configuration and regional model code shown on Samsung Philippines product page.",
+        "notes": "Historical price reported in a Philippine launch coverage article; not a current offer.",
         "sku": "SM-A135FZKJPHL",
-        "modelCode": "SM-A135FZKJPHL",
+        "modelCode": "SM-A135F",
+        "workbookRow": null
+      },
+      {
+        "id": "device_ea7538b5f9c456-samsung-4gb-128gb",
+        "label": "4 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.6,
+          "displayType": "PLS LCD",
+          "resolution": "1080 x 2408",
+          "cpu": "Octa-core, 2.0 GHz",
+          "os": "Android",
+          "ramGb": 4,
+          "storageGb": 128,
+          "rearCameraMp": 50,
+          "frontCameraMp": 8,
+          "batteryMah": 5000,
+          "dimensions": "165.1 x 76.4 x 8.8 mm",
+          "weightG": 195,
+          "ports": "USB Type-C, USB 2.0"
+        },
+        "specSources": {
+          "displayInches": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "displayType": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "resolution": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "cpu": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "os": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "ramGb": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
+          "storageGb": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "rearCameraMp": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "frontCameraMp": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "batteryMah": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "dimensions": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "weightG": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "ports": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/"
+        },
+        "pricePhp": 10490,
+        "priceCondition": "new",
+        "priceType": "Historical Philippine price reported by YugaTech (not a current offer)",
+        "priceObservedAt": "2022-05-19",
+        "priceSourceUrl": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
+        "listingStatus": "Not verified",
+        "notes": "Historical price reported in a Philippine launch coverage article; not a current offer.",
+        "sku": null,
+        "modelCode": null,
         "workbookRow": null
       }
     ],
@@ -23017,20 +23069,20 @@
     "philippineDateLabel": "Philippine availability date",
     "philippineReleaseYear": null,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing model source",
+    "qualityFlag": "Philippine LTE product listing verified; exact first-sale date not recorded",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Samsung Philippines product pages identify the local LTE model and SKU. YugaTech reported Philippine configurations and prices in May 2022. The exact first-sale date is not recorded, and current sale is not confirmed.",
+    "availabilityStatus": "Historical Philippine listing; current sale not confirmed",
     "discontinued": null,
     "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Philippine launch or first authorized sale date not recorded",
+        "action": "Find a dated Philippine launch or authorized-sale notice; do not infer it from a general product launch date."
       }
     ],
     "sources": [
@@ -23041,6 +23093,14 @@
         "publishedAt": null,
         "purpose": "Official exact-model and configuration specifications",
         "note": "The Samsung Philippines product page identifies model code SM-A235FZWHPHL and lists the cited configuration and specifications. It does not establish a Philippine launch date or a current price."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-05-19",
+        "purpose": "Historical Philippine LTE configuration and price evidence",
+        "note": "YugaTech reported Philippine prices on 19 May 2022: Galaxy A13 4 GB/128 GB PHP 10,490; Galaxy A13 6 GB/128 GB PHP 11,490; Galaxy A23 6 GB/128 GB PHP 13,990. These are dated historical prices, not current offers."
       }
     ],
     "variants": [
@@ -23081,15 +23141,15 @@
           "weightG": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a23-white-128gb-sm-a235fzwhphl/",
           "ports": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a23-white-128gb-sm-a235fzwhphl/"
         },
-        "pricePhp": null,
-        "priceCondition": null,
-        "priceType": null,
-        "priceObservedAt": null,
-        "priceSourceUrl": null,
+        "pricePhp": 13990,
+        "priceCondition": "new",
+        "priceType": "Historical Philippine price reported by YugaTech (not a current offer)",
+        "priceObservedAt": "2022-05-19",
+        "priceSourceUrl": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
         "listingStatus": "Not verified",
-        "notes": "Exact Galaxy A23 LTE 6 GB / 128 GB configuration and regional model code shown on Samsung Philippines product page.",
+        "notes": "Historical price reported in a Philippine launch coverage article; not a current offer.",
         "sku": "SM-A235FZWHPHL",
-        "modelCode": "SM-A235FZWHPHL",
+        "modelCode": "SM-A235F",
         "workbookRow": null
       }
     ],

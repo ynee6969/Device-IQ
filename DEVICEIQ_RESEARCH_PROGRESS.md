@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T10:12:45+08:00
+Updated: 2026-11-26T10:24:39+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -9,18 +9,18 @@ Updated: 2026-11-26T10:12:45+08:00
 | Measure | Count |
 | --- | ---: |
 | Device models | 456 |
-| Configurations | 551 |
+| Configurations | 552 |
 | Models with manually verified source fields | 276 |
-| Configurations with manually verified source fields | 374 |
+| Configurations with manually verified source fields | 375 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 12 |
 | Specification-complete models | 0 |
 | Incomplete models | 445 |
-| Applicable field assignments | 25202 |
-| Fields assessed | 10933 |
-| Verified fields | 10602 |
-| Pending fields | 14269 |
+| Applicable field assignments | 25247 |
+| Fields assessed | 10967 |
+| Verified fields | 10630 |
+| Pending fields | 14280 |
 | PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -73,7 +73,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2022 | smartphones | OnePlus | 2 | 0 | 2 | 0 | 0 | 2 | 30 | 30 | 60 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | POCO | 4 | 0 | 4 | 0 | 0 | 4 | 121 | 121 | 104 | 3 | 3 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | REDMAGIC | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2022 | smartphones | Samsung | 3 | 0 | 3 | 0 | 0 | 3 | 58 | 54 | 77 | 0 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2022 | smartphones | Samsung | 3 | 2 | 3 | 0 | 0 | 3 | 92 | 82 | 88 | 0 | 2 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | TCL | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 90 | 0 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | TECNO | 2 | 0 | 2 | 0 | 0 | 2 | 57 | 57 | 33 | 2 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | smartphones | WIKO | 3 | 0 | 3 | 0 | 0 | 3 | 109 | 109 | 71 | 3 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |

@@ -46,6 +46,8 @@ def add_review(manual, catalog, item):
     variant = next((v for v in device.get("variants", []) if v["id"] == item["configurationId"]), None)
     if not variant and any(v.get("id") == item["configurationId"] for v in item.get("replacementVariants", [])):
         variant = {"id": item["configurationId"], "specs": {}}
+    if not variant and any(v.get("id") == item["configurationId"] for v in item.get("additionalVariants", [])):
+        variant = {"id": item["configurationId"], "specs": {}}
     if not variant:
         raise ValueError(f"Unknown configuration: {key}")
     review = next((r for r in manual["records"] if (r["deviceId"], r["configurationId"]) == key), None)
@@ -61,6 +63,8 @@ def add_review(manual, catalog, item):
         review["sku"] = item["sku"]
     if item.get("replacementVariants"):
         review["replacementVariants"] = item["replacementVariants"]
+    if item.get("additionalVariants"):
+        review["additionalVariants"] = item["additionalVariants"]
     if item.get("availabilityEvidence"):
         review["availabilityEvidence"] = item["availabilityEvidence"]
     for source in item["sources"]:

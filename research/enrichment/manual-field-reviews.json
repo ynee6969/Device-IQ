@@ -105974,602 +105974,6 @@
       ]
     },
     {
-      "deviceId": "device_ea7538b5f9c456",
-      "configurationId": "device_ea7538b5f9c456-samsung-6gb-128gb",
-      "brand": "Samsung",
-      "model": "A13",
-      "configuration": "6 GB RAM / 128 GB storage",
-      "configurationLabel": "6 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "samsung_a13_ph_specs",
-          "publisher": "Samsung Philippines",
-          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
-          "publicationDate": null,
-          "accessDate": "2026-11-26",
-          "purpose": "Official exact-model and configuration specifications",
-          "note": "The Samsung Philippines product page identifies model code SM-A135FZKJPHL and lists the cited configuration and specifications. It does not establish a Philippine launch date or a current price."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "model_number",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "SM-A135FZKJPHL",
-          "normalizedValue": "SM-A135FZKJPHL",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Memory 6 GB; Storage 128 GB",
-          "normalizedValue": "6 GB RAM / 128 GB storage",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "6.6-inch display",
-          "normalizedValue": 6.6,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.6,
-          "unit": "in"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "PLS LCD",
-          "normalizedValue": "PLS LCD",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "displayType",
-          "catalogValue": "PLS LCD"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "1080 x 2408 (FHD+)",
-          "normalizedValue": "1080 x 2408",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2408"
-        },
-        {
-          "fieldId": "chipset",
-          "status": "NOT_DISCLOSED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Samsung Philippines spec page lists CPU type/speed but no SoC model.",
-          "normalizedValue": null,
-          "note": "The exact-model product page lists an octa-core CPU at 2.0 GHz but does not name the chipset; no SoC is inferred."
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Octa-Core; CPU speed 2 GHz",
-          "normalizedValue": "Octa-core, 2.0 GHz",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa-core, 2.0 GHz"
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Android",
-          "normalizedValue": "Android",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "os",
-          "catalogValue": "Android"
-        },
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "6 GB",
-          "normalizedValue": 6,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "ramGb",
-          "catalogValue": 6,
-          "unit": "GB"
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "128 GB",
-          "normalizedValue": 128,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "storageGb",
-          "catalogValue": 128,
-          "unit": "GB"
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "MicroSD up to 1 TB",
-          "normalizedValue": "MicroSD supported up to 1 TB",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "rear_camera_system",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "50 MP + 5 MP + 2 MP + 2 MP",
-          "normalizedValue": "50 MP main + 5 MP ultra-wide + 2 MP depth + 2 MP macro",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "rearCameraMp",
-          "catalogValue": 50
-        },
-        {
-          "fieldId": "ultrawide_camera",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Official page identifies a 5 MP ultra-wide rear camera",
-          "normalizedValue": "5 MP ultra-wide camera",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "telephoto_camera",
-          "status": "NOT_APPLICABLE",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Official page enumerates main, ultra-wide, depth, and macro rear cameras",
-          "normalizedValue": "No dedicated telephoto camera listed",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "8 MP",
-          "normalizedValue": 8,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 8,
-          "unit": "MP"
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "FHD (1920 x 1080) at 30 fps",
-          "normalizedValue": "Up to 1080p/30 fps",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "5000 mAh typical; 4900 mAh rated minimum",
-          "normalizedValue": 5000,
-          "note": "The cited Samsung page distinguishes typical (5000 mAh) from rated minimum (4900 mAh); the catalog scalar records typical capacity.",
-          "catalogKey": "batteryMah",
-          "catalogValue": 5000,
-          "unit": "mAh"
-        },
-        {
-          "fieldId": "dimensions",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "165.1 x 76.4 x 8.8 mm",
-          "normalizedValue": "165.1 x 76.4 x 8.8 mm",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "dimensions",
-          "catalogValue": "165.1 x 76.4 x 8.8 mm",
-          "unit": "mm"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "195 g",
-          "normalizedValue": 195,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "weightG",
-          "catalogValue": 195,
-          "unit": "g"
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Dual-SIM; Nano-SIM; SIM 1 + SIM 2 + MicroSD",
-          "normalizedValue": "Dual Nano-SIM; separate SIM slots and MicroSD",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "2G GSM, 3G WCDMA, 4G LTE FDD/TDD",
-          "normalizedValue": "2G/3G/4G LTE; official page lists supported bands",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "802.11 a/b/g/n/ac, 2.4 + 5 GHz",
-          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Bluetooth v5.0",
-          "normalizedValue": "Bluetooth 5.0",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "usb",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "USB Type-C; USB 2.0",
-          "normalizedValue": "USB Type-C, USB 2.0",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "ports",
-          "catalogValue": "USB Type-C, USB 2.0"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "No",
-          "normalizedValue": "No NFC",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
-          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "3.5 mm stereo jack; Dolby Atmos for compatible stereo headsets/Bluetooth speakers",
-          "normalizedValue": "3.5 mm stereo jack; Dolby Atmos support",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a13_ph_specs",
-          "sourceValue": "Accelerometer, fingerprint sensor, geomagnetic sensor, virtual light sensing, virtual proximity sensing",
-          "normalizedValue": "Accelerometer; fingerprint; geomagnetic; virtual light and proximity sensors",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        }
-      ],
-      "replacementVariants": [
-        {
-          "id": "device_ea7538b5f9c456-samsung-6gb-128gb",
-          "label": "6 GB RAM / 128 GB storage",
-          "sku": "SM-A135FZKJPHL",
-          "modelCode": "SM-A135FZKJPHL",
-          "notes": "Exact 6 GB / 128 GB configuration and regional model code shown on Samsung Philippines product page."
-        }
-      ]
-    },
-    {
-      "deviceId": "device_61c7ea30c4c22b",
-      "configurationId": "device_61c7ea30c4c22b-samsung-6gb-128gb",
-      "brand": "Samsung",
-      "model": "A23",
-      "configuration": "6 GB RAM / 128 GB storage",
-      "configurationLabel": "6 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "samsung_a23_lte_ph_specs",
-          "publisher": "Samsung Philippines",
-          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a23-white-128gb-sm-a235fzwhphl/",
-          "publicationDate": null,
-          "accessDate": "2026-11-26",
-          "purpose": "Official exact-model and configuration specifications",
-          "note": "The Samsung Philippines product page identifies model code SM-A235FZWHPHL and lists the cited configuration and specifications. It does not establish a Philippine launch date or a current price."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "model_number",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "SM-A235FZWHPHL",
-          "normalizedValue": "SM-A235FZWHPHL",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Memory 6 GB; Storage 128 GB",
-          "normalizedValue": "6 GB RAM / 128 GB storage",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "6.6-inch display",
-          "normalizedValue": 6.6,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.6,
-          "unit": "in"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "PLS TFT LCD",
-          "normalizedValue": "PLS TFT LCD",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "displayType",
-          "catalogValue": "PLS TFT LCD"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "1080 x 2408 (FHD+)",
-          "normalizedValue": "1080 x 2408",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2408"
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "90 Hz refresh rate",
-          "normalizedValue": 90,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "refreshHz",
-          "catalogValue": 90,
-          "unit": "Hz"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Octa-Core; CPU speeds 2.4 GHz and 1.9 GHz",
-          "normalizedValue": "Octa-core, 2.4 GHz + 1.9 GHz",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa-core, 2.4 GHz + 1.9 GHz"
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Android",
-          "normalizedValue": "Android",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "os",
-          "catalogValue": "Android"
-        },
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "6 GB",
-          "normalizedValue": 6,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "ramGb",
-          "catalogValue": 6,
-          "unit": "GB"
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "128 GB",
-          "normalizedValue": 128,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "storageGb",
-          "catalogValue": 128,
-          "unit": "GB"
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "MicroSD up to 1 TB",
-          "normalizedValue": "MicroSD supported up to 1 TB",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "rear_camera_system",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "50 MP + 5 MP + 2 MP + 2 MP; main camera includes OIS",
-          "normalizedValue": "50 MP main with OIS + 5 MP ultra-wide + 2 MP depth + 2 MP macro",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "rearCameraMp",
-          "catalogValue": 50
-        },
-        {
-          "fieldId": "ultrawide_camera",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Official page identifies a 5 MP ultra-wide rear camera",
-          "normalizedValue": "5 MP ultra-wide camera",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "telephoto_camera",
-          "status": "NOT_APPLICABLE",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Official page enumerates main, ultra-wide, depth, and macro rear cameras",
-          "normalizedValue": "No dedicated telephoto camera listed",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "8 MP",
-          "normalizedValue": 8,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 8,
-          "unit": "MP"
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "UHD 4K (3840 x 2160) at 30 fps",
-          "normalizedValue": "Up to 4K/30 fps",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "5000 mAh typical; 4860 mAh rated minimum",
-          "normalizedValue": 5000,
-          "note": "The cited Samsung page distinguishes typical (5000 mAh) from rated minimum (4860 mAh); the catalog scalar records typical capacity.",
-          "catalogKey": "batteryMah",
-          "catalogValue": 5000,
-          "unit": "mAh"
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "25W Super Fast Charging support; charger sold separately",
-          "normalizedValue": 25,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "chargingW",
-          "catalogValue": 25,
-          "unit": "W"
-        },
-        {
-          "fieldId": "dimensions",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "165.4 x 76.9 x 8.4 mm",
-          "normalizedValue": "165.4 x 76.9 x 8.4 mm",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "dimensions",
-          "catalogValue": "165.4 x 76.9 x 8.4 mm",
-          "unit": "mm"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "195 g",
-          "normalizedValue": 195,
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "weightG",
-          "catalogValue": 195,
-          "unit": "g"
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Dual-SIM; Nano-SIM; SIM 1 + SIM 2 + MicroSD",
-          "normalizedValue": "Dual Nano-SIM; separate SIM slots and MicroSD",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "2G GSM, 3G WCDMA, 4G LTE FDD/TDD",
-          "normalizedValue": "2G/3G/4G LTE; official page lists supported bands",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "802.11 a/b/g/n/ac, 2.4 + 5 GHz",
-          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Bluetooth v5.0",
-          "normalizedValue": "Bluetooth 5.0",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "usb",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "USB Type-C; USB 2.0",
-          "normalizedValue": "USB Type-C, USB 2.0",
-          "note": "Checked against the exact Samsung Philippines product specification page.",
-          "catalogKey": "ports",
-          "catalogValue": "USB Type-C, USB 2.0"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "No",
-          "normalizedValue": "No NFC",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
-          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "3.5 mm stereo jack; Dolby Atmos for compatible stereo headsets/Bluetooth speakers",
-          "normalizedValue": "3.5 mm stereo jack; Dolby Atmos support",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Accelerometer, fingerprint sensor, gyroscope, geomagnetic sensor, virtual light sensing, virtual proximity sensing",
-          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; virtual light and proximity sensors",
-          "note": "Checked against the exact Samsung Philippines product specification page."
-        },
-        {
-          "fieldId": "chipset",
-          "status": "NOT_DISCLOSED",
-          "sourceId": "samsung_a23_lte_ph_specs",
-          "sourceValue": "Samsung Philippines spec page lists CPU type/speed but no SoC model.",
-          "normalizedValue": null,
-          "note": "The exact-model product page lists CPU type and speeds but does not name the chipset; no SoC is inferred."
-        }
-      ],
-      "replacementVariants": [
-        {
-          "id": "device_61c7ea30c4c22b-samsung-6gb-128gb",
-          "label": "6 GB RAM / 128 GB storage",
-          "sku": "SM-A235FZWHPHL",
-          "modelCode": "SM-A235FZWHPHL",
-          "notes": "Exact Galaxy A23 LTE 6 GB / 128 GB configuration and regional model code shown on Samsung Philippines product page."
-        }
-      ]
-    },
-    {
       "deviceId": "device_a1f3d16dd15fe1",
       "configurationId": "device_a1f3d16dd15fe1-samsung-lte-6gb-128gb",
       "brand": "Samsung",
@@ -124616,6 +124020,1021 @@
       },
       "modelCode": "SM-A366B",
       "sku": "SM-A366BLVTPHL"
+    },
+    {
+      "deviceId": "device_ea7538b5f9c456",
+      "configurationId": "device_ea7538b5f9c456-samsung-6gb-128gb",
+      "brand": "Samsung",
+      "model": "A13",
+      "configuration": "6 GB RAM / 128 GB storage",
+      "configurationLabel": "6 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "samsung_a13_ph_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official exact-model and configuration specifications",
+          "note": "The Samsung Philippines product page identifies model code SM-A135FZKJPHL and lists the cited configuration and specifications. It does not establish a Philippine launch date or a current price."
+        },
+        {
+          "id": "samsung_a13_ph_lte_product",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine LTE product identity and specifications",
+          "note": "Samsung Philippines identifies the local LTE product page and SKU SM-A135FZKJPHL. The page is model-specific and does not establish the exact original first-sale date; its current sale status is not treated as an active offer."
+        },
+        {
+          "id": "yugatech_samsung_a13_a23_local_prices_2022",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
+          "publicationDate": "2022-05-19",
+          "accessDate": "2026-11-26",
+          "purpose": "Historical Philippine LTE configuration and price evidence",
+          "note": "YugaTech reported Philippine prices on 19 May 2022: Galaxy A13 4 GB/128 GB PHP 10,490; Galaxy A13 6 GB/128 GB PHP 11,490; Galaxy A23 6 GB/128 GB PHP 13,990. These are dated historical prices, not current offers."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "SM-A135FZKJPHL",
+          "normalizedValue": "SM-A135FZKJPHL",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Memory 6 GB; Storage 128 GB",
+          "normalizedValue": "6 GB RAM / 128 GB storage",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "6.6-inch display",
+          "normalizedValue": 6.6,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.6,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "PLS LCD",
+          "normalizedValue": "PLS LCD",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "displayType",
+          "catalogValue": "PLS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "1080 x 2408 (FHD+)",
+          "normalizedValue": "1080 x 2408",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2408"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Samsung Philippines spec page lists CPU type/speed but no SoC model.",
+          "normalizedValue": null,
+          "note": "The exact-model product page lists an octa-core CPU at 2.0 GHz but does not name the chipset; no SoC is inferred."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Octa-Core; CPU speed 2 GHz",
+          "normalizedValue": "Octa-core, 2.0 GHz",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, 2.0 GHz"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Android",
+          "normalizedValue": "Android",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "os",
+          "catalogValue": "Android"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "6 GB",
+          "normalizedValue": 6,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "MicroSD up to 1 TB",
+          "normalizedValue": "MicroSD supported up to 1 TB",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "50 MP + 5 MP + 2 MP + 2 MP",
+          "normalizedValue": "50 MP main + 5 MP ultra-wide + 2 MP depth + 2 MP macro",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Official page identifies a 5 MP ultra-wide rear camera",
+          "normalizedValue": "5 MP ultra-wide camera",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Official page enumerates main, ultra-wide, depth, and macro rear cameras",
+          "normalizedValue": "No dedicated telephoto camera listed",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "8 MP",
+          "normalizedValue": 8,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "FHD (1920 x 1080) at 30 fps",
+          "normalizedValue": "Up to 1080p/30 fps",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "5000 mAh typical; 4900 mAh rated minimum",
+          "normalizedValue": 5000,
+          "note": "The cited Samsung page distinguishes typical (5000 mAh) from rated minimum (4900 mAh); the catalog scalar records typical capacity.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "165.1 x 76.4 x 8.8 mm",
+          "normalizedValue": "165.1 x 76.4 x 8.8 mm",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.1 x 76.4 x 8.8 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "195 g",
+          "normalizedValue": 195,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "weightG",
+          "catalogValue": 195,
+          "unit": "g"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Dual-SIM; Nano-SIM; SIM 1 + SIM 2 + MicroSD",
+          "normalizedValue": "Dual Nano-SIM; separate SIM slots and MicroSD",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "2G GSM, 3G WCDMA, 4G LTE FDD/TDD",
+          "normalizedValue": "2G/3G/4G LTE; official page lists supported bands",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "802.11 a/b/g/n/ac, 2.4 + 5 GHz",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Bluetooth v5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "USB Type-C; USB 2.0",
+          "normalizedValue": "USB Type-C, USB 2.0",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "No",
+          "normalizedValue": "No NFC",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "3.5 mm stereo jack; Dolby Atmos for compatible stereo headsets/Bluetooth speakers",
+          "normalizedValue": "3.5 mm stereo jack; Dolby Atmos support",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, geomagnetic sensor, virtual light sensing, virtual proximity sensing",
+          "normalizedValue": "Accelerometer; fingerprint; geomagnetic; virtual light and proximity sensors",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "yugatech_samsung_a13_a23_local_prices_2022",
+          "sourceValue": "Historical Philippine price reported 19 May 2022: PHP 11,490",
+          "normalizedValue": 11490,
+          "unit": "PHP",
+          "note": "Historical price reported in a Philippine launch coverage article; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Philippine price reported by YugaTech (not a current offer)",
+          "priceObservedAt": "2022-05-19"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "The official Philippine product page does not state the exact original first-sale date.",
+          "normalizedValue": null,
+          "note": "Philippine model identity and historical local pricing are verified, but the exact first-sale date is not established."
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_ea7538b5f9c456-samsung-6gb-128gb",
+          "label": "6 GB RAM / 128 GB storage",
+          "sku": "SM-A135FZKJPHL",
+          "modelCode": "SM-A135FZKJPHL",
+          "notes": "Exact 6 GB / 128 GB configuration and regional model code shown on Samsung Philippines product page."
+        }
+      ],
+      "modelCode": "SM-A135F",
+      "sku": "SM-A135FZKJPHL",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Historical Philippine listing; current sale not confirmed",
+        "philippineAvailability": "Samsung Philippines product pages identify the local LTE model and SKU. YugaTech reported Philippine configurations and prices in May 2022. The exact first-sale date is not recorded, and current sale is not confirmed.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Philippine LTE product listing verified; exact first-sale date not recorded"
+      }
+    },
+    {
+      "deviceId": "device_61c7ea30c4c22b",
+      "configurationId": "device_61c7ea30c4c22b-samsung-6gb-128gb",
+      "brand": "Samsung",
+      "model": "A23",
+      "configuration": "6 GB RAM / 128 GB storage",
+      "configurationLabel": "6 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "samsung_a23_lte_ph_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a23-white-128gb-sm-a235fzwhphl/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official exact-model and configuration specifications",
+          "note": "The Samsung Philippines product page identifies model code SM-A235FZWHPHL and lists the cited configuration and specifications. It does not establish a Philippine launch date or a current price."
+        },
+        {
+          "id": "samsung_a23_ph_lte_product",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a23-white-128gb-sm-a235fzwhphl/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine LTE product identity and specifications",
+          "note": "Samsung Philippines identifies the local LTE product page and SKU SM-A235FZWHPHL. The page is model-specific and does not establish the exact original first-sale date; its current sale status is not treated as an active offer."
+        },
+        {
+          "id": "yugatech_samsung_a13_a23_local_prices_2022",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
+          "publicationDate": "2022-05-19",
+          "accessDate": "2026-11-26",
+          "purpose": "Historical Philippine LTE configuration and price evidence",
+          "note": "YugaTech reported Philippine prices on 19 May 2022: Galaxy A13 4 GB/128 GB PHP 10,490; Galaxy A13 6 GB/128 GB PHP 11,490; Galaxy A23 6 GB/128 GB PHP 13,990. These are dated historical prices, not current offers."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "SM-A235FZWHPHL",
+          "normalizedValue": "SM-A235FZWHPHL",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Memory 6 GB; Storage 128 GB",
+          "normalizedValue": "6 GB RAM / 128 GB storage",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "6.6-inch display",
+          "normalizedValue": 6.6,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.6,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "PLS TFT LCD",
+          "normalizedValue": "PLS TFT LCD",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "displayType",
+          "catalogValue": "PLS TFT LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "1080 x 2408 (FHD+)",
+          "normalizedValue": "1080 x 2408",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2408"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "90 Hz refresh rate",
+          "normalizedValue": 90,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Octa-Core; CPU speeds 2.4 GHz and 1.9 GHz",
+          "normalizedValue": "Octa-core, 2.4 GHz + 1.9 GHz",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, 2.4 GHz + 1.9 GHz"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Android",
+          "normalizedValue": "Android",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "os",
+          "catalogValue": "Android"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "6 GB",
+          "normalizedValue": 6,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "MicroSD up to 1 TB",
+          "normalizedValue": "MicroSD supported up to 1 TB",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "50 MP + 5 MP + 2 MP + 2 MP; main camera includes OIS",
+          "normalizedValue": "50 MP main with OIS + 5 MP ultra-wide + 2 MP depth + 2 MP macro",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Official page identifies a 5 MP ultra-wide rear camera",
+          "normalizedValue": "5 MP ultra-wide camera",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Official page enumerates main, ultra-wide, depth, and macro rear cameras",
+          "normalizedValue": "No dedicated telephoto camera listed",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "8 MP",
+          "normalizedValue": 8,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Up to 4K/30 fps",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "5000 mAh typical; 4860 mAh rated minimum",
+          "normalizedValue": 5000,
+          "note": "The cited Samsung page distinguishes typical (5000 mAh) from rated minimum (4860 mAh); the catalog scalar records typical capacity.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "25W Super Fast Charging support; charger sold separately",
+          "normalizedValue": 25,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "165.4 x 76.9 x 8.4 mm",
+          "normalizedValue": "165.4 x 76.9 x 8.4 mm",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.4 x 76.9 x 8.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "195 g",
+          "normalizedValue": 195,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "weightG",
+          "catalogValue": 195,
+          "unit": "g"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Dual-SIM; Nano-SIM; SIM 1 + SIM 2 + MicroSD",
+          "normalizedValue": "Dual Nano-SIM; separate SIM slots and MicroSD",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "2G GSM, 3G WCDMA, 4G LTE FDD/TDD",
+          "normalizedValue": "2G/3G/4G LTE; official page lists supported bands",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "802.11 a/b/g/n/ac, 2.4 + 5 GHz",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Bluetooth v5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "USB Type-C; USB 2.0",
+          "normalizedValue": "USB Type-C, USB 2.0",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "No",
+          "normalizedValue": "No NFC",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "3.5 mm stereo jack; Dolby Atmos for compatible stereo headsets/Bluetooth speakers",
+          "normalizedValue": "3.5 mm stereo jack; Dolby Atmos support",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyroscope, geomagnetic sensor, virtual light sensing, virtual proximity sensing",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; virtual light and proximity sensors",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_a23_lte_ph_specs",
+          "sourceValue": "Samsung Philippines spec page lists CPU type/speed but no SoC model.",
+          "normalizedValue": null,
+          "note": "The exact-model product page lists CPU type and speeds but does not name the chipset; no SoC is inferred."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "yugatech_samsung_a13_a23_local_prices_2022",
+          "sourceValue": "Historical Philippine price reported 19 May 2022: PHP 13,990",
+          "normalizedValue": 13990,
+          "unit": "PHP",
+          "note": "Historical price reported in a Philippine launch coverage article; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Philippine price reported by YugaTech (not a current offer)",
+          "priceObservedAt": "2022-05-19"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_a23_ph_lte_product",
+          "sourceValue": "The official Philippine product page does not state the exact original first-sale date.",
+          "normalizedValue": null,
+          "note": "Philippine model identity and historical local pricing are verified, but the exact first-sale date is not established."
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_61c7ea30c4c22b-samsung-6gb-128gb",
+          "label": "6 GB RAM / 128 GB storage",
+          "sku": "SM-A235FZWHPHL",
+          "modelCode": "SM-A235FZWHPHL",
+          "notes": "Exact Galaxy A23 LTE 6 GB / 128 GB configuration and regional model code shown on Samsung Philippines product page."
+        }
+      ],
+      "modelCode": "SM-A235F",
+      "sku": "SM-A235FZWHPHL",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Historical Philippine listing; current sale not confirmed",
+        "philippineAvailability": "Samsung Philippines product pages identify the local LTE model and SKU. YugaTech reported Philippine configurations and prices in May 2022. The exact first-sale date is not recorded, and current sale is not confirmed.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Philippine LTE product listing verified; exact first-sale date not recorded"
+      }
+    },
+    {
+      "deviceId": "device_ea7538b5f9c456",
+      "configurationId": "device_ea7538b5f9c456-samsung-4gb-128gb",
+      "brand": "Samsung",
+      "model": "Galaxy A13 LTE",
+      "configuration": "4 GB RAM / 128 GB storage",
+      "configurationLabel": "4 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "samsung_a13_ph_lte_product",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a13-black-128gb-sm-a135fzkjphl/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine LTE model identity and shared hardware specifications",
+          "note": "Samsung Philippines' model-specific A13 LTE product page supplies hardware details and confirms the local LTE family; it does not give the exact SKU for the 4 GB configuration."
+        },
+        {
+          "id": "yugatech_samsung_a13_a23_local_prices_2022",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-a13-a23-price-philippines/",
+          "publicationDate": "2022-05-19",
+          "accessDate": "2026-11-26",
+          "purpose": "Historical Philippine LTE configuration and price evidence",
+          "note": "YugaTech reported Philippine prices on 19 May 2022: Galaxy A13 4 GB/128 GB PHP 10,490; Galaxy A13 6 GB/128 GB PHP 11,490; Galaxy A23 6 GB/128 GB PHP 13,990. These are dated historical prices, not current offers."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "yugatech_samsung_a13_a23_local_prices_2022",
+          "sourceValue": "The Philippine 4 GB/128 GB configuration is reported; a specific Samsung model code is not provided.",
+          "normalizedValue": null,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": null,
+          "catalogValue": null
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "yugatech_samsung_a13_a23_local_prices_2022",
+          "sourceValue": "Galaxy A13 LTE, 4 GB RAM / 128 GB storage",
+          "normalizedValue": "4 GB RAM / 128 GB storage",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "6.6-inch display",
+          "normalizedValue": 6.6,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.6,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "PLS LCD",
+          "normalizedValue": "PLS LCD",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "displayType",
+          "catalogValue": "PLS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "1080 x 2408 (FHD+)",
+          "normalizedValue": "1080 x 2408",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2408"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Samsung Philippines spec page lists CPU type/speed but no SoC model.",
+          "normalizedValue": null,
+          "note": "The exact-model product page lists an octa-core CPU at 2.0 GHz but does not name the chipset; no SoC is inferred."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Octa-Core; CPU speed 2 GHz",
+          "normalizedValue": "Octa-core, 2.0 GHz",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, 2.0 GHz"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Android",
+          "normalizedValue": "Android",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "os",
+          "catalogValue": "Android"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "yugatech_samsung_a13_a23_local_prices_2022",
+          "sourceValue": "4 GB RAM",
+          "normalizedValue": 4,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "MicroSD up to 1 TB",
+          "normalizedValue": "MicroSD supported up to 1 TB",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "50 MP + 5 MP + 2 MP + 2 MP",
+          "normalizedValue": "50 MP main + 5 MP ultra-wide + 2 MP depth + 2 MP macro",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Official page identifies a 5 MP ultra-wide rear camera",
+          "normalizedValue": "5 MP ultra-wide camera",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Official page enumerates main, ultra-wide, depth, and macro rear cameras",
+          "normalizedValue": "No dedicated telephoto camera listed",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "8 MP",
+          "normalizedValue": 8,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "FHD (1920 x 1080) at 30 fps",
+          "normalizedValue": "Up to 1080p/30 fps",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "5000 mAh typical; 4900 mAh rated minimum",
+          "normalizedValue": 5000,
+          "note": "The cited Samsung page distinguishes typical (5000 mAh) from rated minimum (4900 mAh); the catalog scalar records typical capacity.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "165.1 x 76.4 x 8.8 mm",
+          "normalizedValue": "165.1 x 76.4 x 8.8 mm",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.1 x 76.4 x 8.8 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "195 g",
+          "normalizedValue": 195,
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "weightG",
+          "catalogValue": 195,
+          "unit": "g"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Dual-SIM; Nano-SIM; SIM 1 + SIM 2 + MicroSD",
+          "normalizedValue": "Dual Nano-SIM; separate SIM slots and MicroSD",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "2G GSM, 3G WCDMA, 4G LTE FDD/TDD",
+          "normalizedValue": "2G/3G/4G LTE; official page lists supported bands",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "802.11 a/b/g/n/ac, 2.4 + 5 GHz",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Bluetooth v5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "USB Type-C; USB 2.0",
+          "normalizedValue": "USB Type-C, USB 2.0",
+          "note": "Checked against the exact Samsung Philippines product specification page.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "No",
+          "normalizedValue": "No NFC",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "3.5 mm stereo jack; Dolby Atmos for compatible stereo headsets/Bluetooth speakers",
+          "normalizedValue": "3.5 mm stereo jack; Dolby Atmos support",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "Accelerometer, fingerprint sensor, geomagnetic sensor, virtual light sensing, virtual proximity sensing",
+          "normalizedValue": "Accelerometer; fingerprint; geomagnetic; virtual light and proximity sensors",
+          "note": "Checked against the exact Samsung Philippines product specification page."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "yugatech_samsung_a13_a23_local_prices_2022",
+          "sourceValue": "Historical Philippine price reported 19 May 2022: PHP 10,490",
+          "normalizedValue": 10490,
+          "unit": "PHP",
+          "note": "Historical price reported in a Philippine launch coverage article; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Philippine price reported by YugaTech (not a current offer)",
+          "priceObservedAt": "2022-05-19"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_a13_ph_lte_product",
+          "sourceValue": "The official Philippine product page does not state the exact original first-sale date.",
+          "normalizedValue": null,
+          "note": "Philippine model identity and historical local pricing are verified, but the exact first-sale date is not established."
+        }
+      ],
+      "additionalVariants": [
+        {
+          "id": "device_ea7538b5f9c456-samsung-4gb-128gb",
+          "label": "4 GB RAM / 128 GB storage",
+          "modelCode": null,
+          "sku": null,
+          "notes": "Philippine 4 GB/128 GB variant reported by YugaTech; exact local Samsung SKU not recorded."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Historical Philippine listing; current sale not confirmed",
+        "philippineAvailability": "Samsung Philippines lists the Galaxy A13 LTE family, and YugaTech reported its 4 GB/128 GB and 6 GB/128 GB Philippine configurations in May 2022. The exact first-sale date and the 4 GB SKU are not recorded.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Philippine LTE product listing verified; exact first-sale date and 4 GB SKU not recorded"
+      }
     }
   ]
 }
