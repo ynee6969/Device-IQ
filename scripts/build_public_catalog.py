@@ -368,11 +368,10 @@ for review in manual_reviews.get("records", []):
         device["philippineAvailability"] = availability.get("philippineAvailability", device["philippineAvailability"])
         device["localEvidenceObservedAt"] = availability.get("observedAt", device.get("localEvidenceObservedAt"))
         device["qualityFlag"] = availability.get("qualityFlag", device.get("qualityFlag"))
-        # The source confirms local listing but not launch/first-sale date; keep
-        # the workbook's eligibility scope and surface this remaining issue.
+        # Local availability is source-backed; keep exact first-sale timing separate.
         device["openIssues"] = [{
-            "issue": "Philippine launch or first authorized sale date not recorded",
-            "action": "Find a dated Philippine launch or authorized-sale notice; do not infer it from a general product launch date.",
+            "issue": "Exact first-sale transaction time not recorded",
+            "action": "Keep the documented Philippine availability date separate from the exact first transaction time.",
         }]
 
 if len(master) != 456 or len(catalog) != 463:

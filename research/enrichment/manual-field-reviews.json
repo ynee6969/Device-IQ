@@ -125035,6 +125035,1626 @@
         "observedAt": "2026-11-26",
         "qualityFlag": "Philippine LTE product listing verified; exact first-sale date and 4 GB SKU not recorded"
       }
+    },
+    {
+      "deviceId": "device_edb8f688862988",
+      "configurationId": "device_edb8f688862988-samsung-8gb-128gb",
+      "brand": "Samsung",
+      "model": "Galaxy A52 LTE",
+      "configuration": "8 GB RAM / 128 GB storage",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "samsung_a52_ph_product_identity",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a52-5g/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine model identity, network-family separation, and available memory choices",
+          "note": "Samsung Philippines' buying tool labels Galaxy A52 and Galaxy A52 5G separately and lists 8 GB/128 GB and 8 GB/256 GB choices for the standard A52. The local black 8 GB/256 GB order code is SM-A525FZKIXTC. This review is for the LTE A52 (family SM-A525F), not A52 5G."
+        },
+        {
+          "id": "samsung_a52_a72_ph_prices_2021_05",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/kumu-live-galaxy-a-series-promo/",
+          "publicationDate": "2021-05-25",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine Samsung SRP by exact memory configuration",
+          "note": "Samsung Philippines lists 8 GB/128 GB and 8 GB/256 GB prices separately for the Galaxy A52 and A72. The promotion was valid 25 May–3 June 2021; these are historical SRPs, not current prices."
+        },
+        {
+          "id": "samsung_a52_a72_ph_launch_promo_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-a52-a72/launch-promo/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine purchase availability through authorized Samsung dealers",
+          "note": "Samsung Philippines' launch promotion covers purchases of the Galaxy A52 and A72 from select authorized dealers nationwide during 26 March–4 April 2021. The period supports availability from 26 March, but does not identify the first transaction time."
+        },
+        {
+          "id": "samsung_a52_a72_specs_2021_h1",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_Half_Year_Report.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications and LTE/5G platform distinction",
+          "note": "Samsung's 2021 half-year report identifies A52 LTE as SDM720G (separate from A52 5G's SDM750G) and lists display, refresh rate, dimensions, camera array, launch OS, and battery for the A52 LTE and A72 families."
+        },
+        {
+          "id": "samsung_a52_a72_global_launch_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/the-galaxy-a52-a52-5g-and-a72-make-innovation-accessible-to-all",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Model family and global launch announcement",
+          "note": "Samsung announced Galaxy A52, A52 5G, and A72 as distinct products on 17 March 2021. Global launch details are used only for model-family context; Philippine configuration and price evidence comes from Samsung Philippines."
+        },
+        {
+          "id": "yugatech_a52_a52_5g_a72_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-a52-a52-5g-a72-specs-price-philippines/",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability date and corroborating technical specifications",
+          "note": "YugaTech's 17 March 2021 launch report distinguishes the standard Galaxy A52's 4G LTE/SDM720G from the A52 5G's 5G/SDM750G and reports nationwide availability beginning 26 March 2021. Its listed A52 specifications are used as secondary evidence where Samsung's report is silent."
+        },
+        {
+          "id": "pinoytechnoguide_a52_specs_2021",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-a52",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Corroborating exact-model specifications and original Philippine listing context",
+          "note": "Pinoy Techno Guide's 17 March 2021 Galaxy A52 page lists the standard 4G LTE model and detailed camera, battery, charging, connectivity, and physical specifications. Its 8 GB/256 GB entry is not generalized to the separate 8 GB/128 GB configuration."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB RAM / 128 GB storage",
+          "normalizedValue": "8 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_launch_promo_2021",
+          "sourceValue": "Samsung Philippines' launch promotion covered authorized dealer purchases beginning 26 March 2021.",
+          "normalizedValue": "2021-03-26",
+          "note": "Records the official Philippine promo start and documented authorized-sale availability, not the first individual transaction time."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "The launch coverage does not unambiguously tie its single quoted price to this configuration.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "A launch article quotes one model price without tying it unambiguously to this configuration; no launch price is assigned."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "Historical Samsung Philippines SRP, 25 May 2021: PHP 17,490",
+          "normalizedValue": 17490,
+          "unit": "PHP",
+          "note": "Historical Samsung Philippines SRP observed in a promotion valid 25 May–3 June 2021; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines SRP (not a current offer)",
+          "priceObservedAt": "2021-05-25"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_ph_product_identity",
+          "sourceValue": "Samsung Philippines model family SM-A525F",
+          "normalizedValue": "SM-A525F",
+          "note": "Model-family code only. A color-specific order code is retained only when the cited Samsung Philippines source identifies it."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "6.5-inch display",
+          "normalizedValue": 6.5,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.5,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Super AMOLED",
+          "normalizedValue": "Super AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "Super AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "FHD+ (2,400 x 1,080 pixels)",
+          "normalizedValue": "1080 x 2400",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "90 Hz (LTE model)",
+          "normalizedValue": 90,
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Up to 800 nits",
+          "normalizedValue": 800,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Qualcomm SDM720G platform",
+          "normalizedValue": "Qualcomm Snapdragon 720G",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 720G"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Octa-core Qualcomm Snapdragon 720G CPU",
+          "normalizedValue": "Octa-core Snapdragon 720G",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Snapdragon 720G"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Adreno 618 GPU",
+          "normalizedValue": "Adreno 618",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 618"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Android 11 with One UI 3.1 at launch",
+          "normalizedValue": "Android 11 / One UI 3.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "64 MP main with OIS + 12 MP ultra-wide + 5 MP depth + 5 MP macro",
+          "normalizedValue": 64,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 64,
+          "unit": "MP",
+          "note": "The numeric catalog field stores the 64 MP main sensor; the source value preserves the full rear-camera array."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "64 MP main camera, f/1.8, autofocus, optical image stabilization",
+          "normalizedValue": "64 MP; f/1.8; AF; OIS"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "12 MP ultra-wide camera, f/2.2",
+          "normalizedValue": "12 MP; f/2.2"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "32 MP front camera, f/2.2",
+          "normalizedValue": 32,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "4K video recording at 30 fps",
+          "normalizedValue": "4K/30 fps",
+          "catalogKey": "video",
+          "catalogValue": "4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "4,500 mAh",
+          "normalizedValue": 4500,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Up to 25 W wired fast charging",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "159.9 x 75.1 x 8.4 mm (H x W x D)",
+          "normalizedValue": "159.9 x 75.1 x 8.4 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "159.9 x 75.1 x 8.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "189 g",
+          "normalizedValue": 189,
+          "catalogKey": "weightG",
+          "catalogValue": 189,
+          "unit": "g"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_global_launch_2021",
+          "sourceValue": "IP67 water and dust resistance",
+          "normalizedValue": "IP67",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a52_a52_5g_a72_2021",
+          "sourceValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS; individual LTE bands not recorded",
+          "normalizedValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Dual Nano-SIM; hybrid SIM/microSD slot",
+          "normalizedValue": "Dual Nano-SIM; hybrid SIM/microSD",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; hybrid SIM/microSD"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac (dual-band)",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, and Galileo",
+          "normalizedValue": "GPS; A-GPS; GLONASS; BeiDou; Galileo"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Stereo loudspeakers and Dolby Atmos; 3.5 mm audio jack",
+          "normalizedValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "microSD expansion up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "No telephoto camera; Samsung lists main, ultra-wide, depth, and macro rear modules.",
+          "normalizedValue": "Not applicable"
+        }
+      ],
+      "modelCode": "SM-A525F",
+      "replacementVariants": [
+        {
+          "id": "device_edb8f688862988-samsung-8gb-128gb",
+          "label": "8 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": "SM-A525F",
+          "notes": "Exact Philippine color-specific SKU is not recorded for this configuration."
+        },
+        {
+          "id": "device_edb8f688862988-samsung-8gb-256gb",
+          "label": "8 GB RAM / 256 GB storage",
+          "sku": "SM-A525FZKIXTC",
+          "modelCode": "SM-A525F",
+          "notes": null
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine availability documented from 26 March 2021; exact first transaction time not recorded",
+        "philippineAvailability": "Samsung Philippines' launch promotion covered purchases through select authorized dealers from 26 March 2021, and YugaTech reported nationwide availability beginning that date. The date records reported nationwide availability; the exact first transaction time is not stated.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Philippine availability dated; exact first-sale transaction time not disclosed"
+      }
+    },
+    {
+      "deviceId": "device_edb8f688862988",
+      "configurationId": "device_edb8f688862988-samsung-8gb-256gb",
+      "brand": "Samsung",
+      "model": "Galaxy A52 LTE",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "samsung_a52_ph_product_identity",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a52-5g/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine model identity, network-family separation, and available memory choices",
+          "note": "Samsung Philippines' buying tool labels Galaxy A52 and Galaxy A52 5G separately and lists 8 GB/128 GB and 8 GB/256 GB choices for the standard A52. The local black 8 GB/256 GB order code is SM-A525FZKIXTC. This review is for the LTE A52 (family SM-A525F), not A52 5G."
+        },
+        {
+          "id": "samsung_a52_a72_ph_prices_2021_05",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/kumu-live-galaxy-a-series-promo/",
+          "publicationDate": "2021-05-25",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine Samsung SRP by exact memory configuration",
+          "note": "Samsung Philippines lists 8 GB/128 GB and 8 GB/256 GB prices separately for the Galaxy A52 and A72. The promotion was valid 25 May–3 June 2021; these are historical SRPs, not current prices."
+        },
+        {
+          "id": "samsung_a52_a72_ph_launch_promo_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-a52-a72/launch-promo/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine purchase availability through authorized Samsung dealers",
+          "note": "Samsung Philippines' launch promotion covers purchases of the Galaxy A52 and A72 from select authorized dealers nationwide during 26 March–4 April 2021. The period supports availability from 26 March, but does not identify the first transaction time."
+        },
+        {
+          "id": "samsung_a52_a72_specs_2021_h1",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_Half_Year_Report.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications and LTE/5G platform distinction",
+          "note": "Samsung's 2021 half-year report identifies A52 LTE as SDM720G (separate from A52 5G's SDM750G) and lists display, refresh rate, dimensions, camera array, launch OS, and battery for the A52 LTE and A72 families."
+        },
+        {
+          "id": "samsung_a52_a72_global_launch_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/the-galaxy-a52-a52-5g-and-a72-make-innovation-accessible-to-all",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Model family and global launch announcement",
+          "note": "Samsung announced Galaxy A52, A52 5G, and A72 as distinct products on 17 March 2021. Global launch details are used only for model-family context; Philippine configuration and price evidence comes from Samsung Philippines."
+        },
+        {
+          "id": "yugatech_a52_a52_5g_a72_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-a52-a52-5g-a72-specs-price-philippines/",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability date and corroborating technical specifications",
+          "note": "YugaTech's 17 March 2021 launch report distinguishes the standard Galaxy A52's 4G LTE/SDM720G from the A52 5G's 5G/SDM750G and reports nationwide availability beginning 26 March 2021. Its listed A52 specifications are used as secondary evidence where Samsung's report is silent."
+        },
+        {
+          "id": "pinoytechnoguide_a52_specs_2021",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/samsung-galaxy-a52",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Corroborating exact-model specifications and original Philippine listing context",
+          "note": "Pinoy Techno Guide's 17 March 2021 Galaxy A52 page lists the standard 4G LTE model and detailed camera, battery, charging, connectivity, and physical specifications. Its 8 GB/256 GB entry is not generalized to the separate 8 GB/128 GB configuration."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB RAM / 256 GB storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_launch_promo_2021",
+          "sourceValue": "Samsung Philippines' launch promotion covered authorized dealer purchases beginning 26 March 2021.",
+          "normalizedValue": "2021-03-26",
+          "note": "Records the official Philippine promo start and documented authorized-sale availability, not the first individual transaction time."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Philippine launch coverage reports PHP 18,990 for the 256 GB configuration.",
+          "normalizedValue": 18990,
+          "unit": "PHP",
+          "note": "Launch-period Philippine price reported by secondary coverage and corroborated by the later Samsung Philippines SRP table; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "Historical Samsung Philippines SRP, 25 May 2021: PHP 18,990",
+          "normalizedValue": 18990,
+          "unit": "PHP",
+          "note": "Historical Samsung Philippines SRP observed in a promotion valid 25 May–3 June 2021; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines SRP (not a current offer)",
+          "priceObservedAt": "2021-05-25"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_ph_product_identity",
+          "sourceValue": "Samsung Philippines model family SM-A525F",
+          "normalizedValue": "SM-A525F",
+          "note": "Model-family code only. A color-specific order code is retained only when the cited Samsung Philippines source identifies it."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "6.5-inch display",
+          "normalizedValue": 6.5,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.5,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Super AMOLED",
+          "normalizedValue": "Super AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "Super AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "FHD+ (2,400 x 1,080 pixels)",
+          "normalizedValue": "1080 x 2400",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "90 Hz (LTE model)",
+          "normalizedValue": 90,
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Up to 800 nits",
+          "normalizedValue": 800,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Qualcomm SDM720G platform",
+          "normalizedValue": "Qualcomm Snapdragon 720G",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 720G"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Octa-core Qualcomm Snapdragon 720G CPU",
+          "normalizedValue": "Octa-core Snapdragon 720G",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Snapdragon 720G"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Adreno 618 GPU",
+          "normalizedValue": "Adreno 618",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 618"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Android 11 with One UI 3.1 at launch",
+          "normalizedValue": "Android 11 / One UI 3.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "64 MP main with OIS + 12 MP ultra-wide + 5 MP depth + 5 MP macro",
+          "normalizedValue": 64,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 64,
+          "unit": "MP",
+          "note": "The numeric catalog field stores the 64 MP main sensor; the source value preserves the full rear-camera array."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "64 MP main camera, f/1.8, autofocus, optical image stabilization",
+          "normalizedValue": "64 MP; f/1.8; AF; OIS"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "12 MP ultra-wide camera, f/2.2",
+          "normalizedValue": "12 MP; f/2.2"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "32 MP front camera, f/2.2",
+          "normalizedValue": 32,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "4K video recording at 30 fps",
+          "normalizedValue": "4K/30 fps",
+          "catalogKey": "video",
+          "catalogValue": "4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "4,500 mAh",
+          "normalizedValue": 4500,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Up to 25 W wired fast charging",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "159.9 x 75.1 x 8.4 mm (H x W x D)",
+          "normalizedValue": "159.9 x 75.1 x 8.4 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "159.9 x 75.1 x 8.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "189 g",
+          "normalizedValue": 189,
+          "catalogKey": "weightG",
+          "catalogValue": 189,
+          "unit": "g"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_global_launch_2021",
+          "sourceValue": "IP67 water and dust resistance",
+          "normalizedValue": "IP67",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a52_a52_5g_a72_2021",
+          "sourceValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS; individual LTE bands not recorded",
+          "normalizedValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Dual Nano-SIM; hybrid SIM/microSD slot",
+          "normalizedValue": "Dual Nano-SIM; hybrid SIM/microSD",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; hybrid SIM/microSD"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac (dual-band)",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, and Galileo",
+          "normalizedValue": "GPS; A-GPS; GLONASS; BeiDou; Galileo"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "Stereo loudspeakers and Dolby Atmos; 3.5 mm audio jack",
+          "normalizedValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "pinoytechnoguide_a52_specs_2021",
+          "sourceValue": "microSD expansion up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "No telephoto camera; Samsung lists main, ultra-wide, depth, and macro rear modules.",
+          "normalizedValue": "Not applicable"
+        }
+      ],
+      "modelCode": "SM-A525F",
+      "sku": "SM-A525FZKIXTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine availability documented from 26 March 2021; exact first transaction time not recorded",
+        "philippineAvailability": "Samsung Philippines' launch promotion covered purchases through select authorized dealers from 26 March 2021, and YugaTech reported nationwide availability beginning that date. The date records reported nationwide availability; the exact first transaction time is not stated.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Philippine availability dated; exact first-sale transaction time not disclosed"
+      }
+    },
+    {
+      "deviceId": "device_528380ceb337d2",
+      "configurationId": "device_528380ceb337d2-samsung-8gb-128gb",
+      "brand": "Samsung",
+      "model": "Galaxy A72",
+      "configuration": "8 GB RAM / 128 GB storage",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "samsung_a72_ph_product_identity",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a72/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine model identity, network-family separation, and available memory choices",
+          "note": "Samsung Philippines' Galaxy A72 listing and 2021 local offer identify the Philippine A72 family. The black 8 GB/256 GB order code is SM-A725FZKHXTC; this color-specific code is not applied to the color-unspecified 8 GB/128 GB configuration."
+        },
+        {
+          "id": "samsung_a52_a72_ph_prices_2021_05",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/kumu-live-galaxy-a-series-promo/",
+          "publicationDate": "2021-05-25",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine Samsung SRP by exact memory configuration",
+          "note": "Samsung Philippines lists 8 GB/128 GB and 8 GB/256 GB prices separately for the Galaxy A52 and A72. The promotion was valid 25 May–3 June 2021; these are historical SRPs, not current prices."
+        },
+        {
+          "id": "samsung_a52_a72_ph_launch_promo_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-a52-a72/launch-promo/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine purchase availability through authorized Samsung dealers",
+          "note": "Samsung Philippines' launch promotion covers purchases of the Galaxy A52 and A72 from select authorized dealers nationwide during 26 March–4 April 2021. The period supports availability from 26 March, but does not identify the first transaction time."
+        },
+        {
+          "id": "samsung_a52_a72_specs_2021_h1",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_Half_Year_Report.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications and LTE/5G platform distinction",
+          "note": "Samsung's 2021 half-year report identifies A52 LTE as SDM720G (separate from A52 5G's SDM750G) and lists display, refresh rate, dimensions, camera array, launch OS, and battery for the A52 LTE and A72 families."
+        },
+        {
+          "id": "samsung_a52_a72_global_launch_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/the-galaxy-a52-a52-5g-and-a72-make-innovation-accessible-to-all",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Model family and global launch announcement",
+          "note": "Samsung announced Galaxy A52, A52 5G, and A72 as distinct products on 17 March 2021. Global launch details are used only for model-family context; Philippine configuration and price evidence comes from Samsung Philippines."
+        },
+        {
+          "id": "yugatech_a72_hands_on_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-a72-hands-on/",
+          "publicationDate": "2021-03-18",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability date and corroborating technical specifications",
+          "note": "YugaTech's 18 March 2021 hands-on identifies the A72 as a 4G LTE model and supplies its launch configuration and secondary technical details. Its launch coverage reports nationwide availability beginning 26 March 2021."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB RAM / 128 GB storage",
+          "normalizedValue": "8 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_launch_promo_2021",
+          "sourceValue": "Samsung Philippines' launch promotion covered authorized dealer purchases beginning 26 March 2021.",
+          "normalizedValue": "2021-03-26",
+          "note": "Records the official Philippine promo start and documented authorized-sale availability, not the first individual transaction time."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "The launch coverage does not unambiguously tie its single quoted price to this configuration.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "A launch article quotes one model price without tying it unambiguously to this configuration; no launch price is assigned."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "Historical Samsung Philippines SRP, 25 May 2021: PHP 22,490",
+          "normalizedValue": 22490,
+          "unit": "PHP",
+          "note": "Historical Samsung Philippines SRP observed in a promotion valid 25 May–3 June 2021; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines SRP (not a current offer)",
+          "priceObservedAt": "2021-05-25"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a72_ph_product_identity",
+          "sourceValue": "Samsung Philippines model family SM-A725F",
+          "normalizedValue": "SM-A725F",
+          "note": "Model-family code only. A color-specific order code is retained only when the cited Samsung Philippines source identifies it."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "6.7-inch display",
+          "normalizedValue": 6.7,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.7,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Super AMOLED",
+          "normalizedValue": "Super AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "Super AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "FHD+ (2,400 x 1,080 pixels)",
+          "normalizedValue": "1080 x 2400",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "90 Hz (LTE model)",
+          "normalizedValue": 90,
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Up to 800 nits",
+          "normalizedValue": 800,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Qualcomm SDM720G platform",
+          "normalizedValue": "Qualcomm Snapdragon 720G",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 720G"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Octa-core Qualcomm Snapdragon 720G CPU",
+          "normalizedValue": "Octa-core Snapdragon 720G",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Snapdragon 720G"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Adreno 618 GPU",
+          "normalizedValue": "Adreno 618",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 618"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Android 11 with One UI 3.1 at launch",
+          "normalizedValue": "Android 11 / One UI 3.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "64 MP main with OIS + 12 MP ultra-wide + 8 MP telephoto + 5 MP macro",
+          "normalizedValue": 64,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 64,
+          "unit": "MP",
+          "note": "The numeric catalog field stores the 64 MP main sensor; the source value preserves the full rear-camera array."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "64 MP main camera, f/1.8, autofocus, optical image stabilization",
+          "normalizedValue": "64 MP; f/1.8; AF; OIS"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "12 MP ultra-wide camera, f/2.2",
+          "normalizedValue": "12 MP; f/2.2"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "32 MP front camera, f/2.2",
+          "normalizedValue": 32,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "4K video recording at 30 fps",
+          "normalizedValue": "4K/30 fps",
+          "catalogKey": "video",
+          "catalogValue": "4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "5,000 mAh",
+          "normalizedValue": 5000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Up to 25 W wired fast charging",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "165.0 x 77.4 x 8.4 mm (H x W x D)",
+          "normalizedValue": "165.0 x 77.4 x 8.4 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.0 x 77.4 x 8.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "203 g",
+          "normalizedValue": 203,
+          "catalogKey": "weightG",
+          "catalogValue": 203,
+          "unit": "g"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_global_launch_2021",
+          "sourceValue": "IP67 water and dust resistance",
+          "normalizedValue": "IP67",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS; individual LTE bands not recorded",
+          "normalizedValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Dual Nano-SIM; hybrid SIM/microSD slot",
+          "normalizedValue": "Dual Nano-SIM; hybrid SIM/microSD",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; hybrid SIM/microSD"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac (dual-band)",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, and Galileo",
+          "normalizedValue": "GPS; A-GPS; GLONASS; BeiDou; Galileo"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Stereo loudspeakers and Dolby Atmos; 3.5 mm audio jack",
+          "normalizedValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "microSD expansion up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "8 MP telephoto camera with OIS, f/2.4, 3x optical zoom",
+          "normalizedValue": "8 MP; f/2.4; OIS; 3x optical zoom"
+        }
+      ],
+      "modelCode": "SM-A725F",
+      "replacementVariants": [
+        {
+          "id": "device_528380ceb337d2-samsung-8gb-128gb",
+          "label": "8 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": "SM-A725F",
+          "notes": "Exact Philippine color-specific SKU is not recorded for this configuration."
+        },
+        {
+          "id": "device_528380ceb337d2-samsung-8gb-256gb",
+          "label": "8 GB RAM / 256 GB storage",
+          "sku": "SM-A725FZKHXTC",
+          "modelCode": "SM-A725F",
+          "notes": null
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine availability documented from 26 March 2021; exact first transaction time not recorded",
+        "philippineAvailability": "Samsung Philippines' launch promotion covered purchases through select authorized dealers from 26 March 2021, and YugaTech reported nationwide availability beginning that date. The date records reported nationwide availability; the exact first transaction time is not stated.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Philippine availability dated; exact first-sale transaction time not disclosed"
+      }
+    },
+    {
+      "deviceId": "device_528380ceb337d2",
+      "configurationId": "device_528380ceb337d2-samsung-8gb-256gb",
+      "brand": "Samsung",
+      "model": "Galaxy A72",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "samsung_a72_ph_product_identity",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/smartphones/galaxy-a/galaxy-a72/buy/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine model identity, network-family separation, and available memory choices",
+          "note": "Samsung Philippines' Galaxy A72 listing and 2021 local offer identify the Philippine A72 family. The black 8 GB/256 GB order code is SM-A725FZKHXTC; this color-specific code is not applied to the color-unspecified 8 GB/128 GB configuration."
+        },
+        {
+          "id": "samsung_a52_a72_ph_prices_2021_05",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/kumu-live-galaxy-a-series-promo/",
+          "publicationDate": "2021-05-25",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine Samsung SRP by exact memory configuration",
+          "note": "Samsung Philippines lists 8 GB/128 GB and 8 GB/256 GB prices separately for the Galaxy A52 and A72. The promotion was valid 25 May–3 June 2021; these are historical SRPs, not current prices."
+        },
+        {
+          "id": "samsung_a52_a72_ph_launch_promo_2021",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2021/galaxy-a52-a72/launch-promo/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine purchase availability through authorized Samsung dealers",
+          "note": "Samsung Philippines' launch promotion covers purchases of the Galaxy A52 and A72 from select authorized dealers nationwide during 26 March–4 April 2021. The period supports availability from 26 March, but does not identify the first transaction time."
+        },
+        {
+          "id": "samsung_a52_a72_specs_2021_h1",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_Half_Year_Report.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications and LTE/5G platform distinction",
+          "note": "Samsung's 2021 half-year report identifies A52 LTE as SDM720G (separate from A52 5G's SDM750G) and lists display, refresh rate, dimensions, camera array, launch OS, and battery for the A52 LTE and A72 families."
+        },
+        {
+          "id": "samsung_a52_a72_global_launch_2021",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/the-galaxy-a52-a52-5g-and-a72-make-innovation-accessible-to-all",
+          "publicationDate": "2021-03-17",
+          "accessDate": "2026-11-26",
+          "purpose": "Model family and global launch announcement",
+          "note": "Samsung announced Galaxy A52, A52 5G, and A72 as distinct products on 17 March 2021. Global launch details are used only for model-family context; Philippine configuration and price evidence comes from Samsung Philippines."
+        },
+        {
+          "id": "yugatech_a72_hands_on_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/samsung-galaxy-a72-hands-on/",
+          "publicationDate": "2021-03-18",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability date and corroborating technical specifications",
+          "note": "YugaTech's 18 March 2021 hands-on identifies the A72 as a 4G LTE model and supplies its launch configuration and secondary technical details. Its launch coverage reports nationwide availability beginning 26 March 2021."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB RAM / 256 GB storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_launch_promo_2021",
+          "sourceValue": "Samsung Philippines' launch promotion covered authorized dealer purchases beginning 26 March 2021.",
+          "normalizedValue": "2021-03-26",
+          "note": "Records the official Philippine promo start and documented authorized-sale availability, not the first individual transaction time."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Philippine launch coverage reports PHP 23,990 for the 256 GB configuration.",
+          "normalizedValue": 23990,
+          "unit": "PHP",
+          "note": "Launch-period Philippine price reported by secondary coverage and corroborated by the later Samsung Philippines SRP table; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_ph_prices_2021_05",
+          "sourceValue": "Historical Samsung Philippines SRP, 25 May 2021: PHP 23,990",
+          "normalizedValue": 23990,
+          "unit": "PHP",
+          "note": "Historical Samsung Philippines SRP observed in a promotion valid 25 May–3 June 2021; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Samsung Philippines SRP (not a current offer)",
+          "priceObservedAt": "2021-05-25"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a72_ph_product_identity",
+          "sourceValue": "Samsung Philippines model family SM-A725F",
+          "normalizedValue": "SM-A725F",
+          "note": "Model-family code only. A color-specific order code is retained only when the cited Samsung Philippines source identifies it."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "6.7-inch display",
+          "normalizedValue": 6.7,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.7,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Super AMOLED",
+          "normalizedValue": "Super AMOLED",
+          "catalogKey": "displayType",
+          "catalogValue": "Super AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "FHD+ (2,400 x 1,080 pixels)",
+          "normalizedValue": "1080 x 2400",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "90 Hz (LTE model)",
+          "normalizedValue": 90,
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Up to 800 nits",
+          "normalizedValue": 800,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Qualcomm SDM720G platform",
+          "normalizedValue": "Qualcomm Snapdragon 720G",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 720G"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Octa-core Qualcomm Snapdragon 720G CPU",
+          "normalizedValue": "Octa-core Snapdragon 720G",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Snapdragon 720G"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Adreno 618 GPU",
+          "normalizedValue": "Adreno 618",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 618"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "Android 11 with One UI 3.1 at launch",
+          "normalizedValue": "Android 11 / One UI 3.1",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / One UI 3.1"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "64 MP main with OIS + 12 MP ultra-wide + 8 MP telephoto + 5 MP macro",
+          "normalizedValue": 64,
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 64,
+          "unit": "MP",
+          "note": "The numeric catalog field stores the 64 MP main sensor; the source value preserves the full rear-camera array."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "64 MP main camera, f/1.8, autofocus, optical image stabilization",
+          "normalizedValue": "64 MP; f/1.8; AF; OIS"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "12 MP ultra-wide camera, f/2.2",
+          "normalizedValue": "12 MP; f/2.2"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "32 MP front camera, f/2.2",
+          "normalizedValue": 32,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "4K video recording at 30 fps",
+          "normalizedValue": "4K/30 fps",
+          "catalogKey": "video",
+          "catalogValue": "4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "5,000 mAh",
+          "normalizedValue": 5000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Up to 25 W wired fast charging",
+          "normalizedValue": 25,
+          "catalogKey": "chargingW",
+          "catalogValue": 25,
+          "unit": "W"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_specs_2021_h1",
+          "sourceValue": "165.0 x 77.4 x 8.4 mm (H x W x D)",
+          "normalizedValue": "165.0 x 77.4 x 8.4 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.0 x 77.4 x 8.4 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "203 g",
+          "normalizedValue": 203,
+          "catalogKey": "weightG",
+          "catalogValue": 203,
+          "unit": "g"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_a52_a72_global_launch_2021",
+          "sourceValue": "IP67 water and dust resistance",
+          "normalizedValue": "IP67",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS; individual LTE bands not recorded",
+          "normalizedValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Dual Nano-SIM; hybrid SIM/microSD slot",
+          "normalizedValue": "Dual Nano-SIM; hybrid SIM/microSD",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; hybrid SIM/microSD"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac (dual-band)",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, and Galileo",
+          "normalizedValue": "GPS; A-GPS; GLONASS; BeiDou; Galileo"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "USB Type-C",
+          "normalizedValue": "USB Type-C",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "Stereo loudspeakers and Dolby Atmos; 3.5 mm audio jack",
+          "normalizedValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; Dolby Atmos; 3.5 mm jack"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "microSD expansion up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_a72_hands_on_2021",
+          "sourceValue": "8 MP telephoto camera with OIS, f/2.4, 3x optical zoom",
+          "normalizedValue": "8 MP; f/2.4; OIS; 3x optical zoom"
+        }
+      ],
+      "modelCode": "SM-A725F",
+      "sku": "SM-A725FZKHXTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine availability documented from 26 March 2021; exact first transaction time not recorded",
+        "philippineAvailability": "Samsung Philippines' launch promotion covered purchases through select authorized dealers from 26 March 2021, and YugaTech reported nationwide availability beginning that date. The date records reported nationwide availability; the exact first transaction time is not stated.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Philippine availability dated; exact first-sale transaction time not disclosed"
+      }
     }
   ]
 }

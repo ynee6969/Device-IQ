@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-26T10:24:39+08:00
+Generated: 2026-11-26T10:46:49+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -9,9 +9,9 @@ Generated: 2026-11-26T10:24:39+08:00
 | Metric | Actual result |
 | --- | ---: |
 | Models | 456 |
-| Configurations | 552 |
-| Models with manually verified source fields | 276 |
-| Configurations with manually verified source fields | 375 |
+| Configurations | 554 |
+| Models with manually verified source fields | 278 |
+| Configurations with manually verified source fields | 379 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 12 |
@@ -19,14 +19,14 @@ Generated: 2026-11-26T10:24:39+08:00
 | Complete with disclosed gaps | 11 |
 | Incomplete models | 445 |
 | Conflicting specification records | 4 |
-| Assessed specification fields | 10967 |
-| Verified specification fields | 10630 |
+| Assessed specification fields | 11109 |
+| Verified specification fields | 10770 |
 | Unavailable fields | 262 |
-| Not applicable fields | 71 |
-| Pending verification fields | 14280 |
+| Not applicable fields | 73 |
+| Pending verification fields | 14228 |
 | Manually reviewed price candidates | 19 |
-| Assessment coverage | 43.44% |
-| Verified coverage | 42.10% |
+| Assessment coverage | 43.84% |
+| Verified coverage | 42.51% |
 | Candidate field observations | 5824 |
 | Candidate prices | 411 |
 | Candidate source links | 203 |
@@ -41,7 +41,7 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 
 | Category | Models | Configurations | Applicable field rows | Assessed | Verified | Pending | Assessment | Verified coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| smartphones | 288 | 365 | 16425 | 8482 | 8291 | 7943 | 51.64% | 50.48% |
+| smartphones | 288 | 367 | 16515 | 8624 | 8431 | 7891 | 52.22% | 51.05% |
 | tablets | 150 | 165 | 7920 | 2072 | 1928 | 5848 | 26.16% | 24.34% |
 | laptops | 18 | 22 | 902 | 413 | 411 | 489 | 45.79% | 45.57% |
 
@@ -54,7 +54,7 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 - Candidate field observations by source type: `{'independent_ph_reference': 6072, 'local_technology_publication': 6, 'official': 144}`.
 - Candidate prices: 411; discovery links: 203.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
-- 14280 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
+- 14228 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 
 ## Field backlog
 
@@ -63,18 +63,18 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | Group | Applicable rows | Assessed | Verified | Pending |
 | --- | ---: | ---: | ---: | ---: |
 | Accessories | 330 | 86 | 86 | 244 |
-| Audio | 552 | 305 | 305 | 247 |
-| Battery | 2186 | 908 | 818 | 1278 |
-| Build | 2186 | 885 | 868 | 1301 |
-| Camera | 3202 | 1466 | 1395 | 1736 |
-| Connectivity | 3985 | 1936 | 1902 | 2049 |
-| Display | 3334 | 1709 | 1701 | 1625 |
-| Identity | 1104 | 406 | 375 | 698 |
+| Audio | 554 | 309 | 309 | 245 |
+| Battery | 2194 | 916 | 826 | 1278 |
+| Build | 2194 | 897 | 880 | 1297 |
+| Camera | 3214 | 1490 | 1417 | 1724 |
+| Connectivity | 3999 | 1964 | 1930 | 2035 |
+| Display | 3346 | 1729 | 1721 | 1617 |
+| Identity | 1108 | 414 | 383 | 694 |
 | Input | 44 | 7 | 7 | 37 |
-| Memory | 2782 | 1115 | 1106 | 1667 |
-| Other | 552 | 287 | 287 | 265 |
-| Philippine market | 1678 | 372 | 347 | 1306 |
-| Platform | 3312 | 1485 | 1433 | 1827 |
+| Memory | 2792 | 1127 | 1118 | 1665 |
+| Other | 554 | 287 | 287 | 267 |
+| Philippine market | 1684 | 382 | 357 | 1302 |
+| Platform | 3324 | 1501 | 1449 | 1823 |
 
 ## Priority list
 
@@ -175,8 +175,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2021 | smartphones | OnePlus | Nord 2 | Configuration not recorded | `device_15827b1eab335d-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Redmi | 9T | Configuration not recorded | `device_b52492e270dd1f-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Redmi | Note 10 | Configuration not recorded | `device_91090601d354b8-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2021 | smartphones | Samsung | A52 | Configuration not recorded | `device_edb8f688862988-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
-| 2021 | smartphones | Samsung | A72 | Configuration not recorded | `device_528380ceb337d2-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Samsung | Z Fold3 | Configuration not recorded | `device_f6ce8c275dee32-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | TECNO | Camon 17P | Configuration not recorded | `device_097c07418374a0-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | TECNO | Spark 7 | Configuration not recorded | `device_cca2630fec4a42-unrecorded` | 44 | 45 | SPECIFICATION_INCOMPLETE |
@@ -571,6 +569,8 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | Redmi | 15C | 8 GB RAM / 256 GB storage | `device_37b298a84397b6-auto-8gb-256gb` | 11 | 45 | SPECIFICATION_INCOMPLETE |
 | Unassigned | tablets | Redmi | Pad 2 Pro | 8 GB / 256 GB | `config_4efe2baa687b69` | 11 | 48 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Xiaomi | 14 | Configuration not recorded | `device_e2f76126f7f83b-unrecorded` | 10 | 45 | SPECIFICATION_INCOMPLETE |
+| 2021 | smartphones | Samsung | A52 | 8 GB RAM / 128 GB storage | `device_edb8f688862988-samsung-8gb-128gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
+| 2021 | smartphones | Samsung | A72 | 8 GB RAM / 128 GB storage | `device_528380ceb337d2-samsung-8gb-128gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | ASUS | ROG Phone 6 | 12 GB RAM / 256 GB storage | `device_67c3c6cf323fd4-auto-12gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Nothing | Phone (2a) | 8 GB RAM / 128 GB storage | `device_c98433a0c7ffce-auto-8gb-128gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | Nothing | Phone (2a) | 12 GB RAM / 256 GB storage | `device_c98433a0c7ffce-auto-12gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
@@ -582,6 +582,8 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | Samsung | Galaxy S26 FE | 8 GB RAM / 128 GB storage | `device_6c173ec56f86ac-auto-8gb-128gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | Galaxy S26 FE | 8 GB RAM / 256 GB storage | `device_6c173ec56f86ac-auto-8gb-256gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | Samsung | Galaxy S26 FE | 8 GB RAM / 512 GB storage | `device_6c173ec56f86ac-auto-8gb-512gb` | 10 | 45 | SPECIFICATION_INCOMPLETE |
+| 2021 | smartphones | Samsung | A52 | 8 GB RAM / 256 GB storage | `device_edb8f688862988-samsung-8gb-256gb` | 9 | 45 | SPECIFICATION_INCOMPLETE |
+| 2021 | smartphones | Samsung | A72 | 8 GB RAM / 256 GB storage | `device_528380ceb337d2-samsung-8gb-256gb` | 9 | 45 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | ASUS | ROG Phone 6 | 16 GB RAM / 512 GB storage | `device_67c3c6cf323fd4-auto-16gb-512gb` | 9 | 45 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Xiaomi | Pad 8 | 8 GB / 256 GB | `config_6d5db11cec127a` | 9 | 48 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | ASUS | ROG Phone 7 | 12 GB RAM / 256 GB storage | `device_3f9fd3e4da0935-auto-12gb-256gb` | 8 | 45 | SPECIFICATION_INCOMPLETE |
