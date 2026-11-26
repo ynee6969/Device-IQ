@@ -128903,6 +128903,530 @@
           "note": "YugaTech tested a Wi-Fi-only 4 GB / 128 GB unit; the listing does not establish that every unit in this storage tier is Wi-Fi only."
         }
       ]
+    },
+    {
+      "deviceId": "device_070c7fa225849f",
+      "configurationId": "device_070c7fa225849f-8gb-256gb-wifi-got-w29",
+      "brand": "Huawei",
+      "model": "MatePad Pro 11 (2022)",
+      "configuration": "8 GB RAM / 256 GB storage / Wi-Fi (GOT-W29)",
+      "configurationLabel": "8 GB RAM / 256 GB storage / Wi-Fi (GOT-W29)",
+      "sources": [
+        {
+          "id": "huawei_matepad_pro_11_2022_official_specs",
+          "publisher": "HUAWEI Russia",
+          "url": "https://consumer.huawei.com/ru/tablets/matepad-pro-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications for the exact GOT-W29 Wi-Fi hardware branch",
+          "note": "Huawei's specifications distinguish GOT-W29 from GOT-AL09. GOT-W29 is the Wi-Fi model with Snapdragon 870, Adreno 650, Bluetooth 5.1, 40 W SuperCharge, 449 g weight, and the listed W29-specific network profile. Model-level display, camera, battery, USB, audio, and sensor fields are also taken from this official page."
+        },
+        {
+          "id": "huawei_matepad_pro_11_ph_supported_configs",
+          "publisher": "HUAWEI Support Philippines",
+          "url": "https://consumer.huawei.com/ph/support/content/en-us15907947/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine-supported product and memory configurations",
+          "note": "The Philippine support page explicitly includes MatePad Pro 11-inch 2022 Wi-Fi 8 GB + 256 GB. It also lists separate 8 GB + 128 GB Wi-Fi and 8 GB + 256 GB LTE variants; only the Wi-Fi 8 GB + 256 GB Philippine launch configuration is used here."
+        },
+        {
+          "id": "huawei_matepad_pro_11_ph_preorder",
+          "publisher": "HUAWEI Philippines Community",
+          "url": "https://consumer.huawei.com/ph/community/details/topicId-182067/",
+          "publicationDate": "2022-09-01",
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine preorder window and local launch details",
+          "note": "Huawei Philippines says the preorder promotion ran September 2–8, 2022. The window confirms local preorder availability; the notice does not establish the general retail delivery date."
+        },
+        {
+          "id": "huawei_matepad_pro_11_ph_stylus",
+          "publisher": "HUAWEI Support Philippines",
+          "url": "https://consumer.huawei.com/ph/support/content/en-us00737675/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine stylus compatibility",
+          "note": "Huawei lists the MatePad Pro 11-inch 2022 GOT family as compatible with M-Pencil (2nd generation). The Philippine preorder offer also included the 2nd-generation pencil as a promotion accessory."
+        },
+        {
+          "id": "huawei_matepad_pro_11_ph_keyboard",
+          "publisher": "HUAWEI Support Philippines",
+          "url": "https://consumer.huawei.com/ph/support/content/en-us15905486/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine keyboard compatibility and model-family cross-check",
+          "note": "Huawei's support article identifies the MatePad Pro 11-inch 2022 model family as GOT and documents its compatible Smart Magnetic Keyboard."
+        },
+        {
+          "id": "yugatech_matepad_pro_11_ph_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/huawei-matepad-pro-11-priced-in-the-philippines/",
+          "publicationDate": "2022-09-01",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, preorder price, and local feature cross-check",
+          "note": "YugaTech reports the Philippine Wi-Fi launch configuration, PHP 41,999 preorder price for September 2–8, authorized sales channels, and local device details. Price is retained as a historical preorder-price observation, not a current offer or separately confirmed MSRP."
+        },
+        {
+          "id": "yugatech_matepad_pro_11_specs",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/spec/huawei-matepad-pro-11/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine specification cross-check",
+          "note": "YugaTech's MatePad Pro 11 specification page corroborates the Wi-Fi model's 40 W SuperCharge and core hardware specifications."
+        },
+        {
+          "id": "datablitz_matepad_pro_11_got_w29",
+          "publisher": "DataBlitz",
+          "url": "https://ecommerce.datablitz.com.ph/products/huawei-matepad-pro-wifi-11-2-560x1-600-oled-120hz-8gb-256gb-harmonyos-3-got-w29-golden-black",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine retailer SKU / configuration cross-check",
+          "note": "The Philippine retailer product listing identifies an 8 GB + 256 GB Wi-Fi unit with model code GOT-W29. Huawei's official regional specification page separately defines the W29 hardware branch; the retailer listing is used only to connect that code to a local product listing."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "datablitz_matepad_pro_11_got_w29",
+          "sourceValue": "Retailer lists GOT-W29; Huawei support identifies the Philippine model family as GOT.",
+          "normalizedValue": "GOT-W29",
+          "note": "Exact SKU code comes from the Philippine retailer listing. Huawei's primary spec page confirms GOT-W29 is the Wi-Fi hardware branch."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_ph_supported_configs",
+          "sourceValue": "11-inch 2022 Wi-Fi, 8 GB RAM + 256 GB storage",
+          "normalizedValue": "8 GB RAM / 256 GB storage / Wi-Fi",
+          "note": "Huawei Philippines explicitly lists this configuration; local launch reporting says this was the Philippine launch variant."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_ph_preorder",
+          "sourceValue": "Philippine preorder promotion: September 2–8, 2022; first general retail sale date not stated.",
+          "normalizedValue": "2022-09-02",
+          "note": "This is the start of Huawei Philippines' authorized preorder window, not a claimed shipment or general-retail date."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_matepad_pro_11_ph_launch",
+          "sourceValue": "PHP 41,999 reported preorder price; source does not explicitly label this an SRP.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep official MSRP unresolved. The dated amount is separately recorded as the historical local preorder-price observation."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_pro_11_ph_launch",
+          "sourceValue": "PHP 41,999 Philippine preorder price, September 2–8, 2022.",
+          "normalizedValue": 41999,
+          "unit": "PHP",
+          "note": "Historical preorder-price observation; the source also describes promotional accessories. This is not a current offer and is not asserted as a standalone MSRP.",
+          "priceCondition": "new",
+          "priceType": "Historical Philippine preorder price (not current)",
+          "priceObservedAt": "2022-09-02"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "11 inches",
+          "normalizedValue": 11,
+          "catalogKey": "displayInches",
+          "catalogValue": 11,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "OLED",
+          "normalizedValue": "OLED",
+          "catalogKey": "displayType",
+          "catalogValue": "OLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "WQXGA 2560 × 1600",
+          "normalizedValue": "2560 x 1600",
+          "catalogKey": "resolution",
+          "catalogValue": "2560 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Up to 120 Hz",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_pro_11_ph_launch",
+          "sourceValue": "600 nits peak brightness",
+          "normalizedValue": 600,
+          "unit": "nits",
+          "note": "Contemporaneous Philippine launch specifications give a 600-nit peak figure; this value is sourced to YugaTech rather than the opened Huawei spec table."
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "yugatech_matepad_pro_11_ph_launch",
+          "sourceValue": "YugaTech reports TÜV Rheinland Full Care Display 3.0 certification; no cover-glass type is stated.",
+          "normalizedValue": null,
+          "note": "The certification is recorded in the source, but it does not identify a protective glass material. No glass type is assigned.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Qualcomm Snapdragon 870 Mobile Platform (GOT-W29)",
+          "normalizedValue": "Qualcomm Snapdragon 870",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 870"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "The reviewed Huawei specification page names the chipset but does not state its manufacturing process."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "1 × Cortex-A77 3.2 GHz + 3 × Cortex-A77 2.42 GHz + 4 × Cortex-A55 1.8 GHz",
+          "normalizedValue": "1x Cortex-A77 3.2 GHz + 3x Cortex-A77 2.42 GHz + 4x Cortex-A55 1.8 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "1x Cortex-A77 3.2 GHz + 3x Cortex-A77 2.42 GHz + 4x Cortex-A55 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Adreno 650 (GOT-W29)",
+          "normalizedValue": "Adreno 650",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 650"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "HarmonyOS 3",
+          "normalizedValue": "HarmonyOS 3",
+          "catalogKey": "os",
+          "catalogValue": "HarmonyOS 3"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "A model-specific OS/security update schedule is not published in the reviewed sources."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_ph_supported_configs",
+          "sourceValue": "8 GB RAM",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-configuration sources do not identify RAM type or speed."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_ph_supported_configs",
+          "sourceValue": "256 GB internal storage",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "The reviewed manufacturer specification lists capacity but not the internal storage interface/type."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "No supported memory-card expansion is stated on the reviewed model-matched specifications."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "13 MP f/1.8 autofocus main camera + 8 MP f/2.2 fixed-focus ultra-wide camera",
+          "normalizedValue": "13 MP main + 8 MP ultra-wide rear cameras"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "13 MP f/1.8 autofocus main camera; sensor make/model not stated.",
+          "normalizedValue": "13 MP f/1.8 autofocus; sensor make/model not disclosed"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "8 MP f/2.2 fixed-focus ultra-wide rear camera",
+          "normalizedValue": "8 MP f/2.2 fixed-focus",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "The published rear-camera system lists main and ultra-wide cameras only.",
+          "normalizedValue": "No telephoto camera listed"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "16 MP f/2.2 fixed-focus front camera",
+          "normalizedValue": 16,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Rear video up to 3840 × 2160; front video up to 1920 × 1080.",
+          "normalizedValue": "Rear up to 3840 x 2160; front up to 1920 x 1080"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "8,300 mAh typical; 8,200 mAh rated",
+          "normalizedValue": 8300,
+          "catalogKey": "batteryMah",
+          "catalogValue": 8300,
+          "unit": "mAh",
+          "note": "Catalog capacity uses Huawei's typical value; the manufacturer separately states 8,200 mAh rated capacity."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Built-in, non-removable battery; chemistry not stated.",
+          "normalizedValue": "Built-in, non-removable; chemistry not disclosed"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "GOT-W29 supports HUAWEI SuperCharge up to 40 W; 40 W adapter/cable sold separately.",
+          "normalizedValue": 40,
+          "catalogKey": "chargingW",
+          "catalogValue": 40,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "USB OTG reverse wired charging up to 5 V / 1.5 A; wireless charging not stated.",
+          "normalizedValue": "Reverse wired charging via USB OTG; wireless charging not disclosed"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "160.38 × 249.23 × 5.9 mm",
+          "normalizedValue": "160.38 x 249.23 x 5.9",
+          "catalogKey": "dimensions",
+          "catalogValue": "160.38 x 249.23 x 5.9",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Approximately 449 g for GOT-W29",
+          "normalizedValue": 449,
+          "catalogKey": "weightG",
+          "catalogValue": 449,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "Frame and rear-cover materials are not identified in the reviewed exact-model specifications."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "No IP ingress-protection rating is stated in the reviewed sources."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "huawei_matepad_pro_11_ph_supported_configs",
+          "sourceValue": "Philippine launch configuration is Wi-Fi only; no SIM/eSIM variant.",
+          "normalizedValue": "Not applicable to Wi-Fi-only configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "huawei_matepad_pro_11_ph_supported_configs",
+          "sourceValue": "Wi-Fi-only Philippine launch configuration; cellular bands do not apply.",
+          "normalizedValue": "Not applicable to Wi-Fi-only configuration"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "IEEE 802.11 a/b/g/n/ac/ax, 2.4 GHz and 5 GHz; GOT-W29 supports HE80.",
+          "normalizedValue": "802.11 a/b/g/n/ac/ax; 2.4/5 GHz",
+          "catalogKey": "wifi",
+          "catalogValue": "802.11 a/b/g/n/ac/ax; 2.4/5 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Bluetooth 5.1 (GOT-W29)",
+          "normalizedValue": "Bluetooth 5.1"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "USB Type-C; USB 3.1 Gen 1 support requires a compatible separately purchased cable; bundled cable is USB 2.0.",
+          "normalizedValue": "USB Type-C; USB 3.1 Gen 1 capable; bundled cable USB 2.0",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.1 Gen 1 capable; bundled cable USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Not stated in the reviewed manufacturer and Philippine launch specifications.",
+          "normalizedValue": null,
+          "note": "NFC is not mentioned in the reviewed model-matched specifications."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, and QZSS listed for GOT-W29.",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Six speakers; HUAWEI SOUND",
+          "normalizedValue": "6 speakers; HUAWEI SOUND",
+          "catalogKey": "sound",
+          "catalogValue": "6 speakers; HUAWEI SOUND"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_2022_official_specs",
+          "sourceValue": "Ambient-light, compass, gravity, gyroscope, and Hall sensors.",
+          "normalizedValue": "Ambient light; compass; gravity; gyroscope; Hall"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_ph_stylus",
+          "sourceValue": "M-Pencil (2nd generation) supported for the GOT family.",
+          "normalizedValue": "HUAWEI M-Pencil (2nd generation) compatible",
+          "catalogKey": "stylus",
+          "catalogValue": "HUAWEI M-Pencil (2nd generation) compatible"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_ph_keyboard",
+          "sourceValue": "Compatible with HUAWEI Smart Magnetic Keyboard; preorder promotion included the detachable magnetic keyboard.",
+          "normalizedValue": "HUAWEI Smart Magnetic Keyboard compatible",
+          "catalogKey": "keyboard",
+          "catalogValue": "HUAWEI Smart Magnetic Keyboard compatible"
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_pro_11_ph_supported_configs",
+          "sourceValue": "Philippine launch configuration: Wi-Fi only, 8 GB RAM / 256 GB storage.",
+          "normalizedValue": "Wi-Fi only",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only"
+        }
+      ],
+      "modelCode": "GOT-W29",
+      "replacementVariants": [
+        {
+          "id": "device_070c7fa225849f-8gb-256gb-wifi-got-w29",
+          "label": "8 GB RAM / 256 GB storage / Wi-Fi (GOT-W29)",
+          "sku": null,
+          "modelCode": "GOT-W29",
+          "notes": "Philippine Wi-Fi configuration is named in Huawei Philippines support; the GOT-W29 SKU is cross-identified by a local retailer and Huawei's regional spec page."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "HUAWEI Philippines preorder promotion ran September 2–8, 2022; general retail availability date not recorded.",
+        "philippineAvailability": "The MatePad Pro 11 was offered through Huawei Philippines stores and authorized retail channels. The documented date is the start of the preorder window, not a confirmed general-sale or delivery date.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Preorder date is documented; general retail first-sale date not recorded.",
+        "manufacturer": "Huawei",
+        "productLine": "MatePad Pro",
+        "modelNumber": "GOT",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine preorder start",
+        "researchNotes": "Philippine 8 GB / 256 GB Wi-Fi configuration matched to GOT-W29. Huawei's official regional specifications distinguish it from GOT-AL09 LTE hardware, so LTE chipset and 66 W charging details are not applied. Preorder timing and price are historical; general retail date and official SRP remain unconfirmed.",
+        "openIssues": [
+          {
+            "issue": "General retail availability date not recorded",
+            "action": "Keep the September 2, 2022 preorder start labeled as preorder availability; do not present it as the first delivery or general-sale date."
+          }
+        ]
+      }
     }
   ]
 }

@@ -368,11 +368,14 @@ for review in manual_reviews.get("records", []):
         device["philippineAvailability"] = availability.get("philippineAvailability", device["philippineAvailability"])
         device["localEvidenceObservedAt"] = availability.get("observedAt", device.get("localEvidenceObservedAt"))
         device["qualityFlag"] = availability.get("qualityFlag", device.get("qualityFlag"))
+        for metadata_key in ("manufacturer", "productLine", "modelNumber", "philippineReleaseYear", "philippineDateLabel", "researchNotes"):
+            if availability.get(metadata_key) is not None:
+                device[metadata_key] = availability[metadata_key]
         # Local availability is source-backed; keep exact first-sale timing separate.
-        device["openIssues"] = [{
+        device["openIssues"] = availability.get("openIssues", [{
             "issue": "Exact first-sale transaction time not recorded",
             "action": "Keep the documented Philippine availability date separate from the exact first transaction time.",
-        }]
+        }])
 
 if len(master) != 456 or len(catalog) != 463:
     raise ValueError(f"Unexpected workbook inventory counts: {len(master)} master, {len(catalog)} public")

@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-26T11:35:32+08:00
+Updated: 2026-11-26T11:49:31+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-26T11:35:32+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 555 |
-| Models with manually verified source fields | 281 |
-| Configurations with manually verified source fields | 383 |
+| Models with manually verified source fields | 282 |
+| Configurations with manually verified source fields | 384 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 12 |
 | Specification-complete models | 0 |
 | Incomplete models | 445 |
 | Applicable field assignments | 25385 |
-| Fields assessed | 11296 |
-| Verified fields | 10953 |
-| Pending fields | 14089 |
+| Fields assessed | 11343 |
+| Verified fields | 10988 |
+| Pending fields | 14042 |
 | PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -81,7 +81,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2022 | smartphones | vivo | 2 | 0 | 2 | 0 | 0 | 2 | 31 | 31 | 59 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Apple | 3 | 0 | 3 | 0 | 0 | 3 | 29 | 26 | 115 | 0 | 3 | 0 | 0 | 3 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | HONOR | 1 | 0 | 1 | 0 | 0 | 1 | 28 | 28 | 20 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2022 | tablets | Huawei | 2 | 1 | 2 | 0 | 0 | 2 | 108 | 108 | 132 | 0 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2022 | tablets | Huawei | 2 | 2 | 2 | 0 | 0 | 2 | 155 | 143 | 85 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Lenovo | 2 | 0 | 2 | 0 | 0 | 2 | 25 | 25 | 71 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | Nokia | 2 | 0 | 2 | 0 | 0 | 2 | 27 | 27 | 69 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2022 | tablets | OPPO | 1 | 0 | 1 | 0 | 0 | 1 | 24 | 24 | 24 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
