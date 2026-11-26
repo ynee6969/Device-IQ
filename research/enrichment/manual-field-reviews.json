@@ -129427,6 +129427,1127 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_d34ec0baa2b329",
+      "configurationId": "device_d34ec0baa2b329-tb125fu-g80-3gb-32gb-wifi",
+      "brand": "Lenovo",
+      "model": "Tab M10 Plus 3rd Gen",
+      "configuration": "3 GB RAM / 32 GB storage / Wi-Fi / MediaTek Helio G80 (TB125FU)",
+      "configurationLabel": "3 GB RAM / 32 GB storage / Wi-Fi / MediaTek Helio G80 (TB125FU)",
+      "sources": [
+        {
+          "id": "lenovo_m10_plus_3rd_psref",
+          "publisher": "Lenovo PSREF",
+          "url": "https://psref.lenovo.com/Product/Lenovo_Tablets/Tab_M10_Plus_3rd_Gen?tab=spec",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official model-family specification reference",
+          "note": "Lenovo PSREF lists the Tab M10 Plus (3rd Gen) options, including 10.61-inch 2000 x 1200 IPS, 60 Hz, 400 nits, PC + metal, 7,500 mAh minimum / 7,700 mAh typical battery, cameras, sensors, ports, memory/storage types, and both processor families. It warns that options vary by model and region."
+        },
+        {
+          "id": "lenovo_m10_plus_3rd_psref_g80",
+          "publisher": "Lenovo PSREF",
+          "url": "https://psref.lenovo.com/Detail/Lenovo_Tablets/Tab_M10_Plus_3rd_Gen?M=ZAAK0014US",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact G80 3 GB / 32 GB Wi-Fi model cross-check",
+          "note": "The specific Lenovo ZAAK0014US PSREF configuration maps TB125FU to MediaTek Helio G80, 3 GB LPDDR4x, 32 GB eMMC 5.1, and Wi-Fi-only connectivity. This is an official configuration reference; the local launch configuration is separately matched to Philippine sources."
+        },
+        {
+          "id": "lenovo_m10_plus_3rd_datasheet",
+          "publisher": "Lenovo",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/datasheet/Lenovo_Tab-M10-Plus-3Gen_datasheet_EN.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official battery and charging capability reference",
+          "note": "Lenovo's product datasheet states 7,700 mAh capacity and support for up to 20 W Quick Charge. The PSREF notes that supplied adapter wattage varies by country."
+        },
+        {
+          "id": "lenovo_m10_plus_3rd_ph_support",
+          "publisher": "Lenovo Support Philippines",
+          "url": "https://support.lenovo.com/ph/en/solutions/ht513627-ht513574-lenovo-tab-m10-3rd-gen-tb328fu-tb328xu-frequently-asked-questions-faqs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine support model and Wi-Fi configuration cross-check",
+          "note": "Lenovo Philippines support identifies the TB125FU Wi-Fi product family and lists 3 GB + 32 GB, 4 GB + 64 GB, and 4 GB + 128 GB configurations. This supports the Wi-Fi model family and capacity options but does not map every processor to each local option."
+        },
+        {
+          "id": "yugatech_m10_plus_ph_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/lenovo-tab-m10-and-m10-plus-priced-in-the-philippines/",
+          "publicationDate": "2022-11-07",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, configuration, price, and feature reference",
+          "note": "YugaTech reports the Philippine launch of a 3 GB + 32 GB Helio G80 version at PHP 10,995 and a 4 GB + 64 GB Snapdragon 680 version at PHP 14,995, with authorized Lenovo stores and reseller channels. The article does not publish the exact Lenovo SKU or explicitly identify the first sale day."
+        },
+        {
+          "id": "gizguide_m10_plus_ph_launch",
+          "publisher": "GizGuide",
+          "url": "https://www.gizguide.com/2022/11/lenovo-tab-m10-3rd-gen-ph-price-specs-official.html",
+          "publicationDate": "2022-11-08",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch cross-check and discrepancy record",
+          "note": "GizGuide confirms Philippine availability and the two processor families. Its detail table lists 4 GB + 64 GB for Snapdragon 680, but its summary price line labels that option 4 GB + 32 GB; this storage inconsistency is retained rather than used to create a separate variant."
+        },
+        {
+          "id": "abenson_m10_plus_lte",
+          "publisher": "Abenson / Electroworld",
+          "url": "https://electroworld.abenson.com/lenovo-tab-m10-plus-3rd-gen-lte-zaan0009ph-storm-grey.html",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine LTE SKU, configuration, and dated retailer price listing",
+          "note": "The local retailer identifies a Tab M10 Plus 3rd Gen LTE with 4 GB + 64 GB, Snapdragon SDM680, and a ZAAN0009PH listing. Its page showed PHP 16,497 and a notify-me state when reviewed; this is not treated as a currently purchasable offer."
+        },
+        {
+          "id": "villman_m10_plus_lte",
+          "publisher": "VillMan Computers",
+          "url": "https://villman.com/Product-Detail/lenovo_tab-m10-plus-gen-3lte-zaan0009ph1061inch-2k-ips-400nits-60hzsnapdragon-6804gb64gbqualcomm-adreno-610-android-12",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine LTE SKU technical cross-check",
+          "note": "VillMan lists ZAAN0009PH / TB128XU with 4 GB + 64 GB, Snapdragon 680, UFS 2.2, LTE, Android 12, cameras, battery, and build details; its page says the product is phased out."
+        },
+        {
+          "id": "datablitz_m10_plus_lte",
+          "publisher": "DataBlitz",
+          "url": "https://ecommerce.datablitz.com.ph/products/lenovo-tab-m10-plus-3rd-gen-10-61-2k-4gb-64gb-4g-lte-storm-grey-zaan0009ph",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine LTE SKU listing and conflicting processor/price candidate",
+          "note": "DataBlitz lists the same ZAAN0009PH 4 GB + 64 GB LTE product, but identifies the chipset as Helio G80 rather than Snapdragon 680 and showed PHP 10,995 with the product sold out. The conflict is retained and neither price is presented as a current purchasable offer."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "lenovo_m10_plus_3rd_ph_support",
+          "sourceValue": "TB125FU (Wi-Fi family)",
+          "normalizedValue": "TB125FU",
+          "note": "The Wi-Fi model family is named by Lenovo Support Philippines; the LTE retailer part number and TB128XU family are taken from Philippine retailer product records."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "3 GB RAM + 32 GB storage + MediaTek Helio G80; Philippine launch listing identifies TB125FU Wi-Fi family.",
+          "normalizedValue": "3 GB RAM / 32 GB storage / MediaTek Helio G80 / Wi-Fi",
+          "note": "YugaTech identifies this local launch configuration; Lenovo Support Philippines lists the same RAM/storage tier for its TB125FU Wi-Fi family."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "Lenovo Philippines introduced and listed the Tab M10 Plus 3rd Gen in November 2022; exact first-sale day not established.",
+          "normalizedValue": "November 2022",
+          "note": "Month-level local launch/availability evidence only; the article publication date is not treated as an exact first sale."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "Official SRP not established; YugaTech reported the Philippine launch price shown below.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "The local launch report gives a dated listing price but does not establish that it was a manufacturer SRP."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "YugaTech Philippine launch listing: PHP 10,995 for 3 GB / 32 GB Helio G80.",
+          "normalizedValue": 10995,
+          "unit": "PHP",
+          "note": "Historical November 2022 Philippine launch-price observation; not a current offer.",
+          "priceCondition": "new",
+          "priceType": "Historical Philippine launch listing (not current)",
+          "priceObservedAt": "2022-11-07"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "10.61 inches",
+          "normalizedValue": 10.61,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.61,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "IPS",
+          "normalizedValue": "IPS",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "2000 x 1200",
+          "normalizedValue": "2000 x 1200",
+          "catalogKey": "resolution",
+          "catalogValue": "2000 x 1200"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "60 Hz",
+          "normalizedValue": 60,
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "400 nits",
+          "normalizedValue": 400,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Anti-fingerprint surface; no strengthened cover-glass material is identified.",
+          "normalizedValue": "Anti-fingerprint surface; cover-glass type not stated"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "MediaTek Helio G80",
+          "normalizedValue": "MediaTek Helio G80",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio G80",
+          "note": "Exact G80 3 GB / 32 GB TB125FU configuration is documented by Lenovo PSREF and matched to the local launch listing."
+        },
+        {
+          "fieldId": "process_node",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not recorded for the exact Philippine configuration in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Lenovo's exact SKU specifications do not state a fabrication process."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "2 x Cortex-A75 up to 2.0 GHz + 6 x Cortex-A55 up to 1.8 GHz",
+          "normalizedValue": "2x Cortex-A75 2.0 GHz + 6x Cortex-A55 1.8 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "2x Cortex-A75 2.0 GHz + 6x Cortex-A55 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Arm Mali-G52 MC2",
+          "normalizedValue": "Arm Mali-G52 MC2",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G52 MC2"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Android 12 at launch; Lenovo PSREF lists Android 12 or later.",
+          "normalizedValue": "Android 12 at launch",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 at launch"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "YugaTech reports three years of security updates at launch; Lenovo does not publish a PH-specific end date in the reviewed sources.",
+          "normalizedValue": "3 years of security updates reported; exact support end date not recorded"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_ph_support",
+          "sourceValue": "3 GB",
+          "normalizedValue": 3,
+          "catalogKey": "ramGb",
+          "catalogValue": 3,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "LPDDR4x",
+          "normalizedValue": "LPDDR4x",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR4x"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_ph_support",
+          "sourceValue": "32 GB",
+          "normalizedValue": 32,
+          "catalogKey": "storageGb",
+          "catalogValue": 32,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref_g80",
+          "sourceValue": "32 GB eMMC 5.1",
+          "normalizedValue": "eMMC 5.1",
+          "catalogKey": "storageType",
+          "catalogValue": "eMMC 5.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "microSD card slot supports up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "8 MP f/2.2 autofocus rear camera",
+          "normalizedValue": "8 MP f/2.2 autofocus rear camera"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "8 MP f/2.2 autofocus rear camera; sensor make/model not stated.",
+          "normalizedValue": "8 MP f/2.2 autofocus; sensor make/model not disclosed"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "The manufacturer lists one rear camera and no ultrawide module.",
+          "normalizedValue": "No ultrawide camera listed"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "The manufacturer lists one rear camera and no telephoto module.",
+          "normalizedValue": "No telephoto camera listed"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "8 MP f/2.0 fixed-focus front camera",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not recorded for the exact Philippine configuration in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "The reviewed manufacturer specifications do not state camera video modes or frame rates."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "7,700 mAh typical; 7,500 mAh minimum",
+          "normalizedValue": 7700,
+          "catalogKey": "batteryMah",
+          "catalogValue": 7700,
+          "unit": "mAh",
+          "note": "Catalog uses Lenovo's typical capacity; the manufacturer separately lists 7,500 mAh minimum."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Integrated lithium-polymer battery",
+          "normalizedValue": "Integrated lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_datasheet",
+          "sourceValue": "Lenovo lists 20 W Quick Charge; country-specific adapter offerings include 10 W and 20 W.",
+          "normalizedValue": 20,
+          "catalogKey": "chargingW",
+          "catalogValue": 20,
+          "unit": "W",
+          "note": "This is the maximum supported charge figure. Lenovo says the bundled adapter depends on market; the exact Philippine adapter for each variant is not confirmed."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "Wireless charging is not stated in the reviewed manufacturer specifications."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "251.2 x 158.8 x 7.45 mm (W x D x H)",
+          "normalizedValue": "251.2 x 158.8 x 7.45",
+          "catalogKey": "dimensions",
+          "catalogValue": "251.2 x 158.8 x 7.45",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Approximately 465 g",
+          "normalizedValue": 465,
+          "catalogKey": "weightG",
+          "catalogValue": 465,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "PC + metal",
+          "normalizedValue": "PC + metal"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "No IP ingress-protection rating is stated in the reviewed specifications."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "lenovo_m10_plus_3rd_ph_support",
+          "sourceValue": "TB125FU Wi-Fi configuration has no SIM/eSIM.",
+          "normalizedValue": "Not applicable to Wi-Fi-only configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "lenovo_m10_plus_3rd_ph_support",
+          "sourceValue": "Wi-Fi-only; cellular bands not applicable.",
+          "normalizedValue": "Not applicable to Wi-Fi-only configuration"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Wi-Fi 5; IEEE 802.11ac 1x1, 2.4 GHz and 5 GHz",
+          "normalizedValue": "Wi-Fi 5, 802.11ac 1x1; 2.4/5 GHz",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5, 802.11ac 1x1; 2.4/5 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "USB-C 2.0 and 3.5 mm headphone/microphone combo jack",
+          "normalizedValue": "USB-C 2.0; 3.5 mm combo jack",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C 2.0; 3.5 mm combo jack"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "NFC support is not stated in the reviewed manufacturer specifications."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "GPS, GLONASS, Galileo, and BeiDou",
+          "normalizedValue": "GPS; GLONASS; Galileo; BeiDou"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Four 1 W speakers with Dolby Atmos; one microphone",
+          "normalizedValue": "Four 1 W Dolby Atmos speakers; mono microphone",
+          "catalogKey": "sound",
+          "catalogValue": "Four 1 W Dolby Atmos speakers; mono microphone"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Accelerometer, ambient-light sensor, gyroscope, and Hall sensor",
+          "normalizedValue": "Accelerometer; ambient light; gyroscope; Hall"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Compatible with Lenovo Precision Pen 2; optional or bundled depending on configuration.",
+          "normalizedValue": "Lenovo Precision Pen 2 compatible; bundle varies",
+          "catalogKey": "stylus",
+          "catalogValue": "Lenovo Precision Pen 2 compatible; bundle varies"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "A compatible keyboard was not identified in the reviewed specifications."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_ph_support",
+          "sourceValue": "TB125FU Wi-Fi only",
+          "normalizedValue": "Wi-Fi only",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only"
+        }
+      ],
+      "modelCode": "TB125FU",
+      "replacementVariants": [
+        {
+          "id": "device_d34ec0baa2b329-tb125fu-g80-3gb-32gb-wifi",
+          "label": "3 GB RAM / 32 GB storage / Wi-Fi / MediaTek Helio G80 (TB125FU)",
+          "sku": null,
+          "modelCode": "TB125FU",
+          "notes": "Philippine launch configuration reported by YugaTech; the matching Lenovo TB125FU PSREF build is Wi-Fi, Helio G80, 3 GB / 32 GB."
+        },
+        {
+          "id": "device_d34ec0baa2b329-zaan0009ph-4gb-64gb-lte",
+          "label": "4 GB RAM / 64 GB storage / 4G LTE (ZAAN0009PH / TB128XU; chipset unresolved)",
+          "sku": "ZAAN0009PH",
+          "modelCode": "TB128XU",
+          "notes": "Local retailers agree on 4 GB / 64 GB LTE, but disagree on Helio G80 vs Snapdragon 680 and eMMC vs UFS. Chipset and storage type are withheld pending Lenovo's exact part-number configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch and authorized reseller availability reported in November 2022; exact first-sale day not established.",
+        "philippineAvailability": "YugaTech reported Lenovo Philippines' Tab M10 Plus (3rd Gen) launch through Lenovo exclusive stores and authorized resellers. Exact first retail transaction date is not recorded.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "ZAAN0009PH LTE listing has conflicting processor/storage details across Philippine retailers.",
+        "manufacturer": "Lenovo",
+        "productLine": "Tab M10 Plus",
+        "modelNumber": "TB125FU (Wi-Fi) / TB128XU (LTE)",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine launch month",
+        "researchNotes": "Two Philippine launch configurations are documented. Lenovo's 3 GB / 32 GB Helio G80 Wi-Fi configuration is matched to the TB125FU family. Local retailers identify ZAAN0009PH / TB128XU as 4 GB / 64 GB LTE, but DataBlitz reports Helio G80 while Abenson and VillMan report Snapdragon SDM680; storage type also differs. Conflicting fields remain blank. Launch pricing is dated and the retailer pages checked were sold out/unavailable.",
+        "openIssues": [
+          {
+            "issue": "Exact first-sale date is not recorded",
+            "action": "Keep the Philippine launch month at November 2022; do not infer a sale date from article publication."
+          },
+          {
+            "issue": "ZAAN0009PH processor and storage type conflict",
+            "action": "Resolve against Lenovo PSREF or a manufacturer part-number record before publishing a chipset or storage type for the LTE SKU."
+          },
+          {
+            "issue": "No currently purchasable retailer price confirmed",
+            "action": "Keep sold-out retailer prices as dated audit candidates, not current offers."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_d34ec0baa2b329",
+      "configurationId": "device_d34ec0baa2b329-zaan0009ph-4gb-64gb-lte",
+      "brand": "Lenovo",
+      "model": "Tab M10 Plus 3rd Gen",
+      "configuration": "4 GB RAM / 64 GB storage / 4G LTE (ZAAN0009PH / TB128XU; chipset unresolved)",
+      "configurationLabel": "4 GB RAM / 64 GB storage / 4G LTE (ZAAN0009PH / TB128XU; chipset unresolved)",
+      "sources": [
+        {
+          "id": "lenovo_m10_plus_3rd_psref",
+          "publisher": "Lenovo PSREF",
+          "url": "https://psref.lenovo.com/Product/Lenovo_Tablets/Tab_M10_Plus_3rd_Gen?tab=spec",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official model-family specification reference",
+          "note": "Lenovo PSREF lists the Tab M10 Plus (3rd Gen) options, including 10.61-inch 2000 x 1200 IPS, 60 Hz, 400 nits, PC + metal, 7,500 mAh minimum / 7,700 mAh typical battery, cameras, sensors, ports, memory/storage types, and both processor families. It warns that options vary by model and region."
+        },
+        {
+          "id": "lenovo_m10_plus_3rd_psref_g80",
+          "publisher": "Lenovo PSREF",
+          "url": "https://psref.lenovo.com/Detail/Lenovo_Tablets/Tab_M10_Plus_3rd_Gen?M=ZAAK0014US",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact G80 3 GB / 32 GB Wi-Fi model cross-check",
+          "note": "The specific Lenovo ZAAK0014US PSREF configuration maps TB125FU to MediaTek Helio G80, 3 GB LPDDR4x, 32 GB eMMC 5.1, and Wi-Fi-only connectivity. This is an official configuration reference; the local launch configuration is separately matched to Philippine sources."
+        },
+        {
+          "id": "lenovo_m10_plus_3rd_datasheet",
+          "publisher": "Lenovo",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/datasheet/Lenovo_Tab-M10-Plus-3Gen_datasheet_EN.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official battery and charging capability reference",
+          "note": "Lenovo's product datasheet states 7,700 mAh capacity and support for up to 20 W Quick Charge. The PSREF notes that supplied adapter wattage varies by country."
+        },
+        {
+          "id": "lenovo_m10_plus_3rd_ph_support",
+          "publisher": "Lenovo Support Philippines",
+          "url": "https://support.lenovo.com/ph/en/solutions/ht513627-ht513574-lenovo-tab-m10-3rd-gen-tb328fu-tb328xu-frequently-asked-questions-faqs",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine support model and Wi-Fi configuration cross-check",
+          "note": "Lenovo Philippines support identifies the TB125FU Wi-Fi product family and lists 3 GB + 32 GB, 4 GB + 64 GB, and 4 GB + 128 GB configurations. This supports the Wi-Fi model family and capacity options but does not map every processor to each local option."
+        },
+        {
+          "id": "yugatech_m10_plus_ph_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/lenovo-tab-m10-and-m10-plus-priced-in-the-philippines/",
+          "publicationDate": "2022-11-07",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch, configuration, price, and feature reference",
+          "note": "YugaTech reports the Philippine launch of a 3 GB + 32 GB Helio G80 version at PHP 10,995 and a 4 GB + 64 GB Snapdragon 680 version at PHP 14,995, with authorized Lenovo stores and reseller channels. The article does not publish the exact Lenovo SKU or explicitly identify the first sale day."
+        },
+        {
+          "id": "gizguide_m10_plus_ph_launch",
+          "publisher": "GizGuide",
+          "url": "https://www.gizguide.com/2022/11/lenovo-tab-m10-3rd-gen-ph-price-specs-official.html",
+          "publicationDate": "2022-11-08",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch cross-check and discrepancy record",
+          "note": "GizGuide confirms Philippine availability and the two processor families. Its detail table lists 4 GB + 64 GB for Snapdragon 680, but its summary price line labels that option 4 GB + 32 GB; this storage inconsistency is retained rather than used to create a separate variant."
+        },
+        {
+          "id": "abenson_m10_plus_lte",
+          "publisher": "Abenson / Electroworld",
+          "url": "https://electroworld.abenson.com/lenovo-tab-m10-plus-3rd-gen-lte-zaan0009ph-storm-grey.html",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine LTE SKU, configuration, and dated retailer price listing",
+          "note": "The local retailer identifies a Tab M10 Plus 3rd Gen LTE with 4 GB + 64 GB, Snapdragon SDM680, and a ZAAN0009PH listing. Its page showed PHP 16,497 and a notify-me state when reviewed; this is not treated as a currently purchasable offer."
+        },
+        {
+          "id": "villman_m10_plus_lte",
+          "publisher": "VillMan Computers",
+          "url": "https://villman.com/Product-Detail/lenovo_tab-m10-plus-gen-3lte-zaan0009ph1061inch-2k-ips-400nits-60hzsnapdragon-6804gb64gbqualcomm-adreno-610-android-12",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine LTE SKU technical cross-check",
+          "note": "VillMan lists ZAAN0009PH / TB128XU with 4 GB + 64 GB, Snapdragon 680, UFS 2.2, LTE, Android 12, cameras, battery, and build details; its page says the product is phased out."
+        },
+        {
+          "id": "datablitz_m10_plus_lte",
+          "publisher": "DataBlitz",
+          "url": "https://ecommerce.datablitz.com.ph/products/lenovo-tab-m10-plus-3rd-gen-10-61-2k-4gb-64gb-4g-lte-storm-grey-zaan0009ph",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine LTE SKU listing and conflicting processor/price candidate",
+          "note": "DataBlitz lists the same ZAAN0009PH 4 GB + 64 GB LTE product, but identifies the chipset as Helio G80 rather than Snapdragon 680 and showed PHP 10,995 with the product sold out. The conflict is retained and neither price is presented as a current purchasable offer."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "villman_m10_plus_lte",
+          "sourceValue": "TB128XU / ZAAN0009PH (local LTE listing)",
+          "normalizedValue": "TB128XU / ZAAN0009PH",
+          "note": "The Wi-Fi model family is named by Lenovo Support Philippines; the LTE retailer part number and TB128XU family are taken from Philippine retailer product records."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "4 GB RAM + 64 GB storage + LTE (ZAAN0009PH / TB128XU); processor differs across local retailer pages.",
+          "normalizedValue": "4 GB RAM / 64 GB storage / LTE",
+          "note": "YugaTech reports the 3 GB / 32 GB Helio G80 launch configuration; Lenovo Support Philippines identifies the matching TB125FU Wi-Fi family. For the LTE SKU, Philippine retailers agree on 4 GB / 64 GB and LTE, but disagree on chipset; it remains a separate configuration with chipset withheld."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "Lenovo Philippines introduced and listed the Tab M10 Plus 3rd Gen in November 2022; exact first-sale day not established.",
+          "normalizedValue": "November 2022",
+          "note": "Month-level local launch/availability evidence only; the article publication date is not treated as an exact first sale. The exact CPU/storage controller remains unresolved despite the capacity and LTE radio match."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "Official SRP not established; YugaTech reported the Philippine launch price shown below.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "The local launch report gives a dated listing price but does not establish that it was a manufacturer SRP."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "abenson_m10_plus_lte",
+          "sourceValue": "Retailer pages list different prices for ZAAN0009PH but both showed the product unavailable when checked.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Candidate prices are retained in the audit only: Abenson PHP 16,497 and DataBlitz PHP 10,995 (both sold out/unavailable); YugaTech's PHP 14,995 applies to a reported 4 GB / 64 GB Snapdragon 680 launch configuration but the exact LTE SKU match is not established.",
+          "candidateEvidence": [
+            {
+              "value": 14995,
+              "unit": "PHP",
+              "sourceUrl": "https://www.yugatech.com/news/lenovo-tab-m10-and-m10-plus-priced-in-the-philippines/",
+              "sourceKind": "local_technology_publication",
+              "observedAt": "2022-11-07",
+              "excerpt": "4 GB + 64 GB Snapdragon 680 version priced at PHP 14,995.",
+              "configurationMatch": "4 GB / 64 GB; exact LTE SKU not identified",
+              "reviewStatus": "PENDING_VERIFICATION"
+            },
+            {
+              "value": 16497,
+              "unit": "PHP",
+              "sourceUrl": "https://electroworld.abenson.com/lenovo-tab-m10-plus-3rd-gen-lte-zaan0009ph-storm-grey.html",
+              "sourceKind": "authorized_retailer_listing",
+              "observedAt": "2026-11-26",
+              "excerpt": "ZAAN0009PH LTE 4 GB + 64 GB page showed PHP 16,497 and notify-me / unavailable state.",
+              "configurationMatch": "exact retailer SKU ZAAN0009PH",
+              "reviewStatus": "PENDING_VERIFICATION"
+            },
+            {
+              "value": 10995,
+              "unit": "PHP",
+              "sourceUrl": "https://ecommerce.datablitz.com.ph/products/lenovo-tab-m10-plus-3rd-gen-10-61-2k-4gb-64gb-4g-lte-storm-grey-zaan0009ph",
+              "sourceKind": "authorized_retailer_listing",
+              "observedAt": "2026-11-26",
+              "excerpt": "ZAAN0009PH 4 GB + 64 GB LTE listing showed PHP 10,995 and Sold out.",
+              "configurationMatch": "exact retailer SKU ZAAN0009PH",
+              "reviewStatus": "PENDING_VERIFICATION"
+            }
+          ]
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "10.61 inches",
+          "normalizedValue": 10.61,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.61,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "IPS",
+          "normalizedValue": "IPS",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "2000 x 1200",
+          "normalizedValue": "2000 x 1200",
+          "catalogKey": "resolution",
+          "catalogValue": "2000 x 1200"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "60 Hz",
+          "normalizedValue": 60,
+          "catalogKey": "refreshHz",
+          "catalogValue": 60,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "400 nits",
+          "normalizedValue": 400,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Anti-fingerprint surface; no strengthened cover-glass material is identified.",
+          "normalizedValue": "Anti-fingerprint surface; cover-glass type not stated"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "datablitz_m10_plus_lte",
+          "sourceValue": "Conflicting exact-SKU retailer listings: Helio G80 vs Qualcomm Snapdragon SDM680.",
+          "normalizedValue": null,
+          "note": "DataBlitz identifies ZAAN0009PH as Helio G80; Abenson and VillMan identify the same local LTE part number as Snapdragon SDM680. The manufacturer family supports both processors, but the exact ZAAN0009PH processor is withheld pending a primary SKU-level match.",
+          "candidateEvidence": [
+            {
+              "value": "MediaTek Helio G80",
+              "sourceUrl": "https://ecommerce.datablitz.com.ph/products/lenovo-tab-m10-plus-3rd-gen-10-61-2k-4gb-64gb-4g-lte-storm-grey-zaan0009ph",
+              "sourceKind": "authorized_retailer_listing",
+              "observedAt": "2026-11-26",
+              "excerpt": "ZAAN0009PH 4 GB + 64 GB LTE product tech specifications list Helio G80.",
+              "configurationMatch": "exact retailer part number",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Qualcomm Snapdragon SDM680",
+              "sourceUrl": "https://electroworld.abenson.com/lenovo-tab-m10-plus-3rd-gen-lte-zaan0009ph-storm-grey.html",
+              "sourceKind": "authorized_retailer_listing",
+              "observedAt": "2026-11-26",
+              "excerpt": "ZAAN0009PH LTE product highlights list Snapdragon SDM680.",
+              "configurationMatch": "exact retailer part number",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Qualcomm Snapdragon SDM680",
+              "sourceUrl": "https://villman.com/Product-Detail/lenovo_tab-m10-plus-gen-3lte-zaan0009ph1061inch-2k-ips-400nits-60hzsnapdragon-6804gb64gbqualcomm-adreno-610-android-12",
+              "sourceKind": "authorized_retailer_listing",
+              "observedAt": "2026-11-26",
+              "excerpt": "ZAAN0009PH / TB128XU specification lists Snapdragon 680.",
+              "configurationMatch": "exact retailer part number and model family",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ]
+        },
+        {
+          "fieldId": "process_node",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not recorded for the exact Philippine configuration in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Lenovo's exact SKU specifications do not state a fabrication process."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Exact LTE SKU CPU withheld because its chipset is disputed.",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "gpu",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Exact LTE SKU GPU withheld because its chipset is disputed.",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Android 12 at launch; Lenovo PSREF lists Android 12 or later.",
+          "normalizedValue": "Android 12 at launch",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 at launch"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_m10_plus_ph_launch",
+          "sourceValue": "YugaTech reports three years of security updates at launch; Lenovo does not publish a PH-specific end date in the reviewed sources.",
+          "normalizedValue": "3 years of security updates reported; exact support end date not recorded"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abenson_m10_plus_lte",
+          "sourceValue": "4 GB",
+          "normalizedValue": 4,
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "LPDDR4x",
+          "normalizedValue": "LPDDR4x",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR4x"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abenson_m10_plus_lte",
+          "sourceValue": "64 GB",
+          "normalizedValue": 64,
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "datablitz_m10_plus_lte",
+          "sourceValue": "Conflicting exact-SKU listings imply different storage types: eMMC 5.1 (G80 listing) vs UFS 2.2 (SDM680 listings).",
+          "normalizedValue": null,
+          "note": "Exact SKU chipset and storage type conflict together: DataBlitz lists the G80 / eMMC 5.1 model; Abenson and VillMan list the SDM680 / UFS 2.2 model. Do not select one until a Lenovo configuration record for ZAAN0009PH is found.",
+          "candidateEvidence": [
+            {
+              "value": "eMMC 5.1",
+              "sourceUrl": "https://ecommerce.datablitz.com.ph/products/lenovo-tab-m10-plus-3rd-gen-10-61-2k-4gb-64gb-4g-lte-storm-grey-zaan0009ph",
+              "sourceKind": "authorized_retailer_listing",
+              "observedAt": "2026-11-26",
+              "excerpt": "Retail listing identifies G80; Lenovo PSREF associates G80 configuration with eMMC 5.1.",
+              "configurationMatch": "exact retailer part number; type association from manufacturer family spec",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "UFS 2.2",
+              "sourceUrl": "https://villman.com/Product-Detail/lenovo_tab-m10-plus-gen-3lte-zaan0009ph1061inch-2k-ips-400nits-60hzsnapdragon-6804gb64gbqualcomm-adreno-610-android-12",
+              "sourceKind": "authorized_retailer_listing",
+              "observedAt": "2026-11-26",
+              "excerpt": "ZAAN0009PH listing identifies 64 GB UFS 2.2 with Snapdragon 680.",
+              "configurationMatch": "exact retailer part number",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ]
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "microSD card slot supports up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "8 MP f/2.2 autofocus rear camera",
+          "normalizedValue": "8 MP f/2.2 autofocus rear camera"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "8 MP f/2.2 autofocus rear camera; sensor make/model not stated.",
+          "normalizedValue": "8 MP f/2.2 autofocus; sensor make/model not disclosed"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "The manufacturer lists one rear camera and no ultrawide module.",
+          "normalizedValue": "No ultrawide camera listed"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "The manufacturer lists one rear camera and no telephoto module.",
+          "normalizedValue": "No telephoto camera listed"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "8 MP f/2.0 fixed-focus front camera",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not recorded for the exact Philippine configuration in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "The reviewed manufacturer specifications do not state camera video modes or frame rates."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "7,700 mAh typical; 7,500 mAh minimum",
+          "normalizedValue": 7700,
+          "catalogKey": "batteryMah",
+          "catalogValue": 7700,
+          "unit": "mAh",
+          "note": "Catalog uses Lenovo's typical capacity; the manufacturer separately lists 7,500 mAh minimum."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Integrated lithium-polymer battery",
+          "normalizedValue": "Integrated lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_datasheet",
+          "sourceValue": "Lenovo lists 20 W Quick Charge; country-specific adapter offerings include 10 W and 20 W.",
+          "normalizedValue": 20,
+          "catalogKey": "chargingW",
+          "catalogValue": 20,
+          "unit": "W",
+          "note": "This is the maximum supported charge figure. Lenovo says the bundled adapter depends on market; the exact Philippine adapter for each variant is not confirmed."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "Wireless charging is not stated in the reviewed manufacturer specifications."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "251.2 x 158.8 x 7.45 mm (W x D x H)",
+          "normalizedValue": "251.2 x 158.8 x 7.45",
+          "catalogKey": "dimensions",
+          "catalogValue": "251.2 x 158.8 x 7.45",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Approximately 465 g",
+          "normalizedValue": 465,
+          "catalogKey": "weightG",
+          "catalogValue": 465,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "PC + metal",
+          "normalizedValue": "PC + metal"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "No IP ingress-protection rating is stated in the reviewed specifications."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abenson_m10_plus_lte",
+          "sourceValue": "Single nano-SIM LTE configuration; eSIM is not listed.",
+          "normalizedValue": "Single nano-SIM; eSIM not listed"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abenson_m10_plus_lte",
+          "sourceValue": "4G LTE; Philippine-supported bands not stated on the local retailer page.",
+          "normalizedValue": "4G LTE; bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Wi-Fi 5; IEEE 802.11ac 1x1, 2.4 GHz and 5 GHz",
+          "normalizedValue": "Wi-Fi 5, 802.11ac 1x1; 2.4/5 GHz",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5, 802.11ac 1x1; 2.4/5 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Exact Bluetooth version withheld while chipset/retailer SKU specifications conflict.",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "USB-C 2.0 and 3.5 mm headphone/microphone combo jack",
+          "normalizedValue": "USB-C 2.0; 3.5 mm combo jack",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C 2.0; 3.5 mm combo jack"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "NFC support is not stated in the reviewed manufacturer specifications."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "GPS, GLONASS, Galileo, BeiDou, and A-GPS listed for the LTE model family.",
+          "normalizedValue": "GPS; GLONASS; Galileo; BeiDou; A-GPS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Four 1 W speakers with Dolby Atmos; one microphone",
+          "normalizedValue": "Four 1 W Dolby Atmos speakers; mono microphone",
+          "catalogKey": "sound",
+          "catalogValue": "Four 1 W Dolby Atmos speakers; mono microphone"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Accelerometer, ambient-light sensor, gyroscope, and Hall sensor",
+          "normalizedValue": "Accelerometer; ambient light; gyroscope; Hall"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Compatible with Lenovo Precision Pen 2; optional or bundled depending on configuration.",
+          "normalizedValue": "Lenovo Precision Pen 2 compatible; bundle varies",
+          "catalogKey": "stylus",
+          "catalogValue": "Lenovo Precision Pen 2 compatible; bundle varies"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "lenovo_m10_plus_3rd_psref",
+          "sourceValue": "Not stated in the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "note": "A compatible keyboard was not identified in the reviewed specifications."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abenson_m10_plus_lte",
+          "sourceValue": "4G LTE variant (ZAAN0009PH / TB128XU)",
+          "normalizedValue": "4G LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE"
+        }
+      ],
+      "modelCode": "TB128XU",
+      "sku": "ZAAN0009PH"
     }
   ]
 }
