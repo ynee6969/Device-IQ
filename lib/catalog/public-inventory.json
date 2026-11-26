@@ -6135,44 +6135,119 @@
     "category": "smartphones",
     "brand": "HONOR",
     "model": "70",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HONOR",
+    "productLine": "N Series",
     "modelNumber": null,
     "releaseDate": null,
     "philippineAvailabilityDate": null,
     "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact Philippine SKU and first-sale date not recorded; price is historical",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "GadgetMatch reported HONOR 70 5G was in the Philippines and available via HONOR stores and Lazada nationwide on 2022-10-19.",
+    "availabilityStatus": "Contemporaneous reporting states the phone was available in the Philippines by 2022-10-19; current stock and exact first-sale date are not established.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The official HONOR Philippines specification page and YugaTech's dated price history identify the Philippine 8 GB / 256 GB configuration. GadgetMatch reports local availability by 2022-10-19. PHP 26,990 is retained as historical launch-era price evidence; current price and stock are not verified.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Exact first-sale date and Philippine SKU are not recorded",
+        "action": "Keep the availability date blank; retain only the source-backed year and configuration."
+      },
+      {
+        "issue": "Current retail price and stock are not verified",
+        "action": "Use the dated PHP 26,990 evidence only as price history, not a current offer."
+      },
+      {
+        "issue": "Official product images have no reusable license or permission recorded",
+        "action": "Continue showing the neutral placeholder."
+      },
+      {
+        "issue": "Official page lists single-SIM and dual-SIM variations without mapping them to the local SKU",
+        "action": "Keep SIM configuration unresolved."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-70/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine model and 8 GB / 256 GB specification reference",
+        "note": "The official HONOR Philippines page identifies HONOR 70, lists 8 GB + 256 GB memory, and provides the model's display, chipset, camera, battery, connectivity, and dimension specifications. It does not establish the exact local first-sale date or a current retail price."
+      },
+      {
+        "organization": "GadgetMatch",
+        "url": "https://www.gadgetmatch.com/honor-70-price-availability-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-10-19",
+        "purpose": "Contemporaneous Philippine availability and retail-price reference",
+        "note": "GadgetMatch reported on 2022-10-19 that HONOR 70 5G was in the Philippines, available in HONOR stores and Lazada nationwide, with a PHP 26,990 retail price. This establishes availability by that report date, not the exact first sale or current stock."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/honor-gadget-price-list-philippines",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Dated Philippine configuration and price-history reference",
+        "note": "YugaTech's HONOR price list records HONOR 70 5G, 8 GB / 256 GB, PHP 26,990, marked verified on 2022-10-18. The entry is historical price evidence, not a current offer."
+      }
+    ],
     "variants": [
       {
-        "id": "device_5317d55fb742f4-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_5317d55fb742f4-8gb-256gb-ph",
+        "label": "8 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.67,
+          "displayType": "OLED",
+          "resolution": "2400 x 1080",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 778G Plus",
+          "cpu": "1 × Cortex-A78 2.5 GHz + 3 × Cortex-A78 2.4 GHz + 4 × Cortex-A55 1.8 GHz",
+          "gpu": "Adreno 642L",
+          "os": "Magic UI 6.1 (Android 12)",
+          "ramGb": 8,
+          "storageGb": 256,
+          "frontCameraMp": 32,
+          "video": "Rear up to 4K; front up to 1080p; EIS",
+          "batteryMah": 4800,
+          "chargingW": 66,
+          "dimensions": "161.4 x 73.3 x 7.91 mm",
+          "weightG": 178,
+          "cellular": "5G NR, LTE, WCDMA, GSM",
+          "wifi": "802.11 a/b/g/n/ac/ax, MIMO; 2.4/5 GHz"
+        },
+        "specSources": {
+          "displayInches": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "displayType": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "resolution": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "refreshHz": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "chipset": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "cpu": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "gpu": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "os": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "ramGb": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "storageGb": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "frontCameraMp": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "video": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "batteryMah": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "chargingW": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "dimensions": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "weightG": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "cellular": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "wifi": "https://www.honor.com/ph/phones/honor-70/spec/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Official HONOR Philippines specifications and YugaTech's dated Philippine price list identify the 8 GB / 256 GB configuration. No exact Philippine SKU is recorded.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

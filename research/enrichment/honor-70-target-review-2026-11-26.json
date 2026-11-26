@@ -1,0 +1,18 @@
+{
+  "run_at": "2026-11-26T04:27:31.021Z",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_5317d55fb742f4",
+      "brand": "HONOR",
+      "model_name": "70",
+      "category": "smartphones",
+      "status": "needs_source_discovery"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "prices": [],
+  "discovery": []
+}

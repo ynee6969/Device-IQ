@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-26T04:15:06.798Z",
+  "run_at": "2026-11-26T12:34:41+08:00",
   "inventory_count": 456,
   "selected_count": 1,
   "models": [
@@ -498,7 +498,7 @@
       "brand": "HONOR",
       "model_name": "70",
       "category": "smartphones",
-      "status": "needs_source_discovery"
+      "status": "source_queued"
     },
     {
       "device_id": "device_b63dd5835e8cd8",
@@ -75528,6 +75528,21 @@
       "source_kind": "independent_ph_reference",
       "observed_at": "2026-11-26T04:15:06.798Z",
       "local_availability_verified": false
+    },
+    {
+      "device_id": "device_5317d55fb742f4",
+      "amount_php": 26990,
+      "configuration_id": "device_5317d55fb742f4-8gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "independent_reported_historical_price",
+      "source_published_at": null,
+      "excerpt": "YugaTech lists HONOR 70 5G, 8GB/256GB, PHP 26,990; entry marked Verified Oct 18, 2022. Historical price evidence, not a current offer.",
+      "source_url": "https://www.yugatech.com/honor-gadget-price-list-philippines",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T12:34:41+08:00",
+      "local_availability_verified": true
     }
   ],
   "discovery": [
@@ -76798,6 +76813,18 @@
       "observations": 30,
       "prices": 1,
       "fetches": 1
+    },
+    {
+      "run_at": "2026-11-26T04:15:06.798Z",
+      "observations": 5854,
+      "prices": 393,
+      "fetches": 264
+    },
+    {
+      "run_at": "2026-11-26T12:34:41+08:00",
+      "observations": 0,
+      "prices": 1,
+      "fetches": 0
     }
   ]
 }

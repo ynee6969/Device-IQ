@@ -130916,6 +130916,363 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_5317d55fb742f4",
+      "configurationId": "device_5317d55fb742f4-8gb-256gb-ph",
+      "brand": "HONOR",
+      "model": "70",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "honor70_ph_official_specs",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-70/spec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine model and 8 GB / 256 GB specification reference",
+          "note": "The official HONOR Philippines page identifies HONOR 70, lists 8 GB + 256 GB memory, and provides the model's display, chipset, camera, battery, connectivity, and dimension specifications. It does not establish the exact local first-sale date or a current retail price."
+        },
+        {
+          "id": "honor70_ph_launch_gadgetmatch",
+          "publisher": "GadgetMatch",
+          "url": "https://www.gadgetmatch.com/honor-70-price-availability-philippines/",
+          "publicationDate": "2022-10-19",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine availability and retail-price reference",
+          "note": "GadgetMatch reported on 2022-10-19 that HONOR 70 5G was in the Philippines, available in HONOR stores and Lazada nationwide, with a PHP 26,990 retail price. This establishes availability by that report date, not the exact first sale or current stock."
+        },
+        {
+          "id": "honor70_ph_launch_price_yugatech",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/honor-gadget-price-list-philippines",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine configuration and price-history reference",
+          "note": "YugaTech's HONOR price list records HONOR 70 5G, 8 GB / 256 GB, PHP 26,990, marked verified on 2022-10-18. The entry is historical price evidence, not a current offer."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "6.67 inches",
+          "normalizedValue": 6.67,
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.67,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "OLED",
+          "normalizedValue": "OLED",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "displayType",
+          "catalogValue": "OLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "FHD+ 2400 x 1080",
+          "normalizedValue": "2400 x 1080",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "resolution",
+          "catalogValue": "2400 x 1080"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Up to 120 Hz",
+          "normalizedValue": 120,
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Qualcomm Snapdragon 778G Plus",
+          "normalizedValue": "Qualcomm Snapdragon 778G Plus",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 778G Plus"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "1 × Cortex-A78 2.5 GHz + 3 × Cortex-A78 2.4 GHz + 4 × Cortex-A55 1.8 GHz",
+          "normalizedValue": "1 × Cortex-A78 2.5 GHz + 3 × Cortex-A78 2.4 GHz + 4 × Cortex-A55 1.8 GHz",
+          "note": "HONOR Philippines official specification; maximum frequencies may vary under workload.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "cpu",
+          "catalogValue": "1 × Cortex-A78 2.5 GHz + 3 × Cortex-A78 2.4 GHz + 4 × Cortex-A55 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Adreno 642L",
+          "normalizedValue": "Adreno 642L",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 642L"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Magic UI 6.1 based on Android 12",
+          "normalizedValue": "Magic UI 6.1 (Android 12)",
+          "note": "HONOR Philippines official specification; later software updates are not inferred.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "os",
+          "catalogValue": "Magic UI 6.1 (Android 12)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "HONOR Philippines lists 8 GB + 256 GB memory.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "note": "HONOR Philippines lists 8 GB + 256 GB memory.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "54 MP IMX800 main (f/1.9) + 50 MP ultra-wide and macro (f/2.2) + 2 MP depth (f/2.4)",
+          "normalizedValue": "54 MP main + 50 MP ultra-wide/macro + 2 MP depth",
+          "note": "HONOR Philippines lists the three rear camera modules and apertures.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "54 MP Sony IMX800 Super Sensing Main Camera",
+          "normalizedValue": "Sony IMX800; 54 MP",
+          "note": "Sensor model and resolution stated by HONOR Philippines.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "50 MP Ultra Wide & Macro camera",
+          "normalizedValue": "50 MP ultra-wide and macro",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "The official page lists main, ultra-wide/macro, and depth cameras; no telephoto module is listed.",
+          "normalizedValue": "No dedicated telephoto camera listed",
+          "note": "The official Philippine camera specification enumerates all three rear modules and does not list a telephoto camera.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "32 MP Super Clear Selfie Camera (f/2.4)",
+          "normalizedValue": 32,
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Rear up to 4K; front up to 1080p; EIS video stabilization",
+          "normalizedValue": "Rear up to 4K; front up to 1080p; EIS",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "video",
+          "catalogValue": "Rear up to 4K; front up to 1080p; EIS"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "4800 mAh typical; 4700 mAh rated",
+          "normalizedValue": 4800,
+          "note": "HONOR Philippines specifies 4800 mAh typical and 4700 mAh rated capacity.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4800,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Lithium Polymer; 4700 mAh rated / 4800 mAh typical",
+          "normalizedValue": "Lithium Polymer; 4700 mAh rated / 4800 mAh typical",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Up to 11V/6A; supplied charger is HONOR 66W SuperCharge",
+          "normalizedValue": 66,
+          "note": "HONOR Philippines lists the supported charging profile and a 66 W SuperCharge charger.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "chargingW",
+          "catalogValue": 66,
+          "unit": "W"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "161.4 x 73.3 x 7.91 mm",
+          "normalizedValue": "161.4 x 73.3 x 7.91 mm",
+          "note": "HONOR Philippines official specification; measurements can vary slightly by unit.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "dimensions",
+          "catalogValue": "161.4 x 73.3 x 7.91 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Approximately 178 g including battery",
+          "normalizedValue": 178,
+          "note": "Approximate weight stated by HONOR Philippines.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "weightG",
+          "catalogValue": 178,
+          "unit": "g"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "5G NR / LTE / WCDMA / GSM; band availability depends on region and network",
+          "normalizedValue": "5G NR, LTE, WCDMA, GSM",
+          "note": "HONOR Philippines lists these network standards; no unsupported local band mapping is inferred.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "cellular",
+          "catalogValue": "5G NR, LTE, WCDMA, GSM"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "802.11 a/b/g/n/ac/ax, MIMO; 2.4 GHz and 5 GHz",
+          "normalizedValue": "802.11 a/b/g/n/ac/ax, MIMO; 2.4/5 GHz",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "catalogKey": "wifi",
+          "catalogValue": "802.11 a/b/g/n/ac/ax, MIMO; 2.4/5 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Bluetooth 5.2; BLE, SBC, AAC, LDAC, aptX, aptX HD",
+          "normalizedValue": "Bluetooth 5.2; BLE, SBC, AAC, LDAC, aptX, aptX HD",
+          "note": "HONOR Philippines official specification.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "honor70_ph_official_specs",
+          "sourceValue": "Official page lists single-SIM and dual-SIM model variants; local SKU mapping is not stated.",
+          "normalizedValue": null,
+          "note": "The official page documents more than one SIM configuration. The Philippine 8 GB / 256 GB price-list row does not identify which SIM SKU was sold; do not assume dual SIM.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor70_ph_launch_gadgetmatch",
+          "sourceValue": "PHP 26,990 retail price reported on 2022-10-19; YugaTech lists the 8 GB / 256 GB configuration at PHP 26,990 verified 2022-10-18.",
+          "normalizedValue": 26990,
+          "note": "Historical Philippine launch-era price only. It is not represented as a current price and is not loaded into the public price filter.",
+          "configurationMatch": "Exact 8 GB / 256 GB Philippine configuration",
+          "unit": "PHP"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_5317d55fb742f4-8gb-256gb-ph",
+          "label": "8 GB RAM / 256 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Official HONOR Philippines specifications and YugaTech's dated Philippine price list identify the 8 GB / 256 GB configuration. No exact Philippine SKU is recorded."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Contemporaneous reporting states the phone was available in the Philippines by 2022-10-19; current stock and exact first-sale date are not established.",
+        "philippineAvailability": "GadgetMatch reported HONOR 70 5G was in the Philippines and available via HONOR stores and Lazada nationwide on 2022-10-19.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HONOR",
+        "productLine": "N Series",
+        "philippineReleaseYear": 2022,
+        "researchNotes": "The official HONOR Philippines specification page and YugaTech's dated price history identify the Philippine 8 GB / 256 GB configuration. GadgetMatch reports local availability by 2022-10-19. PHP 26,990 is retained as historical launch-era price evidence; current price and stock are not verified.",
+        "qualityFlag": "Exact Philippine SKU and first-sale date not recorded; price is historical",
+        "openIssues": [
+          {
+            "issue": "Exact first-sale date and Philippine SKU are not recorded",
+            "action": "Keep the availability date blank; retain only the source-backed year and configuration."
+          },
+          {
+            "issue": "Current retail price and stock are not verified",
+            "action": "Use the dated PHP 26,990 evidence only as price history, not a current offer."
+          },
+          {
+            "issue": "Official product images have no reusable license or permission recorded",
+            "action": "Continue showing the neutral placeholder."
+          },
+          {
+            "issue": "Official page lists single-SIM and dual-SIM variations without mapping them to the local SKU",
+            "action": "Keep SIM configuration unresolved."
+          }
+        ]
+      }
     }
   ]
 }
