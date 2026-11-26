@@ -1133,9 +1133,9 @@
     {
       "device_id": "device_8d098d93ab5f47",
       "brand": "Samsung",
-      "model_name": "Z Flip5",
+      "model_name": "Galaxy Z Flip5",
       "category": "smartphones",
-      "status": "needs_source_discovery"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_8b71a65802ab50",
@@ -71302,6 +71302,134 @@
       "observed_at": "2026-11-26",
       "local_availability_verified": true,
       "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 64990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung Philippines launch release gives PHP 64,990 SRP for the 256GB model.",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 64990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "YugaTech reports the Philippine 256GB launch price as PHP 64,990.",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-z-flip5-fold5-priced-in-the-philippines-with-pre-order-details/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 64990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Revu reports the Philippine 256GB launch price as PHP 64,990.",
+      "source_url": "https://www.revu.com.ph/2023/07/samsung-galaxy-z-flip5-fold5-price-ph/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 65990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-256gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_alternate_price_claim",
+      "source_published_at": "2023-07-26",
+      "excerpt": "UNBOX PH's 26 July launch video lists PHP 65,990 for 256GB; this differs from Samsung Philippines, YugaTech and Revu.",
+      "source_url": "https://www.youtube.com/watch?v=u8H_EM3pr8I",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 71990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung Philippines launch release gives PHP 71,990 SRP for the 512GB model.",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 71990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "YugaTech reports the Philippine 512GB launch price as PHP 71,990.",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-z-flip5-fold5-priced-in-the-philippines-with-pre-order-details/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 71990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Revu reports the Philippine 512GB launch price as PHP 71,990.",
+      "source_url": "https://www.revu.com.ph/2023/07/samsung-galaxy-z-flip5-fold5-price-ph/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "amount_php": 64990,
+      "configuration_id": "device_8d098d93ab5f47-ph-8gb-512gb",
+      "configuration_match": "exact_philippine_storage_configuration",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 512,
+      "price_type": "historical_ph_preorder_promo",
+      "source_published_at": "2023-07-26",
+      "excerpt": "Samsung's 26 July–17 August 2023 preorder promotion offered the 512GB configuration at PHP 64,990 through a free double-storage upgrade; this is promotional pricing, not its PHP 71,990 SRP.",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-z-flip5-fold5-preorder/",
+      "source_kind": "historical_local_price_observation",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
     }
   ],
   "discovery": [
@@ -72652,6 +72780,71 @@
       "device_id": "device_504422c5fc36f4",
       "source_url": "https://manuals.plus/m/6fff331b1f28c822c826e465c7bd3d6ef4651ab7c5a014167ad6df113f2039c7_optim.pdf",
       "result": "Manufacturer-authored user guide copy identifies international model NX729J; no Philippine NTC record tying this code to the local unit found."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-flip5-cream-256gb-sm-f731bzeaphl/",
+      "result": "Official Samsung Philippines Cream 8/256 product code and specs verified; page currently says Not for sale."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-flip5-graphite-512gb-sm-f731bzaephl/buy/",
+      "result": "Official Samsung Philippines Graphite 8/512 product code verified; page currently says Not for sale."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "result": "Samsung Philippines confirms official local launch SRPs, specs and 18 August 2023 general availability."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-z-flip5-fold5-preorder/",
+      "result": "Official 26 July–17 August 2023 campaign offered the 512GB model at the 256GB price through free double storage."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-z-flip5-fold5-priced-in-the-philippines-with-pre-order-details/",
+      "result": "YugaTech corroborates 8/256 and 8/512 local configurations and Samsung launch prices."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.revu.com.ph/2023/07/samsung-galaxy-z-flip5-fold5-price-ph/",
+      "result": "Revu corroborates local 18 August availability and 64,990/71,990 historical SRPs."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.youtube.com/watch?v=u8H_EM3pr8I",
+      "result": "UNBOX PH video lists PHP 65,990 for 256GB, conflicting with the official Samsung SRP and other local reports; alternate value retained."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.gsmarena.com/samsung_galaxy_z_flip5-review-2597.php",
+      "result": "Exact model review cross-checks hardware; not used for Philippine price or local model proof."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://nanoreview.net/en/phone/samsung-galaxy-z-flip-5",
+      "result": "Exact model profile cross-checks processor architecture, display, memory/storage type and battery; current software version not treated as launch OS."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-z-flip5",
+      "result": "Global SM-F731B 8/256 and 8/512 listed separately from North American and Canadian model codes."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://news.samsung.com/global/samsung-galaxy-z-flip5-and-galaxy-z-fold5-delivering-flexibility-and-versatility-without-compromise",
+      "result": "Samsung global newsroom states 11 August global availability, IPX8, Victus 2, Android 13/One UI 5.1.1 and 4 OS upgrades/5 years security updates."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.gsmarena.com/samsung_galaxy_z_flip5-review-2597p4.php",
+      "result": "The performance section describes the 8GB memory as LPDDR5X. This conflicts with YugaTech's Philippine product specification page, which lists LPDDR5; memory type is therefore withheld as conflicting."
+    },
+    {
+      "device_id": "device_8d098d93ab5f47",
+      "source_url": "https://www.yugatech.com/spec/samsung-galaxy-z-flip5/",
+      "result": "YugaTech's Galaxy Z Flip5 spec page lists 8GB LPDDR5 RAM and both 256GB and 512GB storage options. Its RAM type claim conflicts with GSMArena's LPDDR5X label."
     }
   ],
   "merged_runs": [
@@ -72689,6 +72882,18 @@
       "run_at": "2026-11-26",
       "observations": 0,
       "prices": 7,
+      "fetches": 0
+    },
+    {
+      "run_at": "2026-11-26",
+      "observations": 5824,
+      "prices": 133,
+      "fetches": 263
+    },
+    {
+      "run_at": "2026-11-26",
+      "observations": 0,
+      "prices": 8,
       "fetches": 0
     }
   ]

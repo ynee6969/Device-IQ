@@ -2298,14 +2298,14 @@
     "altText": "Image unavailable for Samsung Samsung Galaxy A18"
   },
   "device_8d098d93ab5f47": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Samsung Philippines product pages show exact Galaxy Z Flip5 images for the local Cream 8/256 and Graphite 8/512 configurations, but no reusable image license or written permission to copy or hotlink was found. Keep the neutral placeholder.",
+    "sourcePage": "https://www.samsung.com/ph/smartphones/galaxy-z/galaxy-z-flip5-cream-256gb-sm-f731bzeaphl/",
     "assetUrl": null,
-    "scope": null,
+    "scope": "Samsung Galaxy Z Flip5; local 8 GB / 256 GB and 8 GB / 512 GB configurations",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Samsung Z Flip5"
+    "altText": "Image unavailable for Samsung Galaxy Z Flip5"
   },
   "device_f7b03019bb41af": {
     "status": "NO_RELIABLE_MATCH",
