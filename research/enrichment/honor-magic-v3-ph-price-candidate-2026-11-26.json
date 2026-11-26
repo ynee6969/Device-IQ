@@ -1,0 +1,35 @@
+{
+  "run_at": "2026-11-26T13:15:22+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_3e151a6e24dc04",
+      "brand": "HONOR",
+      "model_name": "Magic V3",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_3e151a6e24dc04",
+      "amount_php": 79839,
+      "configuration_id": null,
+      "configuration_match": "model_level_unmatched",
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "price_type": "independent_reported_historical_store_price_unmatched",
+      "source_published_at": "2026-11-13",
+      "excerpt": "YugaTech Shop page had no verified current price at access; its historical low shows PHP 79,839 on Nov 12–13, 2026, but the listing does not specify the configuration. Do not use as current or exact-variant price.",
+      "source_url": "https://www.yugatech.com/shop/honor-magic-v3-slimmer-stro/",
+      "source_kind": "independent_retail_price_history",
+      "observed_at": "2026-11-26T13:15:22+08:00",
+      "local_availability_verified": false,
+      "availability_status": "no_current_verified_offer"
+    }
+  ]
+}

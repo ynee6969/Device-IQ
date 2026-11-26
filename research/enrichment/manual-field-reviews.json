@@ -132903,6 +132903,601 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_3e151a6e24dc04",
+      "configurationId": "device_3e151a6e24dc04-12gb-512gb-ph",
+      "brand": "HONOR",
+      "model": "Magic V3",
+      "configuration": "12 GB RAM / 512 GB storage",
+      "configurationLabel": "12 GB RAM / 512 GB storage",
+      "sources": [
+        {
+          "id": "honor_magic_v3_ph_official_product",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-magic-v3/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine product identity, dimensions, battery, charging, and foldable design cross-check",
+          "note": "HONOR Philippines identifies Magic V3 and states 9.2 mm folded / 4.35 mm unfolded / 226 g, a 5150 mAh silicon-carbon battery, 66 W wired charging, and 50 W wireless charging."
+        },
+        {
+          "id": "honor_magic_v3_ph_official_specs",
+          "publisher": "HONOR Philippines",
+          "url": "https://www.honor.com/ph/phones/honor-magic-v3/spec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official Philippine specifications page and image source",
+          "note": "Official HONOR Philippines specification page for the exact Magic V3 model; indexed page text exposes the section labels and exact color image assets. Detailed values used below are transcribed from the contemporaneous Philippine sources."
+        },
+        {
+          "id": "honor_magic_v3_official_product_report",
+          "publisher": "HONOR",
+          "url": "https://www.honor.com/content/dam/honor/global/honor-esg/green_environmental_protection/1230pdf/phones/HONOR%20Environmental%20Report-HONOR%20Magic%20V3.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer report identifying the 12 GB / 512 GB configuration, dimensions, weight, and display sizes",
+          "note": "HONOR's product environmental report identifies its assessed HONOR Magic V3 as 12 GB RAM / 512 GB storage and lists 7.92-inch inner / 6.43-inch external displays, folded dimensions 156.60 × 74.00 × 9.20 mm, unfolded dimensions 156.60 × 145.30 × 4.35 mm, and 226 g handset weight."
+        },
+        {
+          "id": "honor_magic_v3_official_specs_malaysia",
+          "publisher": "HONOR Malaysia",
+          "url": "https://www.honor.com/my/phones/honor-magic-v3/spec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official regional technical specification cross-check for GPU model",
+          "note": "HONOR Malaysia's official Magic V3 specification page identifies the Qualcomm platform's Adreno 750 GPU. The Philippine launch sources identify the same Snapdragon 8 Gen 3 Magic V3 platform."
+        },
+        {
+          "id": "honor_magic_v3_ph_launch_yugatech",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/honor-magic-v3-specs-price-philippines/",
+          "publicationDate": "2024-11-20",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine availability, exact configuration, price, and detailed specifications",
+          "note": "Published 2024-11-20. Reports the Magic V3 available to buy in the Philippines at PHP 89,999 with 12 GB physical RAM and 512 GB storage. Its detailed specs include both displays, camera system, wireless charging, and regional color-dependent thickness/weight."
+        },
+        {
+          "id": "honor_magic_v3_ph_launch_jam",
+          "publisher": "Jam Online",
+          "url": "https://jamonline.ph/tech-news/honor-magic-v3-specs-price-philippines/",
+          "publicationDate": "2024-11-20",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine launch, local price, configuration, and technology cross-check",
+          "note": "Published 2024-11-20. Reports official Philippine launch, PHP 89,999 retail price, 12 GB LPDDR5X RAM / 512 GB UFS 4.0, Android 14 with MagicOS 8.0.1, Snapdragon 8 Gen 3, camera, battery, charging, and IPX8 details."
+        },
+        {
+          "id": "honor_magic_v3_ph_nationwide_revu",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2024/11/honor-magic-v3-ph-nationwide-release/",
+          "publicationDate": "2024-11-26",
+          "accessDate": "2026-11-26",
+          "purpose": "Nationwide Philippine sale date, authorized channel, and specifications cross-check",
+          "note": "Published 2024-11-26. Reports the device was available for purchase at HONOR Experience and partner stores and on official stores, for PHP 89,999, after reservations opened the previous week. Confirms 226 g, IPX8, 5150 mAh, 66 W wired, 50 W wireless, and key cameras."
+        },
+        {
+          "id": "honor_magic_v3_ph_launch_ungeek",
+          "publisher": "UnGeek",
+          "url": "https://www.ungeek.ph/2024/11/honor-magic-v3-philippines-price-and-availability-announced/",
+          "publicationDate": "2024-11-20",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine color, price, channel, and launch report cross-check",
+          "note": "Philippine launch report gives the same PHP 89,999 price, Green and Black colorways, and Globe/retail availability."
+        },
+        {
+          "id": "honor_magic_v3_ph_price_history_yugatech",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/honor-gadget-price-list-philippines/",
+          "publicationDate": "2024-11-20",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated Philippine launch-price history cross-check",
+          "note": "YugaTech's price-list entry marks HONOR Magic V3 5G at PHP 89,999 as verified November 20, 2024. This is launch-era price history, not a current offer."
+        },
+        {
+          "id": "honor_magic_v3_yugatech_shop_price_history",
+          "publisher": "YugaTech Shop",
+          "url": "https://www.yugatech.com/shop/honor-magic-v3-slimmer-stro/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Recent historical online price observation and present price-status check",
+          "note": "At access time the page showed no verified current store price and listed a last verified low of PHP 79,839 on November 12–13, 2026. The product listing does not identify a RAM/storage variant, so this amount is retained as unmatched historical price evidence only.",
+          "sourceKind": "price_history_candidate"
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Philippine SKU/model code not stated",
+          "normalizedValue": null,
+          "note": "Reviewed Philippine manufacturer and launch sources identify the marketing model but do not name the local SKU or model code.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "honor_magic_v3_official_product_report",
+          "sourceValue": "Manufacturer environmental-report configuration: 12 GB RAM / 512 GB storage",
+          "normalizedValue": "12 GB RAM / 512 GB storage",
+          "note": "HONOR's report states its assessed Magic V3 was the 12 GB / 512 GB configuration; YugaTech's local specification lists the same configuration. YugaTech's 24 GB headline includes a separate 12 GB virtual-RAM extension.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Available for purchase in the Philippines on the report date, November 20, 2024",
+          "normalizedValue": "2024-11-20",
+          "note": "Contemporaneous local reporting says it was available for purchase. This is the first documented availability report, not a separate first retail transaction receipt.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "PHP 89,999, reported at Philippine availability on 2024-11-20",
+          "normalizedValue": 89999,
+          "note": "Historical launch-era price for the documented Philippine model; not a current offer.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_magic_v3_yugatech_shop_price_history",
+          "sourceValue": "No verified current price at access; latest historical YugaTech store observation was PHP 79,839 on 2026-11-13 with configuration unreported",
+          "normalizedValue": null,
+          "note": "YugaTech Shop currently says no verified price is available. Its last historical low does not identify a 12 GB / 512 GB variant, so it is not used as a current or exact-configuration price.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "7.92-inch inner foldable display and 6.43-inch cover display",
+          "normalizedValue": 7.92,
+          "note": "The public numeric catalog field uses the main inner display diagonal; the cover display remains explicitly documented here.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "displayInches",
+          "catalogValue": 7.92,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Inner and cover: LTPO OLED",
+          "normalizedValue": "Inner and cover LTPO OLED",
+          "note": "YugaTech identifies both as LTPO OLED displays.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "displayType",
+          "catalogValue": "Inner and cover LTPO OLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Inner: 2344 × 2156; cover: 2376 × 1060",
+          "normalizedValue": "Inner 2344 x 2156; cover 2376 x 1060",
+          "note": "Both display resolutions are recorded separately; the first is the inner foldable panel.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "resolution",
+          "catalogValue": "Inner 2344 x 2156; cover 2376 x 1060"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "120 Hz adaptive on both displays",
+          "normalizedValue": 120,
+          "note": "YugaTech lists adaptive refresh up to 120 Hz for both screens.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Cover HDR peak 5000 nits; inner peak 1800 nits",
+          "normalizedValue": "Cover HDR peak 5000 nits; inner peak 1800 nits",
+          "note": "Different peak brightness values are preserved for the outer and inner displays.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Cover: HONOR Anti-scratch NanoCrystal Shield; inner: HONOR Super Armored inner screen",
+          "normalizedValue": "Cover NanoCrystal Shield; inner Super Armored screen",
+          "note": "The source lists different protection technologies for the two displays.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 3",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 3",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 3"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_jam",
+          "sourceValue": "4 nm",
+          "normalizedValue": 4,
+          "note": "Jam Online reports the Snapdragon 8 Gen 3 as a 4 nm platform.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "8-core CPU, up to 3.3 GHz",
+          "normalizedValue": "Octa-core, up to 3.3 GHz",
+          "note": "YugaTech lists the core count and maximum frequency; no core-cluster layout is recorded.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core, up to 3.3 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "honor_magic_v3_official_specs_malaysia",
+          "sourceValue": "Adreno 750",
+          "normalizedValue": "Adreno 750",
+          "note": "HONOR Malaysia's official Magic V3 specifications identify Adreno 750; the Philippine launch sources match the same Snapdragon 8 Gen 3 platform.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 750"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_jam",
+          "sourceValue": "Android 14 with MagicOS 8.0.1",
+          "normalizedValue": "Android 14 / MagicOS 8.0.1",
+          "note": "Launch software version; later updates are not inferred.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "os",
+          "catalogValue": "Android 14 / MagicOS 8.0.1"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_magic_v3_ph_launch_jam",
+          "sourceValue": "Software update policy not stated",
+          "normalizedValue": null,
+          "note": "The reviewed Philippine launch sources do not state a support duration or update count.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "12 GB physical RAM; an additional 12 GB is virtual RAM in the 24 GB headline",
+          "normalizedValue": 12,
+          "note": "Only physical RAM is recorded. The reported 24 GB total includes a virtual RAM extension and is not represented as installed physical memory.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_jam",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "note": "Jam Online's Philippine launch report identifies memory type.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "512 GB",
+          "normalizedValue": 512,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_jam",
+          "sourceValue": "UFS 4.0",
+          "normalizedValue": "UFS 4.0",
+          "note": "Jam Online's Philippine launch report identifies storage technology.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Expandable storage not listed",
+          "normalizedValue": null,
+          "note": "The reviewed Philippine specifications do not list a memory-card slot or storage expansion.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "50 MP f/1.6 main with OIS + 40 MP f/2.2 ultra-wide (112°) + 50 MP f/3.0 periscope telephoto with OIS",
+          "normalizedValue": "50 MP main + 40 MP ultra-wide + 50 MP periscope telephoto",
+          "note": "The source provides module resolution, role, aperture, stabilization and field of view.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "50 MP main, f/1.6, OIS; sensor model not named",
+          "normalizedValue": "50 MP f/1.6 OIS; sensor model not disclosed",
+          "note": "No specific sensor manufacturer/model is identified in the reviewed local sources.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "40 MP f/2.2, 112° field of view",
+          "normalizedValue": "40 MP ultra-wide; 112° FoV",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "50 MP periscope telephoto, f/3.0, OIS; 3.5× optical zoom",
+          "normalizedValue": "50 MP periscope telephoto; 3.5x optical zoom",
+          "note": "YugaTech identifies the periscope module and optical zoom.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "20 MP f/2.2 front camera on cover and inner displays",
+          "normalizedValue": 20,
+          "note": "One 20 MP selfie camera is listed for each display location.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 20,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Supported video modes not listed in the reviewed Philippine source",
+          "normalizedValue": null,
+          "note": "The launch specification does not provide camera video resolution/frame-rate modes.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "honor_magic_v3_ph_official_product",
+          "sourceValue": "5150 mAh silicon-carbon battery",
+          "normalizedValue": 5150,
+          "note": "HONOR Philippines product page and Philippine launch sources identify this capacity.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "batteryMah",
+          "catalogValue": 5150,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "honor_magic_v3_ph_official_product",
+          "sourceValue": "Silicon-carbon battery",
+          "normalizedValue": "Silicon-carbon",
+          "note": "HONOR Philippines describes the silicon-carbon battery.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "honor_magic_v3_ph_official_product",
+          "sourceValue": "66 W HONOR SuperCharge",
+          "normalizedValue": 66,
+          "note": "HONOR Philippines product page and YugaTech specify 66 W wired charging.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "chargingW",
+          "catalogValue": 66,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "honor_magic_v3_ph_official_product",
+          "sourceValue": "50 W wireless HONOR SuperCharge; 5 W reverse wired charging",
+          "normalizedValue": "50 W wireless; 5 W reverse wired",
+          "note": "HONOR Philippines confirms 50 W wireless; YugaTech lists 5 W reverse wired charging.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_official_product_report",
+          "sourceValue": "Folded: 156.60 × 74.00 × 9.20 mm; unfolded: 156.60 × 145.30 × 4.35 mm (manufacturer report configuration)",
+          "normalizedValue": "Folded 156.6 x 74.0 x 9.2 mm; unfolded 156.6 x 145.3 x 4.35 mm; Green colorway is 9.3 mm folded / 4.4 mm unfolded",
+          "note": "The manufacturer report provides the Black/general configuration dimensions; YugaTech gives 9.3 mm folded / 4.4 mm unfolded for Green. Both states and color-dependent thickness are retained.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "226 g (Black) / 230 g (Green)",
+          "normalizedValue": "226 g Black / 230 g Green",
+          "note": "YugaTech lists color-specific Black and Green weights; HONOR's environmental report records 226 g for its 12 GB / 512 GB assessed configuration. Both values are retained rather than assuming a color.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_jam",
+          "sourceValue": "Black color uses faux leather; frame is 7-series aluminum alloy; green back material not stated",
+          "normalizedValue": "Black faux leather; 7-series aluminum frame; Green back material not recorded",
+          "note": "Color-specific material is not generalized to every version.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_nationwide_revu",
+          "sourceValue": "IPX8 water resistance",
+          "normalizedValue": "IPX8 (water resistance; dust rating not stated)",
+          "note": "REVU reports IPX8. The X indicates that no dust-protection rating is asserted here.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Dual Nano-SIM; eSIM supported",
+          "normalizedValue": "Dual Nano-SIM; eSIM supported",
+          "note": "YugaTech's Philippine specifications.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "5G NR; specific local frequency bands not listed",
+          "normalizedValue": "5G; specific bands not recorded",
+          "note": "No band mapping is inferred from the network-generation claim.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; specific bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Wi-Fi 7: 802.11 a/b/g/n/ac/ax/be",
+          "normalizedValue": "Wi-Fi 7 (802.11 a/b/g/n/ac/ax/be)",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 7 (802.11 a/b/g/n/ac/ax/be)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "USB Type-C, USB 3.1 Gen 1",
+          "normalizedValue": "USB Type-C, USB 3.1 Gen 1",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 3.1 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "NFC",
+          "normalizedValue": "Yes",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "YugaTech's Philippine specification list.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Dual stereo speakers; IR blaster",
+          "normalizedValue": "Dual stereo speakers; IR blaster",
+          "note": "The source lists stereo speakers and IR remote; no 3.5 mm jack claim is inferred.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "honor_magic_v3_ph_launch_yugatech",
+          "sourceValue": "Complete sensor list not stated",
+          "normalizedValue": null,
+          "note": "The reviewed launch specifications do not provide a full sensor inventory.",
+          "configurationMatch": "Exact Philippine 12 GB RAM / 512 GB storage configuration"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_3e151a6e24dc04-12gb-512gb-ph",
+          "label": "12 GB RAM / 512 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "YugaTech and Jam Online report a local 12 GB RAM / 512 GB storage configuration. YugaTech's 24 GB headline counts 12 GB virtual RAM in addition to 12 GB physical; only physical RAM is recorded."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine availability for purchase was reported November 20, 2024; present stock is not established.",
+        "philippineAvailability": "YugaTech reported the phone available through HONOR's official online channels and Globe postpaid on November 20, 2024. REVU later reported HONOR Experience/partner stores and official online shops nationwide.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "HONOR",
+        "productLine": "Magic Series",
+        "philippineReleaseYear": 2024,
+        "philippineDateLabel": "Philippine availability date",
+        "researchNotes": "The workbook's HONOR Magic V3 matches the official HONOR Magic V3 and Philippine Magic V3 5G. Local sources identify 12 GB physical RAM / 512 GB storage; 24 GB marketing total includes virtual RAM. PHP 89,999 is launch-era price history. The latest YugaTech Shop price entry is a historical 2026 observation without configuration matching, and the Shop currently reports no verified price.",
+        "qualityFlag": "Current price unavailable; recent historical store price is not configuration-matched",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine SKU/model code is not recorded",
+            "action": "Keep model code and SKU blank until listed by a source."
+          },
+          {
+            "issue": "Current exact-configuration retail price and stock are not verified",
+            "action": "Retain only the 2024 launch price and the unmatched November 2026 price-history record."
+          },
+          {
+            "issue": "Weight and thickness vary by color",
+            "action": "Display both Black and Green dimensions/weights without assuming a color."
+          },
+          {
+            "issue": "Camera sensor model, video modes, and complete sensor list are not recorded",
+            "action": "Keep these fields unresolved rather than infer from megapixels or chipset."
+          },
+          {
+            "issue": "Official product image reuse terms are not established",
+            "action": "Continue showing the neutral placeholder."
+          }
+        ]
+      }
     }
   ]
 }
