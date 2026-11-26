@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [372, 167, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 571);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [373, 167, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 572);
 const nord2 = publicDevices.find((device) => device.id === "device_15827b1eab335d");
 assert.ok(nord2);
 assert.equal(nord2.scopeStatus, "Pending");

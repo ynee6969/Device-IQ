@@ -1990,14 +1990,14 @@
     "altText": "Image unavailable for Redmi A3x"
   },
   "device_91090601d354b8": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Exact Redmi Note 10 photographs are present on Xiaomi's specification page and PinoyTechGuide, but no reusable image license or permission to copy/embed is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://www.mi.com/global/product/redmi-note-10/specs/",
     "assetUrl": null,
-    "scope": null,
+    "scope": "Redmi Note 10; Philippine 4 GB / 64 GB and 6 GB / 128 GB variants",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Redmi Note 10"
+    "altText": "Image unavailable for Xiaomi Redmi Note 10"
   },
   "device_5315b6e9963c31": {
     "status": "REUSE_PERMISSION_REQUIRED",

@@ -1,0 +1,88 @@
+{
+  "run_at": "2026-11-26T17:59:13+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_91090601d354b8",
+      "brand": "Redmi",
+      "model_name": "Redmi Note 10",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_91090601d354b8",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/xiaomi-redmi-note-10",
+      "result": "PTG lists the 4 GB / 64 GB configuration at PHP 8,490, with an explicit introductory price of PHP 7,990 on March 13, 2021, and 6 GB / 128 GB at PHP 9,990."
+    },
+    {
+      "device_id": "device_91090601d354b8",
+      "source_url": "https://www.yugatech.com/mobile/xiaomi-redmi-note-10-ph-price/",
+      "result": "YugaTech reports official local availability of 4 GB / 64 GB and 6 GB / 128 GB configurations beginning March 13, 2021."
+    },
+    {
+      "device_id": "device_91090601d354b8",
+      "source_url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+      "result": "NTC GEC record ESD-GEC-2106586 lists model M2101K7AG for Xiaomi Communications Co Ltd; a 13.56 MHz entry is not assumed to prove NFC."
+    },
+    {
+      "device_id": "device_91090601d354b8",
+      "source_url": "https://www.mi.com/global/product/redmi-note-10/specs/",
+      "result": "Xiaomi's global specification includes 4 GB / 64 GB, 4 GB / 128 GB, and 6 GB / 128 GB; only two local launch configurations are added."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_91090601d354b8",
+      "amount_php": 8490,
+      "configuration_id": "device_91090601d354b8-4gb-64gb-ph",
+      "configuration_match": "exact_philippine_4gb_64gb_configuration",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2021-03-12",
+      "excerpt": "Philippine launch coverage lists PHP 8,490 for the Redmi Note 10 4 GB / 64 GB configuration.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/xiaomi-redmi-note-10",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26T17:59:13+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_91090601d354b8",
+      "amount_php": 7990,
+      "configuration_id": "device_91090601d354b8-4gb-64gb-ph",
+      "configuration_match": "exact_philippine_4gb_64gb_configuration",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_introductory_price",
+      "source_published_at": "2021-03-12",
+      "excerpt": "PinoyTechGuide lists an introductory PHP 7,990 price for the 4 GB / 64 GB configuration on March 13, 2021; REVU independently reports a PHP 500 first-day reduction from PHP 8,490.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/xiaomi-redmi-note-10",
+      "source_kind": "dated_local_launch_promotion",
+      "observed_at": "2026-11-26T17:59:13+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_introductory_price_not_current"
+    },
+    {
+      "device_id": "device_91090601d354b8",
+      "amount_php": 9990,
+      "configuration_id": "device_91090601d354b8-6gb-128gb-ph",
+      "configuration_match": "exact_philippine_6gb_128gb_configuration",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2021-03-12",
+      "excerpt": "Philippine launch coverage lists PHP 9,990 for the Redmi Note 10 6 GB / 128 GB configuration.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/xiaomi-redmi-note-10",
+      "source_kind": "historical_local_launch_price",
+      "observed_at": "2026-11-26T17:59:13+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    }
+  ]
+}
