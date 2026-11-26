@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [381, 168, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 581);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [381, 169, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 582);
 const redmagic7Pro = publicDevices.find((device) => device.id === "device_5e189eced7d16d");
 assert.ok(redmagic7Pro);
 assert.equal(redmagic7Pro.modelNumber, "NX709J");

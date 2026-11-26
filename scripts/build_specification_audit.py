@@ -12,6 +12,7 @@ import hashlib
 import json
 import os
 import re
+import shutil
 from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
@@ -211,12 +212,22 @@ def style_sheet(ws, header_row=1):
 
 
 def write_large_text(path: Path, text: str) -> None:
-    """Write large JSON artifacts in bounded chunks and replace atomically."""
+    """Write large JSON artifacts in bounded chunks, with a Windows lock fallback."""
     temporary = path.with_name(path.name + ".tmp")
     with temporary.open("w", encoding="utf-8", newline="\n") as output:
         for start in range(0, len(text), 1024 * 1024):
             output.write(text[start:start + 1024 * 1024])
-    os.replace(temporary, path)
+    try:
+        os.replace(temporary, path)
+    except PermissionError:
+        # Some Windows readers open generated JSON without delete sharing.
+        # The completed temp file is still intact, and these files can be
+        # regenerated; overwrite the existing artifact when rename is denied.
+        with temporary.open("rb") as source, path.open("r+b") as destination:
+            destination.seek(0)
+            shutil.copyfileobj(source, destination, length=1024 * 1024)
+            destination.truncate()
+        temporary.unlink()
 
 
 def make_workbook_copy(source: Path, target: Path, audit_rows: list[dict], summaries: list[dict], lookups: list[dict], prices: list[dict], devices_by_id: dict[str, dict], image_manifest: dict[str, dict], unavailable_images: dict[str, dict]):

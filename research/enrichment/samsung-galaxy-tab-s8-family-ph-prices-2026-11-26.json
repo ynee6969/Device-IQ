@@ -1,0 +1,132 @@
+{
+  "run_at": "2026-11-26",
+  "inventory_count": 456,
+  "selected_count": 3,
+  "models": [
+    {
+      "device_id": "device_211eea228c21fc",
+      "brand": "Samsung",
+      "model_name": "Galaxy Tab S8",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    },
+    {
+      "device_id": "device_104702347ea1db",
+      "brand": "Samsung",
+      "model_name": "Galaxy Tab S8+",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    },
+    {
+      "device_id": "device_b1f198b69a803a",
+      "brand": "Samsung",
+      "model_name": "Galaxy Tab S8 Ultra",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_211eea228c21fc",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-wifi-pink-gold-256gb-sm-x700nidbxtc/",
+      "result": "Official Samsung Philippines SKU SM-X700NIDBXTC matched to 8 GB RAM / 256 GB storage · Wi-Fi."
+    },
+    {
+      "device_id": "device_211eea228c21fc",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-5g-silver-256gb-sm-x706bzsbxtc/",
+      "result": "Official Samsung Philippines SKU SM-X706BZSBXTC matched to 8 GB RAM / 256 GB storage · 5G."
+    },
+    {
+      "device_id": "device_104702347ea1db",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-plus-5g-graphite-256gb-sm-x806bzabxtc/",
+      "result": "Official Samsung Philippines SKU SM-X806BZABXTC matched to 8 GB RAM / 256 GB storage · 5G."
+    },
+    {
+      "device_id": "device_b1f198b69a803a",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-ultra-5g-graphite-256gb-sm-x906bzaextc/",
+      "result": "Official Samsung Philippines SKU SM-X906BZAEXTC matched to 12 GB RAM / 256 GB storage · 5G."
+    },
+    {
+      "device_id": "device_211eea228c21fc",
+      "source_url": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+      "result": "GizGuide lists additional 8/128 and 12/256 base Tab S8 claims without exact Philippine SKUs; these remain unresolved and are not added as configurations."
+    },
+    {
+      "device_id": "device_211eea228c21fc",
+      "source_url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+      "result": "NTC 2022 GEC model-code match checked for the three 5G models; regulatory evidence is not treated as sale evidence."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_211eea228c21fc",
+      "configuration_id": "device_211eea228c21fc-sm-x700-8gb-256gb-wifi-ph",
+      "amount_php": 41990,
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "configuration_match": "8 GB RAM / 256 GB storage · Wi-Fi",
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-02-09",
+      "excerpt": "YugaTech reports PHP 41,990 for Galaxy Tab S8 8 GB RAM / 256 GB storage · Wi-Fi; historical launch price, not a current offer.",
+      "source_url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current",
+      "review_status": "VERIFIED_SECONDARY"
+    },
+    {
+      "device_id": "device_211eea228c21fc",
+      "configuration_id": "device_211eea228c21fc-sm-x706b-8gb-256gb-5g-ph",
+      "amount_php": 49990,
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "configuration_match": "8 GB RAM / 256 GB storage · 5G",
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-02-09",
+      "excerpt": "YugaTech reports PHP 49,990 for Galaxy Tab S8 8 GB RAM / 256 GB storage · 5G; historical launch price, not a current offer.",
+      "source_url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current",
+      "review_status": "VERIFIED_SECONDARY"
+    },
+    {
+      "device_id": "device_104702347ea1db",
+      "configuration_id": "device_104702347ea1db-sm-x806b-8gb-256gb-5g-ph",
+      "amount_php": 63990,
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "configuration_match": "8 GB RAM / 256 GB storage · 5G",
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-02-09",
+      "excerpt": "YugaTech reports PHP 63,990 for Galaxy Tab S8+ 8 GB RAM / 256 GB storage · 5G; historical launch price, not a current offer.",
+      "source_url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current",
+      "review_status": "VERIFIED_SECONDARY"
+    },
+    {
+      "device_id": "device_b1f198b69a803a",
+      "configuration_id": "device_b1f198b69a803a-sm-x906b-12gb-256gb-5g-ph",
+      "amount_php": 77990,
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "configuration_match": "12 GB RAM / 256 GB storage · 5G",
+      "price_type": "historical_ph_launch_price",
+      "source_published_at": "2022-02-09",
+      "excerpt": "YugaTech reports PHP 77,990 for Galaxy Tab S8 Ultra 12 GB RAM / 256 GB storage · 5G; historical launch price, not a current offer.",
+      "source_url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+      "source_kind": "historical_local_price_candidate",
+      "observed_at": "2026-11-26",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current",
+      "review_status": "VERIFIED_SECONDARY"
+    }
+  ]
+}

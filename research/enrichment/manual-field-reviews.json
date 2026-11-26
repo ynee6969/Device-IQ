@@ -163610,6 +163610,2040 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_211eea228c21fc",
+      "configurationId": "device_211eea228c21fc-sm-x700-8gb-256gb-wifi-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8",
+      "configuration": "8 GB RAM / 256 GB storage · Wi-Fi",
+      "configurationLabel": "8 GB RAM / 256 GB storage · Wi-Fi",
+      "sources": [
+        {
+          "id": "samsung_s8_wifi_ph_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-wifi-pink-gold-256gb-sm-x700nidbxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Philippine Galaxy Tab S8 Wi-Fi SKU, configuration, product details and specifications",
+          "note": "Exact Samsung Philippines product page for SM-X700NIDBXTC, Galaxy Tab S8 Wi-Fi, 8 GB RAM / 256 GB storage."
+        },
+        {
+          "id": "samsung_tab_s8_global_launch",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/articles/after-record-breaking-preorders-samsung-announces-global-availability-of-new-galaxy-s22-series-and-galaxy-tab-s8-series",
+          "publicationDate": "2022-02-25",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung global announcement and initial global availability",
+          "note": "Samsung Mobile Press says the series was announced on 9 February 2022 and began availability in markets worldwide on 25 February 2022. The global availability date is recorded separately from the Philippine preorder date."
+        },
+        {
+          "id": "samsung_tab_s8_official_family_specs",
+          "publisher": "Samsung UK",
+          "url": "https://www.samsung.com/uk/support/mobile-devices/galaxy-tab-s8-vs-s8-vs-s8-ultra-comparison/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung comparison for shared model-family specifications",
+          "note": "Samsung's comparison page reports its technical table as correct as of February 2022 and distinguishes Wi-Fi and 5G model weights and connectivity. Accessed 2026-11-26."
+        },
+        {
+          "id": "samsung_tab_s8_official_wifi_spec_sheet",
+          "publisher": "Samsung Electronics America",
+          "url": "https://image-us.samsung.com/SamsungUS/samsungbusiness/pdfs/spec-sheet/Galaxy_Tab_S8_S8plus_Spec_Sheet_Wi-Fi.pdf",
+          "publicationDate": "2022-02",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung Wi-Fi specifications for Galaxy Tab S8 and S8+",
+          "note": "Samsung product sheet lists the Snapdragon 8 Gen 1, CPU configuration, launch OS, memory, storage, microSD, display and other Wi-Fi model specifications. Used only for shared hardware facts, not as Philippine SKU evidence."
+        },
+        {
+          "id": "samsung_tab_s8_yugatech_ph_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch coverage: local preorder, availability, configuration and price claims",
+          "note": "YugaTech's 9 February 2022 launch report lists 8/256 Wi-Fi and 5G Tab S8, 8/256 5G S8+, and 12/256 5G S8 Ultra with PHP prices; it says preorder began 9 February and broad retail availability began 4 March 2022."
+        },
+        {
+          "id": "samsung_tab_s8_gizguide_ph_launch",
+          "publisher": "GizGuide",
+          "url": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch report reviewed for competing base Tab S8 configuration claims",
+          "note": "GizGuide lists the base Tab S8 as 8/128 at PHP 41,990 and 12/256 at PHP 49,990. Those additional configuration claims do not identify Philippine Samsung SKU codes and are retained as unresolved candidate evidence, not added as verified local configurations."
+        },
+        {
+          "id": "samsung_tab_s8_ntc_2022_gec",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Philippine type approval cross-check for 5G model codes",
+          "note": "The NTC 2022 GEC lists SM-X706B as Galaxy Tab S8 5G, SM-X806B as Galaxy Tab S8+ 5G, and SM-X906B as Galaxy Tab S8 Ultra 5G. It is regulatory identity evidence, not proof of retail sale by itself."
+        },
+        {
+          "id": "samsung_tab_s8_global_newsroom",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/breaking-the-rules-with-galaxy-tab-s8-series-the-biggest-boldest-most-versatile-galaxy-tablet-ever",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung product announcement: design materials and launch features",
+          "note": "Samsung's Galaxy Tab S8 series announcement describes Armor Aluminum casing and the family design; used for model-family material information."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "SM-X700",
+          "normalizedValue": "SM-X700",
+          "note": "Samsung model code matched to the exact Philippine product page and local SKU."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "8 GB RAM / 256 GB storage; Wi-Fi",
+          "normalizedValue": "8 GB RAM / 256 GB storage · Wi-Fi",
+          "note": "The exact Philippine Samsung SKU page verifies this 8 GB / 256 GB local configuration. GizGuide's February 2022 launch report separately lists 8/128 and 12/256 Tab S8 variants; no matching Philippine Samsung SKU was found for those extra claims, so they are retained as unresolved evidence and are not added as local configurations.",
+          "candidateEvidence": [
+            {
+              "value": "Samsung Galaxy Tab S8 8 GB / 128 GB; PHP 41,990",
+              "unit": null,
+              "sourceUrl": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Samsung Galaxy Tab S8 8GB/128GB - PHP 41,990",
+              "configurationMatch": "unmatched_additional_local_configuration_claim",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Samsung Galaxy Tab S8 12 GB / 256 GB; PHP 49,990",
+              "unit": null,
+              "sourceUrl": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Samsung Galaxy Tab S8 12GB/256GB - PHP 49,990",
+              "configurationMatch": "unmatched_additional_local_configuration_claim",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Announced 2022-02-09; global market availability began 2022-02-25",
+          "normalizedValue": "2022-02-25",
+          "note": "Samsung's global press notice says the family began availability in markets worldwide on 25 February 2022; the 9 February announcement date is retained in the source note."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "Philippine preorder began 2022-02-09; broad retail availability began 2022-03-04",
+          "normalizedValue": "2022-02-09",
+          "note": "Local preorder launch date, not an exact first-sale transaction. The same source states broad availability through Samsung stores and authorized retailers from 4 March 2022."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "11.0 inches",
+          "normalizedValue": 11.0,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 11.0,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "TFT",
+          "normalizedValue": "TFT",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayType",
+          "catalogValue": "TFT"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "2560 x 1600",
+          "normalizedValue": "2560 x 1600",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2560 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Snapdragon 8 Gen 1 (SM8450)",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "4 nm",
+          "normalizedValue": 4,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Octa-core: 1x 2.99 GHz, 3x 2.4 GHz, 4x 1.7 GHz",
+          "normalizedValue": "Octa-core, 1 × 2.99 GHz + 3 × 2.4 GHz + 4 × 1.7 GHz",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Android 12; One UI 4.1",
+          "normalizedValue": "Android 12 (One UI 4.1)",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 (One UI 4.1)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "MicroSD up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "13 MP main camera + 6 MP ultra-wide rear camera",
+          "normalizedValue": "13 MP autofocus main + 6 MP ultra-wide",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "6 MP ultra-wide rear camera",
+          "normalizedValue": "6 MP ultra-wide rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Official rear camera specification lists a 13 MP main and 6 MP ultra-wide module only",
+          "normalizedValue": "No telephoto rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "12 MP ultra-wide",
+          "normalizedValue": "12 MP ultra-wide",
+          "note": "For the Ultra, the catalog's numeric frontCameraMp field represents the primary 12 MP module; the review records both front modules.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "UHD 4K (3840 × 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K/30 fps",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "8,000 mAh typical",
+          "normalizedValue": 8000,
+          "note": "Samsung identifies this as a typical capacity; its published rated/minimum capacity is lower.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "45 W Super Fast Charging",
+          "normalizedValue": 45,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Wireless charging not supported",
+          "normalizedValue": "Not supported",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "165.3 x 253.8 x 6.3 mm",
+          "normalizedValue": "165.3 x 253.8 x 6.3 mm",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.3 x 253.8 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "503 g",
+          "normalizedValue": 503,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "weightG",
+          "catalogValue": 503,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Armor Aluminum casing/frame",
+          "normalizedValue": "Armor Aluminum casing/frame",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "No IP certification / no protection listed",
+          "normalizedValue": "No IP rating stated",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Wi-Fi-only model; no SIM",
+          "normalizedValue": "No SIM; Wi-Fi only",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sim",
+          "catalogValue": "No SIM; Wi-Fi only"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Not applicable: Wi-Fi-only model",
+          "normalizedValue": "Not applicable: Wi-Fi-only model",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Wi-Fi only",
+          "normalizedValue": "Wi-Fi only",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Wi-Fi 6E; 802.11 a/b/g/n/ac/ax, 2.4/5/6 GHz",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C, USB 3.2 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Quad speakers tuned by AKG; Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyro sensor, geomagnetic sensor, Hall sensor, light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light sensors",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "S Pen included in box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "Book Cover Keyboard accessory supported; sold separately as standard",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory compatibility is distinct from the time-limited local preorder promotions that bundled selected keyboards.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "PHP 41,990 launch price for the exact 8 GB RAM / 256 GB storage · Wi-Fi configuration",
+          "normalizedValue": 41990,
+          "note": "Historical Philippine launch price reported by YugaTech on 9 February 2022. This is not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_s8_wifi_ph_specs",
+          "sourceValue": "No dated current Philippine price was displayed in the consulted Samsung product listing.",
+          "normalizedValue": null,
+          "note": "Current price remains unrecorded; the official product information page is not a dated, currently purchasable offer. Historical launch price is kept in its separate field.",
+          "unit": "PHP"
+        }
+      ],
+      "modelCode": "SM-X700",
+      "sku": "SM-X700NIDBXTC",
+      "replacementVariants": [
+        {
+          "id": "device_211eea228c21fc-sm-x700-8gb-256gb-wifi-ph",
+          "label": "8 GB RAM / 256 GB storage · Wi-Fi",
+          "sku": "SM-X700NIDBXTC",
+          "modelCode": "SM-X700",
+          "notes": "Exact Philippines Samsung product page identifies the local configuration."
+        },
+        {
+          "id": "device_211eea228c21fc-sm-x706b-8gb-256gb-5g-ph",
+          "label": "8 GB RAM / 256 GB storage · 5G",
+          "sku": "SM-X706BZSBXTC",
+          "modelCode": "SM-X706B",
+          "notes": "Exact Philippines Samsung product page identifies the local configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch reported; preorder began 2022-02-09 and authorized retail availability began 2022-03-04.",
+        "philippineAvailability": "Samsung Philippines lists an exact local SKU. YugaTech reports Samsung Store and authorized dealer availability from 2022-03-04. This verifies a Philippine market configuration, not a current stock or price guarantee.",
+        "observedAt": "2026-11-26",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine preorder launch",
+        "catalogModel": "Galaxy Tab S8",
+        "qualityFlag": "Local model and configuration reviewed; workbook selected-scope status remains Pending.",
+        "openIssues": [
+          {
+            "issue": "The inventory workbook's selected-scope status is Pending.",
+            "action": "Retain Pending; availability research does not authorize eligibility changes."
+          },
+          {
+            "issue": "No dated current Philippine price is established.",
+            "action": "Keep the current price blank and display the dated historical launch price separately."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_211eea228c21fc",
+      "configurationId": "device_211eea228c21fc-sm-x706b-8gb-256gb-5g-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8",
+      "configuration": "8 GB RAM / 256 GB storage · 5G",
+      "configurationLabel": "8 GB RAM / 256 GB storage · 5G",
+      "sources": [
+        {
+          "id": "samsung_s8_5g_ph_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-5g-silver-256gb-sm-x706bzsbxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Philippine Galaxy Tab S8 5G SKU, configuration, product details and specifications",
+          "note": "Exact Samsung Philippines product page for SM-X706BZSBXTC, Galaxy Tab S8 5G, 8 GB RAM / 256 GB storage."
+        },
+        {
+          "id": "samsung_tab_s8_global_launch",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/articles/after-record-breaking-preorders-samsung-announces-global-availability-of-new-galaxy-s22-series-and-galaxy-tab-s8-series",
+          "publicationDate": "2022-02-25",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung global announcement and initial global availability",
+          "note": "Samsung Mobile Press says the series was announced on 9 February 2022 and began availability in markets worldwide on 25 February 2022. The global availability date is recorded separately from the Philippine preorder date."
+        },
+        {
+          "id": "samsung_tab_s8_official_family_specs",
+          "publisher": "Samsung UK",
+          "url": "https://www.samsung.com/uk/support/mobile-devices/galaxy-tab-s8-vs-s8-vs-s8-ultra-comparison/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung comparison for shared model-family specifications",
+          "note": "Samsung's comparison page reports its technical table as correct as of February 2022 and distinguishes Wi-Fi and 5G model weights and connectivity. Accessed 2026-11-26."
+        },
+        {
+          "id": "samsung_tab_s8_official_wifi_spec_sheet",
+          "publisher": "Samsung Electronics America",
+          "url": "https://image-us.samsung.com/SamsungUS/samsungbusiness/pdfs/spec-sheet/Galaxy_Tab_S8_S8plus_Spec_Sheet_Wi-Fi.pdf",
+          "publicationDate": "2022-02",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung Wi-Fi specifications for Galaxy Tab S8 and S8+",
+          "note": "Samsung product sheet lists the Snapdragon 8 Gen 1, CPU configuration, launch OS, memory, storage, microSD, display and other Wi-Fi model specifications. Used only for shared hardware facts, not as Philippine SKU evidence."
+        },
+        {
+          "id": "samsung_tab_s8_yugatech_ph_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch coverage: local preorder, availability, configuration and price claims",
+          "note": "YugaTech's 9 February 2022 launch report lists 8/256 Wi-Fi and 5G Tab S8, 8/256 5G S8+, and 12/256 5G S8 Ultra with PHP prices; it says preorder began 9 February and broad retail availability began 4 March 2022."
+        },
+        {
+          "id": "samsung_tab_s8_gizguide_ph_launch",
+          "publisher": "GizGuide",
+          "url": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch report reviewed for competing base Tab S8 configuration claims",
+          "note": "GizGuide lists the base Tab S8 as 8/128 at PHP 41,990 and 12/256 at PHP 49,990. Those additional configuration claims do not identify Philippine Samsung SKU codes and are retained as unresolved candidate evidence, not added as verified local configurations."
+        },
+        {
+          "id": "samsung_tab_s8_ntc_2022_gec",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Philippine type approval cross-check for 5G model codes",
+          "note": "The NTC 2022 GEC lists SM-X706B as Galaxy Tab S8 5G, SM-X806B as Galaxy Tab S8+ 5G, and SM-X906B as Galaxy Tab S8 Ultra 5G. It is regulatory identity evidence, not proof of retail sale by itself."
+        },
+        {
+          "id": "samsung_tab_s8_global_newsroom",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/breaking-the-rules-with-galaxy-tab-s8-series-the-biggest-boldest-most-versatile-galaxy-tablet-ever",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung product announcement: design materials and launch features",
+          "note": "Samsung's Galaxy Tab S8 series announcement describes Armor Aluminum casing and the family design; used for model-family material information."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "SM-X706B",
+          "normalizedValue": "SM-X706B",
+          "note": "Samsung model code matched to the exact Philippine product page and local SKU."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "8 GB RAM / 256 GB storage; 5G",
+          "normalizedValue": "8 GB RAM / 256 GB storage · 5G",
+          "note": "The exact Philippine Samsung SKU page verifies this 8 GB / 256 GB local configuration. GizGuide's February 2022 launch report separately lists 8/128 and 12/256 Tab S8 variants; no matching Philippine Samsung SKU was found for those extra claims, so they are retained as unresolved evidence and are not added as local configurations.",
+          "candidateEvidence": [
+            {
+              "value": "Samsung Galaxy Tab S8 8 GB / 128 GB; PHP 41,990",
+              "unit": null,
+              "sourceUrl": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Samsung Galaxy Tab S8 8GB/128GB - PHP 41,990",
+              "configurationMatch": "unmatched_additional_local_configuration_claim",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Samsung Galaxy Tab S8 12 GB / 256 GB; PHP 49,990",
+              "unit": null,
+              "sourceUrl": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-26",
+              "excerpt": "Samsung Galaxy Tab S8 12GB/256GB - PHP 49,990",
+              "configurationMatch": "unmatched_additional_local_configuration_claim",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Announced 2022-02-09; global market availability began 2022-02-25",
+          "normalizedValue": "2022-02-25",
+          "note": "Samsung's global press notice says the family began availability in markets worldwide on 25 February 2022; the 9 February announcement date is retained in the source note."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "Philippine preorder began 2022-02-09; broad retail availability began 2022-03-04",
+          "normalizedValue": "2022-02-09",
+          "note": "Local preorder launch date, not an exact first-sale transaction. The same source states broad availability through Samsung stores and authorized retailers from 4 March 2022."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "11.0 inches",
+          "normalizedValue": 11.0,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 11.0,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "TFT",
+          "normalizedValue": "TFT",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayType",
+          "catalogValue": "TFT"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "2560 x 1600",
+          "normalizedValue": "2560 x 1600",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2560 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Snapdragon 8 Gen 1 (SM8450)",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "4 nm",
+          "normalizedValue": 4,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Octa-core: 1x 2.99 GHz, 3x 2.4 GHz, 4x 1.7 GHz",
+          "normalizedValue": "Octa-core, 1 × 2.99 GHz + 3 × 2.4 GHz + 4 × 1.7 GHz",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Android 12; One UI 4.1",
+          "normalizedValue": "Android 12 (One UI 4.1)",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 (One UI 4.1)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "MicroSD up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "13 MP main camera + 6 MP ultra-wide rear camera",
+          "normalizedValue": "13 MP autofocus main + 6 MP ultra-wide",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "6 MP ultra-wide rear camera",
+          "normalizedValue": "6 MP ultra-wide rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "Official rear camera specification lists a 13 MP main and 6 MP ultra-wide module only",
+          "normalizedValue": "No telephoto rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "12 MP ultra-wide",
+          "normalizedValue": "12 MP ultra-wide",
+          "note": "For the Ultra, the catalog's numeric frontCameraMp field represents the primary 12 MP module; the review records both front modules.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "UHD 4K (3840 × 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K/30 fps",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "8,000 mAh typical",
+          "normalizedValue": 8000,
+          "note": "Samsung identifies this as a typical capacity; its published rated/minimum capacity is lower.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "45 W Super Fast Charging",
+          "normalizedValue": 45,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Wireless charging not supported",
+          "normalizedValue": "Not supported",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "165.3 x 253.8 x 6.3 mm",
+          "normalizedValue": "165.3 x 253.8 x 6.3 mm",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.3 x 253.8 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "507 g",
+          "normalizedValue": 507,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "weightG",
+          "catalogValue": 507,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Armor Aluminum casing/frame",
+          "normalizedValue": "Armor Aluminum casing/frame",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "No IP certification / no protection listed",
+          "normalizedValue": "No IP rating stated",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "Single nano-SIM (4FF), tray shared with microSD",
+          "normalizedValue": "Single nano-SIM and microSD shared tray",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sim",
+          "catalogValue": "Single nano-SIM and microSD shared tray"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G UMTS bands 1/2/4/5/8; 4G FDD LTE bands 1/2/3/4/5/7/8/12/13/17/20/25/26/28/32/66; TDD LTE 38/40/41; 5G Sub-6 FDD n1/3/5/7/8/20/28/66 and TDD n38/40/41/77/78",
+          "normalizedValue": "Philippine model's listed 2G/3G/4G LTE and 5G Sub-6 bands",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "5G cellular",
+          "normalizedValue": "5G cellular",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G cellular"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "Wi-Fi 6E; 802.11 a/b/g/n/ac/ax, 2.4/5/6 GHz",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C, USB 3.2 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "Quad speakers tuned by AKG; Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyro sensor, geomagnetic sensor, Hall sensor, light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light sensors",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "S Pen included in box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "Book Cover Keyboard accessory supported; sold separately as standard",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory compatibility is distinct from the time-limited local preorder promotions that bundled selected keyboards.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "PHP 49,990 launch price for the exact 8 GB RAM / 256 GB storage · 5G configuration",
+          "normalizedValue": 49990,
+          "note": "Historical Philippine launch price reported by YugaTech on 9 February 2022. This is not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_s8_5g_ph_specs",
+          "sourceValue": "No dated current Philippine price was displayed in the consulted Samsung product listing.",
+          "normalizedValue": null,
+          "note": "Current price remains unrecorded; the official product information page is not a dated, currently purchasable offer. Historical launch price is kept in its separate field.",
+          "unit": "PHP"
+        }
+      ],
+      "modelCode": "SM-X706B",
+      "sku": "SM-X706BZSBXTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch reported; preorder began 2022-02-09 and authorized retail availability began 2022-03-04.",
+        "philippineAvailability": "Samsung Philippines lists an exact local SKU. YugaTech reports Samsung Store and authorized dealer availability from 2022-03-04. This verifies a Philippine market configuration, not a current stock or price guarantee.",
+        "observedAt": "2026-11-26",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine preorder launch",
+        "catalogModel": "Galaxy Tab S8",
+        "qualityFlag": "Local model and configuration reviewed; workbook selected-scope status remains Pending.",
+        "openIssues": [
+          {
+            "issue": "The inventory workbook's selected-scope status is Pending.",
+            "action": "Retain Pending; availability research does not authorize eligibility changes."
+          },
+          {
+            "issue": "No dated current Philippine price is established.",
+            "action": "Keep the current price blank and display the dated historical launch price separately."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_104702347ea1db",
+      "configurationId": "device_104702347ea1db-sm-x806b-8gb-256gb-5g-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8+",
+      "configuration": "8 GB RAM / 256 GB storage · 5G",
+      "configurationLabel": "8 GB RAM / 256 GB storage · 5G",
+      "sources": [
+        {
+          "id": "samsung_s8plus_5g_ph_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-plus-5g-graphite-256gb-sm-x806bzabxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Philippine Galaxy Tab S8+ 5G SKU, configuration, product details and specifications",
+          "note": "Exact Samsung Philippines product page for SM-X806BZABXTC, Galaxy Tab S8+ 5G, 8 GB RAM / 256 GB storage."
+        },
+        {
+          "id": "samsung_tab_s8_global_launch",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/articles/after-record-breaking-preorders-samsung-announces-global-availability-of-new-galaxy-s22-series-and-galaxy-tab-s8-series",
+          "publicationDate": "2022-02-25",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung global announcement and initial global availability",
+          "note": "Samsung Mobile Press says the series was announced on 9 February 2022 and began availability in markets worldwide on 25 February 2022. The global availability date is recorded separately from the Philippine preorder date."
+        },
+        {
+          "id": "samsung_tab_s8_official_family_specs",
+          "publisher": "Samsung UK",
+          "url": "https://www.samsung.com/uk/support/mobile-devices/galaxy-tab-s8-vs-s8-vs-s8-ultra-comparison/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung comparison for shared model-family specifications",
+          "note": "Samsung's comparison page reports its technical table as correct as of February 2022 and distinguishes Wi-Fi and 5G model weights and connectivity. Accessed 2026-11-26."
+        },
+        {
+          "id": "samsung_tab_s8_official_wifi_spec_sheet",
+          "publisher": "Samsung Electronics America",
+          "url": "https://image-us.samsung.com/SamsungUS/samsungbusiness/pdfs/spec-sheet/Galaxy_Tab_S8_S8plus_Spec_Sheet_Wi-Fi.pdf",
+          "publicationDate": "2022-02",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung Wi-Fi specifications for Galaxy Tab S8 and S8+",
+          "note": "Samsung product sheet lists the Snapdragon 8 Gen 1, CPU configuration, launch OS, memory, storage, microSD, display and other Wi-Fi model specifications. Used only for shared hardware facts, not as Philippine SKU evidence."
+        },
+        {
+          "id": "samsung_tab_s8_yugatech_ph_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch coverage: local preorder, availability, configuration and price claims",
+          "note": "YugaTech's 9 February 2022 launch report lists 8/256 Wi-Fi and 5G Tab S8, 8/256 5G S8+, and 12/256 5G S8 Ultra with PHP prices; it says preorder began 9 February and broad retail availability began 4 March 2022."
+        },
+        {
+          "id": "samsung_tab_s8_gizguide_ph_launch",
+          "publisher": "GizGuide",
+          "url": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch report reviewed for competing base Tab S8 configuration claims",
+          "note": "GizGuide lists the base Tab S8 as 8/128 at PHP 41,990 and 12/256 at PHP 49,990. Those additional configuration claims do not identify Philippine Samsung SKU codes and are retained as unresolved candidate evidence, not added as verified local configurations."
+        },
+        {
+          "id": "samsung_tab_s8_ntc_2022_gec",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Philippine type approval cross-check for 5G model codes",
+          "note": "The NTC 2022 GEC lists SM-X706B as Galaxy Tab S8 5G, SM-X806B as Galaxy Tab S8+ 5G, and SM-X906B as Galaxy Tab S8 Ultra 5G. It is regulatory identity evidence, not proof of retail sale by itself."
+        },
+        {
+          "id": "samsung_tab_s8_global_newsroom",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/breaking-the-rules-with-galaxy-tab-s8-series-the-biggest-boldest-most-versatile-galaxy-tablet-ever",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung product announcement: design materials and launch features",
+          "note": "Samsung's Galaxy Tab S8 series announcement describes Armor Aluminum casing and the family design; used for model-family material information."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "SM-X806B",
+          "normalizedValue": "SM-X806B",
+          "note": "Samsung model code matched to the exact Philippine product page and local SKU."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "8 GB RAM / 256 GB storage; 5G",
+          "normalizedValue": "8 GB RAM / 256 GB storage · 5G",
+          "note": "Exact Philippine Samsung SKU page identifies the listed memory, storage and connectivity configuration."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Announced 2022-02-09; global market availability began 2022-02-25",
+          "normalizedValue": "2022-02-25",
+          "note": "Samsung's global press notice says the family began availability in markets worldwide on 25 February 2022; the 9 February announcement date is retained in the source note."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "Philippine preorder began 2022-02-09; broad retail availability began 2022-03-04",
+          "normalizedValue": "2022-02-09",
+          "note": "Local preorder launch date, not an exact first-sale transaction. The same source states broad availability through Samsung stores and authorized retailers from 4 March 2022."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "12.4 inches",
+          "normalizedValue": 12.4,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 12.4,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Super AMOLED",
+          "normalizedValue": "Super AMOLED",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Super AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "2800 x 1752",
+          "normalizedValue": "2800 x 1752",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2800 x 1752"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Snapdragon 8 Gen 1 (SM8450)",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "4 nm",
+          "normalizedValue": 4,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Octa-core: 1x 2.99 GHz, 3x 2.4 GHz, 4x 1.7 GHz",
+          "normalizedValue": "Octa-core, 1 × 2.99 GHz + 3 × 2.4 GHz + 4 × 1.7 GHz",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Android 12; One UI 4.1",
+          "normalizedValue": "Android 12 (One UI 4.1)",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 (One UI 4.1)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "MicroSD up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "13 MP main camera + 6 MP ultra-wide rear camera",
+          "normalizedValue": "13 MP autofocus main + 6 MP ultra-wide",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "6 MP ultra-wide rear camera",
+          "normalizedValue": "6 MP ultra-wide rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Official rear camera specification lists a 13 MP main and 6 MP ultra-wide module only",
+          "normalizedValue": "No telephoto rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "12 MP ultra-wide",
+          "normalizedValue": "12 MP ultra-wide",
+          "note": "For the Ultra, the catalog's numeric frontCameraMp field represents the primary 12 MP module; the review records both front modules.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "UHD 4K (3840 × 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K/30 fps",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "10,090 mAh typical",
+          "normalizedValue": 10090,
+          "note": "Samsung identifies this as a typical capacity; its published rated/minimum capacity is lower.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 10090,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "45 W Super Fast Charging",
+          "normalizedValue": 45,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Wireless charging not supported",
+          "normalizedValue": "Not supported",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "185 x 285 x 5.7 mm",
+          "normalizedValue": "185 x 285 x 5.7 mm",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "185 x 285 x 5.7 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "572 g",
+          "normalizedValue": 572,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "weightG",
+          "catalogValue": 572,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Armor Aluminum casing/frame",
+          "normalizedValue": "Armor Aluminum casing/frame",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "No IP certification / no protection listed",
+          "normalizedValue": "No IP rating stated",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Single nano-SIM (4FF), tray shared with microSD",
+          "normalizedValue": "Single nano-SIM and microSD shared tray",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sim",
+          "catalogValue": "Single nano-SIM and microSD shared tray"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G UMTS bands 1/2/4/5/8; 4G FDD LTE bands 1/2/3/4/5/7/8/12/13/17/20/25/26/28/32/66; TDD LTE 38/40/41; 5G Sub-6 FDD n1/3/5/7/8/20/28/66 and TDD n38/40/41/77/78",
+          "normalizedValue": "Philippine model's listed 2G/3G/4G LTE and 5G Sub-6 bands",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "5G cellular",
+          "normalizedValue": "5G cellular",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G cellular"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Wi-Fi 6E; 802.11 a/b/g/n/ac/ax, 2.4/5/6 GHz",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C, USB 3.2 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Quad speakers tuned by AKG; Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyro sensor, geomagnetic sensor, Hall sensor, light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light sensors",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "S Pen included in box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "Book Cover Keyboard accessory supported; sold separately as standard",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory compatibility is distinct from the time-limited local preorder promotions that bundled selected keyboards.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "PHP 63,990 launch price for the exact 8 GB RAM / 256 GB storage · 5G configuration",
+          "normalizedValue": 63990,
+          "note": "Historical Philippine launch price reported by YugaTech on 9 February 2022. This is not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_s8plus_5g_ph_specs",
+          "sourceValue": "No dated current Philippine price was displayed in the consulted Samsung product listing.",
+          "normalizedValue": null,
+          "note": "Current price remains unrecorded; the official product information page is not a dated, currently purchasable offer. Historical launch price is kept in its separate field.",
+          "unit": "PHP"
+        }
+      ],
+      "modelCode": "SM-X806B",
+      "sku": "SM-X806BZABXTC",
+      "replacementVariants": [
+        {
+          "id": "device_104702347ea1db-sm-x806b-8gb-256gb-5g-ph",
+          "label": "8 GB RAM / 256 GB storage · 5G",
+          "sku": "SM-X806BZABXTC",
+          "modelCode": "SM-X806B",
+          "notes": "Exact Philippines Samsung product page identifies the local configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch reported; preorder began 2022-02-09 and authorized retail availability began 2022-03-04.",
+        "philippineAvailability": "Samsung Philippines lists an exact local SKU. YugaTech reports Samsung Store and authorized dealer availability from 2022-03-04. This verifies a Philippine market configuration, not a current stock or price guarantee.",
+        "observedAt": "2026-11-26",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine preorder launch",
+        "catalogModel": "Galaxy Tab S8+",
+        "qualityFlag": "Local model and configuration reviewed; workbook selected-scope status remains Pending.",
+        "openIssues": [
+          {
+            "issue": "The inventory workbook's selected-scope status is Pending.",
+            "action": "Retain Pending; availability research does not authorize eligibility changes."
+          },
+          {
+            "issue": "No dated current Philippine price is established.",
+            "action": "Keep the current price blank and display the dated historical launch price separately."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_b1f198b69a803a",
+      "configurationId": "device_b1f198b69a803a-sm-x906b-12gb-256gb-5g-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8 Ultra",
+      "configuration": "12 GB RAM / 256 GB storage · 5G",
+      "configurationLabel": "12 GB RAM / 256 GB storage · 5G",
+      "sources": [
+        {
+          "id": "samsung_s8ultra_5g_ph_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-ultra-5g-graphite-256gb-sm-x906bzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Philippine Galaxy Tab S8 Ultra 5G SKU, configuration, product details and specifications",
+          "note": "Exact Samsung Philippines product page for SM-X906BZAEXTC, Galaxy Tab S8 Ultra 5G, 12 GB RAM / 256 GB storage."
+        },
+        {
+          "id": "samsung_tab_s8_global_launch",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/articles/after-record-breaking-preorders-samsung-announces-global-availability-of-new-galaxy-s22-series-and-galaxy-tab-s8-series",
+          "publicationDate": "2022-02-25",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung global announcement and initial global availability",
+          "note": "Samsung Mobile Press says the series was announced on 9 February 2022 and began availability in markets worldwide on 25 February 2022. The global availability date is recorded separately from the Philippine preorder date."
+        },
+        {
+          "id": "samsung_tab_s8_official_family_specs",
+          "publisher": "Samsung UK",
+          "url": "https://www.samsung.com/uk/support/mobile-devices/galaxy-tab-s8-vs-s8-vs-s8-ultra-comparison/",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung comparison for shared model-family specifications",
+          "note": "Samsung's comparison page reports its technical table as correct as of February 2022 and distinguishes Wi-Fi and 5G model weights and connectivity. Accessed 2026-11-26."
+        },
+        {
+          "id": "samsung_tab_s8_official_wifi_spec_sheet",
+          "publisher": "Samsung Electronics America",
+          "url": "https://image-us.samsung.com/SamsungUS/samsungbusiness/pdfs/spec-sheet/Galaxy_Tab_S8_S8plus_Spec_Sheet_Wi-Fi.pdf",
+          "publicationDate": "2022-02",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung Wi-Fi specifications for Galaxy Tab S8 and S8+",
+          "note": "Samsung product sheet lists the Snapdragon 8 Gen 1, CPU configuration, launch OS, memory, storage, microSD, display and other Wi-Fi model specifications. Used only for shared hardware facts, not as Philippine SKU evidence."
+        },
+        {
+          "id": "samsung_tab_s8_yugatech_ph_launch",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/samsung-galaxy-tab-s8-ultra-full-specs-price-philippines/",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch coverage: local preorder, availability, configuration and price claims",
+          "note": "YugaTech's 9 February 2022 launch report lists 8/256 Wi-Fi and 5G Tab S8, 8/256 5G S8+, and 12/256 5G S8 Ultra with PHP prices; it says preorder began 9 February and broad retail availability began 4 March 2022."
+        },
+        {
+          "id": "samsung_tab_s8_gizguide_ph_launch",
+          "publisher": "GizGuide",
+          "url": "https://www.gizguide.com/2022/02/samsung-galaxy-tab-s8-series-launch.html",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Independent Philippine launch report reviewed for competing base Tab S8 configuration claims",
+          "note": "GizGuide lists the base Tab S8 as 8/128 at PHP 41,990 and 12/256 at PHP 49,990. Those additional configuration claims do not identify Philippine Samsung SKU codes and are retained as unresolved candidate evidence, not added as verified local configurations."
+        },
+        {
+          "id": "samsung_tab_s8_ntc_2022_gec",
+          "publisher": "National Telecommunications Commission Philippines",
+          "url": "https://ntc.gov.ph/wp-content/uploads/2024/TYPE%20APPROVED/TA_2022_4col_%28GEC%29.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Philippine type approval cross-check for 5G model codes",
+          "note": "The NTC 2022 GEC lists SM-X706B as Galaxy Tab S8 5G, SM-X806B as Galaxy Tab S8+ 5G, and SM-X906B as Galaxy Tab S8 Ultra 5G. It is regulatory identity evidence, not proof of retail sale by itself."
+        },
+        {
+          "id": "samsung_tab_s8_global_newsroom",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/breaking-the-rules-with-galaxy-tab-s8-series-the-biggest-boldest-most-versatile-galaxy-tablet-ever",
+          "publicationDate": "2022-02-09",
+          "accessDate": "2026-11-25",
+          "purpose": "Official Samsung product announcement: design materials and launch features",
+          "note": "Samsung's Galaxy Tab S8 series announcement describes Armor Aluminum casing and the family design; used for model-family material information."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "SM-X906B",
+          "normalizedValue": "SM-X906B",
+          "note": "Samsung model code matched to the exact Philippine product page and local SKU."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "12 GB RAM / 256 GB storage; 5G",
+          "normalizedValue": "12 GB RAM / 256 GB storage · 5G",
+          "note": "Exact Philippine Samsung SKU page identifies the listed memory, storage and connectivity configuration."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Announced 2022-02-09; global market availability began 2022-02-25",
+          "normalizedValue": "2022-02-25",
+          "note": "Samsung's global press notice says the family began availability in markets worldwide on 25 February 2022; the 9 February announcement date is retained in the source note."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "Philippine preorder began 2022-02-09; broad retail availability began 2022-03-04",
+          "normalizedValue": "2022-02-09",
+          "note": "Local preorder launch date, not an exact first-sale transaction. The same source states broad availability through Samsung stores and authorized retailers from 4 March 2022."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "14.6 inches",
+          "normalizedValue": 14.6,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 14.6,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Super AMOLED",
+          "normalizedValue": "Super AMOLED",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Super AMOLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "2960 x 1848",
+          "normalizedValue": "2960 x 1848",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2960 x 1848"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Snapdragon 8 Gen 1 (SM8450)",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "4 nm",
+          "normalizedValue": 4,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Octa-core: 1x 2.99 GHz, 3x 2.4 GHz, 4x 1.7 GHz",
+          "normalizedValue": "Octa-core, 1 × 2.99 GHz + 3 × 2.4 GHz + 4 × 1.7 GHz",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Android 12; One UI 4.1",
+          "normalizedValue": "Android 12 (One UI 4.1)",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "os",
+          "catalogValue": "Android 12 (One UI 4.1)"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "12 GB",
+          "normalizedValue": 12,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "MicroSD up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "13 MP main camera + 6 MP ultra-wide rear camera",
+          "normalizedValue": "13 MP autofocus main + 6 MP ultra-wide",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "6 MP ultra-wide rear camera",
+          "normalizedValue": "6 MP ultra-wide rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Official rear camera specification lists a 13 MP main and 6 MP ultra-wide module only",
+          "normalizedValue": "No telephoto rear camera",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "12 MP wide + 12 MP ultra-wide",
+          "normalizedValue": "12 MP wide + 12 MP ultra-wide",
+          "note": "For the Ultra, the catalog's numeric frontCameraMp field represents the primary 12 MP module; the review records both front modules.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "UHD 4K (3840 × 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K/30 fps",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K/30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "11,200 mAh typical",
+          "normalizedValue": 11200,
+          "note": "Samsung identifies this as a typical capacity; its published rated/minimum capacity is lower.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 11200,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "45 W Super Fast Charging",
+          "normalizedValue": 45,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "Wireless charging not supported",
+          "normalizedValue": "Not supported",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "208.6 x 326.4 x 5.5 mm",
+          "normalizedValue": "208.6 x 326.4 x 5.5 mm",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "208.6 x 326.4 x 5.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "728 g",
+          "normalizedValue": 728,
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "weightG",
+          "catalogValue": 728,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "Armor Aluminum casing/frame",
+          "normalizedValue": "Armor Aluminum casing/frame",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_official_family_specs",
+          "sourceValue": "No IP certification / no protection listed",
+          "normalizedValue": "No IP rating stated",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Single nano-SIM (4FF), tray shared with microSD",
+          "normalizedValue": "Single nano-SIM and microSD shared tray",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sim",
+          "catalogValue": "Single nano-SIM and microSD shared tray"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G UMTS bands 1/2/4/5/8; 4G FDD LTE bands 1/2/3/4/5/7/8/12/13/17/20/25/26/28/32/66; TDD LTE 38/40/41; 5G Sub-6 FDD n1/3/5/7/8/20/28/66 and TDD n38/40/41/77/78",
+          "normalizedValue": "Philippine model's listed 2G/3G/4G LTE and 5G Sub-6 bands",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "5G cellular",
+          "normalizedValue": "5G cellular",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G cellular"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Wi-Fi 6E; 802.11 a/b/g/n/ac/ax, 2.4/5/6 GHz",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C, USB 3.2 Gen 1",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C, USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "normalizedValue": "GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Quad speakers tuned by AKG; Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyro sensor, geomagnetic sensor, Hall sensor, light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light sensors",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s8_global_launch",
+          "sourceValue": "S Pen included in box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact model and listed 8 GB / 256 GB configuration checked against the cited official source."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "Book Cover Keyboard accessory supported; sold separately as standard",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory compatibility is distinct from the time-limited local preorder promotions that bundled selected keyboards.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s8_yugatech_ph_launch",
+          "sourceValue": "PHP 77,990 launch price for the exact 12 GB RAM / 256 GB storage · 5G configuration",
+          "normalizedValue": 77990,
+          "note": "Historical Philippine launch price reported by YugaTech on 9 February 2022. This is not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_s8ultra_5g_ph_specs",
+          "sourceValue": "No dated current Philippine price was displayed in the consulted Samsung product listing.",
+          "normalizedValue": null,
+          "note": "Current price remains unrecorded; the official product information page is not a dated, currently purchasable offer. Historical launch price is kept in its separate field.",
+          "unit": "PHP"
+        }
+      ],
+      "modelCode": "SM-X906B",
+      "sku": "SM-X906BZAEXTC",
+      "replacementVariants": [
+        {
+          "id": "device_b1f198b69a803a-sm-x906b-12gb-256gb-5g-ph",
+          "label": "12 GB RAM / 256 GB storage · 5G",
+          "sku": "SM-X906BZAEXTC",
+          "modelCode": "SM-X906B",
+          "notes": "Exact Philippines Samsung product page identifies the local configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch reported; preorder began 2022-02-09 and authorized retail availability began 2022-03-04.",
+        "philippineAvailability": "Samsung Philippines lists an exact local SKU. YugaTech reports Samsung Store and authorized dealer availability from 2022-03-04. This verifies a Philippine market configuration, not a current stock or price guarantee.",
+        "observedAt": "2026-11-26",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine preorder launch",
+        "catalogModel": "Galaxy Tab S8 Ultra",
+        "qualityFlag": "Local model and configuration reviewed; workbook selected-scope status remains Pending.",
+        "openIssues": [
+          {
+            "issue": "The inventory workbook's selected-scope status is Pending.",
+            "action": "Retain Pending; availability research does not authorize eligibility changes."
+          },
+          {
+            "issue": "No dated current Philippine price is established.",
+            "action": "Keep the current price blank and display the dated historical launch price separately."
+          }
+        ]
+      }
     }
   ]
 }

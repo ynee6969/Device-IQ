@@ -3883,24 +3883,24 @@
     "altText": "Image unavailable for Samsung S11 Ultra"
   },
   "device_b1f198b69a803a": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_PERMISSION_REQUIRED",
+    "reason": "Samsung Philippines has an exact-model product image, but Samsung's site terms do not establish a license to republish that image in this catalog. The neutral placeholder remains until reuse permission is secured.",
+    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-ultra-5g-graphite-256gb-sm-x906bzaextc/",
     "assetUrl": null,
-    "scope": null,
-    "rightsTermsUrl": null,
+    "scope": "Exact model",
+    "rightsTermsUrl": "https://www.samsung.com/ph/business/info/legal/",
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Samsung S8 Ultra"
+    "altText": "Image unavailable for Galaxy Tab S8 Ultra"
   },
   "device_104702347ea1db": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_PERMISSION_REQUIRED",
+    "reason": "Samsung Philippines has an exact-model product image, but Samsung's site terms do not establish a license to republish that image in this catalog. The neutral placeholder remains until reuse permission is secured.",
+    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s8-plus-5g-graphite-256gb-sm-x806bzabxtc/",
     "assetUrl": null,
-    "scope": null,
-    "rightsTermsUrl": null,
+    "scope": "Exact model",
+    "rightsTermsUrl": "https://www.samsung.com/ph/business/info/legal/",
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Samsung S8+"
+    "altText": "Image unavailable for Galaxy Tab S8+"
   },
   "device_dfa2be77dc5b49": {
     "status": "NO_RELIABLE_MATCH",
