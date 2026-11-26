@@ -141398,6 +141398,613 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_cef4dc913ac418",
+      "configurationId": "device_cef4dc913ac418-12gb-256gb-ph",
+      "brand": "Motorola",
+      "model": "Edge 20 Pro",
+      "configuration": "12 GB RAM / 256 GB storage",
+      "configurationLabel": "12 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "edge20pro_motorola_global",
+          "publisher": "Motorola News",
+          "url": "https://motorolanews.com/its-time-to-find-your-edge-new-motorola-edge-20-pro-motorola-edge-20-motorola-edge-20-lite/",
+          "publicationDate": "2021-07-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer global introduction date and product-family specifications",
+          "note": "Motorola's July 29, 2021 introduction identifies the Edge 20 Pro camera system, 6.7-inch OLED/144 Hz display, Wi-Fi 6, Snapdragon 870, 12 GB memory, 256 GB storage, 8K video, and Android 11. It describes the main sensor as 1/1.5-inch optical format; it does not identify a sensor part number or RAM type."
+        },
+        {
+          "id": "edge20pro_motorola_doc",
+          "publisher": "Motorola Support",
+          "url": "https://en-us.support.motorola.com/app/answers/detail/a_id/167829/p/11070",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer mapping between XT2153-1 and motorola edge 20 pro",
+          "note": "Motorola's model-code table explicitly maps XT2153-1 / MC3A8 to motorola edge 20 pro. This is the exact model-code crosswalk, not Philippine retail evidence."
+        },
+        {
+          "id": "edge20pro_ntc_gec",
+          "publisher": "National Telecommunications Commission (NTC)",
+          "url": "https://region7.ntc.gov.ph/wp-content/uploads/2024/01/GEC_08312021.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine GEC model-code confirmation",
+          "note": "The NTC GEC table lists Motorola XT2153-1 as a smartphone under Motorola Mobility LLC, record ESD-GEC-2106870 dated July 29, 2021. The GEC corroborates the local regulatory model code; it is not treated alone as proof of consumer sales."
+        },
+        {
+          "id": "edge20pro_yugatech_ph",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine model launch reporting, configuration, price, and local technical specification cross-check",
+          "note": "Published October 21, 2021. YugaTech reports the Edge 20 Pro's Philippine unveiling, 12 GB/256 GB configuration, PHP 29,995 standard price and PHP 27,995 promotion, and local display, chipset, camera, battery, charging, connectivity, and software details. Its narrative paragraph contains camera transcription errors; this review uses its detailed specification list only where corroborated by Motorola or the exact local listing."
+        },
+        {
+          "id": "edge20pro_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2021/10/motorola-edge-20-pro-fusion-price-ph/",
+          "publicationDate": "2021-10-15",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine launch date, exact local configuration, list price, preorder price, and camera/video cross-check",
+          "note": "Published October 15, 2021. REVU says Motorola Philippines introduced the Edge 20 series that day and specifically lists the Edge 20 Pro 12 GB/256 GB at PHP 29,995, with a PHP 27,995 preorder price. It also reports 8K video and the 108 MP main / 8 MP periscope / 16 MP ultrawide arrangement. REVU explicitly says the article's feature image depicts the Edge 20 Fusion, so that image is not used for this record."
+        },
+        {
+          "id": "edge20pro_villman_ph",
+          "publisher": "VillMan Computers Philippines",
+          "url": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact local part number, color, selected configuration, dated listed price, and local product page cross-check",
+          "note": "Observed November 26, 2026. The product page is titled for Motorola Moto Edge 20 Pro part number PANY0015PH, Thunder Black, 12 GB RAM/256 GB ROM, and lists PHP 29,995 with an Add to cart control. Stock status and item condition are not stated. Its specification table says Wi-Fi AC, conflicting with Motorola's Wi-Fi 6 statement; the catalog uses Motorola's manufacturer specification and preserves the discrepancy as an open issue. The page's exact-model-labeled image is not embedded because reuse terms are absent and the image target could not be visually inspected here."
+        },
+        {
+          "id": "edge20pro_qualcomm",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/prod_brief_qcom_sd870_5g.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary Snapdragon 870 platform CPU, GPU, and process-node specifications",
+          "note": "Qualcomm identifies Kryo 585 octa-core CPU up to 3.2 GHz, Adreno 650 graphics, and 7 nm process technology for the Snapdragon 870 5G Mobile Platform. These are platform specifications, not a separate Philippine SKU claim."
+        },
+        {
+          "id": "edge20pro_motorola_manual",
+          "publisher": "Motorola Support",
+          "url": "https://help.motorola.com/hc/7120/12/pdf/help-motorola-edge-20-pro-12-global-en-us.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer's model-specific user guide",
+          "note": "Motorola's Edge 20 Pro guide is used for model-specific hardware/use context. Its illustration includes example imagery; no image is copied from the guide."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_ntc_gec",
+          "sourceValue": "NTC GEC Motorola XT2153-1; Motorola DoC maps XT2153-1 to motorola edge 20 pro",
+          "normalizedValue": "XT2153-1",
+          "note": "The Philippine NTC record and Motorola model-code table agree on XT2153-1; VillMan separately identifies the local part number PANY0015PH.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Motorola global announcement dated July 29, 2021",
+          "normalizedValue": "2021-07-29",
+          "note": "Global announcement date; distinct from the Philippine launch on October 15, 2021.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "Philippine launch model: 12 GB RAM / 256 GB storage; VillMan part number PANY0015PH",
+          "normalizedValue": "12 GB RAM / 256 GB storage",
+          "note": "Philippine sources identify one local configuration. Global variants not evidenced in the Philippine launch sources are not added as local variants.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "Motorola Philippines introduced/launched the Edge 20 Pro locally on October 15, 2021",
+          "normalizedValue": "2021-10-15",
+          "note": "Contemporaneous Philippine launch report. It is not a claim about the first individual retail transaction.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "Regular Philippine price PHP 29,995; preorder price PHP 27,995 for 12 GB / 256 GB",
+          "normalizedValue": 29995,
+          "note": "The normalized value is the regular launch price. The lower preorder promotion is retained separately in price history and is not treated as the permanent list price.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "VillMan product page lists PHP 29,995 for PANY0015PH 12 GB / 256 GB; stock status and condition not stated",
+          "normalizedValue": 29995,
+          "note": "Dated displayed local list price for the exact SKU/configuration. The page has an Add to cart control but no explicit stock or condition statement; no in-stock or new-condition claim is made.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "unit": "PHP",
+          "priceCondition": null,
+          "priceType": "VillMan exact local SKU listing observed 2026-11-26; stock status and item condition not stated",
+          "priceObservedAt": "2026-11-26",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "6.7-inch Max Vision display",
+          "normalizedValue": 6.7,
+          "note": "Motorola and Philippine launch sources identify the 6.7-inch panel.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.7,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "OLED display",
+          "normalizedValue": "OLED",
+          "note": "Manufacturer identifies OLED display technology.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "OLED"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "1080 x 2400 pixels",
+          "normalizedValue": "1080 x 2400",
+          "note": "The exact local product page lists FHD+ 1080 x 2400 pixels.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "144 Hz refresh rate",
+          "normalizedValue": 144,
+          "note": "Manufacturer specification corroborated by Philippine launch reporting.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "refreshHz",
+          "catalogValue": 144,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "No numeric peak or typical brightness value found in reviewed sources",
+          "normalizedValue": null,
+          "note": "A marketing description such as bright or vivid is not converted into a numeric brightness value.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "Corning Gorilla Glass 5",
+          "normalizedValue": "Corning Gorilla Glass 5",
+          "note": "Contemporaneous Philippine specification lists Gorilla Glass 5; the exact protected surfaces are not asserted here.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "Qualcomm Snapdragon 870 5G Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 870",
+          "note": "Local launch sources identify Snapdragon 870 for the Philippine Edge 20 Pro.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 870"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_qualcomm",
+          "sourceValue": "7 nm process technology",
+          "normalizedValue": "7 nm",
+          "note": "Qualcomm platform property, not a claim about the handset's manufacturing process.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_qualcomm",
+          "sourceValue": "Kryo 585 octa-core CPU up to 3.2 GHz",
+          "normalizedValue": "Kryo 585 octa-core up to 3.2 GHz",
+          "note": "Qualcomm's primary Snapdragon 870 product brief.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "Kryo 585 octa-core up to 3.2 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_qualcomm",
+          "sourceValue": "Adreno 650 GPU",
+          "normalizedValue": "Adreno 650",
+          "note": "Qualcomm's primary Snapdragon 870 product brief.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 650"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Android 11 at product introduction",
+          "normalizedValue": "Android 11",
+          "note": "Motorola's global launch release identifies Android 11.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "Android 11"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Motorola said the Edge 20 Pro would receive at least two major Android OS upgrades and two years of bi-monthly security updates; rollout was subject to change",
+          "normalizedValue": "Launch plan: at least 2 major Android upgrades and 2 years of bi-monthly security updates",
+          "note": "This records Motorola's published launch plan, not a guarantee that all updates were delivered or remain available today.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "12 GB RAM",
+          "normalizedValue": 12,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Memory generation/type is not specified in the reviewed manufacturer or Philippine launch sources",
+          "normalizedValue": null,
+          "note": "No LPDDR type is inferred from the platform or product tier.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "256 GB built-in storage",
+          "normalizedValue": 256,
+          "note": "Exact Philippine launch configuration.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "UFS 3.1 storage",
+          "normalizedValue": "UFS 3.1",
+          "note": "Philippine launch specification identifies UFS 3.1.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "Memory expansion listed as not applicable for PANY0015PH",
+          "normalizedValue": "No memory expansion listed",
+          "note": "The local part-number page explicitly lists Memory Expansion N/A; this is not a claim about cloud or USB storage.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "108 MP main + 8 MP periscope telephoto + 16 MP ultrawide",
+          "normalizedValue": "108 MP main + 8 MP periscope telephoto + 16 MP ultrawide",
+          "note": "Detailed Philippine launch specifications and Motorola's product description support the three camera roles. YugaTech's narrative has a 1080 MP typo and a mislabeled camera; its detailed list, REVU, and VillMan support the values used here.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 108
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Motorola describes the 108 MP main sensor as 1/1.5-inch optical format; sensor part number not stated",
+          "normalizedValue": "108 MP; 1/1.5-inch optical format; sensor part number not recorded",
+          "note": "Manufacturer-stated optical format. VillMan lists 1/1.52-inch; the small notation difference is retained as a source discrepancy rather than treated as a distinct sensor identity.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "16 MP ultrawide camera with Macro Vision",
+          "normalizedValue": "16 MP ultrawide with Macro Vision",
+          "note": "Philippine launch source identifies the ultrawide camera; Motorola describes Macro Vision on the ultrawide lens.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_revu_ph",
+          "sourceValue": "8 MP periscope telephoto camera; up to 5x optical magnification and 50x digital Super Zoom",
+          "normalizedValue": "8 MP periscope telephoto; 5x optical / up to 50x digital zoom",
+          "note": "Periscope telephoto role and zoom specifications are reported in contemporaneous launch sources and Motorola's product release.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "32 MP front camera",
+          "normalizedValue": 32,
+          "note": "Philippine launch specification; the source also lists f/2.25, not normalized into this numeric catalog field.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Motorola states Edge 20 Pro can record 8K video; detailed mode/frame-rate combinations not recorded",
+          "normalizedValue": "8K video recording; frame rates/mode details not recorded",
+          "note": "Manufacturer launch statement; no 8K frame rate or front-camera recording modes are inferred.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "4,500 mAh battery",
+          "normalizedValue": 4500,
+          "note": "Philippine launch specification corroborated by the exact local product listing.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Cell chemistry and internal battery construction not stated in reviewed sources",
+          "normalizedValue": null,
+          "note": "No lithium-polymer or cell-layout detail is inferred.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "TurboPower 30 wired charging",
+          "normalizedValue": 30,
+          "note": "Motorola names TurboPower 30; Philippine sources list 30 W.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 30,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "edge20pro_motorola_manual",
+          "sourceValue": "Wireless or reverse charging support not established in reviewed sources",
+          "normalizedValue": null,
+          "note": "No support or absence is inferred from silence in the reviewed materials.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "163.26 x 74.55 x 7.99 mm",
+          "normalizedValue": "163.26 x 74.55 x 7.99 mm",
+          "note": "Exact dimensions shown for local part number PANY0015PH. Some Philippine summaries round these values.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "163.26 x 74.55 x 7.99 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "190 g",
+          "normalizedValue": 190,
+          "note": "Exact local listing specification.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 190,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "Gorilla Glass 5 listed under build; specific front/back/frame material breakdown not recorded",
+          "normalizedValue": "Gorilla Glass 5; full material breakdown not recorded",
+          "note": "Only the material entry stated by the exact local listing is recorded; no frame material is inferred.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "Water-repellent design; no formal IP rating listed",
+          "normalizedValue": "Water-repellent design; IP rating not recorded",
+          "note": "Water-repellent wording is not treated as an IP certification.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "Dual Nano-SIM; eSIM support not stated in reviewed local sources",
+          "normalizedValue": "Dual Nano-SIM; eSIM not recorded",
+          "note": "Local launch specification reports dual nano-SIM; no eSIM support is inferred.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "4G LTE and 5G; exact Philippine XT2153-1 band set not established",
+          "normalizedValue": "4G LTE / 5G; exact local bands not recorded",
+          "note": "Local sources confirm network generations. The NTC GEC radio ranges are not substituted for a full handset band specification.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE / 5G; exact local bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Wi-Fi 6",
+          "normalizedValue": "Wi-Fi 6",
+          "note": "Manufacturer states Wi-Fi 6. VillMan's local specification table says Wi-Fi AC; this conflict is flagged, and the manufacturer value is used.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "Bluetooth 5.1",
+          "normalizedValue": "Bluetooth 5.1",
+          "note": "Philippine launch reporting; exact local product listing also names Bluetooth 5.1.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_villman_ph",
+          "sourceValue": "USB Type-C 3.1 with DisplayPort 1.4 listed",
+          "normalizedValue": "USB-C; USB 3.1 / DisplayPort 1.4 per local listing",
+          "note": "Exact local part-number page supplies the detailed port claim; no accessory or cable guarantee is implied.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 / DisplayPort 1.4 per local listing"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "NFC listed",
+          "normalizedValue": "Yes",
+          "note": "Philippine launch specification.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "edge20pro_yugatech_ph",
+          "sourceValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo",
+          "normalizedValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo",
+          "note": "Only the location systems listed in the Philippine launch specification are recorded.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "audio",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "edge20pro_motorola_manual",
+          "sourceValue": "Audio hardware details not fully established from reviewed manufacturer sources",
+          "normalizedValue": null,
+          "note": "No speaker count, tuning brand, or headphone-jack claim is inferred from incomplete product pages.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "edge20pro_motorola_global",
+          "sourceValue": "Side-mounted fingerprint reader; complete sensor list not recorded",
+          "normalizedValue": "Side-mounted fingerprint reader; other sensors not recorded",
+          "note": "Motorola identifies the fingerprint reader integrated with the power key. No complete sensor suite is inferred.",
+          "configurationMatch": "Philippine Motorola Edge 20 Pro PANY0015PH / XT2153-1: 12 GB RAM / 256 GB storage"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_cef4dc913ac418-12gb-256gb-ph",
+          "label": "12 GB RAM / 256 GB storage",
+          "sku": "PANY0015PH",
+          "modelCode": "XT2153-1",
+          "notes": "Philippine Edge 20 Pro configuration and VillMan part number PANY0015PH; Motorola model code XT2153-1. Only the locally evidenced 12 GB / 256 GB configuration is represented."
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true,
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch reported October 15, 2021; a local VillMan page lists part number PANY0015PH and PHP 29,995 as observed November 26, 2026. Current stock and item condition are not stated.",
+        "philippineAvailability": "REVU reports that Motorola Philippines introduced and launched the Edge 20 Pro locally on October 15, 2021, as a 12 GB / 256 GB device priced at PHP 29,995 with a PHP 27,995 preorder offer. YugaTech independently reports the Philippine unveiling, configuration, and launch pricing. Motorola's model-code table maps XT2153-1 to motorola edge 20 pro, and the Philippine NTC GEC records XT2153-1. VillMan's exact local part number PANY0015PH page currently displays PHP 29,995; its stock status and item condition are not stated. Workbook scope remains Pending.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Motorola Mobility",
+        "productLine": "Motorola Edge 20 Pro",
+        "modelNumber": "XT2153-1",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Reported Philippine launch date",
+        "researchNotes": "The workbook's Motorola Edge 20 Pro row matches the Philippine market model XT2153-1 / local part number PANY0015PH. Motorola's model-code table and the NTC GEC support the identity match. Motorola announced the model globally July 29, 2021; Philippine reporting places its local launch on October 15, 2021. Local evidence identifies the 12 GB / 256 GB configuration at a regular launch price of PHP 29,995, with a temporary preorder offer of PHP 27,995. On November 26, 2026, VillMan's exact PANY0015PH page displayed PHP 29,995, but it did not state stock or condition. Field conflicts are retained: Motorola specifies Wi-Fi 6 while VillMan's table says Wi-Fi AC; Motorola's camera sensor format is shown as 1/1.5-inch while VillMan lists 1/1.52-inch. The exact variant remains 12/256 GB. YugaTech's narrative contains camera transcription errors, so its detailed specifications are only used when corroborated by Motorola, REVU, or the exact local listing. REVU says its feature image shows the Edge 20 Fusion, so that image is excluded. VillMan links an Edge 20 Pro-labeled image, but the GIF could not be visually inspected here and reuse rights are not stated; the neutral placeholder remains. Workbook scope remains Pending.",
+        "qualityFlag": "Philippine model matched to XT2153-1 / PANY0015PH 12 GB / 256 GB; retailer stock and price condition not stated; image not reused; workbook scope remains Pending",
+        "openIssues": [
+          {
+            "issue": "Workbook eligibility/scope is still Pending",
+            "action": "Preserve Pending and keep the record out of recommendation-eligible results according to current study rules."
+          },
+          {
+            "issue": "VillMan's page displays PHP 29,995 but does not state stock status or item condition",
+            "action": "Show the dated listed price with stock/condition as not recorded; do not label the item in stock or new."
+          },
+          {
+            "issue": "Motorola states Wi-Fi 6 while VillMan's local table says Wi-Fi AC",
+            "action": "Use the manufacturer specification and retain the exact local listing discrepancy for future review."
+          },
+          {
+            "issue": "Motorola gives main sensor optical format as 1/1.5-inch; VillMan lists 1/1.52-inch",
+            "action": "Retain both source statements; avoid asserting an exact sensor part number."
+          },
+          {
+            "issue": "YugaTech's narrative paragraph contains camera transcription errors",
+            "action": "Use its detailed list only where corroborated; do not use the incorrect 1080 MP or depth-camera labels."
+          },
+          {
+            "issue": "REVU explicitly identifies its feature image as the Edge 20 Fusion; VillMan's product image target could not be visually inspected and has no stated reuse terms",
+            "action": "Keep the neutral placeholder until an exact Edge 20 Pro image is visually verified and reuse permission is documented."
+          },
+          {
+            "issue": "Full local cellular-band set, RAM type, display brightness, and complete sensor/audio suite were not established",
+            "action": "Leave those values unrecorded rather than substituting regional details or guesses."
+          }
+        ]
+      }
     }
   ]
 }

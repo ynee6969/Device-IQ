@@ -13491,46 +13491,177 @@
     "category": "smartphones",
     "brand": "Motorola",
     "model": "Edge 20 Pro",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "manufacturer": "Motorola Mobility",
+    "productLine": "Motorola Edge 20 Pro",
+    "modelNumber": "XT2153-1",
+    "releaseDate": "2021-07-29",
+    "philippineAvailabilityDate": "2021-10-15",
+    "philippineDateLabel": "Reported Philippine launch date",
+    "philippineReleaseYear": 2021,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Philippine model matched to XT2153-1 / PANY0015PH 12 GB / 256 GB; retailer stock and price condition not stated; image not reused; workbook scope remains Pending",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "REVU reports that Motorola Philippines introduced and launched the Edge 20 Pro locally on October 15, 2021, as a 12 GB / 256 GB device priced at PHP 29,995 with a PHP 27,995 preorder offer. YugaTech independently reports the Philippine unveiling, configuration, and launch pricing. Motorola's model-code table maps XT2153-1 to motorola edge 20 pro, and the Philippine NTC GEC records XT2153-1. VillMan's exact local part number PANY0015PH page currently displays PHP 29,995; its stock status and item condition are not stated. Workbook scope remains Pending.",
+    "availabilityStatus": "Philippine launch reported October 15, 2021; a local VillMan page lists part number PANY0015PH and PHP 29,995 as observed November 26, 2026. Current stock and item condition are not stated.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The workbook's Motorola Edge 20 Pro row matches the Philippine market model XT2153-1 / local part number PANY0015PH. Motorola's model-code table and the NTC GEC support the identity match. Motorola announced the model globally July 29, 2021; Philippine reporting places its local launch on October 15, 2021. Local evidence identifies the 12 GB / 256 GB configuration at a regular launch price of PHP 29,995, with a temporary preorder offer of PHP 27,995. On November 26, 2026, VillMan's exact PANY0015PH page displayed PHP 29,995, but it did not state stock or condition. Field conflicts are retained: Motorola specifies Wi-Fi 6 while VillMan's table says Wi-Fi AC; Motorola's camera sensor format is shown as 1/1.5-inch while VillMan lists 1/1.52-inch. The exact variant remains 12/256 GB. YugaTech's narrative contains camera transcription errors, so its detailed specifications are only used when corroborated by Motorola, REVU, or the exact local listing. REVU says its feature image shows the Edge 20 Fusion, so that image is excluded. VillMan links an Edge 20 Pro-labeled image, but the GIF could not be visually inspected here and reuse rights are not stated; the neutral placeholder remains. Workbook scope remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Workbook eligibility/scope is still Pending",
+        "action": "Preserve Pending and keep the record out of recommendation-eligible results according to current study rules."
+      },
+      {
+        "issue": "VillMan's page displays PHP 29,995 but does not state stock status or item condition",
+        "action": "Show the dated listed price with stock/condition as not recorded; do not label the item in stock or new."
+      },
+      {
+        "issue": "Motorola states Wi-Fi 6 while VillMan's local table says Wi-Fi AC",
+        "action": "Use the manufacturer specification and retain the exact local listing discrepancy for future review."
+      },
+      {
+        "issue": "Motorola gives main sensor optical format as 1/1.5-inch; VillMan lists 1/1.52-inch",
+        "action": "Retain both source statements; avoid asserting an exact sensor part number."
+      },
+      {
+        "issue": "YugaTech's narrative paragraph contains camera transcription errors",
+        "action": "Use its detailed list only where corroborated; do not use the incorrect 1080 MP or depth-camera labels."
+      },
+      {
+        "issue": "REVU explicitly identifies its feature image as the Edge 20 Fusion; VillMan's product image target could not be visually inspected and has no stated reuse terms",
+        "action": "Keep the neutral placeholder until an exact Edge 20 Pro image is visually verified and reuse permission is documented."
+      },
+      {
+        "issue": "Full local cellular-band set, RAM type, display brightness, and complete sensor/audio suite were not established",
+        "action": "Leave those values unrecorded rather than substituting regional details or guesses."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "Motorola News",
+        "url": "https://motorolanews.com/its-time-to-find-your-edge-new-motorola-edge-20-pro-motorola-edge-20-motorola-edge-20-lite/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-07-29",
+        "purpose": "Manufacturer global introduction date and product-family specifications",
+        "note": "Motorola's July 29, 2021 introduction identifies the Edge 20 Pro camera system, 6.7-inch OLED/144 Hz display, Wi-Fi 6, Snapdragon 870, 12 GB memory, 256 GB storage, 8K video, and Android 11. It describes the main sensor as 1/1.5-inch optical format; it does not identify a sensor part number or RAM type."
+      },
+      {
+        "organization": "Motorola Support",
+        "url": "https://en-us.support.motorola.com/app/answers/detail/a_id/167829/p/11070",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer mapping between XT2153-1 and motorola edge 20 pro",
+        "note": "Motorola's model-code table explicitly maps XT2153-1 / MC3A8 to motorola edge 20 pro. This is the exact model-code crosswalk, not Philippine retail evidence."
+      },
+      {
+        "organization": "National Telecommunications Commission (NTC)",
+        "url": "https://region7.ntc.gov.ph/wp-content/uploads/2024/01/GEC_08312021.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine GEC model-code confirmation",
+        "note": "The NTC GEC table lists Motorola XT2153-1 as a smartphone under Motorola Mobility LLC, record ESD-GEC-2106870 dated July 29, 2021. The GEC corroborates the local regulatory model code; it is not treated alone as proof of consumer sales."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Philippine model launch reporting, configuration, price, and local technical specification cross-check",
+        "note": "Published October 21, 2021. YugaTech reports the Edge 20 Pro's Philippine unveiling, 12 GB/256 GB configuration, PHP 29,995 standard price and PHP 27,995 promotion, and local display, chipset, camera, battery, charging, connectivity, and software details. Its narrative paragraph contains camera transcription errors; this review uses its detailed specification list only where corroborated by Motorola or the exact local listing."
+      },
+      {
+        "organization": "REVU Philippines",
+        "url": "https://www.revu.com.ph/2021/10/motorola-edge-20-pro-fusion-price-ph/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-10-15",
+        "purpose": "Contemporaneous Philippine launch date, exact local configuration, list price, preorder price, and camera/video cross-check",
+        "note": "Published October 15, 2021. REVU says Motorola Philippines introduced the Edge 20 series that day and specifically lists the Edge 20 Pro 12 GB/256 GB at PHP 29,995, with a PHP 27,995 preorder price. It also reports 8K video and the 108 MP main / 8 MP periscope / 16 MP ultrawide arrangement. REVU explicitly says the article's feature image depicts the Edge 20 Fusion, so that image is not used for this record."
+      },
+      {
+        "organization": "VillMan Computers Philippines",
+        "url": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact local part number, color, selected configuration, dated listed price, and local product page cross-check",
+        "note": "Observed November 26, 2026. The product page is titled for Motorola Moto Edge 20 Pro part number PANY0015PH, Thunder Black, 12 GB RAM/256 GB ROM, and lists PHP 29,995 with an Add to cart control. Stock status and item condition are not stated. Its specification table says Wi-Fi AC, conflicting with Motorola's Wi-Fi 6 statement; the catalog uses Motorola's manufacturer specification and preserves the discrepancy as an open issue. The page's exact-model-labeled image is not embedded because reuse terms are absent and the image target could not be visually inspected here."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/prod_brief_qcom_sd870_5g.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary Snapdragon 870 platform CPU, GPU, and process-node specifications",
+        "note": "Qualcomm identifies Kryo 585 octa-core CPU up to 3.2 GHz, Adreno 650 graphics, and 7 nm process technology for the Snapdragon 870 5G Mobile Platform. These are platform specifications, not a separate Philippine SKU claim."
+      },
+      {
+        "organization": "Motorola Support",
+        "url": "https://help.motorola.com/hc/7120/12/pdf/help-motorola-edge-20-pro-12-global-en-us.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer's model-specific user guide",
+        "note": "Motorola's Edge 20 Pro guide is used for model-specific hardware/use context. Its illustration includes example imagery; no image is copied from the guide."
+      }
+    ],
     "variants": [
       {
-        "id": "device_cef4dc913ac418-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
-        "pricePhp": null,
+        "id": "device_cef4dc913ac418-12gb-256gb-ph",
+        "label": "12 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.7,
+          "displayType": "OLED",
+          "resolution": "1080 x 2400",
+          "refreshHz": 144,
+          "chipset": "Qualcomm Snapdragon 870",
+          "cpu": "Kryo 585 octa-core up to 3.2 GHz",
+          "gpu": "Adreno 650",
+          "os": "Android 11",
+          "ramGb": 12,
+          "storageGb": 256,
+          "rearCameraMp": 108,
+          "frontCameraMp": 32,
+          "batteryMah": 4500,
+          "chargingW": 30,
+          "dimensions": "163.26 x 74.55 x 7.99 mm",
+          "weightG": 190,
+          "sim": "Dual Nano-SIM; eSIM not recorded",
+          "cellular": "4G LTE / 5G; exact local bands not recorded",
+          "wifi": "Wi-Fi 6",
+          "ports": "USB-C; USB 3.1 / DisplayPort 1.4 per local listing"
+        },
+        "specSources": {
+          "displayInches": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+          "displayType": "https://motorolanews.com/its-time-to-find-your-edge-new-motorola-edge-20-pro-motorola-edge-20-motorola-edge-20-lite/",
+          "resolution": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-",
+          "refreshHz": "https://motorolanews.com/its-time-to-find-your-edge-new-motorola-edge-20-pro-motorola-edge-20-motorola-edge-20-lite/",
+          "chipset": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+          "cpu": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/prod_brief_qcom_sd870_5g.pdf",
+          "gpu": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/prod_brief_qcom_sd870_5g.pdf",
+          "os": "https://motorolanews.com/its-time-to-find-your-edge-new-motorola-edge-20-pro-motorola-edge-20-motorola-edge-20-lite/",
+          "ramGb": "https://www.revu.com.ph/2021/10/motorola-edge-20-pro-fusion-price-ph/",
+          "storageGb": "https://www.revu.com.ph/2021/10/motorola-edge-20-pro-fusion-price-ph/",
+          "rearCameraMp": "https://www.revu.com.ph/2021/10/motorola-edge-20-pro-fusion-price-ph/",
+          "frontCameraMp": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+          "batteryMah": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+          "chargingW": "https://motorolanews.com/its-time-to-find-your-edge-new-motorola-edge-20-pro-motorola-edge-20-motorola-edge-20-lite/",
+          "dimensions": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-",
+          "weightG": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-",
+          "sim": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+          "cellular": "https://www.yugatech.com/news/motorola-edge-20-pro-specs-price-philippines/",
+          "wifi": "https://motorolanews.com/its-time-to-find-your-edge-new-motorola-edge-20-pro-motorola-edge-20-motorola-edge-20-lite/",
+          "ports": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-"
+        },
+        "pricePhp": 29995,
         "priceCondition": null,
-        "priceType": null,
-        "priceObservedAt": null,
-        "priceSourceUrl": null,
+        "priceType": "VillMan exact local SKU listing observed 2026-11-26; stock status and item condition not stated",
+        "priceObservedAt": "2026-11-26",
+        "priceSourceUrl": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-",
         "listingStatus": "Not verified",
-        "notes": null,
-        "sku": null,
-        "modelCode": null,
+        "notes": "Dated displayed local list price for the exact SKU/configuration. The page has an Add to cart control but no explicit stock or condition statement; no in-stock or new-condition claim is made.",
+        "sku": "PANY0015PH",
+        "modelCode": "XT2153-1",
         "workbookRow": null
       }
     ],

@@ -1060,11 +1060,11 @@
     "altText": "Image unavailable for Meizu Note 21"
   },
   "device_cef4dc913ac418": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "VillMan links an Edge 20 Pro-labeled GIF from the exact PANY0015PH page, but the image could not be visually inspected here and no reusable image license or permission is stated. REVU explicitly says its feature image shows the Edge 20 Fusion. No image is embedded.",
+    "sourcePage": "https://villman.com/Product-Detail/motorola_moto-edge-20-pro-pany0015ph--67in-oled-hdr10--snapdragon-870--12gb-ram--256gb-rom-",
+    "assetUrl": "https://villman.com/product_photos/moto-edge-20-pro-gif-300px-102821_245k5.gif",
+    "scope": "Retailer image linked from exact Motorola Edge 20 Pro PANY0015PH product page; exact visual match not independently confirmed",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Motorola Edge 20 Pro"
