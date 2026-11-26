@@ -1900,11 +1900,11 @@
     "altText": "Image unavailable for REDMAGIC 10 Pro"
   },
   "device_6908e733a06a0b": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Exact REDMAGIC 7 product images are available on the manufacturer and Philippine technology pages, but no reusable license or permission to copy/embed is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://www.ztedevices.com.my/redmagic/redmagic-7-series/redmagic-7",
     "assetUrl": null,
-    "scope": null,
+    "scope": "REDMAGIC 7 global version; Philippine Obsidian 12/128, Pulsar 16/256, and Supernova 18/256 variants",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for REDMAGIC 7"
