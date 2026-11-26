@@ -109460,52 +109460,6 @@
       ]
     },
     {
-      "deviceId": "device_e82e93c423ed2a",
-      "configurationId": "device_e82e93c423ed2a-unrecorded",
-      "brand": "Huawei",
-      "model": "MatePad 10.4 (2021)",
-      "configuration": "Configuration not recorded",
-      "configurationLabel": "Configuration not recorded",
-      "sources": [
-        {
-          "id": "matepad_104_year_identity_ph",
-          "publisher": "HUAWEI Support Philippines",
-          "url": "https://consumer.huawei.com/ph/support/content/en-us15819846/",
-          "publicationDate": null,
-          "accessDate": "2026-11-26",
-          "purpose": "Model-year and model-code cross-check",
-          "note": "Official support material names MatePad 10.4-inch 2020 (BAH3) and MatePad 10.4-inch 2022 (BAH4); it does not confirm the inventory's claimed 2021 edition."
-        },
-        {
-          "id": "matepad_104_year_identity_stylus",
-          "publisher": "HUAWEI Support Philippines",
-          "url": "https://consumer.huawei.com/ph/support/content/en-us00737675/",
-          "publicationDate": null,
-          "accessDate": "2026-11-26",
-          "purpose": "Manufacturer product-family identity cross-check",
-          "note": "HUAWEI's support index separately lists the 2020 and 2022 MatePad 10.4 model-year families."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "model_number",
-          "status": "PENDING_VERIFICATION",
-          "sourceId": "matepad_104_year_identity_ph",
-          "sourceValue": "No official source located that confirms a distinct MatePad 10.4 (2021) model; official support lists 2020 BAH3 and 2022 BAH4.",
-          "normalizedValue": null,
-          "note": "Keep this workbook identity unresolved; do not copy specifications from the 2020 or 2022 products."
-        },
-        {
-          "fieldId": "philippine_release_date",
-          "status": "PENDING_VERIFICATION",
-          "sourceId": "matepad_104_year_identity_ph",
-          "sourceValue": "Claimed 2021 model identity and Philippine release date remain unresolved.",
-          "normalizedValue": null,
-          "note": "A release date must not be inferred from adjacent product years."
-        }
-      ]
-    },
-    {
       "deviceId": "device_fca6be23997740",
       "configurationId": "device_fca6be23997740-12-256-black-ph",
       "brand": "ASUS",
@@ -127986,6 +127940,969 @@
         "observedAt": "2026-11-26",
         "qualityFlag": "Local model/configuration and historical SRP verified; source dates retained as secondary evidence"
       }
+    },
+    {
+      "deviceId": "device_e82e93c423ed2a",
+      "configurationId": "device_e82e93c423ed2a-kirin820-4gb-64gb-lte",
+      "brand": "Huawei",
+      "model": "MatePad 10.4 (2021)",
+      "configuration": "4 GB RAM / 64 GB storage / LTE",
+      "configurationLabel": "4 GB RAM / 64 GB storage / LTE",
+      "sources": [
+        {
+          "id": "huawei_matepad_kirin820_official_specs",
+          "publisher": "HUAWEI South Africa",
+          "url": "https://consumer.huawei.com/za/tablets/matepad-new/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer hardware specifications for the Kirin 820 MatePad 10.4 family",
+          "note": "HUAWEI lists 10.4-inch 2000 x 1200 IPS, Kirin 820, 4 GB RAM, 64 GB storage, cameras, battery, connectivity, dimensions, and audio. This is an official regional spec page; the PH variant and 128 GB tier are separately cross-checked against Philippine reporting."
+        },
+        {
+          "id": "huawei_matepad_ph_support_model_year",
+          "publisher": "HUAWEI Support Philippines",
+          "url": "https://consumer.huawei.com/ph/support/content/en-us15819846/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer model-family and regional-code cross-check",
+          "note": "HUAWEI Philippines groups BAH3-W59 / BAH3-AN10 under MatePad 10.4-inch 2020 (Kirin 820), while contemporaneous Philippine coverage calls the Kirin 820 refresh MatePad 10.4 (2021). This naming difference is retained; no variant-specific model code is assigned."
+        },
+        {
+          "id": "huawei_matepad_ph_stylus_support",
+          "publisher": "HUAWEI Support Philippines",
+          "url": "https://consumer.huawei.com/ph/support/content/en-us00737675/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer stylus compatibility reference",
+          "note": "HUAWEI's support table lists the BAH3 MatePad 10.4 family as M-Pencil compatible, subject to the stated charger and firmware requirements."
+        },
+        {
+          "id": "yugatech_matepad_2021_specs",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/spec/huawei-matepad-10-4-2021/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine-reviewed model and family specifications",
+          "note": "YugaTech identifies the Kirin 820 edition as MatePad 10.4 (2021), with 4 GB RAM, 64/128 GB storage, LTE, Wi-Fi 6 class WLAN, cameras, and battery."
+        },
+        {
+          "id": "yugatech_matepad_2021_review",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/huawei-matepad-10-4-2021-review-philippines/",
+          "publicationDate": "2021-07-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine review and exact 4 GB / 128 GB review-unit check",
+          "note": "The review identifies the 2021 Kirin 820 update, tests a 4 GB / 128 GB Wi-Fi-only unit, and reports PHP 18,999 at review time. Wi-Fi-only is not generalized to every 128 GB unit."
+        },
+        {
+          "id": "yugatech_matepad_ph_price_list_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/tablet-price-list-2021-philippines/",
+          "publicationDate": "2021-06-02",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch month, configuration, and dated price-list observations",
+          "note": "The article states it lists tablets officially launched in the Philippines in 2021, marks this model as launched in June, and lists 4 GB + 64 GB LTE at PHP 14,249 and 4 GB + 128 GB at PHP 18,999. Updated as of 2021-11-30; the table does not label these amounts as official SRPs or say whether they include a promotion."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "Philippine launch month: June 2021 (exact first-sale day not stated).",
+          "normalizedValue": "June 2021",
+          "note": "Month-level evidence only; no exact day is inferred."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "Official launch SRP not explicitly identified for this exact variant.",
+          "normalizedValue": null,
+          "note": "The cited local price list gives a dated listed price, but does not identify it as official SRP."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "YugaTech Philippine price-list observation: PHP 14,249; promotion/SRP status unspecified.",
+          "normalizedValue": 14249,
+          "unit": "PHP",
+          "note": "Historical 2021 price-list snapshot, not a current offer; source does not state whether this amount is SRP or promotional.",
+          "priceCondition": "new",
+          "priceType": "Historical YugaTech Philippine price-list observation (not a current offer)",
+          "priceObservedAt": "2021-11-30"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "4 GB RAM / 64 GB storage / LTE",
+          "normalizedValue": "4 GB RAM / 64 GB storage / LTE",
+          "note": "The 2021 Philippine price list distinguishes 4 GB / 64 GB LTE and 4 GB / 128 GB configurations."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "64 GB",
+          "normalizedValue": 64,
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_ph_support_model_year",
+          "sourceValue": "Official PH support lists BAH3-W59 / BAH3-AN10 for the Kirin 820 family but does not map a code to either PH price-list configuration.",
+          "normalizedValue": null,
+          "note": "Do not assign a regional model code until the exact code-to-configuration mapping is sourced."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "10.4 inches",
+          "normalizedValue": 10.4,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.4,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "IPS touchscreen",
+          "normalizedValue": "IPS",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "2000 x 1200",
+          "normalizedValue": "2000 x 1200",
+          "catalogKey": "resolution",
+          "catalogValue": "2000 x 1200"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No refresh-rate figure is published in the reviewed specifications."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "470 nit typical value",
+          "normalizedValue": "470 nits typical",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No display-glass protection type is recorded in the reviewed specifications."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "HUAWEI Kirin 820",
+          "normalizedValue": "HUAWEI Kirin 820",
+          "catalogKey": "chipset",
+          "catalogValue": "HUAWEI Kirin 820"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "A process-node value was not stated in the reviewed model-matched official specification table."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "1 x A76-based 2.36 GHz + 3 x A76-based 2.22 GHz + 4 x A55-based 1.84 GHz",
+          "normalizedValue": "1x Cortex-A76 2.36 GHz; 3x Cortex-A76 2.22 GHz; 4x Cortex-A55 1.84 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "1x Cortex-A76 2.36 GHz; 3x Cortex-A76 2.22 GHz; 4x Cortex-A55 1.84 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Mali-G57",
+          "normalizedValue": "Mali-G57",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G57"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "EMUI 10.1 based on Android 10.0",
+          "normalizedValue": "EMUI 10.1 / Android 10",
+          "catalogKey": "os",
+          "catalogValue": "EMUI 10.1 / Android 10"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No model-specific OS/security support schedule was established."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "yugatech_matepad_2021_specs",
+          "sourceValue": "4 GB",
+          "normalizedValue": 4,
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "RAM technology is not recorded in the reviewed manufacturer and Philippine sources."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "Flash-storage technology is not recorded in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "MicroSD expansion supported up to 512 GB; card sold separately.",
+          "normalizedValue": "microSD up to 512 GB",
+          "note": "Manufacturer states expansion limit; this does not add card capacity to internal storage."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "8 MP rear camera with autofocus and flash",
+          "normalizedValue": "8 MP rear camera with autofocus and flash"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "8 MP rear camera with autofocus",
+          "normalizedValue": "8 MP rear camera with autofocus"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not applicable to the documented single-camera configuration.",
+          "normalizedValue": null,
+          "note": "The reviewed manufacturer specification lists one 8 MP rear camera; the ultrawide camera is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not applicable to the documented single-camera configuration.",
+          "normalizedValue": null,
+          "note": "The reviewed manufacturer specification lists one 8 MP rear camera and no rear telephoto module."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "8 MP ultra-wide front camera",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Camera resolution up to 1920 x 1080; frame rate not stated.",
+          "normalizedValue": "Up to 1920 x 1080"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "7,250 mAh typical; 7,150 mAh rated",
+          "normalizedValue": 7250,
+          "catalogKey": "batteryMah",
+          "catalogValue": 7250,
+          "unit": "mAh",
+          "note": "Catalog capacity is typical; manufacturer separately states 7,150 mAh rated capacity."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Built-in, non-removable battery; chemistry not stated.",
+          "normalizedValue": "Built-in, non-removable; chemistry not recorded"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Included charger supports 10 V / 2.25 A.",
+          "normalizedValue": "10 V / 2.25 A charger profile",
+          "note": "Exact adapter output as published; no wattage is inferred."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No wireless charging statement appears in the reviewed model-matched sources."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "245.20 x 154.96 x 7.45 mm",
+          "normalizedValue": "245.20 x 154.96 x 7.45",
+          "catalogKey": "dimensions",
+          "catalogValue": "245.20 x 154.96 x 7.45",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Approximately 460 g including battery",
+          "normalizedValue": 460,
+          "catalogKey": "weightG",
+          "catalogValue": 460,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_2021_review",
+          "sourceValue": "All-aluminum frame with matte finish",
+          "normalizedValue": "Aluminum frame; matte finish"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No ingress-protection rating is recorded in the reviewed sources."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_matepad_2021_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "SIM/eSIM count and type are not recorded for the specific listed configurations."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "IEEE 802.11a/b/g/n/ac/ax on 2.4 GHz and 5 GHz",
+          "normalizedValue": "IEEE 802.11a/b/g/n/ac/ax; 2.4/5 GHz",
+          "catalogKey": "wifi",
+          "catalogValue": "IEEE 802.11a/b/g/n/ac/ax; 2.4/5 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Bluetooth 5.1",
+          "normalizedValue": "Bluetooth 5.1"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "USB Type-C, USB 2.0",
+          "normalizedValue": "USB Type-C; USB 2.0",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "NFC support is not stated in the reviewed sources."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "GPS, GLONASS, BDS, Galileo",
+          "normalizedValue": "GPS; GLONASS; BDS; Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Four speakers, four-channel output, HUAWEI Histen 6.1",
+          "normalizedValue": "Four speakers; HUAWEI Histen 6.1",
+          "catalogKey": "sound",
+          "catalogValue": "Four speakers; HUAWEI Histen 6.1"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Gravity, ambient light, hall, compass, and indicator sensors",
+          "normalizedValue": "Gravity; ambient light; hall; compass; indicator"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_2021_review",
+          "sourceValue": "Stylus support; HUAWEI support lists M-Pencil compatibility for the BAH3 family.",
+          "normalizedValue": "HUAWEI M-Pencil support; charger/firmware requirements apply",
+          "catalogKey": "stylus",
+          "catalogValue": "HUAWEI M-Pencil support; charger/firmware requirements apply"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "A compatible keyboard option was not confirmed for these exact configurations."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "4G LTE; supported bands not stated.",
+          "normalizedValue": "4G LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE"
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "4 GB / 64 GB 4G LTE variant",
+          "normalizedValue": "4G LTE",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_e82e93c423ed2a-kirin820-4gb-64gb-lte",
+          "label": "4 GB RAM / 64 GB storage / LTE",
+          "notes": "Configuration code not recorded; sourced from the 2021 Philippine price list."
+        },
+        {
+          "id": "device_e82e93c423ed2a-kirin820-4gb-128gb",
+          "label": "4 GB RAM / 128 GB storage",
+          "notes": "Configuration code not recorded; sourced from the 2021 Philippine price list."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch month documented as June 2021; exact first-sale day not recorded",
+        "philippineAvailability": "YugaTech's 2021 Philippine tablet list identifies this Kirin 820 MatePad 10.4 as a June launch and lists its 4 GB / 64 GB LTE and 4 GB / 128 GB configurations. Huawei Philippines support uses a different 2020 naming label for the BAH3 Kirin 820 family; that discrepancy is retained in the source notes.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "Year label differs by source; exact BAH3 variant code not confirmed."
+      }
+    },
+    {
+      "deviceId": "device_e82e93c423ed2a",
+      "configurationId": "device_e82e93c423ed2a-kirin820-4gb-128gb",
+      "brand": "Huawei",
+      "model": "MatePad 10.4 (2021)",
+      "configuration": "4 GB RAM / 128 GB storage",
+      "configurationLabel": "4 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "huawei_matepad_kirin820_official_specs",
+          "publisher": "HUAWEI South Africa",
+          "url": "https://consumer.huawei.com/za/tablets/matepad-new/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer hardware specifications for the Kirin 820 MatePad 10.4 family",
+          "note": "HUAWEI lists 10.4-inch 2000 x 1200 IPS, Kirin 820, 4 GB RAM, 64 GB storage, cameras, battery, connectivity, dimensions, and audio. This is an official regional spec page; the PH variant and 128 GB tier are separately cross-checked against Philippine reporting."
+        },
+        {
+          "id": "huawei_matepad_ph_support_model_year",
+          "publisher": "HUAWEI Support Philippines",
+          "url": "https://consumer.huawei.com/ph/support/content/en-us15819846/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer model-family and regional-code cross-check",
+          "note": "HUAWEI Philippines groups BAH3-W59 / BAH3-AN10 under MatePad 10.4-inch 2020 (Kirin 820), while contemporaneous Philippine coverage calls the Kirin 820 refresh MatePad 10.4 (2021). This naming difference is retained; no variant-specific model code is assigned."
+        },
+        {
+          "id": "huawei_matepad_ph_stylus_support",
+          "publisher": "HUAWEI Support Philippines",
+          "url": "https://consumer.huawei.com/ph/support/content/en-us00737675/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer stylus compatibility reference",
+          "note": "HUAWEI's support table lists the BAH3 MatePad 10.4 family as M-Pencil compatible, subject to the stated charger and firmware requirements."
+        },
+        {
+          "id": "yugatech_matepad_2021_specs",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/spec/huawei-matepad-10-4-2021/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine-reviewed model and family specifications",
+          "note": "YugaTech identifies the Kirin 820 edition as MatePad 10.4 (2021), with 4 GB RAM, 64/128 GB storage, LTE, Wi-Fi 6 class WLAN, cameras, and battery."
+        },
+        {
+          "id": "yugatech_matepad_2021_review",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/huawei-matepad-10-4-2021-review-philippines/",
+          "publicationDate": "2021-07-06",
+          "accessDate": "2026-11-26",
+          "purpose": "Contemporaneous Philippine review and exact 4 GB / 128 GB review-unit check",
+          "note": "The review identifies the 2021 Kirin 820 update, tests a 4 GB / 128 GB Wi-Fi-only unit, and reports PHP 18,999 at review time. Wi-Fi-only is not generalized to every 128 GB unit."
+        },
+        {
+          "id": "yugatech_matepad_ph_price_list_2021",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/tablet-price-list-2021-philippines/",
+          "publicationDate": "2021-06-02",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch month, configuration, and dated price-list observations",
+          "note": "The article states it lists tablets officially launched in the Philippines in 2021, marks this model as launched in June, and lists 4 GB + 64 GB LTE at PHP 14,249 and 4 GB + 128 GB at PHP 18,999. Updated as of 2021-11-30; the table does not label these amounts as official SRPs or say whether they include a promotion."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "Philippine launch month: June 2021 (exact first-sale day not stated).",
+          "normalizedValue": "June 2021",
+          "note": "Month-level evidence only; no exact day is inferred."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "Official launch SRP not explicitly identified for this exact variant.",
+          "normalizedValue": null,
+          "note": "The cited local price list gives a dated listed price, but does not identify it as official SRP."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "YugaTech Philippine price-list observation: PHP 18,999; promotion/SRP status unspecified.",
+          "normalizedValue": 18999,
+          "unit": "PHP",
+          "note": "Historical 2021 price-list snapshot, not a current offer; source does not state whether this amount is SRP or promotional.",
+          "priceCondition": "new",
+          "priceType": "Historical YugaTech Philippine price-list observation (not a current offer)",
+          "priceObservedAt": "2021-11-30"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "4 GB RAM / 128 GB storage",
+          "normalizedValue": "4 GB RAM / 128 GB storage",
+          "note": "The 2021 Philippine price list distinguishes 4 GB / 64 GB LTE and 4 GB / 128 GB configurations."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_ph_support_model_year",
+          "sourceValue": "Official PH support lists BAH3-W59 / BAH3-AN10 for the Kirin 820 family but does not map a code to either PH price-list configuration.",
+          "normalizedValue": null,
+          "note": "Do not assign a regional model code until the exact code-to-configuration mapping is sourced."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "10.4 inches",
+          "normalizedValue": 10.4,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.4,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "IPS touchscreen",
+          "normalizedValue": "IPS",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "2000 x 1200",
+          "normalizedValue": "2000 x 1200",
+          "catalogKey": "resolution",
+          "catalogValue": "2000 x 1200"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No refresh-rate figure is published in the reviewed specifications."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "470 nit typical value",
+          "normalizedValue": "470 nits typical",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No display-glass protection type is recorded in the reviewed specifications."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "HUAWEI Kirin 820",
+          "normalizedValue": "HUAWEI Kirin 820",
+          "catalogKey": "chipset",
+          "catalogValue": "HUAWEI Kirin 820"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "A process-node value was not stated in the reviewed model-matched official specification table."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "1 x A76-based 2.36 GHz + 3 x A76-based 2.22 GHz + 4 x A55-based 1.84 GHz",
+          "normalizedValue": "1x Cortex-A76 2.36 GHz; 3x Cortex-A76 2.22 GHz; 4x Cortex-A55 1.84 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "1x Cortex-A76 2.36 GHz; 3x Cortex-A76 2.22 GHz; 4x Cortex-A55 1.84 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Mali-G57",
+          "normalizedValue": "Mali-G57",
+          "catalogKey": "gpu",
+          "catalogValue": "Mali-G57"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "EMUI 10.1 based on Android 10.0",
+          "normalizedValue": "EMUI 10.1 / Android 10",
+          "catalogKey": "os",
+          "catalogValue": "EMUI 10.1 / Android 10"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No model-specific OS/security support schedule was established."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "yugatech_matepad_2021_specs",
+          "sourceValue": "4 GB",
+          "normalizedValue": 4,
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "RAM technology is not recorded in the reviewed manufacturer and Philippine sources."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "Flash-storage technology is not recorded in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "MicroSD expansion supported up to 512 GB; card sold separately.",
+          "normalizedValue": "microSD up to 512 GB",
+          "note": "Manufacturer states expansion limit; this does not add card capacity to internal storage."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "8 MP rear camera with autofocus and flash",
+          "normalizedValue": "8 MP rear camera with autofocus and flash"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "8 MP rear camera with autofocus",
+          "normalizedValue": "8 MP rear camera with autofocus"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not applicable to the documented single-camera configuration.",
+          "normalizedValue": null,
+          "note": "The reviewed manufacturer specification lists one 8 MP rear camera; the ultrawide camera is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not applicable to the documented single-camera configuration.",
+          "normalizedValue": null,
+          "note": "The reviewed manufacturer specification lists one 8 MP rear camera and no rear telephoto module."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "8 MP ultra-wide front camera",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Camera resolution up to 1920 x 1080; frame rate not stated.",
+          "normalizedValue": "Up to 1920 x 1080"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "7,250 mAh typical; 7,150 mAh rated",
+          "normalizedValue": 7250,
+          "catalogKey": "batteryMah",
+          "catalogValue": 7250,
+          "unit": "mAh",
+          "note": "Catalog capacity is typical; manufacturer separately states 7,150 mAh rated capacity."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Built-in, non-removable battery; chemistry not stated.",
+          "normalizedValue": "Built-in, non-removable; chemistry not recorded"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Included charger supports 10 V / 2.25 A.",
+          "normalizedValue": "10 V / 2.25 A charger profile",
+          "note": "Exact adapter output as published; no wattage is inferred."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No wireless charging statement appears in the reviewed model-matched sources."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "245.20 x 154.96 x 7.45 mm",
+          "normalizedValue": "245.20 x 154.96 x 7.45",
+          "catalogKey": "dimensions",
+          "catalogValue": "245.20 x 154.96 x 7.45",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Approximately 460 g including battery",
+          "normalizedValue": 460,
+          "catalogKey": "weightG",
+          "catalogValue": 460,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_2021_review",
+          "sourceValue": "All-aluminum frame with matte finish",
+          "normalizedValue": "Aluminum frame; matte finish"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "No ingress-protection rating is recorded in the reviewed sources."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_matepad_2021_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "SIM/eSIM count and type are not recorded for the specific listed configurations."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "IEEE 802.11a/b/g/n/ac/ax on 2.4 GHz and 5 GHz",
+          "normalizedValue": "IEEE 802.11a/b/g/n/ac/ax; 2.4/5 GHz",
+          "catalogKey": "wifi",
+          "catalogValue": "IEEE 802.11a/b/g/n/ac/ax; 2.4/5 GHz"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Bluetooth 5.1",
+          "normalizedValue": "Bluetooth 5.1"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "USB Type-C, USB 2.0",
+          "normalizedValue": "USB Type-C; USB 2.0",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "NFC support is not stated in the reviewed sources."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "GPS, GLONASS, BDS, Galileo",
+          "normalizedValue": "GPS; GLONASS; BDS; Galileo"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Four speakers, four-channel output, HUAWEI Histen 6.1",
+          "normalizedValue": "Four speakers; HUAWEI Histen 6.1",
+          "catalogKey": "sound",
+          "catalogValue": "Four speakers; HUAWEI Histen 6.1"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Gravity, ambient light, hall, compass, and indicator sensors",
+          "normalizedValue": "Gravity; ambient light; hall; compass; indicator"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_matepad_2021_review",
+          "sourceValue": "Stylus support; HUAWEI support lists M-Pencil compatibility for the BAH3 family.",
+          "normalizedValue": "HUAWEI M-Pencil support; charger/firmware requirements apply",
+          "catalogKey": "stylus",
+          "catalogValue": "HUAWEI M-Pencil support; charger/firmware requirements apply"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "huawei_matepad_kirin820_official_specs",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "A compatible keyboard option was not confirmed for these exact configurations."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_matepad_ph_price_list_2021",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "The Philippine price list does not identify network-radio details for the 4 GB / 128 GB tier."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_matepad_2021_review",
+          "sourceValue": "Not recorded in the reviewed model-matched sources.",
+          "normalizedValue": null,
+          "note": "YugaTech tested a Wi-Fi-only 4 GB / 128 GB unit; the listing does not establish that every unit in this storage tier is Wi-Fi only."
+        }
+      ]
     }
   ]
 }
