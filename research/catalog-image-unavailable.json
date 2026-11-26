@@ -390,14 +390,14 @@
     "altText": "Image unavailable for CMF Phone 1"
   },
   "device_14031d3cddb48d": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Exact COOL 20+ images appear in YugaTech's local launch article, but the page does not record reusable image terms or written permission. Do not embed or hotlink an unlicensed image.",
+    "sourcePage": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
     "assetUrl": null,
-    "scope": null,
+    "scope": "Coolpad COOL 20+ Philippine 6 GB / 128 GB configuration",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Coolpad Cool 20 Plus"
+    "altText": "Image unavailable for Coolpad COOL 20+"
   },
   "device_5bc54f4d744bec": {
     "status": "NO_RELIABLE_MATCH",

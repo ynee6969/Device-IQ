@@ -6552,45 +6552,148 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "Coolpad",
-    "model": "Cool 20 Plus",
-    "manufacturer": null,
-    "productLine": null,
+    "model": "COOL 20+",
+    "manufacturer": "Coolpad",
+    "productLine": "Coolpad COOL 20+",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2023-10-05",
+    "philippineDateLabel": "Philippine availability report date",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "COOL 20+ matched; model code, exact global date, current price, several technical fields, and image rights unresolved.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "YugaTech and NoypiGeeks both reported the Coolpad COOL 20+ available in the Philippines in launch coverage dated October 5, 2023, including a Philippine 6 GB / 128 GB configuration and local price. This verifies a Philippine-market launch report, not the exact first transaction time.",
+    "availabilityStatus": "YugaTech and NoypiGeeks reported the COOL 20+ as locally introduced/available in the Philippines on October 5, 2023. Workbook eligibility remains Pending.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook label Coolpad Cool 20 Plus is matched to COOL 20+ in contemporaneous local launch reporting. One source-supported local configuration: 6 GB / 128 GB. Scope eligibility remains Pending. Exact model code, global release date, current price, memory type, storage type, process node, and image reuse remain unresolved.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "The reviewed Coolpad global product URL returned no readable specification text and local references show no numeric device model code",
+        "action": "Keep modelNumber blank until the manufacturer or an official label supplies an exact code."
+      },
+      {
+        "issue": "YugaTech and NoypiGeeks contain conflicting chipset names in opening summary text, though both detailed tables list Helio G85",
+        "action": "Use the detailed local spec tables and MediaTek's official Helio G85 platform data; preserve the contradictory summary text in provenance."
+      },
+      {
+        "issue": "NoypiGeeks lists Mali-G52 MC3 while YugaTech and MediaTek list Mali-G52 MC2",
+        "action": "Use MediaTek's primary chipset specification for MC2 and retain the secondary discrepancy in the field audit."
+      },
+      {
+        "issue": "No current dated, orderable Philippine offer was verified",
+        "action": "Keep the current price blank and retain PHP 5,699 as a 2023 historical launch price."
+      },
+      {
+        "issue": "Exact-model product images have no recorded reusable license",
+        "action": "Use the neutral placeholder until documented reuse permission is established."
+      },
+      {
+        "issue": "Workbook scope/eligibility remains Pending",
+        "action": "Preserve Pending and follow existing study eligibility rules."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "Coolpad Global",
+        "url": "https://www.coolpad.com/#/product/COOL20p",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official product-page check for exact model identity",
+        "note": "The manufacturer COOL20p product URL was opened, but the page returned no readable product text in this review. It is recorded as an attempted primary reference only; no field value is promoted from it."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-10-05",
+        "purpose": "Philippine availability, launch configuration and price, and exact-model technical review",
+        "note": "Published October 5, 2023, this local report says Coolpad brought the COOL 20+ to the Philippines and lists the 6 GB / 128 GB model at PHP 5,699. Its detailed model table lists Helio G85, while an earlier summary paragraph says G58; the summary typo is retained in the audit note. The page images depict the model but carry no recorded reuse permission."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/smartphone-price-list-in-the-philippines-2023/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent dated Philippine price/configuration cross-check",
+        "note": "YugaTech's 2023 Philippine price list records the Coolpad COOL 20 Plus at PHP 5,699 for 6 GB / 128 GB in October 2023. This is a historical launch-era price, not a current listing."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/android/coolpad-cool-20-plus/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-10-05",
+        "purpose": "Philippine launch, exact local configuration, price, and specification cross-check",
+        "note": "Published October 5, 2023, this page reports local availability and PHP 5,699 for 6 GB / 128 GB. Its detailed specifications say Helio G85, while its opening paragraph says G95; the differing summary is documented. It lists the GPU as Mali-G52 MC3, which conflicts with YugaTech and MediaTek's G85 specification of Mali-G52 MC2."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary chipset-family specification for Helio G85 CPU, GPU, memory and interfaces",
+        "note": "MediaTek identifies the Helio G85's two Cortex-A75 cores up to 2 GHz, six Cortex-A55 cores up to 1.8 GHz, Mali-G52 MC2 GPU, LPDDR4X memory support, eMMC 5.1, Wi-Fi 5, and Bluetooth 5.0. Platform capabilities are applied only where the exact-model local report also identifies the corresponding feature. MediaTek's page does not state the manufacturing process node."
+      }
+    ],
     "variants": [
       {
-        "id": "device_14031d3cddb48d-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_14031d3cddb48d-6gb-128gb-ph",
+        "label": "6 GB RAM / 128 GB storage",
+        "specs": {
+          "displayInches": 6.52,
+          "displayType": "IPS LCD",
+          "resolution": "1600 x 720",
+          "chipset": "MediaTek Helio G85",
+          "cpu": "8-core: 2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.8 GHz",
+          "gpu": "Arm Mali-G52 MC2",
+          "os": "Android 11",
+          "ramGb": 6,
+          "storageGb": 128,
+          "rearCameraMp": 48,
+          "frontCameraMp": 5,
+          "batteryMah": 4500,
+          "chargingW": 10,
+          "dimensions": "164.3 x 75.66 x 8.65 mm",
+          "weightG": 197,
+          "sim": "Dual-SIM; eSIM not disclosed",
+          "cellular": "HSPA+ / 4G LTE; exact bands not recorded",
+          "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "ports": "USB Type-C; data standard and OTG not disclosed",
+          "sound": "3.5 mm headphone jack; speaker configuration not disclosed"
+        },
+        "specSources": {
+          "displayInches": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "displayType": "https://www.noypigeeks.com/android/coolpad-cool-20-plus/",
+          "resolution": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "chipset": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "cpu": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+          "gpu": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+          "os": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "ramGb": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "storageGb": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "rearCameraMp": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "frontCameraMp": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "batteryMah": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "chargingW": "https://www.noypigeeks.com/android/coolpad-cool-20-plus/",
+          "dimensions": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "weightG": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "sim": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "cellular": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "wifi": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "ports": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "sound": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine launch coverage identifies this as the 6 GB / 128 GB local configuration. No model code is recorded.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

@@ -145167,6 +145167,583 @@
         }
       ],
       "replaceUnrecordedPlaceholder": true
+    },
+    {
+      "deviceId": "device_14031d3cddb48d",
+      "configurationId": "device_14031d3cddb48d-6gb-128gb-ph",
+      "brand": "Coolpad",
+      "model": "COOL 20+",
+      "configuration": "6 GB RAM / 128 GB storage",
+      "configurationLabel": "6 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "cool20plus_coolpad_global_page",
+          "publisher": "Coolpad Global",
+          "url": "https://www.coolpad.com/#/product/COOL20p",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Official product-page check for exact model identity",
+          "note": "The manufacturer COOL20p product URL was opened, but the page returned no readable product text in this review. It is recorded as an attempted primary reference only; no field value is promoted from it."
+        },
+        {
+          "id": "cool20plus_yugatech_ph_launch",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/coolpad-cp12-and-cool-20-smartphones-now-available-in-the-philippines/",
+          "publicationDate": "2023-10-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine availability, launch configuration and price, and exact-model technical review",
+          "note": "Published October 5, 2023, this local report says Coolpad brought the COOL 20+ to the Philippines and lists the 6 GB / 128 GB model at PHP 5,699. Its detailed model table lists Helio G85, while an earlier summary paragraph says G58; the summary typo is retained in the audit note. The page images depict the model but carry no recorded reuse permission."
+        },
+        {
+          "id": "cool20plus_yugatech_2023_price_list",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/smartphone-price-list-in-the-philippines-2023/",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent dated Philippine price/configuration cross-check",
+          "note": "YugaTech's 2023 Philippine price list records the Coolpad COOL 20 Plus at PHP 5,699 for 6 GB / 128 GB in October 2023. This is a historical launch-era price, not a current listing."
+        },
+        {
+          "id": "cool20plus_noypi_launch",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/android/coolpad-cool-20-plus/",
+          "publicationDate": "2023-10-05",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine launch, exact local configuration, price, and specification cross-check",
+          "note": "Published October 5, 2023, this page reports local availability and PHP 5,699 for 6 GB / 128 GB. Its detailed specifications say Helio G85, while its opening paragraph says G95; the differing summary is documented. It lists the GPU as Mali-G52 MC3, which conflicts with YugaTech and MediaTek's G85 specification of Mali-G52 MC2."
+        },
+        {
+          "id": "cool20plus_mediatek_helio_g85",
+          "publisher": "MediaTek",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Primary chipset-family specification for Helio G85 CPU, GPU, memory and interfaces",
+          "note": "MediaTek identifies the Helio G85's two Cortex-A75 cores up to 2 GHz, six Cortex-A55 cores up to 1.8 GHz, Mali-G52 MC2 GPU, LPDDR4X memory support, eMMC 5.1, Wi-Fi 5, and Bluetooth 5.0. Platform capabilities are applied only where the exact-model local report also identifies the corresponding feature. MediaTek's page does not state the manufacturing process node."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_coolpad_global_page",
+          "sourceValue": "The readable Coolpad product page did not expose a model code; local sources use COOL 20+ / Cool 20 Plus",
+          "normalizedValue": null,
+          "note": "Do not infer a model code from the separate Coolpad CP12.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_coolpad_global_page",
+          "sourceValue": "No exact global release date was verifiable from the manufacturer page; secondary date references vary by market and source",
+          "normalizedValue": null,
+          "note": "Leave the global date unset. The 2023 workbook year is retained as a claim; this field is not a first-sale date.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Philippine COOL 20+ listing: 6 GB RAM / 128 GB storage",
+          "normalizedValue": "6 GB RAM / 128 GB storage",
+          "note": "YugaTech identifies this exact local configuration at PHP 5,699. Other non-PH memory options are not imported as local variants.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "YugaTech dated its report saying the COOL 20+ was now available in the Philippines October 5, 2023",
+          "normalizedValue": "2023-10-05",
+          "note": "This is a dated local availability report, not an exact first transaction time.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Philippine price for the 6 GB / 128 GB model: PHP 5,699",
+          "normalizedValue": 5699,
+          "note": "Historical launch-era price corroborated by YugaTech's 2023 price list and NoypiGeeks; not a current price.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_price"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "The reviewed Philippine price references are dated 2023; no current dated, orderable offer was verified",
+          "normalizedValue": null,
+          "note": "Keep the current catalog price blank. PHP 5,699 is retained only as a historical launch reference.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "unit": "PHP",
+          "priceType": "no_current_offer_verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "6.517-inch waterdrop display; other local coverage rounds this to 6.52 inches",
+          "normalizedValue": 6.52,
+          "note": "Store the exact-model display size using the common 6.52-inch rounded value.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.52,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_noypi_launch",
+          "sourceValue": "6.52-inch IPS display",
+          "normalizedValue": "IPS LCD",
+          "note": "Exact-model local specification; YugaTech does not identify the panel technology.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "HD+ 1600 x 720 pixels",
+          "normalizedValue": "1600 x 720",
+          "note": "YugaTech and NoypiGeeks agree on the HD+ resolution.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "resolution",
+          "catalogValue": "1600 x 720"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Refresh rate not stated in the reviewed local model-specific sources",
+          "normalizedValue": null,
+          "note": "Do not assume 60 Hz from the panel class.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "No brightness value recorded",
+          "normalizedValue": null,
+          "note": "No numeric brightness specification is inferred.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "No cover-glass type or protection rating recorded",
+          "normalizedValue": null,
+          "note": "Keep display protection blank.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "The detailed COOL 20+ spec list says MediaTek Helio G85; one summary says G58, and NoypiGeeks' opening says G95 while its detailed list says G85",
+          "normalizedValue": "MediaTek Helio G85",
+          "note": "The two exact-model structured specification lists identify G85 and the manufacturer provides official G85 platform specifications. The inconsistent summary paragraphs are retained as documented source errors, not silently copied.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio G85"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_mediatek_helio_g85",
+          "sourceValue": "The reviewed MediaTek product page does not state the Helio G85 process node",
+          "normalizedValue": null,
+          "note": "Do not fill a process node from unrelated chipset databases.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "cool20plus_mediatek_helio_g85",
+          "sourceValue": "2x Arm Cortex-A75 up to 2.0 GHz + 6x Arm Cortex-A55 up to 1.8 GHz",
+          "normalizedValue": "8-core: 2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.8 GHz",
+          "note": "MediaTek's Helio G85 specification; this is platform architecture, not a benchmark.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core: 2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.8 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "cool20plus_mediatek_helio_g85",
+          "sourceValue": "MediaTek specifies Arm Mali-G52 MC2; YugaTech reports MC2, while NoypiGeeks reports MC3",
+          "normalizedValue": "Arm Mali-G52 MC2",
+          "note": "The chipset vendor's specification resolves the GPU-core variant; the NoypiGeeks MC3 entry remains documented as a conflicting secondary value.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G52 MC2"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Android 11",
+          "normalizedValue": "Android 11",
+          "note": "Launch-era OS, not a claim about the current software on every unit.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "os",
+          "catalogValue": "Android 11"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "No update policy, duration, or end-of-support date found",
+          "normalizedValue": null,
+          "note": "No software-support commitment is inferred.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "6 GB RAM for the Philippine 128 GB configuration",
+          "normalizedValue": 6,
+          "note": "The local launch report prices 6 GB / 128 GB; other generic memory options are not added as PH variants.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_mediatek_helio_g85",
+          "sourceValue": "The G85 platform supports LPDDR4X, but the local product report does not identify the phone's installed RAM type",
+          "normalizedValue": null,
+          "note": "A chipset capability alone does not establish the installed memory type.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "128 GB storage for the Philippine configuration",
+          "normalizedValue": 128,
+          "note": "Exact local 6 GB / 128 GB configuration.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_mediatek_helio_g85",
+          "sourceValue": "MediaTek lists eMMC 5.1 support for the G85 platform; the reviewed model-specific reports do not state the installed storage interface",
+          "normalizedValue": null,
+          "note": "Do not infer the phone's storage interface from SoC capability.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "YugaTech and NoypiGeeks list a microSD card slot for the COOL 20+",
+          "normalizedValue": "microSD supported; maximum capacity not verified for the Philippine SKU",
+          "note": "The local spec lists support but does not state a local maximum capacity or SIM-tray arrangement.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "48 MP AI main camera plus a secondary depth camera; the secondary module resolution is not stated",
+          "normalizedValue": "48 MP main + depth camera; secondary resolution not recorded",
+          "note": "The catalog numeric value represents the main camera resolution.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 48
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "48 MP main camera; sensor make, model, and aperture not recorded by the reviewed local source",
+          "normalizedValue": "48 MP main; sensor model not disclosed",
+          "note": "No sensor identity is inferred from resolution.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "The complete listed rear camera system is 48 MP main plus depth; no ultrawide module is listed",
+          "normalizedValue": "No ultrawide camera listed",
+          "note": "Based on the complete two-module camera description.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "The complete listed rear camera system is 48 MP main plus depth; no telephoto module is listed",
+          "normalizedValue": "No telephoto camera listed",
+          "note": "Based on the complete two-module camera description.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "5 MP selfie camera",
+          "normalizedValue": 5,
+          "note": "Exact-model local spec list.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 5,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Video mode and frame rate not recorded in the reviewed exact-model local sources",
+          "normalizedValue": null,
+          "note": "Do not infer supported video modes from chipset capabilities.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "4,500 mAh",
+          "normalizedValue": 4500,
+          "note": "The exact-model YugaTech spec table lists 4,500 mAh; NoypiGeeks corroborates.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Battery chemistry is not specified in the reviewed local sources",
+          "normalizedValue": null,
+          "note": "Do not infer Li-ion or Li-Po chemistry.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_noypi_launch",
+          "sourceValue": "10 W wired charging",
+          "normalizedValue": 10,
+          "note": "NoypiGeeks' exact-model PH specification list.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "chargingW",
+          "catalogValue": 10,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Wireless and reverse wireless charging not stated in the reviewed local sources",
+          "normalizedValue": null,
+          "note": "Silence is not treated as confirmation of hardware absence.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "164.3 x 75.66 x 8.65 mm; NoypiGeeks rounds to 164.3 x 75.7 x 8.7 mm",
+          "normalizedValue": "164.3 x 75.66 x 8.65 mm",
+          "note": "Use the exact YugaTech values for this Philippine listing and retain the rounded secondary rendering.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.3 x 75.66 x 8.65 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "197 g; NoypiGeeks gives 197.1 g",
+          "normalizedValue": 197,
+          "note": "Local reports differ only in precision.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "weightG",
+          "catalogValue": 197,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Reviewed YugaTech local specs do not state chassis materials; NoypiGeeks relays a company claim of a glass back but no model-specific manufacturer text could be read",
+          "normalizedValue": null,
+          "note": "Keep material claims blank until a usable primary source is available.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "No IP rating or water-resistance certification recorded",
+          "normalizedValue": null,
+          "note": "No protection rating is inferred.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Dual-SIM; eSIM not stated",
+          "normalizedValue": "Dual-SIM; eSIM not disclosed",
+          "note": "Exact-model local spec list.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "sim",
+          "catalogValue": "Dual-SIM; eSIM not disclosed"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "HSPA+ and 4G LTE; exact device radio-band list is not recorded",
+          "normalizedValue": "HSPA+ / 4G LTE; exact bands not recorded",
+          "note": "Do not infer band compatibility from the generic SoC specification.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "cellular",
+          "catalogValue": "HSPA+ / 4G LTE; exact bands not recorded"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Wi-Fi 802.11 a/b/g/n/ac",
+          "normalizedValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+          "note": "YugaTech exact-model list; MediaTek confirms Wi-Fi 5 platform capability.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11 a/b/g/n/ac)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact-model YugaTech list; chipset vendor corroborates the platform capability.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "USB Type-C; OTG support not stated",
+          "normalizedValue": "USB Type-C; data standard and OTG not disclosed",
+          "note": "Do not infer USB version or OTG from the connector.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data standard and OTG not disclosed"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "NFC support not stated in the reviewed Philippine launch/spec sources",
+          "normalizedValue": null,
+          "note": "No negative NFC claim is inferred.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "GPS/A-GPS, GLONASS, BeiDou, Galileo, and QZSS",
+          "normalizedValue": "GPS, A-GPS, GLONASS, BeiDou, Galileo, QZSS",
+          "note": "YugaTech exact-model local specification.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "3.5 mm headphone jack listed; loudspeaker configuration not stated",
+          "normalizedValue": "3.5 mm headphone jack; speaker configuration not disclosed",
+          "note": "No mono/stereo claim is inferred.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage",
+          "catalogKey": "sound",
+          "catalogValue": "3.5 mm headphone jack; speaker configuration not disclosed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cool20plus_yugatech_ph_launch",
+          "sourceValue": "Side-mounted fingerprint reader and face unlock listed; other sensors not listed",
+          "normalizedValue": "Side fingerprint reader; face unlock; other sensors not recorded",
+          "note": "Only explicitly listed authentication features are recorded.",
+          "configurationMatch": "Philippine Coolpad COOL 20+, 6 GB RAM / 128 GB storage"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech and NoypiGeeks reported the COOL 20+ as locally introduced/available in the Philippines on October 5, 2023. Workbook eligibility remains Pending.",
+        "philippineAvailability": "YugaTech and NoypiGeeks both reported the Coolpad COOL 20+ available in the Philippines in launch coverage dated October 5, 2023, including a Philippine 6 GB / 128 GB configuration and local price. This verifies a Philippine-market launch report, not the exact first transaction time.",
+        "observedAt": "2026-11-26",
+        "manufacturer": "Coolpad",
+        "catalogModel": "COOL 20+",
+        "productLine": "Coolpad COOL 20+",
+        "modelNumber": null,
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Philippine availability report date",
+        "researchNotes": "Workbook label Coolpad Cool 20 Plus is matched to COOL 20+ in contemporaneous local launch reporting. One source-supported local configuration: 6 GB / 128 GB. Scope eligibility remains Pending. Exact model code, global release date, current price, memory type, storage type, process node, and image reuse remain unresolved.",
+        "qualityFlag": "COOL 20+ matched; model code, exact global date, current price, several technical fields, and image rights unresolved.",
+        "openIssues": [
+          {
+            "issue": "The reviewed Coolpad global product URL returned no readable specification text and local references show no numeric device model code",
+            "action": "Keep modelNumber blank until the manufacturer or an official label supplies an exact code."
+          },
+          {
+            "issue": "YugaTech and NoypiGeeks contain conflicting chipset names in opening summary text, though both detailed tables list Helio G85",
+            "action": "Use the detailed local spec tables and MediaTek's official Helio G85 platform data; preserve the contradictory summary text in provenance."
+          },
+          {
+            "issue": "NoypiGeeks lists Mali-G52 MC3 while YugaTech and MediaTek list Mali-G52 MC2",
+            "action": "Use MediaTek's primary chipset specification for MC2 and retain the secondary discrepancy in the field audit."
+          },
+          {
+            "issue": "No current dated, orderable Philippine offer was verified",
+            "action": "Keep the current price blank and retain PHP 5,699 as a 2023 historical launch price."
+          },
+          {
+            "issue": "Exact-model product images have no recorded reusable license",
+            "action": "Use the neutral placeholder until documented reuse permission is established."
+          },
+          {
+            "issue": "Workbook scope/eligibility remains Pending",
+            "action": "Preserve Pending and follow existing study eligibility rules."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_14031d3cddb48d-6gb-128gb-ph",
+          "label": "6 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": null,
+          "notes": "Philippine launch coverage identifies this as the 6 GB / 128 GB local configuration. No model code is recorded.",
+          "workbookRow": 133
+        }
+      ],
+      "replaceUnrecordedPlaceholder": true
     }
   ]
 }
