@@ -8001,46 +8001,181 @@
     "category": "smartphones",
     "brand": "HONOR",
     "model": "X9a",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "HONOR",
+    "productLine": "X Series",
     "modelNumber": null,
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineAvailabilityDate": "2023-02-04",
+    "philippineDateLabel": "First reported Philippine retail availability",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Current price and stock not verified; rear material conflict unresolved",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Contemporaneous Philippine reporting states that the phone became available at HONOR kiosks, partner stores, and online channels from February 4, 2023.",
+    "availabilityStatus": "Philippine retail availability was reported beginning February 4, 2023; present stock is not established.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "The workbook label HONOR X9a matches HONOR's Philippines X9a 5G product and the 2023 Philippine launch reports. The reported local launch configuration is 8 GB physical RAM / 256 GB storage. The PHP 16,990 SRP is historical; current price and stock are not established. The global spec page lists additional memory configurations, but no additional Philippine variant is added without local evidence.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Current exact-configuration price and stock are not verified",
+        "action": "Keep current price blank until a current Philippine offer matching the 8 GB / 256 GB model is observed."
+      },
+      {
+        "issue": "Local reviewers conflict on rear-panel material",
+        "action": "Keep material blank until manufacturer or variant-specific evidence resolves the glass-versus-plastic descriptions."
+      },
+      {
+        "issue": "Published OS/security update policy not established",
+        "action": "Keep support term unresolved; do not infer from the Android version at launch."
+      },
+      {
+        "issue": "Exact local retail SKU and variant code are not documented",
+        "action": "Retain RMO-NX1 as the official model code while leaving any Philippine-specific retailer SKU blank."
+      },
+      {
+        "issue": "Reuse rights for the exact official product image are not established",
+        "action": "Continue showing the neutral placeholder until image permission or a reusable license is documented."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9a/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine product identity and selected design, battery, and display claims",
+        "note": "The Philippines product page identifies HONOR X9a 5G and publishes its 120 Hz curved AMOLED display, 5100 mAh typical battery, 40 W charging, 7.9 mm depth, 175 g weight, and 8 GB + 5 GB HONOR RAM Turbo. Virtual RAM is not counted as physical RAM."
+      },
+      {
+        "organization": "HONOR Philippines",
+        "url": "https://www.honor.com/ph/phones/honor-x9a/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Official Philippine specification page and exact-model image source",
+        "note": "HONOR Philippines identifies the X9a 5G and its Emerald Green and Titanium Silver image assets. The page's accessible text renderer does not expose all specification values."
+      },
+      {
+        "organization": "HONOR",
+        "url": "https://www.honor.com/global/phones/honor-x9a/spec/",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer specification cross-check for model code and technical specifications",
+        "note": "HONOR's official X9a specifications identify model code RMO-NX1, 8 GB + 256 GB among global memory configurations, display, processor, camera, OS, battery, dimensions, connectivity, and sensors. Global variant lists are not used to add Philippine variants."
+      },
+      {
+        "organization": "Qualcomm",
+        "url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-695-5g-mobile-platform",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Primary source for Snapdragon 695 process, CPU family, and platform characteristics",
+        "note": "Qualcomm specifies Snapdragon 695 as a 6 nm platform with Kryo 660 CPU up to 2.2 GHz and Adreno 619 GPU. Device-specific frequency layout is taken from HONOR's X9a specifications."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/news/honor-x9a-5g-launches-in-the-philippines-priced/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-01-19",
+        "purpose": "Contemporaneous Philippine launch, local configuration, launch price, and specifications",
+        "note": "Published 2023-01-19. Reports the Philippine launch, preorder period beginning January 20, the 8 GB RAM / 256 GB storage model, PHP 16,990 SRP, and a detailed local specification list."
+      },
+      {
+        "organization": "Philippine Information Technology Organization",
+        "url": "https://phil-it.org.ph/look-mega-crowd-at-honor-x9a-5gs-first-day-sale/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-02-05",
+        "purpose": "Documented first-day Philippine retail availability and nationwide channels",
+        "note": "Published 2023-02-05; the article states the HONOR X9a 5G officially hit stores on February 4, 2023, at PHP 16,990 through HONOR kiosks, partner stores, and online channels."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/mobile/honor-x9a-5g-review/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-02-01",
+        "purpose": "Independent local review, device experience, pricing, and exact launch configuration cross-check",
+        "note": "The local review lists the 8 GB / 256 GB PHP 16,990 configuration and the device specifications. Its FAQ describes the rear as frosted glass; that material statement conflicts with REVU's review and is not promoted as settled fact."
+      },
+      {
+        "organization": "REVU Philippines",
+        "url": "https://www.revu.com.ph/2023/02/honor-x9a-5g-review-price-specs/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-02-07",
+        "purpose": "Independent Philippine review and cross-check for configuration, storage expansion, audio, and materials",
+        "note": "The Philippine review identifies 8 GB RAM / 256 GB storage, no microSD slot, a single downward-firing speaker, no 3.5 mm audio port, and a plastic rear with aluminum frame. Its rear-material description conflicts with YugaTech's frosted-glass description."
+      },
+      {
+        "organization": "Jam Online",
+        "url": "https://jamonline.ph/reviews/honor-x9a-5g-review/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-02-12",
+        "purpose": "Independent Philippine hands-on review and camera/software cross-check",
+        "note": "The local review documents the 8 GB / 256 GB device, MagicUI 6.1 based on Android 12, Snapdragon 695, 5100 mAh battery, 40 W charging, and front video capture up to 1080p at 30 fps."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/honor-phone-price-list-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2023-02-07",
+        "purpose": "Dated Philippine launch-price history; not a current retail offer",
+        "note": "The price-list row records HONOR X9a 5G 8 GB / 256 GB at PHP 16,990 as verified on February 7, 2023. This is historical launch-era evidence and does not establish a current price or stock."
+      }
+    ],
     "variants": [
       {
-        "id": "device_beb039b6abbf82-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_beb039b6abbf82-8gb-256gb-ph",
+        "label": "8 GB RAM / 256 GB storage",
+        "specs": {
+          "displayInches": 6.67,
+          "displayType": "Curved AMOLED",
+          "resolution": "1080 x 2400",
+          "refreshHz": 120,
+          "chipset": "Qualcomm Snapdragon 695 5G",
+          "cpu": "Octa-core: 2x A78 up to 2.2 GHz + 6x A55 up to 1.8 GHz",
+          "gpu": "Adreno 619",
+          "os": "MagicUI 6.1 (Android 12)",
+          "ramGb": 8,
+          "storageGb": 256,
+          "frontCameraMp": 16,
+          "batteryMah": 5100,
+          "chargingW": 40,
+          "dimensions": "161.6 x 73.9 x 7.9 mm",
+          "weightG": 175,
+          "cellular": "5G and 4G LTE; specific bands not recorded",
+          "wifi": "Wi-Fi 5 (802.11 a/b/g/n/ac), 2.4/5 GHz",
+          "ports": "USB Type-C, USB 2.0"
+        },
+        "specSources": {
+          "displayInches": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "displayType": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "resolution": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "refreshHz": "https://www.yugatech.com/news/honor-x9a-5g-launches-in-the-philippines-priced/",
+          "chipset": "https://www.yugatech.com/news/honor-x9a-5g-launches-in-the-philippines-priced/",
+          "cpu": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "gpu": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "os": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "ramGb": "https://www.yugatech.com/news/honor-x9a-5g-launches-in-the-philippines-priced/",
+          "storageGb": "https://www.yugatech.com/news/honor-x9a-5g-launches-in-the-philippines-priced/",
+          "frontCameraMp": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "batteryMah": "https://www.honor.com/ph/phones/honor-x9a/",
+          "chargingW": "https://www.honor.com/ph/phones/honor-x9a/",
+          "dimensions": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "weightG": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "cellular": "https://www.yugatech.com/news/honor-x9a-5g-launches-in-the-philippines-priced/",
+          "wifi": "https://www.honor.com/global/phones/honor-x9a/spec/",
+          "ports": "https://www.honor.com/global/phones/honor-x9a/spec/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "YugaTech's contemporaneous Philippine launch reporting identifies the local 8 GB / 256 GB configuration. HONOR's global specifications identify RMO-NX1 and the same configuration; a separate Philippine retailer SKU is not stated. HONOR's 5 GB RAM Turbo is virtual memory, not additional physical RAM.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "RMO-NX1",
         "workbookRow": null
       }
     ],

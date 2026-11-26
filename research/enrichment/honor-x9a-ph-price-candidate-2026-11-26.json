@@ -1,0 +1,35 @@
+{
+  "run_at": "2026-11-26T13:24:47+08:00",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_beb039b6abbf82",
+      "brand": "HONOR",
+      "model_name": "X9a",
+      "category": "smartphones",
+      "status": "source_queued"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [],
+  "prices": [
+    {
+      "device_id": "device_beb039b6abbf82",
+      "amount_php": 16990,
+      "configuration_id": "device_beb039b6abbf82-8gb-256gb-ph",
+      "configuration_match": "exact",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "independent_reported_historical_price",
+      "source_published_at": "2023-01-19",
+      "excerpt": "YugaTech's January 19, 2023 Philippine launch report identifies HONOR X9a 5G at 8 GB RAM / 256 GB storage and PHP 16,990 SRP, with preorder beginning January 20. Historical launch price, not current.",
+      "source_url": "https://www.yugatech.com/news/honor-x9a-5g-launches-in-the-philippines-priced/",
+      "source_kind": "independent_ph_reference",
+      "observed_at": "2026-11-26T13:24:47+08:00",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price"
+    }
+  ]
+}
