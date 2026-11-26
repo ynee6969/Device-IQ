@@ -33179,47 +33179,176 @@
     "recordType": "device",
     "category": "smartphones",
     "brand": "TCL",
-    "model": "20B",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
+    "model": "TCL 20B",
+    "manufacturer": "TCL",
+    "productLine": "TCL 20 Series",
+    "modelNumber": "6159K",
     "releaseDate": null,
-    "philippineAvailabilityDate": null,
+    "philippineAvailabilityDate": "2022-03-04",
     "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineReleaseYear": 2022,
     "claimedReleaseYear": 2022,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-26",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "NTC TCL 6159K matches TCL 20B; one Philippine 4/64 configuration, local availability and dated historical price documented; current price, exact global release date, color-name mapping, and image reuse rights remain unresolved.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "YugaTech reports TCL Mobile Philippines announced the TCL 20B as available in the Philippines from 4 March 2022 through Lazada, Shopee, and authorized TCL dealers. The documented Philippine configuration is 4 GB RAM / 64 GB storage, with a historical launch price of PHP 8,190. Current stock and price are not verified. TCL Global's color names differ from the Philippine launch report's color names, so no color mapping is assumed.",
+    "availabilityStatus": "Philippine authorized-channel availability reported from 4 March 2022",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 104 TCL 20B matches NTC GEC model 6159K and TCL Global's model-specific spec entries. YugaTech reports a single Philippine 4 GB/64 GB configuration and PHP 8,190 launch price as of 4 March 2022. The price is historical, not current. Manufacturer specifications establish most hardware, including 6159K-specific hybrid SIM/microSD, LTE bands, and NFC. Local and global color names differ; no mapping is assumed. The global announcement/release date is not set because the reviewed sources do not establish an exact primary-source release date. Current price and image reuse rights are not verified. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Current dated orderable Philippine price was not verified",
+        "action": "Keep current price blank; retain PHP 8,190 as a historical launch value."
+      },
+      {
+        "issue": "Exact global release date is not established by the manufacturer source",
+        "action": "Leave the global release date blank."
+      },
+      {
+        "issue": "Color naming differs between the PH launch report and TCL Global",
+        "action": "Preserve both source labels and do not map one name onto another."
+      },
+      {
+        "issue": "TCL official product imagery is exact-model, but reusable permission is not recorded",
+        "action": "Keep the neutral image placeholder."
+      },
+      {
+        "issue": "Workbook eligibility is Pending",
+        "action": "Preserve the existing study-scope status."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "National Telecommunications Commission Region IV-B",
+        "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2021-09-29",
+        "purpose": "Exact Philippine NTC registration model match",
+        "note": "The NTC GEC entry ESD-GEC-2106984 identifies brand/model TCL 6159K and marketing name TCL 20B; issued 29 September 2021."
+      },
+      {
+        "organization": "TCL Global",
+        "url": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Manufacturer specifications for the TCL 20B, including values explicitly marked for model 6159K",
+        "note": "TCL's product specifications list display, cameras, platform, 4 GB LPDDR4x / 64 GB eMMC, battery, charging, connectivity, sensors and physical data. Several network/SIM/NFC rows explicitly name model 6159K; market-wide statements are not treated as local launch proof."
+      },
+      {
+        "organization": "TCL Global",
+        "url": "https://www.tcl.com/global/en/mobile/tcl-20b",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model product identity and image asset source",
+        "note": "TCL's product page is for the TCL 20B and shows the matching curved-back device and official color names Space Grey and Nebula Purple. No reusable image license or written permission was found."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/mobile/tcl-20b-specs-price-philippines/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-03-04",
+        "purpose": "Philippine authorized availability, 4/64 configuration, local launch price, and local color names",
+        "note": "YugaTech reports TCL Mobile Philippines announced the device available in the Philippines on 4 March 2022 through Lazada, Shopee, and authorized TCL dealer partners. It lists 4 GB/64 GB and PHP 8,190. Local article color names Purple and Black differ from TCL Global's Space Grey and Nebula Purple; keep that naming discrepancy visible."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/tcl-phone-price-list-philippines",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-03-04",
+        "purpose": "Dated historical Philippine price listing and current-price distinction",
+        "note": "The price list retains TCL 20B at PHP 8,190 with the verified report date 4 March 2022; this is a historical price reference and does not prove a currently orderable offer."
+      },
+      {
+        "organization": "ManilaShaker Philippines",
+        "url": "https://manilashaker.com/tcl-20b-now-in-ph/",
+        "observedAt": "2026-11-26",
+        "publishedAt": "2022-03-04",
+        "purpose": "Independent Philippine configuration, price, and dealer-availability cross-check",
+        "note": "The March 4, 2022 report independently lists 4 GB/64 GB at PHP 8,190 and availability through local online stores and authorized partners; selected technical specifications cross-check YugaTech."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/tcl_20b-11261.php",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Exact-model technical-reference lookup",
+        "note": "The exact TCL 20B product page was located. It is a global reference only; no Philippine price or availability claim is taken from it."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-tcl-20b",
+        "observedAt": "2026-11-26",
+        "publishedAt": null,
+        "purpose": "Independent exact-model 4 GB/64 GB technical cross-check",
+        "note": "Kimovil identifies TCL 20B Global as one 4 GB/64 GB version and provides secondary hardware details. Its international pricing, colors and market data are not used as Philippine evidence."
+      }
+    ],
     "variants": [
       {
-        "id": "device_41c970f372aada-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_41c970f372aada-4gb-64gb-ph",
+        "label": "4 GB RAM / 64 GB storage",
+        "specs": {
+          "ramGb": 4,
+          "storageGb": 64,
+          "storageType": "eMMC",
+          "displayInches": 6.52,
+          "resolution": "720 x 1600",
+          "brightnessNits": 450,
+          "chipset": "MediaTek Helio P22 (MTK6762)",
+          "gpu": "IMG PowerVR GE8320",
+          "os": "Android 11 / TCL UI",
+          "rearCameraMp": "50 MP main + 2 MP depth",
+          "frontCameraMp": 8,
+          "video": "Rear/front 1080p@30fps",
+          "batteryMah": 4000,
+          "chargingW": 18,
+          "dimensions": "164.7 x 74.68 x 7.99",
+          "weightG": 178,
+          "cellular": "4G LTE; exact bands in sourceValue",
+          "sim": "Dual Nano-SIM; hybrid second SIM/microSD",
+          "wifi": "802.11 b/g/n",
+          "nfc": "Yes",
+          "gnss": "GPS; A-GPS; BeiDou; Galileo; GLONASS",
+          "ports": "USB Type-C 2.0",
+          "sound": "3.5 mm headset jack; speaker; FM radio"
+        },
+        "specSources": {
+          "ramGb": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "storageGb": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "storageType": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "displayInches": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "resolution": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "brightnessNits": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "chipset": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "gpu": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "os": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "rearCameraMp": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "frontCameraMp": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "video": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "batteryMah": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "chargingW": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "dimensions": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "weightG": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "cellular": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "sim": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "wifi": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "nfc": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "gnss": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "ports": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "sound": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "TCL's official product specifications identify the 6159K dual-SIM / microSD configuration.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "6159K",
         "workbookRow": null
       }
     ],

@@ -2380,14 +2380,14 @@
     "altText": "Image unavailable for TCL 20 SE"
   },
   "device_41c970f372aada": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "TCL Global's exact TCL 20B product page provides a model image asset, but no reusable license or written permission to republish it is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://www.tcl.com/global/en/mobile/tcl-20b",
+    "assetUrl": "https://static-obg.tcl.com/content/dam/brandsite/region/global/migrate/tcl-20b/images/mobile/landing_s4_bg.png",
+    "scope": "Exact TCL 20B 6159K model family; manufacturer product-page image",
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
-    "altText": "Image unavailable for TCL 20B"
+    "altText": "Image unavailable for TCL 20B 6159K"
   },
   "device_d4d915d251eb2c": {
     "status": "NO_RELIABLE_MATCH",

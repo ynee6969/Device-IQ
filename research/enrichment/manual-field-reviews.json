@@ -159482,6 +159482,492 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_41c970f372aada",
+      "configurationId": "device_41c970f372aada-4gb-64gb-ph",
+      "brand": "TCL",
+      "model": "TCL 20B",
+      "configuration": "4 GB RAM / 64 GB storage",
+      "configurationLabel": "4 GB RAM / 64 GB storage",
+      "sources": [
+        {
+          "id": "tcl20b_ph_ntc_gec_2021",
+          "publisher": "National Telecommunications Commission Region IV-B",
+          "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+          "publicationDate": "2021-09-29",
+          "accessDate": "2026-11-26",
+          "purpose": "Exact Philippine NTC registration model match",
+          "note": "The NTC GEC entry ESD-GEC-2106984 identifies brand/model TCL 6159K and marketing name TCL 20B; issued 29 September 2021."
+        },
+        {
+          "id": "tcl20b_manufacturer_specs",
+          "publisher": "TCL Global",
+          "url": "https://www.tcl.com/global/en/mobile/tcl-20b/specifications",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Manufacturer specifications for the TCL 20B, including values explicitly marked for model 6159K",
+          "note": "TCL's product specifications list display, cameras, platform, 4 GB LPDDR4x / 64 GB eMMC, battery, charging, connectivity, sensors and physical data. Several network/SIM/NFC rows explicitly name model 6159K; market-wide statements are not treated as local launch proof."
+        },
+        {
+          "id": "tcl20b_manufacturer_product",
+          "publisher": "TCL Global",
+          "url": "https://www.tcl.com/global/en/mobile/tcl-20b",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model product identity and image asset source",
+          "note": "TCL's product page is for the TCL 20B and shows the matching curved-back device and official color names Space Grey and Nebula Purple. No reusable image license or written permission was found."
+        },
+        {
+          "id": "tcl20b_yugatech_ph_launch",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/mobile/tcl-20b-specs-price-philippines/",
+          "publicationDate": "2022-03-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Philippine authorized availability, 4/64 configuration, local launch price, and local color names",
+          "note": "YugaTech reports TCL Mobile Philippines announced the device available in the Philippines on 4 March 2022 through Lazada, Shopee, and authorized TCL dealer partners. It lists 4 GB/64 GB and PHP 8,190. Local article color names Purple and Black differ from TCL Global's Space Grey and Nebula Purple; keep that naming discrepancy visible."
+        },
+        {
+          "id": "tcl20b_yugatech_price_history",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/tcl-phone-price-list-philippines",
+          "publicationDate": "2022-03-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Dated historical Philippine price listing and current-price distinction",
+          "note": "The price list retains TCL 20B at PHP 8,190 with the verified report date 4 March 2022; this is a historical price reference and does not prove a currently orderable offer."
+        },
+        {
+          "id": "tcl20b_manilashaker_ph",
+          "publisher": "ManilaShaker Philippines",
+          "url": "https://manilashaker.com/tcl-20b-now-in-ph/",
+          "publicationDate": "2022-03-04",
+          "accessDate": "2026-11-26",
+          "purpose": "Independent Philippine configuration, price, and dealer-availability cross-check",
+          "note": "The March 4, 2022 report independently lists 4 GB/64 GB at PHP 8,190 and availability through local online stores and authorized partners; selected technical specifications cross-check YugaTech."
+        },
+        {
+          "id": "tcl20b_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/tcl_20b-11261.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Exact-model technical-reference lookup",
+          "note": "The exact TCL 20B product page was located. It is a global reference only; no Philippine price or availability claim is taken from it."
+        },
+        {
+          "id": "tcl20b_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-tcl-20b",
+          "publicationDate": null,
+          "accessDate": "2026-11-26",
+          "purpose": "Independent exact-model 4 GB/64 GB technical cross-check",
+          "note": "Kimovil identifies TCL 20B Global as one 4 GB/64 GB version and provides secondary hardware details. Its international pricing, colors and market data are not used as Philippine evidence."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_ph_ntc_gec_2021",
+          "sourceValue": "NTC entry: TCL 6159K, TCL 20B",
+          "normalizedValue": "6159K",
+          "note": "Exact NTC row matches both the model code and marketing name."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tcl20b_yugatech_ph_launch",
+          "sourceValue": "Philippine launch configuration: 4 GB RAM / 64 GB storage",
+          "normalizedValue": "4 GB RAM / 64 GB storage",
+          "note": "YugaTech reports the local configuration; TCL Global lists 4 GB LPDDR4x and 64 GB eMMC for the exact model family."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "4 GB LPDDR4x",
+          "normalizedValue": 4,
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "LPDDR4x",
+          "normalizedValue": "LPDDR4x"
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "64 GB ROM; 47 GB available storage stated by TCL",
+          "normalizedValue": 64,
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB",
+          "note": "Catalog stores installed capacity, not the 47 GB free-space figure."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "eMMC",
+          "normalizedValue": "eMMC",
+          "catalogKey": "storageType",
+          "catalogValue": "eMMC"
+        },
+        {
+          "fieldId": "expandable_storage",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "MicroSD up to 512 GB; 6159K uses a hybrid second SIM / microSD slot",
+          "normalizedValue": "microSD up to 512 GB; hybrid slot"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "6.52-inch mini-notch display",
+          "normalizedValue": 6.52,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.52,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tcl20b_yugatech_ph_launch",
+          "sourceValue": "6.52-inch IPS display",
+          "normalizedValue": "IPS LCD",
+          "note": "The Philippine launch report identifies IPS; TCL's specification page does not explicitly name the panel class."
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "HD+ (720 x 1600 pixels)",
+          "normalizedValue": "720 x 1600",
+          "catalogKey": "resolution",
+          "catalogValue": "720 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "Refresh rate not listed in the reviewed manufacturer specification",
+          "normalizedValue": null,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "450 nits typical",
+          "normalizedValue": 450,
+          "catalogKey": "brightnessNits",
+          "catalogValue": 450,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "MTK6762 octa-core; Philippine launch source calls it MediaTek Helio P22",
+          "normalizedValue": "MediaTek Helio P22 (MTK6762)",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio P22 (MTK6762)"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "4x 1.8 GHz + 4x 1.5 GHz octa-core",
+          "normalizedValue": "4x 1.8 GHz + 4x 1.5 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "IMG GE8320",
+          "normalizedValue": "IMG PowerVR GE8320",
+          "catalogKey": "gpu",
+          "catalogValue": "IMG PowerVR GE8320"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "Android 11 with TCL UI",
+          "normalizedValue": "Android 11 / TCL UI",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 / TCL UI"
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tcl20b_yugatech_ph_launch",
+          "sourceValue": "Global announcement/release date not established from the reviewed manufacturer source; Philippine coverage says it was first unveiled in Russia in December 2021",
+          "normalizedValue": null,
+          "note": "Do not assign a global release date from a secondary database result while the manufacturer's exact release event is unconfirmed."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tcl20b_yugatech_ph_launch",
+          "sourceValue": "Philippine availability announced 4 March 2022",
+          "normalizedValue": "2022-03-04",
+          "note": "The date is the dated Philippine announcement and availability report; NTC equipment certification predates it."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "tcl20b_yugatech_ph_launch",
+          "sourceValue": "Philippine launch price PHP 8,190 for 4 GB/64 GB",
+          "normalizedValue": 8190,
+          "unit": "PHP",
+          "note": "Historical local launch price reported on 4 March 2022, independently cross-checked by ManilaShaker; not a current offer."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tcl20b_yugatech_price_history",
+          "sourceValue": "No current dated, orderable Philippine offer verified; the listed PHP 8,190 price is dated 4 March 2022",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Keep current price blank; retain PHP 8,190 as a historical launch price only."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "50 MP main + 2 MP depth",
+          "normalizedValue": "50 MP main + 2 MP depth",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "50 MP main + 2 MP depth"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "50 MP, f/1.85, 1/2.8-inch sensor, 0.64 μm pixel size",
+          "normalizedValue": "50 MP; f/1.85"
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "8 MP, f/2.0",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "Rear 1080p at 30 fps; front 1080p at 30 fps",
+          "normalizedValue": "Rear/front 1080p@30fps",
+          "catalogKey": "video",
+          "catalogValue": "Rear/front 1080p@30fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "4,000 mAh",
+          "normalizedValue": 4000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "Supported charging 18 W; TCL lists a 10 W charger in its specification table",
+          "normalizedValue": 18,
+          "catalogKey": "chargingW",
+          "catalogValue": 18,
+          "unit": "W",
+          "note": "The device-supported charging rate and listed charger rating are distinct; only supported rate is stored in the numeric field."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "164.7 x 74.68 x 7.99 mm",
+          "normalizedValue": "164.7 x 74.68 x 7.99",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.7 x 74.68 x 7.99",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "178 g",
+          "normalizedValue": 178,
+          "catalogKey": "weightG",
+          "catalogValue": 178,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "3D PMMA back cover; frame material not specified",
+          "normalizedValue": "3D PMMA back cover"
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "No water/dust ingress rating recorded in the reviewed source",
+          "normalizedValue": null
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "6159K: 4G LTE bands 1/3/5/7/8/20/28/38/40/41; 3G 1/2/5/8; 2G 850/900/1800/1900",
+          "normalizedValue": "4G LTE; exact bands in sourceValue",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE; exact bands in sourceValue"
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "6159K dual SIM: 1 Nano-SIM + 1 Nano-SIM or 1 microSD",
+          "normalizedValue": "Dual Nano-SIM; hybrid second SIM/microSD",
+          "catalogKey": "sim",
+          "catalogValue": "Dual Nano-SIM; hybrid second SIM/microSD"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "802.11 b/g/n, Wi-Fi Direct",
+          "normalizedValue": "802.11 b/g/n",
+          "catalogKey": "wifi",
+          "catalogValue": "802.11 b/g/n"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "6159K model: NFC yes",
+          "normalizedValue": "Yes",
+          "catalogKey": "nfc",
+          "catalogValue": "Yes"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "GPS, A-GPS, BeiDou, Galileo, GLONASS",
+          "normalizedValue": "GPS; A-GPS; BeiDou; Galileo; GLONASS",
+          "catalogKey": "gnss",
+          "catalogValue": "GPS; A-GPS; BeiDou; Galileo; GLONASS"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "USB Type-C 2.0",
+          "normalizedValue": "USB Type-C 2.0",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C 2.0"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "3.5 mm headset jack; one speaker; FM radio listed",
+          "normalizedValue": "3.5 mm headset jack; speaker; FM radio",
+          "catalogKey": "sound",
+          "catalogValue": "3.5 mm headset jack; speaker; FM radio"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "Accelerometer, proximity, light sensor, e-compass; rear fingerprint sensor; face unlock",
+          "normalizedValue": "Accelerometer; proximity; light; e-compass; rear fingerprint; face unlock"
+        },
+        {
+          "fieldId": "color_options",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "tcl20b_yugatech_ph_launch",
+          "sourceValue": "Philippines: Purple, Black; TCL Global: Nebula Purple, Space Grey",
+          "normalizedValue": null,
+          "note": "Names differ across the Philippine launch report and TCL Global product page; preserve the reported names without assuming the two sets map exactly."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "tcl20b_manufacturer_specs",
+          "sourceValue": "No official support end date found in the reviewed exact-model sources",
+          "normalizedValue": null,
+          "note": "Do not infer a support period from the Android version or brand-wide policy."
+        }
+      ],
+      "modelCode": "6159K",
+      "replacementVariants": [
+        {
+          "id": "device_41c970f372aada-4gb-64gb-ph",
+          "label": "4 GB RAM / 64 GB storage",
+          "modelCode": "6159K",
+          "sku": null,
+          "notes": "TCL's official product specifications identify the 6159K dual-SIM / microSD configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine authorized-channel availability reported from 4 March 2022",
+        "philippineAvailability": "YugaTech reports TCL Mobile Philippines announced the TCL 20B as available in the Philippines from 4 March 2022 through Lazada, Shopee, and authorized TCL dealers. The documented Philippine configuration is 4 GB RAM / 64 GB storage, with a historical launch price of PHP 8,190. Current stock and price are not verified. TCL Global's color names differ from the Philippine launch report's color names, so no color mapping is assumed.",
+        "observedAt": "2026-11-26",
+        "qualityFlag": "NTC TCL 6159K matches TCL 20B; one Philippine 4/64 configuration, local availability and dated historical price documented; current price, exact global release date, color-name mapping, and image reuse rights remain unresolved.",
+        "catalogModel": "TCL 20B",
+        "manufacturer": "TCL",
+        "productLine": "TCL 20 Series",
+        "modelNumber": "6159K",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Philippine availability date",
+        "researchNotes": "Workbook row 104 TCL 20B matches NTC GEC model 6159K and TCL Global's model-specific spec entries. YugaTech reports a single Philippine 4 GB/64 GB configuration and PHP 8,190 launch price as of 4 March 2022. The price is historical, not current. Manufacturer specifications establish most hardware, including 6159K-specific hybrid SIM/microSD, LTE bands, and NFC. Local and global color names differ; no mapping is assumed. The global announcement/release date is not set because the reviewed sources do not establish an exact primary-source release date. Current price and image reuse rights are not verified. Workbook eligibility remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Current dated orderable Philippine price was not verified",
+            "action": "Keep current price blank; retain PHP 8,190 as a historical launch value."
+          },
+          {
+            "issue": "Exact global release date is not established by the manufacturer source",
+            "action": "Leave the global release date blank."
+          },
+          {
+            "issue": "Color naming differs between the PH launch report and TCL Global",
+            "action": "Preserve both source labels and do not map one name onto another."
+          },
+          {
+            "issue": "TCL official product imagery is exact-model, but reusable permission is not recorded",
+            "action": "Keep the neutral image placeholder."
+          },
+          {
+            "issue": "Workbook eligibility is Pending",
+            "action": "Preserve the existing study-scope status."
+          }
+        ]
+      }
     }
   ]
 }
