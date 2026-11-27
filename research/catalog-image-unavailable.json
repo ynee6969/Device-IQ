@@ -3864,16 +3864,6 @@
     "observedAt": "2026-11-27",
     "altText": "Image unavailable for Samsung Galaxy Tab S9 FE"
   },
-  "device_ca40d8c136e83b": {
-    "status": "REUSE_PERMISSION_REQUIRED",
-    "reason": "Samsung states that its site content remains Samsung/licensor property and grants no reuse license for this use.",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-5g-light-green-128gb-sm-x616blgaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x616blgaxtc/gallery/ph-galaxy-tab-s9-fe-plus-sm-x616-sm-x616blgaxtc-thumb-538476781",
-    "scope": "Exact model; pictured colors may vary",
-    "rightsTermsUrl": "https://www.samsung.com/ph/business/info/legal/",
-    "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Samsung Galaxy Tab S9 FE+"
-  },
   "device_82e9616b879292": {
     "status": "REUSE_PERMISSION_REQUIRED",
     "reason": "No exact-model device product photo with a reusable license was found. The Wikimedia Commons category reviewed contains photographs taken with the Tab S9 Ultra, not product images. Samsung Mobile Press terms restrict site material to personal, informational, non-commercial use and do not grant reuse for a public product catalog.",

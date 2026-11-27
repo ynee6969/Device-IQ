@@ -537,5 +537,16 @@
     "changes": "Converted from JPEG to WebP and resized for catalog delivery; no crop or subject edits.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "rightsCheckedAt": "2026-11-27"
+  },
+  "device_ca40d8c136e83b": {
+    "path": "/catalog-images/device_ca40d8c136e83b.webp",
+    "sourcePage": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s9-fe-plus?tab=images",
+    "assetUrl": "https://api.samsungmobilepress.com/file/846B6641975DCE08D456B6A54BD37D5386EEE0954A92A835344B5C14F6FC5574D361A54E4FAA211D9F4A08ED3D68C0A9A22A8526E61F7E3BFC73E2D79C7552FA1A2517C53F7F89D3AF06AC60E10882C73A08C95625F87A102DAF86601A4494D9C61F02325BC2A1EA4E3158CDA50AC6CFEC56475CF9CAA37D334DA8A2F9BEADDF05B05381491F6914ED641E1C8CEE6D66BF02FBE24415EFB1CDE4ED9BDC9E7776",
+    "scope": "Exact Galaxy Tab S9 FE+ model; Samsung's product image does not identify the pictured color or local network configuration.",
+    "credit": "Samsung Electronics Co., Ltd. via Samsung Mobile Press",
+    "usageTerms": "Samsung Mobile Press Terms of Use: personal, informational and non-commercial use only; preserve copyright, trademark and proprietary notices; no commercial use is granted.",
+    "changes": "Converted to WebP and resized to fit the catalog image area without cropping; no product edits or notice removal.",
+    "licenseUrl": "https://www.samsungmobilepress.com/terms",
+    "rightsCheckedAt": "2026-11-27"
   }
 }

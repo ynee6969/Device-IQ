@@ -1,0 +1,268 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "brand": "Samsung",
+      "model_name": "Galaxy Tab S9 FE+",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-wifi-gray-128gb-sm-x610nzaaxtc/",
+      "source_kind": "Exact Philippine Wi-Fi SKU and configuration specifications",
+      "status": "reviewed",
+      "result": "Samsung Philippines identifies the Gray Wi-Fi SKU SM-X610NZAAXTC, with 8 GB RAM and 128 GB storage, and lists its hardware specifications."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-5g-gray-128gb-sm-x616bzaaxtc/",
+      "source_kind": "Exact Philippine 5G SKU and configuration specifications",
+      "status": "reviewed",
+      "result": "Samsung Philippines identifies the Gray 5G SKU SM-X616BZAA XTC, with 8 GB RAM and 128 GB storage, and lists its hardware and cellular-band specifications."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s9-fe/buy/?modelCode=SM-X610NZAAXTC",
+      "source_kind": "Local SKU and purchase-option cross-check for Wi-Fi model",
+      "status": "reviewed",
+      "result": "The Samsung Philippines buying tool is keyed to the local Wi-Fi SKU; it supports local SKU matching but currently exposes no numeric price."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s9-fe/buy/?modelCode=SM-X616BZAAXTC",
+      "source_kind": "Local SKU, purchase-option and in-box items cross-check for 5G model",
+      "status": "reviewed",
+      "result": "The Samsung Philippines buying tool identifies the 8 GB / 128 GB 5G Gray SKU, lists the tablet, S Pen, data cable and eject pin in the box, and states no travel adapter is included; it exposes no current numeric price."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+      "source_kind": "Official Philippine launch date for the Galaxy Tab S9 FE series",
+      "status": "reviewed",
+      "result": "Samsung Philippines announced that the Galaxy Tab S9 FE series, including FE+, would be available locally beginning October 20, 2023."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-fe-series-home-credit/",
+      "source_kind": "Historical Philippine cash price for exact 8 GB / 128 GB 5G configuration",
+      "status": "reviewed",
+      "result": "The Home Credit cash-price table explicitly lists Galaxy Tab S9 FE+ 5G (8 GB + 128 GB) at PHP 39,990. The campaign ran October 1 to December 31, 2023; this is historical, not a current price."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/offer/online/2023/galaxy-tab-s9-fe/",
+      "source_kind": "Historical model/network-level SRP for FE+ Wi-Fi and 5G",
+      "status": "reviewed",
+      "result": "Samsung's expired October 20–December 31, 2023 promotion lists SRP PHP 34,990 for FE+ Wi-Fi and PHP 39,990 for FE+ 5G, but does not state RAM or storage; retained only as model/network-level price evidence."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2024/galaxy-devices-home-credit-offer/",
+      "source_kind": "Historical model/network-level 2024 price observations",
+      "status": "reviewed",
+      "result": "The Samsung Philippines Home Credit table lists PHP 34,990 for Galaxy Tab S9 FE+ Wi-Fi and PHP 39,990 for FE+ 5G, without RAM or storage details. These are historical model/network-level observations, not current prices."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "Expired model/network-level 2025 SRP and offer for FE+ 5G",
+      "status": "reviewed",
+      "result": "Samsung's expired trade-in page lists FE+ 5G SRP PHP 43,990 and offer PHP 39,990, valid July 9–September 30, 2025. The table does not specify RAM or storage; neither value is current or attached to an exact configuration."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+      "source_kind": "Global announcement and selected-market availability context",
+      "status": "reviewed",
+      "result": "Samsung announced the FE family on October 4, 2023 and stated selected-market availability from October 5. This is not a Philippine release date."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1380/",
+      "source_kind": "Exynos 1380 CPU, process and GPU details",
+      "status": "reviewed",
+      "result": "Samsung lists the Exynos 1380 5 nm process, four Cortex-A78 cores up to 2.4 GHz, four Cortex-A55 cores up to 2.0 GHz and Mali-G68 graphics with five cores."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://image-us.samsung.com/SamsungUS/home/my-assets/10-11-23/TabS9FE-Spec.pdf",
+      "source_kind": "Manufacturer cross-check for launch OS, speakers and wired-charger requirement",
+      "status": "reviewed",
+      "result": "Samsung's launch spec sheet covers the FE+ model family, lists Android 13, stereo speakers with Dolby Atmos and says a separately sold 45 W wall charger is required. This is not Philippine availability or pricing evidence."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-wifi-gray-128gb-sm-x610nzaaxtc/",
+      "source_kind": "Temporary shared-template source key; not saved",
+      "status": "reviewed",
+      "result": "Replaced in the FE+ field review with FE+ secondary-source evidence."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9-fe-plus",
+      "source_kind": "Secondary model-family specification cross-check",
+      "status": "reviewed",
+      "result": "NanoReview lists LPDDR4X, UFS 2.2, 90 Hz, Gorilla Glass 3, 45 W charging, no wireless charging and Li-Ion chemistry. The page's selected RAM detail defaults to 6 GB even though its selector lists 8/128 and 12/256; the RAM type is therefore not assigned to the local 8 GB SKU. Its battery chemistry conflicts with Kimovil."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s9-fe-plus-5g",
+      "source_kind": "Secondary 8 GB / 128 GB 5G model cross-check",
+      "status": "reviewed",
+      "result": "Kimovil lists the global 8 GB / 128 GB 5G model, dimensions, Exynos 1380, 10,090 mAh battery, 45 W charging and Li-Polymer chemistry. Its chemistry claim conflicts with NanoReview, and global configuration/pricing does not establish Philippine sale."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.gsmarena.com/samsung_galaxy_tab_s9_fe_plus-12609.php",
+      "source_kind": "Independent specification cross-check access attempt",
+      "status": "reviewed",
+      "result": "GSMArena search identifies model ID 12609. The direct specification page could not be fetched in this research session, and its comparison page returned HTTP 402. No specification values were copied from GSMArena."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-5g-gray-128gb-sm-x616bzaaxtc/",
+      "source_kind": "Exact-model product image candidate; not reused",
+      "status": "reviewed",
+      "result": "Samsung's exact Philippine Gray 5G product page shows the Galaxy Tab S9 FE+. Product art is a model match, but reuse rights were not cleared for this catalog."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s9-fe-plus?tab=images",
+      "source_kind": "Exact-model product-image gallery and usage-rights review",
+      "status": "reviewed",
+      "result": "The media gallery includes exact-model product assets. Samsung Mobile Press terms permit use only for personal, informational and non-commercial purposes and require proprietary notices to remain intact. The DeviceIQ thesis catalog is treated as informational and non-commercial; source credit and terms are preserved with the image."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://www.samsungmobilepress.com/terms",
+      "source_kind": "Product-image reuse terms",
+      "status": "reviewed",
+      "result": "Samsung Mobile Press terms allow personal, informational and non-commercial use only; they do not grant commercial rights. Do not remove or alter any copyright, trademark or proprietary notice."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "source_url": "https://commons.wikimedia.org/wiki/Category:Samsung_Galaxy_Tab",
+      "source_kind": "Search for exact-model reusable product photography",
+      "status": "reviewed",
+      "result": "A search for Galaxy Tab S9 FE+ exact-model product photography did not identify a suitable openly licensed product image. The broad Galaxy Tab category is not evidence of an exact-model photo or license."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "configuration_id": "device_ca40d8c136e83b-sm-x616b-8gb-128gb-5g-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_8gb_128gb_5g",
+      "amount_php": 39990,
+      "price_type": "historical_ph_official_2023_cash_price_exact_configuration",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-fe-series-home-credit/",
+      "source_kind": "official_samsung_ph_2023_home_credit_cash_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_2023_campaign_cash_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' Home Credit cash-price table explicitly lists Galaxy Tab S9 FE+ 5G (8 GB + 128 GB) at PHP 39,990 during the October 1–December 31, 2023 campaign. Historical, not current."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "model_network_wi-fi_ram_storage_unspecified",
+      "amount_php": 34990,
+      "price_type": "historical_2023_ph_official_srp_model_network_configuration_unspecified",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/online/2023/galaxy-tab-s9-fe/",
+      "source_kind": "official_samsung_ph_historical_campaign_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_campaign_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung's Oct 20–Dec 31, 2023 Philippines promotion lists FE+ Wi-Fi SRP PHP 34,990; RAM/storage not stated."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "model_network_wi-fi_ram_storage_unspecified",
+      "amount_php": 34990,
+      "price_type": "historical_2024_ph_official_home_credit_model_network_configuration_unspecified",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2024/galaxy-devices-home-credit-offer/",
+      "source_kind": "official_samsung_ph_historical_campaign_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_campaign_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' 2024 Home Credit table lists FE+ Wi-Fi at PHP 34,990; RAM/storage not stated."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "5G",
+      "configuration_match": "model_network_5g_ram_storage_unspecified",
+      "amount_php": 39990,
+      "price_type": "historical_2024_ph_official_home_credit_model_network_configuration_unspecified",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2024/galaxy-devices-home-credit-offer/",
+      "source_kind": "official_samsung_ph_historical_campaign_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_campaign_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' 2024 Home Credit table lists FE+ 5G at PHP 39,990; RAM/storage not stated."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "5G",
+      "configuration_match": "model_network_5g_ram_storage_unspecified",
+      "amount_php": 43990,
+      "price_type": "historical_2025_ph_official_srp_model_network_configuration_unspecified",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "official_samsung_ph_historical_campaign_price",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_campaign_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' expired 2025 trade-in campaign lists FE+ 5G SRP PHP 43,990; RAM/storage not stated."
+    },
+    {
+      "device_id": "device_ca40d8c136e83b",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "5G",
+      "configuration_match": "model_network_5g_ram_storage_unspecified",
+      "amount_php": 39990,
+      "price_type": "expired_2025_ph_official_promo_model_network_configuration_unspecified",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "official_samsung_ph_historical_campaign_price",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_campaign_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' expired 2025 trade-in campaign lists FE+ 5G offer PHP 39,990, valid July 9–September 30, 2025; RAM/storage not stated."
+    }
+  ]
+}

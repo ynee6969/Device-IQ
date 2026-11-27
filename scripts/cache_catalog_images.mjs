@@ -13,7 +13,7 @@ const manifestPath = resolve(root, 'lib/catalog/image-manifest.json');
 const force = process.argv.includes('--force');
 const selectedId = process.argv.includes('--device-id') ? process.argv[process.argv.indexOf('--device-id') + 1] : null;
 const agent = 'DeviceIQResearchBot/1.0 (+https://github.com/ynee6969/Device-IQ; catalog imagery)';
-const allowedHosts = new Set(['images.samsung.com', 'dlcdnwebimgs.asus.com', 'upload.wikimedia.org']);
+const allowedHosts = new Set(['images.samsung.com', 'api.samsungmobilepress.com', 'dlcdnwebimgs.asus.com', 'upload.wikimedia.org']);
 
 function reusableRights(source) {
   if (source.rightsStatus === 'LICENSED') {
