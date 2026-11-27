@@ -174083,6 +174083,672 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_03f3856685042e",
+      "configurationId": "device_03f3856685042e-8gb-256gb",
+      "brand": "ZTE",
+      "model": "nubia Neo 5G",
+      "configuration": "8 GB RAM / 256 GB storage",
+      "configurationLabel": "8 GB RAM / 256 GB storage (5G)",
+      "sources": [
+        {
+          "id": "nubia_neo_zte_certificate",
+          "publisher": "ZTE Corporation",
+          "url": "https://download.ztedevices.com/bigmediafiles/device/global/certification/Smart_phone_2023/P0323_23ZTE0060_nubia_8150N/P0323_23ZTE0060_nubia_8150N_CE_DOC.pdf",
+          "publicationDate": "2023-06-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer declaration of conformity and model identity",
+          "note": "ZTE's signed declaration identifies product model nubia 8150N, MyOS13.0.0_8150N_AS1 and hardware version zatA; dated 2023-06-08. It establishes manufacturer model/software identity, not Philippine availability."
+        },
+        {
+          "id": "nubia_neo_zte_global_product",
+          "publisher": "ZTE Devices",
+          "url": "https://www.ztedevices.com/en/products/smartphones/nubia/nubia-neo-5g.html",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Official product overview and feature identity",
+          "note": "ZTE's official product page identifies the nubia Neo 5G, UNISOC T820, dual-SIM 5G, 22.5W charging, gaming features and design. Detailed specifications are cross-checked against ZTE's regional specification page."
+        },
+        {
+          "id": "nubia_neo_zte_malaysia_specs",
+          "publisher": "ZTE Devices Malaysia",
+          "url": "https://www.ztedevices.com.my/nubia/nubia/nubia-neo-5g",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer specifications for the exact 8150N product family",
+          "note": "Official ZTE Malaysia page lists 8GB+10GB Fusion RAM (18GB advertised total), 256GB storage, UNISOC T820, Android 13, 6.6-inch FHD 120Hz display, 8MP front and 50MP+2MP rear cameras, 4500mAh battery, 22.5W charging, 163.7×75×7.98mm, dual SIM, dual-band Wi-Fi and NFC. Regional listing is not treated as proof of Philippine price or availability."
+        },
+        {
+          "id": "nubia_neo_gcf_model",
+          "publisher": "Global Certification Forum",
+          "url": "https://www.globalcertificationforum.org/pub_product/11895.html",
+          "publicationDate": "2023-11-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent model-name, manufacturer and certified network-band match",
+          "note": "GCF entry 11895 maps ZTE Corporation model nubia 8150N to marketing name nubia Neo 5G and lists certified cellular bands. Certification date 2023-11-25. Band data describes the certified model and does not guarantee Philippine carrier compatibility."
+        },
+        {
+          "id": "nubia_neo_unisoc_chipset",
+          "publisher": "UNISOC via PR Newswire",
+          "url": "https://www.prnewswire.com/apac/news-releases/the-gaming-phone-nubia-neo-5g-launched-with-unisoc-t820-now-available-in-southeast-asia-301887151.html",
+          "publicationDate": "2023-07-27",
+          "accessDate": "2026-11-27",
+          "purpose": "Chipset architecture and Southeast Asian launch timing",
+          "note": "UNISOC release dated 2023-07-27 states ZTE had launched the nubia Neo 5G in Southeast Asia and details the T820: 1× Cortex-A76 at 2.7GHz, 3× Cortex-A76 at 2.3GHz, 4× Cortex-A55 at 2.1GHz, Mali-G57 MP4 up to 850MHz and 6nm EUV process."
+        },
+        {
+          "id": "nubia_neo_thai_launch",
+          "publisher": "ZTE Device Thailand via ThaiPR.NET",
+          "url": "https://www.thaipr.net/en/it_en/3340989",
+          "publicationDate": "2023-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Earliest regional preorder month cross-check",
+          "note": "ZTE Device Thailand said preorders for the nubia Neo 5G would be available through online channels in June 2023. This establishes month-level regional preorder timing, not an exact first-sale day."
+        },
+        {
+          "id": "nubia_neo_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2023/09/zte-nubia-neo-5g-price-philippines/",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Contemporaneous Philippine official-store sale, list price, promotion and configuration",
+          "note": "Article dated 2023-09-06 reports a live-sale observation of ZTE Philippines selling the nubia Neo 5G on TikTok Shop: PHP 9,999 list price and limited-time PHP 8,599 promotional price. It identifies 8GB physical RAM, 256GB storage, 8MP selfie camera, 50MP rear camera, 4500mAh battery and 22.5W charge."
+        },
+        {
+          "id": "nubia_neo_yugatech_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/zte-nubia-neo-5g-available-in-lazada/",
+          "publicationDate": "2023-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine marketplace listing, configuration and detailed specifications",
+          "note": "Article dated 2023-09-14 reports the 8GB/256GB nubia Neo 5G listed in Lazada Philippines for PHP 9,799. Its prose states 6.6-inch 120Hz IPS LCD and 8MP front camera; its spec table gives 6.73-inch, 2408×1080, LPDDR5x and UFS 3.1, so inconsistent entries from that page are not silently combined."
+        },
+        {
+          "id": "nubia_neo_noypi_ph",
+          "publisher": "NoypiGeeks",
+          "url": "https://www.noypigeeks.com/android/nubia-neo-5g-philippines/",
+          "publicationDate": "2023-09-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine price and independent specification cross-check",
+          "note": "Article dated 2023-09-11 reports PHP 9,999 SRP, 8GB/256GB, 6.6-inch FHD+ 120Hz display, 13MP front camera, 4500mAh and 22.5W. Its front-camera value conflicts with ZTE's product page and other contemporaneous PH launch sources; that field remains unresolved."
+        },
+        {
+          "id": "nubia_neo_gizguide_ph",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2023/09/zte-nubia-neo-5g-price-specs-official-philippines.html",
+          "publicationDate": "2023-09-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine retail pricing and local product specifications",
+          "note": "Article dated 2023-09-09 reports PHP 9,999 in ZTE's TikTok Shop listing, 6.67-inch/2400×1080/120Hz display, 8GB/256GB, 8MP front camera, 4500mAh and 22.5W. This pixel resolution conflicts with YugaTech's spec table."
+        },
+        {
+          "id": "nubia_neo_unbox_prerelease",
+          "publisher": "Unbox.ph",
+          "url": "https://unbox.ph/gadget/zte-to-bring-nubia-neo-5g-to-the-philippines/",
+          "publicationDate": "2023-08-28",
+          "accessDate": "2026-11-27",
+          "purpose": "Pre-release reporting retained to distinguish provisional estimates from final specifications",
+          "note": "August 2023 preview described 13MP selfie camera, 5000mAh and 33W charging before Philippine retail availability. These pre-release estimates are superseded by later ZTE product specifications and contemporaneous PH retail sources, and are not used as final configuration values."
+        },
+        {
+          "id": "nubia_neo_xataka_specs",
+          "publisher": "Xataka Móvil",
+          "url": "https://www.xatakamovil.com/zte/zte-nubia-neo-5g-caracteristicas-precio-ficha-tecnica",
+          "publicationDate": "2024-02-13",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model specification and physical-weight cross-check",
+          "note": "Article dated 2024-02-13 identifies the nubia Neo 5G 8GB/256GB, lists a 189g weight, 6.6-inch LCD 120Hz display, 8MP front camera, 50MP+2MP rear cameras, Android 13, 4500mAh and 22.5W charging. It does not establish Philippine pricing or configuration-specific local availability."
+        },
+        {
+          "id": "nubia_neo_current_listing_check",
+          "publisher": "Lazada Philippines",
+          "url": "https://www.lazada.com.ph/tag/zte-nubia-neo-5g-official-store/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Current exact-model price research",
+          "note": "Checked 2026-11-27. The current nubia official-store search results show newer Neo 5-series models, but no exact older nubia Neo 5G (8150N) listing or current PHP price. No current price is asserted from this non-matching search page."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_gcf_model",
+          "sourceValue": "ZTE manufacturer model nubia 8150N; GCF maps it to marketing name nubia Neo 5G",
+          "normalizedValue": "8150N",
+          "note": "ZTE's signed declaration names nubia 8150N; GCF independently maps model 8150N to nubia Neo 5G."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_thai_launch",
+          "sourceValue": "ZTE Thailand announced online preorders in June 2023; UNISOC reported Southeast Asian launch on 2023-07-27",
+          "normalizedValue": "2023-06",
+          "note": "Month-level earliest regional preorder timing only; the first retail-sale day was not established. The July 2023 UNISOC release confirms subsequent Southeast Asian launch activity."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_revu_ph",
+          "sourceValue": "Philippine ZTE shop listing: 8GB physical RAM / 256GB storage; up to 10GB additional Fusion/Dynamic RAM is software-backed",
+          "normalizedValue": "8 GB RAM / 256 GB storage",
+          "note": "All reviewed PH availability sources identify 8GB/256GB. The advertised 18GB total includes up to 10GB virtual/Fusion RAM and is not a second physical-RAM configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_revu_ph",
+          "sourceValue": "REVU observed ZTE Philippines selling the phone in a live TikTok Shop event on 2023-09-06; first exact day of sale is not otherwise established",
+          "normalizedValue": "2023-09-06",
+          "note": "This is the earliest verified Philippine sale observation located, not a claim that no earlier transaction occurred."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_revu_ph",
+          "sourceValue": "PHP 9,999 listed price on the official ZTE Philippines TikTok Shop live sale",
+          "normalizedValue": 9999,
+          "unit": "PHP",
+          "note": "REVU's contemporaneous report observed ZTE Philippines selling the exact 8GB/256GB model at PHP 9,999. The report also records a time-limited PHP 8,599 promotion; neither is a current price.",
+          "priceType": "Historical Philippine official-store launch/list price",
+          "priceObservedAt": "2023-09-06",
+          "priceCondition": "new"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "nubia_neo_current_listing_check",
+          "sourceValue": "No current Philippine price for exact model 8150N was located; current official-store search results show newer Neo 5-series models",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "Checked 2026-11-27. Historical PH price observations remain dated and are not displayed as current. No current exact-model stock/list price is verified."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "6.6-inch FHD display; local reports say 6.6 or 6.67 inches, while a YugaTech spec-table entry says 6.73 inches despite that article's prose saying 6.6 inches",
+          "normalizedValue": 6.6,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.6,
+          "unit": "in",
+          "note": "The official product page and multiple article prose descriptions use 6.6 inches. The 6.73-inch figure appears only in a local spec-table entry that conflicts with its own article prose; retained here as a source discrepancy rather than silently treated as another variant."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_gizguide_ph",
+          "sourceValue": "IPS LCD display",
+          "normalizedValue": "IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nubia_neo_gizguide_ph",
+          "sourceValue": "Philippine sources list both 2400×1080 and 2408×1080; ZTE specifies only FHD.",
+          "normalizedValue": null,
+          "catalogKey": "resolution",
+          "catalogValue": null,
+          "note": "Exact pixel dimensions conflict between contemporaneous local specification listings. The manufacturer page confirms FHD only, so exact resolution is withheld.",
+          "candidateEvidence": [
+            {
+              "value": "2400 × 1080",
+              "sourceUrl": "https://www.gizguide.com/2023/09/zte-nubia-neo-5g-price-specs-official-philippines.html",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "GIZGUIDE reports FHD+ 2400 x 1080.",
+              "configurationMatch": "nubia Neo 5G Philippine retail listing",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "2408 × 1080",
+              "sourceUrl": "https://www.yugatech.com/news/zte-nubia-neo-5g-available-in-lazada/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "YugaTech spec table reports 1080 x 2408.",
+              "configurationMatch": "nubia Neo 5G Philippine Lazada listing",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "120Hz refresh rate",
+          "normalizedValue": 120,
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "No numeric peak or typical brightness value is published; generic screen-brightening claims are not converted into a nit value.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-model sources do not publish this value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "Asahi Glass protection reported by YugaTech; not separately specified on ZTE's product page",
+          "normalizedValue": "Asahi Glass"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "UNISOC T820 5G platform",
+          "normalizedValue": "UNISOC T820",
+          "catalogKey": "chipset",
+          "catalogValue": "UNISOC T820"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_unisoc_chipset",
+          "sourceValue": "UNISOC T820 uses a 6nm EUV process",
+          "normalizedValue": 6,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_unisoc_chipset",
+          "sourceValue": "1× Cortex-A76 up to 2.7GHz + 3× Cortex-A76 up to 2.3GHz + 4× Cortex-A55 up to 2.1GHz",
+          "normalizedValue": "1x Cortex-A76 @ 2.7GHz + 3x Cortex-A76 @ 2.3GHz + 4x Cortex-A55 @ 2.1GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "1x Cortex-A76 @ 2.7GHz + 3x Cortex-A76 @ 2.3GHz + 4x Cortex-A55 @ 2.1GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_unisoc_chipset",
+          "sourceValue": "Arm Mali-G57 MP4, up to 850MHz",
+          "normalizedValue": "Arm Mali-G57 MP4",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G57 MP4"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_certificate",
+          "sourceValue": "MyOS 13.0.0 on Android 13",
+          "normalizedValue": "Android 13 with MyOS 13",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 with MyOS 13",
+          "note": "ZTE's 8150N certificate identifies MyOS 13.0.0; ZTE regional product specifications identify Android 13."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nubia_neo_zte_global_product",
+          "sourceValue": "No published exact model OS/security-update schedule or guaranteed support period was found.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-model sources do not publish this value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "8GB installed physical RAM plus up to 10GB Fusion RAM",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "note": "Catalog capacity is physical RAM only; virtual/Fusion RAM is not counted as installed memory."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "YugaTech reports LPDDR5x while REVU lists LPDDR4X; ZTE does not state RAM type.",
+          "normalizedValue": null,
+          "catalogKey": "ramType",
+          "catalogValue": null,
+          "note": "Local sources conflict on physical RAM generation; manufacturer documentation does not resolve it. The catalog records installed capacity only.",
+          "candidateEvidence": [
+            {
+              "value": "LPDDR5x",
+              "sourceUrl": "https://www.yugatech.com/news/zte-nubia-neo-5g-available-in-lazada/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "YugaTech specification table says 8GB LPDDR5x.",
+              "configurationMatch": "8GB/256GB Philippine listing",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "LPDDR4X",
+              "sourceUrl": "https://www.revu.com.ph/2023/09/zte-nubia-neo-5g-price-philippines/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "REVU specification table says 8GB LPDDR4X.",
+              "configurationMatch": "8GB/256GB Philippine official-store sale",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "256GB internal storage",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "UFS 3.1 storage reported for the 8GB/256GB Philippine listing",
+          "normalizedValue": "UFS 3.1"
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_noypi_ph",
+          "sourceValue": "MicroSD expansion reported; maximum supported card capacity is not recorded by the manufacturer source reviewed",
+          "normalizedValue": "microSD expansion reported; maximum capacity not recorded"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "50MP main + 2MP secondary rear camera",
+          "normalizedValue": "50 MP main + 2 MP secondary",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nubia_neo_zte_global_product",
+          "sourceValue": "The exact main-camera sensor manufacturer and part number are not disclosed in the reviewed manufacturer and PH launch sources.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-model sources do not publish this value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "The manufacturer lists a 50MP+2MP dual-rear-camera system and does not list an ultrawide module.",
+          "normalizedValue": null,
+          "note": "Not applicable to the documented dual-camera configuration; no ultrawide lens is listed."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "The manufacturer lists a 50MP+2MP dual-rear-camera system and does not list a telephoto module.",
+          "normalizedValue": null,
+          "note": "Not applicable to the documented dual-camera configuration; no telephoto lens is listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nubia_neo_revu_ph",
+          "sourceValue": "ZTE's manufacturer specification and several local reports state 8MP; NoypiGeeks reports 13MP.",
+          "normalizedValue": null,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": null,
+          "note": "The published final manufacturer specification and multiple launch reports support 8MP, but a post-launch local source reports 13MP. Keep the normalized catalog value blank until the regional hardware is confirmed.",
+          "candidateEvidence": [
+            {
+              "value": "8 MP",
+              "sourceUrl": "https://www.ztedevices.com.my/nubia/nubia/nubia-neo-5g",
+              "sourceKind": "manufacturer_primary_regional",
+              "observedAt": "2026-11-27",
+              "excerpt": "Official ZTE product specification lists an 8MP front camera.",
+              "configurationMatch": "Official nubia Neo 5G product page; model 8150N",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "8 MP",
+              "sourceUrl": "https://www.revu.com.ph/2023/09/zte-nubia-neo-5g-price-philippines/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "Contemporaneous PH sale report says 8MP selfie sensor.",
+              "configurationMatch": "8GB/256GB PH sale",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "8 MP",
+              "sourceUrl": "https://www.yugatech.com/news/zte-nubia-neo-5g-available-in-lazada/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "YugaTech prose and spec list say 8MP front camera.",
+              "configurationMatch": "8GB/256GB Lazada PH listing",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "13 MP",
+              "sourceUrl": "https://www.noypigeeks.com/android/nubia-neo-5g-philippines/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "NoypiGeeks lists a 13MP front camera.",
+              "configurationMatch": "PH listing dated 2023-09-11",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "13 MP",
+              "sourceUrl": "https://unbox.ph/gadget/zte-to-bring-nubia-neo-5g-to-the-philippines/",
+              "sourceKind": "secondary_prerelease",
+              "observedAt": "2026-11-27",
+              "excerpt": "August pre-release preview estimated 13MP selfie camera.",
+              "configurationMatch": "Pre-release PH preview; not confirmed final hardware",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "Rear video recording up to 1080p at 30fps",
+          "normalizedValue": "1080p at 30fps",
+          "catalogKey": "video",
+          "catalogValue": "1080p at 30fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "4500mAh battery",
+          "normalizedValue": 4500,
+          "catalogKey": "batteryMah",
+          "catalogValue": 4500,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "Li-Ion 4500mAh non-removable battery",
+          "normalizedValue": "Li-Ion; non-removable"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "22.5W fast charging",
+          "normalizedValue": 22.5,
+          "catalogKey": "chargingW",
+          "catalogValue": 22.5,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nubia_neo_zte_global_product",
+          "sourceValue": "Wireless and reverse charging are not listed in the reviewed manufacturer specifications.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-model sources do not publish this value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "163.7 × 75 × 7.98mm",
+          "normalizedValue": "163.7 × 75 × 7.98",
+          "catalogKey": "dimensions",
+          "catalogValue": "163.7 × 75 × 7.98",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_xataka_specs",
+          "sourceValue": "189g",
+          "normalizedValue": 189,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "Frame and rear-cover material composition is not disclosed in the reviewed manufacturer specifications.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-model sources do not publish this value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "No IP ingress-protection rating is listed in the reviewed manufacturer or launch sources.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-model sources do not publish this value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "Dual SIM and 5G dual-SIM support; eSIM is not listed",
+          "normalizedValue": "Dual SIM; eSIM not recorded",
+          "catalogKey": "sim",
+          "catalogValue": "Dual SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_gcf_model",
+          "sourceValue": "GCF-certified 5G NSA n1/n3/n28/n78; LTE FDD bands 1/3/7/8/20/28 and LTE TDD band 38",
+          "normalizedValue": "5G NSA n1/n3/n28/n78; LTE FDD 1/3/7/8/20/28; LTE TDD 38",
+          "catalogKey": "cellular",
+          "catalogValue": "5G NSA n1/n3/n28/n78; LTE FDD 1/3/7/8/20/28; LTE TDD 38",
+          "note": "Exact 8150N model certification data. The certification record does not establish that every listed band is enabled on a Philippine carrier or a PH-specific firmware variant."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "Dual-band Wi-Fi at 2.4GHz and 5GHz; YugaTech lists 802.11ac",
+          "normalizedValue": "Dual-band Wi-Fi (2.4GHz/5GHz; 802.11ac reported)",
+          "catalogKey": "wifi",
+          "catalogValue": "Dual-band Wi-Fi (2.4GHz/5GHz; 802.11ac reported)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "USB Type-C connector; USB data version not specified in the cited local listing",
+          "normalizedValue": "USB Type-C; data version not recorded",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data version not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "NFC supported"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_yugatech_ph",
+          "sourceValue": "GPS with GLONASS, Galileo and BeiDou",
+          "normalizedValue": "GPS, GLONASS, Galileo, BeiDou"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_noypi_ph",
+          "sourceValue": "3.5mm headphone jack and single loudspeaker; DTS:X Ultra is listed by ZTE",
+          "normalizedValue": "3.5mm headphone jack; mono speaker; DTS:X Ultra",
+          "catalogKey": "sound",
+          "catalogValue": "3.5mm headphone jack; mono speaker; DTS:X Ultra"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nubia_neo_zte_malaysia_specs",
+          "sourceValue": "Side-mounted fingerprint sensor; other sensors are not listed on the reviewed product page",
+          "normalizedValue": "Side-mounted fingerprint sensor; others not recorded"
+        }
+      ],
+      "modelCode": "8150N",
+      "replacementVariants": [
+        {
+          "id": "device_03f3856685042e-8gb-256gb",
+          "label": "8 GB RAM / 256 GB storage (5G)",
+          "modelCode": "8150N",
+          "notes": "The verified Philippine listing identifies 8GB physical RAM and 256GB storage. Up to 10GB Fusion RAM is software-backed and not a separate installed-RAM configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Verified historical Philippine sale: ZTE Philippines was observed selling nubia Neo 5G (8150N), 8GB/256GB, on its TikTok Shop on 2023-09-06. Current stock and price are not verified.",
+        "philippineAvailability": "Verified historical Philippine sale of the ZTE nubia Neo 5G 8GB/256GB configuration, documented in September 2023.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; 8GB/256GB PH configuration and historical sale verified; current price unavailable; exact display resolution, RAM type and front camera remain conflicted.",
+        "catalogModel": "nubia Neo 5G",
+        "manufacturer": "ZTE Corporation",
+        "productLine": "nubia Neo",
+        "modelNumber": "8150N",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "First verified Philippine sale observation",
+        "researchNotes": "Workbook row 168 is matched to ZTE manufacturer model nubia 8150N, which GCF identifies as the nubia Neo 5G. Contemporaneous Philippine sources identify one 8GB physical RAM / 256GB storage configuration. Virtual/Fusion RAM is not a separate variant. Historical PH sale and price evidence are preserved with dates; current PH price/stock is not established. Image shown on official ZTE product page is an exact model-level candidate, but image reuse permission is undocumented, so retain the neutral placeholder. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Current Philippine price and stock were not found for the older 8150N model",
+            "action": "Keep current price blank; preserve only dated 2023 Philippine price observations."
+          },
+          {
+            "issue": "Sources disagree on exact display pixel resolution",
+            "action": "Keep the normalized pixel dimensions blank; retain FHD only as the manufacturer description."
+          },
+          {
+            "issue": "Local sources disagree on physical RAM generation and front-camera resolution",
+            "action": "Keep both normalized fields blank and expose their source evidence."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Keep inventory eligibility unchanged until the study screening rule is applied."
+          },
+          {
+            "issue": "Official exact-model product imagery is visible, but no reuse license or permission was found",
+            "action": "Keep the neutral unavailable-image placeholder and preserve the candidate image URL for rights review."
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-27T11:09:07+08:00
+Updated: 2026-11-27T11:22:44+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-27T11:09:07+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 580 |
-| Models with manually verified source fields | 191 |
-| Configurations with manually verified source fields | 282 |
+| Models with manually verified source fields | 192 |
+| Configurations with manually verified source fields | 283 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
-| Models with all fields assessed | 5 |
+| Models with all fields assessed | 6 |
 | Specification-complete models | 0 |
 | Incomplete models | 454 |
 | Applicable field assignments | 27077 |
-| Fields assessed | 8217 |
-| Verified fields | 7406 |
-| Pending fields | 18860 |
+| Fields assessed | 8263 |
+| Verified fields | 7440 |
+| Pending fields | 18814 |
 | PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -103,7 +103,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | smartphones | REDMAGIC | 1 | 1 | 1 | 0 | 0 | 1 | 90 | 82 | 2 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Redmi | 2 | 0 | 2 | 0 | 0 | 2 | 51 | 51 | 41 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Samsung | 8 | 8 | 8 | 0 | 0 | 8 | 393 | 365 | 251 | 3 | 5 | 4 | 0 | 0 | 8 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | ZTE | 2 | 1 | 2 | 0 | 0 | 2 | 46 | 32 | 46 | 0 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | ZTE | 2 | 2 | 2 | 0 | 0 | 2 | 92 | 66 | 0 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | itel | 3 | 1 | 3 | 0 | 0 | 3 | 26 | 26 | 112 | 2 | 1 | 1 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | realme | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 184 | 2 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | vivo | 2 | 2 | 2 | 0 | 0 | 2 | 92 | 74 | 0 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |

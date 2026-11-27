@@ -2757,13 +2757,16 @@
     "altText": "Image unavailable for ZTE Blade V50 Vita"
   },
   "device_03f3856685042e": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "The official ZTE product page for nubia Neo 5G links to an exact-model product image, but no reuse license or permission to republish/hotlink it was documented. Keep the neutral placeholder.",
+    "sourcePage": "https://www.ztedevices.com.my/nubia/nubia/nubia-neo-5g",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://www.ztedevices.com.my/storage/products/2/page_contents/97a0aaa16359cb4ec441ae032f9c8bbd.jpg",
+    "scope": "Official ZTE Malaysia nubia Neo 5G product image; model-level match; the pictured color and PH configuration are not established by the asset itself.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
+    "rightsCheck": "Reviewed the official ZTE product page and linked asset. No image reuse license or permission was found. Do not download or hotlink; no access controls were bypassed.",
+    "rightsCheckSourcePage": "https://www.ztedevices.com.my/nubia/nubia/nubia-neo-5g",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for ZTE nubia Neo 5G"
   },
   "device_2d3b3b3ff3d487": {

@@ -1170,7 +1170,7 @@
       "brand": "ZTE",
       "model_name": "nubia Neo 5G",
       "category": "smartphones",
-      "status": "needs_source_discovery"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_87e79ad13fe93b",
