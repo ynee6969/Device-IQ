@@ -559,5 +559,16 @@
     "changes": "Converted to WebP and resized for catalog display without cropping; no product edits or notice removal.",
     "licenseUrl": "https://www.samsungmobilepress.com/terms",
     "rightsCheckedAt": "2026-11-27"
+  },
+  "device_bfb5e856a9a659": {
+    "path": "/catalog-images/device_bfb5e856a9a659.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Zenfone_8.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Zenfone_8.jpg",
+    "scope": "Exact Zenfone 8 ZS590KS model-level front view; the photo does not distinguish RAM/storage or color variants.",
+    "credit": "ROC-C.Z (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "changes": "Converted from JPEG to WebP and resized for catalog delivery; no crop or subject edits.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "rightsCheckedAt": "2026-11-27"
   }
 }

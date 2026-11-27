@@ -1,0 +1,109 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "brand": "ASUS",
+      "model_name": "Zenfone 8",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-8/techspec/",
+      "result": "ASUS global exact-model specifications reviewed; regional bands/Wi-Fi caveats retained."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+      "result": "Exact PH page confirms 8/128 and 16/256 configurations, historical SRPs and local launch specifications."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://2ndopinion.ph/asus-zenfone-returns-to-ph-shores-pre-orders-begin-may-14/",
+      "result": "Contemporaneous ASUS Philippines launch coverage identifies May 14 preorder start and the two local configurations/SRPs."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://www.technobaboy.com/2021/05/14/asus-zenfone-8-5g-zenfone-8-flip-pre-order-price-philippines/",
+      "result": "Independent Philippine launch and price cross-check; Wi-Fi mode conflicts with PTG."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://rog.asus.com/us/support/faq/1014441/",
+      "result": "ASUS maps Zenfone 8 to model number ZS590KS; no local numeric SKU identified."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://rog.asus.com/ph/support/faq/1056885/",
+      "result": "Official ASUS support page lists two OS upgrades, security updates through 2023, and hardware support through 2024."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-888-5g-mobile-platform",
+      "result": "Chipset manufacturer confirms Snapdragon 888 platform, Kryo 680, Adreno 660 and 5 nm node."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-asus-zenfone-8",
+      "result": "Exact global model profile used for identity/configuration cross-check only; no global option promoted to PH inventory."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://www.gsmarena.com/asus_zenfone_8-10893.php",
+      "result": "Exact page returned HTTP 402; no restricted content accessed or bypassed."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://nanoreview.net/",
+      "result": "No exact Zenfone 8 profile located in this pass."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zenfone_8.jpg",
+      "result": "Exact ZS590KS image visually reviewed; CC BY-SA 4.0 attribution and share-alike metadata recorded."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "configuration_id": "device_bfb5e856a9a659-auto-8gb-128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "configuration_match": "ph_zenfone8_zs590ks_8gb_128gb_exact_local_launch_configuration",
+      "amount_php": 34995,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2021-05-14",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+      "source_kind": "historical_ph_launch_price_report",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Philippine launch report lists PHP 34,995 for ASUS Zenfone 8 8 GB / 128 GB; dated May 14, 2021 and not a current offer."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "configuration_id": "device_bfb5e856a9a659-auto-16gb-256gb",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 256,
+      "configuration_match": "ph_zenfone8_zs590ks_16gb_256gb_exact_local_launch_configuration",
+      "amount_php": 39995,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2021-05-14",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+      "source_kind": "historical_ph_launch_price_report",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Philippine launch report lists PHP 39,995 for ASUS Zenfone 8 16 GB / 256 GB; dated May 14, 2021 and not a current offer."
+    }
+  ]
+}

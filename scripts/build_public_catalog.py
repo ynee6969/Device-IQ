@@ -275,9 +275,12 @@ for review in manual_reviews.get("records", []):
         device["variants"] = [{
             **template, "id": item["id"], "label": item["label"],
             "sku": item.get("sku"), "modelCode": item.get("modelCode"),
-            "specs": {}, "specSources": {}, "pricePhp": None,
-            "priceCondition": None, "priceType": None, "priceObservedAt": None,
-            "priceSourceUrl": None, "notes": item.get("notes") or template.get("notes"),
+            "specs": {}, "specSources": {}, "pricePhp": item.get("pricePhp"),
+            "priceCondition": item.get("priceCondition"), "priceType": item.get("priceType"),
+            "priceObservedAt": item.get("priceObservedAt"),
+            "priceSourceUrl": item.get("priceSourceUrl"),
+            "listingStatus": item.get("listingStatus") or template.get("listingStatus"),
+            "notes": item.get("notes") or template.get("notes"),
         } for item in replacement_variants]
     additional_variants = review.get("additionalVariants") or []
     if additional_variants:

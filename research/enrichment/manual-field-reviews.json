@@ -21982,414 +21982,6 @@
       ]
     },
     {
-      "deviceId": "device_bfb5e856a9a659",
-      "configurationId": "device_bfb5e856a9a659-auto-8gb-128gb",
-      "brand": "ASUS",
-      "model": "Zenfone 8",
-      "configurationLabel": "8 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "candidate_6d5855377a61d9",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
-          "publicationDate": "2021-05-14",
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱34,995.00 Official price of 8GB + 128GB variant",
-          "normalizedValue": 8,
-          "note": "RAM/storage pair is explicitly stated in the exact-variant Philippine price row.",
-          "unit": "GB",
-          "catalogKey": "ramGb",
-          "catalogValue": 8
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱34,995.00 Official price of 8GB + 128GB variant",
-          "normalizedValue": 128,
-          "note": "RAM/storage pair is explicitly stated in the exact-variant Philippine price row.",
-          "unit": "GB",
-          "catalogKey": "storageGb",
-          "catalogValue": 128
-        },
-        {
-          "fieldId": "official_launch_price_php",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱34,995.00 Official price of 8GB + 128GB variant",
-          "normalizedValue": 34995,
-          "unit": "PHP",
-          "note": "Exact RAM/storage price pair reported as the Philippine official price by the cited secondary source; historical figure, not a live offer."
-        },
-        {
-          "fieldId": "current_price_php",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱34,995.00 Official price of 8GB + 128GB variant",
-          "normalizedValue": 34995,
-          "unit": "PHP",
-          "note": "Dated price observation from the cited Philippine source; not represented as a live guarantee.",
-          "priceCondition": "new",
-          "priceType": "historical independent Philippine price report; source-date snapshot, not a live offer",
-          "priceObservedAt": "2021-05-14"
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Exact configuration 8 GB RAM / 128 GB storage is stated by the source.",
-          "normalizedValue": "8 GB RAM / 128 GB storage",
-          "note": "Configuration evidence matches RAM and storage as an exact pair."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": 4000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 4000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Bluetooth: Bluetooth 5.2",
-          "normalizedValue": "Bluetooth 5.2",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Charging: 30W Fast Charging (ASUS HyperCharge, 60% in 25 minutes), Quick Charge 4.0, & Power Delivery 3.0 PPS Charging",
-          "normalizedValue": 30,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "W",
-          "catalogKey": "chargingW",
-          "catalogValue": 30
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Chipset: Qualcomm Snapdragon 888",
-          "normalizedValue": "Qualcomm Snapdragon 888",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "Qualcomm Snapdragon 888"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "CPU: Octa Core CPU1x Kryo 680 @ 2.84GHz + 3x Kryo 680 @ 2.42GHz + 4x Kryo 680 @ 1.8GHz",
-          "normalizedValue": "Octa Core CPU1x Kryo 680 @ 2.84GHz + 3x Kryo 680 @ 2.42GHz + 4x Kryo 680 @ 1.8GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU1x Kryo 680 @ 2.84GHz + 3x Kryo 680 @ 2.42GHz + 4x Kryo 680 @ 1.8GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": 5.9,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 5.9
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "GPU: Adreno 660",
-          "normalizedValue": "Adreno 660",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Adreno 660"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "NFC: Yes",
-          "normalizedValue": "Yes",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "OS: Android 11 with ZenUI 8",
-          "normalizedValue": "Android 11 with ZenUI 8",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 11 with ZenUI 8"
-        },
-        {
-          "fieldId": "rear_camera_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Weight: 169 g",
-          "normalizedValue": 169,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 169
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Wi-Fi: Wi-Fi 6E",
-          "normalizedValue": "Wi-Fi 6E",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6E"
-        }
-      ],
-      "replacementVariants": [
-        {
-          "id": "device_bfb5e856a9a659-auto-8gb-128gb",
-          "label": "8 GB RAM / 128 GB storage"
-        },
-        {
-          "id": "device_bfb5e856a9a659-auto-16gb-256gb",
-          "label": "16 GB RAM / 256 GB storage"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_bfb5e856a9a659",
-      "configurationId": "device_bfb5e856a9a659-auto-16gb-256gb",
-      "brand": "ASUS",
-      "model": "Zenfone 8",
-      "configurationLabel": "16 GB RAM / 256 GB storage",
-      "sources": [
-        {
-          "id": "candidate_6d5855377a61d9",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
-          "publicationDate": "2021-05-14",
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱39,995.00 Official price of 16GB + 256GB variant",
-          "normalizedValue": 16,
-          "note": "RAM/storage pair is explicitly stated in the exact-variant Philippine price row.",
-          "unit": "GB",
-          "catalogKey": "ramGb",
-          "catalogValue": 16
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱39,995.00 Official price of 16GB + 256GB variant",
-          "normalizedValue": 256,
-          "note": "RAM/storage pair is explicitly stated in the exact-variant Philippine price row.",
-          "unit": "GB",
-          "catalogKey": "storageGb",
-          "catalogValue": 256
-        },
-        {
-          "fieldId": "official_launch_price_php",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱39,995.00 Official price of 16GB + 256GB variant",
-          "normalizedValue": 39995,
-          "unit": "PHP",
-          "note": "Exact RAM/storage price pair reported as the Philippine official price by the cited secondary source; historical figure, not a live offer."
-        },
-        {
-          "fieldId": "current_price_php",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "₱39,995.00 Official price of 16GB + 256GB variant",
-          "normalizedValue": 39995,
-          "unit": "PHP",
-          "note": "Dated price observation from the cited Philippine source; not represented as a live guarantee.",
-          "priceCondition": "new",
-          "priceType": "historical independent Philippine price report; source-date snapshot, not a live offer",
-          "priceObservedAt": "2021-05-14"
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Exact configuration 16 GB RAM / 256 GB storage is stated by the source.",
-          "normalizedValue": "16 GB RAM / 256 GB storage",
-          "note": "Configuration evidence matches RAM and storage as an exact pair."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": 4000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 4000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Bluetooth: Bluetooth 5.2",
-          "normalizedValue": "Bluetooth 5.2",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Charging: 30W Fast Charging (ASUS HyperCharge, 60% in 25 minutes), Quick Charge 4.0, & Power Delivery 3.0 PPS Charging",
-          "normalizedValue": 30,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "W",
-          "catalogKey": "chargingW",
-          "catalogValue": 30
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Chipset: Qualcomm Snapdragon 888",
-          "normalizedValue": "Qualcomm Snapdragon 888",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "Qualcomm Snapdragon 888"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "CPU: Octa Core CPU1x Kryo 680 @ 2.84GHz + 3x Kryo 680 @ 2.42GHz + 4x Kryo 680 @ 1.8GHz",
-          "normalizedValue": "Octa Core CPU1x Kryo 680 @ 2.84GHz + 3x Kryo 680 @ 2.42GHz + 4x Kryo 680 @ 1.8GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU1x Kryo 680 @ 2.84GHz + 3x Kryo 680 @ 2.42GHz + 4x Kryo 680 @ 1.8GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": 5.9,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 5.9
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "GPU: Adreno 660",
-          "normalizedValue": "Adreno 660",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Adreno 660"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "NFC: Yes",
-          "normalizedValue": "Yes",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "OS: Android 11 with ZenUI 8",
-          "normalizedValue": "Android 11 with ZenUI 8",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 11 with ZenUI 8"
-        },
-        {
-          "fieldId": "rear_camera_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Weight: 169 g",
-          "normalizedValue": 169,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 169
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Wi-Fi: Wi-Fi 6E",
-          "normalizedValue": "Wi-Fi 6E",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6E"
-        }
-      ]
-    },
-    {
       "deviceId": "device_5695810422dccc",
       "configurationId": "device_5695810422dccc-auto-8gb-128gb",
       "brand": "Cherry Mobile",
@@ -47158,334 +46750,6 @@
           "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
           "catalogKey": "wifi",
           "catalogValue": "Wi-Fi 802.11 b/g/n/ac/6e"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_bfb5e856a9a659",
-      "configurationId": "device_bfb5e856a9a659-auto-8gb-128gb",
-      "brand": "ASUS",
-      "model": "Zenfone 8",
-      "configurationLabel": "8 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "candidate_6d5855377a61d9",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
-          "publicationDate": "2021-05-14",
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Sound: Hi-Res Audio with Dirac HD and Dual Stereo Speakers3.5mm Audio Jack",
-          "normalizedValue": "Hi-Res Audio with Dirac HD and Dual Stereo Speakers3.5mm Audio Jack",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "Hi-Res Audio with Dirac HD and Dual Stereo Speakers3.5mm Audio Jack"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": "Li-Po Battery (Non-removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Cellular: 5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "Corning Gorilla Glass Victus",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "Super AMOLED",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "Super AMOLED"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Front Camera: 12 Megapixels (Sony IMX663, f/2.5 Aperture, Dual PD Autofocus)",
-          "normalizedValue": 12,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 12
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Location: GPS (dual band), GLONASS, GALILEO, BeiDou, QZSS, & NavIC",
-          "normalizedValue": "GPS (dual band), GLONASS, GALILEO, BeiDou, QZSS, & NavIC",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ingress_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Durability: IP68 Water & Dust Resistance",
-          "normalizedValue": "IP68 Water & Dust Resistance",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Build Materials: Gorilla Glass Victus Front and Gorilla Glass 3 Back with Aluminum Frame",
-          "normalizedValue": "Gorilla Glass Victus Front and Gorilla Glass 3 Back with Aluminum Frame",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "120",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "Hz",
-          "catalogKey": "refreshHz",
-          "catalogValue": "120"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "1080 x 2400",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2400"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Sensors: Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Expansion: None",
-          "normalizedValue": "None",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ultrawide_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "video",
-          "catalogValue": "Up to 8K@24fps Video Recording"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_bfb5e856a9a659",
-      "configurationId": "device_bfb5e856a9a659-auto-16gb-256gb",
-      "brand": "ASUS",
-      "model": "Zenfone 8",
-      "configurationLabel": "16 GB RAM / 256 GB storage",
-      "sources": [
-        {
-          "id": "candidate_6d5855377a61d9",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
-          "publicationDate": "2021-05-14",
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Sound: Hi-Res Audio with Dirac HD and Dual Stereo Speakers3.5mm Audio Jack",
-          "normalizedValue": "Hi-Res Audio with Dirac HD and Dual Stereo Speakers3.5mm Audio Jack",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "Hi-Res Audio with Dirac HD and Dual Stereo Speakers3.5mm Audio Jack"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Battery: 4000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": "Li-Po Battery (Non-removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Cellular: 5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "5G, 4G LTE (with VoLTE), 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "Corning Gorilla Glass Victus",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "Super AMOLED",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "Super AMOLED"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Front Camera: 12 Megapixels (Sony IMX663, f/2.5 Aperture, Dual PD Autofocus)",
-          "normalizedValue": 12,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 12
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Location: GPS (dual band), GLONASS, GALILEO, BeiDou, QZSS, & NavIC",
-          "normalizedValue": "GPS (dual band), GLONASS, GALILEO, BeiDou, QZSS, & NavIC",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ingress_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Durability: IP68 Water & Dust Resistance",
-          "normalizedValue": "IP68 Water & Dust Resistance",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Build Materials: Gorilla Glass Victus Front and Gorilla Glass 3 Back with Aluminum Frame",
-          "normalizedValue": "Gorilla Glass Victus Front and Gorilla Glass 3 Back with Aluminum Frame",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "120",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "Hz",
-          "catalogKey": "refreshHz",
-          "catalogValue": "120"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Display: 5.9-inch FHD+ Super AMOLED Display (1080 x 2400 Pixels 446 ppi) with Corning Gorilla Glass Victus, 20:9 Aspect Ratio, 120Hz Refresh Rate, HDR10+, & Punch-hole",
-          "normalizedValue": "1080 x 2400",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2400"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Sensors: Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Expansion: None",
-          "normalizedValue": "None",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ultrawide_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_6d5855377a61d9",
-          "sourceValue": "Rear Camera: Dual Cameras: 64MP Main Camera (Sony IMX686, f/1.8 Aperture, PD Autofocus, OIS)12MP Ultra-wide (Sony IMX363, f/2.2 Aperture, 112˚ FoV)-LED Flash -Up to 8K@24fps Video Recording",
-          "normalizedValue": "Up to 8K@24fps Video Recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "video",
-          "catalogValue": "Up to 8K@24fps Video Recording"
         }
       ]
     },
@@ -213659,6 +212923,1420 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_bfb5e856a9a659",
+      "configurationId": "device_bfb5e856a9a659-auto-8gb-128gb",
+      "brand": "ASUS",
+      "model": "Zenfone 8",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "candidate_6d5855377a61d9",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+          "publicationDate": "2021-05-14",
+          "accessDate": "2026-11-25",
+          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
+          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+        },
+        {
+          "id": "asus_zenfone8_global_specs",
+          "publisher": "ASUS",
+          "url": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-8/techspec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer technical specifications for Zenfone 8",
+          "note": "The ASUS global specifications identify the Zenfone 8 and publish its display, Snapdragon 888, LPDDR5 and UFS 3.1 options, camera modules, battery, dimensions, weight, audio and connectivity. ASUS warns that Wi-Fi 6E and cellular-band compatibility vary by region; global bands are not assigned to the Philippine configurations."
+        },
+        {
+          "id": "asus_zenfone8_ph_ptg",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+          "publicationDate": "2021-05-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model Philippine launch, configuration, launch price and local specification report",
+          "note": "Dated 2021-05-14. Reports ASUS stores, authorized dealers and online availability; separately identifies 8 GB/128 GB at PHP 34,995 and 16 GB/256 GB at PHP 39,995. The page is a historical launch report and supplies no current price."
+        },
+        {
+          "id": "asus_zenfone8_ph_launch",
+          "publisher": "2nd Opinion (ASUS Philippines launch information)",
+          "url": "https://2ndopinion.ph/asus-zenfone-returns-to-ph-shores-pre-orders-begin-may-14/",
+          "publicationDate": "2021-05-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine preorder date, local configuration/price table and launch specifications",
+          "note": "Published 2021-05-15 and reports ASUS Philippines preorders began May 14 at ASUS Concept Stores and accredited online/offline shops. Its product table separately lists 16/256 at PHP 39,995 and 8/128 at PHP 34,995, with May 2021 ETA and May 14–25 preorder window. It establishes reported preorder availability, not an exact first retail transaction."
+        },
+        {
+          "id": "asus_zenfone8_ph_technobaboy",
+          "publisher": "Technobaboy Philippines",
+          "url": "https://www.technobaboy.com/2021/05/14/asus-zenfone-8-5g-zenfone-8-flip-pre-order-price-philippines/",
+          "publicationDate": "2021-05-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine preorder, configuration and price cross-check",
+          "note": "Published 2021-05-14. Reports local preorder from that date and the same two Zenfone 8 configurations and launch prices. It calls local Wi-Fi 6, while PTG lists Wi-Fi 6E; the local standard remains unresolved."
+        },
+        {
+          "id": "asus_zenfone8_model_code",
+          "publisher": "ASUS ROG Support",
+          "url": "https://rog.asus.com/us/support/faq/1014441/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-name and model-number lookup",
+          "note": "ASUS support maps Zenfone 8 to marketing model I006D and model number ZS590KS. This does not identify a local color-specific or retail SKU."
+        },
+        {
+          "id": "asus_zenfone8_support_policy",
+          "publisher": "ROG Philippines / ASUS Support",
+          "url": "https://rog.asus.com/ph/support/faq/1056885/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer-published hardware and software support policy",
+          "note": "ASUS lists Zenfone 8 hardware support through 2024, two OS upgrades, and security updates through 2023. This is the published support commitment, not a claim that every regional firmware received an update on the same date."
+        },
+        {
+          "id": "qualcomm_snapdragon888",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-888-5g-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chipset manufacturer specifications",
+          "note": "Qualcomm identifies Snapdragon 888, Kryo 680 CPU, Adreno 660 GPU and the 5 nm process node. Device-specific frequencies and radio bands are taken only from device/regional sources."
+        },
+        {
+          "id": "asus_zenfone8_global_launch",
+          "publisher": "ASUS (verified YouTube channel)",
+          "url": "https://www.youtube.com/watch?v=OP7S32a4ohw",
+          "publicationDate": "2021-05-12",
+          "accessDate": "2026-11-27",
+          "purpose": "Official global product announcement date",
+          "note": "ASUS published its Zenfone 8 introduction on 2021-05-12. This is the manufacturer announcement date, not the Philippine preorder date."
+        },
+        {
+          "id": "asus_zenfone8_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-asus-zenfone-8",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary exact-model identity and global configuration cross-check",
+          "note": "The exact Zenfone 8 profile includes global memory/storage options. It is not used as Philippine availability or price evidence; configurations not documented in local launch sources are not added."
+        },
+        {
+          "id": "asus_zenfone8_gsmarena_access",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/asus_zenfone_8-10893.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model source discovery and access result",
+          "note": "The exact Zenfone 8 page was queried, but its full page returned HTTP 402 during this review. No blocked content was bypassed and no field value is attributed to that page."
+        },
+        {
+          "id": "asus_zenfone8_nanoreview_search",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model source discovery",
+          "note": "The site was searched for an exact Zenfone 8 profile; no exact-model profile was located in this pass. No NanoReview value is inferred."
+        },
+        {
+          "id": "asus_zenfone8_commons_image",
+          "publisher": "Wikimedia Commons / ROC-C.Z",
+          "url": "https://commons.wikimedia.org/wiki/File:Zenfone_8.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model image identity and reuse license",
+          "note": "The file caption and description identify ASUS Zenfone 8 / ZS590KS. The Commons file page attributes the image to ROC-C.Z and declares CC BY-SA 4.0. The photo is a model-level front view; it does not distinguish RAM/storage or color variants. Catalog delivery converts/resizes the image without subject edits."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "8 GB LPDDR5 RAM for the Philippine 8 GB RAM / 128 GB storage listing",
+          "normalizedValue": 8,
+          "note": "This exact local configuration is separated from the Zenfone 8's other RAM/storage option.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "128 GB internal storage for the Philippine 8 GB RAM / 128 GB storage listing",
+          "normalizedValue": 128,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "PHP 34,995 official price for 8 GB RAM / 128 GB storage on the 2021-05-14 Philippine listing.",
+          "normalizedValue": 34995,
+          "note": "Historical Philippine launch SRP for the locally documented 8 GB RAM / 128 GB storage configuration. This is the May 2021 launch price, not a current offer.",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_srp",
+          "priceObservedAt": "2021-05-14",
+          "priceCondition": "new",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "No dated current Philippine offer for this exact configuration was found as of 2026-11-27. PTG's exact-model page records 2021 launch SRPs only; the launch price is not reused as a current price.",
+          "normalizedValue": null,
+          "note": "No dated current Philippine offer for this exact configuration was found as of 2026-11-27. PTG's exact-model page records 2021 launch SRPs only; the launch price is not reused as a current price.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "ASUS Philippines preorder coverage lists Zenfone 8 8 GB RAM / 128 GB storage; no numeric color-specific SKU is stated.",
+          "normalizedValue": "8 GB RAM / 128 GB storage; local SKU not recorded",
+          "note": "Exact Philippine launch configuration documented in the local preorder table. The other locally documented configuration remains a separate record.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "4000 mAh battery",
+          "normalizedValue": 4000,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4000,
+          "unit": "mAh",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "30 W wired charging",
+          "normalizedValue": 30,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "chargingW",
+          "catalogValue": 30,
+          "unit": "W",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Qualcomm Snapdragon 888 5G Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 888",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 888",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "qualcomm_snapdragon888",
+          "sourceValue": "Qualcomm Kryo 680, octa-core; device clock configuration 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz per local exact-model specification.",
+          "normalizedValue": "Octa-core Kryo 680: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz",
+          "note": "Qualcomm confirms the Kryo 680 CPU family; PTG publishes the exact Zenfone 8 cluster clocks.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Kryo 680: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "5.9-inch display",
+          "normalizedValue": 5.9,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "displayInches",
+          "catalogValue": 5.9,
+          "unit": "in",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Qualcomm Adreno 660",
+          "normalizedValue": "Adreno 660",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 660",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "NFC supported",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Android 11 with ZenUI 8",
+          "normalizedValue": "Android 11 with ZenUI 8",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 with ZenUI 8",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Dual rear cameras: 64 MP main and 12 MP ultrawide.",
+          "normalizedValue": "64 MP main + 12 MP ultrawide dual rear-camera system",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Two nano-SIM slots; eSIM capability not stated.",
+          "normalizedValue": "Dual nano-SIM; eSIM not recorded",
+          "note": "ASUS lists two physical nano-SIM slots. eSIM is left unrecorded because the source does not document it.",
+          "catalogKey": "sim",
+          "catalogValue": "Dual nano-SIM; eSIM not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "169 g",
+          "normalizedValue": 169,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "weightG",
+          "catalogValue": 169,
+          "unit": "g",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wifi",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Philippine sources disagree: PTG lists Wi-Fi 6E while Technobaboy lists Wi-Fi 6; ASUS says 6E availability depends on regional limits.",
+          "normalizedValue": null,
+          "note": "Exact Philippine Wi-Fi mode remains unresolved. Candidate values are retained; no single Wi-Fi standard is shown for either local configuration.",
+          "catalogKey": "wifi",
+          "catalogValue": null,
+          "replaceExisting": true,
+          "candidateEvidence": [
+            {
+              "value": "Wi-Fi 6E",
+              "sourceUrl": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+              "sourceKind": "independent_ph_launch_source",
+              "observedAt": "2026-11-27",
+              "excerpt": "PTG's Zenfone 8 specification table lists Wi-Fi 6E.",
+              "configurationMatch": "Philippine Zenfone 8 launch page; both local configurations share the model-level specification",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Wi-Fi 6",
+              "sourceUrl": "https://www.technobaboy.com/2021/05/14/asus-zenfone-8-5g-zenfone-8-flip-pre-order-price-philippines/",
+              "sourceKind": "independent_ph_launch_source",
+              "observedAt": "2026-11-27",
+              "excerpt": "Technobaboy's Philippine preorder report lists Wi-Fi 6.",
+              "configurationMatch": "Philippine Zenfone 8 launch report; does not identify a different Wi-Fi hardware revision",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Integrated Wi-Fi 6/6E; availability/features depend on regulatory limitations",
+              "sourceUrl": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-8/techspec/",
+              "sourceKind": "manufacturer_global_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "ASUS lists Wi-Fi 6/6E and says Wi-Fi 6E availability/features depend on regional limits.",
+              "configurationMatch": "global model-level spec; Philippine mode not isolated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_model_code",
+          "sourceValue": "ASUS maps Zenfone 8 to I006D / ZS590KS; no Philippine retail SKU is stated.",
+          "normalizedValue": "ZS590KS; Philippine retail SKU not recorded",
+          "note": "The ASUS support lookup identifies the exact model number. Do not infer a local SKU or regional band set.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_launch",
+          "sourceValue": "ASUS published its Zenfone 8 introduction on 2021-05-12.",
+          "normalizedValue": "2021-05-12",
+          "note": "Manufacturer global announcement date; distinct from Philippine preorder timing.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "ASUS Philippines preorder period began 2021-05-14; local sources do not establish the first completed retail sale.",
+          "normalizedValue": "2021-05-14",
+          "note": "Reported Philippine preorder start date, not an exact first-sale date.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Samsung AMOLED display",
+          "normalizedValue": "Samsung AMOLED",
+          "note": "ASUS calls the panel Samsung AMOLED; PTG uses the marketing label Super AMOLED.",
+          "catalogKey": "displayType",
+          "catalogValue": "Samsung AMOLED",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "2400 x 1080 pixels (ASUS lists vertical x horizontal)",
+          "normalizedValue": "1080 x 2400",
+          "note": "Stored in conventional width x height order; ASUS source prints the panel dimensions as 2400 x 1080.",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "ASUS lists 1100 nits peak; local launch coverage lists 1000 nits without a matching measurement label.",
+          "normalizedValue": null,
+          "note": "The global manufacturer page reports 1100 nits peak while Philippine launch coverage reports 1000 nits. The source excerpts do not establish comparable measurement conditions, so no brightness value is selected.",
+          "replaceExisting": true,
+          "candidateEvidence": [
+            {
+              "value": "1100 nits peak",
+              "sourceUrl": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-8/techspec/",
+              "sourceKind": "manufacturer_global_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "ASUS lists 1100 nits peak brightness.",
+              "configurationMatch": "exact Zenfone 8 global model specification",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "1000 nits",
+              "sourceUrl": "https://2ndopinion.ph/asus-zenfone-returns-to-ph-shores-pre-orders-begin-may-14/",
+              "sourceKind": "independent_ph_launch_source",
+              "observedAt": "2026-11-27",
+              "excerpt": "Local launch report describes a 1000-nit Zenfone 8 display.",
+              "configurationMatch": "Philippine Zenfone 8; exact configuration not differentiated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Corning Gorilla Glass Victus",
+          "normalizedValue": "Corning Gorilla Glass Victus",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon888",
+          "sourceValue": "5 nm process node",
+          "normalizedValue": 5,
+          "note": "Chipset manufacturer product comparison identifies Snapdragon 888 at 5 nm; this is a SoC fabrication process claim.",
+          "unit": "nm",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_support_policy",
+          "sourceValue": "ASUS lists two OS upgrades and security updates through 2023; hardware support through 2024.",
+          "normalizedValue": "Two OS upgrades; security updates through 2023; hardware support through 2024",
+          "note": "Manufacturer-published support policy; the field records the commitment and does not imply continued current updates.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "LPDDR5",
+          "normalizedValue": "LPDDR5",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR5",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "No expandable storage listed; PTG says expansion: none.",
+          "normalizedValue": "No microSD storage expansion",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Sony IMX686 64 MP main sensor; f/1.8; 26.6 mm equivalent; phase-detection autofocus; optical image stabilization.",
+          "normalizedValue": "64 MP Sony IMX686; f/1.8; PDAF; OIS",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "12 MP Sony IMX363 ultrawide; f/2.2; 14.3 mm equivalent; supports 4 cm macro.",
+          "normalizedValue": "12 MP Sony IMX363 ultrawide; f/2.2; 4 cm macro",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Manufacturer specifies a fixed dual rear-camera system consisting of main and ultrawide cameras; no telephoto module is part of this model.",
+          "normalizedValue": null,
+          "note": "ASUS specifies two fixed rear cameras and identifies both as main and ultrawide. Do not confuse this model with Zenfone 8 Flip.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "12 MP Sony IMX663 punch-hole front camera with dual-pixel autofocus.",
+          "normalizedValue": 12,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Main camera up to 8K UHD at 24 fps; secondary camera 4K UHD at 30/60 fps; 1080p at 30/60 fps; additional motion tracking and slow-motion modes.",
+          "normalizedValue": "Main: 8K/24 fps; secondary: 4K/30 or 60 fps; 1080p/30 or 60 fps; other modes listed by ASUS",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Li-Po battery; non-removable",
+          "normalizedValue": "Lithium-polymer; non-removable",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "The reviewed ASUS specification and Philippine launch sources do not state wireless or reverse wireless charging support; no unsupported absence claim is made.",
+          "normalizedValue": null,
+          "note": "The reviewed ASUS specification and Philippine launch sources do not state wireless or reverse wireless charging support; no unsupported absence claim is made.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "148 x 68.5 x 8.9 mm",
+          "normalizedValue": "148 x 68.5 x 8.9 mm",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "dimensions",
+          "catalogValue": "148 x 68.5 x 8.9 mm",
+          "unit": "mm",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Gorilla Glass Victus front, Gorilla Glass 3 back and aluminum frame.",
+          "normalizedValue": "Gorilla Glass Victus front; Gorilla Glass 3 back; aluminum frame",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "IP68 water and dust resistance",
+          "normalizedValue": "IP68",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "5G, 4G LTE with VoLTE, 3G HSPA+, 2G EDGE/GPRS; exact Philippine frequency bands are not stated.",
+          "normalizedValue": "5G; 4G LTE/VoLTE; 3G HSPA+; 2G EDGE/GPRS; exact PH bands not recorded",
+          "note": "Local launch specifications support these network generations. ASUS says frequency bands vary by region; exact PH band compatibility is not inferred from a global variant.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; 4G LTE/VoLTE; 3G HSPA+; 2G EDGE/GPRS; exact PH bands not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "USB Type-C connector; exact USB data-generation/speed is not stated in the reviewed local source.",
+          "normalizedValue": "USB Type-C; data standard not recorded",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data standard not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "GPS L1/L5, GLONASS, BeiDou, Galileo, QZSS and NavIC",
+          "normalizedValue": "GPS dual-band; GLONASS; BeiDou; Galileo; QZSS; NavIC",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Dual stereo speakers with Dirac HD Sound; Hi-Res Audio via 3.5 mm output.",
+          "normalizedValue": "Dual stereo speakers with Dirac HD; Hi-Res 3.5 mm audio output",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "sound",
+          "catalogValue": "Dual stereo speakers with Dirac HD; Hi-Res 3.5 mm audio output",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Gyroscope, compass, ambient light sensor, proximity sensor and accelerometer.",
+          "normalizedValue": "Gyroscope; compass; ambient-light sensor; proximity sensor; accelerometer",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_bfb5e856a9a659-auto-8gb-128gb",
+          "label": "8 GB RAM / 128 GB storage",
+          "sku": null,
+          "modelCode": "ZS590KS",
+          "pricePhp": 34995,
+          "priceCondition": "new",
+          "priceType": "Historical Philippine launch SRP",
+          "priceObservedAt": "2021-05-14",
+          "priceSourceUrl": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+          "listingStatus": "Not verified",
+          "notes": "Historical launch SRP observed 2021-05-14; not a current offer. Philippine retail SKU not recorded."
+        },
+        {
+          "id": "device_bfb5e856a9a659-auto-16gb-256gb",
+          "label": "16 GB RAM / 256 GB storage",
+          "sku": null,
+          "modelCode": "ZS590KS",
+          "pricePhp": 39995,
+          "priceCondition": "new",
+          "priceType": "Historical Philippine launch SRP",
+          "priceObservedAt": "2021-05-14",
+          "priceSourceUrl": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+          "listingStatus": "Not verified",
+          "notes": "Historical launch SRP observed 2021-05-14; not a current offer. Philippine retail SKU not recorded."
+        }
+      ],
+      "modelCode": "ZS590KS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Reported Philippine preorder availability from 2021-05-14 through the local ASUS launch channel; historical local configuration and SRP are documented. Current stock and price are not verified.",
+        "philippineAvailability": "ASUS Philippines launch coverage identifies the Zenfone 8 8 GB RAM / 128 GB storage for preorder through ASUS Concept Stores and accredited online/offline shops from 2021-05-14. Local sources distinguish it from Zenfone 8 Flip. This establishes reported preorder availability, not an exact first completed retail sale or current stock.",
+        "observedAt": "2026-11-27",
+        "manufacturer": "ASUSTeK Computer Inc.",
+        "productLine": "Zenfone",
+        "modelNumber": "ZS590KS",
+        "catalogModel": "Zenfone 8",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Reported Philippine preorder start date",
+        "researchNotes": "Exact ASUS Zenfone 8 (ZS590KS) match. Only the two configurations identified in Philippine launch sources (8/128 and 16/256) are retained as separate records. The 8/256 global option shown by some global databases is not added as a local variant. Historical launch SRPs are not current prices. Regional Wi-Fi mode, exact PH frequency bands, and retail SKU remain unresolved. Workbook study scope remains Pending.",
+        "qualityFlag": "Exact model, two local configurations, launch dates and historical SRPs manually reviewed; current price, exact regional SKU/bands and Wi-Fi mode unresolved; study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "No current price or stock observation for either exact configuration",
+            "action": "Keep current price blank and preserve the May 2021 SRP as a dated historical launch price."
+          },
+          {
+            "issue": "Philippine sources disagree on Wi-Fi 6 versus Wi-Fi 6E",
+            "action": "Keep the Wi-Fi field unresolved and retain both cited candidates."
+          },
+          {
+            "issue": "The manufacturer lists region-specific cellular bands but the local launch sources do not identify the exact PH band set",
+            "action": "Show network generations only; do not claim specific Philippine frequency-band compatibility."
+          },
+          {
+            "issue": "No exact local retail SKU is documented",
+            "action": "Keep SKU blank; retain ASUS model number ZS590KS."
+          },
+          {
+            "issue": "Workbook scope status is Pending",
+            "action": "Do not change study eligibility as a side effect of technical enrichment."
+          }
+        ]
+      },
+      "configuration": "8 GB RAM / 128 GB storage",
+      "sku": null
+    },
+    {
+      "deviceId": "device_bfb5e856a9a659",
+      "configurationId": "device_bfb5e856a9a659-auto-16gb-256gb",
+      "brand": "ASUS",
+      "model": "Zenfone 8",
+      "configurationLabel": "16 GB RAM / 256 GB storage",
+      "sources": [
+        {
+          "id": "candidate_6d5855377a61d9",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+          "publicationDate": "2021-05-14",
+          "accessDate": "2026-11-25",
+          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
+          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+        },
+        {
+          "id": "asus_zenfone8_global_specs",
+          "publisher": "ASUS",
+          "url": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-8/techspec/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer technical specifications for Zenfone 8",
+          "note": "The ASUS global specifications identify the Zenfone 8 and publish its display, Snapdragon 888, LPDDR5 and UFS 3.1 options, camera modules, battery, dimensions, weight, audio and connectivity. ASUS warns that Wi-Fi 6E and cellular-band compatibility vary by region; global bands are not assigned to the Philippine configurations."
+        },
+        {
+          "id": "asus_zenfone8_ph_ptg",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+          "publicationDate": "2021-05-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model Philippine launch, configuration, launch price and local specification report",
+          "note": "Dated 2021-05-14. Reports ASUS stores, authorized dealers and online availability; separately identifies 8 GB/128 GB at PHP 34,995 and 16 GB/256 GB at PHP 39,995. The page is a historical launch report and supplies no current price."
+        },
+        {
+          "id": "asus_zenfone8_ph_launch",
+          "publisher": "2nd Opinion (ASUS Philippines launch information)",
+          "url": "https://2ndopinion.ph/asus-zenfone-returns-to-ph-shores-pre-orders-begin-may-14/",
+          "publicationDate": "2021-05-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine preorder date, local configuration/price table and launch specifications",
+          "note": "Published 2021-05-15 and reports ASUS Philippines preorders began May 14 at ASUS Concept Stores and accredited online/offline shops. Its product table separately lists 16/256 at PHP 39,995 and 8/128 at PHP 34,995, with May 2021 ETA and May 14–25 preorder window. It establishes reported preorder availability, not an exact first retail transaction."
+        },
+        {
+          "id": "asus_zenfone8_ph_technobaboy",
+          "publisher": "Technobaboy Philippines",
+          "url": "https://www.technobaboy.com/2021/05/14/asus-zenfone-8-5g-zenfone-8-flip-pre-order-price-philippines/",
+          "publicationDate": "2021-05-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine preorder, configuration and price cross-check",
+          "note": "Published 2021-05-14. Reports local preorder from that date and the same two Zenfone 8 configurations and launch prices. It calls local Wi-Fi 6, while PTG lists Wi-Fi 6E; the local standard remains unresolved."
+        },
+        {
+          "id": "asus_zenfone8_model_code",
+          "publisher": "ASUS ROG Support",
+          "url": "https://rog.asus.com/us/support/faq/1014441/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-name and model-number lookup",
+          "note": "ASUS support maps Zenfone 8 to marketing model I006D and model number ZS590KS. This does not identify a local color-specific or retail SKU."
+        },
+        {
+          "id": "asus_zenfone8_support_policy",
+          "publisher": "ROG Philippines / ASUS Support",
+          "url": "https://rog.asus.com/ph/support/faq/1056885/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer-published hardware and software support policy",
+          "note": "ASUS lists Zenfone 8 hardware support through 2024, two OS upgrades, and security updates through 2023. This is the published support commitment, not a claim that every regional firmware received an update on the same date."
+        },
+        {
+          "id": "qualcomm_snapdragon888",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-888-5g-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chipset manufacturer specifications",
+          "note": "Qualcomm identifies Snapdragon 888, Kryo 680 CPU, Adreno 660 GPU and the 5 nm process node. Device-specific frequencies and radio bands are taken only from device/regional sources."
+        },
+        {
+          "id": "asus_zenfone8_global_launch",
+          "publisher": "ASUS (verified YouTube channel)",
+          "url": "https://www.youtube.com/watch?v=OP7S32a4ohw",
+          "publicationDate": "2021-05-12",
+          "accessDate": "2026-11-27",
+          "purpose": "Official global product announcement date",
+          "note": "ASUS published its Zenfone 8 introduction on 2021-05-12. This is the manufacturer announcement date, not the Philippine preorder date."
+        },
+        {
+          "id": "asus_zenfone8_kimovil",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-asus-zenfone-8",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary exact-model identity and global configuration cross-check",
+          "note": "The exact Zenfone 8 profile includes global memory/storage options. It is not used as Philippine availability or price evidence; configurations not documented in local launch sources are not added."
+        },
+        {
+          "id": "asus_zenfone8_gsmarena_access",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/asus_zenfone_8-10893.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model source discovery and access result",
+          "note": "The exact Zenfone 8 page was queried, but its full page returned HTTP 402 during this review. No blocked content was bypassed and no field value is attributed to that page."
+        },
+        {
+          "id": "asus_zenfone8_nanoreview_search",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model source discovery",
+          "note": "The site was searched for an exact Zenfone 8 profile; no exact-model profile was located in this pass. No NanoReview value is inferred."
+        },
+        {
+          "id": "asus_zenfone8_commons_image",
+          "publisher": "Wikimedia Commons / ROC-C.Z",
+          "url": "https://commons.wikimedia.org/wiki/File:Zenfone_8.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model image identity and reuse license",
+          "note": "The file caption and description identify ASUS Zenfone 8 / ZS590KS. The Commons file page attributes the image to ROC-C.Z and declares CC BY-SA 4.0. The photo is a model-level front view; it does not distinguish RAM/storage or color variants. Catalog delivery converts/resizes the image without subject edits."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "16 GB LPDDR5 RAM for the Philippine 16 GB RAM / 256 GB storage listing",
+          "normalizedValue": 16,
+          "note": "This exact local configuration is separated from the Zenfone 8's other RAM/storage option.",
+          "catalogKey": "ramGb",
+          "catalogValue": 16,
+          "unit": "GB",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "256 GB internal storage for the Philippine 16 GB RAM / 256 GB storage listing",
+          "normalizedValue": 256,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "PHP 39,995 official price for 16 GB RAM / 256 GB storage on the 2021-05-14 Philippine listing.",
+          "normalizedValue": 39995,
+          "note": "Historical Philippine launch SRP for the locally documented 16 GB RAM / 256 GB storage configuration. This is the May 2021 launch price, not a current offer.",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_srp",
+          "priceObservedAt": "2021-05-14",
+          "priceCondition": "new",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "No dated current Philippine offer for this exact configuration was found as of 2026-11-27. PTG's exact-model page records 2021 launch SRPs only; the launch price is not reused as a current price.",
+          "normalizedValue": null,
+          "note": "No dated current Philippine offer for this exact configuration was found as of 2026-11-27. PTG's exact-model page records 2021 launch SRPs only; the launch price is not reused as a current price.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "ASUS Philippines preorder coverage lists Zenfone 8 16 GB RAM / 256 GB storage; no numeric color-specific SKU is stated.",
+          "normalizedValue": "16 GB RAM / 256 GB storage; local SKU not recorded",
+          "note": "Exact Philippine launch configuration documented in the local preorder table. The other locally documented configuration remains a separate record.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "4000 mAh battery",
+          "normalizedValue": 4000,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4000,
+          "unit": "mAh",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Bluetooth 5.2",
+          "normalizedValue": "Bluetooth 5.2",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "30 W wired charging",
+          "normalizedValue": 30,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "chargingW",
+          "catalogValue": 30,
+          "unit": "W",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Qualcomm Snapdragon 888 5G Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 888",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 888",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "qualcomm_snapdragon888",
+          "sourceValue": "Qualcomm Kryo 680, octa-core; device clock configuration 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz per local exact-model specification.",
+          "normalizedValue": "Octa-core Kryo 680: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz",
+          "note": "Qualcomm confirms the Kryo 680 CPU family; PTG publishes the exact Zenfone 8 cluster clocks.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core Kryo 680: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "5.9-inch display",
+          "normalizedValue": 5.9,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "displayInches",
+          "catalogValue": 5.9,
+          "unit": "in",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Qualcomm Adreno 660",
+          "normalizedValue": "Adreno 660",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 660",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "NFC supported",
+          "normalizedValue": "NFC supported",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Android 11 with ZenUI 8",
+          "normalizedValue": "Android 11 with ZenUI 8",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "os",
+          "catalogValue": "Android 11 with ZenUI 8",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Dual rear cameras: 64 MP main and 12 MP ultrawide.",
+          "normalizedValue": "64 MP main + 12 MP ultrawide dual rear-camera system",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Two nano-SIM slots; eSIM capability not stated.",
+          "normalizedValue": "Dual nano-SIM; eSIM not recorded",
+          "note": "ASUS lists two physical nano-SIM slots. eSIM is left unrecorded because the source does not document it.",
+          "catalogKey": "sim",
+          "catalogValue": "Dual nano-SIM; eSIM not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "169 g",
+          "normalizedValue": 169,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "weightG",
+          "catalogValue": 169,
+          "unit": "g",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wifi",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Philippine sources disagree: PTG lists Wi-Fi 6E while Technobaboy lists Wi-Fi 6; ASUS says 6E availability depends on regional limits.",
+          "normalizedValue": null,
+          "note": "Exact Philippine Wi-Fi mode remains unresolved. Candidate values are retained; no single Wi-Fi standard is shown for either local configuration.",
+          "catalogKey": "wifi",
+          "catalogValue": null,
+          "replaceExisting": true,
+          "candidateEvidence": [
+            {
+              "value": "Wi-Fi 6E",
+              "sourceUrl": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+              "sourceKind": "independent_ph_launch_source",
+              "observedAt": "2026-11-27",
+              "excerpt": "PTG's Zenfone 8 specification table lists Wi-Fi 6E.",
+              "configurationMatch": "Philippine Zenfone 8 launch page; both local configurations share the model-level specification",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Wi-Fi 6",
+              "sourceUrl": "https://www.technobaboy.com/2021/05/14/asus-zenfone-8-5g-zenfone-8-flip-pre-order-price-philippines/",
+              "sourceKind": "independent_ph_launch_source",
+              "observedAt": "2026-11-27",
+              "excerpt": "Technobaboy's Philippine preorder report lists Wi-Fi 6.",
+              "configurationMatch": "Philippine Zenfone 8 launch report; does not identify a different Wi-Fi hardware revision",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Integrated Wi-Fi 6/6E; availability/features depend on regulatory limitations",
+              "sourceUrl": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-8/techspec/",
+              "sourceKind": "manufacturer_global_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "ASUS lists Wi-Fi 6/6E and says Wi-Fi 6E availability/features depend on regional limits.",
+              "configurationMatch": "global model-level spec; Philippine mode not isolated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_model_code",
+          "sourceValue": "ASUS maps Zenfone 8 to I006D / ZS590KS; no Philippine retail SKU is stated.",
+          "normalizedValue": "ZS590KS; Philippine retail SKU not recorded",
+          "note": "The ASUS support lookup identifies the exact model number. Do not infer a local SKU or regional band set.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_launch",
+          "sourceValue": "ASUS published its Zenfone 8 introduction on 2021-05-12.",
+          "normalizedValue": "2021-05-12",
+          "note": "Manufacturer global announcement date; distinct from Philippine preorder timing.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "ASUS Philippines preorder period began 2021-05-14; local sources do not establish the first completed retail sale.",
+          "normalizedValue": "2021-05-14",
+          "note": "Reported Philippine preorder start date, not an exact first-sale date.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Samsung AMOLED display",
+          "normalizedValue": "Samsung AMOLED",
+          "note": "ASUS calls the panel Samsung AMOLED; PTG uses the marketing label Super AMOLED.",
+          "catalogKey": "displayType",
+          "catalogValue": "Samsung AMOLED",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "2400 x 1080 pixels (ASUS lists vertical x horizontal)",
+          "normalizedValue": "1080 x 2400",
+          "note": "Stored in conventional width x height order; ASUS source prints the panel dimensions as 2400 x 1080.",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2400",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "120 Hz",
+          "normalizedValue": 120,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "ASUS lists 1100 nits peak; local launch coverage lists 1000 nits without a matching measurement label.",
+          "normalizedValue": null,
+          "note": "The global manufacturer page reports 1100 nits peak while Philippine launch coverage reports 1000 nits. The source excerpts do not establish comparable measurement conditions, so no brightness value is selected.",
+          "replaceExisting": true,
+          "candidateEvidence": [
+            {
+              "value": "1100 nits peak",
+              "sourceUrl": "https://www.asus.com/mobile-handhelds/phones/zenfone/zenfone-8/techspec/",
+              "sourceKind": "manufacturer_global_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "ASUS lists 1100 nits peak brightness.",
+              "configurationMatch": "exact Zenfone 8 global model specification",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "1000 nits",
+              "sourceUrl": "https://2ndopinion.ph/asus-zenfone-returns-to-ph-shores-pre-orders-begin-may-14/",
+              "sourceKind": "independent_ph_launch_source",
+              "observedAt": "2026-11-27",
+              "excerpt": "Local launch report describes a 1000-nit Zenfone 8 display.",
+              "configurationMatch": "Philippine Zenfone 8; exact configuration not differentiated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Corning Gorilla Glass Victus",
+          "normalizedValue": "Corning Gorilla Glass Victus",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon888",
+          "sourceValue": "5 nm process node",
+          "normalizedValue": 5,
+          "note": "Chipset manufacturer product comparison identifies Snapdragon 888 at 5 nm; this is a SoC fabrication process claim.",
+          "unit": "nm",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_support_policy",
+          "sourceValue": "ASUS lists two OS upgrades and security updates through 2023; hardware support through 2024.",
+          "normalizedValue": "Two OS upgrades; security updates through 2023; hardware support through 2024",
+          "note": "Manufacturer-published support policy; the field records the commitment and does not imply continued current updates.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "LPDDR5",
+          "normalizedValue": "LPDDR5",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR5",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "UFS 3.1",
+          "normalizedValue": "UFS 3.1",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 3.1",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "No expandable storage listed; PTG says expansion: none.",
+          "normalizedValue": "No microSD storage expansion",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Sony IMX686 64 MP main sensor; f/1.8; 26.6 mm equivalent; phase-detection autofocus; optical image stabilization.",
+          "normalizedValue": "64 MP Sony IMX686; f/1.8; PDAF; OIS",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "12 MP Sony IMX363 ultrawide; f/2.2; 14.3 mm equivalent; supports 4 cm macro.",
+          "normalizedValue": "12 MP Sony IMX363 ultrawide; f/2.2; 4 cm macro",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Manufacturer specifies a fixed dual rear-camera system consisting of main and ultrawide cameras; no telephoto module is part of this model.",
+          "normalizedValue": null,
+          "note": "ASUS specifies two fixed rear cameras and identifies both as main and ultrawide. Do not confuse this model with Zenfone 8 Flip.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_launch",
+          "sourceValue": "12 MP Sony IMX663 punch-hole front camera with dual-pixel autofocus.",
+          "normalizedValue": 12,
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Main camera up to 8K UHD at 24 fps; secondary camera 4K UHD at 30/60 fps; 1080p at 30/60 fps; additional motion tracking and slow-motion modes.",
+          "normalizedValue": "Main: 8K/24 fps; secondary: 4K/30 or 60 fps; 1080p/30 or 60 fps; other modes listed by ASUS",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Li-Po battery; non-removable",
+          "normalizedValue": "Lithium-polymer; non-removable",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "The reviewed ASUS specification and Philippine launch sources do not state wireless or reverse wireless charging support; no unsupported absence claim is made.",
+          "normalizedValue": null,
+          "note": "The reviewed ASUS specification and Philippine launch sources do not state wireless or reverse wireless charging support; no unsupported absence claim is made.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "148 x 68.5 x 8.9 mm",
+          "normalizedValue": "148 x 68.5 x 8.9 mm",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "dimensions",
+          "catalogValue": "148 x 68.5 x 8.9 mm",
+          "unit": "mm",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Gorilla Glass Victus front, Gorilla Glass 3 back and aluminum frame.",
+          "normalizedValue": "Gorilla Glass Victus front; Gorilla Glass 3 back; aluminum frame",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "IP68 water and dust resistance",
+          "normalizedValue": "IP68",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "5G, 4G LTE with VoLTE, 3G HSPA+, 2G EDGE/GPRS; exact Philippine frequency bands are not stated.",
+          "normalizedValue": "5G; 4G LTE/VoLTE; 3G HSPA+; 2G EDGE/GPRS; exact PH bands not recorded",
+          "note": "Local launch specifications support these network generations. ASUS says frequency bands vary by region; exact PH band compatibility is not inferred from a global variant.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G; 4G LTE/VoLTE; 3G HSPA+; 2G EDGE/GPRS; exact PH bands not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "USB Type-C connector; exact USB data-generation/speed is not stated in the reviewed local source.",
+          "normalizedValue": "USB Type-C; data standard not recorded",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data standard not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "GPS L1/L5, GLONASS, BeiDou, Galileo, QZSS and NavIC",
+          "normalizedValue": "GPS dual-band; GLONASS; BeiDou; Galileo; QZSS; NavIC",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "asus_zenfone8_global_specs",
+          "sourceValue": "Dual stereo speakers with Dirac HD Sound; Hi-Res Audio via 3.5 mm output.",
+          "normalizedValue": "Dual stereo speakers with Dirac HD; Hi-Res 3.5 mm audio output",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "catalogKey": "sound",
+          "catalogValue": "Dual stereo speakers with Dirac HD; Hi-Res 3.5 mm audio output",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "asus_zenfone8_ph_ptg",
+          "sourceValue": "Gyroscope, compass, ambient light sensor, proximity sensor and accelerometer.",
+          "normalizedValue": "Gyroscope; compass; ambient-light sensor; proximity sensor; accelerometer",
+          "note": "Exact ASUS Zenfone 8 model reviewed. Philippine availability and configuration are asserted only where the cited local source identifies them.",
+          "replaceExisting": true
+        }
+      ],
+      "modelCode": "ZS590KS",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Reported Philippine preorder availability from 2021-05-14 through the local ASUS launch channel; historical local configuration and SRP are documented. Current stock and price are not verified.",
+        "philippineAvailability": "ASUS Philippines launch coverage identifies the Zenfone 8 16 GB RAM / 256 GB storage for preorder through ASUS Concept Stores and accredited online/offline shops from 2021-05-14. Local sources distinguish it from Zenfone 8 Flip. This establishes reported preorder availability, not an exact first completed retail sale or current stock.",
+        "observedAt": "2026-11-27",
+        "manufacturer": "ASUSTeK Computer Inc.",
+        "productLine": "Zenfone",
+        "modelNumber": "ZS590KS",
+        "catalogModel": "Zenfone 8",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Reported Philippine preorder start date",
+        "researchNotes": "Exact ASUS Zenfone 8 (ZS590KS) match. Only the two configurations identified in Philippine launch sources (8/128 and 16/256) are retained as separate records. The 8/256 global option shown by some global databases is not added as a local variant. Historical launch SRPs are not current prices. Regional Wi-Fi mode, exact PH frequency bands, and retail SKU remain unresolved. Workbook study scope remains Pending.",
+        "qualityFlag": "Exact model, two local configurations, launch dates and historical SRPs manually reviewed; current price, exact regional SKU/bands and Wi-Fi mode unresolved; study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "No current price or stock observation for either exact configuration",
+            "action": "Keep current price blank and preserve the May 2021 SRP as a dated historical launch price."
+          },
+          {
+            "issue": "Philippine sources disagree on Wi-Fi 6 versus Wi-Fi 6E",
+            "action": "Keep the Wi-Fi field unresolved and retain both cited candidates."
+          },
+          {
+            "issue": "The manufacturer lists region-specific cellular bands but the local launch sources do not identify the exact PH band set",
+            "action": "Show network generations only; do not claim specific Philippine frequency-band compatibility."
+          },
+          {
+            "issue": "No exact local retail SKU is documented",
+            "action": "Keep SKU blank; retain ASUS model number ZS590KS."
+          },
+          {
+            "issue": "Workbook scope status is Pending",
+            "action": "Do not change study eligibility as a side effect of technical enrichment."
+          }
+        ]
+      },
+      "configuration": "16 GB RAM / 256 GB storage",
+      "sku": null
     }
   ]
 }

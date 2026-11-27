@@ -15,7 +15,7 @@
       "brand": "ASUS",
       "model_name": "Zenfone 8",
       "category": "smartphones",
-      "status": "source_queued"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_fa4c0f6cdc39f6",
@@ -74517,6 +74517,40 @@
       "availability_status": "expired_2023-09-13; not_current_price",
       "review_status": "VERIFIED_SECONDARY",
       "excerpt": "Launch report lists the introductory PHP 8,399 price through September 13, 2023; this is a historical promotion, not a current offer."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "configuration_id": "device_bfb5e856a9a659-auto-8gb-128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "configuration_match": "ph_zenfone8_zs590ks_8gb_128gb_exact_local_launch_configuration",
+      "amount_php": 34995,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2021-05-14",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+      "source_kind": "historical_ph_launch_price_report",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Philippine launch report lists PHP 34,995 for ASUS Zenfone 8 8 GB / 128 GB; dated May 14, 2021 and not a current offer."
+    },
+    {
+      "device_id": "device_bfb5e856a9a659",
+      "configuration_id": "device_bfb5e856a9a659-auto-16gb-256gb",
+      "variant_ram_gb": 16,
+      "variant_storage_gb": 256,
+      "configuration_match": "ph_zenfone8_zs590ks_16gb_256gb_exact_local_launch_configuration",
+      "amount_php": 39995,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2021-05-14",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/asus-zenfone-8",
+      "source_kind": "historical_ph_launch_price_report",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Philippine launch report lists PHP 39,995 for ASUS Zenfone 8 16 GB / 256 GB; dated May 14, 2021 and not a current offer."
     }
   ],
   "discovery": [

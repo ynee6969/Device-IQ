@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-27T17:27:22+08:00
+Updated: 2026-11-27T17:50:06+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,22 +10,22 @@ Updated: 2026-11-27T17:27:22+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 628 |
-| Models with manually verified source fields | 203 |
-| Configurations with manually verified source fields | 342 |
+| Models with manually verified source fields | 204 |
+| Configurations with manually verified source fields | 344 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
-| Models with all fields assessed | 11 |
+| Models with all fields assessed | 12 |
 | Specification-complete models | 0 |
 | Incomplete models | 453 |
 | Applicable field assignments | 29429 |
-| Fields assessed | 11250 |
-| Verified fields | 9695 |
-| Pending fields | 18179 |
+| Fields assessed | 11342 |
+| Verified fields | 9777 |
+| Pending fields | 18087 |
 | PTG extracted pages | 204 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
-| Existing reviewed catalog images | 51 |
-| Models without reviewed catalog image | 405 |
+| Existing reviewed catalog images | 52 |
+| Models without reviewed catalog image | 404 |
 
 ## Brand-year execution tracker
 
@@ -33,7 +33,7 @@ The table counts the existing records and this run's review state; it does not m
 
 | Claimed year | Category | Brand | Models identified | Models verified locally | Inserted | Specs complete | Disclosed gaps | Incomplete | Fields assessed | Fields verified | Fields pending | PTG pages reviewed | Manufacturer pages reviewed | Unsuccessful fetch attempts | Independent technical pages reviewed | Images approved | Images pending | Status |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 2021 | smartphones | ASUS | 2 | 0 | 2 | 0 | 0 | 2 | 14 | 14 | 124 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
+| 2021 | smartphones | ASUS | 2 | 1 | 2 | 0 | 0 | 2 | 106 | 96 | 32 | 1 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Black Shark | 1 | 1 | 1 | 0 | 0 | 1 | 173 | 153 | 11 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Cherry Mobile | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 92 | 2 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2021 | smartphones | Huawei | 3 | 0 | 3 | 0 | 0 | 3 | 0 | 0 | 138 | 3 | 0 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
