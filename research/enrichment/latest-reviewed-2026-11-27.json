@@ -1184,14 +1184,14 @@
       "brand": "ABC TECH",
       "model_name": "X10",
       "category": "tablets",
-      "status": "needs_source_discovery"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_01ffae05ba688a",
       "brand": "ABC TECH",
       "model_name": "X10+",
       "category": "tablets",
-      "status": "needs_source_discovery"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_6d0aa2c52b2ae3",
@@ -71830,6 +71830,70 @@
       "observed_at": "2026-11-27",
       "local_availability_verified": true,
       "availability_status": "historical_promotion_not_current"
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "amount_php": 8499,
+      "configuration_id": "device_2d3b3b3ff3d487-4gb-64gb",
+      "configuration_match": "exact_ph_abc_tech_x10_x10-cb-10i-464_4gb_64gb",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_launch_price_reported",
+      "source_published_at": "2023-08-15",
+      "excerpt": "GIZGUIDE reports PHP 8,499 for ABC TECH X10 in Philippine launch coverage published 2023-08-15; Unbox Diaries independently reports the same amount on 2023-08-01.",
+      "source_url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+      "source_kind": "historical_local_launch_price_report",
+      "observed_at": "2023-08-15",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "amount_php": 8499,
+      "configuration_id": "device_2d3b3b3ff3d487-4gb-64gb",
+      "configuration_match": "exact_official_sku_x10-cb-10i-464_4gb_64gb",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "current_official_ph_product_page_list_price",
+      "source_published_at": null,
+      "excerpt": "ABC Tech exact SKU X10-CB-10I-464 product page lists PHP 8,499 and shows Add to Cart on 2026-11-27; stock/checkout was not verified.",
+      "source_url": "https://abctech.ph/products/abc-tech-x10",
+      "source_kind": "current_manufacturer_store_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "listed_not_stock_verified"
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "amount_php": 11499,
+      "configuration_id": "device_01ffae05ba688a-8gb-128gb",
+      "configuration_match": "exact_ph_abc_tech_x10plus_x10p-cb-10i-8128_8gb_128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_price_reported",
+      "source_published_at": "2023-08-15",
+      "excerpt": "GIZGUIDE reports PHP 11,499 for ABC TECH X10+ in Philippine launch coverage published 2023-08-15; Unbox Diaries independently reports the same amount on 2023-08-01.",
+      "source_url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+      "source_kind": "historical_local_launch_price_report",
+      "observed_at": "2023-08-15",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "amount_php": 11499,
+      "configuration_id": "device_01ffae05ba688a-8gb-128gb",
+      "configuration_match": "exact_official_sku_x10p-cb-10i-8128_8gb_128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "current_official_ph_product_page_list_price",
+      "source_published_at": null,
+      "excerpt": "ABC Tech exact SKU X10P-CB-10I-8128 product page lists PHP 11,499 and shows Add to Cart on 2026-11-27; stock/checkout was not verified.",
+      "source_url": "https://abctech.ph/products/abc-tech-x10-plus",
+      "source_kind": "current_manufacturer_store_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "listed_not_stock_verified"
     }
   ],
   "discovery": [

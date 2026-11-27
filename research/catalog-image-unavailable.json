@@ -2770,24 +2770,30 @@
     "altText": "Image unavailable for ZTE nubia Neo 5G"
   },
   "device_2d3b3b3ff3d487": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact-model image is linked from ABC Tech's official product page, but no image reuse license, credit requirement or permission to republish/hotlink is documented. Keep the neutral placeholder.",
+    "sourcePage": "https://abctech.ph/products/abc-tech-x10",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://cdn.shopify.com/s/files/1/0775/9314/9734/files/X10CHILD_2048x2048.jpg?v=1691222934",
+    "scope": "Exact official ABC TECH X10 Study Buddy Tablet charcoal-black product image associated with SKU X10-CB-10I-464 through its official product page.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
-    "altText": "Image unavailable for ABC TECH X10"
+    "rightsCheck": "Reviewed the official exact-SKU page and linked image. No reuse permission or license was located. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://abctech.ph/products/abc-tech-x10",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for ABC TECH X10 Study Buddy Tablet"
   },
   "device_01ffae05ba688a": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact-model image is linked from ABC Tech's official product page, but no image reuse license, credit requirement or permission to republish/hotlink is documented. Keep the neutral placeholder.",
+    "sourcePage": "https://abctech.ph/products/abc-tech-x10-plus",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://abctech.ph/cdn/shop/files/X10PLUSCHARCOALBLACK_1024x1024_crop_center.png?v=1743659254",
+    "scope": "Exact official ABC TECH X10 Plus Study Buddy Tablet charcoal-black product image associated with SKU X10P-CB-10I-8128 through its official product page.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
-    "altText": "Image unavailable for ABC TECH X10+"
+    "rightsCheck": "Reviewed the official exact-SKU page and linked image. No reuse permission or license was located. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://abctech.ph/products/abc-tech-x10-plus",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for ABC TECH X10 Plus Study Buddy Tablet"
   },
   "device_87e79ad13fe93b": {
     "status": "REUSE_RIGHTS_NOT_ESTABLISHED",

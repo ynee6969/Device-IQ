@@ -1,0 +1,189 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 2,
+  "models": [
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "brand": "ABC TECH",
+      "model_name": "X10 Study Buddy Tablet",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "brand": "ABC TECH",
+      "model_name": "X10 Plus Study Buddy Tablet",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "source_url": "https://abctech.ph/products/abc-tech-x10",
+      "source_kind": "Exact manufacturer product page, SKU, current list price and product configuration",
+      "status": "reviewed",
+      "result": "Official ABC Tech Philippines page identifies X10 Study Buddy Tablet, manufacturer SKU X10-CB-10I-464,  4GB RAM / 64GB storage, Android 12, a 10.1-inch TN/IPS display advertised at 1200×2000, 13MP rear and 8MP front cameras, 6000mAh battery, expandable storage (up to 256GB), GPS, Wi-Fi and Bluetooth. It lists PHP 8,499, offers Add to Cart and Philippine shipping estimates; live stock/checkout was not verified."
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "source_url": "https://abctech.ph/",
+      "source_kind": "Official brand catalog and cross-check of model naming, display, RAM/storage and battery",
+      "status": "reviewed",
+      "result": "The official home page lists separate X10 and X10 Plus models; X10 is shown as 10.1-inch / 4+64GB / 6,000mAh and X10 Plus as 10.4-inch / 8+128GB / 7,000mAh. The home page lists current store prices PHP 8,499 and PHP 11,499, respectively."
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "source_url": "https://abctech.ph/blogs/news/abc-tech-hub-grand-launching",
+      "source_kind": "Manufacturer-hosted Philippine release date and launch configuration",
+      "status": "reviewed",
+      "result": "The manufacturer-hosted story is dated 2023-07-28 and says ABC Tech released the X8, X10 and X10 Plus on July 28. It identifies the X10 as a 10.1-inch / 64GB tablet and the X10 Plus as a 10.4-inch / 128GB upgrade. It says the higher models have an 8MP front and 13MP rear camera. It does not state an international launch date or a launch price."
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "source_url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+      "source_kind": "Philippine launch-price and independent technical cross-check",
+      "status": "reviewed",
+      "result": "Published 2023-08-15. Reports launch-period prices of PHP 8,499 (X10) and PHP 11,499 (X10 Plus). Its X10 prose and table disagree on front camera (8MP vs 5MP); the table reports 1280×800 while the manufacturer says 1200×2000. Its X10 Plus prose and table disagree on chipset (T616 vs SC9863), GPU (Mali-G52 MP2 vs PowerVR GE8320), front camera (8MP vs 5MP), display size (10.4 vs 10-inch), and display pixels are 2000×1200. These internal disagreements are retained in review notes rather than silently collapsed."
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "source_url": "https://unboxdiaries.com/abc-tech-launches-new-x8-x10-and-x10-plus-tablets/",
+      "source_kind": "Independent Philippine launch coverage and configuration cross-check",
+      "status": "reviewed",
+      "result": "Published 2023-08-01. Reports X10 as 10.1-inch, 4GB/64GB, Android 12, 6,000mAh, 13MP rear / 8MP front, PHP 8,499; reports X10 Plus as 10.4-inch, 8GB/128GB, Android 12, 7,000mAh, 13MP rear / 8MP front, PHP 11,499. It does not provide exact product SKUs or display pixel resolution."
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "source_url": "https://www.philstar.com/gadgets/2023/08/31/2292766/review-filipino-made-educational-tablet-delivers-world-class-performance/amp",
+      "source_kind": "Independent Philippine review and X10/X10 Plus model distinction",
+      "status": "reviewed",
+      "result": "Published 2023-08-31. Reviews the ABC Tech X10 at PHP 8,499 and identifies its 10.1-inch / 64GB configuration; distinguishes the X10 Plus as the larger 10.4-inch / 128GB model. The review does not verify the exact manufacturer SKU."
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "source_url": "https://abctech.ph/products/key-touch-docking-keyboard",
+      "source_kind": "Exact tablet compatibility for the optional docking-keyboard accessory",
+      "status": "reviewed",
+      "result": "Official Key Touch Docking Keyboard page (SKU DK-BK-X10) explicitly offers selectable ABC TECH X10 and X10 Plus sizes. This verifies a compatible keyboard accessory, not that a keyboard is included with every tablet sale."
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "source_url": "https://abctech.ph/products/abc-tech-x10-plus",
+      "source_kind": "Exact manufacturer product page, SKU, current list price and product configuration",
+      "status": "reviewed",
+      "result": "Official ABC Tech Philippines page identifies X10 Plus Study Buddy Tablet, manufacturer SKU X10P-CB-10I-8128,  8GB RAM / 128GB storage, Android 12, a 10.4-inch TN/IPS display advertised at 1200×2000, 13MP rear and 8MP front cameras, 7000mAh battery, expandable storage (up to 512GB), GPS, Wi-Fi and Bluetooth. It lists PHP 11,499, offers Add to Cart and Philippine shipping estimates; live stock/checkout was not verified."
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "source_url": "https://abctech.ph/",
+      "source_kind": "Official brand catalog and cross-check of model naming, display, RAM/storage and battery",
+      "status": "reviewed",
+      "result": "The official home page lists separate X10 and X10 Plus models; X10 is shown as 10.1-inch / 4+64GB / 6,000mAh and X10 Plus as 10.4-inch / 8+128GB / 7,000mAh. The home page lists current store prices PHP 8,499 and PHP 11,499, respectively."
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "source_url": "https://abctech.ph/blogs/news/abc-tech-hub-grand-launching",
+      "source_kind": "Manufacturer-hosted Philippine release date and launch configuration",
+      "status": "reviewed",
+      "result": "The manufacturer-hosted story is dated 2023-07-28 and says ABC Tech released the X8, X10 and X10 Plus on July 28. It identifies the X10 as a 10.1-inch / 64GB tablet and the X10 Plus as a 10.4-inch / 128GB upgrade. It says the higher models have an 8MP front and 13MP rear camera. It does not state an international launch date or a launch price."
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "source_url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+      "source_kind": "Philippine launch-price and independent technical cross-check",
+      "status": "reviewed",
+      "result": "Published 2023-08-15. Reports launch-period prices of PHP 8,499 (X10) and PHP 11,499 (X10 Plus). Its X10 prose and table disagree on front camera (8MP vs 5MP); the table reports 1280×800 while the manufacturer says 1200×2000. Its X10 Plus prose and table disagree on chipset (T616 vs SC9863), GPU (Mali-G52 MP2 vs PowerVR GE8320), front camera (8MP vs 5MP), display size (10.4 vs 10-inch), and display pixels are 2000×1200. These internal disagreements are retained in review notes rather than silently collapsed."
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "source_url": "https://unboxdiaries.com/abc-tech-launches-new-x8-x10-and-x10-plus-tablets/",
+      "source_kind": "Independent Philippine launch coverage and configuration cross-check",
+      "status": "reviewed",
+      "result": "Published 2023-08-01. Reports X10 as 10.1-inch, 4GB/64GB, Android 12, 6,000mAh, 13MP rear / 8MP front, PHP 8,499; reports X10 Plus as 10.4-inch, 8GB/128GB, Android 12, 7,000mAh, 13MP rear / 8MP front, PHP 11,499. It does not provide exact product SKUs or display pixel resolution."
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "source_url": "https://www.philstar.com/gadgets/2023/08/31/2292766/review-filipino-made-educational-tablet-delivers-world-class-performance/amp",
+      "source_kind": "Independent Philippine review and X10/X10 Plus model distinction",
+      "status": "reviewed",
+      "result": "Published 2023-08-31. Reviews the ABC Tech X10 at PHP 8,499 and identifies its 10.1-inch / 64GB configuration; distinguishes the X10 Plus as the larger 10.4-inch / 128GB model. The review does not verify the exact manufacturer SKU."
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "source_url": "https://abctech.ph/products/key-touch-docking-keyboard",
+      "source_kind": "Exact tablet compatibility for the optional docking-keyboard accessory",
+      "status": "reviewed",
+      "result": "Official Key Touch Docking Keyboard page (SKU DK-BK-X10) explicitly offers selectable ABC TECH X10 and X10 Plus sizes. This verifies a compatible keyboard accessory, not that a keyboard is included with every tablet sale."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "amount_php": 8499,
+      "configuration_id": "device_2d3b3b3ff3d487-4gb-64gb",
+      "configuration_match": "exact_ph_abc_tech_x10_x10-cb-10i-464_4gb_64gb",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "historical_ph_launch_price_reported",
+      "source_published_at": "2023-08-15",
+      "excerpt": "GIZGUIDE reports PHP 8,499 for ABC TECH X10 in Philippine launch coverage published 2023-08-15; Unbox Diaries independently reports the same amount on 2023-08-01.",
+      "source_url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+      "source_kind": "historical_local_launch_price_report",
+      "observed_at": "2023-08-15",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_2d3b3b3ff3d487",
+      "amount_php": 8499,
+      "configuration_id": "device_2d3b3b3ff3d487-4gb-64gb",
+      "configuration_match": "exact_official_sku_x10-cb-10i-464_4gb_64gb",
+      "variant_ram_gb": 4,
+      "variant_storage_gb": 64,
+      "price_type": "current_official_ph_product_page_list_price",
+      "source_published_at": null,
+      "excerpt": "ABC Tech exact SKU X10-CB-10I-464 product page lists PHP 8,499 and shows Add to Cart on 2026-11-27; stock/checkout was not verified.",
+      "source_url": "https://abctech.ph/products/abc-tech-x10",
+      "source_kind": "current_manufacturer_store_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "listed_not_stock_verified"
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "amount_php": 11499,
+      "configuration_id": "device_01ffae05ba688a-8gb-128gb",
+      "configuration_match": "exact_ph_abc_tech_x10plus_x10p-cb-10i-8128_8gb_128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_price_reported",
+      "source_published_at": "2023-08-15",
+      "excerpt": "GIZGUIDE reports PHP 11,499 for ABC TECH X10+ in Philippine launch coverage published 2023-08-15; Unbox Diaries independently reports the same amount on 2023-08-01.",
+      "source_url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+      "source_kind": "historical_local_launch_price_report",
+      "observed_at": "2023-08-15",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_01ffae05ba688a",
+      "amount_php": 11499,
+      "configuration_id": "device_01ffae05ba688a-8gb-128gb",
+      "configuration_match": "exact_official_sku_x10p-cb-10i-8128_8gb_128gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "price_type": "current_official_ph_product_page_list_price",
+      "source_published_at": null,
+      "excerpt": "ABC Tech exact SKU X10P-CB-10I-8128 product page lists PHP 11,499 and shows Add to Cart on 2026-11-27; stock/checkout was not verified.",
+      "source_url": "https://abctech.ph/products/abc-tech-x10-plus",
+      "source_kind": "current_manufacturer_store_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "listed_not_stock_verified"
+    }
+  ]
+}

@@ -175358,6 +175358,1214 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_2d3b3b3ff3d487",
+      "configurationId": "device_2d3b3b3ff3d487-4gb-64gb",
+      "brand": "ABC TECH",
+      "model": "X10 Study Buddy Tablet",
+      "configuration": "4 GB RAM / 64 GB storage",
+      "configurationLabel": "4 GB RAM / 64 GB storage",
+      "sources": [
+        {
+          "id": "abc_x10_official_product",
+          "publisher": "ABC Tech Ventures Inc.",
+          "url": "https://abctech.ph/products/abc-tech-x10",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact manufacturer product page, SKU, current list price and product configuration",
+          "note": "Official ABC Tech Philippines page identifies X10 Study Buddy Tablet, manufacturer SKU X10-CB-10I-464,  4GB RAM / 64GB storage, Android 12, a 10.1-inch TN/IPS display advertised at 1200×2000, 13MP rear and 8MP front cameras, 6000mAh battery, expandable storage (up to 256GB), GPS, Wi-Fi and Bluetooth. It lists PHP 8,499, offers Add to Cart and Philippine shipping estimates; live stock/checkout was not verified."
+        },
+        {
+          "id": "abc_x10_home",
+          "publisher": "ABC Tech Ventures Inc.",
+          "url": "https://abctech.ph/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Official brand catalog and cross-check of model naming, display, RAM/storage and battery",
+          "note": "The official home page lists separate X10 and X10 Plus models; X10 is shown as 10.1-inch / 4+64GB / 6,000mAh and X10 Plus as 10.4-inch / 8+128GB / 7,000mAh. The home page lists current store prices PHP 8,499 and PHP 11,499, respectively."
+        },
+        {
+          "id": "abc_x10_launch",
+          "publisher": "ABC Tech Ventures Inc. / MB TechNews",
+          "url": "https://abctech.ph/blogs/news/abc-tech-hub-grand-launching",
+          "publicationDate": "2023-07-28",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer-hosted Philippine release date and launch configuration",
+          "note": "The manufacturer-hosted story is dated 2023-07-28 and says ABC Tech released the X8, X10 and X10 Plus on July 28. It identifies the X10 as a 10.1-inch / 64GB tablet and the X10 Plus as a 10.4-inch / 128GB upgrade. It says the higher models have an 8MP front and 13MP rear camera. It does not state an international launch date or a launch price."
+        },
+        {
+          "id": "abc_x10_gizguide",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+          "publicationDate": "2023-08-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine launch-price and independent technical cross-check",
+          "note": "Published 2023-08-15. Reports launch-period prices of PHP 8,499 (X10) and PHP 11,499 (X10 Plus). Its X10 prose and table disagree on front camera (8MP vs 5MP); the table reports 1280×800 while the manufacturer says 1200×2000. Its X10 Plus prose and table disagree on chipset (T616 vs SC9863), GPU (Mali-G52 MP2 vs PowerVR GE8320), front camera (8MP vs 5MP), display size (10.4 vs 10-inch), and display pixels are 2000×1200. These internal disagreements are retained in review notes rather than silently collapsed."
+        },
+        {
+          "id": "abc_x10_unbox",
+          "publisher": "Unbox Diaries",
+          "url": "https://unboxdiaries.com/abc-tech-launches-new-x8-x10-and-x10-plus-tablets/",
+          "publicationDate": "2023-08-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine launch coverage and configuration cross-check",
+          "note": "Published 2023-08-01. Reports X10 as 10.1-inch, 4GB/64GB, Android 12, 6,000mAh, 13MP rear / 8MP front, PHP 8,499; reports X10 Plus as 10.4-inch, 8GB/128GB, Android 12, 7,000mAh, 13MP rear / 8MP front, PHP 11,499. It does not provide exact product SKUs or display pixel resolution."
+        },
+        {
+          "id": "abc_x10_philstar",
+          "publisher": "Philstar.com",
+          "url": "https://www.philstar.com/gadgets/2023/08/31/2292766/review-filipino-made-educational-tablet-delivers-world-class-performance/amp",
+          "publicationDate": "2023-08-31",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine review and X10/X10 Plus model distinction",
+          "note": "Published 2023-08-31. Reviews the ABC Tech X10 at PHP 8,499 and identifies its 10.1-inch / 64GB configuration; distinguishes the X10 Plus as the larger 10.4-inch / 128GB model. The review does not verify the exact manufacturer SKU."
+        },
+        {
+          "id": "abc_x10_keyboard",
+          "publisher": "ABC Tech Ventures Inc.",
+          "url": "https://abctech.ph/products/key-touch-docking-keyboard",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact tablet compatibility for the optional docking-keyboard accessory",
+          "note": "Official Key Touch Docking Keyboard page (SKU DK-BK-X10) explicitly offers selectable ABC TECH X10 and X10 Plus sizes. This verifies a compatible keyboard accessory, not that a keyboard is included with every tablet sale."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Manufacturer SKU X10-CB-10I-464",
+          "normalizedValue": "X10-CB-10I-464",
+          "note": "Official product page identifies this exact SKU. The workbook has no regulatory model number; SKU is retained as the manufacturer identifier."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "A global/international first-release date was not found. The dated evidence establishes the Philippine release only.",
+          "normalizedValue": null,
+          "note": "A global/international first-release date was not found. The dated evidence establishes the Philippine release only."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "4 GB RAM / 64 GB storage",
+          "normalizedValue": "4 GB RAM / 64 GB storage",
+          "note": "Memory configuration is stated on the exact official SKU page and is kept separate from the X10 Plus record."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "Released in the Philippines on July 28, 2023",
+          "normalizedValue": "2023-07-28",
+          "unit": "date",
+          "note": "The manufacturer-hosted Philippine launch story explicitly states ABC Tech released the X8, X10 and X10 Plus on July 28, 2023."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "PHP 8,499 reported in 2023 Philippine launch coverage",
+          "normalizedValue": 8499,
+          "unit": "PHP",
+          "note": "Launch-period price reported by Philippine coverage published 2023-08-15 and independently corroborated by Unbox Diaries (2023-08-01). The manufacturer-hosted release story does not state a launch price; this is not represented as a directly sourced manufacturer announcement."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "PHP 8,499 listed on the official ABC Tech Philippines product page",
+          "normalizedValue": 8499,
+          "unit": "PHP",
+          "note": "Observed 2026-11-27 on the official exact-SKU page. Add to Cart and Philippine delivery estimates are shown; current stock and checkout completion were not verified.",
+          "priceType": "Official Philippine manufacturer-store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "10.1-inch display",
+          "normalizedValue": 10.1,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.1,
+          "unit": "in",
+          "note": "The exact manufacturer product page and manufacturer-hosted launch story agree on this marketed diagonal; Unbox Diaries independently reports the same size."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Manufacturer wording: TN/IPS; Philippine coverage describes IPS",
+          "normalizedValue": null,
+          "catalogKey": "displayType",
+          "catalogValue": null,
+          "note": "The manufacturer uses an ambiguous TN/IPS label while Philippine coverage calls it IPS. Exact panel technology is unresolved; no normalized panel type is asserted.",
+          "candidateEvidence": [
+            {
+              "value": "TN/IPS",
+              "sourceUrl": "https://abctech.ph/products/abc-tech-x10",
+              "sourceKind": "ABC Tech Ventures Inc.",
+              "observedAt": "2026-11-27",
+              "excerpt": "The exact product description labels the panel ‘TN/IPS’.",
+              "configurationMatch": "device_2d3b3b3ff3d487-4gb-64gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "IPS",
+              "sourceUrl": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+              "sourceKind": "GIZGUIDE",
+              "observedAt": "2026-11-27",
+              "excerpt": "The Philippine specifications describe an LCD IPS panel.",
+              "configurationMatch": "device_2d3b3b3ff3d487-4gb-64gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "IPS",
+              "sourceUrl": "https://unboxdiaries.com/abc-tech-launches-new-x8-x10-and-x10-plus-tablets/",
+              "sourceKind": "Unbox Diaries",
+              "observedAt": "2026-11-27",
+              "excerpt": "The launch coverage describes an IPS display.",
+              "configurationMatch": "device_2d3b3b3ff3d487-4gb-64gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Manufacturer lists 1200×2000; GIZGUIDE table lists 1280×800",
+          "normalizedValue": null,
+          "catalogKey": "resolution",
+          "catalogValue": null,
+          "note": "The primary product page and a contemporaneous Philippine specification table disagree on pixel dimensions. Leave resolution blank pending an exact-SKU specification sheet.",
+          "candidateEvidence": [
+            {
+              "value": "1200×2000",
+              "sourceUrl": "https://abctech.ph/products/abc-tech-x10",
+              "sourceKind": "ABC Tech Ventures Inc.",
+              "observedAt": "2026-11-27",
+              "excerpt": "Exact-SKU description states 10.1-inch 1200×2000 TN/IPS.",
+              "configurationMatch": "device_2d3b3b3ff3d487-4gb-64gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "1280×800",
+              "sourceUrl": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+              "sourceKind": "GIZGUIDE",
+              "observedAt": "2026-11-27",
+              "excerpt": "2023 technical table states 10-inch 1280×800 HD+ IPS.",
+              "configurationMatch": "device_2d3b3b3ff3d487-4gb-64gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "No refresh-rate value is stated on the reviewed exact-SKU or Philippine launch sources.",
+          "normalizedValue": null,
+          "note": "No refresh-rate value is stated on the reviewed exact-SKU or Philippine launch sources."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "No numeric brightness value is stated on the reviewed exact-SKU or Philippine launch sources.",
+          "normalizedValue": null,
+          "note": "No numeric brightness value is stated on the reviewed exact-SKU or Philippine launch sources."
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "The reviewed sources do not identify a screen-glass protection brand or standard.",
+          "normalizedValue": null,
+          "note": "The reviewed sources do not identify a screen-glass protection brand or standard."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "MediaTek MT6762 / Helio P22 octa-core",
+          "normalizedValue": "MediaTek MT6762 (Helio P22)",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek MT6762 (Helio P22)",
+          "note": "GIZGUIDE identifies MT6762/Helio P22 for the X10. The manufacturer's product page does not name the chipset."
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "12nm process reported for MT6762",
+          "normalizedValue": 12,
+          "unit": "nm",
+          "note": "Reported in the model-specific Philippine technical table; manufacturer does not state the tablet's chip process."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "MT6762 8-core, up to 2.0GHz",
+          "normalizedValue": "Octa-core up to 2.0GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core up to 2.0GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "PowerVR GE8320",
+          "normalizedValue": "PowerVR GE8320",
+          "catalogKey": "gpu",
+          "catalogValue": "PowerVR GE8320"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Android 12",
+          "normalizedValue": "Android 12",
+          "catalogKey": "os",
+          "catalogValue": "Android 12"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "No guaranteed Android-version or security-update policy was found for this exact SKU.",
+          "normalizedValue": null,
+          "note": "No guaranteed Android-version or security-update policy was found for this exact SKU."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "4GB RAM",
+          "normalizedValue": 4,
+          "catalogKey": "ramGb",
+          "catalogValue": 4,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "The exact tablet RAM generation/type is not stated in reviewed sources.",
+          "normalizedValue": null,
+          "note": "The exact tablet RAM generation/type is not stated in reviewed sources."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "64GB internal storage",
+          "normalizedValue": 64,
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "The exact installed flash-storage type is not stated; platform capabilities are not treated as proof of device configuration.",
+          "normalizedValue": null,
+          "note": "The exact installed flash-storage type is not stated; platform capabilities are not treated as proof of device configuration."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Expandable storage up to 256GB",
+          "normalizedValue": "microSD expansion up to 256 GB",
+          "catalogKey": "storageExpansion",
+          "catalogValue": "microSD expansion up to 256 GB",
+          "note": "Maximum expansion is stated on the exact official product page; the precise card format and whether the slot is shared are not stated."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "13MP rear camera",
+          "normalizedValue": "13 MP rear camera",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "13 MP rear camera",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Camera sensor make/model and lens aperture are not stated in reviewed sources.",
+          "normalizedValue": null,
+          "note": "Camera sensor make/model and lens aperture are not stated in reviewed sources."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "Not applicable to the documented one-rear-camera system",
+          "normalizedValue": null,
+          "note": "Manufacturer-hosted launch coverage describes the higher X10 models as having dual cameras: one front-facing and one rear-facing. No separate ultrawide module is listed."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "Not applicable to the documented one-rear-camera system",
+          "normalizedValue": null,
+          "note": "Manufacturer-hosted launch coverage describes the higher X10 models as having dual cameras: one front-facing and one rear-facing. No separate telephoto module is listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "8MP front camera",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP",
+          "note": "The manufacturer-published launch story and Unbox Diaries list 8MP front / 13MP rear; GIZGUIDE's table lists 5MP front, conflicting with its own launch summary and the manufacturer. The manufacturer's exact-model statement is retained with the secondary table discrepancy noted."
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Supported camera recording resolutions and frame rates are not published in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Supported camera recording resolutions and frame rates are not published in the reviewed sources."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "6000mAh, 3.7V",
+          "normalizedValue": 6000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 6000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Battery chemistry, rated watt-hours and removability are not stated.",
+          "normalizedValue": null,
+          "note": "Battery chemistry, rated watt-hours and removability are not stated."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "10W standard charging",
+          "normalizedValue": 10,
+          "catalogKey": "chargingW",
+          "catalogValue": 10,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Wireless or reverse charging is not listed in the reviewed exact-SKU specifications.",
+          "normalizedValue": null,
+          "note": "Wireless or reverse charging is not listed in the reviewed exact-SKU specifications."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "235 × 155 mm; thickness not recorded",
+          "normalizedValue": "235 × 155 mm; thickness not recorded",
+          "catalogKey": "dimensions",
+          "catalogValue": "235 × 155 mm; thickness not recorded",
+          "unit": "mm",
+          "note": "Official page gives height and width only. Thickness and orientation of the second manufacturer axis are not further specified."
+        },
+        {
+          "fieldId": "weight",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Exact-SKU weight is not published in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Exact-SKU weight is not published in the reviewed sources."
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Frame and rear-cover composition are not identified. Descriptions of finish are not treated as material evidence.",
+          "normalizedValue": null,
+          "note": "Frame and rear-cover composition are not identified. Descriptions of finish are not treated as material evidence."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "No IP rating or standardized ingress-protection test/certification is given. The manufacturer-hosted launch story uses waterproof/dustproof language without a rating.",
+          "normalizedValue": null,
+          "note": "No IP rating or standardized ingress-protection test/certification is given. The manufacturer-hosted launch story uses waterproof/dustproof language without a rating."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Dual-SIM 4G LTE reported; eSIM not recorded",
+          "normalizedValue": "Dual SIM; eSIM not recorded",
+          "catalogKey": "sim",
+          "catalogValue": "Dual SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Philippine coverage reports 4G LTE but does not list supported LTE frequency bands.",
+          "normalizedValue": null,
+          "note": "Philippine coverage reports 4G LTE but does not list supported LTE frequency bands."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Wi-Fi 4 (802.11 b/g/n) reported",
+          "normalizedValue": "Wi-Fi 4 (802.11 b/g/n)",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 4 (802.11 b/g/n)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Bluetooth 5.0 reported",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "USB Type-C connector; data protocol not stated",
+          "normalizedValue": "USB Type-C; data protocol not recorded",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data protocol not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "NFC is not listed in the exact-SKU or reviewed Philippine specifications.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the exact-SKU or reviewed Philippine specifications."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "GPS",
+          "normalizedValue": "GPS",
+          "note": "GPS is stated on the exact product page; other satellite constellations are not specified."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Built-in speaker/microphone and 3.5mm audio jack reported",
+          "normalizedValue": "Built-in speaker and microphone; 3.5mm audio jack",
+          "catalogKey": "sound",
+          "catalogValue": "Built-in speaker and microphone; 3.5mm audio jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Accelerometer, light, orientation, proximity, gyroscope, sound and magnetic sensors reported",
+          "normalizedValue": "Accelerometer; light; orientation; proximity; gyroscope; sound; magnetic"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_official_product",
+          "sourceValue": "Dedicated active-stylus support and a compatible stylus are not identified on the exact product page.",
+          "normalizedValue": null,
+          "note": "Dedicated active-stylus support and a compatible stylus are not identified on the exact product page."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_keyboard",
+          "sourceValue": "Optional Key Touch Docking Keyboard DK-BK-X10 has separate X10 and X10 Plus fit options",
+          "normalizedValue": "Optional compatible DK-BK-X10 docking keyboard; not confirmed included",
+          "catalogKey": "keyboard",
+          "catalogValue": "Optional compatible DK-BK-X10 docking keyboard; not confirmed included",
+          "note": "Official accessory page lists ABC TECH X10 and X10 Plus as separate selectable fits. It does not establish that the keyboard is bundled with the tablet."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "4G LTE dual-SIM configuration reported; no separate Wi-Fi-only SKU located",
+          "normalizedValue": "4G LTE dual-SIM reported; Wi-Fi-only variant not located",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE dual-SIM reported; Wi-Fi-only variant not located"
+        }
+      ],
+      "modelCode": "X10-CB-10I-464",
+      "sku": "X10-CB-10I-464",
+      "replacementVariants": [
+        {
+          "id": "device_2d3b3b3ff3d487-4gb-64gb",
+          "label": "4 GB RAM / 64 GB storage",
+          "sku": "X10-CB-10I-464",
+          "modelCode": "X10-CB-10I-464",
+          "notes": "Manufacturer SKU from ABC Tech's official exact product page; eligibility remains Pending."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine release verified from the manufacturer-hosted 2023 launch story and an exact ABC Tech Philippines store SKU. Current list price PHP 8,499 was observed 2026-11-27; stock/checkout not confirmed.",
+        "philippineAvailability": "ABC Tech's manufacturer-hosted Philippine story states this model was released July 28, 2023. Exact official Philippine store listing observed 2026-11-27.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; exact manufacturer SKU, memory configuration and Philippine launch date verified. Manufacturer store list price dated; stock not checked. Display/camera/source discrepancies remain documented; eligibility remains Pending.",
+        "catalogModel": "X10 Study Buddy Tablet",
+        "manufacturer": "ABC Tech Ventures Inc.",
+        "productLine": "Study Buddy",
+        "modelNumber": "X10-CB-10I-464",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Manufacturer-reported Philippine release date",
+        "researchNotes": "Workbook row 170 (X10) is matched to ABC Tech Ventures Inc. X10 Study Buddy Tablet exact manufacturer SKU X10-CB-10I-464 (4 GB RAM / 64 GB storage). It remains a distinct device from the X10 Plus and retains study scope Pending. Philippine release is stated as 2023-07-28 in the manufacturer-hosted story. The current exact-SKU page lists PHP 8,499; checkout/stock not confirmed. Conflicts or source inconsistencies are explicitly retained in per-field evidence. The official product image is an exact-model match but its reuse permission is undocumented, so a neutral placeholder remains.",
+        "openIssues": [
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve the workbook's selected scope until study screening rules are applied."
+          },
+          {
+            "issue": "Official product page lists a current price but stock/checkout is not confirmed",
+            "action": "Keep the dated list price without representing the tablet as in stock."
+          },
+          {
+            "issue": "The product image's reuse/license terms are undocumented",
+            "action": "Keep the neutral placeholder and record the exact official image URL for rights review."
+          },
+          {
+            "issue": "Manufacturer and local sources disagree or use ambiguous wording on some specifications",
+            "action": "Use exact-SKU primary evidence where clear; leave truly conflicting normalized values blank and retain candidate evidence."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_01ffae05ba688a",
+      "configurationId": "device_01ffae05ba688a-8gb-128gb",
+      "brand": "ABC TECH",
+      "model": "X10 Plus Study Buddy Tablet",
+      "configuration": "8 GB RAM / 128 GB storage",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "abc_x10p_official_product",
+          "publisher": "ABC Tech Ventures Inc.",
+          "url": "https://abctech.ph/products/abc-tech-x10-plus",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact manufacturer product page, SKU, current list price and product configuration",
+          "note": "Official ABC Tech Philippines page identifies X10 Plus Study Buddy Tablet, manufacturer SKU X10P-CB-10I-8128,  8GB RAM / 128GB storage, Android 12, a 10.4-inch TN/IPS display advertised at 1200×2000, 13MP rear and 8MP front cameras, 7000mAh battery, expandable storage (up to 512GB), GPS, Wi-Fi and Bluetooth. It lists PHP 11,499, offers Add to Cart and Philippine shipping estimates; live stock/checkout was not verified."
+        },
+        {
+          "id": "abc_x10_home",
+          "publisher": "ABC Tech Ventures Inc.",
+          "url": "https://abctech.ph/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Official brand catalog and cross-check of model naming, display, RAM/storage and battery",
+          "note": "The official home page lists separate X10 and X10 Plus models; X10 is shown as 10.1-inch / 4+64GB / 6,000mAh and X10 Plus as 10.4-inch / 8+128GB / 7,000mAh. The home page lists current store prices PHP 8,499 and PHP 11,499, respectively."
+        },
+        {
+          "id": "abc_x10_launch",
+          "publisher": "ABC Tech Ventures Inc. / MB TechNews",
+          "url": "https://abctech.ph/blogs/news/abc-tech-hub-grand-launching",
+          "publicationDate": "2023-07-28",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer-hosted Philippine release date and launch configuration",
+          "note": "The manufacturer-hosted story is dated 2023-07-28 and says ABC Tech released the X8, X10 and X10 Plus on July 28. It identifies the X10 as a 10.1-inch / 64GB tablet and the X10 Plus as a 10.4-inch / 128GB upgrade. It says the higher models have an 8MP front and 13MP rear camera. It does not state an international launch date or a launch price."
+        },
+        {
+          "id": "abc_x10_gizguide",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+          "publicationDate": "2023-08-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine launch-price and independent technical cross-check",
+          "note": "Published 2023-08-15. Reports launch-period prices of PHP 8,499 (X10) and PHP 11,499 (X10 Plus). Its X10 prose and table disagree on front camera (8MP vs 5MP); the table reports 1280×800 while the manufacturer says 1200×2000. Its X10 Plus prose and table disagree on chipset (T616 vs SC9863), GPU (Mali-G52 MP2 vs PowerVR GE8320), front camera (8MP vs 5MP), display size (10.4 vs 10-inch), and display pixels are 2000×1200. These internal disagreements are retained in review notes rather than silently collapsed."
+        },
+        {
+          "id": "abc_x10_unbox",
+          "publisher": "Unbox Diaries",
+          "url": "https://unboxdiaries.com/abc-tech-launches-new-x8-x10-and-x10-plus-tablets/",
+          "publicationDate": "2023-08-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine launch coverage and configuration cross-check",
+          "note": "Published 2023-08-01. Reports X10 as 10.1-inch, 4GB/64GB, Android 12, 6,000mAh, 13MP rear / 8MP front, PHP 8,499; reports X10 Plus as 10.4-inch, 8GB/128GB, Android 12, 7,000mAh, 13MP rear / 8MP front, PHP 11,499. It does not provide exact product SKUs or display pixel resolution."
+        },
+        {
+          "id": "abc_x10_philstar",
+          "publisher": "Philstar.com",
+          "url": "https://www.philstar.com/gadgets/2023/08/31/2292766/review-filipino-made-educational-tablet-delivers-world-class-performance/amp",
+          "publicationDate": "2023-08-31",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine review and X10/X10 Plus model distinction",
+          "note": "Published 2023-08-31. Reviews the ABC Tech X10 at PHP 8,499 and identifies its 10.1-inch / 64GB configuration; distinguishes the X10 Plus as the larger 10.4-inch / 128GB model. The review does not verify the exact manufacturer SKU."
+        },
+        {
+          "id": "abc_x10_keyboard",
+          "publisher": "ABC Tech Ventures Inc.",
+          "url": "https://abctech.ph/products/key-touch-docking-keyboard",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact tablet compatibility for the optional docking-keyboard accessory",
+          "note": "Official Key Touch Docking Keyboard page (SKU DK-BK-X10) explicitly offers selectable ABC TECH X10 and X10 Plus sizes. This verifies a compatible keyboard accessory, not that a keyboard is included with every tablet sale."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Manufacturer SKU X10P-CB-10I-8128",
+          "normalizedValue": "X10P-CB-10I-8128",
+          "note": "Official product page identifies this exact SKU. The workbook has no regulatory model number; SKU is retained as the manufacturer identifier."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "A global/international first-release date was not found. The dated evidence establishes the Philippine release only.",
+          "normalizedValue": null,
+          "note": "A global/international first-release date was not found. The dated evidence establishes the Philippine release only."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "8 GB RAM / 128 GB storage",
+          "normalizedValue": "8 GB RAM / 128 GB storage",
+          "note": "Memory configuration is stated on the exact official SKU page and is kept separate from the X10 Plus record."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "Released in the Philippines on July 28, 2023",
+          "normalizedValue": "2023-07-28",
+          "unit": "date",
+          "note": "The manufacturer-hosted Philippine launch story explicitly states ABC Tech released the X8, X10 and X10 Plus on July 28, 2023."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "PHP 11,499 reported in 2023 Philippine launch coverage",
+          "normalizedValue": 11499,
+          "unit": "PHP",
+          "note": "Launch-period price reported by Philippine coverage published 2023-08-15 and independently corroborated by Unbox Diaries (2023-08-01). The manufacturer-hosted release story does not state a launch price; this is not represented as a directly sourced manufacturer announcement."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "PHP 11,499 listed on the official ABC Tech Philippines product page",
+          "normalizedValue": 11499,
+          "unit": "PHP",
+          "note": "Observed 2026-11-27 on the official exact-SKU page. Add to Cart and Philippine delivery estimates are shown; current stock and checkout completion were not verified.",
+          "priceType": "Official Philippine manufacturer-store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "10.4-inch display",
+          "normalizedValue": 10.4,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.4,
+          "unit": "in",
+          "note": "The exact manufacturer product page and manufacturer-hosted launch story agree on this marketed diagonal; Unbox Diaries independently reports the same size."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Manufacturer wording: TN/IPS; Philippine coverage describes IPS",
+          "normalizedValue": null,
+          "catalogKey": "displayType",
+          "catalogValue": null,
+          "note": "The manufacturer uses an ambiguous TN/IPS label while Philippine coverage calls it IPS. Exact panel technology is unresolved; no normalized panel type is asserted.",
+          "candidateEvidence": [
+            {
+              "value": "TN/IPS",
+              "sourceUrl": "https://abctech.ph/products/abc-tech-x10-plus",
+              "sourceKind": "ABC Tech Ventures Inc.",
+              "observedAt": "2026-11-27",
+              "excerpt": "The exact product description labels the panel ‘TN/IPS’.",
+              "configurationMatch": "device_01ffae05ba688a-8gb-128gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "IPS",
+              "sourceUrl": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+              "sourceKind": "GIZGUIDE",
+              "observedAt": "2026-11-27",
+              "excerpt": "The Philippine specifications describe an LCD IPS panel.",
+              "configurationMatch": "device_01ffae05ba688a-8gb-128gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "IPS",
+              "sourceUrl": "https://unboxdiaries.com/abc-tech-launches-new-x8-x10-and-x10-plus-tablets/",
+              "sourceKind": "Unbox Diaries",
+              "observedAt": "2026-11-27",
+              "excerpt": "The launch coverage describes an IPS display.",
+              "configurationMatch": "device_01ffae05ba688a-8gb-128gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "1200×2000 pixels (manufacturer orientation)",
+          "normalizedValue": "1200x2000",
+          "catalogKey": "resolution",
+          "catalogValue": "1200x2000",
+          "note": "Official exact-SKU description gives 1200×2000. GIZGUIDE's table lists 2000×1200, the same pixel dimensions in reversed orientation; no different count is asserted."
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "No refresh-rate value is stated on the reviewed exact-SKU or Philippine launch sources.",
+          "normalizedValue": null,
+          "note": "No refresh-rate value is stated on the reviewed exact-SKU or Philippine launch sources."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "No numeric brightness value is stated on the reviewed exact-SKU or Philippine launch sources.",
+          "normalizedValue": null,
+          "note": "No numeric brightness value is stated on the reviewed exact-SKU or Philippine launch sources."
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "The reviewed sources do not identify a screen-glass protection brand or standard.",
+          "normalizedValue": null,
+          "note": "The reviewed sources do not identify a screen-glass protection brand or standard."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "T616 octa-core solution",
+          "normalizedValue": "UNISOC T616",
+          "catalogKey": "chipset",
+          "catalogValue": "UNISOC T616",
+          "note": "The exact manufacturer product page identifies the T616. GIZGUIDE's introductory summary agrees, but its detailed table says SC9863; the conflicting secondary table value is documented in the source notes and not substituted for the exact-SKU manufacturer value."
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "The exact tablet page does not state a chip process node; secondary descriptions of the T616 family were not treated as proof of this configuration.",
+          "normalizedValue": null,
+          "note": "The exact tablet page does not state a chip process node; secondary descriptions of the T616 family were not treated as proof of this configuration."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "T616 octa-core solution; core layout and clock speed not stated",
+          "normalizedValue": "Octa-core; core layout and frequency not recorded",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core; core layout and frequency not recorded"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "GIZGUIDE reports Mali-G52 MP2 in its summary but PowerVR GE8320 in its detailed table",
+          "normalizedValue": null,
+          "catalogKey": "gpu",
+          "catalogValue": null,
+          "note": "The official tablet page does not name a GPU, and the Philippine coverage is internally contradictory. Leave the device GPU blank.",
+          "candidateEvidence": [
+            {
+              "value": "Mali-G52 MP2",
+              "sourceUrl": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+              "sourceKind": "GIZGUIDE",
+              "observedAt": "2026-11-27",
+              "excerpt": "Introductory model summary attributes Mali-G52 MP2 to T616.",
+              "configurationMatch": "device_01ffae05ba688a-8gb-128gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "PowerVR GE8320",
+              "sourceUrl": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+              "sourceKind": "GIZGUIDE",
+              "observedAt": "2026-11-27",
+              "excerpt": "Detailed X10 Plus table attributes PowerVR GE8320 to SC9863.",
+              "configurationMatch": "device_01ffae05ba688a-8gb-128gb",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Android 12",
+          "normalizedValue": "Android 12",
+          "catalogKey": "os",
+          "catalogValue": "Android 12"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "No guaranteed Android-version or security-update policy was found for this exact SKU.",
+          "normalizedValue": null,
+          "note": "No guaranteed Android-version or security-update policy was found for this exact SKU."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "8GB RAM",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "The exact tablet RAM generation/type is not stated in reviewed sources.",
+          "normalizedValue": null,
+          "note": "The exact tablet RAM generation/type is not stated in reviewed sources."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "128GB internal storage",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "The exact installed flash-storage type is not stated; platform capabilities are not treated as proof of device configuration.",
+          "normalizedValue": null,
+          "note": "The exact installed flash-storage type is not stated; platform capabilities are not treated as proof of device configuration."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Expandable storage up to 512GB",
+          "normalizedValue": "microSD expansion up to 512 GB",
+          "catalogKey": "storageExpansion",
+          "catalogValue": "microSD expansion up to 512 GB",
+          "note": "Maximum expansion is stated on the exact official product page; the precise card format and whether the slot is shared are not stated."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "13MP rear camera",
+          "normalizedValue": "13 MP rear camera",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "13 MP rear camera",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Camera sensor make/model and lens aperture are not stated in reviewed sources.",
+          "normalizedValue": null,
+          "note": "Camera sensor make/model and lens aperture are not stated in reviewed sources."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "Not applicable to the documented one-rear-camera system",
+          "normalizedValue": null,
+          "note": "Manufacturer-hosted launch coverage describes the higher X10 models as having dual cameras: one front-facing and one rear-facing. No separate ultrawide module is listed."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "Not applicable to the documented one-rear-camera system",
+          "normalizedValue": null,
+          "note": "Manufacturer-hosted launch coverage describes the higher X10 models as having dual cameras: one front-facing and one rear-facing. No separate telephoto module is listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "8MP front camera",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP",
+          "note": "The manufacturer-published launch story lists 8MP front / 13MP rear; GIZGUIDE's detailed table lists 5MP front, conflicting with its own launch summary and the manufacturer. The manufacturer's exact-model statement is retained with the secondary table discrepancy noted."
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Supported camera recording resolutions and frame rates are not published in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Supported camera recording resolutions and frame rates are not published in the reviewed sources."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "7000mAh, 3.7V",
+          "normalizedValue": 7000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 7000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Battery chemistry, rated watt-hours and removability are not stated.",
+          "normalizedValue": null,
+          "note": "Battery chemistry, rated watt-hours and removability are not stated."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "10W standard charging",
+          "normalizedValue": 10,
+          "catalogKey": "chargingW",
+          "catalogValue": 10,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Wireless or reverse charging is not listed in the reviewed exact-SKU specifications.",
+          "normalizedValue": null,
+          "note": "Wireless or reverse charging is not listed in the reviewed exact-SKU specifications."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "240 × 155 mm; thickness not recorded",
+          "normalizedValue": "240 × 155 mm; thickness not recorded",
+          "catalogKey": "dimensions",
+          "catalogValue": "240 × 155 mm; thickness not recorded",
+          "unit": "mm",
+          "note": "Official page gives height and width only. Thickness and orientation of the second manufacturer axis are not further specified."
+        },
+        {
+          "fieldId": "weight",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Exact-SKU weight is not published in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Exact-SKU weight is not published in the reviewed sources."
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Frame and rear-cover composition are not identified. Descriptions of finish are not treated as material evidence.",
+          "normalizedValue": null,
+          "note": "Frame and rear-cover composition are not identified. Descriptions of finish are not treated as material evidence."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_launch",
+          "sourceValue": "No IP rating or standardized ingress-protection test/certification is given. The manufacturer-hosted launch story uses waterproof/dustproof language without a rating.",
+          "normalizedValue": null,
+          "note": "No IP rating or standardized ingress-protection test/certification is given. The manufacturer-hosted launch story uses waterproof/dustproof language without a rating."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Dual-SIM 4G LTE reported; eSIM not recorded",
+          "normalizedValue": "Dual SIM; eSIM not recorded",
+          "catalogKey": "sim",
+          "catalogValue": "Dual SIM; eSIM not recorded"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Philippine coverage reports 4G LTE but does not list supported LTE frequency bands.",
+          "normalizedValue": null,
+          "note": "Philippine coverage reports 4G LTE but does not list supported LTE frequency bands."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Wi-Fi 4 (802.11 b/g/n) reported",
+          "normalizedValue": "Wi-Fi 4 (802.11 b/g/n)",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 4 (802.11 b/g/n)"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Bluetooth 5.0 reported",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "USB Type-C connector; data protocol not stated",
+          "normalizedValue": "USB Type-C; data protocol not recorded",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data protocol not recorded"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "NFC is not listed in the exact-SKU or reviewed Philippine specifications.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the exact-SKU or reviewed Philippine specifications."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "GPS",
+          "normalizedValue": "GPS",
+          "note": "GPS is stated on the exact product page; other satellite constellations are not specified."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Built-in speaker/microphone and 3.5mm audio jack reported",
+          "normalizedValue": "Built-in speaker and microphone; 3.5mm audio jack",
+          "catalogKey": "sound",
+          "catalogValue": "Built-in speaker and microphone; 3.5mm audio jack"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "Accelerometer, light, orientation, proximity, gyroscope, sound and magnetic sensors reported",
+          "normalizedValue": "Accelerometer; light; orientation; proximity; gyroscope; sound; magnetic"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "abc_x10p_official_product",
+          "sourceValue": "Dedicated active-stylus support and a compatible stylus are not identified on the exact product page.",
+          "normalizedValue": null,
+          "note": "Dedicated active-stylus support and a compatible stylus are not identified on the exact product page."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "abc_x10_keyboard",
+          "sourceValue": "Optional Key Touch Docking Keyboard DK-BK-X10 has separate X10 and X10 Plus fit options",
+          "normalizedValue": "Optional compatible DK-BK-X10 docking keyboard; not confirmed included",
+          "catalogKey": "keyboard",
+          "catalogValue": "Optional compatible DK-BK-X10 docking keyboard; not confirmed included",
+          "note": "Official accessory page lists ABC TECH X10 and X10 Plus as separate selectable fits. It does not establish that the keyboard is bundled with the tablet."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "abc_x10_gizguide",
+          "sourceValue": "4G LTE dual-SIM configuration reported; no separate Wi-Fi-only SKU located",
+          "normalizedValue": "4G LTE dual-SIM reported; Wi-Fi-only variant not located",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE dual-SIM reported; Wi-Fi-only variant not located"
+        }
+      ],
+      "modelCode": "X10P-CB-10I-8128",
+      "sku": "X10P-CB-10I-8128",
+      "replacementVariants": [
+        {
+          "id": "device_01ffae05ba688a-8gb-128gb",
+          "label": "8 GB RAM / 128 GB storage",
+          "sku": "X10P-CB-10I-8128",
+          "modelCode": "X10P-CB-10I-8128",
+          "notes": "Manufacturer SKU from ABC Tech's official exact product page; eligibility remains Pending."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine release verified from the manufacturer-hosted 2023 launch story and an exact ABC Tech Philippines store SKU. Current list price PHP 11,499 was observed 2026-11-27; stock/checkout not confirmed.",
+        "philippineAvailability": "ABC Tech's manufacturer-hosted Philippine story states this model was released July 28, 2023. Exact official Philippine store listing observed 2026-11-27.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; exact manufacturer SKU, memory configuration and Philippine launch date verified. Manufacturer store list price dated; stock not checked. Display/camera/source discrepancies remain documented; eligibility remains Pending.",
+        "catalogModel": "X10 Plus Study Buddy Tablet",
+        "manufacturer": "ABC Tech Ventures Inc.",
+        "productLine": "Study Buddy",
+        "modelNumber": "X10P-CB-10I-8128",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Manufacturer-reported Philippine release date",
+        "researchNotes": "Workbook row 171 (X10+) is matched to ABC Tech Ventures Inc. X10 Plus Study Buddy Tablet exact manufacturer SKU X10P-CB-10I-8128 (8 GB RAM / 128 GB storage). It remains a distinct device from the X10 and retains study scope Pending. Philippine release is stated as 2023-07-28 in the manufacturer-hosted story. The current exact-SKU page lists PHP 11,499; checkout/stock not confirmed. Conflicts or source inconsistencies are explicitly retained in per-field evidence. The official product image is an exact-model match but its reuse permission is undocumented, so a neutral placeholder remains.",
+        "openIssues": [
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve the workbook's selected scope until study screening rules are applied."
+          },
+          {
+            "issue": "Official product page lists a current price but stock/checkout is not confirmed",
+            "action": "Keep the dated list price without representing the tablet as in stock."
+          },
+          {
+            "issue": "The product image's reuse/license terms are undocumented",
+            "action": "Keep the neutral placeholder and record the exact official image URL for rights review."
+          },
+          {
+            "issue": "Manufacturer and local sources disagree or use ambiguous wording on some specifications",
+            "action": "Use exact-SKU primary evidence where clear; leave truly conflicting normalized values blank and retain candidate evidence."
+          }
+        ]
+      }
     }
   ]
 }
