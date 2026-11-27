@@ -89983,141 +89983,6 @@
       ]
     },
     {
-      "deviceId": "device_b3800bdea59d3d",
-      "configurationId": "device_b3800bdea59d3d-unrecorded",
-      "brand": "Apple",
-      "model": "iPad mini 6",
-      "configurationLabel": "Configuration not recorded",
-      "sources": [
-        {
-          "id": "apple_ipad_mini_6_tech_specs",
-          "publisher": "Apple Support",
-          "url": "https://support.apple.com/en-us/111886",
-          "publicationDate": "2021-01-01",
-          "accessDate": "2026-11-25",
-          "purpose": "Official manufacturer technical specifications",
-          "note": "Apple technical specifications for iPad mini 6; model-level values do not establish Philippine sales or the workbook's exact storage configuration."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "8.3 in",
-          "normalizedValue": 8.3,
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayInches",
-          "catalogValue": 8.3,
-          "unit": "in"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "LCD IPS",
-          "normalizedValue": "LCD IPS",
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayType",
-          "catalogValue": "LCD IPS"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "1488 x 2266",
-          "normalizedValue": "1488 x 2266",
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "resolution",
-          "catalogValue": "1488 x 2266"
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "Apple A15 Bionic",
-          "normalizedValue": "Apple A15 Bionic",
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "chipset",
-          "catalogValue": "Apple A15 Bionic"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "6-core CPU",
-          "normalizedValue": "6-core CPU",
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "cpu",
-          "catalogValue": "6-core CPU"
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "5-core Apple GPU",
-          "normalizedValue": "5-core Apple GPU",
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "gpu",
-          "catalogValue": "5-core Apple GPU"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "12 MP",
-          "normalizedValue": 12,
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 12,
-          "unit": "MP"
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "Wi-Fi 6 (802.11ax)",
-          "normalizedValue": "Wi-Fi 6 (802.11ax)",
-          "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6 (802.11ax)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "Wi-Fi: 293 g; Wi-Fi + Cellular: 297 g",
-          "normalizedValue": "Wi-Fi: 293 g; Wi-Fi + Cellular: 297 g",
-          "note": "Apple lists different weights by connectivity configuration. The inventory does not identify which connectivity option applies.",
-          "clearCatalogKey": "weightG"
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "64GB or 256GB",
-          "normalizedValue": "Manufacturer model options: 64GB or 256GB; inventory SKU not recorded.",
-          "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "NOT_DISCLOSED",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
-          "normalizedValue": null,
-          "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
-        },
-        {
-          "fieldId": "philippine_release_date",
-          "status": "PENDING_VERIFICATION",
-          "sourceId": "apple_ipad_mini_6_tech_specs",
-          "sourceValue": "Apple records worldwide year introduced as 2021; this is not a Philippine first-sale date.",
-          "normalizedValue": null,
-          "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
-        }
-      ]
-    },
-    {
       "deviceId": "device_f526cf5006b2f8",
       "configurationId": "config_b3c69f6891ff28",
       "brand": "Apple",
@@ -184081,6 +183946,2164 @@
           {
             "issue": "Study eligibility remains Pending",
             "action": "Preserve workbook scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_b3800bdea59d3d",
+      "configurationId": "device_b3800bdea59d3d-64gb-wifi",
+      "brand": "Apple",
+      "model": "iPad mini 6",
+      "configuration": "64 GB / Wi-Fi",
+      "configurationLabel": "64 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad_mini6_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ie/111886",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad mini (6th generation)",
+          "note": "Apple lists 64GB and 256GB capacities, display, A15 CPU/GPU, cameras, battery energy, dimensions/weights by connectivity, A2568 cellular bands, wireless, SIM, ports, sensors and Pencil compatibility."
+        },
+        {
+          "id": "apple_ipad_mini6_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2567 as iPad mini (6th generation), A2568 as Wi-Fi + Cellular and A2569 as the China-mainland-only cellular model; capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad_mini6_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apple-unveils-new-ipad-mini-with-breakthrough-performance-in-stunning-new-design/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, original OS and product overview",
+          "note": "Apple announced the iPad mini on 2021-09-14 and said store availability in initial markets begins 2021-09-24. The launch release names A15 Bionic, 5G, Pencil 2, iPadOS 15 and product features."
+        },
+        {
+          "id": "yugatech_ipad_mini6_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad mini was available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says it could be purchased on Apple Philippines, and gives four prices. It does not state the first-sale date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad_mini6_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as buyable current price",
+          "note": "The page displays exact iPad mini 6 variants and prices with Add controls but marks the store CLOSED and out of delivery range. Current stock/orderability is not verified; values are retained only as page-listed observations."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "A2567",
+          "normalizedValue": "A2567",
+          "note": "Apple maps A2567 to Wi-Fi, A2568 to Wi-Fi + Cellular and A2569 to the separate China-mainland cellular model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's newsroom gives the announcement date and store availability in initial markets. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "64GB / Wi-Fi; model A2567",
+          "normalizedValue": "64 GB / Wi-Fi / A2567",
+          "note": "Apple identifies 64GB and 256GB capacities and separates Wi-Fi model A2567 from Wi-Fi + Cellular A2568. Colors do not change the technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that iPad mini (2021) was available in the Philippines; the report does not give the first-sale date.",
+          "normalizedValue": null,
+          "note": "Keep the exact Philippine first-sale date blank; the source supports availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "PHP 29,990 (64GB, Wi-Fi) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 29990,
+          "note": "Contemporaneous Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says it could be purchased from Apple Philippines. It does not explicitly call this the first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad_mini6_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 35,490 for 64 GB / Wi-Fi on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page marks its store CLOSED and says delivery is unavailable for the selected location. Retain as a dated retailer page observation only; not a currently buyable price and not included in numeric price filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "8.3-inch diagonal",
+          "normalizedValue": 8.3,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 8.3,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Liquid Retina LED-backlit Multi-Touch IPS display",
+          "normalizedValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "2266-by-1488 pixels",
+          "normalizedValue": "2266 x 1488",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2266 x 1488"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a display refresh rate in the reviewed specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating, full lamination and anti-reflective coating",
+          "normalizedValue": "Fully laminated; anti-reflective; fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "A15 Bionic chip",
+          "normalizedValue": "Apple A15 Bionic",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A15 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed iPad mini technical specification does not state the semiconductor process node.",
+          "normalizedValue": null,
+          "note": "No process node inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "6-core CPU with 2 performance cores and 4 efficiency cores",
+          "normalizedValue": "6-core CPU (2 performance + 4 efficiency)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cpu",
+          "catalogValue": "6-core CPU (2 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "5-core GPU",
+          "normalizedValue": "5-core Apple GPU",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "gpu",
+          "catalogValue": "5-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform; iPadOS 15 was the original launch version. No current OS version is asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed iPadOS support end date on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "End-of-support date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no third-party estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "64GB",
+          "normalizedValue": 64,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C supports external storage accessories; internal capacity is 64GB or 256GB",
+          "normalizedValue": "USB-C external storage accessories supported",
+          "note": "Apple's 2021 release describes connecting external storage accessories over USB-C. This does not change the built-in storage capacity."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Wide camera, ƒ/1.8; Quad-LED True Tone flash",
+          "normalizedValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not identify the rear sensor manufacturer or sensor model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No rear Ultra Wide camera is listed; the rear camera is a single 12MP Wide camera.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; front: 1080p at 25/30/60fps; rear slow motion 1080p at 120/240fps",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Built-in 19.3Wh rechargeable lithium-polymer battery; mAh not stated",
+          "normalizedValue": 19.3,
+          "note": "Apple states battery energy in watt-hours, not mAh. No conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 19.3,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C charging is listed; 20W USB-C adapter is included, but maximum device input wattage is not stated.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not used as a tablet charging-rate claim.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wireless/reverse charging of the tablet is not specified on Apple's technical specification.",
+          "normalizedValue": null,
+          "note": "No charging capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "195.4 × 134.8 × 6.3 mm",
+          "normalizedValue": "195.4 x 134.8 x 6.3 mm",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "195.4 x 134.8 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi: 293g; Wi-Fi + Cellular: 297g",
+          "normalizedValue": 293,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 293,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "100% recycled aluminum enclosure",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Apple's announcement identifies an aluminum enclosure; recycled content describes material sourcing, not a different chassis material."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed specifications do not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "Wi-Fi-only model A2567; cellular SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Apple identifies A2567 Wi-Fi and A2568 Wi-Fi + Cellular as separate models."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "Wi-Fi-only A2567 has no cellular radio",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi configuration."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple lists GPS/GNSS only for Wi-Fi + Cellular models",
+          "normalizedValue": null,
+          "note": "No GPS/GNSS feature is claimed for Wi-Fi-only A2567."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi model A2567",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "normalizedValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "NFC is not listed in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Landscape stereo speakers; dual microphones",
+          "normalizedValue": "Landscape stereo speakers; dual microphones",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer and ambient light sensor",
+          "normalizedValue": "Touch ID; three-axis gyro; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Apple's launch materials list Apple Pencil and Smart Folio accessories; no keyboard accessory is specified.",
+          "normalizedValue": null,
+          "note": "No physical keyboard compatibility claim inferred from the accessory list."
+        }
+      ],
+      "modelCode": "A2567",
+      "replacementVariants": [
+        {
+          "id": "device_b3800bdea59d3d-64gb-wifi",
+          "label": "64 GB / Wi-Fi",
+          "modelCode": "A2567",
+          "notes": "Distinct Apple storage/connectivity configuration; finish colors are not split."
+        },
+        {
+          "id": "device_b3800bdea59d3d-256gb-wifi",
+          "label": "256 GB / Wi-Fi",
+          "modelCode": "A2567",
+          "notes": "Distinct Apple storage/connectivity configuration; finish colors are not split."
+        },
+        {
+          "id": "device_b3800bdea59d3d-64gb-wifi-cellular",
+          "label": "64 GB / Wi-Fi + Cellular",
+          "modelCode": "A2568",
+          "notes": "Distinct Apple storage/connectivity configuration; finish colors are not split."
+        },
+        {
+          "id": "device_b3800bdea59d3d-256gb-wifi-cellular",
+          "label": "256 GB / Wi-Fi + Cellular",
+          "modelCode": "A2568",
+          "notes": "Distinct Apple storage/connectivity configuration; finish colors are not split."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says the 2021 iPad mini was available in the Philippines and could be purchased on Apple Philippines. It lists this exact configuration's contemporaneous price but does not state the first-sale date. The reviewed PMC page is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to the Apple Philippines purchase page; exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad mini 6",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad mini",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad mini 6 entry is matched to Apple's 2021 iPad mini (6th generation), with 64GB/256GB Wi-Fi (A2567) and Wi-Fi + Cellular (A2568) configurations. YugaTech reported availability in the Philippines on 2021-10-10 and listed all four prices, but no exact first-sale date. Pick.A.Roo displays a closed-store/out-of-range notice, so page prices are retained as non-orderable observations, not current offers. Apple does not disclose RAM or battery mAh. The official exact-family diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep the exact date blank; preserve the 2021-10-10 dated availability report."
+          },
+          {
+            "issue": "RAM capacity/type, storage interface and current buyable stock/price remain unverified",
+            "action": "Keep unrecorded; use only the contemporaneous historical price evidence."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain the official exact-family image source for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_b3800bdea59d3d",
+      "configurationId": "device_b3800bdea59d3d-256gb-wifi",
+      "brand": "Apple",
+      "model": "iPad mini 6",
+      "configuration": "256 GB / Wi-Fi",
+      "configurationLabel": "256 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad_mini6_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ie/111886",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad mini (6th generation)",
+          "note": "Apple lists 64GB and 256GB capacities, display, A15 CPU/GPU, cameras, battery energy, dimensions/weights by connectivity, A2568 cellular bands, wireless, SIM, ports, sensors and Pencil compatibility."
+        },
+        {
+          "id": "apple_ipad_mini6_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2567 as iPad mini (6th generation), A2568 as Wi-Fi + Cellular and A2569 as the China-mainland-only cellular model; capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad_mini6_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apple-unveils-new-ipad-mini-with-breakthrough-performance-in-stunning-new-design/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, original OS and product overview",
+          "note": "Apple announced the iPad mini on 2021-09-14 and said store availability in initial markets begins 2021-09-24. The launch release names A15 Bionic, 5G, Pencil 2, iPadOS 15 and product features."
+        },
+        {
+          "id": "yugatech_ipad_mini6_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad mini was available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says it could be purchased on Apple Philippines, and gives four prices. It does not state the first-sale date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad_mini6_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as buyable current price",
+          "note": "The page displays exact iPad mini 6 variants and prices with Add controls but marks the store CLOSED and out of delivery range. Current stock/orderability is not verified; values are retained only as page-listed observations."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "A2567",
+          "normalizedValue": "A2567",
+          "note": "Apple maps A2567 to Wi-Fi, A2568 to Wi-Fi + Cellular and A2569 to the separate China-mainland cellular model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's newsroom gives the announcement date and store availability in initial markets. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "256GB / Wi-Fi; model A2567",
+          "normalizedValue": "256 GB / Wi-Fi / A2567",
+          "note": "Apple identifies 64GB and 256GB capacities and separates Wi-Fi model A2567 from Wi-Fi + Cellular A2568. Colors do not change the technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that iPad mini (2021) was available in the Philippines; the report does not give the first-sale date.",
+          "normalizedValue": null,
+          "note": "Keep the exact Philippine first-sale date blank; the source supports availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "PHP 38,990 (256GB, Wi-Fi) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 38990,
+          "note": "Contemporaneous Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says it could be purchased from Apple Philippines. It does not explicitly call this the first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad_mini6_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 44,990 for 256 GB / Wi-Fi on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page marks its store CLOSED and says delivery is unavailable for the selected location. Retain as a dated retailer page observation only; not a currently buyable price and not included in numeric price filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "8.3-inch diagonal",
+          "normalizedValue": 8.3,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 8.3,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Liquid Retina LED-backlit Multi-Touch IPS display",
+          "normalizedValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "2266-by-1488 pixels",
+          "normalizedValue": "2266 x 1488",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2266 x 1488"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a display refresh rate in the reviewed specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating, full lamination and anti-reflective coating",
+          "normalizedValue": "Fully laminated; anti-reflective; fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "A15 Bionic chip",
+          "normalizedValue": "Apple A15 Bionic",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A15 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed iPad mini technical specification does not state the semiconductor process node.",
+          "normalizedValue": null,
+          "note": "No process node inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "6-core CPU with 2 performance cores and 4 efficiency cores",
+          "normalizedValue": "6-core CPU (2 performance + 4 efficiency)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cpu",
+          "catalogValue": "6-core CPU (2 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "5-core GPU",
+          "normalizedValue": "5-core Apple GPU",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "gpu",
+          "catalogValue": "5-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform; iPadOS 15 was the original launch version. No current OS version is asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed iPadOS support end date on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "End-of-support date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no third-party estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "256GB",
+          "normalizedValue": 256,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C supports external storage accessories; internal capacity is 64GB or 256GB",
+          "normalizedValue": "USB-C external storage accessories supported",
+          "note": "Apple's 2021 release describes connecting external storage accessories over USB-C. This does not change the built-in storage capacity."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Wide camera, ƒ/1.8; Quad-LED True Tone flash",
+          "normalizedValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not identify the rear sensor manufacturer or sensor model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No rear Ultra Wide camera is listed; the rear camera is a single 12MP Wide camera.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; front: 1080p at 25/30/60fps; rear slow motion 1080p at 120/240fps",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Built-in 19.3Wh rechargeable lithium-polymer battery; mAh not stated",
+          "normalizedValue": 19.3,
+          "note": "Apple states battery energy in watt-hours, not mAh. No conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 19.3,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C charging is listed; 20W USB-C adapter is included, but maximum device input wattage is not stated.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not used as a tablet charging-rate claim.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wireless/reverse charging of the tablet is not specified on Apple's technical specification.",
+          "normalizedValue": null,
+          "note": "No charging capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "195.4 × 134.8 × 6.3 mm",
+          "normalizedValue": "195.4 x 134.8 x 6.3 mm",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "195.4 x 134.8 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi: 293g; Wi-Fi + Cellular: 297g",
+          "normalizedValue": 293,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 293,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "100% recycled aluminum enclosure",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Apple's announcement identifies an aluminum enclosure; recycled content describes material sourcing, not a different chassis material."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed specifications do not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "Wi-Fi-only model A2567; cellular SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Apple identifies A2567 Wi-Fi and A2568 Wi-Fi + Cellular as separate models."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "Wi-Fi-only A2567 has no cellular radio",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi configuration."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple lists GPS/GNSS only for Wi-Fi + Cellular models",
+          "normalizedValue": null,
+          "note": "No GPS/GNSS feature is claimed for Wi-Fi-only A2567."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi model A2567",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "normalizedValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "NFC is not listed in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Landscape stereo speakers; dual microphones",
+          "normalizedValue": "Landscape stereo speakers; dual microphones",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer and ambient light sensor",
+          "normalizedValue": "Touch ID; three-axis gyro; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Apple's launch materials list Apple Pencil and Smart Folio accessories; no keyboard accessory is specified.",
+          "normalizedValue": null,
+          "note": "No physical keyboard compatibility claim inferred from the accessory list."
+        }
+      ],
+      "modelCode": "A2567",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says the 2021 iPad mini was available in the Philippines and could be purchased on Apple Philippines. It lists this exact configuration's contemporaneous price but does not state the first-sale date. The reviewed PMC page is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to the Apple Philippines purchase page; exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad mini 6",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad mini",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad mini 6 entry is matched to Apple's 2021 iPad mini (6th generation), with 64GB/256GB Wi-Fi (A2567) and Wi-Fi + Cellular (A2568) configurations. YugaTech reported availability in the Philippines on 2021-10-10 and listed all four prices, but no exact first-sale date. Pick.A.Roo displays a closed-store/out-of-range notice, so page prices are retained as non-orderable observations, not current offers. Apple does not disclose RAM or battery mAh. The official exact-family diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep the exact date blank; preserve the 2021-10-10 dated availability report."
+          },
+          {
+            "issue": "RAM capacity/type, storage interface and current buyable stock/price remain unverified",
+            "action": "Keep unrecorded; use only the contemporaneous historical price evidence."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain the official exact-family image source for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_b3800bdea59d3d",
+      "configurationId": "device_b3800bdea59d3d-64gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad mini 6",
+      "configuration": "64 GB / Wi-Fi + Cellular",
+      "configurationLabel": "64 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad_mini6_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ie/111886",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad mini (6th generation)",
+          "note": "Apple lists 64GB and 256GB capacities, display, A15 CPU/GPU, cameras, battery energy, dimensions/weights by connectivity, A2568 cellular bands, wireless, SIM, ports, sensors and Pencil compatibility."
+        },
+        {
+          "id": "apple_ipad_mini6_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2567 as iPad mini (6th generation), A2568 as Wi-Fi + Cellular and A2569 as the China-mainland-only cellular model; capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad_mini6_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apple-unveils-new-ipad-mini-with-breakthrough-performance-in-stunning-new-design/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, original OS and product overview",
+          "note": "Apple announced the iPad mini on 2021-09-14 and said store availability in initial markets begins 2021-09-24. The launch release names A15 Bionic, 5G, Pencil 2, iPadOS 15 and product features."
+        },
+        {
+          "id": "yugatech_ipad_mini6_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad mini was available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says it could be purchased on Apple Philippines, and gives four prices. It does not state the first-sale date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad_mini6_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as buyable current price",
+          "note": "The page displays exact iPad mini 6 variants and prices with Add controls but marks the store CLOSED and out of delivery range. Current stock/orderability is not verified; values are retained only as page-listed observations."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "A2568",
+          "normalizedValue": "A2568",
+          "note": "Apple maps A2567 to Wi-Fi, A2568 to Wi-Fi + Cellular and A2569 to the separate China-mainland cellular model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's newsroom gives the announcement date and store availability in initial markets. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "64GB / Wi-Fi + Cellular; model A2568",
+          "normalizedValue": "64 GB / Wi-Fi + Cellular / A2568",
+          "note": "Apple identifies 64GB and 256GB capacities and separates Wi-Fi model A2567 from Wi-Fi + Cellular A2568. Colors do not change the technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that iPad mini (2021) was available in the Philippines; the report does not give the first-sale date.",
+          "normalizedValue": null,
+          "note": "Keep the exact Philippine first-sale date blank; the source supports availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "PHP 38,990 (64GB, Wi-Fi + Cellular) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 38990,
+          "note": "Contemporaneous Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says it could be purchased from Apple Philippines. It does not explicitly call this the first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad_mini6_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 44,990 for 64 GB / Wi-Fi + Cellular on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page marks its store CLOSED and says delivery is unavailable for the selected location. Retain as a dated retailer page observation only; not a currently buyable price and not included in numeric price filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "8.3-inch diagonal",
+          "normalizedValue": 8.3,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 8.3,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Liquid Retina LED-backlit Multi-Touch IPS display",
+          "normalizedValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "2266-by-1488 pixels",
+          "normalizedValue": "2266 x 1488",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2266 x 1488"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a display refresh rate in the reviewed specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating, full lamination and anti-reflective coating",
+          "normalizedValue": "Fully laminated; anti-reflective; fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "A15 Bionic chip",
+          "normalizedValue": "Apple A15 Bionic",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A15 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed iPad mini technical specification does not state the semiconductor process node.",
+          "normalizedValue": null,
+          "note": "No process node inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "6-core CPU with 2 performance cores and 4 efficiency cores",
+          "normalizedValue": "6-core CPU (2 performance + 4 efficiency)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cpu",
+          "catalogValue": "6-core CPU (2 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "5-core GPU",
+          "normalizedValue": "5-core Apple GPU",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "gpu",
+          "catalogValue": "5-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform; iPadOS 15 was the original launch version. No current OS version is asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed iPadOS support end date on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "End-of-support date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no third-party estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "64GB",
+          "normalizedValue": 64,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C supports external storage accessories; internal capacity is 64GB or 256GB",
+          "normalizedValue": "USB-C external storage accessories supported",
+          "note": "Apple's 2021 release describes connecting external storage accessories over USB-C. This does not change the built-in storage capacity."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Wide camera, ƒ/1.8; Quad-LED True Tone flash",
+          "normalizedValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not identify the rear sensor manufacturer or sensor model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No rear Ultra Wide camera is listed; the rear camera is a single 12MP Wide camera.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; front: 1080p at 25/30/60fps; rear slow motion 1080p at 120/240fps",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Built-in 19.3Wh rechargeable lithium-polymer battery; mAh not stated",
+          "normalizedValue": 19.3,
+          "note": "Apple states battery energy in watt-hours, not mAh. No conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 19.3,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C charging is listed; 20W USB-C adapter is included, but maximum device input wattage is not stated.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not used as a tablet charging-rate claim.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wireless/reverse charging of the tablet is not specified on Apple's technical specification.",
+          "normalizedValue": null,
+          "note": "No charging capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "195.4 × 134.8 × 6.3 mm",
+          "normalizedValue": "195.4 x 134.8 x 6.3 mm",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "195.4 x 134.8 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi: 293g; Wi-Fi + Cellular: 297g",
+          "normalizedValue": 297,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 297,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "100% recycled aluminum enclosure",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Apple's announcement identifies an aluminum enclosure; recycled content describes material sourcing, not a different chassis material."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed specifications do not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular model A2568 lists Nano-SIM and eSIM",
+          "normalizedValue": "Nano-SIM and eSIM",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM and eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "A2568 5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n25/n28/n29/n30/n38/n40/n41/n48/n66/n71/n77/n78/n79; FDD-LTE: 1/2/3/4/5/7/8/11/12/13/14/17/18/19/20/21/25/26/28/29/30/32/66/71; TD-LTE: 34/38/39/40/41/42/46/48; UMTS 850/900/1700-2100/1900/2100 MHz",
+          "normalizedValue": "A2568 5G NR and LTE bands per Apple",
+          "note": "Apple lists these bands for A2568. Carrier frequency support and network availability depend on the local carrier and market."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "GPS/GNSS on Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular model A2568 with 5G/LTE radios",
+          "normalizedValue": "Wi-Fi + Cellular; 5G/LTE",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular; 5G/LTE"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "normalizedValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "NFC is not listed in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Landscape stereo speakers; dual microphones",
+          "normalizedValue": "Landscape stereo speakers; dual microphones",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer and ambient light sensor",
+          "normalizedValue": "Touch ID; three-axis gyro; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Apple's launch materials list Apple Pencil and Smart Folio accessories; no keyboard accessory is specified.",
+          "normalizedValue": null,
+          "note": "No physical keyboard compatibility claim inferred from the accessory list."
+        }
+      ],
+      "modelCode": "A2568",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says the 2021 iPad mini was available in the Philippines and could be purchased on Apple Philippines. It lists this exact configuration's contemporaneous price but does not state the first-sale date. The reviewed PMC page is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to the Apple Philippines purchase page; exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad mini 6",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad mini",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad mini 6 entry is matched to Apple's 2021 iPad mini (6th generation), with 64GB/256GB Wi-Fi (A2567) and Wi-Fi + Cellular (A2568) configurations. YugaTech reported availability in the Philippines on 2021-10-10 and listed all four prices, but no exact first-sale date. Pick.A.Roo displays a closed-store/out-of-range notice, so page prices are retained as non-orderable observations, not current offers. Apple does not disclose RAM or battery mAh. The official exact-family diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep the exact date blank; preserve the 2021-10-10 dated availability report."
+          },
+          {
+            "issue": "RAM capacity/type, storage interface and current buyable stock/price remain unverified",
+            "action": "Keep unrecorded; use only the contemporaneous historical price evidence."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain the official exact-family image source for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_b3800bdea59d3d",
+      "configurationId": "device_b3800bdea59d3d-256gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad mini 6",
+      "configuration": "256 GB / Wi-Fi + Cellular",
+      "configurationLabel": "256 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad_mini6_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ie/111886",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad mini (6th generation)",
+          "note": "Apple lists 64GB and 256GB capacities, display, A15 CPU/GPU, cameras, battery energy, dimensions/weights by connectivity, A2568 cellular bands, wireless, SIM, ports, sensors and Pencil compatibility."
+        },
+        {
+          "id": "apple_ipad_mini6_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2567 as iPad mini (6th generation), A2568 as Wi-Fi + Cellular and A2569 as the China-mainland-only cellular model; capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad_mini6_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apple-unveils-new-ipad-mini-with-breakthrough-performance-in-stunning-new-design/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, original OS and product overview",
+          "note": "Apple announced the iPad mini on 2021-09-14 and said store availability in initial markets begins 2021-09-24. The launch release names A15 Bionic, 5G, Pencil 2, iPadOS 15 and product features."
+        },
+        {
+          "id": "yugatech_ipad_mini6_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad mini was available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says it could be purchased on Apple Philippines, and gives four prices. It does not state the first-sale date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad_mini6_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as buyable current price",
+          "note": "The page displays exact iPad mini 6 variants and prices with Add controls but marks the store CLOSED and out of delivery range. Current stock/orderability is not verified; values are retained only as page-listed observations."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_model_identification",
+          "sourceValue": "A2568",
+          "normalizedValue": "A2568",
+          "note": "Apple maps A2567 to Wi-Fi, A2568 to Wi-Fi + Cellular and A2569 to the separate China-mainland cellular model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's newsroom gives the announcement date and store availability in initial markets. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "256GB / Wi-Fi + Cellular; model A2568",
+          "normalizedValue": "256 GB / Wi-Fi + Cellular / A2568",
+          "note": "Apple identifies 64GB and 256GB capacities and separates Wi-Fi model A2567 from Wi-Fi + Cellular A2568. Colors do not change the technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that iPad mini (2021) was available in the Philippines; the report does not give the first-sale date.",
+          "normalizedValue": null,
+          "note": "Keep the exact Philippine first-sale date blank; the source supports availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad_mini6_ph",
+          "sourceValue": "PHP 47,990 (256GB, Wi-Fi + Cellular) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 47990,
+          "note": "Contemporaneous Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says it could be purchased from Apple Philippines. It does not explicitly call this the first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad_mini6_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 54,490 for 256 GB / Wi-Fi + Cellular on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page marks its store CLOSED and says delivery is unavailable for the selected location. Retain as a dated retailer page observation only; not a currently buyable price and not included in numeric price filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "8.3-inch diagonal",
+          "normalizedValue": 8.3,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 8.3,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Liquid Retina LED-backlit Multi-Touch IPS display",
+          "normalizedValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "2266-by-1488 pixels",
+          "normalizedValue": "2266 x 1488",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2266 x 1488"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a display refresh rate in the reviewed specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating, full lamination and anti-reflective coating",
+          "normalizedValue": "Fully laminated; anti-reflective; fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "A15 Bionic chip",
+          "normalizedValue": "Apple A15 Bionic",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A15 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed iPad mini technical specification does not state the semiconductor process node.",
+          "normalizedValue": null,
+          "note": "No process node inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "6-core CPU with 2 performance cores and 4 efficiency cores",
+          "normalizedValue": "6-core CPU (2 performance + 4 efficiency)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cpu",
+          "catalogValue": "6-core CPU (2 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "5-core GPU",
+          "normalizedValue": "5-core Apple GPU",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "gpu",
+          "catalogValue": "5-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform; iPadOS 15 was the original launch version. No current OS version is asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed iPadOS support end date on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "End-of-support date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no third-party estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "256GB",
+          "normalizedValue": 256,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C supports external storage accessories; internal capacity is 64GB or 256GB",
+          "normalizedValue": "USB-C external storage accessories supported",
+          "note": "Apple's 2021 release describes connecting external storage accessories over USB-C. This does not change the built-in storage capacity."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Wide camera, ƒ/1.8; Quad-LED True Tone flash",
+          "normalizedValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; f/1.8; Quad-LED True Tone flash"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple does not identify the rear sensor manufacturer or sensor model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No rear Ultra Wide camera is listed; the rear camera is a single 12MP Wide camera.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; front: 1080p at 25/30/60fps; rear slow motion 1080p at 120/240fps",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Built-in 19.3Wh rechargeable lithium-polymer battery; mAh not stated",
+          "normalizedValue": 19.3,
+          "note": "Apple states battery energy in watt-hours, not mAh. No conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 19.3,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C charging is listed; 20W USB-C adapter is included, but maximum device input wattage is not stated.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not used as a tablet charging-rate claim.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wireless/reverse charging of the tablet is not specified on Apple's technical specification.",
+          "normalizedValue": null,
+          "note": "No charging capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "195.4 × 134.8 × 6.3 mm",
+          "normalizedValue": "195.4 x 134.8 x 6.3 mm",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "195.4 x 134.8 x 6.3 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi: 293g; Wi-Fi + Cellular: 297g",
+          "normalizedValue": 297,
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 297,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "100% recycled aluminum enclosure",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Apple's announcement identifies an aluminum enclosure; recycled content describes material sourcing, not a different chassis material."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple's reviewed specifications do not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular model A2568 lists Nano-SIM and eSIM",
+          "normalizedValue": "Nano-SIM and eSIM",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM and eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "A2568 5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n25/n28/n29/n30/n38/n40/n41/n48/n66/n71/n77/n78/n79; FDD-LTE: 1/2/3/4/5/7/8/11/12/13/14/17/18/19/20/21/25/26/28/29/30/32/66/71; TD-LTE: 34/38/39/40/41/42/46/48; UMTS 850/900/1700-2100/1900/2100 MHz",
+          "normalizedValue": "A2568 5G NR and LTE bands per Apple",
+          "note": "Apple lists these bands for A2568. Carrier frequency support and network availability depend on the local carrier and market."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "GPS/GNSS on Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular model A2568 with 5G/LTE radios",
+          "normalizedValue": "Wi-Fi + Cellular; 5G/LTE",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular; 5G/LTE"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "normalizedValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 1 up to 5Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "NFC is not listed in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Landscape stereo speakers; dual microphones",
+          "normalizedValue": "Landscape stereo speakers; dual microphones",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer and ambient light sensor",
+          "normalizedValue": "Touch ID; three-axis gyro; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_mini6_tech_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad mini (6th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_mini6_newsroom",
+          "sourceValue": "Apple's launch materials list Apple Pencil and Smart Folio accessories; no keyboard accessory is specified.",
+          "normalizedValue": null,
+          "note": "No physical keyboard compatibility claim inferred from the accessory list."
+        }
+      ],
+      "modelCode": "A2568",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says the 2021 iPad mini was available in the Philippines and could be purchased on Apple Philippines. It lists this exact configuration's contemporaneous price but does not state the first-sale date. The reviewed PMC page is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to the Apple Philippines purchase page; exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad mini 6",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad mini",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad mini 6 entry is matched to Apple's 2021 iPad mini (6th generation), with 64GB/256GB Wi-Fi (A2567) and Wi-Fi + Cellular (A2568) configurations. YugaTech reported availability in the Philippines on 2021-10-10 and listed all four prices, but no exact first-sale date. Pick.A.Roo displays a closed-store/out-of-range notice, so page prices are retained as non-orderable observations, not current offers. Apple does not disclose RAM or battery mAh. The official exact-family diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep the exact date blank; preserve the 2021-10-10 dated availability report."
+          },
+          {
+            "issue": "RAM capacity/type, storage interface and current buyable stock/price remain unverified",
+            "action": "Keep unrecorded; use only the contemporaneous historical price evidence."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain the official exact-family image source for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
           }
         ]
       }

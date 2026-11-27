@@ -1,0 +1,183 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "brand": "Apple",
+      "model_name": "iPad mini 6",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "source_url": "https://support.apple.com/en-ie/111886",
+      "source_kind": "Technical specifications for iPad mini (6th generation)",
+      "status": "reviewed",
+      "result": "Apple lists 64GB and 256GB capacities, display, A15 CPU/GPU, cameras, battery energy, dimensions/weights by connectivity, A2568 cellular bands, wireless, SIM, ports, sensors and Pencil compatibility."
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "source_url": "https://support.apple.com/en-us/108043",
+      "source_kind": "Exact model number, generation, capacity and connectivity mapping",
+      "status": "reviewed",
+      "result": "Apple identifies A2567 as iPad mini (6th generation), A2568 as Wi-Fi + Cellular and A2569 as the China-mainland-only cellular model; capacities are 64GB and 256GB."
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "source_url": "https://www.apple.com/newsroom/2021/09/apple-unveils-new-ipad-mini-with-breakthrough-performance-in-stunning-new-design/",
+      "source_kind": "Announcement, initial-market availability, original OS and product overview",
+      "status": "reviewed",
+      "result": "Apple announced the iPad mini on 2021-09-14 and said store availability in initial markets begins 2021-09-24. The launch release names A15 Bionic, 5G, Pencil 2, iPadOS 15 and product features."
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "Dated Philippine availability and configuration prices",
+      "status": "reviewed",
+      "result": "Article dated 2021-10-10 says the 2021 iPad mini was available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says it could be purchased on Apple Philippines, and gives four prices. It does not state the first-sale date."
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "Exact configuration retailer-listing price cross-check; not used as buyable current price",
+      "status": "reviewed",
+      "result": "The page displays exact iPad mini 6 variants and prices with Add controls but marks the store CLOSED and out of delivery range. Current stock/orderability is not verified; values are retained only as page-listed observations."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 29990,
+      "configuration_id": "device_b3800bdea59d3d-64gb-wifi",
+      "configuration_match": "exact_apple_ipad_mini6_64gb_wifi_ph_2021",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability lists PHP 29,990 for 64GB Wi-Fi; exact first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 35490,
+      "configuration_id": "device_b3800bdea59d3d-64gb-wifi",
+      "configuration_match": "exact_apple_ipad_mini6_64gb_wifi_pickaroo_page_listing",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displays PHP 35,490 for this exact configuration with Add controls, but marks the store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 38990,
+      "configuration_id": "device_b3800bdea59d3d-256gb-wifi",
+      "configuration_match": "exact_apple_ipad_mini6_256gb_wifi_ph_2021",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability lists PHP 38,990 for 256GB Wi-Fi; exact first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 44990,
+      "configuration_id": "device_b3800bdea59d3d-256gb-wifi",
+      "configuration_match": "exact_apple_ipad_mini6_256gb_wifi_pickaroo_page_listing",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displays PHP 44,990 for this exact configuration with Add controls, but marks the store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 38990,
+      "configuration_id": "device_b3800bdea59d3d-64gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad_mini6_64gb_wifi_cellular_ph_2021",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability lists PHP 38,990 for 64GB Wi-Fi + Cellular; exact first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 44990,
+      "configuration_id": "device_b3800bdea59d3d-64gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad_mini6_64gb_wifi_cellular_pickaroo_page_listing",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displays PHP 44,990 for this exact configuration with Add controls, but marks the store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 47990,
+      "configuration_id": "device_b3800bdea59d3d-256gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad_mini6_256gb_wifi_cellular_ph_2021",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability lists PHP 47,990 for 256GB Wi-Fi + Cellular; exact first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_b3800bdea59d3d",
+      "amount_php": 54490,
+      "configuration_id": "device_b3800bdea59d3d-256gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad_mini6_256gb_wifi_cellular_pickaroo_page_listing",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displays PHP 54,490 for this exact configuration with Add controls, but marks the store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    }
+  ]
+}

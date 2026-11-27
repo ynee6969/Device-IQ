@@ -4216,5 +4216,18 @@
     "rightsCheckSourcePage": "https://support.apple.com/en-us/111898",
     "observedAt": "2026-11-27",
     "altText": "Image unavailable for Apple iPad 9th Gen"
+  },
+  "device_b3800bdea59d3d": {
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact-family Apple Support diagram was found, but it is not a product photograph and no permission or reusable license to republish or hotlink it is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://support.apple.com/en-ie/111886",
+    "assetUrl": null,
+    "candidateAssetUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111886_sp850-ipad-mini-6gen-480.png",
+    "scope": "Official Apple Support diagram for iPad mini (6th generation); exact family, not specific to storage/connectivity configuration.",
+    "rightsTermsUrl": null,
+    "rightsCheck": "No reuse permission or license was found on the reviewed page. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://support.apple.com/en-ie/111886",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for Apple iPad mini 6"
   }
 }

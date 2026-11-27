@@ -425,6 +425,148 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_b3800bdea59d3d",
+      "model": "iPad mini 6",
+      "supersededConfigurationId": "device_b3800bdea59d3d-unrecorded",
+      "supersededAt": "2026-11-27",
+      "reason": "Replaced one model-level placeholder with four exact Apple storage/connectivity configurations; underlying source observations are preserved.",
+      "review": {
+        "deviceId": "device_b3800bdea59d3d",
+        "configurationId": "device_b3800bdea59d3d-unrecorded",
+        "brand": "Apple",
+        "model": "iPad mini 6",
+        "configurationLabel": "Configuration not recorded",
+        "sources": [
+          {
+            "id": "apple_ipad_mini_6_tech_specs",
+            "publisher": "Apple Support",
+            "url": "https://support.apple.com/en-us/111886",
+            "publicationDate": "2021-01-01",
+            "accessDate": "2026-11-25",
+            "purpose": "Official manufacturer technical specifications",
+            "note": "Apple technical specifications for iPad mini 6; model-level values do not establish Philippine sales or the workbook's exact storage configuration."
+          }
+        ],
+        "fields": [
+          {
+            "fieldId": "display_size",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "8.3 in",
+            "normalizedValue": 8.3,
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "displayInches",
+            "catalogValue": 8.3,
+            "unit": "in"
+          },
+          {
+            "fieldId": "display_technology",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "LCD IPS",
+            "normalizedValue": "LCD IPS",
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "displayType",
+            "catalogValue": "LCD IPS"
+          },
+          {
+            "fieldId": "display_resolution",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "1488 x 2266",
+            "normalizedValue": "1488 x 2266",
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "resolution",
+            "catalogValue": "1488 x 2266"
+          },
+          {
+            "fieldId": "chipset",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "Apple A15 Bionic",
+            "normalizedValue": "Apple A15 Bionic",
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "chipset",
+            "catalogValue": "Apple A15 Bionic"
+          },
+          {
+            "fieldId": "cpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "6-core CPU",
+            "normalizedValue": "6-core CPU",
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "cpu",
+            "catalogValue": "6-core CPU"
+          },
+          {
+            "fieldId": "gpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "5-core Apple GPU",
+            "normalizedValue": "5-core Apple GPU",
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "gpu",
+            "catalogValue": "5-core Apple GPU"
+          },
+          {
+            "fieldId": "front_camera",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "12 MP",
+            "normalizedValue": 12,
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "frontCameraMp",
+            "catalogValue": 12,
+            "unit": "MP"
+          },
+          {
+            "fieldId": "wifi",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "Wi-Fi 6 (802.11ax)",
+            "normalizedValue": "Wi-Fi 6 (802.11ax)",
+            "note": "Official Apple specifications for iPad mini 6; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "wifi",
+            "catalogValue": "Wi-Fi 6 (802.11ax)"
+          },
+          {
+            "fieldId": "weight",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "Wi-Fi: 293 g; Wi-Fi + Cellular: 297 g",
+            "normalizedValue": "Wi-Fi: 293 g; Wi-Fi + Cellular: 297 g",
+            "note": "Apple lists different weights by connectivity configuration. The inventory does not identify which connectivity option applies.",
+            "clearCatalogKey": "weightG"
+          },
+          {
+            "fieldId": "storage_capacity",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "64GB or 256GB",
+            "normalizedValue": "Manufacturer model options: 64GB or 256GB; inventory SKU not recorded.",
+            "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
+          },
+          {
+            "fieldId": "battery_capacity",
+            "status": "NOT_DISCLOSED",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
+            "normalizedValue": null,
+            "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
+          },
+          {
+            "fieldId": "philippine_release_date",
+            "status": "PENDING_VERIFICATION",
+            "sourceId": "apple_ipad_mini_6_tech_specs",
+            "sourceValue": "Apple records worldwide year introduced as 2021; this is not a Philippine first-sale date.",
+            "normalizedValue": null,
+            "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
+          }
+        ]
+      }
     }
   ]
 }
