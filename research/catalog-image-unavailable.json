@@ -3876,12 +3876,12 @@
   },
   "device_82e9616b879292": {
     "status": "REUSE_PERMISSION_REQUIRED",
-    "reason": "Samsung states that its site content remains Samsung/licensor property and grants no reuse license for this use.",
+    "reason": "No exact-model device product photo with a reusable license was found. The Wikimedia Commons category reviewed contains photographs taken with the Tab S9 Ultra, not product images. Samsung Mobile Press terms restrict site material to personal, informational, non-commercial use and do not grant reuse for a public product catalog.",
     "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-ultra-5g-graphite-256gb-sm-x916bzaaxtc/",
     "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x916bzaaxtc/gallery/ph-galaxy-tab-s9-ultra-5g-x916-sm-x916bzaaxtc-thumb-538124151",
-    "scope": "Exact model; pictured colors may vary",
-    "rightsTermsUrl": "https://www.samsung.com/ph/business/info/legal/",
-    "observedAt": "2026-11-26",
+    "scope": "Galaxy Tab S9 Ultra model family; no image reused because exact-model product-image rights were not cleared.",
+    "rightsTermsUrl": "https://www.samsungmobilepress.com/terms",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for Samsung Galaxy Tab S9 Ultra"
   },
   "device_3bdcbc7b1b3d1b": {
