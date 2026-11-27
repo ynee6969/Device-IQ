@@ -29,7 +29,7 @@ test('every assigned image has a readable local asset and source; unmatched reco
     const metadata = await sharp(file).metadata();
     assert.ok(metadata.width >= 160 && metadata.height >= 160, `Image too small: ${device.model}`);
   }
-  assert.equal(mapped, 48);
-  assert.equal(catalog.length - mapped, 415);
+  assert.equal(mapped, 49);
+  assert.equal(catalog.length - mapped, 414);
   assert.equal(licensed, mapped);
 });

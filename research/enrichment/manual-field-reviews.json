@@ -201637,6 +201637,2823 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_7867f6ebccc2fa",
+      "configurationId": "device_7867f6ebccc2fa-sm-x710-8gb-128gb-wifi-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9",
+      "configuration": "8 GB RAM / 128 GB storage · Wi-Fi",
+      "configurationLabel": "8 GB RAM / 128 GB storage · Wi-Fi",
+      "sources": [
+        {
+          "id": "samsung_tab_s9_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-128gb-sm-x710nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAA XTC. Product specifications identify the 8 GB / 128 GB Wi-Fi variant and model-family technical details."
+        },
+        {
+          "id": "samsung_tab_s9_ph_wifi_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-256gb-sm-x710nzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB Wi-Fi configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-128gb-sm-x716bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAA XTC. Detailed table lists the local 5G model specifications, network bands, memory and storage."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-256gb-sm-x716bzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB 5G configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_newsroom_specs",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Local configuration table and launch specifications",
+          "note": "Samsung Philippines lists Android 13.0, an 11-inch Dynamic AMOLED 2X display, 60–120 Hz refresh rate, dimensions, Wi-Fi/5G weights, cameras, 8/128 and 12/256 GB versions, processor and 8,400 mAh typical battery."
+        },
+        {
+          "id": "samsung_tab_s9_ph_preorder_terms",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-tab-s9-preorder/",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Authorized local preorder window, pickup timing, SRPs and preorder offers",
+          "note": "Official terms show the July 26–August 17, 2023 local preorder period; customers could get preorder units as early as August 11. They list device SRPs and the 256 GB preorder prices with a free within-series storage upgrade."
+        },
+        {
+          "id": "samsung_tab_s9_ph_local_availability",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated confirmation of Philippine store and online availability",
+          "note": "Samsung Philippines reported the series available through participating local stores and online channels by September 6, 2023. This confirms local availability but not the exact first general-sale transaction."
+        },
+        {
+          "id": "samsung_tab_s9_ph_launch_prices",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+          "publicationDate": "2023-09-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch price cross-check",
+          "note": "Samsung Newsroom Philippines published variant SRPs on September 8, 2023: Wi-Fi 8/128 PHP 47,990, Wi-Fi 12/256 PHP 54,990, 5G 8/128 PHP 56,990, and 5G 12/256 PHP 63,990."
+        },
+        {
+          "id": "samsung_tab_s9_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Global announcement, availability timing, support policy and shared model specifications",
+          "note": "Samsung announced the Tab S9 series July 26, 2023 and said general availability in select markets began August 11, 2023. The global launch material identifies the Snapdragon 8 Gen 2 for Galaxy, IP68, included S Pen, Armor Aluminum and four OS generations plus five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_global_availability",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series",
+          "publicationDate": "2023-08-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Global market availability start date",
+          "note": "Samsung says the Galaxy Tab S9 series launched in selected markets on August 11, 2023; additional markets followed later."
+        },
+        {
+          "id": "samsung_tab_s9_45w_charging_support",
+          "publisher": "Samsung Support US",
+          "url": "https://www.samsung.com/us/support/answer/ANS10003691/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer charging capability",
+          "note": "Samsung support states that Galaxy Tab S9 models support 45 W Fast Charging 2.0 with a compatible charger and cable. This does not imply the charger is included."
+        },
+        {
+          "id": "samsung_tab_s9_5g_sim_esim_specs",
+          "publisher": "Samsung Switzerland Support",
+          "url": "https://www.samsung.com/ch/support/mobile-devices/vergleich-galaxy-tab-s9-serie/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer SIM capability for model codes SM-X716B / SM-X710",
+          "note": "Samsung's model-family table maps SM-X716B to the cellular model and identifies Nano-SIM (4FF) plus eSIM. The Wi-Fi-only SM-X710 does not take a SIM."
+        },
+        {
+          "id": "qualcomm_snapdragon_8_gen_2_specs",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-2-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chip process and platform-level technical details",
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 at 4 nm and a maximum CPU frequency up to 3.36 GHz; Samsung's exact Galaxy Tab S9 local product pages identify the Snapdragon 8 Gen 2 for Galaxy."
+        },
+        {
+          "id": "gsmarena_tab_s9_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model specification cross-check",
+          "note": "GSMArena's Galaxy Tab S9 specification table reports the octa-core CPU layout, Adreno 740 graphics, UFS storage, Corning Gorilla Glass without a revision, SIM/eSIM on cellular models, cameras, dimensions and other model-family details."
+        },
+        {
+          "id": "nanoreview_tab_s9_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary technical specifications and measurement references",
+          "note": "NanoReview lists LPDDR5X memory, screen brightness, storage and battery data for the Tab S9 family. Its page attributes measured display data to NotebookCheck; Samsung's Philippine product pages remain the primary source where available."
+        },
+        {
+          "id": "samsung_tab_s9_environment_report",
+          "publisher": "Samsung Electronics",
+          "url": "https://www.samsung.com/global/sustainability/landing_hub-file/AY_wCQf6BaEALYNu/Galaxy_Tab_S9_Environmental_Report_EN_2503.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer software support commitment",
+          "note": "Samsung's Galaxy Tab S9 product environmental report says four generations of OS upgrades and five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_ph_2025_promo",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+          "publicationDate": "2025-06-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated official local discount terms by storage and connectivity variant",
+          "note": "Expired offer valid June 1–30, 2025. Samsung's table lists each Tab S9 Wi-Fi/5G 128/256 GB SRP and PHP 8,000 discount. Dated promo prices are calculated from those explicit SRPs and discount amounts; they are not current offers."
+        },
+        {
+          "id": "yugatech_tab_s9_ph_prices",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/samsung-galaxy-tab-s9-series-priced-in-the-philippines/",
+          "publicationDate": "2023-08-03",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent local launch SRP and configuration cross-check",
+          "note": "YugaTech's August 3, 2023 report lists the same three Tab S9 SRPs as Samsung, but reports PHP 64,990 for 12/256 GB 5G while Samsung's preorder terms and September 8 Newsroom article list PHP 63,990. Both dated values are retained."
+        },
+        {
+          "id": "baratobot_tab_s9_5g_128_lazmall_price",
+          "publisher": "BaratoBot price tracker; seller shown as Samsung on LazMall",
+          "url": "https://baratobot.com/p/samsung-galaxy-tab-s9-5g-114759?v=6999",
+          "publicationDate": "2026-11-17",
+          "accessDate": "2026-11-27",
+          "purpose": "Recent dated Philippine retail listing for 8 GB / 128 GB 5G",
+          "note": "BaratoBot reported the Graphite 128 GB Samsung LazMall offer at PHP 50,990 and in stock on November 17, 2026. This is the tracker’s last observed date, not a November 27 checkout guarantee."
+        },
+        {
+          "id": "priceme_tab_s9_5g_256_current_listing",
+          "publisher": "PriceMe Philippines; retailer offer shown as Anson's",
+          "url": "https://ph.priceme.com/Samsung-Galaxy-Tab-S9-SM-X716-11in-5G-256GB/p-916292358.aspx",
+          "publicationDate": "2026-08-07",
+          "accessDate": "2026-11-27",
+          "purpose": "Current comparator listing and price history for 12 GB / 256 GB 5G",
+          "note": "PriceMe's page observed November 27, 2026 shows an in-stock Anson's offer at PHP 52,990. Its price history lists August 7, 2026 as the last price change, so direct checkout availability and condition remain unconfirmed."
+        },
+        {
+          "id": "commons_tab_s9_exact_model_image",
+          "publisher": "Striker9498 / Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Licensed exact-model photograph and attribution record",
+          "note": "The photo is captioned Samsung Galaxy Tab S9, dated July 29, 2023, and shows the device information screen naming Galaxy Tab S9 and model SM-X710. Used as a model-identification image; the exact storage configuration is not visible. Creator is Striker9498; CC BY-SA 4.0. Catalog asset will be resized and converted to WebP without cropping or subject edits."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "SM-X710",
+          "normalizedValue": "SM-X710",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_availability",
+          "sourceValue": "General availability in selected global markets began 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "Samsung's global newsroom identifies August 11, 2023 as the selected-market general availability date. The series was announced July 26; this is not a claim that every market released it on the same day."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "8 GB RAM / 128 GB storage · Wi-Fi",
+          "normalizedValue": "8 GB RAM / 128 GB storage · Wi-Fi",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_preorder_terms",
+          "sourceValue": "Samsung says preorder units could be collected as early as 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "This is the earliest local preorder-unit pickup date documented by Samsung Philippines, not a verified date of the first general retail sale. Samsung later reported local store and online availability by September 6, 2023."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_launch_prices",
+          "sourceValue": "PHP 47,990 official Philippine SRP for 8 GB RAM / 128 GB storage · Wi-Fi",
+          "normalizedValue": 47990,
+          "note": "Historical Philippine SRP in Samsung Philippines' dated product/preorder price table. This is a launch-era price, not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_tab_s9_ph_2025_promo",
+          "sourceValue": "No sufficiently recent, directly confirmed exact-configuration Philippine selling price was found for this Wi-Fi variant.",
+          "normalizedValue": null,
+          "note": "Historical SRPs and dated promotions are recorded separately. No current price is inferred from a stale product page or expired promotion.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "11.0 inches (full rectangle)",
+          "normalizedValue": 11,
+          "note": "Samsung lists an 11-inch full-rectangle measurement and 10.9 inches accounting for rounded corners.",
+          "catalogKey": "displayInches",
+          "catalogValue": 11,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Dynamic AMOLED 2X",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "2560 x 1600 (WQXGA)",
+          "normalizedValue": "2560 x 1600",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2560 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Dynamic refresh rate from 60 to 120 Hz",
+          "normalizedValue": 120,
+          "note": "Samsung says the panel dynamically adjusts from 60 to 120 Hz; catalog numeric value records the maximum refresh rate.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "NanoReview lists 600 nits maximum rated brightness and attributes measured data to NotebookCheck",
+          "normalizedValue": 600,
+          "note": "Secondary specification/measurement. Samsung Philippines does not publish a brightness rating for this model.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Corning Gorilla Glass; revision not specified",
+          "normalizedValue": "Corning Gorilla Glass (revision unspecified)",
+          "note": "GSMArena identifies Corning Gorilla Glass but does not specify the revision. Samsung's Philippine specifications do not name a glass version."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "qualcomm_snapdragon_8_gen_2_specs",
+          "sourceValue": "Snapdragon 8 Gen 2 is a 4 nm platform",
+          "normalizedValue": 4,
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 mobile platform as 4 nm; Samsung identifies the Galaxy Tab S9's chip as Snapdragon 8 Gen 2 for Galaxy.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Octa-core; CPU speed groups 3.36 GHz, 2.8 GHz and 2.0 GHz",
+          "normalizedValue": "Octa-core; 3.36 GHz / 2.8 GHz / 2.0 GHz",
+          "note": "Samsung Philippines lists these CPU speeds and an octa-core CPU on the exact local SKU page."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Adreno 740",
+          "normalizedValue": "Adreno 740",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Android 13.0 at launch",
+          "normalizedValue": "Android 13",
+          "note": "Samsung Philippines lists Android 13.0 in the local launch specification table; later updates are not substituted for launch software.",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_environment_report",
+          "sourceValue": "Four generations of One UI and Android OS upgrades; five years of security updates",
+          "normalizedValue": "Up to 4 OS generations; 5 years of security updates",
+          "note": "Manufacturer support commitment from Samsung's Galaxy Tab S9 product environmental report. This is the launch policy, not a statement that future updates remain available indefinitely."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "note": "NanoReview lists LPDDR5X for the Galaxy Tab S9 model family; Samsung Philippines does not state RAM type on the product page."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "UFS; revision not specified",
+          "normalizedValue": "UFS (revision unspecified)",
+          "note": "GSMArena lists UFS storage without a version. A faster UFS revision is not inferred for a local configuration from an unsourced family-level claim."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "MicroSD card support up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "13 MP autofocus rear camera",
+          "normalizedValue": "13 MP autofocus rear camera",
+          "note": "Samsung's exact Philippine SKU specifications list a single 13 MP autofocus rear camera.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "13 MP autofocus rear camera"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "No exact image-sensor component name was disclosed in the reviewed manufacturer or independent specifications.",
+          "normalizedValue": null,
+          "note": "Megapixel count and autofocus are documented; the sensor part number is not. No sensor model is inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no rear ultra-wide module",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no telephoto module",
+          "normalizedValue": "No telephoto camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "12 MP ultra-wide front camera",
+          "normalizedValue": "12 MP ultra-wide",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": "12 MP ultra-wide",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Rear video: UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "8,400 mAh typical; Samsung lists 8,160 mAh rated/minimum",
+          "normalizedValue": 8400,
+          "note": "Samsung's 8,400 mAh figure is typical capacity; the manufacturer's footnote states rated/minimum capacity is 8,160 mAh.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8400,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "GSMArena reports Li-Po; NanoReview reports Li-Ion; Samsung does not specify chemistry.",
+          "normalizedValue": null,
+          "note": "Independent sources disagree on battery chemistry, and Samsung's local specification page does not identify it. Chemistry is withheld.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Po",
+              "sourceUrl": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "GSMArena lists Li-Po battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists Li-Ion battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_45w_charging_support",
+          "sourceValue": "45 W Fast Charging 2.0 with a compatible adapter and cable",
+          "normalizedValue": 45,
+          "note": "Samsung support lists 45 W capability. A compatible charger and cable are required; this does not state they are included.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "Not supported",
+          "normalizedValue": "Not supported",
+          "note": "NanoReview marks wireless charging as unsupported. Samsung's specifications do not list wireless charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "165.8 x 254.3 x 5.9 mm",
+          "normalizedValue": "165.8 x 254.3 x 5.9 mm",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.8 x 254.3 x 5.9 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "498 g (Wi-Fi model)",
+          "normalizedValue": 498,
+          "note": "Samsung lists 498 g for Wi-Fi and 500 g for 5G models.",
+          "catalogKey": "weightG",
+          "catalogValue": 498,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "Armor Aluminum frame",
+          "normalizedValue": "Armor Aluminum frame",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_5g_sim_esim_specs",
+          "sourceValue": "Wi-Fi-only SKU; no SIM or eSIM",
+          "normalizedValue": "No SIM; Wi-Fi only",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "sim",
+          "catalogValue": "No SIM; Wi-Fi only"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Not applicable: this local SKU is Wi-Fi-only.",
+          "normalizedValue": null,
+          "note": "No cellular modem is included in the SM-X710 Wi-Fi configuration."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Wi-Fi-only model",
+          "normalizedValue": "Wi-Fi only",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "802.11 a/b/g/n/ac/ax on 2.4, 5 and 6 GHz; Wi-Fi 6E",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "bluetooth",
+          "catalogValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C; USB 3.2 Gen 1",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Quad speakers with AKG tuning and Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Accelerometer, fingerprint, gyroscope, geomagnetic, Hall and RGB light sensors",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; RGB light",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "IP68-rated S Pen included in the box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_128_specs",
+          "sourceValue": "Book Cover Keyboard supported; sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory support is separate from time-limited 2023 preorder keyboard offers.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X710",
+      "sku": "SM-X710NZAA XTC",
+      "replacementVariants": [
+        {
+          "id": "device_7867f6ebccc2fa-sm-x710-8gb-128gb-wifi-ph",
+          "label": "8 GB RAM / 128 GB storage · Wi-Fi",
+          "sku": "SM-X710NZAA XTC",
+          "modelCode": "SM-X710",
+          "notes": "Exact Samsung Philippines SKU verified from the local product page."
+        },
+        {
+          "id": "device_7867f6ebccc2fa-sm-x710-12gb-256gb-wifi-ph",
+          "label": "12 GB RAM / 256 GB storage · Wi-Fi",
+          "sku": "SM-X710NZAE XTC",
+          "modelCode": "SM-X710",
+          "notes": "Exact Samsung Philippines SKU verified from the local product page."
+        },
+        {
+          "id": "device_7867f6ebccc2fa-sm-x716b-8gb-128gb-5g-ph",
+          "label": "8 GB RAM / 128 GB storage · 5G",
+          "sku": "SM-X716BZAA XTC",
+          "modelCode": "SM-X716B",
+          "notes": "Exact Samsung Philippines SKU verified from the local product page."
+        },
+        {
+          "id": "device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph",
+          "label": "12 GB RAM / 256 GB storage · 5G",
+          "sku": "SM-X716BZAE XTC",
+          "modelCode": "SM-X716B",
+          "notes": "Exact Samsung Philippines SKU verified from the local product page."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Authorized Philippine preorder pickup documented from 2023-08-11; local stores and online availability reported by 2023-09-06.",
+        "philippineAvailabilityDate": "2023-08-11",
+        "philippineDateLabel": "Earliest preorder pickup",
+        "philippineAvailability": "Samsung Philippines' authorized preorder terms say units could be collected as early as August 11, 2023; its September 6 newsroom article reports availability through participating local stores and online channels. Exact first general-sale date remains unresolved.",
+        "observedAt": "2023-09-06",
+        "philippineReleaseYear": 2023,
+        "catalogModel": "Galaxy Tab S9",
+        "qualityFlag": "Earliest preorder pickup documented; exact first general-sale date unresolved.",
+        "openIssues": [
+          {
+            "issue": "Exact date of first general retail sale was not found.",
+            "action": "Retain August 11, 2023 as earliest documented preorder pickup; do not label it the first retail sale."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_7867f6ebccc2fa",
+      "configurationId": "device_7867f6ebccc2fa-sm-x710-12gb-256gb-wifi-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9",
+      "configuration": "12 GB RAM / 256 GB storage · Wi-Fi",
+      "configurationLabel": "12 GB RAM / 256 GB storage · Wi-Fi",
+      "sources": [
+        {
+          "id": "samsung_tab_s9_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-128gb-sm-x710nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAA XTC. Product specifications identify the 8 GB / 128 GB Wi-Fi variant and model-family technical details."
+        },
+        {
+          "id": "samsung_tab_s9_ph_wifi_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-256gb-sm-x710nzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB Wi-Fi configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-128gb-sm-x716bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAA XTC. Detailed table lists the local 5G model specifications, network bands, memory and storage."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-256gb-sm-x716bzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB 5G configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_newsroom_specs",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Local configuration table and launch specifications",
+          "note": "Samsung Philippines lists Android 13.0, an 11-inch Dynamic AMOLED 2X display, 60–120 Hz refresh rate, dimensions, Wi-Fi/5G weights, cameras, 8/128 and 12/256 GB versions, processor and 8,400 mAh typical battery."
+        },
+        {
+          "id": "samsung_tab_s9_ph_preorder_terms",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-tab-s9-preorder/",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Authorized local preorder window, pickup timing, SRPs and preorder offers",
+          "note": "Official terms show the July 26–August 17, 2023 local preorder period; customers could get preorder units as early as August 11. They list device SRPs and the 256 GB preorder prices with a free within-series storage upgrade."
+        },
+        {
+          "id": "samsung_tab_s9_ph_local_availability",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated confirmation of Philippine store and online availability",
+          "note": "Samsung Philippines reported the series available through participating local stores and online channels by September 6, 2023. This confirms local availability but not the exact first general-sale transaction."
+        },
+        {
+          "id": "samsung_tab_s9_ph_launch_prices",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+          "publicationDate": "2023-09-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch price cross-check",
+          "note": "Samsung Newsroom Philippines published variant SRPs on September 8, 2023: Wi-Fi 8/128 PHP 47,990, Wi-Fi 12/256 PHP 54,990, 5G 8/128 PHP 56,990, and 5G 12/256 PHP 63,990."
+        },
+        {
+          "id": "samsung_tab_s9_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Global announcement, availability timing, support policy and shared model specifications",
+          "note": "Samsung announced the Tab S9 series July 26, 2023 and said general availability in select markets began August 11, 2023. The global launch material identifies the Snapdragon 8 Gen 2 for Galaxy, IP68, included S Pen, Armor Aluminum and four OS generations plus five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_global_availability",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series",
+          "publicationDate": "2023-08-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Global market availability start date",
+          "note": "Samsung says the Galaxy Tab S9 series launched in selected markets on August 11, 2023; additional markets followed later."
+        },
+        {
+          "id": "samsung_tab_s9_45w_charging_support",
+          "publisher": "Samsung Support US",
+          "url": "https://www.samsung.com/us/support/answer/ANS10003691/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer charging capability",
+          "note": "Samsung support states that Galaxy Tab S9 models support 45 W Fast Charging 2.0 with a compatible charger and cable. This does not imply the charger is included."
+        },
+        {
+          "id": "samsung_tab_s9_5g_sim_esim_specs",
+          "publisher": "Samsung Switzerland Support",
+          "url": "https://www.samsung.com/ch/support/mobile-devices/vergleich-galaxy-tab-s9-serie/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer SIM capability for model codes SM-X716B / SM-X710",
+          "note": "Samsung's model-family table maps SM-X716B to the cellular model and identifies Nano-SIM (4FF) plus eSIM. The Wi-Fi-only SM-X710 does not take a SIM."
+        },
+        {
+          "id": "qualcomm_snapdragon_8_gen_2_specs",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-2-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chip process and platform-level technical details",
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 at 4 nm and a maximum CPU frequency up to 3.36 GHz; Samsung's exact Galaxy Tab S9 local product pages identify the Snapdragon 8 Gen 2 for Galaxy."
+        },
+        {
+          "id": "gsmarena_tab_s9_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model specification cross-check",
+          "note": "GSMArena's Galaxy Tab S9 specification table reports the octa-core CPU layout, Adreno 740 graphics, UFS storage, Corning Gorilla Glass without a revision, SIM/eSIM on cellular models, cameras, dimensions and other model-family details."
+        },
+        {
+          "id": "nanoreview_tab_s9_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary technical specifications and measurement references",
+          "note": "NanoReview lists LPDDR5X memory, screen brightness, storage and battery data for the Tab S9 family. Its page attributes measured display data to NotebookCheck; Samsung's Philippine product pages remain the primary source where available."
+        },
+        {
+          "id": "samsung_tab_s9_environment_report",
+          "publisher": "Samsung Electronics",
+          "url": "https://www.samsung.com/global/sustainability/landing_hub-file/AY_wCQf6BaEALYNu/Galaxy_Tab_S9_Environmental_Report_EN_2503.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer software support commitment",
+          "note": "Samsung's Galaxy Tab S9 product environmental report says four generations of OS upgrades and five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_ph_2025_promo",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+          "publicationDate": "2025-06-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated official local discount terms by storage and connectivity variant",
+          "note": "Expired offer valid June 1–30, 2025. Samsung's table lists each Tab S9 Wi-Fi/5G 128/256 GB SRP and PHP 8,000 discount. Dated promo prices are calculated from those explicit SRPs and discount amounts; they are not current offers."
+        },
+        {
+          "id": "yugatech_tab_s9_ph_prices",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/samsung-galaxy-tab-s9-series-priced-in-the-philippines/",
+          "publicationDate": "2023-08-03",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent local launch SRP and configuration cross-check",
+          "note": "YugaTech's August 3, 2023 report lists the same three Tab S9 SRPs as Samsung, but reports PHP 64,990 for 12/256 GB 5G while Samsung's preorder terms and September 8 Newsroom article list PHP 63,990. Both dated values are retained."
+        },
+        {
+          "id": "baratobot_tab_s9_5g_128_lazmall_price",
+          "publisher": "BaratoBot price tracker; seller shown as Samsung on LazMall",
+          "url": "https://baratobot.com/p/samsung-galaxy-tab-s9-5g-114759?v=6999",
+          "publicationDate": "2026-11-17",
+          "accessDate": "2026-11-27",
+          "purpose": "Recent dated Philippine retail listing for 8 GB / 128 GB 5G",
+          "note": "BaratoBot reported the Graphite 128 GB Samsung LazMall offer at PHP 50,990 and in stock on November 17, 2026. This is the tracker’s last observed date, not a November 27 checkout guarantee."
+        },
+        {
+          "id": "priceme_tab_s9_5g_256_current_listing",
+          "publisher": "PriceMe Philippines; retailer offer shown as Anson's",
+          "url": "https://ph.priceme.com/Samsung-Galaxy-Tab-S9-SM-X716-11in-5G-256GB/p-916292358.aspx",
+          "publicationDate": "2026-08-07",
+          "accessDate": "2026-11-27",
+          "purpose": "Current comparator listing and price history for 12 GB / 256 GB 5G",
+          "note": "PriceMe's page observed November 27, 2026 shows an in-stock Anson's offer at PHP 52,990. Its price history lists August 7, 2026 as the last price change, so direct checkout availability and condition remain unconfirmed."
+        },
+        {
+          "id": "commons_tab_s9_exact_model_image",
+          "publisher": "Striker9498 / Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Licensed exact-model photograph and attribution record",
+          "note": "The photo is captioned Samsung Galaxy Tab S9, dated July 29, 2023, and shows the device information screen naming Galaxy Tab S9 and model SM-X710. Used as a model-identification image; the exact storage configuration is not visible. Creator is Striker9498; CC BY-SA 4.0. Catalog asset will be resized and converted to WebP without cropping or subject edits."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "SM-X710",
+          "normalizedValue": "SM-X710",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_availability",
+          "sourceValue": "General availability in selected global markets began 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "Samsung's global newsroom identifies August 11, 2023 as the selected-market general availability date. The series was announced July 26; this is not a claim that every market released it on the same day."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "12 GB RAM / 256 GB storage · Wi-Fi",
+          "normalizedValue": "12 GB RAM / 256 GB storage · Wi-Fi",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_preorder_terms",
+          "sourceValue": "Samsung says preorder units could be collected as early as 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "This is the earliest local preorder-unit pickup date documented by Samsung Philippines, not a verified date of the first general retail sale. Samsung later reported local store and online availability by September 6, 2023."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_launch_prices",
+          "sourceValue": "PHP 54,990 official Philippine SRP for 12 GB RAM / 256 GB storage · Wi-Fi",
+          "normalizedValue": 54990,
+          "note": "Historical Philippine SRP in Samsung Philippines' dated product/preorder price table. This is a launch-era price, not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_tab_s9_ph_2025_promo",
+          "sourceValue": "No sufficiently recent, directly confirmed exact-configuration Philippine selling price was found for this Wi-Fi variant.",
+          "normalizedValue": null,
+          "note": "Historical SRPs and dated promotions are recorded separately. No current price is inferred from a stale product page or expired promotion.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "11.0 inches (full rectangle)",
+          "normalizedValue": 11,
+          "note": "Samsung lists an 11-inch full-rectangle measurement and 10.9 inches accounting for rounded corners.",
+          "catalogKey": "displayInches",
+          "catalogValue": 11,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Dynamic AMOLED 2X",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "2560 x 1600 (WQXGA)",
+          "normalizedValue": "2560 x 1600",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2560 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Dynamic refresh rate from 60 to 120 Hz",
+          "normalizedValue": 120,
+          "note": "Samsung says the panel dynamically adjusts from 60 to 120 Hz; catalog numeric value records the maximum refresh rate.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "NanoReview lists 600 nits maximum rated brightness and attributes measured data to NotebookCheck",
+          "normalizedValue": 600,
+          "note": "Secondary specification/measurement. Samsung Philippines does not publish a brightness rating for this model.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Corning Gorilla Glass; revision not specified",
+          "normalizedValue": "Corning Gorilla Glass (revision unspecified)",
+          "note": "GSMArena identifies Corning Gorilla Glass but does not specify the revision. Samsung's Philippine specifications do not name a glass version."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "qualcomm_snapdragon_8_gen_2_specs",
+          "sourceValue": "Snapdragon 8 Gen 2 is a 4 nm platform",
+          "normalizedValue": 4,
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 mobile platform as 4 nm; Samsung identifies the Galaxy Tab S9's chip as Snapdragon 8 Gen 2 for Galaxy.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Octa-core; CPU speed groups 3.36 GHz, 2.8 GHz and 2.0 GHz",
+          "normalizedValue": "Octa-core; 3.36 GHz / 2.8 GHz / 2.0 GHz",
+          "note": "Samsung Philippines lists these CPU speeds and an octa-core CPU on the exact local SKU page."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Adreno 740",
+          "normalizedValue": "Adreno 740",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Android 13.0 at launch",
+          "normalizedValue": "Android 13",
+          "note": "Samsung Philippines lists Android 13.0 in the local launch specification table; later updates are not substituted for launch software.",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_environment_report",
+          "sourceValue": "Four generations of One UI and Android OS upgrades; five years of security updates",
+          "normalizedValue": "Up to 4 OS generations; 5 years of security updates",
+          "note": "Manufacturer support commitment from Samsung's Galaxy Tab S9 product environmental report. This is the launch policy, not a statement that future updates remain available indefinitely."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "12 GB",
+          "normalizedValue": 12,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "note": "NanoReview lists LPDDR5X for the Galaxy Tab S9 model family; Samsung Philippines does not state RAM type on the product page."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "UFS; revision not specified",
+          "normalizedValue": "UFS (revision unspecified)",
+          "note": "GSMArena lists UFS storage without a version. A faster UFS revision is not inferred for a local configuration from an unsourced family-level claim."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "MicroSD card support up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "13 MP autofocus rear camera",
+          "normalizedValue": "13 MP autofocus rear camera",
+          "note": "Samsung's exact Philippine SKU specifications list a single 13 MP autofocus rear camera.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "13 MP autofocus rear camera"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "No exact image-sensor component name was disclosed in the reviewed manufacturer or independent specifications.",
+          "normalizedValue": null,
+          "note": "Megapixel count and autofocus are documented; the sensor part number is not. No sensor model is inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no rear ultra-wide module",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no telephoto module",
+          "normalizedValue": "No telephoto camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "12 MP ultra-wide front camera",
+          "normalizedValue": "12 MP ultra-wide",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": "12 MP ultra-wide",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Rear video: UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "8,400 mAh typical; Samsung lists 8,160 mAh rated/minimum",
+          "normalizedValue": 8400,
+          "note": "Samsung's 8,400 mAh figure is typical capacity; the manufacturer's footnote states rated/minimum capacity is 8,160 mAh.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8400,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "GSMArena reports Li-Po; NanoReview reports Li-Ion; Samsung does not specify chemistry.",
+          "normalizedValue": null,
+          "note": "Independent sources disagree on battery chemistry, and Samsung's local specification page does not identify it. Chemistry is withheld.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Po",
+              "sourceUrl": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "GSMArena lists Li-Po battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists Li-Ion battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_45w_charging_support",
+          "sourceValue": "45 W Fast Charging 2.0 with a compatible adapter and cable",
+          "normalizedValue": 45,
+          "note": "Samsung support lists 45 W capability. A compatible charger and cable are required; this does not state they are included.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "Not supported",
+          "normalizedValue": "Not supported",
+          "note": "NanoReview marks wireless charging as unsupported. Samsung's specifications do not list wireless charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "165.8 x 254.3 x 5.9 mm",
+          "normalizedValue": "165.8 x 254.3 x 5.9 mm",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.8 x 254.3 x 5.9 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "498 g (Wi-Fi model)",
+          "normalizedValue": 498,
+          "note": "Samsung lists 498 g for Wi-Fi and 500 g for 5G models.",
+          "catalogKey": "weightG",
+          "catalogValue": 498,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "Armor Aluminum frame",
+          "normalizedValue": "Armor Aluminum frame",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_5g_sim_esim_specs",
+          "sourceValue": "Wi-Fi-only SKU; no SIM or eSIM",
+          "normalizedValue": "No SIM; Wi-Fi only",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "sim",
+          "catalogValue": "No SIM; Wi-Fi only"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Not applicable: this local SKU is Wi-Fi-only.",
+          "normalizedValue": null,
+          "note": "No cellular modem is included in the SM-X710 Wi-Fi configuration."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Wi-Fi-only model",
+          "normalizedValue": "Wi-Fi only",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "802.11 a/b/g/n/ac/ax on 2.4, 5 and 6 GHz; Wi-Fi 6E",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "bluetooth",
+          "catalogValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C; USB 3.2 Gen 1",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Quad speakers with AKG tuning and Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Accelerometer, fingerprint, gyroscope, geomagnetic, Hall and RGB light sensors",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; RGB light",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "IP68-rated S Pen included in the box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_wifi_256_specs",
+          "sourceValue": "Book Cover Keyboard supported; sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory support is separate from time-limited 2023 preorder keyboard offers.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X710",
+      "sku": "SM-X710NZAE XTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Authorized Philippine preorder pickup documented from 2023-08-11; local stores and online availability reported by 2023-09-06.",
+        "philippineAvailabilityDate": "2023-08-11",
+        "philippineDateLabel": "Earliest preorder pickup",
+        "philippineAvailability": "Samsung Philippines' authorized preorder terms say units could be collected as early as August 11, 2023; its September 6 newsroom article reports availability through participating local stores and online channels. Exact first general-sale date remains unresolved.",
+        "observedAt": "2023-09-06",
+        "philippineReleaseYear": 2023,
+        "catalogModel": "Galaxy Tab S9",
+        "qualityFlag": "Earliest preorder pickup documented; exact first general-sale date unresolved.",
+        "openIssues": [
+          {
+            "issue": "Exact date of first general retail sale was not found.",
+            "action": "Retain August 11, 2023 as earliest documented preorder pickup; do not label it the first retail sale."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_7867f6ebccc2fa",
+      "configurationId": "device_7867f6ebccc2fa-sm-x716b-8gb-128gb-5g-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9",
+      "configuration": "8 GB RAM / 128 GB storage · 5G",
+      "configurationLabel": "8 GB RAM / 128 GB storage · 5G",
+      "sources": [
+        {
+          "id": "samsung_tab_s9_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-128gb-sm-x710nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAA XTC. Product specifications identify the 8 GB / 128 GB Wi-Fi variant and model-family technical details."
+        },
+        {
+          "id": "samsung_tab_s9_ph_wifi_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-256gb-sm-x710nzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB Wi-Fi configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-128gb-sm-x716bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAA XTC. Detailed table lists the local 5G model specifications, network bands, memory and storage."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-256gb-sm-x716bzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB 5G configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_newsroom_specs",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Local configuration table and launch specifications",
+          "note": "Samsung Philippines lists Android 13.0, an 11-inch Dynamic AMOLED 2X display, 60–120 Hz refresh rate, dimensions, Wi-Fi/5G weights, cameras, 8/128 and 12/256 GB versions, processor and 8,400 mAh typical battery."
+        },
+        {
+          "id": "samsung_tab_s9_ph_preorder_terms",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-tab-s9-preorder/",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Authorized local preorder window, pickup timing, SRPs and preorder offers",
+          "note": "Official terms show the July 26–August 17, 2023 local preorder period; customers could get preorder units as early as August 11. They list device SRPs and the 256 GB preorder prices with a free within-series storage upgrade."
+        },
+        {
+          "id": "samsung_tab_s9_ph_local_availability",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated confirmation of Philippine store and online availability",
+          "note": "Samsung Philippines reported the series available through participating local stores and online channels by September 6, 2023. This confirms local availability but not the exact first general-sale transaction."
+        },
+        {
+          "id": "samsung_tab_s9_ph_launch_prices",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+          "publicationDate": "2023-09-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch price cross-check",
+          "note": "Samsung Newsroom Philippines published variant SRPs on September 8, 2023: Wi-Fi 8/128 PHP 47,990, Wi-Fi 12/256 PHP 54,990, 5G 8/128 PHP 56,990, and 5G 12/256 PHP 63,990."
+        },
+        {
+          "id": "samsung_tab_s9_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Global announcement, availability timing, support policy and shared model specifications",
+          "note": "Samsung announced the Tab S9 series July 26, 2023 and said general availability in select markets began August 11, 2023. The global launch material identifies the Snapdragon 8 Gen 2 for Galaxy, IP68, included S Pen, Armor Aluminum and four OS generations plus five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_global_availability",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series",
+          "publicationDate": "2023-08-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Global market availability start date",
+          "note": "Samsung says the Galaxy Tab S9 series launched in selected markets on August 11, 2023; additional markets followed later."
+        },
+        {
+          "id": "samsung_tab_s9_45w_charging_support",
+          "publisher": "Samsung Support US",
+          "url": "https://www.samsung.com/us/support/answer/ANS10003691/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer charging capability",
+          "note": "Samsung support states that Galaxy Tab S9 models support 45 W Fast Charging 2.0 with a compatible charger and cable. This does not imply the charger is included."
+        },
+        {
+          "id": "samsung_tab_s9_5g_sim_esim_specs",
+          "publisher": "Samsung Switzerland Support",
+          "url": "https://www.samsung.com/ch/support/mobile-devices/vergleich-galaxy-tab-s9-serie/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer SIM capability for model codes SM-X716B / SM-X710",
+          "note": "Samsung's model-family table maps SM-X716B to the cellular model and identifies Nano-SIM (4FF) plus eSIM. The Wi-Fi-only SM-X710 does not take a SIM."
+        },
+        {
+          "id": "qualcomm_snapdragon_8_gen_2_specs",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-2-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chip process and platform-level technical details",
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 at 4 nm and a maximum CPU frequency up to 3.36 GHz; Samsung's exact Galaxy Tab S9 local product pages identify the Snapdragon 8 Gen 2 for Galaxy."
+        },
+        {
+          "id": "gsmarena_tab_s9_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model specification cross-check",
+          "note": "GSMArena's Galaxy Tab S9 specification table reports the octa-core CPU layout, Adreno 740 graphics, UFS storage, Corning Gorilla Glass without a revision, SIM/eSIM on cellular models, cameras, dimensions and other model-family details."
+        },
+        {
+          "id": "nanoreview_tab_s9_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary technical specifications and measurement references",
+          "note": "NanoReview lists LPDDR5X memory, screen brightness, storage and battery data for the Tab S9 family. Its page attributes measured display data to NotebookCheck; Samsung's Philippine product pages remain the primary source where available."
+        },
+        {
+          "id": "samsung_tab_s9_environment_report",
+          "publisher": "Samsung Electronics",
+          "url": "https://www.samsung.com/global/sustainability/landing_hub-file/AY_wCQf6BaEALYNu/Galaxy_Tab_S9_Environmental_Report_EN_2503.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer software support commitment",
+          "note": "Samsung's Galaxy Tab S9 product environmental report says four generations of OS upgrades and five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_ph_2025_promo",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+          "publicationDate": "2025-06-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated official local discount terms by storage and connectivity variant",
+          "note": "Expired offer valid June 1–30, 2025. Samsung's table lists each Tab S9 Wi-Fi/5G 128/256 GB SRP and PHP 8,000 discount. Dated promo prices are calculated from those explicit SRPs and discount amounts; they are not current offers."
+        },
+        {
+          "id": "yugatech_tab_s9_ph_prices",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/samsung-galaxy-tab-s9-series-priced-in-the-philippines/",
+          "publicationDate": "2023-08-03",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent local launch SRP and configuration cross-check",
+          "note": "YugaTech's August 3, 2023 report lists the same three Tab S9 SRPs as Samsung, but reports PHP 64,990 for 12/256 GB 5G while Samsung's preorder terms and September 8 Newsroom article list PHP 63,990. Both dated values are retained."
+        },
+        {
+          "id": "baratobot_tab_s9_5g_128_lazmall_price",
+          "publisher": "BaratoBot price tracker; seller shown as Samsung on LazMall",
+          "url": "https://baratobot.com/p/samsung-galaxy-tab-s9-5g-114759?v=6999",
+          "publicationDate": "2026-11-17",
+          "accessDate": "2026-11-27",
+          "purpose": "Recent dated Philippine retail listing for 8 GB / 128 GB 5G",
+          "note": "BaratoBot reported the Graphite 128 GB Samsung LazMall offer at PHP 50,990 and in stock on November 17, 2026. This is the tracker’s last observed date, not a November 27 checkout guarantee."
+        },
+        {
+          "id": "priceme_tab_s9_5g_256_current_listing",
+          "publisher": "PriceMe Philippines; retailer offer shown as Anson's",
+          "url": "https://ph.priceme.com/Samsung-Galaxy-Tab-S9-SM-X716-11in-5G-256GB/p-916292358.aspx",
+          "publicationDate": "2026-08-07",
+          "accessDate": "2026-11-27",
+          "purpose": "Current comparator listing and price history for 12 GB / 256 GB 5G",
+          "note": "PriceMe's page observed November 27, 2026 shows an in-stock Anson's offer at PHP 52,990. Its price history lists August 7, 2026 as the last price change, so direct checkout availability and condition remain unconfirmed."
+        },
+        {
+          "id": "commons_tab_s9_exact_model_image",
+          "publisher": "Striker9498 / Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Licensed exact-model photograph and attribution record",
+          "note": "The photo is captioned Samsung Galaxy Tab S9, dated July 29, 2023, and shows the device information screen naming Galaxy Tab S9 and model SM-X710. Used as a model-identification image; the exact storage configuration is not visible. Creator is Striker9498; CC BY-SA 4.0. Catalog asset will be resized and converted to WebP without cropping or subject edits."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "SM-X716B",
+          "normalizedValue": "SM-X716B",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_availability",
+          "sourceValue": "General availability in selected global markets began 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "Samsung's global newsroom identifies August 11, 2023 as the selected-market general availability date. The series was announced July 26; this is not a claim that every market released it on the same day."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "8 GB RAM / 128 GB storage · 5G",
+          "normalizedValue": "8 GB RAM / 128 GB storage · 5G",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_preorder_terms",
+          "sourceValue": "Samsung says preorder units could be collected as early as 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "This is the earliest local preorder-unit pickup date documented by Samsung Philippines, not a verified date of the first general retail sale. Samsung later reported local store and online availability by September 6, 2023."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_launch_prices",
+          "sourceValue": "PHP 56,990 official Philippine SRP for 8 GB RAM / 128 GB storage · 5G",
+          "normalizedValue": 56990,
+          "note": "Historical Philippine SRP in Samsung Philippines' dated product/preorder price table. This is a launch-era price, not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "baratobot_tab_s9_5g_128_lazmall_price",
+          "sourceValue": "BaratoBot reports an in-stock Samsung LazMall listing at PHP 50,990, last checked 2026-11-17",
+          "normalizedValue": 50990,
+          "note": "Recent dated listing from Samsung's LazMall store, as reported by BaratoBot on November 17, 2026. Its date is shown with the price; stock and price may have changed since that check.",
+          "unit": "PHP",
+          "priceCondition": "new",
+          "priceType": "dated_official_lazmall_listing",
+          "priceObservedAt": "2026-11-17"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "11.0 inches (full rectangle)",
+          "normalizedValue": 11,
+          "note": "Samsung lists an 11-inch full-rectangle measurement and 10.9 inches accounting for rounded corners.",
+          "catalogKey": "displayInches",
+          "catalogValue": 11,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "Dynamic AMOLED 2X",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "2560 x 1600 (WQXGA)",
+          "normalizedValue": "2560 x 1600",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2560 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Dynamic refresh rate from 60 to 120 Hz",
+          "normalizedValue": 120,
+          "note": "Samsung says the panel dynamically adjusts from 60 to 120 Hz; catalog numeric value records the maximum refresh rate.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "NanoReview lists 600 nits maximum rated brightness and attributes measured data to NotebookCheck",
+          "normalizedValue": 600,
+          "note": "Secondary specification/measurement. Samsung Philippines does not publish a brightness rating for this model.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Corning Gorilla Glass; revision not specified",
+          "normalizedValue": "Corning Gorilla Glass (revision unspecified)",
+          "note": "GSMArena identifies Corning Gorilla Glass but does not specify the revision. Samsung's Philippine specifications do not name a glass version."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "qualcomm_snapdragon_8_gen_2_specs",
+          "sourceValue": "Snapdragon 8 Gen 2 is a 4 nm platform",
+          "normalizedValue": 4,
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 mobile platform as 4 nm; Samsung identifies the Galaxy Tab S9's chip as Snapdragon 8 Gen 2 for Galaxy.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "Octa-core; CPU speed groups 3.36 GHz, 2.8 GHz and 2.0 GHz",
+          "normalizedValue": "Octa-core; 3.36 GHz / 2.8 GHz / 2.0 GHz",
+          "note": "Samsung Philippines lists these CPU speeds and an octa-core CPU on the exact local SKU page."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Adreno 740",
+          "normalizedValue": "Adreno 740",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Android 13.0 at launch",
+          "normalizedValue": "Android 13",
+          "note": "Samsung Philippines lists Android 13.0 in the local launch specification table; later updates are not substituted for launch software.",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_environment_report",
+          "sourceValue": "Four generations of One UI and Android OS upgrades; five years of security updates",
+          "normalizedValue": "Up to 4 OS generations; 5 years of security updates",
+          "note": "Manufacturer support commitment from Samsung's Galaxy Tab S9 product environmental report. This is the launch policy, not a statement that future updates remain available indefinitely."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "note": "NanoReview lists LPDDR5X for the Galaxy Tab S9 model family; Samsung Philippines does not state RAM type on the product page."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "UFS; revision not specified",
+          "normalizedValue": "UFS (revision unspecified)",
+          "note": "GSMArena lists UFS storage without a version. A faster UFS revision is not inferred for a local configuration from an unsourced family-level claim."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "MicroSD card support up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "13 MP autofocus rear camera",
+          "normalizedValue": "13 MP autofocus rear camera",
+          "note": "Samsung's exact Philippine SKU specifications list a single 13 MP autofocus rear camera.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "13 MP autofocus rear camera"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "No exact image-sensor component name was disclosed in the reviewed manufacturer or independent specifications.",
+          "normalizedValue": null,
+          "note": "Megapixel count and autofocus are documented; the sensor part number is not. No sensor model is inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no rear ultra-wide module",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no telephoto module",
+          "normalizedValue": "No telephoto camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "12 MP ultra-wide front camera",
+          "normalizedValue": "12 MP ultra-wide",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": "12 MP ultra-wide",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "Rear video: UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "8,400 mAh typical; Samsung lists 8,160 mAh rated/minimum",
+          "normalizedValue": 8400,
+          "note": "Samsung's 8,400 mAh figure is typical capacity; the manufacturer's footnote states rated/minimum capacity is 8,160 mAh.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8400,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "GSMArena reports Li-Po; NanoReview reports Li-Ion; Samsung does not specify chemistry.",
+          "normalizedValue": null,
+          "note": "Independent sources disagree on battery chemistry, and Samsung's local specification page does not identify it. Chemistry is withheld.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Po",
+              "sourceUrl": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "GSMArena lists Li-Po battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists Li-Ion battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_45w_charging_support",
+          "sourceValue": "45 W Fast Charging 2.0 with a compatible adapter and cable",
+          "normalizedValue": 45,
+          "note": "Samsung support lists 45 W capability. A compatible charger and cable are required; this does not state they are included.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "Not supported",
+          "normalizedValue": "Not supported",
+          "note": "NanoReview marks wireless charging as unsupported. Samsung's specifications do not list wireless charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "165.8 x 254.3 x 5.9 mm",
+          "normalizedValue": "165.8 x 254.3 x 5.9 mm",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.8 x 254.3 x 5.9 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "500 g (5G model)",
+          "normalizedValue": 500,
+          "note": "Samsung lists 498 g for Wi-Fi and 500 g for 5G models.",
+          "catalogKey": "weightG",
+          "catalogValue": 500,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "Armor Aluminum frame",
+          "normalizedValue": "Armor Aluminum frame",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_5g_sim_esim_specs",
+          "sourceValue": "Nano-SIM (4FF) and eSIM",
+          "normalizedValue": "Nano-SIM + eSIM",
+          "note": "Samsung documents Nano-SIM + eSIM for model code SM-X716B; the local SKU page identifies this 5G model code.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM + eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G UMTS B1/B2/B4/B5/B8; 4G FDD LTE B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B20/B25/B26/B28/B32/B66; 4G TDD LTE B38/B40/B41; 5G FDD Sub-6 n1/n3/n5/n7/n8/n20/n28/n66; 5G TDD Sub-6 n38/n40/n41/n77/n78",
+          "normalizedValue": "2G GSM 850/900/1800/1900; 3G UMTS B1/B2/B4/B5/B8; 4G FDD LTE B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B20/B25/B26/B28/B32/B66; 4G TDD LTE B38/B40/B41; 5G FDD Sub-6 n1/n3/n5/n7/n8/n20/n28/n66; 5G TDD Sub-6 n38/n40/n41/n77/n78",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "5G cellular model",
+          "normalizedValue": "5G cellular",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G cellular"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "802.11 a/b/g/n/ac/ax on 2.4, 5 and 6 GHz; Wi-Fi 6E",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "bluetooth",
+          "catalogValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C; USB 3.2 Gen 1",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Quad speakers with AKG tuning and Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "Accelerometer, fingerprint, gyroscope, geomagnetic, Hall and RGB light sensors",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; RGB light",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "IP68-rated S Pen included in the box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_128_specs",
+          "sourceValue": "Book Cover Keyboard supported; sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory support is separate from time-limited 2023 preorder keyboard offers.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X716B",
+      "sku": "SM-X716BZAA XTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Authorized Philippine preorder pickup documented from 2023-08-11; local stores and online availability reported by 2023-09-06.",
+        "philippineAvailabilityDate": "2023-08-11",
+        "philippineDateLabel": "Earliest preorder pickup",
+        "philippineAvailability": "Samsung Philippines' authorized preorder terms say units could be collected as early as August 11, 2023; its September 6 newsroom article reports availability through participating local stores and online channels. Exact first general-sale date remains unresolved.",
+        "observedAt": "2023-09-06",
+        "philippineReleaseYear": 2023,
+        "catalogModel": "Galaxy Tab S9",
+        "qualityFlag": "Earliest preorder pickup documented; exact first general-sale date unresolved.",
+        "openIssues": [
+          {
+            "issue": "Exact date of first general retail sale was not found.",
+            "action": "Retain August 11, 2023 as earliest documented preorder pickup; do not label it the first retail sale."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_7867f6ebccc2fa",
+      "configurationId": "device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9",
+      "configuration": "12 GB RAM / 256 GB storage · 5G",
+      "configurationLabel": "12 GB RAM / 256 GB storage · 5G",
+      "sources": [
+        {
+          "id": "samsung_tab_s9_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-128gb-sm-x710nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAA XTC. Product specifications identify the 8 GB / 128 GB Wi-Fi variant and model-family technical details."
+        },
+        {
+          "id": "samsung_tab_s9_ph_wifi_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-256gb-sm-x710nzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB Wi-Fi Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X710NZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB Wi-Fi configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-128gb-sm-x716bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 8 GB / 128 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAA XTC. Detailed table lists the local 5G model specifications, network bands, memory and storage."
+        },
+        {
+          "id": "samsung_tab_s9_ph_5g_256_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-256gb-sm-x716bzaextc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 12 GB / 256 GB 5G Philippine SKU and product specifications",
+          "note": "Official Philippine product page for Graphite SKU SM-X716BZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB 5G configuration."
+        },
+        {
+          "id": "samsung_tab_s9_ph_newsroom_specs",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Local configuration table and launch specifications",
+          "note": "Samsung Philippines lists Android 13.0, an 11-inch Dynamic AMOLED 2X display, 60–120 Hz refresh rate, dimensions, Wi-Fi/5G weights, cameras, 8/128 and 12/256 GB versions, processor and 8,400 mAh typical battery."
+        },
+        {
+          "id": "samsung_tab_s9_ph_preorder_terms",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-tab-s9-preorder/",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Authorized local preorder window, pickup timing, SRPs and preorder offers",
+          "note": "Official terms show the July 26–August 17, 2023 local preorder period; customers could get preorder units as early as August 11. They list device SRPs and the 256 GB preorder prices with a free within-series storage upgrade."
+        },
+        {
+          "id": "samsung_tab_s9_ph_local_availability",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+          "publicationDate": "2023-09-06",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated confirmation of Philippine store and online availability",
+          "note": "Samsung Philippines reported the series available through participating local stores and online channels by September 6, 2023. This confirms local availability but not the exact first general-sale transaction."
+        },
+        {
+          "id": "samsung_tab_s9_ph_launch_prices",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+          "publicationDate": "2023-09-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch price cross-check",
+          "note": "Samsung Newsroom Philippines published variant SRPs on September 8, 2023: Wi-Fi 8/128 PHP 47,990, Wi-Fi 12/256 PHP 54,990, 5G 8/128 PHP 56,990, and 5G 12/256 PHP 63,990."
+        },
+        {
+          "id": "samsung_tab_s9_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+          "publicationDate": "2023-07-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Global announcement, availability timing, support policy and shared model specifications",
+          "note": "Samsung announced the Tab S9 series July 26, 2023 and said general availability in select markets began August 11, 2023. The global launch material identifies the Snapdragon 8 Gen 2 for Galaxy, IP68, included S Pen, Armor Aluminum and four OS generations plus five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_global_availability",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series",
+          "publicationDate": "2023-08-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Global market availability start date",
+          "note": "Samsung says the Galaxy Tab S9 series launched in selected markets on August 11, 2023; additional markets followed later."
+        },
+        {
+          "id": "samsung_tab_s9_45w_charging_support",
+          "publisher": "Samsung Support US",
+          "url": "https://www.samsung.com/us/support/answer/ANS10003691/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer charging capability",
+          "note": "Samsung support states that Galaxy Tab S9 models support 45 W Fast Charging 2.0 with a compatible charger and cable. This does not imply the charger is included."
+        },
+        {
+          "id": "samsung_tab_s9_5g_sim_esim_specs",
+          "publisher": "Samsung Switzerland Support",
+          "url": "https://www.samsung.com/ch/support/mobile-devices/vergleich-galaxy-tab-s9-serie/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer SIM capability for model codes SM-X716B / SM-X710",
+          "note": "Samsung's model-family table maps SM-X716B to the cellular model and identifies Nano-SIM (4FF) plus eSIM. The Wi-Fi-only SM-X710 does not take a SIM."
+        },
+        {
+          "id": "qualcomm_snapdragon_8_gen_2_specs",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-2-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chip process and platform-level technical details",
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 at 4 nm and a maximum CPU frequency up to 3.36 GHz; Samsung's exact Galaxy Tab S9 local product pages identify the Snapdragon 8 Gen 2 for Galaxy."
+        },
+        {
+          "id": "gsmarena_tab_s9_specs",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model specification cross-check",
+          "note": "GSMArena's Galaxy Tab S9 specification table reports the octa-core CPU layout, Adreno 740 graphics, UFS storage, Corning Gorilla Glass without a revision, SIM/eSIM on cellular models, cameras, dimensions and other model-family details."
+        },
+        {
+          "id": "nanoreview_tab_s9_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary technical specifications and measurement references",
+          "note": "NanoReview lists LPDDR5X memory, screen brightness, storage and battery data for the Tab S9 family. Its page attributes measured display data to NotebookCheck; Samsung's Philippine product pages remain the primary source where available."
+        },
+        {
+          "id": "samsung_tab_s9_environment_report",
+          "publisher": "Samsung Electronics",
+          "url": "https://www.samsung.com/global/sustainability/landing_hub-file/AY_wCQf6BaEALYNu/Galaxy_Tab_S9_Environmental_Report_EN_2503.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer software support commitment",
+          "note": "Samsung's Galaxy Tab S9 product environmental report says four generations of OS upgrades and five years of security updates."
+        },
+        {
+          "id": "samsung_tab_s9_ph_2025_promo",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+          "publicationDate": "2025-06-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated official local discount terms by storage and connectivity variant",
+          "note": "Expired offer valid June 1–30, 2025. Samsung's table lists each Tab S9 Wi-Fi/5G 128/256 GB SRP and PHP 8,000 discount. Dated promo prices are calculated from those explicit SRPs and discount amounts; they are not current offers."
+        },
+        {
+          "id": "yugatech_tab_s9_ph_prices",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/samsung-galaxy-tab-s9-series-priced-in-the-philippines/",
+          "publicationDate": "2023-08-03",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent local launch SRP and configuration cross-check",
+          "note": "YugaTech's August 3, 2023 report lists the same three Tab S9 SRPs as Samsung, but reports PHP 64,990 for 12/256 GB 5G while Samsung's preorder terms and September 8 Newsroom article list PHP 63,990. Both dated values are retained."
+        },
+        {
+          "id": "baratobot_tab_s9_5g_128_lazmall_price",
+          "publisher": "BaratoBot price tracker; seller shown as Samsung on LazMall",
+          "url": "https://baratobot.com/p/samsung-galaxy-tab-s9-5g-114759?v=6999",
+          "publicationDate": "2026-11-17",
+          "accessDate": "2026-11-27",
+          "purpose": "Recent dated Philippine retail listing for 8 GB / 128 GB 5G",
+          "note": "BaratoBot reported the Graphite 128 GB Samsung LazMall offer at PHP 50,990 and in stock on November 17, 2026. This is the tracker’s last observed date, not a November 27 checkout guarantee."
+        },
+        {
+          "id": "priceme_tab_s9_5g_256_current_listing",
+          "publisher": "PriceMe Philippines; retailer offer shown as Anson's",
+          "url": "https://ph.priceme.com/Samsung-Galaxy-Tab-S9-SM-X716-11in-5G-256GB/p-916292358.aspx",
+          "publicationDate": "2026-08-07",
+          "accessDate": "2026-11-27",
+          "purpose": "Current comparator listing and price history for 12 GB / 256 GB 5G",
+          "note": "PriceMe's page observed November 27, 2026 shows an in-stock Anson's offer at PHP 52,990. Its price history lists August 7, 2026 as the last price change, so direct checkout availability and condition remain unconfirmed."
+        },
+        {
+          "id": "commons_tab_s9_exact_model_image",
+          "publisher": "Striker9498 / Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Licensed exact-model photograph and attribution record",
+          "note": "The photo is captioned Samsung Galaxy Tab S9, dated July 29, 2023, and shows the device information screen naming Galaxy Tab S9 and model SM-X710. Used as a model-identification image; the exact storage configuration is not visible. Creator is Striker9498; CC BY-SA 4.0. Catalog asset will be resized and converted to WebP without cropping or subject edits."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "SM-X716B",
+          "normalizedValue": "SM-X716B",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_availability",
+          "sourceValue": "General availability in selected global markets began 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "Samsung's global newsroom identifies August 11, 2023 as the selected-market general availability date. The series was announced July 26; this is not a claim that every market released it on the same day."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "12 GB RAM / 256 GB storage · 5G",
+          "normalizedValue": "12 GB RAM / 256 GB storage · 5G",
+          "note": "Exact Samsung Philippines model code and RAM/storage variant matched to its local SKU page and the Philippines newsroom configuration table."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_preorder_terms",
+          "sourceValue": "Samsung says preorder units could be collected as early as 2023-08-11",
+          "normalizedValue": "2023-08-11",
+          "note": "This is the earliest local preorder-unit pickup date documented by Samsung Philippines, not a verified date of the first general retail sale. Samsung later reported local store and online availability by September 6, 2023."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_launch_prices",
+          "sourceValue": "PHP 63,990 official Philippine SRP for 12 GB RAM / 256 GB storage · 5G",
+          "normalizedValue": 63990,
+          "note": "Samsung Philippines lists PHP 63,990 as SRP for 12GB / 256GB 5G. YugaTech reported PHP 64,990 on August 3, 2023; the one-thousand-peso discrepancy is retained as unresolved secondary evidence.",
+          "unit": "PHP",
+          "candidateEvidence": [
+            {
+              "value": "PHP 64,990 for Galaxy Tab S9 5G 12GB / 256GB",
+              "sourceUrl": "https://www.yugatech.com/news/samsung-galaxy-tab-s9-series-priced-in-the-philippines/",
+              "sourceKind": "independent_ph_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "YugaTech published PHP 64,990 on August 3, 2023; Samsung Philippines lists PHP 63,990 in its July 2023 preorder terms and September 8, 2023 newsroom price table.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "PENDING_VERIFICATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "priceme_tab_s9_5g_256_current_listing",
+          "sourceValue": "PriceMe shows PHP 52,990 at Anson's and marks the offer in stock; last recorded price change was 2026-08-07",
+          "normalizedValue": null,
+          "note": "A price comparator currently shows an in-stock offer, but its price history has no update after August 7, 2026 and the retailer checkout, stock and item condition were not independently confirmed. Keep the catalog's current price blank pending a fresh direct listing.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "11.0 inches (full rectangle)",
+          "normalizedValue": 11,
+          "note": "Samsung lists an 11-inch full-rectangle measurement and 10.9 inches accounting for rounded corners.",
+          "catalogKey": "displayInches",
+          "catalogValue": 11,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "Dynamic AMOLED 2X",
+          "normalizedValue": "Dynamic AMOLED 2X",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Dynamic AMOLED 2X"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "2560 x 1600 (WQXGA)",
+          "normalizedValue": "2560 x 1600",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2560 x 1600"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Dynamic refresh rate from 60 to 120 Hz",
+          "normalizedValue": 120,
+          "note": "Samsung says the panel dynamically adjusts from 60 to 120 Hz; catalog numeric value records the maximum refresh rate.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 120,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "NanoReview lists 600 nits maximum rated brightness and attributes measured data to NotebookCheck",
+          "normalizedValue": 600,
+          "note": "Secondary specification/measurement. Samsung Philippines does not publish a brightness rating for this model.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Corning Gorilla Glass; revision not specified",
+          "normalizedValue": "Corning Gorilla Glass (revision unspecified)",
+          "note": "GSMArena identifies Corning Gorilla Glass but does not specify the revision. Samsung's Philippine specifications do not name a glass version."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2 for Galaxy"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "qualcomm_snapdragon_8_gen_2_specs",
+          "sourceValue": "Snapdragon 8 Gen 2 is a 4 nm platform",
+          "normalizedValue": 4,
+          "note": "Qualcomm lists the Snapdragon 8 Gen 2 mobile platform as 4 nm; Samsung identifies the Galaxy Tab S9's chip as Snapdragon 8 Gen 2 for Galaxy.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "Octa-core; CPU speed groups 3.36 GHz, 2.8 GHz and 2.0 GHz",
+          "normalizedValue": "Octa-core; 3.36 GHz / 2.8 GHz / 2.0 GHz",
+          "note": "Samsung Philippines lists these CPU speeds and an octa-core CPU on the exact local SKU page."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "Adreno 740",
+          "normalizedValue": "Adreno 740",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Android 13.0 at launch",
+          "normalizedValue": "Android 13",
+          "note": "Samsung Philippines lists Android 13.0 in the local launch specification table; later updates are not substituted for launch software.",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_environment_report",
+          "sourceValue": "Four generations of One UI and Android OS upgrades; five years of security updates",
+          "normalizedValue": "Up to 4 OS generations; 5 years of security updates",
+          "note": "Manufacturer support commitment from Samsung's Galaxy Tab S9 product environmental report. This is the launch policy, not a statement that future updates remain available indefinitely."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "12 GB",
+          "normalizedValue": 12,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "note": "NanoReview lists LPDDR5X for the Galaxy Tab S9 model family; Samsung Philippines does not state RAM type on the product page."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "UFS; revision not specified",
+          "normalizedValue": "UFS (revision unspecified)",
+          "note": "GSMArena lists UFS storage without a version. A faster UFS revision is not inferred for a local configuration from an unsourced family-level claim."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "MicroSD card support up to 1 TB",
+          "normalizedValue": "microSD supported up to 1 TB",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "13 MP autofocus rear camera",
+          "normalizedValue": "13 MP autofocus rear camera",
+          "note": "Samsung's exact Philippine SKU specifications list a single 13 MP autofocus rear camera.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "13 MP autofocus rear camera"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "No exact image-sensor component name was disclosed in the reviewed manufacturer or independent specifications.",
+          "normalizedValue": null,
+          "note": "Megapixel count and autofocus are documented; the sensor part number is not. No sensor model is inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no rear ultra-wide module",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "The Tab S9 rear-camera specification lists one 13 MP camera and no telephoto module",
+          "normalizedValue": "No telephoto camera",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "12 MP ultra-wide front camera",
+          "normalizedValue": "12 MP ultra-wide",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": "12 MP ultra-wide",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "Rear video: UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "8,400 mAh typical; Samsung lists 8,160 mAh rated/minimum",
+          "normalizedValue": 8400,
+          "note": "Samsung's 8,400 mAh figure is typical capacity; the manufacturer's footnote states rated/minimum capacity is 8,160 mAh.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8400,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "gsmarena_tab_s9_specs",
+          "sourceValue": "GSMArena reports Li-Po; NanoReview reports Li-Ion; Samsung does not specify chemistry.",
+          "normalizedValue": null,
+          "note": "Independent sources disagree on battery chemistry, and Samsung's local specification page does not identify it. Chemistry is withheld.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Po",
+              "sourceUrl": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "GSMArena lists Li-Po battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists Li-Ion battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 model family; exact local memory variant not stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_45w_charging_support",
+          "sourceValue": "45 W Fast Charging 2.0 with a compatible adapter and cable",
+          "normalizedValue": 45,
+          "note": "Samsung support lists 45 W capability. A compatible charger and cable are required; this does not state they are included.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_specs",
+          "sourceValue": "Not supported",
+          "normalizedValue": "Not supported",
+          "note": "NanoReview marks wireless charging as unsupported. Samsung's specifications do not list wireless charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "165.8 x 254.3 x 5.9 mm",
+          "normalizedValue": "165.8 x 254.3 x 5.9 mm",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.8 x 254.3 x 5.9 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "500 g (5G model)",
+          "normalizedValue": 500,
+          "note": "Samsung lists 498 g for Wi-Fi and 500 g for 5G models.",
+          "catalogKey": "weightG",
+          "catalogValue": 500,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "Armor Aluminum frame",
+          "normalizedValue": "Armor Aluminum frame",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_5g_sim_esim_specs",
+          "sourceValue": "Nano-SIM (4FF) and eSIM",
+          "normalizedValue": "Nano-SIM + eSIM",
+          "note": "Samsung documents Nano-SIM + eSIM for model code SM-X716B; the local SKU page identifies this 5G model code.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM + eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G UMTS B1/B2/B4/B5/B8; 4G FDD LTE B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B20/B25/B26/B28/B32/B66; 4G TDD LTE B38/B40/B41; 5G FDD Sub-6 n1/n3/n5/n7/n8/n20/n28/n66; 5G TDD Sub-6 n38/n40/n41/n77/n78",
+          "normalizedValue": "2G GSM 850/900/1800/1900; 3G UMTS B1/B2/B4/B5/B8; 4G FDD LTE B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B20/B25/B26/B28/B32/B66; 4G TDD LTE B38/B40/B41; 5G FDD Sub-6 n1/n3/n5/n7/n8/n20/n28/n66; 5G TDD Sub-6 n38/n40/n41/n77/n78",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "5G cellular model",
+          "normalizedValue": "5G cellular",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G cellular"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "802.11 a/b/g/n/ac/ax on 2.4, 5 and 6 GHz; Wi-Fi 6E",
+          "normalizedValue": "Wi-Fi 6E",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6E"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "bluetooth",
+          "catalogValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1",
+          "normalizedValue": "USB Type-C; USB 3.2 Gen 1",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 3.2 Gen 1"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_newsroom_specs",
+          "sourceValue": "Quad speakers with AKG tuning and Dolby Atmos",
+          "normalizedValue": "Quad speakers; AKG tuning; Dolby Atmos",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Quad speakers; AKG tuning; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "Accelerometer, fingerprint, gyroscope, geomagnetic, Hall and RGB light sensors",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; RGB light",
+          "note": "Exact local model and configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_global_launch",
+          "sourceValue": "IP68-rated S Pen included in the box",
+          "normalizedValue": "S Pen included",
+          "note": "Exact local model and configuration checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_ph_5g_256_specs",
+          "sourceValue": "Book Cover Keyboard supported; sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Accessory support is separate from time-limited 2023 preorder keyboard offers.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X716B",
+      "sku": "SM-X716BZAE XTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Authorized Philippine preorder pickup documented from 2023-08-11; local stores and online availability reported by 2023-09-06.",
+        "philippineAvailabilityDate": "2023-08-11",
+        "philippineDateLabel": "Earliest preorder pickup",
+        "philippineAvailability": "Samsung Philippines' authorized preorder terms say units could be collected as early as August 11, 2023; its September 6 newsroom article reports availability through participating local stores and online channels. Exact first general-sale date remains unresolved.",
+        "observedAt": "2023-09-06",
+        "philippineReleaseYear": 2023,
+        "catalogModel": "Galaxy Tab S9",
+        "qualityFlag": "Earliest preorder pickup documented; exact first general-sale date unresolved.",
+        "openIssues": [
+          {
+            "issue": "Exact date of first general retail sale was not found.",
+            "action": "Retain August 11, 2023 as earliest documented preorder pickup; do not label it the first retail sale."
+          }
+        ]
+      }
     }
   ]
 }

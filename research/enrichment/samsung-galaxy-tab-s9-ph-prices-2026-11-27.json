@@ -1,0 +1,401 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "brand": "Samsung",
+      "model_name": "Galaxy Tab S9",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-128gb-sm-x710nzaaxtc/",
+      "source_kind": "Exact 8 GB / 128 GB Wi-Fi Philippine SKU and product specifications",
+      "status": "reviewed",
+      "result": "Official Philippine product page for Graphite SKU SM-X710NZAA XTC. Product specifications identify the 8 GB / 128 GB Wi-Fi variant and model-family technical details."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-wi-fi-graphite-256gb-sm-x710nzaextc/",
+      "source_kind": "Exact 12 GB / 256 GB Wi-Fi Philippine SKU and product specifications",
+      "status": "reviewed",
+      "result": "Official Philippine product page for Graphite SKU SM-X710NZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB Wi-Fi configuration."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-128gb-sm-x716bzaaxtc/",
+      "source_kind": "Exact 8 GB / 128 GB 5G Philippine SKU and product specifications",
+      "status": "reviewed",
+      "result": "Official Philippine product page for Graphite SKU SM-X716BZAA XTC. Detailed table lists the local 5G model specifications, network bands, memory and storage."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-5g-graphite-256gb-sm-x716bzaextc/",
+      "source_kind": "Exact 12 GB / 256 GB 5G Philippine SKU and product specifications",
+      "status": "reviewed",
+      "result": "Official Philippine product page for Graphite SKU SM-X716BZAE XTC. Samsung Philippines newsroom separately lists the local 12 GB / 256 GB 5G configuration."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+      "source_kind": "Local configuration table and launch specifications",
+      "status": "reviewed",
+      "result": "Samsung Philippines lists Android 13.0, an 11-inch Dynamic AMOLED 2X display, 60–120 Hz refresh rate, dimensions, Wi-Fi/5G weights, cameras, 8/128 and 12/256 GB versions, processor and 8,400 mAh typical battery."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-tab-s9-preorder/",
+      "source_kind": "Authorized local preorder window, pickup timing, SRPs and preorder offers",
+      "status": "reviewed",
+      "result": "Official terms show the July 26–August 17, 2023 local preorder period; customers could get preorder units as early as August 11. They list device SRPs and the 256 GB preorder prices with a free within-series storage upgrade."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://news.samsung.com/ph/galaxy-tab-s9-series-the-ultimate-entertainment-experience-that-takes-you-places",
+      "source_kind": "Dated confirmation of Philippine store and online availability",
+      "status": "reviewed",
+      "result": "Samsung Philippines reported the series available through participating local stores and online channels by September 6, 2023. This confirms local availability but not the exact first general-sale transaction."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+      "source_kind": "Dated Philippine launch price cross-check",
+      "status": "reviewed",
+      "result": "Samsung Newsroom Philippines published variant SRPs on September 8, 2023: Wi-Fi 8/128 PHP 47,990, Wi-Fi 12/256 PHP 54,990, 5G 8/128 PHP 56,990, and 5G 12/256 PHP 63,990."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://news.samsung.com/global/samsung-galaxy-tab-s9-sets-the-new-standard-to-bring-galaxys-premium-experience-to-a-tablet",
+      "source_kind": "Global announcement, availability timing, support policy and shared model specifications",
+      "status": "reviewed",
+      "result": "Samsung announced the Tab S9 series July 26, 2023 and said general availability in select markets began August 11, 2023. The global launch material identifies the Snapdragon 8 Gen 2 for Galaxy, IP68, included S Pen, Armor Aluminum and four OS generations plus five years of security updates."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series",
+      "source_kind": "Global market availability start date",
+      "status": "reviewed",
+      "result": "Samsung says the Galaxy Tab S9 series launched in selected markets on August 11, 2023; additional markets followed later."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/us/support/answer/ANS10003691/",
+      "source_kind": "Manufacturer charging capability",
+      "status": "reviewed",
+      "result": "Samsung support states that Galaxy Tab S9 models support 45 W Fast Charging 2.0 with a compatible charger and cable. This does not imply the charger is included."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/ch/support/mobile-devices/vergleich-galaxy-tab-s9-serie/",
+      "source_kind": "Manufacturer SIM capability for model codes SM-X716B / SM-X710",
+      "status": "reviewed",
+      "result": "Samsung's model-family table maps SM-X716B to the cellular model and identifies Nano-SIM (4FF) plus eSIM. The Wi-Fi-only SM-X710 does not take a SIM."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.qualcomm.com/smartphones/products/8-series/snapdragon-8-gen-2-mobile-platform",
+      "source_kind": "Chip process and platform-level technical details",
+      "status": "reviewed",
+      "result": "Qualcomm lists the Snapdragon 8 Gen 2 at 4 nm and a maximum CPU frequency up to 3.36 GHz; Samsung's exact Galaxy Tab S9 local product pages identify the Snapdragon 8 Gen 2 for Galaxy."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.gsmarena.com/compare.php3?idPhone1=12439",
+      "source_kind": "Independent exact-model specification cross-check",
+      "status": "reviewed",
+      "result": "GSMArena's Galaxy Tab S9 specification table reports the octa-core CPU layout, Adreno 740 graphics, UFS storage, Corning Gorilla Glass without a revision, SIM/eSIM on cellular models, cameras, dimensions and other model-family details."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9",
+      "source_kind": "Secondary technical specifications and measurement references",
+      "status": "reviewed",
+      "result": "NanoReview lists LPDDR5X memory, screen brightness, storage and battery data for the Tab S9 family. Its page attributes measured display data to NotebookCheck; Samsung's Philippine product pages remain the primary source where available."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/global/sustainability/landing_hub-file/AY_wCQf6BaEALYNu/Galaxy_Tab_S9_Environmental_Report_EN_2503.pdf",
+      "source_kind": "Manufacturer software support commitment",
+      "status": "reviewed",
+      "result": "Samsung's Galaxy Tab S9 product environmental report says four generations of OS upgrades and five years of security updates."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+      "source_kind": "Dated official local discount terms by storage and connectivity variant",
+      "status": "reviewed",
+      "result": "Expired offer valid June 1–30, 2025. Samsung's table lists each Tab S9 Wi-Fi/5G 128/256 GB SRP and PHP 8,000 discount. Dated promo prices are calculated from those explicit SRPs and discount amounts; they are not current offers."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-tab-s9-series-priced-in-the-philippines/",
+      "source_kind": "Independent local launch SRP and configuration cross-check",
+      "status": "reviewed",
+      "result": "YugaTech's August 3, 2023 report lists the same three Tab S9 SRPs as Samsung, but reports PHP 64,990 for 12/256 GB 5G while Samsung's preorder terms and September 8 Newsroom article list PHP 63,990. Both dated values are retained."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://baratobot.com/p/samsung-galaxy-tab-s9-5g-114759?v=6999",
+      "source_kind": "Recent dated Philippine retail listing for 8 GB / 128 GB 5G",
+      "status": "reviewed",
+      "result": "BaratoBot reported the Graphite 128 GB Samsung LazMall offer at PHP 50,990 and in stock on November 17, 2026. This is the tracker’s last observed date, not a November 27 checkout guarantee."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://ph.priceme.com/Samsung-Galaxy-Tab-S9-SM-X716-11in-5G-256GB/p-916292358.aspx",
+      "source_kind": "Current comparator listing and price history for 12 GB / 256 GB 5G",
+      "status": "reviewed",
+      "result": "PriceMe's page observed November 27, 2026 shows an in-stock Anson's offer at PHP 52,990. Its price history lists August 7, 2026 as the last price change, so direct checkout availability and condition remain unconfirmed."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg",
+      "source_kind": "Licensed exact-model photograph and attribution record",
+      "status": "reviewed",
+      "result": "The photo is captioned Samsung Galaxy Tab S9, dated July 29, 2023, and shows the device information screen naming Galaxy Tab S9 and model SM-X710. Used as a model-identification image; the exact storage configuration is not visible. Creator is Striker9498; CC BY-SA 4.0. Catalog asset will be resized and converted to WebP without cropping or subject edits."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x710-8gb-128gb-wifi-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "exact_8gb_128gb_wifi",
+      "amount_php": 47990,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-09-08",
+      "observed_at": "2026-11-27",
+      "source_url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+      "source_kind": "official_samsung_ph_launch_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines lists PHP 47,990 SRP for 8 GB / 128 GB Wi-Fi Galaxy Tab S9."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x710-8gb-128gb-wifi-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "exact_8gb_128gb_wifi",
+      "amount_php": 39990,
+      "price_type": "historical_2025_promo_price_calculated_from_published_srp_and_discount",
+      "source_published_at": "2025-06-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+      "source_kind": "official_samsung_ph_discount_terms_arithmetic",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_06_01_to_2025_06_30_offer_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' June 1–30, 2025 offer listed the PHP 47,990 SRP and PHP 8,000 off; PHP 39,990 is the subtraction of those two published amounts, not a current offer."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x710-12gb-256gb-wifi-ph",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "exact_12gb_256gb_wifi",
+      "amount_php": 54990,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-09-08",
+      "observed_at": "2026-11-27",
+      "source_url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+      "source_kind": "official_samsung_ph_launch_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines lists PHP 54,990 SRP for 12 GB / 256 GB Wi-Fi Galaxy Tab S9."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x710-12gb-256gb-wifi-ph",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "exact_12gb_256gb_wifi",
+      "amount_php": 46990,
+      "price_type": "historical_2025_promo_price_calculated_from_published_srp_and_discount",
+      "source_published_at": "2025-06-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+      "source_kind": "official_samsung_ph_discount_terms_arithmetic",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_06_01_to_2025_06_30_offer_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' June 1–30, 2025 offer listed the PHP 54,990 SRP and PHP 8,000 off; PHP 46,990 is the subtraction of those two published amounts, not a current offer."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x710-12gb-256gb-wifi-ph",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "exact_12gb_256gb_wifi",
+      "amount_php": 47990,
+      "price_type": "historical_2023_preorder_price_with_free_storage_upgrade",
+      "source_published_at": "2023-07-26",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-tab-s9-preorder/",
+      "source_kind": "official_samsung_ph_preorder_price",
+      "local_availability_verified": true,
+      "availability_status": "expired_2023_preorder_offer_256gb_upgrade_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines listed PHP 47,990 preorder price for the exact 12 GB / 256 GB Wi-Fi configuration as part of a 128 GB to 256 GB free storage upgrade; the offer ran July 26–August 17, 2023."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-8gb-128gb-5g-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_8gb_128gb_5g",
+      "amount_php": 56990,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-09-08",
+      "observed_at": "2026-11-27",
+      "source_url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+      "source_kind": "official_samsung_ph_launch_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines lists PHP 56,990 SRP for 8 GB / 128 GB 5G Galaxy Tab S9."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-8gb-128gb-5g-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_8gb_128gb_5g",
+      "amount_php": 48990,
+      "price_type": "historical_2025_promo_price_calculated_from_published_srp_and_discount",
+      "source_published_at": "2025-06-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+      "source_kind": "official_samsung_ph_discount_terms_arithmetic",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_06_01_to_2025_06_30_offer_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' June 1–30, 2025 offer listed the PHP 56,990 SRP and PHP 8,000 off; PHP 48,990 is the subtraction of those two published amounts, not a current offer."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_12gb_256gb_5g",
+      "amount_php": 63990,
+      "price_type": "historical_ph_official_srp",
+      "source_published_at": "2023-09-08",
+      "observed_at": "2026-11-27",
+      "source_url": "https://news.samsung.com/ph/bring-your-ideas-to-life-everywhere-with-the-samsung-galaxy-tab-s9-series",
+      "source_kind": "official_samsung_ph_launch_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_srp_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines lists PHP 63,990 SRP for 12 GB / 256 GB 5G Galaxy Tab S9."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_12gb_256gb_5g",
+      "amount_php": 55990,
+      "price_type": "historical_2025_promo_price_calculated_from_published_srp_and_discount",
+      "source_published_at": "2025-06-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-home-credit/",
+      "source_kind": "official_samsung_ph_discount_terms_arithmetic",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_06_01_to_2025_06_30_offer_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' June 1–30, 2025 offer listed the PHP 63,990 SRP and PHP 8,000 off; PHP 55,990 is the subtraction of those two published amounts, not a current offer."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_12gb_256gb_5g",
+      "amount_php": 56990,
+      "price_type": "historical_2023_preorder_price_with_free_storage_upgrade",
+      "source_published_at": "2023-07-26",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-tab-s9-preorder/",
+      "source_kind": "official_samsung_ph_preorder_price",
+      "local_availability_verified": true,
+      "availability_status": "expired_2023_preorder_offer_256gb_upgrade_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines listed PHP 56,990 preorder price for the exact 12 GB / 256 GB 5G configuration as part of a 128 GB to 256 GB free storage upgrade; the offer ran July 26–August 17, 2023."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph",
+      "amount_php": 64990,
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_12gb_256gb_5g",
+      "price_type": "historical_secondary_launch_srp_conflicts_with_samsung_ph",
+      "source_published_at": "2023-08-03",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.yugatech.com/news/samsung-galaxy-tab-s9-series-priced-in-the-philippines/",
+      "source_kind": "independent_ph_launch_price_report",
+      "local_availability_verified": true,
+      "availability_status": "historical_reported_price_conflicts_with_official_srp",
+      "review_status": "PENDING_VERIFICATION",
+      "excerpt": "YugaTech reported PHP 64,990 on August 3, 2023; Samsung Philippines terms and its September 8 newsroom price list show PHP 63,990. The discrepancy is retained; no single value is inferred from the secondary report."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-8gb-128gb-5g-ph",
+      "amount_php": 50990,
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_8gb_128gb_5g",
+      "price_type": "dated_samsung_lazmall_listing",
+      "source_published_at": null,
+      "observed_at": "2026-11-17",
+      "source_url": "https://baratobot.com/p/samsung-galaxy-tab-s9-5g-114759?v=6999",
+      "source_kind": "price_tracker_reports_official_samsung_lazmall_listing",
+      "local_availability_verified": true,
+      "availability_status": "reported_in_stock_on_2026_11_17_not_rechecked_at_checkout",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "BaratoBot records a PHP 50,990 Graphite 8/128 GB offer from Samsung on LazMall, in stock when checked November 17, 2026. Price and stock may have changed since."
+    },
+    {
+      "device_id": "device_7867f6ebccc2fa",
+      "configuration_id": "device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph",
+      "amount_php": 52990,
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_12gb_256gb_5g",
+      "price_type": "comparator_listed_current_offer_condition_and_checkout_pending",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://ph.priceme.com/Samsung-Galaxy-Tab-S9-SM-X716-11in-5G-256GB/p-916292358.aspx",
+      "source_kind": "price_comparator_ansons_offer",
+      "local_availability_verified": false,
+      "availability_status": "priceme_marks_offer_in_stock_last_recorded_price_change_2026_08_07_direct_stock_not_checked",
+      "review_status": "PENDING_VERIFICATION",
+      "excerpt": "PriceMe shows an in-stock Anson's offer at PHP 52,990 on the page accessed November 27, 2026; its price history says the price last changed August 7, 2026. Direct stock and condition were not confirmed."
+    }
+  ]
+}

@@ -526,5 +526,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "Converted to WebP for catalog delivery; no subject editing.",
     "rightsCheckedAt": "2026-11-26"
+  },
+  "device_7867f6ebccc2fa": {
+    "path": "/catalog-images/device_7867f6ebccc2fa.webp",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg",
+    "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "scope": "Exact Galaxy Tab S9 model; photographed display identifies model SM-X710; memory/storage configuration is not visible.",
+    "credit": "Striker9498 (Wikimedia Commons)",
+    "usageTerms": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "changes": "Converted from JPEG to WebP and resized for catalog delivery; no crop or subject edits.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "rightsCheckedAt": "2026-11-27"
   }
 }

@@ -13,7 +13,7 @@ const manifestPath = resolve(root, 'lib/catalog/image-manifest.json');
 const force = process.argv.includes('--force');
 const selectedId = process.argv.includes('--device-id') ? process.argv[process.argv.indexOf('--device-id') + 1] : null;
 const agent = 'DeviceIQResearchBot/1.0 (+https://github.com/ynee6969/Device-IQ; catalog imagery)';
-const allowedHosts = new Set(['images.samsung.com', 'dlcdnwebimgs.asus.com']);
+const allowedHosts = new Set(['images.samsung.com', 'dlcdnwebimgs.asus.com', 'upload.wikimedia.org']);
 
 function reusableRights(source) {
   if (source.rightsStatus === 'LICENSED') {
@@ -112,6 +112,7 @@ async function main() {
       await sharp(image.bytes).rotate().resize({ width: 900, height: 650, fit: 'inside', withoutEnlargement: true }).webp({ quality: 84 }).toFile(file);
       manifest[source.deviceId] = { path: `/catalog-images/${source.deviceId}.webp`, sourcePage: source.pageUrl, assetUrl: asset.href, scope: source.scope,
         credit: source.credit, usageTerms: source.usageTerms,
+        ...(source.changes ? { changes: source.changes } : {}),
         ...(source.licenseUrl ? { licenseUrl: source.licenseUrl } : {}),
         ...(source.rightsCheckedAt ? { rightsCheckedAt: source.rightsCheckedAt } : {}),
         ...(source.permissionEvidenceUrl ? { permissionEvidenceUrl: source.permissionEvidenceUrl } : {}) };
