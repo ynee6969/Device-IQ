@@ -3886,12 +3886,11 @@
   },
   "device_3bdcbc7b1b3d1b": {
     "status": "REUSE_PERMISSION_REQUIRED",
-    "reason": "Samsung states that its site content remains Samsung/licensor property and grants no reuse license for this use.",
+    "reason": "Samsung owns or licenses its product-site images and does not grant reuse permission for this product photograph; no exact-model openly licensed image was located in the reviewed Wikimedia Commons search.",
     "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-plus-5g-graphite-256gb-sm-x816bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x816bzaaxtc/gallery/ph-galaxy-tab-s9-plus-5g-x816-sm-x816bzaaxtc-thumb-538123602",
-    "scope": "Exact model; pictured colors may vary",
+    "scope": "Galaxy Tab S9+ model family; no image reused because exact-model product-image rights were not cleared.",
     "rightsTermsUrl": "https://www.samsung.com/ph/business/info/legal/",
-    "observedAt": "2026-11-26",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for Samsung Galaxy Tab S9+"
   },
   "device_55b2a42e335e05": {
