@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-27T16:21:29+08:00
+Updated: 2026-11-27T16:55:32+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -9,23 +9,23 @@ Updated: 2026-11-27T16:21:29+08:00
 | Measure | Count |
 | --- | ---: |
 | Device models | 456 |
-| Configurations | 627 |
-| Models with manually verified source fields | 201 |
-| Configurations with manually verified source fields | 339 |
+| Configurations | 628 |
+| Models with manually verified source fields | 202 |
+| Configurations with manually verified source fields | 341 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 10 |
 | Specification-complete models | 0 |
 | Incomplete models | 453 |
-| Applicable field assignments | 29380 |
-| Fields assessed | 11106 |
-| Verified fields | 9572 |
-| Pending fields | 18274 |
-| PTG extracted pages | 204 |
+| Applicable field assignments | 29429 |
+| Fields assessed | 11201 |
+| Verified fields | 9656 |
+| Pending fields | 18228 |
+| PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
-| Existing reviewed catalog images | 50 |
-| Models without reviewed catalog image | 406 |
+| Existing reviewed catalog images | 51 |
+| Models without reviewed catalog image | 405 |
 
 ## Brand-year execution tracker
 
@@ -92,7 +92,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | smartphones | Apple | 4 | 0 | 4 | 0 | 0 | 4 | 46 | 42 | 138 | 1 | 4 | 0 | 0 | 4 | 0 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Coolpad | 2 | 2 | 2 | 0 | 0 | 2 | 135 | 89 | 3 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | DOOGEE | 1 | 1 | 1 | 0 | 0 | 1 | 45 | 32 | 1 | 0 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | HONOR | 4 | 2 | 4 | 0 | 0 | 4 | 73 | 66 | 111 | 3 | 2 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | HONOR | 4 | 2 | 4 | 0 | 0 | 4 | 73 | 66 | 111 | 2 | 2 | 0 | 0 | 0 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Huawei | 2 | 1 | 2 | 0 | 0 | 2 | 21 | 18 | 117 | 2 | 1 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Infinix | 2 | 1 | 2 | 0 | 0 | 2 | 45 | 38 | 47 | 1 | 1 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Nokia | 3 | 1 | 3 | 0 | 0 | 3 | 88 | 79 | 96 | 2 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -104,7 +104,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | smartphones | Redmi | 2 | 0 | 2 | 0 | 0 | 2 | 51 | 51 | 41 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | Samsung | 8 | 8 | 8 | 0 | 0 | 8 | 393 | 365 | 251 | 3 | 5 | 4 | 0 | 0 | 8 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | ZTE | 2 | 2 | 2 | 0 | 0 | 2 | 92 | 66 | 0 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | smartphones | itel | 3 | 1 | 3 | 0 | 0 | 3 | 26 | 26 | 112 | 3 | 1 | 1 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | smartphones | itel | 3 | 1 | 3 | 0 | 0 | 3 | 26 | 26 | 112 | 2 | 1 | 1 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | realme | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 184 | 2 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | vivo | 2 | 2 | 2 | 0 | 0 | 2 | 92 | 74 | 0 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | tablets | ABC TECH | 3 | 3 | 3 | 0 | 0 | 3 | 147 | 82 | 0 | 0 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -184,7 +184,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2025 | tablets | OnePlus | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 48 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | tablets | POCO | 2 | 2 | 2 | 0 | 0 | 2 | 96 | 82 | 2 | 0 | 2 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | tablets | Redmi | 3 | 1 | 3 | 0 | 0 | 3 | 35 | 33 | 112 | 0 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
-| 2025 | tablets | Samsung | 5 | 2 | 5 | 0 | 0 | 5 | 0 | 0 | 245 | 0 | 0 | 2 | 0 | 0 | 5 | PARTIAL_WITH_PENDING_FIELDS |
+| 2025 | tablets | Samsung | 5 | 2 | 5 | 0 | 0 | 5 | 95 | 84 | 199 | 0 | 1 | 2 | 0 | 1 | 4 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | tablets | TECNO | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 49 | 0 | 0 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | tablets | TechLife | 3 | 0 | 3 | 0 | 0 | 3 | 2 | 2 | 145 | 1 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2025 | tablets | Xiaomi | 3 | 3 | 3 | 0 | 0 | 3 | 321 | 219 | 22 | 1 | 3 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
@@ -230,7 +230,7 @@ The table counts the existing records and this run's review state; it does not m
 ## Current blockers and next actions
 
 1. Research remaining fields for each exact model and configuration against manufacturer documents and Philippine-market sources.
-2. Review the 5883 source-derived field observations and 522 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
+2. Review the 5824 source-derived field observations and 445 dated price candidates; retain source URL, quoted excerpt, observed date, region, and exact configuration.
 3. Continue source coverage for the 438 smartphone and tablet records; the collector has not extracted structured laptop pages, but manual official-source reviews now cover 18/18 laptop models and 22 exact configurations.
 4. Use NanoReview and Kimovil only through a permitted manual lookup or written authorization; cross-check any candidate against sources that may be recorded and reused.
 5. Research missing fields before assigning negative statuses; keep all unresolved values blank with `PENDING_VERIFICATION`.

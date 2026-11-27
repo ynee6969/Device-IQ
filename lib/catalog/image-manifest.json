@@ -548,5 +548,16 @@
     "changes": "Converted to WebP and resized to fit the catalog image area without cropping; no product edits or notice removal.",
     "licenseUrl": "https://www.samsungmobilepress.com/terms",
     "rightsCheckedAt": "2026-11-27"
+  },
+  "device_8a813e7f0aaaae": {
+    "path": "/catalog-images/device_8a813e7f0aaaae.webp",
+    "sourcePage": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-fe-plus?tab=images",
+    "assetUrl": "https://api.samsungmobilepress.com/file/EB6857FDFA1B6B9982B8D02D52E9D86D89786A4BD56539C90499353889BE4DBAE0D08FE9DE370AF57182E01450A1E6B4DDF6E44FDD3477FEF9ACE2C8C9A512C8ECBAF76F8224BFAA856AD6AF3A8DB2F487EC68CB22CAC28E422E6663CE635A077B6149229543867DF10BC3C7B86BC0FF7F07E96B3BBE6DBEC7B987A99C4EBB2401F5801CAFE687AA0865B5F66281D364",
+    "scope": "Exact Galaxy Tab S10 FE+ Gray front product image; memory/storage and Wi-Fi/5G configuration are not visually distinguishable.",
+    "credit": "Samsung Electronics Co., Ltd. via Samsung Mobile Press",
+    "usageTerms": "Samsung Mobile Press Terms of Use: personal, informational and non-commercial use only; preserve copyright, trademark and proprietary notices; no commercial use is granted.",
+    "changes": "Converted to WebP and resized for catalog display without cropping; no product edits or notice removal.",
+    "licenseUrl": "https://www.samsungmobilepress.com/terms",
+    "rightsCheckedAt": "2026-11-27"
   }
 }

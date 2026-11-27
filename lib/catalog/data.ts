@@ -2,7 +2,7 @@ import snapshot from "./public-inventory.json";
 import type { CatalogDevice } from "./types";
 
 // Generated from the supplied workbook. The website reads this checked-in snapshot.
-export const CATALOG_VERSION = "2026-11-26-workbook-inventory";
+export const CATALOG_VERSION = "2026-11-27-workbook-inventory";
 export const catalogDevices: CatalogDevice[] = snapshot as CatalogDevice[];
 
 export function devicesForCategory(category: string) {

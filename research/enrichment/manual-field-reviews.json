@@ -211677,6 +211677,1314 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_8a813e7f0aaaae",
+      "configurationId": "device_8a813e7f0aaaae-sm-x620n-8gb-128gb-wifi-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S10 FE+",
+      "configuration": "8 GB RAM / 128 GB storage · Wi-Fi · Gray",
+      "configurationLabel": "8 GB RAM / 128 GB storage · Wi-Fi · Gray",
+      "sources": [
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x620nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact local Wi-Fi SKU and configuration specifications",
+          "note": "Samsung Philippines identifies Gray Wi-Fi SKU SM-X620NZAAXTC as 8 GB RAM / 128 GB storage and publishes its hardware details."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact local 5G SKU and configuration specifications",
+          "note": "Samsung Philippines identifies Gray 5G SKU SM-X626BZAAXTC as 8 GB RAM / 128 GB storage and publishes its hardware, cellular-band and SIM/eSIM details."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "publicationDate": "2025-04-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Global launch date and model-family specifications",
+          "note": "Samsung announced the S10 FE family on 2025-04-02 and states availability in select markets beginning 2025-04-03. The story identifies FE+ display, cameras, chipset, memory options, battery, charging and launch OS; it is not Philippine-sale evidence."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_launch",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "publicationDate": "2025-04-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine launch announcement and local configuration availability",
+          "note": "Samsung Philippines announced local availability from 2025-05-15 for the Galaxy Tab S10 FE+ 5G (128 GB), in Gray and Blue. The announcement does not state the Wi-Fi FE+ first-sale date or RAM for the 5G launch option."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_launch_price_story",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/bigger-screen-bigger-possibilities-three-reasons-why-the-galaxy-tab-s10-fe-series-is-the-perfect-campus-companion",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine series price context",
+          "note": "Samsung's local story describes the FE+ 5G as available from PHP 39,990; RAM is not stated, so this is retained as model/network-level evidence only."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_2025_trade_in_price",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Historical exact-configuration SRP",
+          "note": "Samsung's expired July 2025 offer table lists FE+ 5G (8 GB + 128 GB) at SRP PHP 39,990, with trade-in savings available separately; campaign dates were July 1–September 30, 2025."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_2026_current_srp",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/trade-in/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Current local SRP for exact 8 GB / 128 GB Wi-Fi and 5G variants",
+          "note": "The live Samsung Philippines trade-in page, valid through 2026-11-30, lists SRP PHP 47,490 for Galaxy Tab S10 FE+ Wi-Fi (8 GB + 128 GB) and PHP 52,690 for 5G (8 GB + 128 GB). SRP excludes optional trade-in value; checkout stock was not checked."
+        },
+        {
+          "id": "samsung_exynos_1580_official_specs",
+          "publisher": "Samsung Semiconductor",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1580/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exynos 1580 process, CPU and GPU specifications",
+          "note": "Samsung lists third-generation 4 nm EUV FinFET and Xclipse 540 graphics. Its Exynos 1580 CPU specification lists Cortex-A720 at 2.9 and 2.6 GHz and Cortex-A520 at 1.95 GHz."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_security_support",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Published product support-period endpoint",
+          "note": "Samsung Philippines lists the security-update period as valid until 30 April 2032 on the exact local FE+ product pages; this is a support-period endpoint, not an OS-upgrade-count guarantee."
+        },
+        {
+          "id": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s10-fe",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary technical cross-check for the Galaxy Tab S10 FE+",
+          "note": "NanoReview's FE+ page exposes 8/128 and 12/256 options and lists LPDDR5X, UFS 3.1, 4 speakers, Dolby Atmos, no wireless charging and Li-Ion chemistry. It reports 90 Hz and 800 nits maximum; the brightness measurement condition is unclear."
+        },
+        {
+          "id": "kimovil_samsung_galaxy_tab_s10_fe_plus_specs",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s10-fe-plus",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary global model cross-check; conflicting claims are not promoted",
+          "note": "Kimovil lists global 8/128 Wi-Fi and 5G versions and LPDDR5X, but this page also reports 120 Hz and 1750 nits, contrary to Samsung's 90 Hz / 600 nits max and 800 nits HBM. Its conflicting panel data are not used as local product specifications; its Li-Polymer claim is retained only as unresolved chemistry evidence."
+        },
+        {
+          "id": "samsung_2025_q3_report_tab_s10_fe_platform",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_3Q_Interim_Report.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Launch platform and OS confirmation",
+          "note": "Samsung's 2025 Q3 interim report labels Galaxy Tab S10 FE / FE+ (April 2025) and lists Exynos 1580, Android 15 and One UI 7.0."
+        },
+        {
+          "id": "samsung_mobile_press_tab_s10_fe_plus_gallery",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-fe-plus?tab=images",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model gray product image and usage-rights review",
+          "note": "The official gallery contains the exact Galaxy Tab S10 FE+ gray-front product image. Samsung Mobile Press terms restrict use to personal, informational, non-commercial purposes and require proprietary notices to remain intact; the DeviceIQ thesis catalog is treated as educational/non-commercial."
+        },
+        {
+          "id": "samsung_mobile_press_image_terms",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/terms",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product image reuse terms",
+          "note": "Terms permit personal, informational and non-commercial use only; no commercial rights are granted and copyright, trademark and proprietary notices must be preserved."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "SM-X620N",
+          "normalizedValue": "SM-X620N",
+          "note": "Exact local Samsung Philippines Gray SKU SM-X620NZAAXTC (SM-X620N) is listed as 8 GB RAM / 128 GB storage, Wi-Fi."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung announced the series on 2025-04-02; select-market availability began 2025-04-03",
+          "normalizedValue": "2025-04-03",
+          "note": "Select-market global availability only; Philippine availability is sourced separately."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "8 GB RAM / 128 GB storage · Wi-Fi · Gray",
+          "normalizedValue": "8 GB RAM / 128 GB storage · Wi-Fi · Gray",
+          "note": "Exact local Samsung Philippines Gray SKU SM-X620NZAAXTC (SM-X620N) is listed as 8 GB RAM / 128 GB storage, Wi-Fi."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_launch",
+          "sourceValue": "Samsung PH announced the 5G FE+ 128 GB variant for 2025-05-15; the Wi-Fi SKU's first-sale date is not stated.",
+          "normalizedValue": null,
+          "note": "The local exact Wi-Fi product page confirms the SKU exists, but the dated local announcement names only the FE+ 5G variant."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_launch_price_story",
+          "sourceValue": "Samsung Newsroom Philippines states FE+ 5G available from PHP 39,990; RAM/storage are not stated in this price story.",
+          "normalizedValue": null,
+          "note": "Historical model/network price context only. The exact initial price for this Wi-Fi 8/128 configuration is not documented.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_2026_current_srp",
+          "sourceValue": "Samsung Philippines current SRP for Galaxy Tab S10 FE+ Wi-Fi (8 GB + 128 GB): PHP 47,490.",
+          "normalizedValue": 47490,
+          "note": "Current exact-configuration manufacturer SRP, observed during the official offer period ending 2026-11-30; not reduced by optional trade-in value.",
+          "unit": "PHP",
+          "priceCondition": "new",
+          "priceType": "official_current_ph_srp",
+          "priceObservedAt": "2026-11-27"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "13.1 in (332.8 mm) full rectangle; 13.0 in (330.5 mm) rounded corners",
+          "normalizedValue": 13.1,
+          "note": "Samsung Philippines exact-SKU spec page lists 13.1 inches full rectangle and 13.0 inches at rounded corners.",
+          "unit": "in",
+          "catalogKey": "displayInches",
+          "catalogValue": 13.1
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "TFT display",
+          "normalizedValue": "TFT",
+          "note": "Samsung Philippines lists TFT; secondary IPS-LCD labeling is not substituted for the local manufacturer term.",
+          "catalogKey": "displayType",
+          "catalogValue": "TFT"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "2880 x 1800 (WQXGA+)",
+          "normalizedValue": "2880 x 1800",
+          "note": "Samsung Philippines exact-SKU specification.",
+          "catalogKey": "resolution",
+          "catalogValue": "2880 x 1800"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "LCD, refresh rate up to 90 Hz",
+          "normalizedValue": 90,
+          "note": "Samsung's launch specification lists up to 90 Hz; the conflicting 120 Hz claim on Kimovil is not used.",
+          "unit": "Hz",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "600 nits maximum; 800 nits outdoor High Brightness Mode",
+          "normalizedValue": 600,
+          "note": "Samsung Philippines specifies 600 nits maximum and 800 nits outdoor HBM; the two modes are kept distinct.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Samsung Philippines does not identify a screen-cover glass material or version.",
+          "normalizedValue": null,
+          "note": "No Gorilla Glass generation or other panel-cover material is inferred from secondary listings, which conflict."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung Exynos 1580",
+          "normalizedValue": "Samsung Exynos 1580",
+          "note": "Samsung's launch table identifies Exynos 1580 for the FE+ model family.",
+          "catalogKey": "chipset",
+          "catalogValue": "Samsung Exynos 1580"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1580_official_specs",
+          "sourceValue": "Samsung Exynos 1580, third-generation 4 nm EUV FinFET",
+          "normalizedValue": 4,
+          "note": "Samsung Semiconductor specifies its 4 nm EUV FinFET process.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1580_official_specs",
+          "sourceValue": "1 x Cortex-A720 up to 2.9 GHz; 3 x Cortex-A720 up to 2.6 GHz; 4 x Cortex-A520 up to 1.95 GHz",
+          "normalizedValue": "Octa-core: 1 x Cortex-A720 2.9 GHz + 3 x Cortex-A720 2.6 GHz + 4 x Cortex-A520 1.95 GHz",
+          "note": "Samsung Exynos 1580 architecture; the Samsung PH device page also lists CPU clocks 2.9/2.6/1.9 GHz.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 1 x Cortex-A720 2.9 GHz + 3 x Cortex-A720 2.6 GHz + 4 x Cortex-A520 1.95 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1580_official_specs",
+          "sourceValue": "Samsung Xclipse 540 GPU",
+          "normalizedValue": "Samsung Xclipse 540",
+          "note": "Samsung Semiconductor identifies Xclipse 540 graphics for Exynos 1580.",
+          "catalogKey": "gpu",
+          "catalogValue": "Samsung Xclipse 540"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_2025_q3_report_tab_s10_fe_platform",
+          "sourceValue": "Android 15, One UI 7.0 at launch",
+          "normalizedValue": "Android 15",
+          "note": "Samsung Electronics' 2025 report lists Android 15 / One UI 7.0 for Tab S10 FE and FE+ at launch; later OS versions are not substituted.",
+          "catalogKey": "os",
+          "catalogValue": "Android 15"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_security_support",
+          "sourceValue": "Samsung lists security-update period valid until 30 April 2032",
+          "normalizedValue": "Security updates listed through 2032-04-30",
+          "note": "Manufacturer support-period endpoint; no OS-generation count is inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "Exact local Samsung Philippines Gray SKU SM-X620NZAAXTC (SM-X620N) is listed as 8 GB RAM / 128 GB storage, Wi-Fi.",
+          "unit": "GB",
+          "catalogKey": "ramGb",
+          "catalogValue": 8
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "LPDDR5X; NanoReview displays the 8 GB / 128 GB option",
+          "normalizedValue": "LPDDR5X",
+          "note": "Secondary model-family data matches the selected 8/128 configuration; Samsung PH does not publish RAM technology."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "128 GB internal storage",
+          "normalizedValue": 128,
+          "note": "Exact local Samsung Philippines Gray SKU SM-X620NZAAXTC (SM-X620N) is listed as 8 GB RAM / 128 GB storage, Wi-Fi.",
+          "unit": "GB",
+          "catalogKey": "storageGb",
+          "catalogValue": 128
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "UFS 3.1; NanoReview displays the 8 GB / 128 GB option",
+          "normalizedValue": "UFS 3.1",
+          "note": "Secondary model-family data for the selected 8/128 configuration; Samsung PH does not publish storage-interface type."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "MicroSD card support up to 2 TB",
+          "normalizedValue": "microSD up to 2 TB",
+          "note": "Samsung Philippines and Samsung's global launch materials list expansion up to 2 TB."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Single 13 MP autofocus rear camera",
+          "normalizedValue": 13,
+          "note": "Samsung Philippines lists a 13 MP rear camera with autofocus; Samsung's launch table lists one rear camera.",
+          "unit": "MP",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Samsung does not disclose the rear-camera sensor component.",
+          "normalizedValue": null,
+          "note": "No sensor part number, type or aperture is inferred from camera resolution."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung lists one 13 MP rear camera and no rear ultra-wide module.",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Samsung's FE+ launch specification names a single rear camera; no rear ultra-wide camera is listed."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung lists one 13 MP rear camera and no telephoto module.",
+          "normalizedValue": "No telephoto camera",
+          "note": "Samsung's FE+ launch specification names a single rear camera; no telephoto camera is listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "12 MP ultra-wide front camera",
+          "normalizedValue": 12,
+          "note": "Samsung's global launch table identifies the front module as 12 MP ultra-wide.",
+          "unit": "MP",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Rear video recording up to UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Samsung Philippines exact-SKU specification.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "10,090 mAh typical capacity",
+          "normalizedValue": 10090,
+          "note": "Samsung Philippines labels 10,090 mAh as typical capacity; a rated/minimum capacity is not supplied.",
+          "unit": "mAh",
+          "catalogKey": "batteryMah",
+          "catalogValue": 10090
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "NanoReview says Li-Ion; Kimovil says Li-Polymer; Samsung does not disclose chemistry.",
+          "normalizedValue": null,
+          "note": "Secondary sources conflict, and Samsung does not identify cell chemistry. Value withheld.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s10-fe",
+              "sourceKind": "secondary_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists battery type Li-Ion.",
+              "configurationMatch": "Galaxy Tab S10 FE+ model-level; chemistry/sample not stated by Samsung",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Li-Polymer",
+              "sourceUrl": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s10-fe-plus",
+              "sourceKind": "secondary_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "Kimovil lists battery type Li-Polymer.",
+              "configurationMatch": "Global Galaxy Tab S10 FE+ model page; no local battery variant identified",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "45 W wired charging; compatible 45 W power adapter sold separately",
+          "normalizedValue": 45,
+          "note": "Samsung global launch specification lists 45 W and says the adapter is sold separately.",
+          "unit": "W",
+          "catalogKey": "chargingW",
+          "catalogValue": 45
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "NanoReview lists no wireless charging.",
+          "normalizedValue": "No wireless charging",
+          "note": "Samsung PH does not enumerate this feature; secondary specification only, not presented as a manufacturer claim."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "194.7 x 300.6 x 6.0 mm (H x W x D)",
+          "normalizedValue": "194.7 x 300.6 x 6.0 mm",
+          "note": "Samsung Philippines physical specification.",
+          "unit": "mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "194.7 x 300.6 x 6.0 mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "664 g (Wi-Fi model)",
+          "normalizedValue": 664,
+          "note": "Samsung Philippines lists 664 g for Wi-Fi and 668 g for the 5G model.",
+          "unit": "g",
+          "catalogKey": "weightG",
+          "catalogValue": 664
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "Metal rear body and metal frame; Kimovil describes an aluminium-alloy frame.",
+          "normalizedValue": "Metal body/frame",
+          "note": "Two secondary descriptions support metal construction; exact alloy composition is not assigned from these sources."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "IP68; lab submersion up to 1.5 m freshwater for up to 30 minutes",
+          "normalizedValue": "IP68",
+          "note": "Samsung Philippines states IP68 and its stated laboratory conditions."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Exact SM-X620N SKU is Wi-Fi only; no SIM/eSIM.",
+          "normalizedValue": "No SIM; Wi-Fi only",
+          "note": "Exact local Samsung Philippines Gray SKU SM-X620NZAAXTC (SM-X620N) is listed as 8 GB RAM / 128 GB storage, Wi-Fi.",
+          "catalogKey": "sim",
+          "catalogValue": "No SIM; Wi-Fi only"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Not applicable to the Wi-Fi-only SM-X620N SKU.",
+          "normalizedValue": null,
+          "note": "Samsung identifies this exact SKU as Wi-Fi-only; no cellular bands are assigned."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Wi-Fi-only variant",
+          "normalizedValue": "Wi-Fi only",
+          "note": "Exact local Samsung Philippines Gray SKU SM-X620NZAAXTC (SM-X620N) is listed as 8 GB RAM / 128 GB storage, Wi-Fi.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "802.11a/b/g/n/ac/ax, 2.4 GHz + 5 GHz, HE80, MIMO, 1024-QAM (Wi-Fi 6)",
+          "normalizedValue": "Wi-Fi 6",
+          "note": "Samsung Philippines lists 802.11ax; do not upgrade to Wi-Fi 6E based on a secondary global listing.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Samsung Philippines exact-SKU specification."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "USB Type-C, USB 2.0",
+          "normalizedValue": "USB Type-C; USB 2.0",
+          "note": "Samsung Philippines lists USB 2.0 and USB Type-C.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Samsung Philippines exact-SKU specification."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Samsung Philippines lists location technologies."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "Four-speaker audio and Dolby Atmos; Kimovil also lists stereo speakers and Dolby Atmos.",
+          "normalizedValue": "4 speakers; Dolby Atmos",
+          "note": "Secondary model-level cross-check; Samsung PH product page does not specify speaker count.",
+          "catalogKey": "sound",
+          "catalogValue": "4 speakers; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyroscope, geomagnetic sensor, Hall sensor and light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light",
+          "note": "Samsung Philippines exact-SKU sensor list."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "S Pen included with the Galaxy Tab S10 FE+",
+          "normalizedValue": "S Pen included",
+          "note": "Samsung Philippines lists the tablet with S Pen; S Pen is included with the product.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "sourceValue": "Book Cover Keyboard and Book Cover Keyboard Slim supported; sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Samsung Philippines product page lists both keyboard accessories as sold separately.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X620N",
+      "sku": "SM-X620NZAAXTC",
+      "replacementVariants": [
+        {
+          "id": "device_8a813e7f0aaaae-sm-x620n-8gb-128gb-wifi-ph",
+          "label": "8 GB RAM / 128 GB storage · Wi-Fi · Gray",
+          "sku": "SM-X620NZAAXTC",
+          "modelCode": "SM-X620N",
+          "notes": "Exact local Gray Wi-Fi 8/128 SKU listed by Samsung Philippines."
+        },
+        {
+          "id": "device_8a813e7f0aaaae-sm-x626b-8gb-128gb-5g-ph",
+          "label": "8 GB RAM / 128 GB storage · 5G · Gray",
+          "sku": "SM-X626BZAAXTC",
+          "modelCode": "SM-X626B",
+          "notes": "Exact local Gray 5G 8/128 SKU listed by Samsung Philippines."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+        "availabilityStatus": "Samsung Philippines announced FE+ 5G 128 GB availability beginning 2025-05-15 and now lists exact 8/128 Gray Wi-Fi and 5G product SKUs. Current official SRP is listed through 2026-11-30; checkout stock was not checked.",
+        "philippineAvailabilityDate": "2025-05-15",
+        "philippineDateLabel": "Philippine launch date",
+        "philippineAvailability": "Samsung Philippines announced local availability for Galaxy Tab S10 FE+ 5G (128 GB) from 2025-05-15. Current Samsung Philippines product pages identify Gray 8/128 Wi-Fi (SM-X620NZAAXTC) and 5G (SM-X626BZAAXTC) SKUs. The first local sale date for the Wi-Fi SKU and exact Philippine 12/256 SKUs were not verified.",
+        "observedAt": "2026-11-27",
+        "philippineReleaseYear": 2025,
+        "catalogModel": "Galaxy Tab S10 FE+",
+        "qualityFlag": "Two exact local 8/128 SKUs reviewed; Wi-Fi first-sale date, exact launch prices, PH 12/256 availability and battery chemistry remain unresolved.",
+        "openIssues": [
+          {
+            "issue": "Samsung's dated local availability announcement names the FE+ 5G 128 GB variant; an exact first-sale date for Wi-Fi is not documented.",
+            "action": "Keep the Wi-Fi configuration date blank until dated local availability evidence is found."
+          },
+          {
+            "issue": "Global materials mention 12 GB / 256 GB, but explicitly warn memory options vary by market; no exact PH 12/256 SKU was located.",
+            "action": "Do not add the 12/256 configuration to the Philippine catalog without local SKU or authorized local listing evidence."
+          },
+          {
+            "issue": "Samsung Newsroom gives FE+ 5G from PHP 39,990 without RAM/storage; an exact initial launch price for each 8/128 SKU remains unverified. A July 2025 exact 5G 8/128 SRP and current 2026 SRPs are separately sourced.",
+            "action": "Keep exact-configuration launch-price fields blank; retain dated exact and model/network price observations."
+          },
+          {
+            "issue": "Samsung does not identify display cover glass or battery chemistry. NanoReview and Kimovil disagree on battery chemistry; Kimovil also reports refresh/brightness values inconsistent with Samsung's exact local specifications.",
+            "action": "Leave the screen-cover material undisclosed and battery chemistry unresolved; prefer Samsung's local display measurements."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_8a813e7f0aaaae",
+      "configurationId": "device_8a813e7f0aaaae-sm-x626b-8gb-128gb-5g-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S10 FE+",
+      "configuration": "8 GB RAM / 128 GB storage · 5G · Gray",
+      "configurationLabel": "8 GB RAM / 128 GB storage · 5G · Gray",
+      "sources": [
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x620nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact local Wi-Fi SKU and configuration specifications",
+          "note": "Samsung Philippines identifies Gray Wi-Fi SKU SM-X620NZAAXTC as 8 GB RAM / 128 GB storage and publishes its hardware details."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact local 5G SKU and configuration specifications",
+          "note": "Samsung Philippines identifies Gray 5G SKU SM-X626BZAAXTC as 8 GB RAM / 128 GB storage and publishes its hardware, cellular-band and SIM/eSIM details."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "publicationDate": "2025-04-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Global launch date and model-family specifications",
+          "note": "Samsung announced the S10 FE family on 2025-04-02 and states availability in select markets beginning 2025-04-03. The story identifies FE+ display, cameras, chipset, memory options, battery, charging and launch OS; it is not Philippine-sale evidence."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_launch",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+          "publicationDate": "2025-04-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine launch announcement and local configuration availability",
+          "note": "Samsung Philippines announced local availability from 2025-05-15 for the Galaxy Tab S10 FE+ 5G (128 GB), in Gray and Blue. The announcement does not state the Wi-Fi FE+ first-sale date or RAM for the 5G launch option."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_launch_price_story",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/bigger-screen-bigger-possibilities-three-reasons-why-the-galaxy-tab-s10-fe-series-is-the-perfect-campus-companion",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine series price context",
+          "note": "Samsung's local story describes the FE+ 5G as available from PHP 39,990; RAM is not stated, so this is retained as model/network-level evidence only."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_2025_trade_in_price",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Historical exact-configuration SRP",
+          "note": "Samsung's expired July 2025 offer table lists FE+ 5G (8 GB + 128 GB) at SRP PHP 39,990, with trade-in savings available separately; campaign dates were July 1–September 30, 2025."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_2026_current_srp",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/trade-in/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Current local SRP for exact 8 GB / 128 GB Wi-Fi and 5G variants",
+          "note": "The live Samsung Philippines trade-in page, valid through 2026-11-30, lists SRP PHP 47,490 for Galaxy Tab S10 FE+ Wi-Fi (8 GB + 128 GB) and PHP 52,690 for 5G (8 GB + 128 GB). SRP excludes optional trade-in value; checkout stock was not checked."
+        },
+        {
+          "id": "samsung_exynos_1580_official_specs",
+          "publisher": "Samsung Semiconductor",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1580/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exynos 1580 process, CPU and GPU specifications",
+          "note": "Samsung lists third-generation 4 nm EUV FinFET and Xclipse 540 graphics. Its Exynos 1580 CPU specification lists Cortex-A720 at 2.9 and 2.6 GHz and Cortex-A520 at 1.95 GHz."
+        },
+        {
+          "id": "samsung_tab_s10_fe_plus_ph_security_support",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Published product support-period endpoint",
+          "note": "Samsung Philippines lists the security-update period as valid until 30 April 2032 on the exact local FE+ product pages; this is a support-period endpoint, not an OS-upgrade-count guarantee."
+        },
+        {
+          "id": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s10-fe",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary technical cross-check for the Galaxy Tab S10 FE+",
+          "note": "NanoReview's FE+ page exposes 8/128 and 12/256 options and lists LPDDR5X, UFS 3.1, 4 speakers, Dolby Atmos, no wireless charging and Li-Ion chemistry. It reports 90 Hz and 800 nits maximum; the brightness measurement condition is unclear."
+        },
+        {
+          "id": "kimovil_samsung_galaxy_tab_s10_fe_plus_specs",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s10-fe-plus",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary global model cross-check; conflicting claims are not promoted",
+          "note": "Kimovil lists global 8/128 Wi-Fi and 5G versions and LPDDR5X, but this page also reports 120 Hz and 1750 nits, contrary to Samsung's 90 Hz / 600 nits max and 800 nits HBM. Its conflicting panel data are not used as local product specifications; its Li-Polymer claim is retained only as unresolved chemistry evidence."
+        },
+        {
+          "id": "samsung_2025_q3_report_tab_s10_fe_platform",
+          "publisher": "Samsung Electronics",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_3Q_Interim_Report.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Launch platform and OS confirmation",
+          "note": "Samsung's 2025 Q3 interim report labels Galaxy Tab S10 FE / FE+ (April 2025) and lists Exynos 1580, Android 15 and One UI 7.0."
+        },
+        {
+          "id": "samsung_mobile_press_tab_s10_fe_plus_gallery",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-fe-plus?tab=images",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model gray product image and usage-rights review",
+          "note": "The official gallery contains the exact Galaxy Tab S10 FE+ gray-front product image. Samsung Mobile Press terms restrict use to personal, informational, non-commercial purposes and require proprietary notices to remain intact; the DeviceIQ thesis catalog is treated as educational/non-commercial."
+        },
+        {
+          "id": "samsung_mobile_press_image_terms",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/terms",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product image reuse terms",
+          "note": "Terms permit personal, informational and non-commercial use only; no commercial rights are granted and copyright, trademark and proprietary notices must be preserved."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "SM-X626B",
+          "normalizedValue": "SM-X626B",
+          "note": "Exact local Samsung Philippines Gray SKU SM-X626BZAAXTC (SM-X626B) is listed as 8 GB RAM / 128 GB storage, 5G."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung announced the series on 2025-04-02; select-market availability began 2025-04-03",
+          "normalizedValue": "2025-04-03",
+          "note": "Select-market global availability only; Philippine availability is sourced separately."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "8 GB RAM / 128 GB storage · 5G · Gray",
+          "normalizedValue": "8 GB RAM / 128 GB storage · 5G · Gray",
+          "note": "Exact local Samsung Philippines Gray SKU SM-X626BZAAXTC (SM-X626B) is listed as 8 GB RAM / 128 GB storage, 5G."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_launch",
+          "sourceValue": "Samsung Philippines announced Galaxy Tab S10 FE+ 5G (128 GB) availability starting 2025-05-15; RAM is not specified.",
+          "normalizedValue": "2025-05-15",
+          "note": "Official local announcement dates the FE+ 5G 128 GB launch. The exact SM-X626B 8/128 SKU is independently listed on Samsung PH."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_launch_price_story",
+          "sourceValue": "Samsung Newsroom Philippines states FE+ 5G available from PHP 39,990; RAM/storage are not stated in this price story.",
+          "normalizedValue": null,
+          "note": "The local story gives a model/network starting price without RAM/storage; the launch-price field stays blank for this exact SKU.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_2026_current_srp",
+          "sourceValue": "Samsung Philippines current SRP for Galaxy Tab S10 FE+ 5G (8 GB + 128 GB): PHP 52,690.",
+          "normalizedValue": 52690,
+          "note": "Current exact-configuration manufacturer SRP, observed during the official offer period ending 2026-11-30; not reduced by optional trade-in value.",
+          "unit": "PHP",
+          "priceCondition": "new",
+          "priceType": "official_current_ph_srp",
+          "priceObservedAt": "2026-11-27"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "13.1 in (332.8 mm) full rectangle; 13.0 in (330.5 mm) rounded corners",
+          "normalizedValue": 13.1,
+          "note": "Samsung Philippines exact-SKU spec page lists 13.1 inches full rectangle and 13.0 inches at rounded corners.",
+          "unit": "in",
+          "catalogKey": "displayInches",
+          "catalogValue": 13.1
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "TFT display",
+          "normalizedValue": "TFT",
+          "note": "Samsung Philippines lists TFT; secondary IPS-LCD labeling is not substituted for the local manufacturer term.",
+          "catalogKey": "displayType",
+          "catalogValue": "TFT"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "2880 x 1800 (WQXGA+)",
+          "normalizedValue": "2880 x 1800",
+          "note": "Samsung Philippines exact-SKU specification.",
+          "catalogKey": "resolution",
+          "catalogValue": "2880 x 1800"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "LCD, refresh rate up to 90 Hz",
+          "normalizedValue": 90,
+          "note": "Samsung's launch specification lists up to 90 Hz; the conflicting 120 Hz claim on Kimovil is not used.",
+          "unit": "Hz",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "600 nits maximum; 800 nits outdoor High Brightness Mode",
+          "normalizedValue": 600,
+          "note": "Samsung Philippines specifies 600 nits maximum and 800 nits outdoor HBM; the two modes are kept distinct.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Samsung Philippines does not identify a screen-cover glass material or version.",
+          "normalizedValue": null,
+          "note": "No Gorilla Glass generation or other panel-cover material is inferred from secondary listings, which conflict."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung Exynos 1580",
+          "normalizedValue": "Samsung Exynos 1580",
+          "note": "Samsung's launch table identifies Exynos 1580 for the FE+ model family.",
+          "catalogKey": "chipset",
+          "catalogValue": "Samsung Exynos 1580"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1580_official_specs",
+          "sourceValue": "Samsung Exynos 1580, third-generation 4 nm EUV FinFET",
+          "normalizedValue": 4,
+          "note": "Samsung Semiconductor specifies its 4 nm EUV FinFET process.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1580_official_specs",
+          "sourceValue": "1 x Cortex-A720 up to 2.9 GHz; 3 x Cortex-A720 up to 2.6 GHz; 4 x Cortex-A520 up to 1.95 GHz",
+          "normalizedValue": "Octa-core: 1 x Cortex-A720 2.9 GHz + 3 x Cortex-A720 2.6 GHz + 4 x Cortex-A520 1.95 GHz",
+          "note": "Samsung Exynos 1580 architecture; the Samsung PH device page also lists CPU clocks 2.9/2.6/1.9 GHz.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 1 x Cortex-A720 2.9 GHz + 3 x Cortex-A720 2.6 GHz + 4 x Cortex-A520 1.95 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1580_official_specs",
+          "sourceValue": "Samsung Xclipse 540 GPU",
+          "normalizedValue": "Samsung Xclipse 540",
+          "note": "Samsung Semiconductor identifies Xclipse 540 graphics for Exynos 1580.",
+          "catalogKey": "gpu",
+          "catalogValue": "Samsung Xclipse 540"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_2025_q3_report_tab_s10_fe_platform",
+          "sourceValue": "Android 15, One UI 7.0 at launch",
+          "normalizedValue": "Android 15",
+          "note": "Samsung Electronics' 2025 report lists Android 15 / One UI 7.0 for Tab S10 FE and FE+ at launch; later OS versions are not substituted.",
+          "catalogKey": "os",
+          "catalogValue": "Android 15"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_security_support",
+          "sourceValue": "Samsung lists security-update period valid until 30 April 2032",
+          "normalizedValue": "Security updates listed through 2032-04-30",
+          "note": "Manufacturer support-period endpoint; no OS-generation count is inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "8 GB",
+          "normalizedValue": 8,
+          "note": "Exact local Samsung Philippines Gray SKU SM-X626BZAAXTC (SM-X626B) is listed as 8 GB RAM / 128 GB storage, 5G.",
+          "unit": "GB",
+          "catalogKey": "ramGb",
+          "catalogValue": 8
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "LPDDR5X; NanoReview displays the 8 GB / 128 GB option",
+          "normalizedValue": "LPDDR5X",
+          "note": "Secondary model-family data matches the selected 8/128 configuration; Samsung PH does not publish RAM technology."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "128 GB internal storage",
+          "normalizedValue": 128,
+          "note": "Exact local Samsung Philippines Gray SKU SM-X626BZAAXTC (SM-X626B) is listed as 8 GB RAM / 128 GB storage, 5G.",
+          "unit": "GB",
+          "catalogKey": "storageGb",
+          "catalogValue": 128
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "UFS 3.1; NanoReview displays the 8 GB / 128 GB option",
+          "normalizedValue": "UFS 3.1",
+          "note": "Secondary model-family data for the selected 8/128 configuration; Samsung PH does not publish storage-interface type."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "MicroSD card support up to 2 TB",
+          "normalizedValue": "microSD up to 2 TB",
+          "note": "Samsung Philippines and Samsung's global launch materials list expansion up to 2 TB."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Single 13 MP autofocus rear camera",
+          "normalizedValue": 13,
+          "note": "Samsung Philippines lists a 13 MP rear camera with autofocus; Samsung's launch table lists one rear camera.",
+          "unit": "MP",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 13
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Samsung does not disclose the rear-camera sensor component.",
+          "normalizedValue": null,
+          "note": "No sensor part number, type or aperture is inferred from camera resolution."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung lists one 13 MP rear camera and no rear ultra-wide module.",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Samsung's FE+ launch specification names a single rear camera; no rear ultra-wide camera is listed."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "Samsung lists one 13 MP rear camera and no telephoto module.",
+          "normalizedValue": "No telephoto camera",
+          "note": "Samsung's FE+ launch specification names a single rear camera; no telephoto camera is listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "12 MP ultra-wide front camera",
+          "normalizedValue": 12,
+          "note": "Samsung's global launch table identifies the front module as 12 MP ultra-wide.",
+          "unit": "MP",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Rear video recording up to UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Samsung Philippines exact-SKU specification.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "10,090 mAh typical capacity",
+          "normalizedValue": 10090,
+          "note": "Samsung Philippines labels 10,090 mAh as typical capacity; a rated/minimum capacity is not supplied.",
+          "unit": "mAh",
+          "catalogKey": "batteryMah",
+          "catalogValue": 10090
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "NanoReview says Li-Ion; Kimovil says Li-Polymer; Samsung does not disclose chemistry.",
+          "normalizedValue": null,
+          "note": "Secondary sources conflict, and Samsung does not identify cell chemistry. Value withheld.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s10-fe",
+              "sourceKind": "secondary_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists battery type Li-Ion.",
+              "configurationMatch": "Galaxy Tab S10 FE+ model-level; chemistry/sample not stated by Samsung",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Li-Polymer",
+              "sourceUrl": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s10-fe-plus",
+              "sourceKind": "secondary_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "Kimovil lists battery type Li-Polymer.",
+              "configurationMatch": "Global Galaxy Tab S10 FE+ model page; no local battery variant identified",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_global_launch",
+          "sourceValue": "45 W wired charging; compatible 45 W power adapter sold separately",
+          "normalizedValue": 45,
+          "note": "Samsung global launch specification lists 45 W and says the adapter is sold separately.",
+          "unit": "W",
+          "catalogKey": "chargingW",
+          "catalogValue": 45
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "NanoReview lists no wireless charging.",
+          "normalizedValue": "No wireless charging",
+          "note": "Samsung PH does not enumerate this feature; secondary specification only, not presented as a manufacturer claim."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "194.7 x 300.6 x 6.0 mm (H x W x D)",
+          "normalizedValue": "194.7 x 300.6 x 6.0 mm",
+          "note": "Samsung Philippines physical specification.",
+          "unit": "mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "194.7 x 300.6 x 6.0 mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "668 g (5G model)",
+          "normalizedValue": 668,
+          "note": "Samsung Philippines lists 664 g for Wi-Fi and 668 g for the 5G model.",
+          "unit": "g",
+          "catalogKey": "weightG",
+          "catalogValue": 668
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "Metal rear body and metal frame; Kimovil describes an aluminium-alloy frame.",
+          "normalizedValue": "Metal body/frame",
+          "note": "Two secondary descriptions support metal construction; exact alloy composition is not assigned from these sources."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "IP68; lab submersion up to 1.5 m freshwater for up to 30 minutes",
+          "normalizedValue": "IP68",
+          "note": "Samsung Philippines states IP68 and its stated laboratory conditions."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Dual-SIM: SIM 1 + embedded SIM + MicroSD; availability may vary by country/carrier.",
+          "normalizedValue": "Nano-SIM + eSIM",
+          "note": "Samsung Philippines exact 5G SKU page lists Dual-SIM, SIM 1 + embedded SIM + MicroSD.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM + eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G UMTS B1 (2100)/B2 (1900)/B4 (AWS)/B5 (850)/B8 (900); 4G FDD LTE B1 (2100)/B2 (1900)/B3 (1800)/B4 (AWS)/B5 (850)/B7 (2600)/B8 (900)/B12 (700)/B13 (700)/B17 (700)/B20 (800)/B25 (1900)/B26 (850)/B28 (700)/B32 (1500)/B66 (AWS-3); 4G TDD LTE B38 (2600)/B40 (2300)/B41 (2500); 5G FDD Sub-6 n1 (2100)/n3 (1800)/n5 (850)/n7 (2600)/n8 (900)/n20 (800)/n26 (850)/n28 (700)/n66 (AWS-3)/n71 (600); 5G TDD Sub-6 n38 (2600)/n40 (2300)/n41 (2500)/n77 (3700)/n78 (3500)",
+          "normalizedValue": "2G GSM 850/900/1800/1900; 3G UMTS B1 (2100)/B2 (1900)/B4 (AWS)/B5 (850)/B8 (900); 4G FDD LTE B1 (2100)/B2 (1900)/B3 (1800)/B4 (AWS)/B5 (850)/B7 (2600)/B8 (900)/B12 (700)/B13 (700)/B17 (700)/B20 (800)/B25 (1900)/B26 (850)/B28 (700)/B32 (1500)/B66 (AWS-3); 4G TDD LTE B38 (2600)/B40 (2300)/B41 (2500); 5G FDD Sub-6 n1 (2100)/n3 (1800)/n5 (850)/n7 (2600)/n8 (900)/n20 (800)/n26 (850)/n28 (700)/n66 (AWS-3)/n71 (600); 5G TDD Sub-6 n38 (2600)/n40 (2300)/n41 (2500)/n77 (3700)/n78 (3500)",
+          "note": "Bands transcribed from Samsung Philippines' SM-X626B 5G specification page."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "5G cellular variant",
+          "normalizedValue": "5G cellular",
+          "note": "Exact local Samsung Philippines Gray SKU SM-X626BZAAXTC (SM-X626B) is listed as 8 GB RAM / 128 GB storage, 5G.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G cellular"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "802.11a/b/g/n/ac/ax, 2.4 GHz + 5 GHz, HE80, MIMO, 1024-QAM (Wi-Fi 6)",
+          "normalizedValue": "Wi-Fi 6",
+          "note": "Samsung Philippines lists 802.11ax; do not upgrade to Wi-Fi 6E based on a secondary global listing.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Samsung Philippines exact-SKU specification."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "USB Type-C, USB 2.0",
+          "normalizedValue": "USB Type-C; USB 2.0",
+          "note": "Samsung Philippines lists USB 2.0 and USB Type-C.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Samsung Philippines exact-SKU specification."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Samsung Philippines lists location technologies."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_samsung_galaxy_tab_s10_fe_plus_specs",
+          "sourceValue": "Four-speaker audio and Dolby Atmos; Kimovil also lists stereo speakers and Dolby Atmos.",
+          "normalizedValue": "4 speakers; Dolby Atmos",
+          "note": "Secondary model-level cross-check; Samsung PH product page does not specify speaker count.",
+          "catalogKey": "sound",
+          "catalogValue": "4 speakers; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyroscope, geomagnetic sensor, Hall sensor and light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light",
+          "note": "Samsung Philippines exact-SKU sensor list."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "S Pen included with the Galaxy Tab S10 FE+",
+          "normalizedValue": "S Pen included",
+          "note": "Samsung Philippines lists the tablet with S Pen; S Pen is included with the product.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s10_fe_plus_ph_5g_128_specs",
+          "sourceValue": "Book Cover Keyboard and Book Cover Keyboard Slim supported; sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Samsung Philippines product page lists both keyboard accessories as sold separately.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X626B",
+      "sku": "SM-X626BZAAXTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+        "availabilityStatus": "Samsung Philippines announced FE+ 5G 128 GB availability beginning 2025-05-15 and now lists exact 8/128 Gray Wi-Fi and 5G product SKUs. Current official SRP is listed through 2026-11-30; checkout stock was not checked.",
+        "philippineAvailabilityDate": "2025-05-15",
+        "philippineDateLabel": "Philippine launch date",
+        "philippineAvailability": "Samsung Philippines announced local availability for Galaxy Tab S10 FE+ 5G (128 GB) from 2025-05-15. Current Samsung Philippines product pages identify Gray 8/128 Wi-Fi (SM-X620NZAAXTC) and 5G (SM-X626BZAAXTC) SKUs. The first local sale date for the Wi-Fi SKU and exact Philippine 12/256 SKUs were not verified.",
+        "observedAt": "2026-11-27",
+        "philippineReleaseYear": 2025,
+        "catalogModel": "Galaxy Tab S10 FE+",
+        "qualityFlag": "Two exact local 8/128 SKUs reviewed; Wi-Fi first-sale date, exact launch prices, PH 12/256 availability and battery chemistry remain unresolved.",
+        "openIssues": [
+          {
+            "issue": "Samsung's dated local availability announcement names the FE+ 5G 128 GB variant; an exact first-sale date for Wi-Fi is not documented.",
+            "action": "Keep the Wi-Fi configuration date blank until dated local availability evidence is found."
+          },
+          {
+            "issue": "Global materials mention 12 GB / 256 GB, but explicitly warn memory options vary by market; no exact PH 12/256 SKU was located.",
+            "action": "Do not add the 12/256 configuration to the Philippine catalog without local SKU or authorized local listing evidence."
+          },
+          {
+            "issue": "Samsung Newsroom gives FE+ 5G from PHP 39,990 without RAM/storage; an exact initial launch price for each 8/128 SKU remains unverified. A July 2025 exact 5G 8/128 SRP and current 2026 SRPs are separately sourced.",
+            "action": "Keep exact-configuration launch-price fields blank; retain dated exact and model/network price observations."
+          },
+          {
+            "issue": "Samsung does not identify display cover glass or battery chemistry. NanoReview and Kimovil disagree on battery chemistry; Kimovil also reports refresh/brightness values inconsistent with Samsung's exact local specifications.",
+            "action": "Leave the screen-cover material undisclosed and battery chemistry unresolved; prefer Samsung's local display measurements."
+          }
+        ]
+      }
     }
   ]
 }

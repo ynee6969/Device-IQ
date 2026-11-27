@@ -1,0 +1,190 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "brand": "Samsung",
+      "model_name": "Galaxy Tab S10 FE+",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x620nzaaxtc/",
+      "source_kind": "Exact local Wi-Fi SKU and configuration specifications",
+      "status": "reviewed",
+      "result": "Samsung Philippines identifies Gray Wi-Fi SKU SM-X620NZAAXTC as 8 GB RAM / 128 GB storage and publishes its hardware details."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
+      "source_kind": "Exact local 5G SKU and configuration specifications",
+      "status": "reviewed",
+      "result": "Samsung Philippines identifies Gray 5G SKU SM-X626BZAAXTC as 8 GB RAM / 128 GB storage and publishes its hardware, cellular-band and SIM/eSIM details."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+      "source_kind": "Global launch date and model-family specifications",
+      "status": "reviewed",
+      "result": "Samsung announced the S10 FE family on 2025-04-02 and states availability in select markets beginning 2025-04-03. The story identifies FE+ display, cameras, chipset, memory options, battery, charging and launch OS; it is not Philippine-sale evidence."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://news.samsung.com/ph/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+      "source_kind": "Philippine launch announcement and local configuration availability",
+      "status": "reviewed",
+      "result": "Samsung Philippines announced local availability from 2025-05-15 for the Galaxy Tab S10 FE+ 5G (128 GB), in Gray and Blue. The announcement does not state the Wi-Fi FE+ first-sale date or RAM for the 5G launch option."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://news.samsung.com/ph/bigger-screen-bigger-possibilities-three-reasons-why-the-galaxy-tab-s10-fe-series-is-the-perfect-campus-companion",
+      "source_kind": "Historical Philippine series price context",
+      "status": "reviewed",
+      "result": "Samsung's local story describes the FE+ 5G as available from PHP 39,990; RAM is not stated, so this is retained as model/network-level evidence only."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "Historical exact-configuration SRP",
+      "status": "reviewed",
+      "result": "Samsung's expired July 2025 offer table lists FE+ 5G (8 GB + 128 GB) at SRP PHP 39,990, with trade-in savings available separately; campaign dates were July 1–September 30, 2025."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.samsung.com/ph/trade-in/",
+      "source_kind": "Current local SRP for exact 8 GB / 128 GB Wi-Fi and 5G variants",
+      "status": "reviewed",
+      "result": "The live Samsung Philippines trade-in page, valid through 2026-11-30, lists SRP PHP 47,490 for Galaxy Tab S10 FE+ Wi-Fi (8 GB + 128 GB) and PHP 52,690 for 5G (8 GB + 128 GB). SRP excludes optional trade-in value; checkout stock was not checked."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1580/",
+      "source_kind": "Exynos 1580 process, CPU and GPU specifications",
+      "status": "reviewed",
+      "result": "Samsung lists third-generation 4 nm EUV FinFET and Xclipse 540 graphics. Its Exynos 1580 CPU specification lists Cortex-A720 at 2.9 and 2.6 GHz and Cortex-A520 at 1.95 GHz."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.samsung.com/ph/business/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
+      "source_kind": "Published product support-period endpoint",
+      "status": "reviewed",
+      "result": "Samsung Philippines lists the security-update period as valid until 30 April 2032 on the exact local FE+ product pages; this is a support-period endpoint, not an OS-upgrade-count guarantee."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s10-fe",
+      "source_kind": "Secondary technical cross-check for the Galaxy Tab S10 FE+",
+      "status": "reviewed",
+      "result": "NanoReview's FE+ page exposes 8/128 and 12/256 options and lists LPDDR5X, UFS 3.1, 4 speakers, Dolby Atmos, no wireless charging and Li-Ion chemistry. It reports 90 Hz and 800 nits maximum; the brightness measurement condition is unclear."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s10-fe-plus",
+      "source_kind": "Secondary global model cross-check; conflicting claims are not promoted",
+      "status": "reviewed",
+      "result": "Kimovil lists global 8/128 Wi-Fi and 5G versions and LPDDR5X, but this page also reports 120 Hz and 1750 nits, contrary to Samsung's 90 Hz / 600 nits max and 800 nits HBM. Its conflicting panel data are not used as local product specifications; its Li-Polymer claim is retained only as unresolved chemistry evidence."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_3Q_Interim_Report.pdf",
+      "source_kind": "Launch platform and OS confirmation",
+      "status": "reviewed",
+      "result": "Samsung's 2025 Q3 interim report labels Galaxy Tab S10 FE / FE+ (April 2025) and lists Exynos 1580, Android 15 and One UI 7.0."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-fe-plus?tab=images",
+      "source_kind": "Exact-model gray product image and usage-rights review",
+      "status": "reviewed",
+      "result": "The official gallery contains the exact Galaxy Tab S10 FE+ gray-front product image. Samsung Mobile Press terms restrict use to personal, informational, non-commercial purposes and require proprietary notices to remain intact; the DeviceIQ thesis catalog is treated as educational/non-commercial."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "source_url": "https://www.samsungmobilepress.com/terms",
+      "source_kind": "Product image reuse terms",
+      "status": "reviewed",
+      "result": "Terms permit personal, informational and non-commercial use only; no commercial rights are granted and copyright, trademark and proprietary notices must be preserved."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "configuration_id": "device_8a813e7f0aaaae-sm-x620n-8gb-128gb-wifi-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "exact_8gb_128gb_wifi",
+      "amount_php": 47490,
+      "price_type": "current_official_ph_srp_2026-11",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/trade-in/",
+      "source_kind": "official_samsung_ph_current_srp",
+      "local_availability_verified": true,
+      "availability_status": "current_official_srp_listed_through_2026-11-30; stock_not_checked",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines lists Galaxy Tab S10 FE+ Wi-Fi (8 GB + 128 GB) at SRP PHP 47,490; the page lists maximum trade-in offer separately."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "configuration_id": "device_8a813e7f0aaaae-sm-x626b-8gb-128gb-5g-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_8gb_128gb_5g",
+      "amount_php": 52690,
+      "price_type": "current_official_ph_srp_2026-11",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/trade-in/",
+      "source_kind": "official_samsung_ph_current_srp",
+      "local_availability_verified": true,
+      "availability_status": "current_official_srp_listed_through_2026-11-30; stock_not_checked",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines lists Galaxy Tab S10 FE+ 5G (8 GB + 128 GB) at SRP PHP 52,690; the page lists maximum trade-in offer separately."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "configuration_id": "device_8a813e7f0aaaae-sm-x626b-8gb-128gb-5g-ph",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_8gb_128gb_5g",
+      "amount_php": 39990,
+      "price_type": "historical_ph_official_srp_exact_configuration_2025-07_to_09",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "official_samsung_ph_historical_srp",
+      "local_availability_verified": true,
+      "availability_status": "expired_campaign_2025-07-01_to_2025-09-30_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' expired offer table explicitly lists Galaxy Tab S10 FE+ 5G (8 GB + 128 GB) SRP PHP 39,990. Trade-in savings are separate; this is not a current price."
+    },
+    {
+      "device_id": "device_8a813e7f0aaaae",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "model_network_5g_storage_128_ram_unspecified",
+      "amount_php": 39990,
+      "price_type": "historical_ph_launch_story_starting_price_ram_unspecified",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://news.samsung.com/ph/bigger-screen-bigger-possibilities-three-reasons-why-the-galaxy-tab-s10-fe-series-is-the-perfect-campus-companion",
+      "source_kind": "official_samsung_ph_news_price_context",
+      "local_availability_verified": true,
+      "availability_status": "historical_model_network_price_context_not_exact_ram",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Newsroom Philippines reported the FE+ 5G as available from PHP 39,990; the story does not state RAM/storage, so it is model/network context only."
+    }
+  ]
+}

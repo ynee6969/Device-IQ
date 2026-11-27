@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [386, 216, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 634);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [386, 217, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 635);
 const galaxyTabS9Fe = publicDevices.find((device) => device.id === "device_33bf4ec88cc229");
 assert.ok(galaxyTabS9Fe);
 assert.equal(galaxyTabS9Fe.scopeStatus, "Included");
@@ -101,6 +101,23 @@ assert.equal(galaxyTabS9FePlus.imageId, galaxyTabS9FePlus.id);
 assert.ok((galaxyTabS9FePlus.openIssues ?? []).some((issue) => (issue.issue ?? "").includes("12 GB / 256 GB")));
 assert.ok(galaxyTabS9FePlus.sources.some((source) => source.url.toLowerCase().includes("sm-x610")));
 assert.ok(galaxyTabS9FePlus.sources.some((source) => source.url.toLowerCase().includes("sm-x616")));
+const galaxyTabS10FePlus = publicDevices.find((device) => device.id === "device_8a813e7f0aaaae");
+assert.ok(galaxyTabS10FePlus);
+assert.equal(galaxyTabS10FePlus.workbookRow, 443);
+assert.equal(galaxyTabS10FePlus.scopeStatus, "Included");
+assert.equal(galaxyTabS10FePlus.verificationStatus, "VERIFIED_OFFICIAL_LAUNCH");
+assert.equal(galaxyTabS10FePlus.philippineAvailabilityDate, "2025-05-15");
+assert.deepEqual(galaxyTabS10FePlus.variants.map((variant) => [variant.sku, variant.modelCode, variant.specs.ramGb, variant.specs.storageGb, variant.specs.cellular]), [
+  ["SM-X620NZAAXTC", "SM-X620N", 8, 128, "Wi-Fi only"],
+  ["SM-X626BZAAXTC", "SM-X626B", 8, 128, "5G cellular"],
+]);
+assert.deepEqual(galaxyTabS10FePlus.variants.map((variant) => [variant.pricePhp, variant.priceObservedAt, variant.priceType]), [
+  [47490, "2026-11-27", "official_current_ph_srp"],
+  [52690, "2026-11-27", "official_current_ph_srp"],
+]);
+assert.ok(galaxyTabS10FePlus.variants.every((variant) => variant.priceSourceUrl === "https://www.samsung.com/ph/trade-in/"));
+assert.equal(galaxyTabS10FePlus.imageId, galaxyTabS10FePlus.id);
+assert.ok((galaxyTabS10FePlus.openIssues ?? []).some((issue) => (issue.issue ?? "").includes("battery chemistry")));
 const nokiaG42 = publicDevices.find((device) => device.id === "device_9ba373722ace11");
 assert.ok(nokiaG42);
 assert.equal(nokiaG42.workbookRow, 149);

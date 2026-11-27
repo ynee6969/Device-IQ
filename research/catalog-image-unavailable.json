@@ -3804,16 +3804,6 @@
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for Samsung Galaxy Tab S10 FE"
   },
-  "device_8a813e7f0aaaae": {
-    "status": "REUSE_PERMISSION_REQUIRED",
-    "reason": "Samsung states that its site content remains Samsung/licensor property and grants no reuse license for this use.",
-    "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x626bzaaxtc/",
-    "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x626bzaaxtc/gallery/ph-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaaxtc-thumb-546320819",
-    "scope": "Exact model; pictured colors may vary",
-    "rightsTermsUrl": "https://www.samsung.com/ph/business/info/legal/",
-    "observedAt": "2026-11-26",
-    "altText": "Image unavailable for Samsung Galaxy Tab S10 FE+"
-  },
   "device_c3193f69093d79": {
     "status": "NO_RELIABLE_MATCH",
     "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
