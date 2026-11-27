@@ -311,12 +311,12 @@
     "path": "/catalog-images/device_d2f928e59b41f6.webp",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg",
     "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "scope": "Exact model",
+    "scope": "Model-level Y36 image; Philippine variant not established",
     "credit": "メイド理世 (Wikimedia Commons)",
     "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "changes": "Converted to WebP for catalog delivery; no subject editing.",
-    "rightsCheckedAt": "2026-11-26"
+    "changes": "Converted to WebP for catalog delivery; no subject editing. Source photo labels the handset vivo Y36 and shows OriginOS 3 in a Chinese retail setting; it does not establish the Philippine firmware/configuration.",
+    "rightsCheckedAt": "2026-11-27"
   },
   "device_1352c430fa0bb9": {
     "path": "/catalog-images/device_1352c430fa0bb9.webp",

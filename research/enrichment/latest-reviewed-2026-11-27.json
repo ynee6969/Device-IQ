@@ -1154,9 +1154,9 @@
     {
       "device_id": "device_d2f928e59b41f6",
       "brand": "vivo",
-      "model_name": "Y36",
+      "model_name": "Y36 4G",
       "category": "smartphones",
-      "status": "source_queued"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_bf5cf152c95ed1",
@@ -71750,6 +71750,54 @@
       "observed_at": "2026-11-27",
       "local_availability_verified": true,
       "availability_status": "listed_stock_not_verified"
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "amount_php": 12999,
+      "configuration_id": "device_d2f928e59b41f6-auto-8gb-256gb",
+      "configuration_match": "exact_ph_y36_4g_v2247_8gb_256gb",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "historical_ph_launch_suggested_retail_price",
+      "source_published_at": "2023-07-15",
+      "excerpt": "Contemporaneous Philippine Y36 4G coverage reports PHP 12,999 for the 8 GB / 256 GB configuration.",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
+      "source_kind": "historical_local_launch_price_report",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "amount_php": 11999,
+      "configuration_id": "device_d2f928e59b41f6-auto-8gb-256gb",
+      "configuration_match": "exact_ph_y36_4g_8gb_256gb_manufacturer_parameter_page",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "current_official_parameter_page_reference_price",
+      "source_published_at": null,
+      "excerpt": "The official Philippine Y36 parameter page lists PHP 11,999 for 8GB+256GB when checked 2026-11-27; it is a product-page reference price, not a stock/checkout claim.",
+      "source_url": "https://www.vivo.com/ph/products/param/y36",
+      "source_kind": "manufacturer_parameter_page_price",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "manufacturer_page_price_stock_not_verified"
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "amount_php": 10999,
+      "configuration_id": "device_d2f928e59b41f6-auto-8gb-256gb",
+      "configuration_match": "exact_selected_ph_y36_4g_8gb_256gb_meteor_black_sku_x1",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "price_type": "current_official_e_store_list_price",
+      "source_published_at": null,
+      "excerpt": "Official PH e-store selected Y36 Meteor Black 8GB+256GB (4G), SKU X1 at PHP 10,999 including taxes on 2026-11-27; stock/checkout availability was not stated.",
+      "source_url": "https://shop.vivo.com/ph/product/2058?skuId=8153",
+      "source_kind": "current_official_store_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "listed_stock_not_verified"
     }
   ],
   "discovery": [
@@ -73305,6 +73353,111 @@
       "device_id": "device_6f256573a0fb54",
       "source_url": "https://www.vivo.com/tr/products/param/y27",
       "result": "Official product page image depicts the Y27 4G in Sea Blue. The asset is not copied or hotlinked because this product-page image has no documented reuse permission."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.vivo.com/ph/products/param/y36",
+      "source_kind": "Manufacturer specifications and exact PH configuration",
+      "status": "reviewed",
+      "result": "The Philippine specification page lists 8GB+256GB, Snapdragon 680, Funtouch OS 13/Android 13, display, cameras, dimensions, battery, card slots, local LTE bands and connectivity. Checked 2026-11-27."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.vivo.com/ph/product/productDetails?id=6429",
+      "source_kind": "Manufacturer product overview",
+      "status": "reviewed",
+      "result": "Local overview identifies 90Hz refresh, 650-nit High Brightness Mode, 240Hz touch sampling, 200% Audio Booster, IP54 caveat, colors, variant-specific marketed glass finishes, and 8GB software-extended RAM. Checked 2026-11-27."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://shop.vivo.com/ph/product/2058?skuId=8153",
+      "source_kind": "Exact local 4G SKU and dated listed price",
+      "status": "reviewed",
+      "result": "Checked 2026-11-27. Selected Meteor Black Y36 8GB+256GB (4G), SKU X1, listed at PHP 10,999 including taxes. The page does not establish stock or checkout availability."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.vivo.com/ph/products/param/y36",
+      "source_kind": "Manufacturer page price reference",
+      "status": "reviewed",
+      "result": "The Philippine specifications page simultaneously lists PHP 11,999 for 8GB+256GB; recorded separately from the lower selected E-Store listing price. Neither page establishes stock."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://shop.vivo.com/ph/product/2060?skuId=8157",
+      "source_kind": "Cross-check against a separate, excluded model",
+      "status": "reviewed",
+      "result": "The separate Y36 5G store listing has Dimensity 6020 and a 5G label. It is not merged into this Snapdragon 680 Y36 4G workbook record."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.vivoglobal.ph/vivo-y36-now-available-in-ph-with-newest-ambassador-anne-curtis/",
+      "source_kind": "Philippine launch and local availability",
+      "status": "reviewed",
+      "result": "The vivo Philippines newsroom states that the Y36 launched locally on 2023-07-15 and identifies Snapdragon 680. Used for local availability, not to infer an exact launch transaction time."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
+      "source_kind": "Philippine release, launch price and exact-market specification cross-check",
+      "status": "reviewed",
+      "result": "Local Y36 entry dated 2023-07-15 lists PHP 12,999, 8GB/256GB, 4G, 90Hz/650-nit display, microSD expansion, camera, audio, NFC and battery details."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.yugatech.com/mobile/vivo-y36-specs-price-philippines/",
+      "source_kind": "Contemporaneous Philippine launch and specification cross-check",
+      "status": "reviewed",
+      "result": "Local article dated 2023-07-15 corroborates the PH price/configuration and lists display, cameras, IP54 and other details; it reports Bluetooth 5.0 and a Fluorite AG Glass back."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://unbox.ph/gadget/phones/vivo-y36-4g-specs-and-price-philippines/",
+      "source_kind": "Philippine configuration and specification cross-check",
+      "status": "reviewed",
+      "result": "Article dated 2023-07-03 explicitly names the Y36 4G and its PH 8GB/256GB configuration; it lists LPDDR4X RAM, UFS 2.2 storage and PHP 12,999 availability starting 2023-07-15. It differs from vivo's Bluetooth 5.1 and material description."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.vivo.com/id/about-vivo/news/y36-series",
+      "source_kind": "Manufacturer model-family announcement",
+      "status": "reviewed",
+      "result": "Official announcement dated 2023-05-25 covers the Y36 and separately identifies Y36 5G. It is announcement timing, not sale availability."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.vivo.com/id/about-vivo/news/y36-selling",
+      "source_kind": "Manufacturer evidence of model availability for sale",
+      "status": "reviewed",
+      "result": "Official article dated 2023-06-05 says the Y36 was available in Indonesia in Glitter Aqua and Meteor Black. This is the earliest identified official sale-availability date, not a claim of the first worldwide sale."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-680-4g-mobile-platform",
+      "source_kind": "Chipset-manufacturer specifications",
+      "status": "reviewed",
+      "result": "Confirms Snapdragon 680's 6nm process, Kryo 265 CPU, Adreno 610 GPU and chipset-level CPU clock. Device configuration claims are not inferred from chipset capability."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.tra.gov.eg/wp-content/uploads/2025/09/Type-Approved-List.pdf",
+      "source_kind": "Regulatory model-code identity cross-check",
+      "status": "reviewed",
+      "result": "The type-approved equipment list pairs VIVO V2247 with Y36. This corroborates model identity only and is not Philippine market evidence."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://www.gsmarena.com/vivo_y36-12374.php",
+      "source_kind": "Independent exact-model identity and secondary specification cross-check",
+      "status": "reviewed",
+      "result": "Identifies the Snapdragon 680 Y36 as model V2247 and notes that NFC availability depends on market/region. Used only for model identity/context where local pages do not disclose a detail."
+    },
+    {
+      "device_id": "device_d2f928e59b41f6",
+      "source_url": "https://commons.wikimedia.org/wiki/File:VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg",
+      "source_kind": "Exact model image identity and reuse terms",
+      "status": "reviewed",
+      "result": "Photo is titled and categorized as vivo Y36 and shows the Y36 name on the handset/store display. The pictured Chinese retail unit shows OriginOS 3 and an unverified regional configuration; it is a model-level image, not a claim that it depicts the Philippine Funtouch OS SKU. CC BY-SA 4.0 permits reuse with attribution, license link and share-alike terms."
     }
   ],
   "merged_runs": [
@@ -73372,6 +73525,18 @@
       "run_at": "2026-11-26",
       "observations": 5824,
       "prices": 158,
+      "fetches": 263
+    },
+    {
+      "run_at": "2026-11-27",
+      "observations": 0,
+      "prices": 3,
+      "fetches": 0
+    },
+    {
+      "run_at": "2026-11-27",
+      "observations": 5824,
+      "prices": 161,
       "fetches": 263
     },
     {

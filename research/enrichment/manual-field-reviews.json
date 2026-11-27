@@ -18383,190 +18383,6 @@
       ]
     },
     {
-      "deviceId": "device_d2f928e59b41f6",
-      "configurationId": "device_d2f928e59b41f6-auto-8gb-256gb",
-      "brand": "vivo",
-      "model": "Y36",
-      "configurationLabel": "8 GB RAM / 256 GB storage",
-      "sources": [
-        {
-          "id": "candidate_07bebf486889b4",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "RAM: 8 GB",
-          "normalizedValue": 8,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "ramGb",
-          "catalogValue": 8
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Storage: 256GB",
-          "normalizedValue": 256,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "storageGb",
-          "catalogValue": 256
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Exact configuration 8 GB RAM / 256 GB storage is stated by the source.",
-          "normalizedValue": "8 GB RAM / 256 GB storage",
-          "note": "Configuration evidence matches RAM and storage as an exact pair."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": 5000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 5000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Bluetooth: Bluetooth 5.0",
-          "normalizedValue": "Bluetooth 5.0",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Charging: 44W Fast Charging (vivo FlashCharge, 30% in 15 minutes) Charging",
-          "normalizedValue": 44,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "W",
-          "catalogKey": "chargingW",
-          "catalogValue": 44
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Chipset: Qualcomm Snapdragon 680 (6 nm)",
-          "normalizedValue": "Qualcomm Snapdragon 680 (6 nm)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "Qualcomm Snapdragon 680 (6 nm)"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "CPU: Octa Core CPU4x Kryo 265 Gold @ 2.4GHz + 4x Kryo 265 Silver @ 1.9GHz",
-          "normalizedValue": "Octa Core CPU4x Kryo 265 Gold @ 2.4GHz + 4x Kryo 265 Silver @ 1.9GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU4x Kryo 265 Gold @ 2.4GHz + 4x Kryo 265 Silver @ 1.9GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 90Hz Refresh Rate, 650 nits peak brightness, and punch-hole",
-          "normalizedValue": 6.64,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.64
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "GPU: Adreno 610",
-          "normalizedValue": "Adreno 610",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Adreno 610"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "NFC: No",
-          "normalizedValue": "No",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "OS: Android 13 with Funtouch OS 13",
-          "normalizedValue": "Android 13 with Funtouch OS 13",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 13 with Funtouch OS 13"
-        },
-        {
-          "fieldId": "rear_camera_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "normalizedValue": "Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Weight: 202 g",
-          "normalizedValue": 202,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 202
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Wi-Fi: Wi-Fi 802.11 b/g/n/ac (dual band)",
-          "normalizedValue": "Wi-Fi 802.11 b/g/n/ac (dual band)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 802.11 b/g/n/ac (dual band)"
-        }
-      ],
-      "replacementVariants": [
-        {
-          "id": "device_d2f928e59b41f6-auto-8gb-256gb",
-          "label": "8 GB RAM / 256 GB storage"
-        }
-      ]
-    },
-    {
       "deviceId": "device_258deabd12180c",
       "configurationId": "device_258deabd12180c-auto-6gb-128gb",
       "brand": "DOOGEE",
@@ -60175,163 +59991,6 @@
           "status": "VERIFIED_SECONDARY",
           "sourceId": "candidate_f37600e742552e",
           "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)AI Lens-LED Flash -Up to 1080p video recording",
-          "normalizedValue": "Up to 1080p video recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "video",
-          "catalogValue": "Up to 1080p video recording"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_d2f928e59b41f6",
-      "configurationId": "device_d2f928e59b41f6-auto-8gb-256gb",
-      "brand": "vivo",
-      "model": "Y36",
-      "configurationLabel": "8 GB RAM / 256 GB storage",
-      "sources": [
-        {
-          "id": "candidate_07bebf486889b4",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Sound: Up to 200% speaker volume (Audio Booster)3.5mm Audio Jack",
-          "normalizedValue": "Up to 200% speaker volume (Audio Booster)3.5mm Audio Jack",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "Up to 200% speaker volume (Audio Booster)3.5mm Audio Jack"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": "Li-Po Battery (Non-removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Cellular: 4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_brightness",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 90Hz Refresh Rate, 650 nits peak brightness, and punch-hole",
-          "normalizedValue": "650 nits",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "nits"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 90Hz Refresh Rate, 650 nits peak brightness, and punch-hole",
-          "normalizedValue": "IPS LCD",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "IPS LCD"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Front Camera: 16 Megapixels (f/2.0 Aperture) -Up to 1080p video recording",
-          "normalizedValue": 16,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 16
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Location: GPS, GLONASS, GALILEO, BeiDou, QZSS",
-          "normalizedValue": "GPS, GLONASS, GALILEO, BeiDou, QZSS",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ingress_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Durability: IP54 Splash & Dust Resistant",
-          "normalizedValue": "IP54 Splash & Dust Resistant",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "normalizedValue": "50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Build Materials: Glass front, Polycarbonate back",
-          "normalizedValue": "Glass front, Polycarbonate back",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 90Hz Refresh Rate, 650 nits peak brightness, and punch-hole",
-          "normalizedValue": "90",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "Hz",
-          "catalogKey": "refreshHz",
-          "catalogValue": "90"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 90Hz Refresh Rate, 650 nits peak brightness, and punch-hole",
-          "normalizedValue": "1080 x 2388",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2388"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Sensors: Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Expansion: Expandable up to 1TB via microSD",
-          "normalizedValue": "Expandable up to 1TB via microSD",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_07bebf486889b4",
-          "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
           "normalizedValue": "Up to 1080p video recording",
           "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
           "catalogKey": "video",
@@ -173056,6 +172715,680 @@
         ]
       },
       "configuration": "6 GB RAM / 128 GB storage"
+    },
+    {
+      "deviceId": "device_d2f928e59b41f6",
+      "configurationId": "device_d2f928e59b41f6-auto-8gb-256gb",
+      "brand": "vivo",
+      "model": "Y36 4G",
+      "configurationLabel": "8 GB RAM / 256 GB storage (4G, SKU X1)",
+      "sources": [
+        {
+          "id": "candidate_07bebf486889b4",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
+          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+        },
+        {
+          "id": "vivo_y36_ph_specs",
+          "publisher": "vivo Philippines",
+          "url": "https://www.vivo.com/ph/products/param/y36",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer specifications and exact PH configuration",
+          "note": "The Philippine specification page lists 8GB+256GB, Snapdragon 680, Funtouch OS 13/Android 13, display, cameras, dimensions, battery, card slots, local LTE bands and connectivity. Checked 2026-11-27."
+        },
+        {
+          "id": "vivo_y36_ph_overview",
+          "publisher": "vivo Philippines",
+          "url": "https://www.vivo.com/ph/product/productDetails?id=6429",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer product overview",
+          "note": "Local overview identifies 90Hz refresh, 650-nit High Brightness Mode, 240Hz touch sampling, 200% Audio Booster, IP54 caveat, colors, variant-specific marketed glass finishes, and 8GB software-extended RAM. Checked 2026-11-27."
+        },
+        {
+          "id": "vivo_y36_ph_store",
+          "publisher": "vivo Philippines E-Store",
+          "url": "https://shop.vivo.com/ph/product/2058?skuId=8153",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact local 4G SKU and dated listed price",
+          "note": "Checked 2026-11-27. Selected Meteor Black Y36 8GB+256GB (4G), SKU X1, listed at PHP 10,999 including taxes. The page does not establish stock or checkout availability."
+        },
+        {
+          "id": "vivo_y36_ph_spec_price",
+          "publisher": "vivo Philippines",
+          "url": "https://www.vivo.com/ph/products/param/y36",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer page price reference",
+          "note": "The Philippine specifications page simultaneously lists PHP 11,999 for 8GB+256GB; recorded separately from the lower selected E-Store listing price. Neither page establishes stock."
+        },
+        {
+          "id": "vivo_y36_ph_5g_store",
+          "publisher": "vivo Philippines E-Store",
+          "url": "https://shop.vivo.com/ph/product/2060?skuId=8157",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check against a separate, excluded model",
+          "note": "The separate Y36 5G store listing has Dimensity 6020 and a 5G label. It is not merged into this Snapdragon 680 Y36 4G workbook record."
+        },
+        {
+          "id": "vivo_y36_ph_newsroom",
+          "publisher": "vivo Philippines newsroom",
+          "url": "https://www.vivoglobal.ph/vivo-y36-now-available-in-ph-with-newest-ambassador-anne-curtis/",
+          "publicationDate": "2023-07-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine launch and local availability",
+          "note": "The vivo Philippines newsroom states that the Y36 launched locally on 2023-07-15 and identifies Snapdragon 680. Used for local availability, not to infer an exact launch transaction time."
+        },
+        {
+          "id": "vivo_y36_ptg_ph",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
+          "publicationDate": "2023-07-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine release, launch price and exact-market specification cross-check",
+          "note": "Local Y36 entry dated 2023-07-15 lists PHP 12,999, 8GB/256GB, 4G, 90Hz/650-nit display, microSD expansion, camera, audio, NFC and battery details."
+        },
+        {
+          "id": "vivo_y36_yugatech_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/mobile/vivo-y36-specs-price-philippines/",
+          "publicationDate": "2023-07-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Contemporaneous Philippine launch and specification cross-check",
+          "note": "Local article dated 2023-07-15 corroborates the PH price/configuration and lists display, cameras, IP54 and other details; it reports Bluetooth 5.0 and a Fluorite AG Glass back."
+        },
+        {
+          "id": "vivo_y36_unbox_ph",
+          "publisher": "UNBOX PH",
+          "url": "https://unbox.ph/gadget/phones/vivo-y36-4g-specs-and-price-philippines/",
+          "publicationDate": "2023-07-03",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine configuration and specification cross-check",
+          "note": "Article dated 2023-07-03 explicitly names the Y36 4G and its PH 8GB/256GB configuration; it lists LPDDR4X RAM, UFS 2.2 storage and PHP 12,999 availability starting 2023-07-15. It differs from vivo's Bluetooth 5.1 and material description."
+        },
+        {
+          "id": "vivo_y36_id_announcement",
+          "publisher": "vivo Indonesia",
+          "url": "https://www.vivo.com/id/about-vivo/news/y36-series",
+          "publicationDate": "2023-05-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-family announcement",
+          "note": "Official announcement dated 2023-05-25 covers the Y36 and separately identifies Y36 5G. It is announcement timing, not sale availability."
+        },
+        {
+          "id": "vivo_y36_id_sale",
+          "publisher": "vivo Indonesia",
+          "url": "https://www.vivo.com/id/about-vivo/news/y36-selling",
+          "publicationDate": "2023-06-05",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer evidence of model availability for sale",
+          "note": "Official article dated 2023-06-05 says the Y36 was available in Indonesia in Glitter Aqua and Meteor Black. This is the earliest identified official sale-availability date, not a claim of the first worldwide sale."
+        },
+        {
+          "id": "qualcomm_snapdragon_680",
+          "publisher": "Qualcomm",
+          "url": "https://www.qualcomm.com/smartphones/products/6-series/snapdragon-680-4g-mobile-platform",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chipset-manufacturer specifications",
+          "note": "Confirms Snapdragon 680's 6nm process, Kryo 265 CPU, Adreno 610 GPU and chipset-level CPU clock. Device configuration claims are not inferred from chipset capability."
+        },
+        {
+          "id": "vivo_y36_tra_model_code",
+          "publisher": "Egyptian National Telecom Regulatory Authority",
+          "url": "https://www.tra.gov.eg/wp-content/uploads/2025/09/Type-Approved-List.pdf",
+          "publicationDate": "2025-09-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Regulatory model-code identity cross-check",
+          "note": "The type-approved equipment list pairs VIVO V2247 with Y36. This corroborates model identity only and is not Philippine market evidence."
+        },
+        {
+          "id": "vivo_y36_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/vivo_y36-12374.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model identity and secondary specification cross-check",
+          "note": "Identifies the Snapdragon 680 Y36 as model V2247 and notes that NFC availability depends on market/region. Used only for model identity/context where local pages do not disclose a detail."
+        },
+        {
+          "id": "vivo_y36_commons_image",
+          "publisher": "Wikimedia Commons / メイド理世",
+          "url": "https://commons.wikimedia.org/wiki/File:VIVO_Y36%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model image identity and reuse terms",
+          "note": "Photo is titled and categorized as vivo Y36 and shows the Y36 name on the handset/store display. The pictured Chinese retail unit shows OriginOS 3 and an unverified regional configuration; it is a model-level image, not a claim that it depicts the Philippine Funtouch OS SKU. CC BY-SA 4.0 permits reuse with attribution, license link and share-alike terms."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_store",
+          "sourceValue": "8 GB installed RAM; up to 8 GB Extended RAM is software-backed",
+          "normalizedValue": 8,
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "note": "Physical configuration remains 8 GB. The manufacturer explicitly says extended RAM is software-realized; it is not counted as installed memory."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_store",
+          "sourceValue": "256 GB",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_store",
+          "sourceValue": "Selected Y36 Meteor Black 8GB+256GB (4G), SKU X1; separate Y36 5G is a different store listing",
+          "normalizedValue": "8 GB RAM / 256 GB storage",
+          "note": "Exact Philippine 4G configuration matched. The Y36 5G uses a separate listing/chipset and is not merged. vivo's additional 8 GB Extended RAM is software-backed and not counted as installed RAM."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "5000 mAh typical; 4900 mAh rated",
+          "normalizedValue": 5000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh",
+          "note": "The manufacturer overview gives both figures; 5000 mAh is the typical-capacity value, not the rated capacity."
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "vivo Philippines lists Bluetooth 5.1; local Philippine specification pages from PTG and YugaTech list Bluetooth 5.0.",
+          "normalizedValue": null,
+          "note": "Local sources disagree. The source values are preserved for review; the public normalized field remains blank until the discrepancy is resolved.",
+          "candidateEvidence": [
+            {
+              "value": "Bluetooth 5.1",
+              "sourceUrl": "https://www.vivo.com/ph/products/param/y36",
+              "sourceKind": "manufacturer_primary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "Connectivity: Bluetooth 5.1",
+              "configurationMatch": "Philippine Y36 8GB+256GB page",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Bluetooth 5.0",
+              "sourceUrl": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "Bluetooth 5.0",
+              "configurationMatch": "Philippine Y36 listing",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Bluetooth 5.0",
+              "sourceUrl": "https://www.yugatech.com/mobile/vivo-y36-specs-price-philippines/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "Bluetooth 5.0",
+              "configurationMatch": "Philippine Y36 launch specification",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "44 W FlashCharge",
+          "normalizedValue": 44,
+          "catalogKey": "chargingW",
+          "catalogValue": 44,
+          "unit": "W"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "Qualcomm Snapdragon 680",
+          "normalizedValue": "Qualcomm Snapdragon 680 (6 nm)",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 680 (6 nm)",
+          "note": "vivo Philippines confirms Snapdragon 680; Qualcomm confirms this platform's 6nm process."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "Octa-core: 4× Kryo 265 Gold up to 2.4 GHz + 4× Kryo 265 Silver up to 1.9 GHz",
+          "normalizedValue": "4x Kryo 265 Gold @ 2.4GHz + 4x Kryo 265 Silver @ 1.9GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa Core CPU4x Kryo 265 Gold @ 2.4GHz + 4x Kryo 265 Silver @ 1.9GHz",
+          "note": "Exact Y36 4G architecture as reported by the Philippine spec source; Qualcomm independently confirms Kryo 265 and a maximum CPU frequency of 2.4 GHz."
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "6.64-inch",
+          "normalizedValue": 6.64,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.64,
+          "unit": "in"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon_680",
+          "sourceValue": "Qualcomm Adreno 610",
+          "normalizedValue": "Adreno 610",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 610"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "NFC: No in the Philippine Y36 listing; GSMArena notes NFC availability is market-dependent",
+          "normalizedValue": "No NFC listed for the Philippine configuration",
+          "note": "PH-specific secondary source lists no NFC. GSMArena's exact-model page says NFC is market/region-dependent, so its global statement is not applied to this PH configuration."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "Funtouch OS 13 (based on Android 13)",
+          "normalizedValue": "Android 13 with Funtouch OS 13",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 with Funtouch OS 13"
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "Rear: 50 MP main camera + 2 MP Bokeh camera",
+          "normalizedValue": "50 MP main + 2 MP Bokeh",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50,
+          "unit": "MP",
+          "note": "Manufacturer PH specification. The catalog numeric summary stores the main camera resolution only."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "2 nano-SIM slots + 1 microSD; Dual SIM Dual Standby; eSIM not listed",
+          "normalizedValue": "Dual nano-SIM, DSDS + dedicated microSD; eSIM not recorded",
+          "catalogKey": "sim",
+          "catalogValue": "Dual nano-SIM, DSDS + dedicated microSD; eSIM not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "202 g",
+          "normalizedValue": 202,
+          "catalogKey": "weightG",
+          "catalogValue": 202,
+          "unit": "g"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "Wi-Fi 2.4 GHz / 5 GHz; PTG lists 802.11 b/g/n/ac",
+          "normalizedValue": "Wi-Fi 802.11 b/g/n/ac, dual-band",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 802.11 b/g/n/ac, dual-band",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_tra_model_code",
+          "sourceValue": "VIVO V2247 [Y36]; GSMArena also identifies the Snapdragon 680 Y36 as V2247",
+          "normalizedValue": "V2247",
+          "note": "Model code corroborated by a regulatory listing and an independent exact-model page. Philippine vivo pages identify the 4G configuration but do not publish the code."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_id_sale",
+          "sourceValue": "vivo Indonesia reported the Y36 available for purchase in Glitter Aqua and Meteor Black on 2023-06-05",
+          "normalizedValue": "2023-06-05",
+          "note": "Earliest manufacturer sale-availability date located in this review; it is not represented as the first sale worldwide."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ph_newsroom",
+          "sourceValue": "vivo Philippines newsroom says the Y36 launched in the Philippines on 2023-07-15",
+          "normalizedValue": "2023-07-15",
+          "note": "Official local newsroom announcement corroborates local launch and availability; no exact first-sale transaction time is claimed."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "PHP 12,999 Philippine official launch price for the vivo Y36 8GB/256GB 4G",
+          "normalizedValue": 12999,
+          "unit": "PHP",
+          "note": "Contemporaneous Philippine reporting; UNBOX PH independently identifies the 4G 8GB/256GB SKU and PHP 12,999 price.",
+          "priceType": "Historical Philippine launch price",
+          "priceObservedAt": "2023-07-15",
+          "priceCondition": "new"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_store",
+          "sourceValue": "PHP 10,999 including taxes; selected Y36 Meteor Black 8GB+256GB (4G), SKU X1; checked 2026-11-27",
+          "normalizedValue": 10999,
+          "unit": "PHP",
+          "note": "Dated price on the exact official PH e-store 4G SKU. Stock/checkout availability is not stated. The separate official PH product-specification page lists PHP 11,999 for the same memory configuration; that reference price is stored separately and the difference is not treated as an in-stock claim.",
+          "priceType": "Current official e-store listing price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "IPS LCD",
+          "normalizedValue": "IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD",
+          "note": "vivo's PH specifications identify LCD; PTG and YugaTech identify the panel as IPS LCD."
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "2388 × 1080 (FHD+)",
+          "normalizedValue": "1080 x 2388",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2388"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_overview",
+          "sourceValue": "90 Hz refresh rate",
+          "normalizedValue": "90",
+          "catalogKey": "refreshHz",
+          "catalogValue": "90",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_overview",
+          "sourceValue": "650 nits High Brightness Mode",
+          "normalizedValue": 650,
+          "unit": "nits",
+          "note": "Recorded using the manufacturer's term High Brightness Mode; not relabeled as sustained full-screen brightness."
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "The reviewed Philippine specification page does not identify a named display cover-glass or protection standard.",
+          "normalizedValue": null,
+          "note": "The reviewed sources do not publish this exact Y36 4G value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "qualcomm_snapdragon_680",
+          "sourceValue": "Snapdragon 680 process technology: 6 nm",
+          "normalizedValue": 6,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "No OS or security update support period is stated in the reviewed Philippine product material.",
+          "normalizedValue": null,
+          "note": "The reviewed sources do not publish this exact Y36 4G value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_unbox_ph",
+          "sourceValue": "8 GB LPDDR4X RAM",
+          "normalizedValue": "LPDDR4X",
+          "note": "Exact PH Y36 4G configuration as reported by UNBOX PH; vivo's local parameter page does not name the RAM type."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_unbox_ph",
+          "sourceValue": "256 GB UFS 2.2 storage",
+          "normalizedValue": "UFS 2.2",
+          "note": "Exact PH Y36 4G configuration as reported by UNBOX PH; vivo's local parameter page does not name the storage type."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "Dedicated microSD expansion up to 1 TB",
+          "normalizedValue": "Dedicated microSD up to 1 TB",
+          "note": "The official PH specification confirms a separate microSD slot; PTG provides the 1 TB maximum."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "The manufacturer specifies camera resolutions and apertures but does not name the camera sensor model.",
+          "normalizedValue": null,
+          "note": "The reviewed sources do not publish this exact Y36 4G value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "The documented Philippine rear-camera setup lists 50 MP main and 2 MP Bokeh cameras; no ultrawide module is listed.",
+          "normalizedValue": null,
+          "note": "Not applicable to the documented PH rear-camera setup; no ultrawide module is listed."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "The documented Philippine rear-camera setup lists 50 MP main and 2 MP Bokeh cameras; no telephoto module is listed.",
+          "normalizedValue": null,
+          "note": "Not applicable to the documented PH rear-camera setup; no telephoto module is listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "Front camera: 16 MP",
+          "normalizedValue": 16,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 16,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "Up to 1080p video recording; frame rate not stated",
+          "normalizedValue": "Up to 1080p video recording",
+          "catalogKey": "video",
+          "catalogValue": "Up to 1080p video recording",
+          "note": "The Philippine manufacturer page lists the MP4 container but not recording resolution or frame rate; PTG reports up to 1080p."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "Li-Po battery; non-removable",
+          "normalizedValue": "Li-Po; non-removable",
+          "note": "Philippine secondary specification; vivo's local product page does not state battery chemistry or serviceability."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "Wireless and reverse wireless charging are not specified in the reviewed manufacturer material; no unsupported 0 W value is assigned.",
+          "normalizedValue": null,
+          "note": "The reviewed sources do not publish this exact Y36 4G value; it remains blank rather than inferred."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "164.06 × 76.17 × 8.07 mm",
+          "normalizedValue": "164.06 x 76.17 x 8.07 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.06 x 76.17 x 8.07 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "materials",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "vivo's Philippine pages describe 2.5D glass and color-specific glass finishes; PTG describes a glass front with a polycarbonate back.",
+          "normalizedValue": null,
+          "note": "Body/back material descriptions are inconsistent or imprecise across sources. Kept unresolved rather than combining marketing terms with contradictory construction claims.",
+          "candidateEvidence": [
+            {
+              "value": "2.5D glass; overview names Glitter Aqua Crystal Glass and Meteor Black Fluorite AG Glass",
+              "sourceUrl": "https://www.vivo.com/ph/products/param/y36",
+              "sourceKind": "manufacturer_primary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "Material: 2.5D glass; color-specific finish details appear on the official overview.",
+              "configurationMatch": "Philippine Y36 colors",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Glass front, polycarbonate back",
+              "sourceUrl": "https://www.pinoytechnoguide.com/smartphones/vivo-y36",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "Build Materials: Glass front, Polycarbonate back",
+              "configurationMatch": "Philippine Y36 listing",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            },
+            {
+              "value": "Fluorite AG Glass back panel",
+              "sourceUrl": "https://www.yugatech.com/mobile/vivo-y36-specs-price-philippines/",
+              "sourceKind": "secondary_philippines",
+              "observedAt": "2026-11-27",
+              "excerpt": "Fluorite AG Glass (back panel)",
+              "configurationMatch": "Philippine Y36 launch specification",
+              "reviewStatus": "CONFLICTING_INFORMATION"
+            }
+          ]
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_overview",
+          "sourceValue": "IP54 dust and water ingress protection under normal use; vivo states the Y36 is not a professional waterproof phone",
+          "normalizedValue": "IP54",
+          "note": "Preserve vivo's normal-use caveat; do not describe the phone as waterproof."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "2G GSM 850/900/1800 MHz; 3G WCDMA B1/B5/B8; 4G FDD-LTE B1/B3/B5/B7/B8/B20/B28; TDD-LTE B38/B40/B41",
+          "normalizedValue": "4G FDD B1/B3/B5/B7/B8/B20/B28; TDD B38/B40/B41; 3G B1/B5/B8; 2G GSM 850/900/1800",
+          "catalogKey": "cellular",
+          "catalogValue": "4G FDD B1/B3/B5/B7/B8/B20/B28; TDD B38/B40/B41; 3G B1/B5/B8; 2G GSM 850/900/1800",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "USB Type-C; OTG supported; transfer standard not stated",
+          "normalizedValue": "USB Type-C; OTG supported",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; OTG supported"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "GPS, BeiDou, GLONASS, Galileo and QZSS",
+          "normalizedValue": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y36_ptg_ph",
+          "sourceValue": "3.5 mm audio jack; 200% speaker volume with Audio Booster",
+          "normalizedValue": "3.5 mm audio jack; Audio Booster up to 200% speaker volume",
+          "catalogKey": "sound",
+          "catalogValue": "3.5 mm audio jack; Audio Booster up to 200% speaker volume",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y36_ph_specs",
+          "sourceValue": "Accelerometer, ambient light sensor, proximity sensor, e-compass, fingerprint sensor and gyroscope",
+          "normalizedValue": "Accelerometer; ambient light; proximity; e-compass; fingerprint; gyroscope",
+          "note": "Manufacturer PH specifications list all six sensors; local YugaTech/ PTG sources identify the fingerprint reader as side-mounted."
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_d2f928e59b41f6-auto-8gb-256gb",
+          "label": "8 GB RAM / 256 GB storage"
+        }
+      ],
+      "modelCode": "V2247",
+      "sku": "X1",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Verified Philippine availability: vivo Y36 4G (V2247), 8 GB / 256 GB; vivo Philippines newsroom reports launch on 2023-07-15. Current E-Store stock is not verified.",
+        "philippineAvailability": "Verified Philippine availability: vivo Y36 4G, 8 GB / 256 GB; reported local launch 2023-07-15.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; exact PH 4G configuration matched; stock, two source conflicts and thesis eligibility remain unresolved.",
+        "catalogModel": "Y36 4G",
+        "manufacturer": "vivo",
+        "productLine": "Y",
+        "modelNumber": "V2247",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Reported Philippine launch date",
+        "researchNotes": "Workbook row 166 labeled Y36 is matched to the Philippine vivo Y36 4G, model V2247, with one 8 GB / 256 GB configuration. The official PH e-store separately lists Y36 5G with a different chipset; that record is excluded from this match. The Commons photo labels the handset Y36 but shows a Chinese-market OriginOS 3 retail unit, so it is a model-level image only. Workbook study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Current E-Store stock and checkout availability are not stated",
+            "action": "Show PHP 10,999 as a dated listed price, not an in-stock offer."
+          },
+          {
+            "issue": "The PH manufacturer parameter page lists PHP 11,999 while the selected E-Store SKU lists PHP 10,999",
+            "action": "Keep both source-context prices in dated price evidence and identify the E-Store value as the observed SKU listing."
+          },
+          {
+            "issue": "Local Bluetooth versions and rear-material descriptions conflict across sources",
+            "action": "Leave both normalized values blank and expose their cited candidate evidence."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Keep workbook eligibility unchanged until the thesis screening rule is applied."
+          }
+        ]
+      },
+      "configuration": "8 GB RAM / 256 GB storage"
     }
   ]
 }
