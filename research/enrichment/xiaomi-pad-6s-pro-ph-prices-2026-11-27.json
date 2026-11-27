@@ -1,0 +1,305 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "brand": "Xiaomi",
+      "model_name": "Xiaomi Pad 6S Pro",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/specs/",
+      "source_kind": "Manufacturer specifications for exact Xiaomi Pad 6S Pro 12.4 model",
+      "status": "reviewed",
+      "result": "Exact product specifications: display, chipset, memory configurations, cameras, battery, charging, USB, Wi-Fi, Bluetooth, NFC tag support, sensors, and launch operating system."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/",
+      "source_kind": "Manufacturer product and accessory support page",
+      "status": "reviewed",
+      "result": "Product page identifies the Xiaomi Pad 6S Pro 12.4, Wi-Fi 7, six speakers, Dolby Vision/Atmos, 120W charging, battery, Xiaomi Focus Pen, and Touchpad Keyboard support."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+      "source_kind": "Manufacturer FAQ for hardware and connectivity details",
+      "status": "reviewed",
+      "result": "Official FAQ provides the 8/256 and 12/512 options, CPU/GPU details, battery min/typ values, camera sensors, storage expansion, charging, wireless charging, connectivity, audio, USB, sensors, body materials, and IP52 statement."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.mi.com/global/support/faq/details/KA-535907/",
+      "source_kind": "Manufacturer confirmation of cellular / SIM configuration",
+      "status": "reviewed",
+      "result": "The Xiaomi support FAQ explicitly says this model has no SIM slot and is designed for Wi-Fi-only connectivity."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/04/25/5-36-08/2023%20Annual%20Report.pdf",
+      "source_kind": "Manufacturer annual report documenting launch month",
+      "status": "reviewed",
+      "result": "Xiaomi's 2023 Annual Report says it launched Xiaomi Pad 6S Pro 12.4 in February 2024; the Xiaomi support FAQ separately lists March 25, 2024 as a launch time, so an exact global release date is withheld."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+      "source_kind": "Manufacturer FAQ launch-date statement retained for conflict review",
+      "status": "reviewed",
+      "result": "The FAQ's answer says the launch time was 03/25/2024 but does not specify whether that means global or Philippine retail launch. It conflicts with Xiaomi's annual report month and Philippine availability reports dated May 2; no exact local first-sale date is inferred."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+      "source_kind": "Dated Philippine launch availability, launch pricing, configuration, and image candidate",
+      "status": "reviewed",
+      "result": "Published 2024-05-02; says the Pad 6S Pro arrives in the Philippines, identifies 8/256 at PHP 33,999 and 12/512 at PHP 39,999, and reports May 3-9 promotional prices of PHP 31,199 and PHP 37,199. Also displays an exact-model product photograph; republication rights were not found."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.revu.com.ph/2024/05/xiaomi-pad-6s-pro-12-4-price-philippines/",
+      "source_kind": "Independent Philippine launch-price cross-check and promotion conflict evidence",
+      "status": "reviewed",
+      "result": "Published 2024-05-02 and reports the same two launch prices/configurations. Its early-bird report gives PHP 31,999/PHP 37,999 through May 4 and an additional PHP 800 discount on May 5, differing from YugaTech's May 3-9 price window; both are retained as reported promotion observations, not reconciled into one offer."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.gizguide.com/2024/05/xiaomi-pad-6s-pro-ph-price.html",
+      "source_kind": "Independent Philippine availability, price, and configuration cross-check",
+      "status": "reviewed",
+      "result": "Published 2024-05-02; reports the model officially available in the Philippines and gives both local configurations, launch prices, and early-bird prices."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://iwarehouse.ph/products?brand=17",
+      "source_kind": "Current local cash-price and branch-availability observation for 8/256 GB",
+      "status": "reviewed",
+      "result": "As observed 2026-11-27, iWarehouse lists Xiaomi Pad 6S Pro Graphite Gray, 8GB/256GB, PHP 22,999 cash, available at one location. The site says stock is informational and not reserved and advises calling first; condition and exact branch stock are not specified."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://shoppingmall.homecredit.ph/brand/xiaomi-installment-loans",
+      "source_kind": "Current exact-configuration retailer price listing for 12/512 GB",
+      "status": "reviewed",
+      "result": "As observed 2026-11-27, the live Xiaomi listing shows the 12GB/512GB Pad 6S Pro at PHP 39,999 and provides an installment purchase route. It does not establish condition or branch-level stock; retained as a dated listed price, not guaranteed availability."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://ph.priceme.com/Xiaomi-Pad-6S-Pro-12.4in-8GB-256GB/p-923275422.aspx?sort=rating",
+      "source_kind": "Historical exact-configuration retailer quote and price trend",
+      "status": "reviewed",
+      "result": "PriceMe's history records Gigahertz at PHP 35,199 on 2026-05-06 for Xiaomi Pad 6S Pro 12.4 8GB/256GB. Gigahertz's current product page marks the item sold out, so the May quote is historical only."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://www.gigahertz.com.ph/products/xiaomi-pad-6s-pro-12-4",
+      "source_kind": "Exact-model retailer specification and stock-state cross-check",
+      "status": "reviewed",
+      "result": "The product page identifies the exact 8/256 and 12/512 configurations and detailed specifications, but its 8/256 selection shows PHP 35,199 and Sold out / pickup unavailable. It is not treated as a current buyable offer."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Pad_6S_Pro.jpg",
+      "source_kind": "Licensed exact-model image and attribution record",
+      "status": "reviewed",
+      "result": "Exact-model store-display photograph, visually checked against the Xiaomi Pad 6S Pro label. Creator credit is 茅野ふたば; Creative Commons Attribution-ShareAlike 4.0. The local WebP is a format conversion without subject edits; manifest preserves asset URL, credit, license, and source page."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+      "configuration_match": "exact_8gb_256gb_wifi",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 33999,
+      "price_type": "reported_ph_launch_srp_not_current_offer",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-02",
+      "source_url": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+      "source_kind": "dated_philippine_launch_price_report",
+      "local_availability_verified": true,
+      "availability_status": "reported_ph_available_by_2024_05_02",
+      "excerpt": "YugaTech reports PHP 33,999 launch price for exact 8 GB / 256 GB / Wi-Fi configuration; not a current price."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+      "configuration_match": "exact_8gb_256gb_wifi",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 33999,
+      "price_type": "reported_ph_launch_srp_cross_check_not_current_offer",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-02",
+      "source_url": "https://www.revu.com.ph/2024/05/xiaomi-pad-6s-pro-12-4-price-philippines/",
+      "source_kind": "dated_philippine_launch_price_cross_check",
+      "local_availability_verified": true,
+      "availability_status": "reported_ph_available_by_2024_05_02",
+      "excerpt": "REVU reports the same PHP 33,999 launch price for exact 8 GB / 256 GB / Wi-Fi configuration; not a current price."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+      "configuration_match": "exact_8gb_256gb_wifi",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 31199,
+      "price_type": "historical_shopee_promo_yugatech_report_window_conflicts_with_revu",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-03",
+      "source_url": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+      "source_kind": "dated_philippine_promo_price_report",
+      "local_availability_verified": true,
+      "availability_status": "reported_promo_window_2024_05_03_to_2024_05_09_not_current",
+      "excerpt": "YugaTech reported PHP 31,199 for 8 GB / 256 GB / Wi-Fi from May 3-9, 2024. REVU describes different early-bird pricing dates/amounts; this source-specific quote is retained, not generalized."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+      "configuration_match": "exact_8gb_256gb_wifi",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 31999,
+      "price_type": "historical_shopee_early_bird_revu_report_conflicts_with_yugatech_window",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-03",
+      "source_url": "https://www.revu.com.ph/2024/05/xiaomi-pad-6s-pro-12-4-price-philippines/",
+      "source_kind": "dated_philippine_promo_price_report_with_conflicting_window",
+      "local_availability_verified": true,
+      "availability_status": "reported_early_bird_through_2024_05_04_not_current",
+      "excerpt": "REVU reported PHP 31,999 through May 4, 2024 and an additional PHP 800 discount on May 5. YugaTech lists PHP 31,199 for May 3-9; conflicting source terms are preserved."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+      "configuration_match": "exact_8gb_256gb_wifi",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 22999,
+      "price_type": "current_dated_retailer_listing_not_guaranteed_orderable_or_new",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://iwarehouse.ph/products?brand=17",
+      "source_kind": "current_philippine_retailer_listing_stock_or_condition_not_confirmed",
+      "local_availability_verified": false,
+      "availability_status": "listed_on_2026_11_27_stock_or_orderability_not_confirmed",
+      "excerpt": "iWarehouse currently lists the exact 8 GB / 256 GB model at PHP 22,999 cash and says it is available at one location. Its stock notice says counts are informational and not reserved; call the store before visiting. Product condition is not stated."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-12gb-512gb-wifi",
+      "configuration_match": "exact_12gb_512gb_wifi",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 39999,
+      "price_type": "reported_ph_launch_srp_not_current_offer",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-02",
+      "source_url": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+      "source_kind": "dated_philippine_launch_price_report",
+      "local_availability_verified": true,
+      "availability_status": "reported_ph_available_by_2024_05_02",
+      "excerpt": "YugaTech reports PHP 39,999 launch price for exact 12 GB / 512 GB / Wi-Fi configuration; not a current price."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-12gb-512gb-wifi",
+      "configuration_match": "exact_12gb_512gb_wifi",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 39999,
+      "price_type": "reported_ph_launch_srp_cross_check_not_current_offer",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-02",
+      "source_url": "https://www.revu.com.ph/2024/05/xiaomi-pad-6s-pro-12-4-price-philippines/",
+      "source_kind": "dated_philippine_launch_price_cross_check",
+      "local_availability_verified": true,
+      "availability_status": "reported_ph_available_by_2024_05_02",
+      "excerpt": "REVU reports the same PHP 39,999 launch price for exact 12 GB / 512 GB / Wi-Fi configuration; not a current price."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-12gb-512gb-wifi",
+      "configuration_match": "exact_12gb_512gb_wifi",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 37199,
+      "price_type": "historical_shopee_promo_yugatech_report_window_conflicts_with_revu",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-03",
+      "source_url": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+      "source_kind": "dated_philippine_promo_price_report",
+      "local_availability_verified": true,
+      "availability_status": "reported_promo_window_2024_05_03_to_2024_05_09_not_current",
+      "excerpt": "YugaTech reported PHP 37,199 for 12 GB / 512 GB / Wi-Fi from May 3-9, 2024. REVU describes different early-bird pricing dates/amounts; this source-specific quote is retained, not generalized."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-12gb-512gb-wifi",
+      "configuration_match": "exact_12gb_512gb_wifi",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 37999,
+      "price_type": "historical_shopee_early_bird_revu_report_conflicts_with_yugatech_window",
+      "source_published_at": "2024-05-02",
+      "observed_at": "2024-05-03",
+      "source_url": "https://www.revu.com.ph/2024/05/xiaomi-pad-6s-pro-12-4-price-philippines/",
+      "source_kind": "dated_philippine_promo_price_report_with_conflicting_window",
+      "local_availability_verified": true,
+      "availability_status": "reported_early_bird_through_2024_05_04_not_current",
+      "excerpt": "REVU reported PHP 37,999 through May 4, 2024 and an additional PHP 800 discount on May 5. YugaTech lists PHP 37,199 for May 3-9; conflicting source terms are preserved."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "configuration_id": "device_0a08afaa2bffa0-12gb-512gb-wifi",
+      "configuration_match": "exact_12gb_512gb_wifi",
+      "variant_ram_gb": 12,
+      "variant_storage_gb": 512,
+      "variant_connectivity": "Wi-Fi-only",
+      "amount_php": 39999,
+      "price_type": "current_dated_retailer_listing_not_guaranteed_orderable_or_new",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://shoppingmall.homecredit.ph/brand/xiaomi-installment-loans",
+      "source_kind": "current_philippine_retailer_listing_stock_or_condition_not_confirmed",
+      "local_availability_verified": false,
+      "availability_status": "listed_on_2026_11_27_stock_or_orderability_not_confirmed",
+      "excerpt": "Home Credit's current Xiaomi listing shows the exact 12 GB / 512 GB tablet at PHP 39,999 with an installment purchase path. The page does not confirm physical inventory, immediate checkout, or product condition."
+    },
+    {
+      "device_id": "device_0a08afaa2bffa0",
+      "amount_php": 35199,
+      "configuration_id": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+      "configuration_match": "exact_8gb_256gb_wifi",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi-only",
+      "price_type": "historical_gigahertz_quote_sold_out_when_rechecked",
+      "source_published_at": "2026-05-06",
+      "observed_at": "2026-05-06",
+      "source_url": "https://ph.priceme.com/Xiaomi-Pad-6S-Pro-12.4in-8GB-256GB/p-923275422.aspx?sort=rating",
+      "source_kind": "philippine_price_aggregator_dated_retailer_quote",
+      "local_availability_verified": false,
+      "availability_status": "dated_2026_05_06_price_quote_gigahertz_current_page_sold_out",
+      "excerpt": "PriceMe records Gigahertz at PHP 35,199 on 2026-05-06 for Xiaomi Pad 6S Pro 12.4 8GB/256GB. Rechecked Gigahertz page shows PHP 35,199 but Sold out / pickup unavailable."
+    }
+  ]
+}

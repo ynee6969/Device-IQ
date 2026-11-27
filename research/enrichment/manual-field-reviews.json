@@ -200199,6 +200199,1444 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_0a08afaa2bffa0",
+      "configurationId": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Pad 6S Pro",
+      "configuration": "8 GB / 256 GB / Wi-Fi",
+      "configurationLabel": "8 GB / 256 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "xiaomi_pad_6s_pro_global_specs",
+          "publisher": "Xiaomi Global",
+          "url": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer specifications for exact Xiaomi Pad 6S Pro 12.4 model",
+          "note": "Exact product specifications: display, chipset, memory configurations, cameras, battery, charging, USB, Wi-Fi, Bluetooth, NFC tag support, sensors, and launch operating system."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_global_product",
+          "publisher": "Xiaomi Global",
+          "url": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer product and accessory support page",
+          "note": "Product page identifies the Xiaomi Pad 6S Pro 12.4, Wi-Fi 7, six speakers, Dolby Vision/Atmos, 120W charging, battery, Xiaomi Focus Pen, and Touchpad Keyboard support."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_ph_faq",
+          "publisher": "Xiaomi Philippines Support",
+          "url": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer FAQ for hardware and connectivity details",
+          "note": "Official FAQ provides the 8/256 and 12/512 options, CPU/GPU details, battery min/typ values, camera sensors, storage expansion, charging, wireless charging, connectivity, audio, USB, sensors, body materials, and IP52 statement."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_sim_faq",
+          "publisher": "Xiaomi Global Support",
+          "url": "https://www.mi.com/global/support/faq/details/KA-535907/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer confirmation of cellular / SIM configuration",
+          "note": "The Xiaomi support FAQ explicitly says this model has no SIM slot and is designed for Wi-Fi-only connectivity."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_annual_report",
+          "publisher": "Xiaomi Corporation",
+          "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/04/25/5-36-08/2023%20Annual%20Report.pdf",
+          "publicationDate": "2024-04-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer annual report documenting launch month",
+          "note": "Xiaomi's 2023 Annual Report says it launched Xiaomi Pad 6S Pro 12.4 in February 2024; the Xiaomi support FAQ separately lists March 25, 2024 as a launch time, so an exact global release date is withheld."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_xiaomi_faq_launch",
+          "publisher": "Xiaomi Philippines Support",
+          "url": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer FAQ launch-date statement retained for conflict review",
+          "note": "The FAQ's answer says the launch time was 03/25/2024 but does not specify whether that means global or Philippine retail launch. It conflicts with Xiaomi's annual report month and Philippine availability reports dated May 2; no exact local first-sale date is inferred."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_yugatech_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+          "publicationDate": "2024-05-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch availability, launch pricing, configuration, and image candidate",
+          "note": "Published 2024-05-02; says the Pad 6S Pro arrives in the Philippines, identifies 8/256 at PHP 33,999 and 12/512 at PHP 39,999, and reports May 3-9 promotional prices of PHP 31,199 and PHP 37,199. Also displays an exact-model product photograph; republication rights were not found."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2024/05/xiaomi-pad-6s-pro-12-4-price-philippines/",
+          "publicationDate": "2024-05-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine launch-price cross-check and promotion conflict evidence",
+          "note": "Published 2024-05-02 and reports the same two launch prices/configurations. Its early-bird report gives PHP 31,999/PHP 37,999 through May 4 and an additional PHP 800 discount on May 5, differing from YugaTech's May 3-9 price window; both are retained as reported promotion observations, not reconciled into one offer."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_gizguide_ph",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2024/05/xiaomi-pad-6s-pro-ph-price.html",
+          "publicationDate": "2024-05-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine availability, price, and configuration cross-check",
+          "note": "Published 2024-05-02; reports the model officially available in the Philippines and gives both local configurations, launch prices, and early-bird prices."
+        },
+        {
+          "id": "iwarehouse_pad_6s_pro_listing",
+          "publisher": "iWarehouse Philippines",
+          "url": "https://iwarehouse.ph/products?brand=17",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Current local cash-price and branch-availability observation for 8/256 GB",
+          "note": "As observed 2026-11-27, iWarehouse lists Xiaomi Pad 6S Pro Graphite Gray, 8GB/256GB, PHP 22,999 cash, available at one location. The site says stock is informational and not reserved and advises calling first; condition and exact branch stock are not specified."
+        },
+        {
+          "id": "homecredit_pad_6s_pro_listing",
+          "publisher": "Home Credit Shopping Mall Philippines",
+          "url": "https://shoppingmall.homecredit.ph/brand/xiaomi-installment-loans",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Current exact-configuration retailer price listing for 12/512 GB",
+          "note": "As observed 2026-11-27, the live Xiaomi listing shows the 12GB/512GB Pad 6S Pro at PHP 39,999 and provides an installment purchase route. It does not establish condition or branch-level stock; retained as a dated listed price, not guaranteed availability."
+        },
+        {
+          "id": "priceme_pad_6s_pro_8_256",
+          "publisher": "PriceMe Philippines",
+          "url": "https://ph.priceme.com/Xiaomi-Pad-6S-Pro-12.4in-8GB-256GB/p-923275422.aspx?sort=rating",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Historical exact-configuration retailer quote and price trend",
+          "note": "PriceMe's history records Gigahertz at PHP 35,199 on 2026-05-06 for Xiaomi Pad 6S Pro 12.4 8GB/256GB. Gigahertz's current product page marks the item sold out, so the May quote is historical only."
+        },
+        {
+          "id": "gigahertz_pad_6s_pro_listing",
+          "publisher": "Gigahertz Philippines",
+          "url": "https://www.gigahertz.com.ph/products/xiaomi-pad-6s-pro-12-4",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model retailer specification and stock-state cross-check",
+          "note": "The product page identifies the exact 8/256 and 12/512 configurations and detailed specifications, but its 8/256 selection shows PHP 35,199 and Sold out / pickup unavailable. It is not treated as a current buyable offer."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_commons_image",
+          "publisher": "Wikimedia Commons / 茅野ふたば",
+          "url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Pad_6S_Pro.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Licensed exact-model image and attribution record",
+          "note": "Exact-model store-display photograph, visually checked against the Xiaomi Pad 6S Pro label. Creator credit is 茅野ふたば; Creative Commons Attribution-ShareAlike 4.0. The local WebP is a format conversion without subject edits; manifest preserves asset URL, credit, license, and source page."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Reviewed Xiaomi global and Philippine specs identify the product family but do not state a regulatory or regional model number.",
+          "normalizedValue": null,
+          "note": "Exact model number remains not recorded; do not assign a regional code based on a different market."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "xiaomi_pad_6s_pro_annual_report",
+          "sourceValue": "Xiaomi's annual report says launched in February 2024; Xiaomi support FAQ lists launch time 03/25/2024.",
+          "normalizedValue": null,
+          "note": "The manufacturer gives two different launch timings. The annual report supports February 2024 at month precision, while the FAQ gives March 25 without defining market or launch event. Keep the exact global release date unresolved.",
+          "unit": "date",
+          "candidateEvidence": [
+            {
+              "value": "February 2024",
+              "sourceUrl": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/04/25/5-36-08/2023%20Annual%20Report.pdf",
+              "sourceKind": "manufacturer_annual_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "In February 2024, we launched the Xiaomi Pad 6S Pro 12.4.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "March 25, 2024",
+              "sourceUrl": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+              "sourceKind": "manufacturer_support_faq",
+              "observedAt": "2026-11-27",
+              "excerpt": "The launch time is 03/25/2024.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "8 GB RAM / 256 GB storage / Wi-Fi-only",
+          "normalizedValue": "8 GB RAM / 256 GB storage / Wi-Fi-only",
+          "note": "This exact RAM/storage configuration is listed by Xiaomi globally and by Philippine launch coverage. Both local variants are Wi-Fi-only; accessories and color names are not separate configurations.",
+          "candidateEvidence": [
+            {
+              "value": "Xiaomi launch coverage identifies 8GB+256GB and 12GB+512GB Philippine configurations.",
+              "sourceUrl": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+              "sourceKind": "dated_philippine_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "Two PH configurations: 8GB+256GB and 12GB+512GB.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "VERIFIED_SECONDARY",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Xiaomi global specs list 8GB+256GB and 12GB+512GB LPDDR5X/UFS 4.0 options.",
+              "sourceUrl": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/specs/",
+              "sourceKind": "manufacturer_global_specs",
+              "observedAt": "2026-11-27",
+              "excerpt": "8GB+256GB, 12GB+512GB LPDDR5X RAM + UFS 4.0 storage.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "VERIFIED",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "xiaomi_pad_6s_pro_xiaomi_faq_launch",
+          "sourceValue": "Xiaomi Philippines Support says launch time 03/25/2024; Philippine launch coverage says the device arrived / was officially available on 2024-05-02.",
+          "normalizedValue": null,
+          "note": "The Xiaomi FAQ does not identify the launch market/event. Local technology outlets reported Philippine availability on May 2, 2024. Preserve the conflicting date evidence and keep exact Philippine first-sale date blank; availability by May 2 is separately documented.",
+          "unit": "date",
+          "candidateEvidence": [
+            {
+              "value": "March 25, 2024",
+              "sourceUrl": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+              "sourceKind": "manufacturer_support_faq",
+              "observedAt": "2026-11-27",
+              "excerpt": "FAQ answer: launch time is 03/25/2024; market scope not stated.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "May 2, 2024",
+              "sourceUrl": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+              "sourceKind": "dated_philippine_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "The Xiaomi Pad 6S Pro finally arrives in the Philippines.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "May 2, 2024",
+              "sourceUrl": "https://www.gizguide.com/2024/05/xiaomi-pad-6s-pro-ph-price.html",
+              "sourceKind": "dated_philippine_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "The Xiaomi Pad 6S Pro 12.4 is now officially available in the Philippines.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "xiaomi_pad_6s_pro_yugatech_ph",
+          "sourceValue": "Philippine launch coverage reports PHP 33,999 for 8 GB / 256 GB / Wi-Fi.",
+          "normalizedValue": 33999,
+          "note": "YugaTech and REVU independently report this configuration-specific Philippine launch price on 2024-05-02. Primary Xiaomi Philippine price markup was not located; the amount is retained as a secondary-reported launch SRP, not primary-source pricing.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "iwarehouse_pad_6s_pro_listing",
+          "sourceValue": "iWarehouse currently lists the exact 8 GB / 256 GB model at PHP 22,999 cash and says it is available at one location. Its stock notice says counts are informational and not reserved; call the store before visiting. Product condition is not stated.",
+          "normalizedValue": 22999,
+          "note": "Dated retailer listing observed 2026-11-27 for the exact configuration. Listing/price provenance is retained; stock or condition is not guaranteed.",
+          "unit": "PHP",
+          "priceCondition": "Not stated",
+          "priceType": "dated Philippine retailer listed price; orderability not guaranteed",
+          "priceObservedAt": "2026-11-27",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "12.4-inch diagonal",
+          "normalizedValue": 12.4,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 12.4,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "LCD display",
+          "normalizedValue": "LCD",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "displayType",
+          "catalogValue": "LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "3048 × 2032 pixels, 294 ppi",
+          "normalizedValue": "3048 x 2032",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "resolution",
+          "catalogValue": "3048 x 2032"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "144Hz AdaptiveSync; listed automatic rates 30/48/50/60/90/120/144Hz",
+          "normalizedValue": 144,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 144,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "700 nits typical; 900 nits High Brightness Mode",
+          "normalizedValue": "700 nits typical; 900 nits HBM",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Fully laminated LCD, oleophobic layer, DCI-P3, HDR10, full DC dimming; Xiaomi global page lists Dolby Vision and display certifications.",
+          "normalizedValue": "Fully laminated; oleophobic; DCI-P3; HDR10/Dolby Vision; DC dimming; TÜV low-blue-light/flicker-free/circadian certifications",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Snapdragon 8 Gen 2 Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "4nm TSMC N4 manufacturing process",
+          "normalizedValue": 4,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "8-core CPU, up to 3.19GHz; TSMC N4",
+          "normalizedValue": "8-core CPU; up to 3.19GHz",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core CPU; up to 3.19GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Adreno 740 at 680MHz",
+          "normalizedValue": "Adreno 740",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 740"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Xiaomi HyperOS, Android U (Android 14 at launch per REVU)",
+          "normalizedValue": "Xiaomi HyperOS (Android 14 at launch)",
+          "note": "Xiaomi's global spec labels the platform Android U and names Xiaomi HyperOS; REVU's launch coverage identifies Android 14-based HyperOS. This records launch software only, not the currently installed version.",
+          "catalogKey": "os",
+          "catalogValue": "Xiaomi HyperOS (Android 14 at launch)"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "No guaranteed OS/security-support end date or update duration is published in the reviewed Xiaomi product specifications.",
+          "normalizedValue": null,
+          "note": "Support duration and end date remain unrecorded; not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "8GB RAM",
+          "normalizedValue": 8,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "256GB",
+          "normalizedValue": 256,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "UFS 4.0",
+          "normalizedValue": "UFS 4.0",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi explicitly says no expandable storage.",
+          "normalizedValue": "No microSD / expandable internal storage",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "50MP main camera + 2MP depth camera",
+          "normalizedValue": "50MP main + 2MP depth",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "50MP main + 2MP depth",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Samsung S5KJN1 / JN1, 1/2.76-inch, f/1.8, 0.64μm pixels",
+          "normalizedValue": "Samsung S5KJN1 (JN1); 1/2.76-inch; f/1.8",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "The manufacturer lists a main rear camera and a depth camera; it does not list a rear ultra-wide camera.",
+          "normalizedValue": null,
+          "note": "No rear ultra-wide camera listed; the second rear module is a depth camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "The manufacturer lists a main rear camera and a depth camera; it does not list a rear telephoto camera.",
+          "normalizedValue": null,
+          "note": "No rear telephoto camera listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "32MP OV32D, f/2.2",
+          "normalizedValue": 32,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Rear: 4K 30/60fps, 1080p 30/60fps, 720p 30fps; front: 1080p 30/60fps, 720p 30fps",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "10,000mAh typical / 9,800mAh minimum device capacity",
+          "normalizedValue": 10000,
+          "note": "Xiaomi states device-level capacity as 10,000mAh typical and 9,800mAh minimum. Cell-level figures are 5,000mAh typical / 4,900mAh minimum and are not substituted for device-level capacity.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 10000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi identifies the battery supplier (ATL) and high-voltage design but does not disclose battery chemistry in the reviewed FAQ.",
+          "normalizedValue": null,
+          "note": "Battery chemistry not inferred."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "120W Xiaomi HyperCharge",
+          "normalizedValue": 120,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 120,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi explicitly says wireless charging and reverse wireless charging are not supported.",
+          "normalizedValue": "No wireless charging; no reverse wireless charging",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "278.70 × 191.58 × 6.26 mm",
+          "normalizedValue": "278.70 x 191.58 x 6.26 mm",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "278.70 x 191.58 x 6.26 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "590g",
+          "normalizedValue": 590,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "weightG",
+          "catalogValue": 590,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_product",
+          "sourceValue": "Metal body; Xiaomi FAQ specifies metal middle bezel; back-cover material not separately identified.",
+          "normalizedValue": "Metal body / metal middle bezel; back material not separately stated",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi FAQ states IP52 waterproof level and notes water/dust damage is not covered by warranty.",
+          "normalizedValue": "IP52",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "No SIM-card slot; Wi-Fi-only model, with no mobile-network data function.",
+          "normalizedValue": "Wi-Fi only; no SIM/eSIM cellular service",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "sim",
+          "catalogValue": "Wi-Fi only; no SIM/eSIM cellular service"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "Xiaomi confirms no SIM slot and no cellular/mobile-network data support.",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi-only tablet."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Wi-Fi 7 (802.11a/b/g/n/ac/ax), 2.4GHz and 5GHz; MIMO, Wi-Fi Direct and Miracast",
+          "normalizedValue": "Wi-Fi 7; dual band; MIMO",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 7; dual band; MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Bluetooth 5.3; AAC, LDAC, LHDC 5.0, LC3 and Auracast",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1 up to 5Gbps; Xiaomi FAQ confirms OTG and DP_OUT",
+          "normalizedValue": "USB-C; USB 3.2 Gen 1 up to 5Gbps; OTG; DisplayPort output",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.2 Gen 1 up to 5Gbps; OTG; DisplayPort output"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Global Xiaomi materials list NFC tag support, but Xiaomi states NFC availability may differ by region.",
+          "normalizedValue": null,
+          "note": "Keep PH NFC support unresolved; a global feature statement does not verify the Philippine variant."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "Reviewed Wi-Fi-only manufacturer specifications do not state built-in GNSS/GPS availability for this configuration.",
+          "normalizedValue": null,
+          "note": "GNSS remains not recorded; do not infer presence or absence from Wi-Fi-only status."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Six speakers; Type-C analog/digital wired headphone output; no 3.5mm jack stated",
+          "normalizedValue": "Six speakers; USB-C audio output; no 3.5mm jack listed",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "sound",
+          "catalogValue": "Six speakers; USB-C audio output; no 3.5mm jack listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "G-sensor, gyroscope, light sensor, proximity sensor, e-compass, fingerprint sensor, hall sensor, flicker sensor, color-temperature sensor",
+          "normalizedValue": "Accelerometer; gyroscope; light; proximity; compass; fingerprint; hall; flicker; color-temperature",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_product",
+          "sourceValue": "Supports Xiaomi Focus Pen; sold separately in the Philippine launch report",
+          "normalizedValue": "Xiaomi Focus Pen support; sold separately",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_product",
+          "sourceValue": "Supports Xiaomi Pad 6S Pro Touchpad Keyboard; accessory sold separately in PH launch coverage",
+          "normalizedValue": "Xiaomi Pad 6S Pro Touchpad Keyboard support; sold separately",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "Wi-Fi-only; no SIM slot or mobile data",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch coverage reported the Xiaomi Pad 6S Pro officially available by 2024-05-02. Exact first sale date remains unresolved because Xiaomi's FAQ gives an ambiguous 2024-03-25 launch time.",
+        "philippineAvailability": "Philippine availability reported by 2024-05-02; exact first authorized sale date unresolved.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact Philippine 8/256 and 12/512 Wi-Fi configurations and dated historical launch prices reviewed. Global and Philippine FAQ launch dates conflict in scope/timing; exact first-sale date, model number, region-specific NFC availability, and some current stock/condition details remain unresolved. Workbook eligibility remains Pending.",
+        "catalogModel": "Xiaomi Pad 6S Pro",
+        "manufacturer": "Xiaomi Corporation",
+        "productLine": "Pad 6S Pro 12.4",
+        "philippineReleaseYear": 2024,
+        "philippineDateLabel": "Philippine availability reported by 2024-05-02; first-sale date unresolved",
+        "researchNotes": "The exact model matches Xiaomi Pad 6S Pro 12.4. Philippine launch coverage supports two Wi-Fi configurations: 8/256 and 12/512. Xiaomi global specifications confirm the shared technical platform and Xiaomi's global support FAQ explicitly confirms no SIM slot. Local launch prices were PHP 33,999 and PHP 39,999. Current retailer listings observed 2026-11-27 show PHP 22,999 for 8/256 at iWarehouse (one listed location, stock not reserved) and PHP 39,999 for 12/512 at Home Credit (installment path shown, branch stock/condition not confirmed). A Gigahertz/PriceMe 8/256 observation of PHP 35,199 on 2026-05-06 is retained as historical; Gigahertz now marks it sold out. Xiaomi annual report says launched in February 2024 while an official FAQ gives March 25 without clarifying market; local coverage reports PH availability by May 2. Exact model number and first authorized local-sale date are not inferred. Xiaomi global and PH color names differ in sources; colors do not split hardware variants. The exact-model Wikimedia Commons photograph is cached in the project under CC BY-SA 4.0 with creator credit and license links in the image manifest. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Manufacturer launch timing differs between annual report and support FAQ",
+            "action": "Keep exact global release date unresolved and preserve both source statements."
+          },
+          {
+            "issue": "Official FAQ launch date is not geographically scoped; Philippine coverage reports availability by 2024-05-02",
+            "action": "Keep exact Philippine first-sale date blank; retain dated local availability evidence."
+          },
+          {
+            "issue": "No regional / regulatory model number found",
+            "action": "Do not infer a model code from another market."
+          },
+          {
+            "issue": "Current retailer stock and product condition are not confirmed",
+            "action": "Treat dated prices as retailer listings; iWarehouse advises calling because stock is not reserved."
+          },
+          {
+            "issue": "Philippine NFC support is not established",
+            "action": "Keep NFC unresolved because Xiaomi says regional availability may differ."
+          },
+          {
+            "issue": "The licensed Commons image is a store-display photograph and may show accessories",
+            "action": "Keep it labeled as a product image and preserve its creator credit, CC BY-SA 4.0 link, and unchanged-subject edit note in the image manifest."
+          },
+          {
+            "issue": "Study scope is Pending in the source workbook",
+            "action": "Preserve the workbook's eligibility status."
+          }
+        ]
+      },
+      "replacementVariants": [
+        {
+          "id": "device_0a08afaa2bffa0-8gb-256gb-wifi",
+          "label": "8 GB / 256 GB / Wi-Fi",
+          "notes": "Exact Philippine RAM/storage configuration; Wi-Fi-only is confirmed by Xiaomi; accessory and color are not separate configurations."
+        },
+        {
+          "id": "device_0a08afaa2bffa0-12gb-512gb-wifi",
+          "label": "12 GB / 512 GB / Wi-Fi",
+          "notes": "Exact Philippine RAM/storage configuration; Wi-Fi-only is confirmed by Xiaomi; accessory and color are not separate configurations."
+        }
+      ]
+    },
+    {
+      "deviceId": "device_0a08afaa2bffa0",
+      "configurationId": "device_0a08afaa2bffa0-12gb-512gb-wifi",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Pad 6S Pro",
+      "configuration": "12 GB / 512 GB / Wi-Fi",
+      "configurationLabel": "12 GB / 512 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "xiaomi_pad_6s_pro_global_specs",
+          "publisher": "Xiaomi Global",
+          "url": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer specifications for exact Xiaomi Pad 6S Pro 12.4 model",
+          "note": "Exact product specifications: display, chipset, memory configurations, cameras, battery, charging, USB, Wi-Fi, Bluetooth, NFC tag support, sensors, and launch operating system."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_global_product",
+          "publisher": "Xiaomi Global",
+          "url": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer product and accessory support page",
+          "note": "Product page identifies the Xiaomi Pad 6S Pro 12.4, Wi-Fi 7, six speakers, Dolby Vision/Atmos, 120W charging, battery, Xiaomi Focus Pen, and Touchpad Keyboard support."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_ph_faq",
+          "publisher": "Xiaomi Philippines Support",
+          "url": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer FAQ for hardware and connectivity details",
+          "note": "Official FAQ provides the 8/256 and 12/512 options, CPU/GPU details, battery min/typ values, camera sensors, storage expansion, charging, wireless charging, connectivity, audio, USB, sensors, body materials, and IP52 statement."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_sim_faq",
+          "publisher": "Xiaomi Global Support",
+          "url": "https://www.mi.com/global/support/faq/details/KA-535907/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer confirmation of cellular / SIM configuration",
+          "note": "The Xiaomi support FAQ explicitly says this model has no SIM slot and is designed for Wi-Fi-only connectivity."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_annual_report",
+          "publisher": "Xiaomi Corporation",
+          "url": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/04/25/5-36-08/2023%20Annual%20Report.pdf",
+          "publicationDate": "2024-04-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer annual report documenting launch month",
+          "note": "Xiaomi's 2023 Annual Report says it launched Xiaomi Pad 6S Pro 12.4 in February 2024; the Xiaomi support FAQ separately lists March 25, 2024 as a launch time, so an exact global release date is withheld."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_xiaomi_faq_launch",
+          "publisher": "Xiaomi Philippines Support",
+          "url": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer FAQ launch-date statement retained for conflict review",
+          "note": "The FAQ's answer says the launch time was 03/25/2024 but does not specify whether that means global or Philippine retail launch. It conflicts with Xiaomi's annual report month and Philippine availability reports dated May 2; no exact local first-sale date is inferred."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_yugatech_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+          "publicationDate": "2024-05-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch availability, launch pricing, configuration, and image candidate",
+          "note": "Published 2024-05-02; says the Pad 6S Pro arrives in the Philippines, identifies 8/256 at PHP 33,999 and 12/512 at PHP 39,999, and reports May 3-9 promotional prices of PHP 31,199 and PHP 37,199. Also displays an exact-model product photograph; republication rights were not found."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_revu_ph",
+          "publisher": "REVU Philippines",
+          "url": "https://www.revu.com.ph/2024/05/xiaomi-pad-6s-pro-12-4-price-philippines/",
+          "publicationDate": "2024-05-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine launch-price cross-check and promotion conflict evidence",
+          "note": "Published 2024-05-02 and reports the same two launch prices/configurations. Its early-bird report gives PHP 31,999/PHP 37,999 through May 4 and an additional PHP 800 discount on May 5, differing from YugaTech's May 3-9 price window; both are retained as reported promotion observations, not reconciled into one offer."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_gizguide_ph",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2024/05/xiaomi-pad-6s-pro-ph-price.html",
+          "publicationDate": "2024-05-02",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent Philippine availability, price, and configuration cross-check",
+          "note": "Published 2024-05-02; reports the model officially available in the Philippines and gives both local configurations, launch prices, and early-bird prices."
+        },
+        {
+          "id": "iwarehouse_pad_6s_pro_listing",
+          "publisher": "iWarehouse Philippines",
+          "url": "https://iwarehouse.ph/products?brand=17",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Current local cash-price and branch-availability observation for 8/256 GB",
+          "note": "As observed 2026-11-27, iWarehouse lists Xiaomi Pad 6S Pro Graphite Gray, 8GB/256GB, PHP 22,999 cash, available at one location. The site says stock is informational and not reserved and advises calling first; condition and exact branch stock are not specified."
+        },
+        {
+          "id": "homecredit_pad_6s_pro_listing",
+          "publisher": "Home Credit Shopping Mall Philippines",
+          "url": "https://shoppingmall.homecredit.ph/brand/xiaomi-installment-loans",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Current exact-configuration retailer price listing for 12/512 GB",
+          "note": "As observed 2026-11-27, the live Xiaomi listing shows the 12GB/512GB Pad 6S Pro at PHP 39,999 and provides an installment purchase route. It does not establish condition or branch-level stock; retained as a dated listed price, not guaranteed availability."
+        },
+        {
+          "id": "priceme_pad_6s_pro_8_256",
+          "publisher": "PriceMe Philippines",
+          "url": "https://ph.priceme.com/Xiaomi-Pad-6S-Pro-12.4in-8GB-256GB/p-923275422.aspx?sort=rating",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Historical exact-configuration retailer quote and price trend",
+          "note": "PriceMe's history records Gigahertz at PHP 35,199 on 2026-05-06 for Xiaomi Pad 6S Pro 12.4 8GB/256GB. Gigahertz's current product page marks the item sold out, so the May quote is historical only."
+        },
+        {
+          "id": "gigahertz_pad_6s_pro_listing",
+          "publisher": "Gigahertz Philippines",
+          "url": "https://www.gigahertz.com.ph/products/xiaomi-pad-6s-pro-12-4",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model retailer specification and stock-state cross-check",
+          "note": "The product page identifies the exact 8/256 and 12/512 configurations and detailed specifications, but its 8/256 selection shows PHP 35,199 and Sold out / pickup unavailable. It is not treated as a current buyable offer."
+        },
+        {
+          "id": "xiaomi_pad_6s_pro_commons_image",
+          "publisher": "Wikimedia Commons / 茅野ふたば",
+          "url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Pad_6S_Pro.jpg",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Licensed exact-model image and attribution record",
+          "note": "Exact-model store-display photograph, visually checked against the Xiaomi Pad 6S Pro label. Creator credit is 茅野ふたば; Creative Commons Attribution-ShareAlike 4.0. The local WebP is a format conversion without subject edits; manifest preserves asset URL, credit, license, and source page."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Reviewed Xiaomi global and Philippine specs identify the product family but do not state a regulatory or regional model number.",
+          "normalizedValue": null,
+          "note": "Exact model number remains not recorded; do not assign a regional code based on a different market."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "xiaomi_pad_6s_pro_annual_report",
+          "sourceValue": "Xiaomi's annual report says launched in February 2024; Xiaomi support FAQ lists launch time 03/25/2024.",
+          "normalizedValue": null,
+          "note": "The manufacturer gives two different launch timings. The annual report supports February 2024 at month precision, while the FAQ gives March 25 without defining market or launch event. Keep the exact global release date unresolved.",
+          "unit": "date",
+          "candidateEvidence": [
+            {
+              "value": "February 2024",
+              "sourceUrl": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2024/04/25/5-36-08/2023%20Annual%20Report.pdf",
+              "sourceKind": "manufacturer_annual_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "In February 2024, we launched the Xiaomi Pad 6S Pro 12.4.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "March 25, 2024",
+              "sourceUrl": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+              "sourceKind": "manufacturer_support_faq",
+              "observedAt": "2026-11-27",
+              "excerpt": "The launch time is 03/25/2024.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "12 GB RAM / 512 GB storage / Wi-Fi-only",
+          "normalizedValue": "12 GB RAM / 512 GB storage / Wi-Fi-only",
+          "note": "This exact RAM/storage configuration is listed by Xiaomi globally and by Philippine launch coverage. Both local variants are Wi-Fi-only; accessories and color names are not separate configurations.",
+          "candidateEvidence": [
+            {
+              "value": "Xiaomi launch coverage identifies 8GB+256GB and 12GB+512GB Philippine configurations.",
+              "sourceUrl": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+              "sourceKind": "dated_philippine_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "Two PH configurations: 8GB+256GB and 12GB+512GB.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "VERIFIED_SECONDARY",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "Xiaomi global specs list 8GB+256GB and 12GB+512GB LPDDR5X/UFS 4.0 options.",
+              "sourceUrl": "https://www.mi.com/global/product/xiaomi-pad-6s-pro-124/specs/",
+              "sourceKind": "manufacturer_global_specs",
+              "observedAt": "2026-11-27",
+              "excerpt": "8GB+256GB, 12GB+512GB LPDDR5X RAM + UFS 4.0 storage.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "VERIFIED",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "xiaomi_pad_6s_pro_xiaomi_faq_launch",
+          "sourceValue": "Xiaomi Philippines Support says launch time 03/25/2024; Philippine launch coverage says the device arrived / was officially available on 2024-05-02.",
+          "normalizedValue": null,
+          "note": "The Xiaomi FAQ does not identify the launch market/event. Local technology outlets reported Philippine availability on May 2, 2024. Preserve the conflicting date evidence and keep exact Philippine first-sale date blank; availability by May 2 is separately documented.",
+          "unit": "date",
+          "candidateEvidence": [
+            {
+              "value": "March 25, 2024",
+              "sourceUrl": "https://www.mi.com/ph/support/faq/details/KA-118747/",
+              "sourceKind": "manufacturer_support_faq",
+              "observedAt": "2026-11-27",
+              "excerpt": "FAQ answer: launch time is 03/25/2024; market scope not stated.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "May 2, 2024",
+              "sourceUrl": "https://www.yugatech.com/news/xiaomi-pad-6s-pro-lands-in-ph-sets-new-bar-for-tablets/",
+              "sourceKind": "dated_philippine_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "The Xiaomi Pad 6S Pro finally arrives in the Philippines.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "May 2, 2024",
+              "sourceUrl": "https://www.gizguide.com/2024/05/xiaomi-pad-6s-pro-ph-price.html",
+              "sourceKind": "dated_philippine_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "The Xiaomi Pad 6S Pro 12.4 is now officially available in the Philippines.",
+              "configurationMatch": "exact Xiaomi Pad 6S Pro model; date scope ambiguous",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ]
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "xiaomi_pad_6s_pro_yugatech_ph",
+          "sourceValue": "Philippine launch coverage reports PHP 39,999 for 12 GB / 512 GB / Wi-Fi.",
+          "normalizedValue": 39999,
+          "note": "YugaTech and REVU independently report this configuration-specific Philippine launch price on 2024-05-02. Primary Xiaomi Philippine price markup was not located; the amount is retained as a secondary-reported launch SRP, not primary-source pricing.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "homecredit_pad_6s_pro_listing",
+          "sourceValue": "Home Credit's current Xiaomi listing shows the exact 12 GB / 512 GB tablet at PHP 39,999 with an installment purchase path. The page does not confirm physical inventory, immediate checkout, or product condition.",
+          "normalizedValue": 39999,
+          "note": "Dated retailer listing observed 2026-11-27 for the exact configuration. Listing/price provenance is retained; stock or condition is not guaranteed.",
+          "unit": "PHP",
+          "priceCondition": "Not stated",
+          "priceType": "dated Philippine retailer listed price; orderability not guaranteed",
+          "priceObservedAt": "2026-11-27",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "12.4-inch diagonal",
+          "normalizedValue": 12.4,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 12.4,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "LCD display",
+          "normalizedValue": "LCD",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "displayType",
+          "catalogValue": "LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "3048 × 2032 pixels, 294 ppi",
+          "normalizedValue": "3048 x 2032",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "resolution",
+          "catalogValue": "3048 x 2032"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "144Hz AdaptiveSync; listed automatic rates 30/48/50/60/90/120/144Hz",
+          "normalizedValue": 144,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 144,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "700 nits typical; 900 nits High Brightness Mode",
+          "normalizedValue": "700 nits typical; 900 nits HBM",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Fully laminated LCD, oleophobic layer, DCI-P3, HDR10, full DC dimming; Xiaomi global page lists Dolby Vision and display certifications.",
+          "normalizedValue": "Fully laminated; oleophobic; DCI-P3; HDR10/Dolby Vision; DC dimming; TÜV low-blue-light/flicker-free/circadian certifications",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Snapdragon 8 Gen 2 Mobile Platform",
+          "normalizedValue": "Qualcomm Snapdragon 8 Gen 2",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Qualcomm Snapdragon 8 Gen 2"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "4nm TSMC N4 manufacturing process",
+          "normalizedValue": 4,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "8-core CPU, up to 3.19GHz; TSMC N4",
+          "normalizedValue": "8-core CPU; up to 3.19GHz",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core CPU; up to 3.19GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Adreno 740 at 680MHz",
+          "normalizedValue": "Adreno 740",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "gpu",
+          "catalogValue": "Adreno 740"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Xiaomi HyperOS, Android U (Android 14 at launch per REVU)",
+          "normalizedValue": "Xiaomi HyperOS (Android 14 at launch)",
+          "note": "Xiaomi's global spec labels the platform Android U and names Xiaomi HyperOS; REVU's launch coverage identifies Android 14-based HyperOS. This records launch software only, not the currently installed version.",
+          "catalogKey": "os",
+          "catalogValue": "Xiaomi HyperOS (Android 14 at launch)"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "No guaranteed OS/security-support end date or update duration is published in the reviewed Xiaomi product specifications.",
+          "normalizedValue": null,
+          "note": "Support duration and end date remain unrecorded; not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "12GB RAM",
+          "normalizedValue": 12,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 12,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "LPDDR5X",
+          "normalizedValue": "LPDDR5X",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "512GB",
+          "normalizedValue": 512,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "UFS 4.0",
+          "normalizedValue": "UFS 4.0",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi explicitly says no expandable storage.",
+          "normalizedValue": "No microSD / expandable internal storage",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "50MP main camera + 2MP depth camera",
+          "normalizedValue": "50MP main + 2MP depth",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "50MP main + 2MP depth",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Samsung S5KJN1 / JN1, 1/2.76-inch, f/1.8, 0.64μm pixels",
+          "normalizedValue": "Samsung S5KJN1 (JN1); 1/2.76-inch; f/1.8",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "The manufacturer lists a main rear camera and a depth camera; it does not list a rear ultra-wide camera.",
+          "normalizedValue": null,
+          "note": "No rear ultra-wide camera listed; the second rear module is a depth camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "The manufacturer lists a main rear camera and a depth camera; it does not list a rear telephoto camera.",
+          "normalizedValue": null,
+          "note": "No rear telephoto camera listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "32MP OV32D, f/2.2",
+          "normalizedValue": 32,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 32,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Rear: 4K 30/60fps, 1080p 30/60fps, 720p 30fps; front: 1080p 30/60fps, 720p 30fps",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "10,000mAh typical / 9,800mAh minimum device capacity",
+          "normalizedValue": 10000,
+          "note": "Xiaomi states device-level capacity as 10,000mAh typical and 9,800mAh minimum. Cell-level figures are 5,000mAh typical / 4,900mAh minimum and are not substituted for device-level capacity.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 10000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi identifies the battery supplier (ATL) and high-voltage design but does not disclose battery chemistry in the reviewed FAQ.",
+          "normalizedValue": null,
+          "note": "Battery chemistry not inferred."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "120W Xiaomi HyperCharge",
+          "normalizedValue": 120,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "chargingW",
+          "catalogValue": 120,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi explicitly says wireless charging and reverse wireless charging are not supported.",
+          "normalizedValue": "No wireless charging; no reverse wireless charging",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "278.70 × 191.58 × 6.26 mm",
+          "normalizedValue": "278.70 x 191.58 x 6.26 mm",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "278.70 x 191.58 x 6.26 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "590g",
+          "normalizedValue": 590,
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "weightG",
+          "catalogValue": 590,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_product",
+          "sourceValue": "Metal body; Xiaomi FAQ specifies metal middle bezel; back-cover material not separately identified.",
+          "normalizedValue": "Metal body / metal middle bezel; back material not separately stated",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Xiaomi FAQ states IP52 waterproof level and notes water/dust damage is not covered by warranty.",
+          "normalizedValue": "IP52",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "No SIM-card slot; Wi-Fi-only model, with no mobile-network data function.",
+          "normalizedValue": "Wi-Fi only; no SIM/eSIM cellular service",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "sim",
+          "catalogValue": "Wi-Fi only; no SIM/eSIM cellular service"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "Xiaomi confirms no SIM slot and no cellular/mobile-network data support.",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi-only tablet."
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Wi-Fi 7 (802.11a/b/g/n/ac/ax), 2.4GHz and 5GHz; MIMO, Wi-Fi Direct and Miracast",
+          "normalizedValue": "Wi-Fi 7; dual band; MIMO",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 7; dual band; MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "Bluetooth 5.3; AAC, LDAC, LHDC 5.0, LC3 and Auracast",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "USB Type-C; USB 3.2 Gen 1 up to 5Gbps; Xiaomi FAQ confirms OTG and DP_OUT",
+          "normalizedValue": "USB-C; USB 3.2 Gen 1 up to 5Gbps; OTG; DisplayPort output",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.2 Gen 1 up to 5Gbps; OTG; DisplayPort output"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Global Xiaomi materials list NFC tag support, but Xiaomi states NFC availability may differ by region.",
+          "normalizedValue": null,
+          "note": "Keep PH NFC support unresolved; a global feature statement does not verify the Philippine variant."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "Reviewed Wi-Fi-only manufacturer specifications do not state built-in GNSS/GPS availability for this configuration.",
+          "normalizedValue": null,
+          "note": "GNSS remains not recorded; do not infer presence or absence from Wi-Fi-only status."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_ph_faq",
+          "sourceValue": "Six speakers; Type-C analog/digital wired headphone output; no 3.5mm jack stated",
+          "normalizedValue": "Six speakers; USB-C audio output; no 3.5mm jack listed",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "sound",
+          "catalogValue": "Six speakers; USB-C audio output; no 3.5mm jack listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_specs",
+          "sourceValue": "G-sensor, gyroscope, light sensor, proximity sensor, e-compass, fingerprint sensor, hall sensor, flicker sensor, color-temperature sensor",
+          "normalizedValue": "Accelerometer; gyroscope; light; proximity; compass; fingerprint; hall; flicker; color-temperature",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_product",
+          "sourceValue": "Supports Xiaomi Focus Pen; sold separately in the Philippine launch report",
+          "normalizedValue": "Xiaomi Focus Pen support; sold separately",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_global_product",
+          "sourceValue": "Supports Xiaomi Pad 6S Pro Touchpad Keyboard; accessory sold separately in PH launch coverage",
+          "normalizedValue": "Xiaomi Pad 6S Pro Touchpad Keyboard support; sold separately",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "xiaomi_pad_6s_pro_sim_faq",
+          "sourceValue": "Wi-Fi-only; no SIM slot or mobile data",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact Xiaomi Pad 6S Pro model checked against the cited manufacturer source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Philippine launch coverage reported the Xiaomi Pad 6S Pro officially available by 2024-05-02. Exact first sale date remains unresolved because Xiaomi's FAQ gives an ambiguous 2024-03-25 launch time.",
+        "philippineAvailability": "Philippine availability reported by 2024-05-02; exact first authorized sale date unresolved.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact Philippine 8/256 and 12/512 Wi-Fi configurations and dated historical launch prices reviewed. Global and Philippine FAQ launch dates conflict in scope/timing; exact first-sale date, model number, region-specific NFC availability, and some current stock/condition details remain unresolved. Workbook eligibility remains Pending.",
+        "catalogModel": "Xiaomi Pad 6S Pro",
+        "manufacturer": "Xiaomi Corporation",
+        "productLine": "Pad 6S Pro 12.4",
+        "philippineReleaseYear": 2024,
+        "philippineDateLabel": "Philippine availability reported by 2024-05-02; first-sale date unresolved",
+        "researchNotes": "The exact model matches Xiaomi Pad 6S Pro 12.4. Philippine launch coverage supports two Wi-Fi configurations: 8/256 and 12/512. Xiaomi global specifications confirm the shared technical platform and Xiaomi's global support FAQ explicitly confirms no SIM slot. Local launch prices were PHP 33,999 and PHP 39,999. Current retailer listings observed 2026-11-27 show PHP 22,999 for 8/256 at iWarehouse (one listed location, stock not reserved) and PHP 39,999 for 12/512 at Home Credit (installment path shown, branch stock/condition not confirmed). A Gigahertz/PriceMe 8/256 observation of PHP 35,199 on 2026-05-06 is retained as historical; Gigahertz now marks it sold out. Xiaomi annual report says launched in February 2024 while an official FAQ gives March 25 without clarifying market; local coverage reports PH availability by May 2. Exact model number and first authorized local-sale date are not inferred. Xiaomi global and PH color names differ in sources; colors do not split hardware variants. The exact-model Wikimedia Commons photograph is cached in the project under CC BY-SA 4.0 with creator credit and license links in the image manifest. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Manufacturer launch timing differs between annual report and support FAQ",
+            "action": "Keep exact global release date unresolved and preserve both source statements."
+          },
+          {
+            "issue": "Official FAQ launch date is not geographically scoped; Philippine coverage reports availability by 2024-05-02",
+            "action": "Keep exact Philippine first-sale date blank; retain dated local availability evidence."
+          },
+          {
+            "issue": "No regional / regulatory model number found",
+            "action": "Do not infer a model code from another market."
+          },
+          {
+            "issue": "Current retailer stock and product condition are not confirmed",
+            "action": "Treat dated prices as retailer listings; iWarehouse advises calling because stock is not reserved."
+          },
+          {
+            "issue": "Philippine NFC support is not established",
+            "action": "Keep NFC unresolved because Xiaomi says regional availability may differ."
+          },
+          {
+            "issue": "The licensed Commons image is a store-display photograph and may show accessories",
+            "action": "Keep it labeled as a product image and preserve its creator credit, CC BY-SA 4.0 link, and unchanged-subject edit note in the image manifest."
+          },
+          {
+            "issue": "Study scope is Pending in the source workbook",
+            "action": "Preserve the workbook's eligibility status."
+          }
+        ]
+      }
     }
   ]
 }
