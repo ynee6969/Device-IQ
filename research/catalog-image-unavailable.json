@@ -320,13 +320,13 @@
     "altText": "Image unavailable for CHERRY Aqua S11 Pro"
   },
   "device_5695810422dccc": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact black CHERRY Aqua Infinity image is present on the official CHERRY Shop product page and was visually checked against the named product, including its circular rear-camera module. The page footer credits Cosmic Technologies Incorporated, but no open reuse license or written permission was found; do not republish it.",
+    "sourcePage": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+    "assetUrl": "https://cherry.com.ph/cdn/shop/products/Aqua_S9_Infinity_Black_1.jpg?v=1773381391&width=416",
+    "scope": "Exact black Aqua Infinity model-level product image; it does not distinguish memory/storage beyond the exact product listing.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for Cherry Mobile Aqua Infinity"
   },
   "device_f94d1b9dfd4d9b": {

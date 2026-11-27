@@ -5788,28 +5788,44 @@
     "category": "smartphones",
     "brand": "Cherry Mobile",
     "model": "Aqua Infinity",
-    "manufacturer": null,
-    "productLine": null,
+    "manufacturer": "Cosmic Technologies Incorporated",
+    "productLine": "Aqua",
     "modelNumber": null,
     "releaseDate": null,
     "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "philippineDateLabel": "Philippine availability documented in December 2020; exact first-sale date unresolved",
+    "philippineReleaseYear": 2020,
     "claimedReleaseYear": 2021,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-27",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact model/configuration and PH availability verified; December first-sale date unresolved; official current page is sold out; product-image reuse rights not established; study scope remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Philippine availability is verified for the Cherry Mobile Aqua Infinity 8 GB / 128 GB model. PTG reported it available by its 2020-12-18 page date; UNBOX and YugaTech describe the official launch/introductory offer on 2020-12-24. The first-sale date remains unresolved. CHERRY Shop's 2026-11-27 page is sold out.",
+    "availabilityStatus": "Exact CHERRY Aqua Infinity 8 GB / 128 GB model is documented in Philippine launch coverage and on CHERRY Shop. The exact first-sale day is unresolved; the current official shop page is marked Sold out as of 2026-11-27.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 5's Cherry Mobile Aqua Infinity is matched to the exact CHERRY Aqua Infinity product listing, one 8 GB / 128 GB configuration. NTC GEC ESD-GEC-2006347 is an equipment-certification identifier, not a device model/SKU. PTG's Dec 18, 2020 page says it was already available; contemporaneous launch reports place official launch/promotion on Dec 24, so no exact first-sale date is selected. The current official price page shows PHP 5,999 but is marked sold out and promotes a speaker/fitness-band bundle. The exact official product image is not reused because image rights were not established. Workbook eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Local sources differ on availability by 2020-12-18 versus official promo/launch on 2020-12-24",
+        "action": "Keep the exact first-sale date blank and retain both dated sources."
+      },
+      {
+        "issue": "CHERRY Shop lists PHP 5,999 but marks the listing Sold out",
+        "action": "Show it only as a dated official-store price snapshot with sold-out status."
+      },
+      {
+        "issue": "The exact-model official product photo has no reusable license or permission on record",
+        "action": "Keep the neutral image placeholder."
+      },
+      {
+        "issue": "The workbook lists 2021 while local launch coverage dates the model to December 2020",
+        "action": "Keep the source workbook claim unchanged and show sourced announcement/availability dates separately."
+      },
+      {
+        "issue": "Study scope remains Pending",
+        "action": "Preserve workbook eligibility."
       }
     ],
     "sources": [
@@ -5820,6 +5836,94 @@
         "publishedAt": null,
         "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
         "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+      },
+      {
+        "organization": "CHERRY Shop / Cosmic Technologies Incorporated",
+        "url": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Manufacturer shop, exact product identity/configuration, current listed price, stock status and specifications",
+        "note": "Official Philippine CHERRY Shop page names Aqua Infinity, lists the single 8 GB + 128 GB configuration, core specifications, colors, PHP 5,999 sale price (reduced from PHP 7,999), and marks the listing sold out. The page promotes a free Bluetooth speaker and Helo LX fitness band. The page's product image was visually checked but is not republished because no reusable image license or permission was located."
+      },
+      {
+        "organization": "UNBOX PH",
+        "url": "https://unbox.ph/gadget/cherry-mobile-makes-the-aqua-infinity-official-on-christmas-eve/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2020-12-23",
+        "purpose": "Contemporaneous Philippine launch/promotion date and introductory price",
+        "note": "Published 2020-12-23. Calls the Aqua Infinity official on Christmas Eve and lists an introductory PHP 6,999 price beginning December 24, versus PHP 7,999 retail price. It documents a launch promotion, not the exact first transaction."
+      },
+      {
+        "organization": "UNBOX PH",
+        "url": "https://unbox.ph/gadget/cherry-mobile-aqua-infinity-unboxing-review-philippines/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2021-01-20",
+        "purpose": "Independent exact-model hardware and configuration review",
+        "note": "Published 2021-01-20. Identifies 8 GB LPDDR4X RAM, 128 GB UFS 2.1 storage, 12 MP f/2.2 main camera and 20 MP f/2.4 depth camera, Full HD main-camera video, and 10 W USB-C charging for the Aqua Infinity."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/news/cherry-mobile-aqua-infinity-philippines-price/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2020-12-23",
+        "purpose": "Contemporaneous Philippine launch, local availability and price cross-check",
+        "note": "Published 2020-12-23. Reports the local Aqua Infinity, 8 GB/128 GB configuration, PHP 7,999 SRP, and a PHP 6,999 introductory Lazada offer on December 24. This supports a December 2020 local launch window; the exact first-sale date differs from PTG's report."
+      },
+      {
+        "organization": "Gizguide Philippines",
+        "url": "https://www.gizguide.com/2021/02/cherry-mobile-aqua-infinity-.html",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2021-02-26",
+        "purpose": "Historical Philippine promotion and model-level specification cross-check",
+        "note": "Published 2021-02-26. Reports a PHP 6,999 promotional price cut from PHP 7,999 and the same exact Aqua Infinity 8 GB/128 GB configuration, Helio P60, cameras, battery, Android 10 and local official-store channel."
+      },
+      {
+        "organization": "NoypiGeeks Philippines",
+        "url": "https://www.noypigeeks.com/deal-alert/cherry-mobile-discounted-lazada-birthday-sale/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2021-03-25",
+        "purpose": "Dated historical Philippine sale-price observation",
+        "note": "Published 2021-03-25. Reports CHERRY's March 27 Lazada Birthday Sale listing the Aqua Infinity at PHP 5,999 from PHP 7,999. This is an expired sale snapshot, not a current purchasable offer."
+      },
+      {
+        "organization": "National Telecommunications Commission (Philippines)",
+        "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2020-10-27",
+        "purpose": "Regulatory identity and equipment-certification record",
+        "note": "The NTC GEC list identifies CHERRY MOBILE AQUA INFINITY under certification ESD-GEC-2006347, applicant Cosmic Technologies Incorporated, issued 2020-10-27. The GEC number is a certification identifier, not a device SKU/model code; the combined radio-frequency column is not treated as a definitive cellular-band specification."
+      },
+      {
+        "organization": "MediaTek",
+        "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-p60",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Chipset manufacturer specifications",
+        "note": "MediaTek identifies Helio P60's Cortex-A73 big cores, Mali-G72 GPU family, LPDDR4X capability and TSMC 12 nm process. Phone-specific clock values are sourced from the exact-model PTG page."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Exact-model source discovery",
+        "note": "Searched for an exact Aqua Infinity model page; no matching GSMArena profile or article was located in this pass. No data is inferred from a similarly named device."
+      },
+      {
+        "organization": "NanoReview",
+        "url": "https://nanoreview.net/",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Exact-model source discovery",
+        "note": "Searched for an exact Aqua Infinity profile; no matching NanoReview page was located in this pass. No data is inferred from another Aqua model."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Exact-model source discovery",
+        "note": "Searched for an exact Aqua Infinity profile; no matching Kimovil model page was located in this pass. Global database values are not substituted."
       }
     ],
     "variants": [
@@ -5831,44 +5935,54 @@
           "storageGb": 128,
           "batteryMah": 4000,
           "chipset": "MediaTek Helio P60",
-          "cpu": "Octa Core CPU4x Cortex-A73 @ 2.0GHz + 4x Cortex-A53 @ 2.0GHz",
+          "cpu": "Octa-core: 4 x Cortex-A73 @ 2.0 GHz + 4 x Cortex-A53 @ 2.0 GHz",
           "displayInches": 6.52,
-          "gpu": "Mali-G72 MP3",
+          "gpu": "Arm Mali-G72 MP3",
           "os": "Android 10",
-          "sim": "Dual SIM (Nano-SIM)",
+          "sim": "Dual SIM dual standby; separate triple-card tray; eSIM not recorded",
           "weightG": 192,
-          "wifi": "Wi-Fi 802.11 b/g/n",
-          "sound": "3.5mm Audio Jack",
-          "cellular": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
+          "wifi": "Wi-Fi 802.11 b/g/n; band support not recorded",
           "displayType": "IPS LCD",
+          "resolution": "720 x 1600",
+          "ramType": "LPDDR4X",
+          "storageType": "UFS 2.1",
           "frontCameraMp": 8,
-          "resolution": "720 x 1600"
+          "chargingW": 10,
+          "dimensions": "162 x 75 x 9.3 mm",
+          "cellular": "4G LTE; 3G HSPA+; 2G EDGE/GPRS; exact cellular bands not recorded",
+          "ports": "USB Type-C; data protocol not recorded",
+          "sound": "3.5 mm audio jack; speaker configuration not recorded"
         },
         "specSources": {
-          "ramGb": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "storageGb": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "batteryMah": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "chipset": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
+          "ramGb": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "storageGb": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "batteryMah": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "chipset": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
           "cpu": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "displayInches": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "gpu": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "os": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "sim": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "weightG": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
+          "displayInches": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "gpu": "https://www.mediatek.com/products/smartphones/mediatek-helio-p60",
+          "os": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "sim": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "weightG": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
           "wifi": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "sound": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "cellular": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
           "displayType": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "frontCameraMp": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "resolution": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity"
+          "resolution": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "ramType": "https://www.mediatek.com/products/smartphones/mediatek-helio-p60",
+          "storageType": "https://unbox.ph/gadget/cherry-mobile-aqua-infinity-unboxing-review-philippines/",
+          "frontCameraMp": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "chargingW": "https://unbox.ph/gadget/cherry-mobile-aqua-infinity-unboxing-review-philippines/",
+          "dimensions": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "cellular": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
+          "ports": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "sound": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity"
         },
-        "pricePhp": null,
-        "priceCondition": null,
-        "priceType": null,
-        "priceObservedAt": null,
-        "priceSourceUrl": null,
-        "listingStatus": "Not verified",
-        "notes": null,
+        "pricePhp": 5999,
+        "priceCondition": "new",
+        "priceType": "Official CHERRY Shop sale listing · sold out",
+        "priceObservedAt": "2026-11-27",
+        "priceSourceUrl": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+        "listingStatus": "Out of stock",
+        "notes": "Dated official-store page price for the promoted package; the exact listing is marked Sold out, so this is not a purchasable current offer or a claim of stock.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null

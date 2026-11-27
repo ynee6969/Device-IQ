@@ -21982,179 +21982,6 @@
       ]
     },
     {
-      "deviceId": "device_5695810422dccc",
-      "configurationId": "device_5695810422dccc-auto-8gb-128gb",
-      "brand": "Cherry Mobile",
-      "model": "Aqua Infinity",
-      "configurationLabel": "8 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "candidate_043ef3c778ff21",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "RAM: 8 GB",
-          "normalizedValue": 8,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "ramGb",
-          "catalogValue": 8
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Storage: 128GB",
-          "normalizedValue": 128,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "storageGb",
-          "catalogValue": 128
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Exact configuration 8 GB RAM / 128 GB storage is stated by the source.",
-          "normalizedValue": "8 GB RAM / 128 GB storage",
-          "note": "Configuration evidence matches RAM and storage as an exact pair."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Battery: 4000 mAh Li-ion Battery (Removable)",
-          "normalizedValue": 4000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 4000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Bluetooth: Yes",
-          "normalizedValue": "Yes",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Chipset: MediaTek Helio P60",
-          "normalizedValue": "MediaTek Helio P60",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "MediaTek Helio P60"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "CPU: Octa Core CPU4x Cortex-A73 @ 2.0GHz + 4x Cortex-A53 @ 2.0GHz",
-          "normalizedValue": "Octa Core CPU4x Cortex-A73 @ 2.0GHz + 4x Cortex-A53 @ 2.0GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU4x Cortex-A73 @ 2.0GHz + 4x Cortex-A53 @ 2.0GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Display: 6.52-inch HD+ IPS LCD Display (720 x 1600 Pixels 269 ppi) with 20:9 Aspect Ratio and Notch",
-          "normalizedValue": 6.52,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.52
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "GPU: Mali-G72 MP3",
-          "normalizedValue": "Mali-G72 MP3",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Mali-G72 MP3"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "NFC: No",
-          "normalizedValue": "No",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "OS: Android 10",
-          "normalizedValue": "Android 10",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 10"
-        },
-        {
-          "fieldId": "rear_camera_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Rear Camera: Quad Cameras: 12MP Main Camera (Autofocus)20MP Depth Sensor2MP Monochrome2MP AI-LED Flash",
-          "normalizedValue": "Quad Cameras: 12MP Main Camera (Autofocus)20MP Depth Sensor2MP Monochrome2MP AI-LED Flash",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Weight: 192 g",
-          "normalizedValue": 192,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 192
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Wi-Fi: Wi-Fi 802.11 b/g/n",
-          "normalizedValue": "Wi-Fi 802.11 b/g/n",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 802.11 b/g/n"
-        }
-      ],
-      "replacementVariants": [
-        {
-          "id": "device_5695810422dccc-auto-8gb-128gb",
-          "label": "8 GB RAM / 128 GB storage"
-        }
-      ]
-    },
-    {
       "deviceId": "device_f94d1b9dfd4d9b",
       "configurationId": "device_f94d1b9dfd4d9b-auto-6gb-128gb",
       "brand": "Cherry Mobile",
@@ -46750,125 +46577,6 @@
           "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
           "catalogKey": "wifi",
           "catalogValue": "Wi-Fi 802.11 b/g/n/ac/6e"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_5695810422dccc",
-      "configurationId": "device_5695810422dccc-auto-8gb-128gb",
-      "brand": "Cherry Mobile",
-      "model": "Aqua Infinity",
-      "configurationLabel": "8 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "candidate_043ef3c778ff21",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Sound: 3.5mm Audio Jack",
-          "normalizedValue": "3.5mm Audio Jack",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "3.5mm Audio Jack"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Battery: 4000 mAh Li-ion Battery (Removable)",
-          "normalizedValue": "Li-ion Battery (Removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Cellular: 4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Display: 6.52-inch HD+ IPS LCD Display (720 x 1600 Pixels 269 ppi) with 20:9 Aspect Ratio and Notch",
-          "normalizedValue": "IPS LCD",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "IPS LCD"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Front Camera: 8 Megapixels",
-          "normalizedValue": 8,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 8
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Location: A-GPS",
-          "normalizedValue": "A-GPS",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Rear Camera: Quad Cameras: 12MP Main Camera (Autofocus)20MP Depth Sensor2MP Monochrome2MP AI-LED Flash",
-          "normalizedValue": "12MP Main Camera (Autofocus)20MP Depth Sensor2MP Monochrome2MP AI-LED Flash",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Build Materials: Plastic",
-          "normalizedValue": "Plastic",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Display: 6.52-inch HD+ IPS LCD Display (720 x 1600 Pixels 269 ppi) with 20:9 Aspect Ratio and Notch",
-          "normalizedValue": "720 x 1600",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "720 x 1600"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Sensors: Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Gyroscope, Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_043ef3c778ff21",
-          "sourceValue": "Expansion: Expandable up to 256GB via microSD",
-          "normalizedValue": "Expandable up to 256GB via microSD",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
         }
       ]
     },
@@ -214336,6 +214044,693 @@
         ]
       },
       "configuration": "16 GB RAM / 256 GB storage",
+      "sku": null
+    },
+    {
+      "deviceId": "device_5695810422dccc",
+      "configurationId": "device_5695810422dccc-auto-8gb-128gb",
+      "brand": "Cherry Mobile",
+      "model": "Aqua Infinity",
+      "configurationLabel": "8 GB RAM / 128 GB storage",
+      "sources": [
+        {
+          "id": "candidate_043ef3c778ff21",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
+          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+        },
+        {
+          "id": "cherry_aqua_infinity_official_shop",
+          "publisher": "CHERRY Shop / Cosmic Technologies Incorporated",
+          "url": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer shop, exact product identity/configuration, current listed price, stock status and specifications",
+          "note": "Official Philippine CHERRY Shop page names Aqua Infinity, lists the single 8 GB + 128 GB configuration, core specifications, colors, PHP 5,999 sale price (reduced from PHP 7,999), and marks the listing sold out. The page promotes a free Bluetooth speaker and Helo LX fitness band. The page's product image was visually checked but is not republished because no reusable image license or permission was located."
+        },
+        {
+          "id": "cherry_aqua_infinity_ptg",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
+          "publicationDate": "2020-12-18",
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model Philippine announcement, availability, configuration, historical SRP and technical specifications",
+          "note": "Dated 2020-12-18. Records an announcement date of 2020-12-17, PHP 7,999 official price, one 8 GB / 128 GB configuration, specifications and says it was already available through local stores, authorized dealers and online shops. This differs in timing from coverage that describes the official promotion as starting December 24; exact first sale date remains unresolved."
+        },
+        {
+          "id": "cherry_aqua_infinity_unbox_launch",
+          "publisher": "UNBOX PH",
+          "url": "https://unbox.ph/gadget/cherry-mobile-makes-the-aqua-infinity-official-on-christmas-eve/",
+          "publicationDate": "2020-12-23",
+          "accessDate": "2026-11-27",
+          "purpose": "Contemporaneous Philippine launch/promotion date and introductory price",
+          "note": "Published 2020-12-23. Calls the Aqua Infinity official on Christmas Eve and lists an introductory PHP 6,999 price beginning December 24, versus PHP 7,999 retail price. It documents a launch promotion, not the exact first transaction."
+        },
+        {
+          "id": "cherry_aqua_infinity_unbox_review",
+          "publisher": "UNBOX PH",
+          "url": "https://unbox.ph/gadget/cherry-mobile-aqua-infinity-unboxing-review-philippines/",
+          "publicationDate": "2021-01-20",
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model hardware and configuration review",
+          "note": "Published 2021-01-20. Identifies 8 GB LPDDR4X RAM, 128 GB UFS 2.1 storage, 12 MP f/2.2 main camera and 20 MP f/2.4 depth camera, Full HD main-camera video, and 10 W USB-C charging for the Aqua Infinity."
+        },
+        {
+          "id": "cherry_aqua_infinity_yugatech",
+          "publisher": "YugaTech Philippines",
+          "url": "https://www.yugatech.com/news/cherry-mobile-aqua-infinity-philippines-price/",
+          "publicationDate": "2020-12-23",
+          "accessDate": "2026-11-27",
+          "purpose": "Contemporaneous Philippine launch, local availability and price cross-check",
+          "note": "Published 2020-12-23. Reports the local Aqua Infinity, 8 GB/128 GB configuration, PHP 7,999 SRP, and a PHP 6,999 introductory Lazada offer on December 24. This supports a December 2020 local launch window; the exact first-sale date differs from PTG's report."
+        },
+        {
+          "id": "cherry_aqua_infinity_gizguide",
+          "publisher": "Gizguide Philippines",
+          "url": "https://www.gizguide.com/2021/02/cherry-mobile-aqua-infinity-.html",
+          "publicationDate": "2021-02-26",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine promotion and model-level specification cross-check",
+          "note": "Published 2021-02-26. Reports a PHP 6,999 promotional price cut from PHP 7,999 and the same exact Aqua Infinity 8 GB/128 GB configuration, Helio P60, cameras, battery, Android 10 and local official-store channel."
+        },
+        {
+          "id": "cherry_aqua_infinity_noypigeeks_sale",
+          "publisher": "NoypiGeeks Philippines",
+          "url": "https://www.noypigeeks.com/deal-alert/cherry-mobile-discounted-lazada-birthday-sale/",
+          "publicationDate": "2021-03-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated historical Philippine sale-price observation",
+          "note": "Published 2021-03-25. Reports CHERRY's March 27 Lazada Birthday Sale listing the Aqua Infinity at PHP 5,999 from PHP 7,999. This is an expired sale snapshot, not a current purchasable offer."
+        },
+        {
+          "id": "cherry_aqua_infinity_ntc",
+          "publisher": "National Telecommunications Commission (Philippines)",
+          "url": "https://region4b.ntc.gov.ph/wp-content/uploads/2022/01/GEC_12312021.pdf",
+          "publicationDate": "2020-10-27",
+          "accessDate": "2026-11-27",
+          "purpose": "Regulatory identity and equipment-certification record",
+          "note": "The NTC GEC list identifies CHERRY MOBILE AQUA INFINITY under certification ESD-GEC-2006347, applicant Cosmic Technologies Incorporated, issued 2020-10-27. The GEC number is a certification identifier, not a device SKU/model code; the combined radio-frequency column is not treated as a definitive cellular-band specification."
+        },
+        {
+          "id": "mediatek_helio_p60",
+          "publisher": "MediaTek",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-p60",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chipset manufacturer specifications",
+          "note": "MediaTek identifies Helio P60's Cortex-A73 big cores, Mali-G72 GPU family, LPDDR4X capability and TSMC 12 nm process. Phone-specific clock values are sourced from the exact-model PTG page."
+        },
+        {
+          "id": "cherry_aqua_infinity_image_rights",
+          "publisher": "CHERRY Shop / Cosmic Technologies Incorporated",
+          "url": "https://cherry.com.ph/products/cherry-mobile-aqua-infinity",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model product-image match and rights review",
+          "note": "The official product page image https://cherry.com.ph/cdn/shop/products/Aqua_S9_Infinity_Black_1.jpg?v=1773381391&width=416 was visually checked against the CHERRY Aqua Infinity listing; it depicts the black Aqua Infinity with the circular rear-camera assembly. The page footer says © Cosmic Technologies Incorporated; no open license or written reuse permission for the image was found. The catalog retains its neutral placeholder."
+        },
+        {
+          "id": "cherry_aqua_infinity_gsmarena_search",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model source discovery",
+          "note": "Searched for an exact Aqua Infinity model page; no matching GSMArena profile or article was located in this pass. No data is inferred from a similarly named device."
+        },
+        {
+          "id": "cherry_aqua_infinity_nanoreview_search",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model source discovery",
+          "note": "Searched for an exact Aqua Infinity profile; no matching NanoReview page was located in this pass. No data is inferred from another Aqua model."
+        },
+        {
+          "id": "cherry_aqua_infinity_kimovil_search",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model source discovery",
+          "note": "Searched for an exact Aqua Infinity profile; no matching Kimovil model page was located in this pass. Global database values are not substituted."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "8 GB memory",
+          "normalizedValue": 8,
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "128 GB internal storage",
+          "normalizedValue": 128,
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "CHERRY Shop lists the Aqua Infinity as 8 GB RAM + 128 GB storage; no other local memory/storage configuration was found.",
+          "normalizedValue": "8 GB RAM / 128 GB storage",
+          "note": "The official product listing and local launch/review sources identify this same single configuration; no other capacity is merged into it.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "4000 mAh removable battery",
+          "normalizedValue": 4000,
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 4000,
+          "unit": "mAh",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "Bluetooth is listed; version is not stated.",
+          "normalizedValue": "Bluetooth supported; version not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "MediaTek Helio P60 processor",
+          "normalizedValue": "MediaTek Helio P60",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio P60",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "Octa-core: 4 x Cortex-A73 at 2.0 GHz + 4 x Cortex-A53 at 2.0 GHz.",
+          "normalizedValue": "Octa-core: 4 x Cortex-A73 @ 2.0 GHz + 4 x Cortex-A53 @ 2.0 GHz",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 4 x Cortex-A73 @ 2.0 GHz + 4 x Cortex-A53 @ 2.0 GHz",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "6.52-inch HD+ TrueView display",
+          "normalizedValue": 6.52,
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "displayInches",
+          "catalogValue": 6.52,
+          "unit": "in",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "mediatek_helio_p60",
+          "sourceValue": "Arm Mali-G72 GPU; exact model specification identifies Mali-G72 MP3.",
+          "normalizedValue": "Arm Mali-G72 MP3",
+          "note": "MediaTek identifies the P60's Mali-G72 family; PTG's exact Aqua Infinity specification gives the MP3 variant.",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G72 MP3",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "PTG's exact-model specification lists NFC: No.",
+          "normalizedValue": "No NFC",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "Android 10",
+          "normalizedValue": "Android 10",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "os",
+          "catalogValue": "Android 10",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "Quad rear cameras: 12 MP main, 20 MP depth, 2 MP monochrome and 2 MP AI camera.",
+          "normalizedValue": "12 MP main + 20 MP depth + 2 MP monochrome + 2 MP AI rear-camera system",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "Dual SIM dual standby; triple-card tray. eSIM is not documented.",
+          "normalizedValue": "Dual SIM dual standby; separate triple-card tray; eSIM not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "sim",
+          "catalogValue": "Dual SIM dual standby; separate triple-card tray; eSIM not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "192 g",
+          "normalizedValue": 192,
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "weightG",
+          "catalogValue": 192,
+          "unit": "g",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "Wi-Fi 802.11 b/g/n; supported frequency bands are not stated.",
+          "normalizedValue": "Wi-Fi 802.11 b/g/n; band support not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 802.11 b/g/n; band support not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "model_number",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cherry_aqua_infinity_ntc",
+          "sourceValue": "The exact marketing model is CHERRY / Cherry Mobile Aqua Infinity; no separate hardware model number or retail SKU was found. NTC ESD-GEC-2006347 is a regulatory certification ID, not a device model code.",
+          "normalizedValue": null,
+          "note": "Do not put the NTC certificate number in the model-number or SKU field.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "PTG records a December 17, 2020 announcement, but the reviewed sources do not establish a distinct worldwide release date; the local announcement is not treated as a global release date.",
+          "normalizedValue": null,
+          "note": "PTG records a December 17, 2020 announcement, but the reviewed sources do not establish a distinct worldwide release date; the local announcement is not treated as a global release date.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "PTG (published Dec 18, 2020) says the phone was already available; UNBOX and YugaTech describe the official launch/introductory offer as beginning Dec 24, 2020.",
+          "normalizedValue": null,
+          "note": "Contemporaneous local reports disagree on whether availability began by Dec 18 or the official launch/promo began Dec 24. Keep the exact first-sale date blank; the Philippine availability year is 2020.",
+          "candidateEvidence": [
+            {
+              "value": "2020-12-18",
+              "sourceUrl": "https://www.pinoytechnoguide.com/smartphones/cherry-mobile-aqua-infinity",
+              "sourceKind": "independent_ph_reference",
+              "observedAt": "2026-11-27",
+              "excerpt": "The exact PTG product page published 2020-12-18 says the Aqua Infinity is now available through stores, authorized dealers and online shops.",
+              "configurationMatch": "Exact Cherry Mobile Aqua Infinity; PTG publication date",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "2020-12-24",
+              "sourceUrl": "https://unbox.ph/gadget/cherry-mobile-makes-the-aqua-infinity-official-on-christmas-eve/",
+              "sourceKind": "independent_ph_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "Contemporaneous UNBOX coverage calls the phone official on Christmas Eve and says the introductory Lazada offer begins Dec 24.",
+              "configurationMatch": "Exact Cherry Mobile Aqua Infinity; official promotion/launch report",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            },
+            {
+              "value": "2020-12-24",
+              "sourceUrl": "https://www.yugatech.com/news/cherry-mobile-aqua-infinity-philippines-price/",
+              "sourceKind": "independent_ph_launch_report",
+              "observedAt": "2026-11-27",
+              "excerpt": "YugaTech's Dec 23 report gives the Dec 24 introductory offer and local official-store availability.",
+              "configurationMatch": "Exact Cherry Mobile Aqua Infinity; local promo availability",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": true
+            }
+          ],
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "PHP 7,999 official Philippine price for 8 GB / 128 GB; contemporaneous launch sources report a PHP 6,999 introductory offer on Dec 24, 2020.",
+          "normalizedValue": 7999,
+          "note": "Historical launch SRP; the separate PHP 6,999 introductory promotion is recorded in dated price history and is not the SRP or a current price.",
+          "unit": "PHP",
+          "priceType": "historical_ph_launch_srp",
+          "priceObservedAt": "2020-12-18",
+          "priceCondition": "new",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "Official CHERRY Shop listed PHP 5,999 sale price, reduced from PHP 7,999, on 2026-11-27; product listing status is Sold out and it promotes a free Bluetooth speaker and Helo LX fitness band.",
+          "normalizedValue": 5999,
+          "note": "Dated official-store page price for the promoted package; the exact listing is marked Sold out, so this is not a purchasable current offer or a claim of stock.",
+          "unit": "PHP",
+          "priceType": "Official CHERRY Shop sale listing · sold out",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Out of stock",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "6.52-inch HD+ IPS LCD TrueView display",
+          "normalizedValue": "IPS LCD",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "720 x 1600 pixels",
+          "normalizedValue": "720 x 1600",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "resolution",
+          "catalogValue": "720 x 1600",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "The reviewed exact-model manufacturer, launch and review sources do not publish a refresh-rate value; it remains unrecorded.",
+          "normalizedValue": null,
+          "note": "The reviewed exact-model manufacturer, launch and review sources do not publish a refresh-rate value; it remains unrecorded.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "No numeric display brightness or measurement standard is stated in the reviewed exact-model sources.",
+          "normalizedValue": null,
+          "note": "No numeric display brightness or measurement standard is stated in the reviewed exact-model sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "No display-glass protection material or scratch-resistance rating is stated in the reviewed exact-model sources.",
+          "normalizedValue": null,
+          "note": "No display-glass protection material or scratch-resistance rating is stated in the reviewed exact-model sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "mediatek_helio_p60",
+          "sourceValue": "TSMC 12 nm FinFET process",
+          "normalizedValue": 12,
+          "note": "Chipset-maker process specification for Helio P60, not a phone-level performance estimate.",
+          "unit": "nm",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "os_support",
+          "status": "UNAVAILABLE_AFTER_RESEARCH",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "No model-specific OS upgrade or security-update commitment was found in the reviewed official and exact-model sources.",
+          "normalizedValue": null,
+          "note": "No model-specific OS upgrade or security-update commitment was found in the reviewed official and exact-model sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "mediatek_helio_p60",
+          "sourceValue": "MediaTek Helio P60 supports LPDDR4X; UNBOX's exact Aqua Infinity review identifies 8 GB LPDDR4X.",
+          "normalizedValue": "LPDDR4X",
+          "note": "Exact-model UNBOX review supplies the configured RAM type; MediaTek chipset page confirms platform support.",
+          "catalogKey": "ramType",
+          "catalogValue": "LPDDR4X",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_unbox_review",
+          "sourceValue": "128 GB UFS 2.1 storage",
+          "normalizedValue": "UFS 2.1",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "storageType",
+          "catalogValue": "UFS 2.1",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "Expandable storage up to 256 GB; triple-card tray.",
+          "normalizedValue": "microSD expansion up to 256 GB; separate triple-card tray",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_unbox_review",
+          "sourceValue": "12 MP main camera, f/2.2, autofocus; sensor make/model not identified.",
+          "normalizedValue": "12 MP main; f/2.2; autofocus; sensor model not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "The exact-model four-camera list consists of main, depth, monochrome and AI modules; no separate ultrawide camera is listed.",
+          "normalizedValue": null,
+          "note": "The exact local camera list identifies all four modules and none is ultrawide.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "The exact-model four-camera list contains no telephoto module.",
+          "normalizedValue": null,
+          "note": "The product's reported camera modules are main, depth, monochrome and AI; none is a telephoto camera.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "8 MP front camera",
+          "normalizedValue": 8,
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_unbox_review",
+          "sourceValue": "Main rear camera records Full HD video; the source does not state frame rates.",
+          "normalizedValue": "Main rear video up to Full HD; frame rate not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "4000 mAh Li-ion removable battery",
+          "normalizedValue": "Lithium-ion; removable",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_unbox_review",
+          "sourceValue": "10 W USB-C charging",
+          "normalizedValue": 10,
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "chargingW",
+          "catalogValue": 10,
+          "unit": "W",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "Wireless and reverse charging are not stated in the reviewed exact-model sources.",
+          "normalizedValue": null,
+          "note": "Wireless and reverse charging are not stated in the reviewed exact-model sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "162 x 75 x 9.3 mm",
+          "normalizedValue": "162 x 75 x 9.3 mm",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "dimensions",
+          "catalogValue": "162 x 75 x 9.3 mm",
+          "unit": "mm",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "Plastic build",
+          "normalizedValue": "Plastic",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "No IP or ingress-protection rating is stated by the manufacturer page or reviewed exact-model launch sources.",
+          "normalizedValue": null,
+          "note": "No IP or ingress-protection rating is stated by the manufacturer page or reviewed exact-model launch sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "4G LTE, 3G HSPA+, 2G EDGE/GPRS; exact cellular frequency bands are not documented by the local product specification.",
+          "normalizedValue": "4G LTE; 3G HSPA+; 2G EDGE/GPRS; exact cellular bands not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "cellular",
+          "catalogValue": "4G LTE; 3G HSPA+; 2G EDGE/GPRS; exact cellular bands not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "cherry_aqua_infinity_official_shop",
+          "sourceValue": "USB Type-C charging; data protocol/speed is not stated.",
+          "normalizedValue": "USB Type-C; data protocol not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; data protocol not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "A-GPS listed; other satellite constellations are not stated.",
+          "normalizedValue": "A-GPS; other constellations not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "3.5 mm audio jack; speaker count/type is not specified.",
+          "normalizedValue": "3.5 mm audio jack; speaker configuration not recorded",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "catalogKey": "sound",
+          "catalogValue": "3.5 mm audio jack; speaker configuration not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "cherry_aqua_infinity_ptg",
+          "sourceValue": "Gyroscope, compass, ambient-light sensor, proximity sensor and accelerometer.",
+          "normalizedValue": "Gyroscope; compass; ambient-light sensor; proximity sensor; accelerometer",
+          "note": "Exact Cherry Mobile Aqua Infinity model reviewed; source and configuration limitations are recorded explicitly.",
+          "replaceExisting": true
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_5695810422dccc-auto-8gb-128gb",
+          "label": "8 GB RAM / 128 GB storage"
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Exact CHERRY Aqua Infinity 8 GB / 128 GB model is documented in Philippine launch coverage and on CHERRY Shop. The exact first-sale day is unresolved; the current official shop page is marked Sold out as of 2026-11-27.",
+        "philippineAvailability": "Philippine availability is verified for the Cherry Mobile Aqua Infinity 8 GB / 128 GB model. PTG reported it available by its 2020-12-18 page date; UNBOX and YugaTech describe the official launch/introductory offer on 2020-12-24. The first-sale date remains unresolved. CHERRY Shop's 2026-11-27 page is sold out.",
+        "observedAt": "2026-11-27",
+        "manufacturer": "Cosmic Technologies Incorporated",
+        "productLine": "Aqua",
+        "catalogModel": "Aqua Infinity",
+        "philippineReleaseYear": 2020,
+        "philippineDateLabel": "Philippine availability documented in December 2020; exact first-sale date unresolved",
+        "researchNotes": "Workbook row 5's Cherry Mobile Aqua Infinity is matched to the exact CHERRY Aqua Infinity product listing, one 8 GB / 128 GB configuration. NTC GEC ESD-GEC-2006347 is an equipment-certification identifier, not a device model/SKU. PTG's Dec 18, 2020 page says it was already available; contemporaneous launch reports place official launch/promotion on Dec 24, so no exact first-sale date is selected. The current official price page shows PHP 5,999 but is marked sold out and promotes a speaker/fitness-band bundle. The exact official product image is not reused because image rights were not established. Workbook eligibility remains Pending.",
+        "qualityFlag": "Exact model/configuration and PH availability verified; December first-sale date unresolved; official current page is sold out; product-image reuse rights not established; study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Local sources differ on availability by 2020-12-18 versus official promo/launch on 2020-12-24",
+            "action": "Keep the exact first-sale date blank and retain both dated sources."
+          },
+          {
+            "issue": "CHERRY Shop lists PHP 5,999 but marks the listing Sold out",
+            "action": "Show it only as a dated official-store price snapshot with sold-out status."
+          },
+          {
+            "issue": "The exact-model official product photo has no reusable license or permission on record",
+            "action": "Keep the neutral image placeholder."
+          },
+          {
+            "issue": "The workbook lists 2021 while local launch coverage dates the model to December 2020",
+            "action": "Keep the source workbook claim unchanged and show sourced announcement/availability dates separately."
+          },
+          {
+            "issue": "Study scope remains Pending",
+            "action": "Preserve workbook eligibility."
+          }
+        ]
+      },
+      "configuration": "8 GB RAM / 128 GB storage",
+      "modelCode": null,
       "sku": null
     }
   ]
