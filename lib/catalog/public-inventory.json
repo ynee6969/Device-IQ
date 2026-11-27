@@ -39618,46 +39618,216 @@
     "category": "smartphones",
     "brand": "ZTE",
     "model": "Blade V41 Vita 5G",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "manufacturer": "ZTE",
+    "productLine": "Blade V41",
+    "modelNumber": "8140N",
+    "releaseDate": "2022-12-23",
+    "philippineAvailabilityDate": "2023-02-21",
+    "philippineDateLabel": "Reported Philippine launch date",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-27",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Manually reviewed; one PH configuration matched; current price, display rate/resolution and SIM tray layout remain unresolved.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Verified historical Philippine availability: ZTE Blade V41 Vita 5G, 6 GB / 128 GB, reported locally in February 2023.",
+    "availabilityStatus": "Verified historical Philippine availability: ZTE V41 Vita 5G, model 8140N, 6 GB / 128 GB; local Blade launch coverage dates the introduction to 2023-02-21 and reports PHP 11,999 launch pricing. Current Philippine stock/price is not verified.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 167 is matched to ZTE model 8140N / Blade V41 Vita 5G and the sole PH launch configuration documented in local sources, 6 GB RAM / 128 GB storage. The 5 GB Dynamic RAM figure is software extension, not installed RAM. A licensed exact-model image was not located. The manufacturer product render is retained only as an identity/source reference because republishing permission is not documented. Study eligibility remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "No current Philippine price or stock evidence was found",
+        "action": "Keep current price blank; show only dated launch and promotional prices."
+      },
+      {
+        "issue": "Refresh rate conflicts between the manufacturer global page and Philippine reports; even YugaTech's review body and spec summary disagree",
+        "action": "Keep normalized refresh rate blank until the regional specification is resolved."
+      },
+      {
+        "issue": "Pixel resolution and SIM/microSD tray layout conflict across local references",
+        "action": "Keep both values unresolved and retain cited source evidence."
+      },
+      {
+        "issue": "Study eligibility remains Pending",
+        "action": "Keep workbook eligibility unchanged until the thesis screening rule is applied."
+      },
+      {
+        "issue": "Manufacturer product image is exact-model, but reuse rights are not documented",
+        "action": "Keep the neutral unavailable-image placeholder and preserve the source URL for future rights review."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "ZTE Devices",
+        "url": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Manufacturer product page, global configuration and image source",
+        "note": "Official global product page lists Dimensity 810, 6GB+128GB, 11GB including dynamic RAM, 6.6-inch IPS FHD+ display described as 60Hz, triple camera, 7.98mm thickness, 4500mAh battery and 22.5W charging. Its USD price and Notify Me control do not establish a current Philippine price or stock."
+      },
+      {
+        "organization": "ZTE Devices",
+        "url": "https://global.ztedevices.com/blogs/news/explore-the-sharp-camera-of-the-blade-v41-vita",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2022-12-23",
+        "purpose": "Manufacturer product article and rear camera cross-check",
+        "note": "Official article dated 2022-12-23 describes the V41 Vita's 7.98mm body, 50MP main camera, 2MP depth camera and 2MP macro camera."
+      },
+      {
+        "organization": "ZTE Devices (official channel)",
+        "url": "https://www.youtube.com/watch?v=l8DhB-XHvpM",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2022-12-12",
+        "purpose": "Manufacturer product introduction and global configuration",
+        "note": "ZTE's official product-introduction video, published 2022-12-12, names the V41 Vita 5G and lists Dimensity 810, 6GB RAM, 128GB ROM, 4500mAh and 22.5W charging."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/zte_blade_v41_vita-12018.php",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2022-12-07",
+        "purpose": "Independent announcement-date cross-check",
+        "note": "Reports the Blade V41 Vita was announced 2022-12-07 and released 2022-12-23. Used as release timing; exact first-sale transaction is not independently established."
+      },
+      {
+        "organization": "Singtel",
+        "url": "https://cdn1.singteldigital.com/content/dam/singtel/personal/products-services/mobile/pdf/list-of-5g-sa-handsets.pdf",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Model-code and 5G-standards identity cross-check",
+        "note": "Singtel's 5G SA handset list explicitly pairs ZTE 8140N with V41 Vita 5G. This is model identity/network support evidence, not Philippine availability."
+      },
+      {
+        "organization": "ZTE Corporation",
+        "url": "https://www.ztedevices.com/cn/notice/%E7%BB%88%E7%AB%AFzte-7531n%E7%AD%8913%E6%AC%BE%E4%BA%A7%E5%93%81%E5%81%9C%E6%AD%A2%E5%B8%82%E5%9C%BA%E6%8E%A8%E5%B9%BF%E3%80%81%E5%81%9C%E6%AD%A2%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2024-04-28",
+        "purpose": "Manufacturer model-code cross-check",
+        "note": "ZTE's own end-of-promotion/software-update notice lists external model ZTE 8140N. The marketing-name link is corroborated separately by Singtel's device list."
+      },
+      {
+        "organization": "GIZGUIDE",
+        "url": "https://www.gizguide.com/2023/02/zte-blade-v41-5g-specs-ph.html",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-02-21",
+        "purpose": "Contemporaneous Philippine launch, price and specifications",
+        "note": "Local article dated 2023-02-21 reports ZTE's Philippine return, V41 Vita 5G, PHP 11,999, Dimensity 810, 6GB/128GB, cameras, 4500mAh and 22.5W charge."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/news/zte-makes-philippine-comeback-with-blade-series-smartphones/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-02-21",
+        "purpose": "Philippine launch and price",
+        "note": "Local article dated 2023-02-21 reports the V41 Vita 5G in the Philippine Blade-series introduction and lists PHP 11,999 for 6GB+128GB."
+      },
+      {
+        "organization": "GadgetMatch",
+        "url": "https://www.gadgetmatch.com/zte-blade-series-redmagic-8-pro-now-in-the-philippines/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-02-22",
+        "purpose": "Philippine release and configuration cross-check",
+        "note": "Article dated 2023-02-22 reports the Blade V41 Vita 5G released in the Philippines at PHP 11,999, with 6GB RAM and 128GB storage. Its publication date follows the 2023-02-21 launch reports."
+      },
+      {
+        "organization": "Technobaboy",
+        "url": "https://www.technobaboy.com/2023/02/22/zte-launches-the-blade-series-in-the-philippines/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-02-22",
+        "purpose": "Philippine configuration/specification cross-check",
+        "note": "Local report dated 2023-02-22 lists 6GB+128GB, 2408×1080, 90Hz, Wi-Fi 6, NFC, 5G/4G, dual SIM and local PHP 11,999 pricing."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/mobile/zte-blade-v41-vita-5g-review/",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Hands-on Philippine review and specification-conflict review",
+        "note": "Review of a local unit reports a 60Hz display and a frosted-glass back; its own specification summary later lists 90Hz. The refresh-rate discrepancy is preserved as unresolved."
+      },
+      {
+        "organization": "YugaTech",
+        "url": "https://www.yugatech.com/spec/zte-blade-v41-vita-5g/",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Philippine specification database cross-check",
+        "note": "Lists 6GB RAM, 128GB storage, 1080×2408, 90Hz, Dimensity 810, 50+2+2 cameras, Wi-Fi, Bluetooth 5.0, NFC, 5G and MyOS 12/Android 12."
+      },
+      {
+        "organization": "TeknoGadyet",
+        "url": "https://www.teknogadyet.com/2023/02/zte-blade-v41-vita-5g-specs-price-review-philippines.html",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Philippine configuration, camera, connectivity and historical launch-price cross-check",
+        "note": "Local coverage lists one 6GB/128GB configuration at PHP 11,999, 1080p/30 video, 1TB microSD, Wi-Fi 6, Bluetooth 5, NFC, 5G/4G, USB-C OTG, Li-Po 4500mAh battery and a July 2023 promotional price context."
+      },
+      {
+        "organization": "GIZGUIDE",
+        "url": "https://www.gizguide.com/2023/07/zte-first-kiosk-philippines.html",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-07-17",
+        "purpose": "Historical Philippine retail promotion",
+        "note": "ZTE kiosk opening story dated 2023-07-17 reports a temporary V41 Vita 5G reduction from PHP 11,999 SRP to PHP 9,999 through July 31, 2023."
+      }
+    ],
     "variants": [
       {
-        "id": "device_bf5cf152c95ed1-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_bf5cf152c95ed1-6gb-128gb",
+        "label": "6 GB RAM / 128 GB storage (5G)",
+        "specs": {
+          "displayInches": 6.6,
+          "displayType": "IPS LCD",
+          "resolution": null,
+          "refreshHz": null,
+          "chipset": "MediaTek Dimensity 810 (6 nm)",
+          "cpu": "2x Cortex-A76 @ 2.4GHz + 6x Cortex-A55 @ 2.0GHz",
+          "gpu": "ARM Mali-G57 MC2",
+          "os": "Android 12 with MyOS 12",
+          "ramGb": 6,
+          "storageGb": 128,
+          "rearCameraMp": 50,
+          "frontCameraMp": 8,
+          "video": "1080p at 30fps",
+          "batteryMah": 4500,
+          "chargingW": 22.5,
+          "dimensions": "7.98 mm thick; length/width not recorded",
+          "sim": null,
+          "cellular": "5G SA/NSA; 4G LTE (frequency bands not recorded)",
+          "wifi": "Wi-Fi 6, dual-band",
+          "ports": "USB Type-C 2.0; OTG",
+          "sound": "3.5 mm headphone jack; mono bottom-firing speaker"
+        },
+        "specSources": {
+          "displayInches": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "displayType": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "chipset": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "cpu": "https://www.gizguide.com/2023/02/zte-blade-v41-5g-specs-ph.html",
+          "gpu": "https://www.gizguide.com/2023/02/zte-blade-v41-5g-specs-ph.html",
+          "os": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "ramGb": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "storageGb": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "rearCameraMp": "https://global.ztedevices.com/blogs/news/explore-the-sharp-camera-of-the-blade-v41-vita",
+          "frontCameraMp": "https://www.gizguide.com/2023/02/zte-blade-v41-5g-specs-ph.html",
+          "video": "https://www.teknogadyet.com/2023/02/zte-blade-v41-vita-5g-specs-price-review-philippines.html",
+          "batteryMah": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "chargingW": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "dimensions": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+          "cellular": "https://www.gadgetmatch.com/zte-blade-series-redmagic-8-pro-now-in-the-philippines/",
+          "wifi": "https://www.yugatech.com/spec/zte-blade-v41-vita-5g/",
+          "ports": "https://www.teknogadyet.com/2023/02/zte-blade-v41-vita-5g-specs-price-review-philippines.html",
+          "sound": "https://www.yugatech.com/mobile/zte-blade-v41-vita-5g-review/"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine launch sources identify one 6GB/128GB configuration; 5GB Dynamic RAM is software-backed and not a separate variant.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "8140N",
         "workbookRow": null
       }
     ],

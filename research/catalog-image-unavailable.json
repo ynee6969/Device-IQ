@@ -2734,13 +2734,16 @@
     "altText": "Image unavailable for ZTE Blade A35"
   },
   "device_bf5cf152c95ed1": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact ZTE Blade V41 Vita 5G product image is shown on the manufacturer page, but no reuse license or permission to republish/hotlink the render was documented. Keep the neutral placeholder.",
+    "sourcePage": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://cdn.shopify.com/s/files/1/0513/2229/0361/products/BladeV41Vita5G-hero.png?v=1670581371",
+    "scope": "Exact ZTE Blade V41 Vita 5G / 8140N model render; color/configuration not stated on the image itself.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
+    "rightsCheck": "Reviewed the ZTE global product page and its purchase information. No image reuse license was found. Do not download or hotlink; no access controls were bypassed.",
+    "rightsCheckSourcePage": "https://global.ztedevices.com/products/zte-blade-v41-vita-5g",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for ZTE Blade V41 Vita 5G"
   },
   "device_3304af0b6511d1": {
