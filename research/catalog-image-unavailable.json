@@ -2862,13 +2862,36 @@
     "altText": "Image unavailable for Apple iPad mini A20 Pro"
   },
   "device_e8026097f286fd": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Apple Support provides exact-size 2021 model-identification illustrations, but no permission or reusable license for publication or hotlinking was recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://support.apple.com/en-us/108043",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+    "candidateImages": [
+      {
+        "displaySize": "11-inch",
+        "assetUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+        "sourcePage": "https://support.apple.com/en-us/108043",
+        "scope": "2021 iPad Pro 11-inch (3rd generation), Silver and Space Gray; size-specific official identification image.",
+        "publisher": "Apple",
+        "rightsTermsUrl": null,
+        "rightsCheck": "No reuse permission/license is recorded; do not download or hotlink."
+      },
+      {
+        "displaySize": "12.9-inch",
+        "assetUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+        "sourcePage": "https://support.apple.com/en-us/108043",
+        "scope": "2021 iPad Pro 12.9-inch (5th generation), Silver and Space Gray; size-specific official identification image.",
+        "publisher": "Apple",
+        "rightsTermsUrl": null,
+        "rightsCheck": "No reuse permission/license is recorded; do not download or hotlink."
+      }
+    ],
+    "scope": "Two exact-size Apple Support product diagrams for iPad Pro M1 (2021), separated by 11-inch/12.9-inch generation; not a storage or connectivity-specific photograph.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
+    "rightsCheck": "No reuse permission or license was found on the reviewed Apple Support page. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://support.apple.com/en-us/108043",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for Apple iPad Pro M1 (2021)"
   },
   "exclude_dbbb0293f91ad3": {

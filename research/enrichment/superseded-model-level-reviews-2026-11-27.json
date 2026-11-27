@@ -567,6 +567,107 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_e8026097f286fd",
+      "model": "iPad Pro M1 (2021)",
+      "supersededConfigurationId": "device_e8026097f286fd-unrecorded",
+      "supersededAt": "2026-11-27",
+      "reason": "Replaced one model-level placeholder with 20 exact size/storage/connectivity configurations; original source review is retained in this archive.",
+      "review": {
+        "deviceId": "device_e8026097f286fd",
+        "configurationId": "device_e8026097f286fd-unrecorded",
+        "brand": "Apple",
+        "model": "iPad Pro M1 (2021)",
+        "configurationLabel": "Configuration not recorded",
+        "sources": [
+          {
+            "id": "apple_ipad_pro_m1_2021_tech_specs",
+            "publisher": "Apple Support",
+            "url": "https://support.apple.com/en-us/111897",
+            "publicationDate": "2021-01-01",
+            "accessDate": "2026-11-25",
+            "purpose": "Official manufacturer technical specifications",
+            "note": "Apple technical specifications for iPad Pro M1 (2021); model-level values do not establish Philippine sales or the workbook's exact storage configuration."
+          },
+          {
+            "id": "apple_ipad_pro_m1_2021_tech_specs_1",
+            "publisher": "Apple Support",
+            "url": "https://support.apple.com/en-us/111896",
+            "publicationDate": null,
+            "accessDate": "2026-11-25",
+            "purpose": "Official technical specifications for the size-specific model family",
+            "note": "Second Apple size-specific page; cited only to corroborate shared chipset for iPad Pro M1 (2021)."
+          }
+        ],
+        "fields": [
+          {
+            "fieldId": "chipset",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_pro_m1_2021_tech_specs",
+            "sourceValue": "Apple M1",
+            "normalizedValue": "Apple M1",
+            "note": "Official Apple specifications for iPad Pro M1 (2021); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "chipset",
+            "catalogValue": "Apple M1"
+          },
+          {
+            "fieldId": "cpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_pro_m1_2021_tech_specs",
+            "sourceValue": "8-core CPU",
+            "normalizedValue": "8-core CPU",
+            "note": "Official Apple specifications for iPad Pro M1 (2021); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "cpu",
+            "catalogValue": "8-core CPU"
+          },
+          {
+            "fieldId": "gpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_pro_m1_2021_tech_specs",
+            "sourceValue": "8-core Apple GPU",
+            "normalizedValue": "8-core Apple GPU",
+            "note": "Official Apple specifications for iPad Pro M1 (2021); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "gpu",
+            "catalogValue": "8-core Apple GPU"
+          },
+          {
+            "fieldId": "display_refresh_rate",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_pro_m1_2021_tech_specs",
+            "sourceValue": "120 Hz",
+            "normalizedValue": 120,
+            "note": "Official Apple specifications for iPad Pro M1 (2021); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "refreshHz",
+            "catalogValue": 120,
+            "unit": "Hz"
+          },
+          {
+            "fieldId": "storage_capacity",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_pro_m1_2021_tech_specs",
+            "sourceValue": "128GB, 256GB, 512GB, 1TB, or 2TB",
+            "normalizedValue": "Manufacturer model options: 128GB, 256GB, 512GB, 1TB, or 2TB; inventory SKU not recorded.",
+            "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
+          },
+          {
+            "fieldId": "battery_capacity",
+            "status": "NOT_DISCLOSED",
+            "sourceId": "apple_ipad_pro_m1_2021_tech_specs",
+            "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
+            "normalizedValue": null,
+            "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
+          },
+          {
+            "fieldId": "philippine_release_date",
+            "status": "PENDING_VERIFICATION",
+            "sourceId": "apple_ipad_pro_m1_2021_tech_specs",
+            "sourceValue": "Apple records worldwide year introduced as 2021; this is not a Philippine first-sale date.",
+            "normalizedValue": null,
+            "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
+          }
+        ]
+      }
     }
   ]
 }

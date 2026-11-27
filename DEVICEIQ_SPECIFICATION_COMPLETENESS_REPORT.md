@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-27T12:41:51+08:00
+Generated: 2026-11-27T13:14:45+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -9,9 +9,9 @@ Generated: 2026-11-27T12:41:51+08:00
 | Metric | Actual result |
 | --- | ---: |
 | Models | 456 |
-| Configurations | 594 |
+| Configurations | 613 |
 | Models with manually verified source fields | 195 |
-| Configurations with manually verified source fields | 300 |
+| Configurations with manually verified source fields | 319 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 10 |
@@ -19,16 +19,16 @@ Generated: 2026-11-27T12:41:51+08:00
 | Complete with disclosed gaps | 3 |
 | Incomplete models | 453 |
 | Conflicting specification records | 126 |
-| Assessed specification fields | 9224 |
-| Verified specification fields | 8055 |
-| Unavailable fields | 820 |
-| Not applicable fields | 223 |
-| Pending verification fields | 18539 |
-| Manually reviewed price candidates | 88 |
-| Assessment coverage | 33.22% |
-| Verified coverage | 29.01% |
+| Assessed specification fields | 10128 |
+| Verified specification fields | 8750 |
+| Unavailable fields | 989 |
+| Not applicable fields | 263 |
+| Pending verification fields | 18566 |
+| Manually reviewed price candidates | 108 |
+| Assessment coverage | 35.30% |
+| Verified coverage | 30.49% |
 | Candidate field observations | 5824 |
-| Candidate prices | 290 |
+| Candidate prices | 350 |
 | Candidate source links | 300 |
 | Image-matched models | 48 |
 | Models with image unavailable | 408 |
@@ -42,7 +42,7 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 | Category | Models | Configurations | Applicable field rows | Assessed | Verified | Pending | Assessment | Verified coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | smartphones | 288 | 389 | 17894 | 6271 | 5657 | 11623 | 35.05% | 31.61% |
-| tablets | 150 | 183 | 8967 | 2540 | 1987 | 6427 | 28.33% | 22.16% |
+| tablets | 150 | 202 | 9898 | 3444 | 2682 | 6454 | 34.79% | 27.10% |
 | laptops | 18 | 22 | 902 | 413 | 411 | 489 | 45.79% | 45.57% |
 
 ## Collection snapshot (candidate evidence, not verified facts)
@@ -51,10 +51,10 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 - Fetch attempts: 263; successful page extractions: 221.
 - Extracted pages by source type: `{'independent_ph_reference': 202, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 202, 'official': 19}`.
 - Fetch attempts by category: `{'smartphones': 190, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
-- Candidate field observations by source type: `{'independent_ph_reference': 5801, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144, 'historical_local_reported_srp': 1, 'dated_local_price_promotion': 1, 'historical_local_store_listing': 1, 'historical_local_price_list': 1, 'historical_local_launch_price': 1, 'historical_local_price_observation': 32, 'historical_local_launch_price_report': 5, 'historical_local_price_report': 1, 'current_official_store_listing': 2, 'manufacturer_parameter_page_price': 1, 'historical_local_promotion': 1, 'current_manufacturer_store_listing': 8, 'historical_philippine_launch_price_report': 3, 'secondary_ph_market_price_list': 4, 'philippine_retailer_exact_configuration_listing': 2, 'retailer_exact_configuration_sold_out_listing': 1, 'dated_secondary_ph_market_availability_and_price': 8, 'philippine_retailer_listing_not_orderable_at_observation': 8}`.
-- Candidate prices: 290; discovery links: 300.
+- Candidate field observations by source type: `{'independent_ph_reference': 5801, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144, 'historical_local_reported_srp': 1, 'dated_local_price_promotion': 1, 'historical_local_store_listing': 1, 'historical_local_price_list': 1, 'historical_local_launch_price': 1, 'historical_local_price_observation': 32, 'historical_local_launch_price_report': 5, 'historical_local_price_report': 1, 'current_official_store_listing': 2, 'manufacturer_parameter_page_price': 1, 'historical_local_promotion': 1, 'current_manufacturer_store_listing': 8, 'historical_philippine_launch_price_report': 3, 'secondary_ph_market_price_list': 4, 'philippine_retailer_exact_configuration_listing': 2, 'retailer_exact_configuration_sold_out_listing': 1, 'dated_secondary_ph_market_availability_and_price': 8, 'philippine_retailer_listing_not_orderable_at_observation': 8, 'dated_secondary_ph_price_report_before_local_availability_date_announced': 20, 'dated_secondary_ph_price_and_local_availability_report': 20}`.
+- Candidate prices: 350; discovery links: 300.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
-- 18539 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
+- 18566 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 
 ## Field backlog
 
@@ -62,20 +62,20 @@ Every category template field is enumerated in `research/enrichment/specificatio
 
 | Group | Applicable rows | Assessed | Verified | Pending |
 | --- | ---: | ---: | ---: | ---: |
-| Accessories | 366 | 120 | 106 | 246 |
-| Audio | 594 | 194 | 187 | 400 |
-| Battery | 2354 | 765 | 578 | 1589 |
-| Build | 2354 | 767 | 658 | 1587 |
-| Camera | 3454 | 1211 | 950 | 2243 |
-| Connectivity | 4297 | 1367 | 1246 | 2930 |
-| Display | 3586 | 1382 | 1288 | 2204 |
-| Identity | 1188 | 437 | 397 | 751 |
+| Accessories | 404 | 160 | 146 | 244 |
+| Audio | 613 | 214 | 207 | 399 |
+| Battery | 2430 | 844 | 638 | 1586 |
+| Build | 2430 | 847 | 718 | 1583 |
+| Camera | 3568 | 1331 | 1030 | 2237 |
+| Connectivity | 4449 | 1517 | 1346 | 2932 |
+| Display | 3700 | 1501 | 1407 | 2199 |
+| Identity | 1226 | 477 | 437 | 749 |
 | Input | 44 | 7 | 7 | 37 |
-| Memory | 2992 | 1041 | 903 | 1951 |
-| Other | 594 | 156 | 148 | 438 |
-| Philippine market | 1804 | 453 | 414 | 1351 |
-| Platform | 3564 | 1243 | 1102 | 2321 |
-| Release history | 572 | 81 | 71 | 491 |
+| Memory | 3087 | 1140 | 962 | 1947 |
+| Other | 613 | 176 | 168 | 437 |
+| Philippine market | 1861 | 453 | 414 | 1408 |
+| Platform | 3678 | 1360 | 1179 | 2318 |
+| Release history | 591 | 101 | 91 | 490 |
 
 ## Priority list
 
@@ -407,7 +407,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | smartphones | TECNO | Spark Go 3 | 4 GB RAM / 128 GB storage | `device_0a6709312abef7-auto-4gb-128gb` | 16 | 46 | SPECIFICATION_INCOMPLETE |
 | 2026 | smartphones | nubia | V80 Max | 8 GB RAM / 128 GB storage | `device_ccaeeb90588d4f-auto-8gb-128gb` | 16 | 46 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Apple | iPad Pro M5 | Configuration not recorded | `device_639dbf609255e4-unrecorded` | 44 | 49 | SPECIFICATION_INCOMPLETE |
-| 2021 | tablets | Apple | iPad Pro M1 (2021) | Configuration not recorded | `device_e8026097f286fd-unrecorded` | 43 | 49 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Apple | iPad Pro M2 | Configuration not recorded | `device_9b65c21f337198-unrecorded` | 43 | 49 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Apple | iPad Air M3 | Configuration not recorded | `device_99d1f134735d0c-unrecorded` | 43 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Apple | iPad Air M4 | Configuration not recorded | `device_5327f2410c22e5-unrecorded` | 43 | 49 | SPECIFICATION_INCOMPLETE |
@@ -557,6 +556,16 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2022 | smartphones | TCL | TCL 20 R 5G | 4 GB RAM / 128 GB storage | `device_af0706eb4c718f-t767h1-4gb-128gb-ph` | 10 | 46 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | vivo | V23 5G | 8 GB RAM / 128 GB storage | `device_768d170ed1109b-v2130-8gb-128gb-ph-spec` | 7 | 46 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Nokia | T10 | 3 GB RAM / 32 GB storage (global Wi-Fi configuration; Philippine sale unverified) | `device_122fb62b2868fc-wifi-3gb-32gb-global` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 128 GB / Wi-Fi + Cellular | `device_e8026097f286fd-11in-128gb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 256 GB / Wi-Fi + Cellular | `device_e8026097f286fd-11in-256gb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 512 GB / Wi-Fi + Cellular | `device_e8026097f286fd-11in-512gb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 1 TB / Wi-Fi + Cellular | `device_e8026097f286fd-11in-1tb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 2 TB / Wi-Fi + Cellular | `device_e8026097f286fd-11in-2tb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 128 GB / Wi-Fi + Cellular | `device_e8026097f286fd-12_9in-128gb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 256 GB / Wi-Fi + Cellular | `device_e8026097f286fd-12_9in-256gb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 512 GB / Wi-Fi + Cellular | `device_e8026097f286fd-12_9in-512gb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 1 TB / Wi-Fi + Cellular | `device_e8026097f286fd-12_9in-1tb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 2 TB / Wi-Fi + Cellular | `device_e8026097f286fd-12_9in-2tb-wifi-cellular` | 13 | 49 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | TCL | TCL 20 R 5G | 4 GB RAM / 64 GB storage | `device_af0706eb4c718f-t767h-4gb-64gb-ph` | 9 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | HONOR | X9a | 8 GB RAM / 256 GB storage | `device_beb039b6abbf82-8gb-256gb-ph` | 9 | 46 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Lenovo | Tab M10 Plus 3rd Gen | 3 GB RAM / 32 GB storage / Wi-Fi / MediaTek Helio G80 (TB125FU) | `device_d34ec0baa2b329-tb125fu-g80-3gb-32gb-wifi` | 8 | 49 | SPECIFICATION_INCOMPLETE |
@@ -566,6 +575,16 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | Unassigned | smartphones | POCO | X7 Pro | 12 GB RAM / 512 GB storage | `device_a8a17a9d88abab-12gb-512gb` | 4 | 46 | SPECIFICATION_INCOMPLETE |
 | 2021 | tablets | Apple | iPad 9th Gen | 64 GB / Wi-Fi + Cellular | `device_80a03073c65780-64gb-wifi-cellular` | 20 | 49 | SPECIFICATION_INCOMPLETE |
 | 2021 | tablets | Apple | iPad 9th Gen | 256 GB / Wi-Fi + Cellular | `device_80a03073c65780-256gb-wifi-cellular` | 20 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 128 GB / Wi-Fi | `device_e8026097f286fd-11in-128gb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 256 GB / Wi-Fi | `device_e8026097f286fd-11in-256gb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 512 GB / Wi-Fi | `device_e8026097f286fd-11in-512gb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 1 TB / Wi-Fi | `device_e8026097f286fd-11in-1tb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 11-inch / 2 TB / Wi-Fi | `device_e8026097f286fd-11in-2tb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 128 GB / Wi-Fi | `device_e8026097f286fd-12_9in-128gb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 256 GB / Wi-Fi | `device_e8026097f286fd-12_9in-256gb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 512 GB / Wi-Fi | `device_e8026097f286fd-12_9in-512gb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 1 TB / Wi-Fi | `device_e8026097f286fd-12_9in-1tb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
+| 2021 | tablets | Apple | iPad Pro M1 (2021) | 12.9-inch / 2 TB / Wi-Fi | `device_e8026097f286fd-12_9in-2tb-wifi` | 15 | 49 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Black Shark | 5 | 8 GB RAM / 128 GB storage | `device_a9d69522a3d0fe-8gb-128gb-ph` | 13 | 46 | SPECIFICATION_INCOMPLETE |
 | 2022 | smartphones | Black Shark | 5 | 12 GB RAM / 256 GB storage | `device_a9d69522a3d0fe-12gb-256gb-ph` | 13 | 46 | SPECIFICATION_INCOMPLETE |
 | 2024 | smartphones | HONOR | X9b | 12 GB RAM / 256 GB storage | `device_38ef56f303cc59-12gb-256gb-ph` | 13 | 46 | SPECIFICATION_INCOMPLETE |
@@ -681,7 +700,7 @@ Every category template field is enumerated in `research/enrichment/specificatio
 ## Philippine market and image coverage
 
 - Models with an exact-match catalog image carrying a reusable license: 48/456. The remaining 408 show the neutral unavailable-image placeholder.
-- Of those unavailable images, 52 require reuse permission, 61 have reuse rights that are not established, and 295 have no reliable exact-model match recorded.
+- Of those unavailable images, 52 require reuse permission, 62 have reuse rights that are not established, and 294 have no reliable exact-model match recorded.
 - The workbook copy's `IMAGE AUDIT` sheet records each image's source, credit, license, rights-check date, and the reason an image is unavailable. Images without documented reuse rights are not published.
 - Excluded master records: 3; held-out records/claims: 7. These are visible with explicit labels but stay outside eligible searches/recommendations.
 - The public site retains each record's existing verification and scope status. This specification audit does not upgrade Philippine availability status.
