@@ -68,8 +68,8 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [386, 202, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 620);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [386, 205, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 623);
 const nokiaG42 = publicDevices.find((device) => device.id === "device_9ba373722ace11");
 assert.ok(nokiaG42);
 assert.equal(nokiaG42.workbookRow, 149);

@@ -89649,152 +89649,6 @@
       ]
     },
     {
-      "deviceId": "device_a9930490a861ed",
-      "configurationId": "device_a9930490a861ed-unrecorded",
-      "brand": "Apple",
-      "model": "iPad Air 5th Gen",
-      "configurationLabel": "Configuration not recorded",
-      "sources": [
-        {
-          "id": "apple_ipad_air_5th_gen_tech_specs",
-          "publisher": "Apple Support",
-          "url": "https://support.apple.com/en-us/111887",
-          "publicationDate": "2022-01-01",
-          "accessDate": "2026-11-25",
-          "purpose": "Official manufacturer technical specifications",
-          "note": "Apple technical specifications for iPad Air 5th Gen; model-level values do not establish Philippine sales or the workbook's exact storage configuration."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "10.86 in",
-          "normalizedValue": 10.86,
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayInches",
-          "catalogValue": 10.86,
-          "unit": "in"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "LCD IPS",
-          "normalizedValue": "LCD IPS",
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayType",
-          "catalogValue": "LCD IPS"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "1640 x 2360",
-          "normalizedValue": "1640 x 2360",
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "resolution",
-          "catalogValue": "1640 x 2360"
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "Apple M1",
-          "normalizedValue": "Apple M1",
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "chipset",
-          "catalogValue": "Apple M1"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "8-core CPU",
-          "normalizedValue": "8-core CPU",
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "cpu",
-          "catalogValue": "8-core CPU"
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "8-core Apple GPU",
-          "normalizedValue": "8-core Apple GPU",
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "gpu",
-          "catalogValue": "8-core Apple GPU"
-        },
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "8 GB",
-          "normalizedValue": 8,
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "ramGb",
-          "catalogValue": 8,
-          "unit": "GB"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "12 MP",
-          "normalizedValue": 12,
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 12,
-          "unit": "MP"
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "Wi-Fi 6 (802.11ax)",
-          "normalizedValue": "Wi-Fi 6 (802.11ax)",
-          "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6 (802.11ax)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "Wi-Fi: 461 g; Wi-Fi + Cellular: 462 g",
-          "normalizedValue": "Wi-Fi: 461 g; Wi-Fi + Cellular: 462 g",
-          "note": "Apple lists different weights by connectivity configuration. The inventory does not identify which connectivity option applies.",
-          "clearCatalogKey": "weightG"
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "64GB or 256GB",
-          "normalizedValue": "Manufacturer model options: 64GB or 256GB; inventory SKU not recorded.",
-          "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "NOT_DISCLOSED",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
-          "normalizedValue": null,
-          "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
-        },
-        {
-          "fieldId": "philippine_release_date",
-          "status": "PENDING_VERIFICATION",
-          "sourceId": "apple_ipad_air_5th_gen_tech_specs",
-          "sourceValue": "Apple records worldwide year introduced as 2022; this is not a Philippine first-sale date.",
-          "normalizedValue": null,
-          "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
-        }
-      ]
-    },
-    {
       "deviceId": "device_99d1f134735d0c",
       "configurationId": "device_99d1f134735d0c-unrecorded",
       "brand": "Apple",
@@ -197932,6 +197786,2416 @@
           {
             "issue": "Study eligibility remains Pending",
             "action": "Preserve the workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_a9930490a861ed",
+      "configurationId": "device_a9930490a861ed-64gb-wifi",
+      "brand": "Apple",
+      "model": "iPad Air 5th Gen",
+      "configuration": "64 GB / Wi-Fi",
+      "configurationLabel": "64 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad_air5_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ph/111887",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer technical specifications for iPad Air (5th generation)",
+          "note": "Apple lists 2022, 64GB/256GB, 10.9-inch Liquid Retina display, M1 and 8GB RAM, cameras/video, battery energy, Wi-Fi/Bluetooth, A2589 cellular bands, USB-C, physical measurements, sensors and Apple Pencil support."
+        },
+        {
+          "id": "apple_ipad_air5_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number and capacity identification",
+          "note": "Apple maps A2588 to iPad Air (5th generation) and A2589/A2591 to Wi-Fi + Cellular; Apple lists 64GB and 256GB. The PH price articles do not expose the suffix printed on a locally sold unit."
+        },
+        {
+          "id": "apple_ipad_air5_announcement",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2022/03/apple-introduces-the-most-powerful-and-versatile-ipad-air-ever/",
+          "publicationDate": "2022-03-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Product announcement, initial global availability, launch software and accessory support",
+          "note": "Apple announced the M1 iPad Air on 2022-03-08, opened orders 2022-03-11, and announced in-store availability from 2022-03-18. It describes 5G cellular models, iPadOS 15, accessories and product features."
+        },
+        {
+          "id": "apple_ipad_air5_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_Air_PER_March2022.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and material composition",
+          "note": "Apple's March 2022 iPad Air Product Environmental Report documents the 5th-generation model and its enclosure materials."
+        },
+        {
+          "id": "technobaboy_ipad_air5_ph_prices",
+          "publisher": "Technobaboy",
+          "url": "https://www.technobaboy.com/2022/03/09/ipad-air-5-2022-official-now-comes-with-m1-chip-5g-price-in-the-philippines/",
+          "publicationDate": "2022-03-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch-period configuration price report",
+          "note": "Published 2022-03-09, lists the four 64GB/256GB Wi-Fi/cellular PH prices one day after Apple announced the model. This is a secondary dated price report; it does not independently establish the exact first PH sale date or first-day official MSRP."
+        },
+        {
+          "id": "gadgetpilipinas_ipad_air5_ph_preorder",
+          "publisher": "Gadget Pilipinas / Beyond the Box",
+          "url": "https://www.gadgetpilipinas.net/2022/04/5th-gen-ipad-air-ph-beyond-the-box/",
+          "publicationDate": "2022-04-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated authorized-retailer PH preorder evidence",
+          "note": "Published 2022-04-01, reports Beyond the Box preorders through that evening and quotes SRP of PHP 37,990/46,990 by capacity. Its table does not identify Wi-Fi versus cellular, and these amounts differ from the 2022-03-09 and 2022-04-19 Philippine configuration reports; preserve them as configuration-ambiguous retailer price evidence."
+        },
+        {
+          "id": "spot_ipad_air5_ph_availability_prices",
+          "publisher": "Spot.ph",
+          "url": "https://www.spot.ph/shopping/the-latest-shopping/89068/apple-ipad-air-5-now-available-in-the-philippines-official-prices-a5092-20220419",
+          "publicationDate": "2022-04-19",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated report that exact PH configurations were available and local price list",
+          "note": "Published 2022-04-19, says iPad Air 5 was available in the Philippines from Apple's website, Power Mac Center's website and retailers nationwide; lists all four storage/connectivity prices. This supports availability by the publication date, not the first-sale date."
+        },
+        {
+          "id": "yugatech_ipad_air5_ph_price_increase",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-increases-ipad-air-5th-gen-ipad-9th-gen-prices-in-the-philippines/",
+          "publicationDate": "2022-10-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine retail price-increase report with prior and revised configuration prices",
+          "note": "Published 2022-10-25, reports that PH retail prices changed from PHP 35,990/44,990 Wi-Fi and 44,990/53,990 Wi-Fi + Cellular to PHP 39,990/49,990 Wi-Fi and 49,990/59,990 Wi-Fi + Cellular for 64GB/256GB respectively."
+        },
+        {
+          "id": "powermaccenter_ipad_air5_price_table",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/installment-options",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration price table observation; not treated as current buyable price",
+          "note": "The page's installment table displays retail prices for all four Air 5 configurations. Its linked installment validity text refers to 2024 and the page does not expose stock/orderability for these legacy models, so the listed values are retained as an undated stale page observation only."
+        },
+        {
+          "id": "istore_ipad_air5_listing",
+          "publisher": "iStore Philippines",
+          "url": "https://istore.ph/products/ipad-air-5th-generation",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-family retailer listing and stock-state cross-check",
+          "note": "The product page identifies iPad Air (5th Generation), 64GB, Wi-Fi and shows Sold out. Page price markup is ambiguous; no amount is promoted as a reliable current price."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "A2588",
+          "normalizedValue": "A2588",
+          "note": "Apple maps A2588 to the Wi-Fi model. The workbook's PH unit suffix is not supplied, so this is the Apple global Wi-Fi model mapping, not a verified local part number.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Apple announced 2022-03-08; orders began 2022-03-11 and initial in-store availability was announced for 2022-03-18.",
+          "normalizedValue": "2022-03-18",
+          "note": "Apple's launch release sets in-store availability from 2022-03-18. This is the announced initial global date, not the Philippine first-sale date.",
+          "unit": "date"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch / 8GB RAM / 64GB / Wi-Fi / A2588",
+          "normalizedValue": "10.9-inch / 8 GB RAM / 64 GB / Wi-Fi",
+          "note": "Apple lists 64GB and 256GB capacities, a single 8GB RAM amount, and separate Wi-Fi/cellular model numbers. Finish colors are not separate technical configurations. The PH-specific part-number suffix is not given in local sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "spot_ipad_air5_ph_availability_prices",
+          "sourceValue": "Beyond the Box preorder was reported on 2022-04-01; Spot.ph reported the device available in the Philippines on 2022-04-19. Neither source establishes the first authorized sale date.",
+          "normalizedValue": null,
+          "note": "Do not treat preorder opening or the first located availability report as the actual first-sale date. Keep the release-date field blank; dated PH availability by 2022-04-19 is separately recorded.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "technobaboy_ipad_air5_ph_prices",
+          "sourceValue": "A Philippine article published 2022-03-09 reports PHP 35,990 for 64 GB / Wi-Fi; primary Apple or retailer documentation confirming first-day official MSRP was not located.",
+          "normalizedValue": null,
+          "note": "Keep the official-launch-MSRP field blank. Retain dated PH configuration prices as secondary historical observations, not a verified first-day official MSRP.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "istore_ipad_air5_listing",
+          "sourceValue": "The reviewed iStore Philippines exact-family listing shows Sold out; the page's price markup is ambiguous. The Power Mac Center table does not verify stock/orderability and contains installment terms that expired in 2024.",
+          "normalizedValue": null,
+          "note": "No current buyable price verified. Keep the catalog's current price empty and retain any dated or stale retailer-page observations outside numeric current-price filtering.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch diagonal; 10.86 inches when measured as a rectangle",
+          "normalizedValue": 10.9,
+          "note": "Apple markets the panel as 10.9-inch; it specifies 10.86 inches when the rounded-corner panel is measured diagonally as a rectangle. Catalog stores the marketed screen size.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.9,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Liquid Retina, LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "Liquid Retina LED-backlit IPS LCD",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "2360 × 1640 pixels at 264 ppi",
+          "normalizedValue": "2360 x 1640",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's iPad Air 5 technical specifications do not state a display refresh-rate value.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded; it is not inferred from the absence of ProMotion.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "P3 wide color, True Tone, fully laminated, anti-reflective and fingerprint-resistant oleophobic coatings",
+          "normalizedValue": "P3; True Tone; fully laminated; anti-reflective; oleophobic coating",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple M1 chip",
+          "normalizedValue": "Apple M1",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple M1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed iPad Air 5 specifications do not disclose a semiconductor fabrication node.",
+          "normalizedValue": null,
+          "note": "No process node inferred from other M1 products or secondary estimates.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core CPU: 4 performance cores and 4 efficiency cores",
+          "normalizedValue": "8-core CPU (4 performance + 4 efficiency)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core CPU (4 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core GPU",
+          "normalizedValue": "8-core Apple GPU",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "gpu",
+          "catalogValue": "8-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Ships with iPadOS 15",
+          "normalizedValue": "iPadOS 15",
+          "note": "Apple's announcement describes iPadOS 15 at launch. This is not a claim about a current installed OS version.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS 15"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not publish a guaranteed support end date for this iPadOS device.",
+          "normalizedValue": null,
+          "note": "Support duration/end date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8GB RAM",
+          "normalizedValue": 8,
+          "note": "Apple lists 8GB RAM for the model; this amount applies to both supported storage capacities.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not identify the RAM technology/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Memory type not inferred."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "64GB",
+          "normalizedValue": 64,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not state the internal flash-storage interface or type.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not identify a memory-card slot or explicitly document internal-storage expansion.",
+          "normalizedValue": null,
+          "note": "Do not infer removable or expandable storage from the USB-C port."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8, 5× digital zoom, five-element lens, Focus Pixels autofocus, Smart HDR 3",
+          "normalizedValue": "12MP Wide rear camera, f/1.8",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12MP Wide rear camera, f/1.8",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not disclose the main camera sensor manufacturer or part number.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear 12MP Wide camera; the Ultra Wide module is front-facing.",
+          "normalizedValue": null,
+          "note": "No rear Ultra Wide camera is specified."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear Wide camera and no rear telephoto module.",
+          "normalizedValue": null,
+          "note": "No telephoto camera is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Ultra Wide front camera, ƒ/2.4, 122° field of view",
+          "normalizedValue": 12,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; 1080p at 25/30/60fps; 720p at 30fps; 1080p slow motion at 120/240fps. Front: 1080p at 25/30/60fps.",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Built-in 28.6Wh rechargeable lithium-polymer battery; mAh is not published",
+          "normalizedValue": 28.6,
+          "note": "Apple publishes watt-hours, not mAh. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.6,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C charging; a 20W USB-C power adapter is included. Maximum device input wattage is not stated.",
+          "normalizedValue": "USB-C charging; 20W adapter included; max device input not stated",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not state wireless or reverse charging support.",
+          "normalizedValue": null,
+          "note": "Charging capability is not inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "247.6 × 178.5 × 6.1 mm",
+          "normalizedValue": "247.6 x 178.5 x 6.1 mm",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "247.6 x 178.5 x 6.1 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi model: 461g",
+          "normalizedValue": 461,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "weightG",
+          "catalogValue": 461,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_environment",
+          "sourceValue": "Apple's March 2022 product environmental report identifies the iPad Air (5th generation) enclosure material.",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Model-specific material is documented in Apple's product environmental report; recycled-content details are retained in the source record."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed technical specifications do not state an IP ingress-protection rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "Wi-Fi-only model A2588; SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Apple identifies cellular models separately as A2589/A2591."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "Wi-Fi-only A2588 has no cellular radio",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi configuration."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists GPS/GNSS for Wi-Fi + Cellular models, but does not list built-in GPS/GNSS for the Wi-Fi configuration.",
+          "normalizedValue": null,
+          "note": "Do not claim GNSS on Wi-Fi A2588."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi model A2588",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "802.11ax Wi-Fi 6; dual band (2.4/5GHz); HT80 with MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax); dual band; MIMO",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax); dual band; MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C with charging, native DisplayPort and USB 3.1 Gen 2 up to 10Gb/s",
+          "normalizedValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not list NFC in the reviewed iPad Air 5 specification.",
+          "normalizedValue": null,
+          "note": "NFC remains unrecorded; absence from this spec sheet is not treated as an explicit no."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Stereo speakers and dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer, ambient light sensor; digital compass and iBeacon micro-location",
+          "normalizedValue": "Touch ID; gyro; accelerometer; barometer; ambient-light sensor; digital compass; iBeacon",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Compatible with Magic Keyboard and Smart Keyboard Folio",
+          "normalizedValue": "Magic Keyboard; Smart Keyboard Folio",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Magic Keyboard; Smart Keyboard Folio"
+        }
+      ],
+      "modelCode": "A2588",
+      "replacementVariants": [
+        {
+          "id": "device_a9930490a861ed-64gb-wifi",
+          "label": "64 GB / Wi-Fi",
+          "modelCode": "A2588",
+          "notes": "Distinct Apple storage/connectivity configuration; available finish colors are not split into separate device records."
+        },
+        {
+          "id": "device_a9930490a861ed-64gb-wifi-cellular",
+          "label": "64 GB / Wi-Fi + Cellular",
+          "modelCode": "A2589 / A2591",
+          "notes": "Distinct Apple storage/connectivity configuration; available finish colors are not split into separate device records."
+        },
+        {
+          "id": "device_a9930490a861ed-256gb-wifi",
+          "label": "256 GB / Wi-Fi",
+          "modelCode": "A2588",
+          "notes": "Distinct Apple storage/connectivity configuration; available finish colors are not split into separate device records."
+        },
+        {
+          "id": "device_a9930490a861ed-256gb-wifi-cellular",
+          "label": "256 GB / Wi-Fi + Cellular",
+          "modelCode": "A2589 / A2591",
+          "notes": "Distinct Apple storage/connectivity configuration; available finish colors are not split into separate device records."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Dated Philippine evidence: Beyond the Box preorder reported by 2022-04-01 and availability at Apple Philippines, Power Mac Center and retailers nationwide reported by Spot.ph on 2022-04-19. Exact first-sale date is not documented.",
+        "philippineAvailability": "Philippine preorder evidence by 2022-04-01 and local availability reported by 2022-04-19; neither source establishes the first authorized sale date.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact Apple storage, RAM, connectivity and model-family configurations reviewed. Dated Philippine availability and historical prices are sourced. Exact first-sale date, Philippine part-number suffix, current buyable price and A2591 cellular band table remain unresolved. Workbook study eligibility remains Pending.",
+        "catalogModel": "iPad Air 5th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad Air",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported Philippine availability by 2022-04-19; first sale date unknown",
+        "researchNotes": "Workbook row 112 is matched to Apple's iPad Air (5th generation, 2022). The catalog exposes four distinct 64GB/256GB Wi-Fi/Wi-Fi + Cellular configurations; the five finishes do not create separate hardware configurations. Apple maps Wi-Fi to A2588 and cellular to A2589/A2591, but Philippine price reports do not identify the unit's part-number suffix. Local sources report preorder availability by 2022-04-01 and retail availability by 2022-04-19. Prices are preserved as dated launch-period, October 2022 revised, and Power Mac Center page observations; no 2026 orderable stock was verified. Battery is retained in Apple's stated Wh, not converted to mAh. A matching Apple Support family illustration is preserved only as an image candidate because reuse rights were not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact first Philippine sale date is not documented",
+            "action": "Keep the date blank; retain dated preorder and by-date availability evidence."
+          },
+          {
+            "issue": "Philippine part-number suffix is not stated in local reports",
+            "action": "Do not claim A2588/A2589/A2591 as a confirmed PH SKU."
+          },
+          {
+            "issue": "Current new buyable price/stock is unverified",
+            "action": "Keep current price blank; do not treat sold-out pages or stale price tables as live offers."
+          },
+          {
+            "issue": "A2591 cellular band table is not shown on the reviewed Apple specification page",
+            "action": "Keep exact A2591/PH band coverage pending."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain exact-family Apple image candidate for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_a9930490a861ed",
+      "configurationId": "device_a9930490a861ed-64gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad Air 5th Gen",
+      "configuration": "64 GB / Wi-Fi + Cellular",
+      "configurationLabel": "64 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad_air5_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ph/111887",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer technical specifications for iPad Air (5th generation)",
+          "note": "Apple lists 2022, 64GB/256GB, 10.9-inch Liquid Retina display, M1 and 8GB RAM, cameras/video, battery energy, Wi-Fi/Bluetooth, A2589 cellular bands, USB-C, physical measurements, sensors and Apple Pencil support."
+        },
+        {
+          "id": "apple_ipad_air5_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number and capacity identification",
+          "note": "Apple maps A2588 to iPad Air (5th generation) and A2589/A2591 to Wi-Fi + Cellular; Apple lists 64GB and 256GB. The PH price articles do not expose the suffix printed on a locally sold unit."
+        },
+        {
+          "id": "apple_ipad_air5_announcement",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2022/03/apple-introduces-the-most-powerful-and-versatile-ipad-air-ever/",
+          "publicationDate": "2022-03-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Product announcement, initial global availability, launch software and accessory support",
+          "note": "Apple announced the M1 iPad Air on 2022-03-08, opened orders 2022-03-11, and announced in-store availability from 2022-03-18. It describes 5G cellular models, iPadOS 15, accessories and product features."
+        },
+        {
+          "id": "apple_ipad_air5_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_Air_PER_March2022.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and material composition",
+          "note": "Apple's March 2022 iPad Air Product Environmental Report documents the 5th-generation model and its enclosure materials."
+        },
+        {
+          "id": "technobaboy_ipad_air5_ph_prices",
+          "publisher": "Technobaboy",
+          "url": "https://www.technobaboy.com/2022/03/09/ipad-air-5-2022-official-now-comes-with-m1-chip-5g-price-in-the-philippines/",
+          "publicationDate": "2022-03-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch-period configuration price report",
+          "note": "Published 2022-03-09, lists the four 64GB/256GB Wi-Fi/cellular PH prices one day after Apple announced the model. This is a secondary dated price report; it does not independently establish the exact first PH sale date or first-day official MSRP."
+        },
+        {
+          "id": "gadgetpilipinas_ipad_air5_ph_preorder",
+          "publisher": "Gadget Pilipinas / Beyond the Box",
+          "url": "https://www.gadgetpilipinas.net/2022/04/5th-gen-ipad-air-ph-beyond-the-box/",
+          "publicationDate": "2022-04-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated authorized-retailer PH preorder evidence",
+          "note": "Published 2022-04-01, reports Beyond the Box preorders through that evening and quotes SRP of PHP 37,990/46,990 by capacity. Its table does not identify Wi-Fi versus cellular, and these amounts differ from the 2022-03-09 and 2022-04-19 Philippine configuration reports; preserve them as configuration-ambiguous retailer price evidence."
+        },
+        {
+          "id": "spot_ipad_air5_ph_availability_prices",
+          "publisher": "Spot.ph",
+          "url": "https://www.spot.ph/shopping/the-latest-shopping/89068/apple-ipad-air-5-now-available-in-the-philippines-official-prices-a5092-20220419",
+          "publicationDate": "2022-04-19",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated report that exact PH configurations were available and local price list",
+          "note": "Published 2022-04-19, says iPad Air 5 was available in the Philippines from Apple's website, Power Mac Center's website and retailers nationwide; lists all four storage/connectivity prices. This supports availability by the publication date, not the first-sale date."
+        },
+        {
+          "id": "yugatech_ipad_air5_ph_price_increase",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-increases-ipad-air-5th-gen-ipad-9th-gen-prices-in-the-philippines/",
+          "publicationDate": "2022-10-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine retail price-increase report with prior and revised configuration prices",
+          "note": "Published 2022-10-25, reports that PH retail prices changed from PHP 35,990/44,990 Wi-Fi and 44,990/53,990 Wi-Fi + Cellular to PHP 39,990/49,990 Wi-Fi and 49,990/59,990 Wi-Fi + Cellular for 64GB/256GB respectively."
+        },
+        {
+          "id": "powermaccenter_ipad_air5_price_table",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/installment-options",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration price table observation; not treated as current buyable price",
+          "note": "The page's installment table displays retail prices for all four Air 5 configurations. Its linked installment validity text refers to 2024 and the page does not expose stock/orderability for these legacy models, so the listed values are retained as an undated stale page observation only."
+        },
+        {
+          "id": "istore_ipad_air5_listing",
+          "publisher": "iStore Philippines",
+          "url": "https://istore.ph/products/ipad-air-5th-generation",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-family retailer listing and stock-state cross-check",
+          "note": "The product page identifies iPad Air (5th Generation), 64GB, Wi-Fi and shows Sold out. Page price markup is ambiguous; no amount is promoted as a reliable current price."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "A2589 / A2591",
+          "normalizedValue": "A2589 / A2591",
+          "note": "Apple identifies A2589 and A2591 as Wi-Fi + Cellular iPad Air (5th generation) models. The cited local price/availability sources do not identify which printed part-number suffix was sold in the Philippines.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Apple announced 2022-03-08; orders began 2022-03-11 and initial in-store availability was announced for 2022-03-18.",
+          "normalizedValue": "2022-03-18",
+          "note": "Apple's launch release sets in-store availability from 2022-03-18. This is the announced initial global date, not the Philippine first-sale date.",
+          "unit": "date"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch / 8GB RAM / 64GB / Wi-Fi + Cellular / A2589 / A2591",
+          "normalizedValue": "10.9-inch / 8 GB RAM / 64 GB / Wi-Fi + Cellular",
+          "note": "Apple lists 64GB and 256GB capacities, a single 8GB RAM amount, and separate Wi-Fi/cellular model numbers. Finish colors are not separate technical configurations. The PH-specific part-number suffix is not given in local sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "spot_ipad_air5_ph_availability_prices",
+          "sourceValue": "Beyond the Box preorder was reported on 2022-04-01; Spot.ph reported the device available in the Philippines on 2022-04-19. Neither source establishes the first authorized sale date.",
+          "normalizedValue": null,
+          "note": "Do not treat preorder opening or the first located availability report as the actual first-sale date. Keep the release-date field blank; dated PH availability by 2022-04-19 is separately recorded.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "technobaboy_ipad_air5_ph_prices",
+          "sourceValue": "A Philippine article published 2022-03-09 reports PHP 44,990 for 64 GB / Wi-Fi + Cellular; primary Apple or retailer documentation confirming first-day official MSRP was not located.",
+          "normalizedValue": null,
+          "note": "Keep the official-launch-MSRP field blank. Retain dated PH configuration prices as secondary historical observations, not a verified first-day official MSRP.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "istore_ipad_air5_listing",
+          "sourceValue": "The reviewed iStore Philippines exact-family listing shows Sold out; the page's price markup is ambiguous. The Power Mac Center table does not verify stock/orderability and contains installment terms that expired in 2024.",
+          "normalizedValue": null,
+          "note": "No current buyable price verified. Keep the catalog's current price empty and retain any dated or stale retailer-page observations outside numeric current-price filtering.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch diagonal; 10.86 inches when measured as a rectangle",
+          "normalizedValue": 10.9,
+          "note": "Apple markets the panel as 10.9-inch; it specifies 10.86 inches when the rounded-corner panel is measured diagonally as a rectangle. Catalog stores the marketed screen size.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.9,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Liquid Retina, LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "Liquid Retina LED-backlit IPS LCD",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "2360 × 1640 pixels at 264 ppi",
+          "normalizedValue": "2360 x 1640",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's iPad Air 5 technical specifications do not state a display refresh-rate value.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded; it is not inferred from the absence of ProMotion.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "P3 wide color, True Tone, fully laminated, anti-reflective and fingerprint-resistant oleophobic coatings",
+          "normalizedValue": "P3; True Tone; fully laminated; anti-reflective; oleophobic coating",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple M1 chip",
+          "normalizedValue": "Apple M1",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple M1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed iPad Air 5 specifications do not disclose a semiconductor fabrication node.",
+          "normalizedValue": null,
+          "note": "No process node inferred from other M1 products or secondary estimates.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core CPU: 4 performance cores and 4 efficiency cores",
+          "normalizedValue": "8-core CPU (4 performance + 4 efficiency)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core CPU (4 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core GPU",
+          "normalizedValue": "8-core Apple GPU",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "gpu",
+          "catalogValue": "8-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Ships with iPadOS 15",
+          "normalizedValue": "iPadOS 15",
+          "note": "Apple's announcement describes iPadOS 15 at launch. This is not a claim about a current installed OS version.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS 15"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not publish a guaranteed support end date for this iPadOS device.",
+          "normalizedValue": null,
+          "note": "Support duration/end date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8GB RAM",
+          "normalizedValue": 8,
+          "note": "Apple lists 8GB RAM for the model; this amount applies to both supported storage capacities.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not identify the RAM technology/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Memory type not inferred."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "64GB",
+          "normalizedValue": 64,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not state the internal flash-storage interface or type.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not identify a memory-card slot or explicitly document internal-storage expansion.",
+          "normalizedValue": null,
+          "note": "Do not infer removable or expandable storage from the USB-C port."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8, 5× digital zoom, five-element lens, Focus Pixels autofocus, Smart HDR 3",
+          "normalizedValue": "12MP Wide rear camera, f/1.8",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12MP Wide rear camera, f/1.8",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not disclose the main camera sensor manufacturer or part number.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear 12MP Wide camera; the Ultra Wide module is front-facing.",
+          "normalizedValue": null,
+          "note": "No rear Ultra Wide camera is specified."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear Wide camera and no rear telephoto module.",
+          "normalizedValue": null,
+          "note": "No telephoto camera is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Ultra Wide front camera, ƒ/2.4, 122° field of view",
+          "normalizedValue": 12,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; 1080p at 25/30/60fps; 720p at 30fps; 1080p slow motion at 120/240fps. Front: 1080p at 25/30/60fps.",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Built-in 28.6Wh rechargeable lithium-polymer battery; mAh is not published",
+          "normalizedValue": 28.6,
+          "note": "Apple publishes watt-hours, not mAh. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.6,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C charging; a 20W USB-C power adapter is included. Maximum device input wattage is not stated.",
+          "normalizedValue": "USB-C charging; 20W adapter included; max device input not stated",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not state wireless or reverse charging support.",
+          "normalizedValue": null,
+          "note": "Charging capability is not inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "247.6 × 178.5 × 6.1 mm",
+          "normalizedValue": "247.6 x 178.5 x 6.1 mm",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "247.6 x 178.5 x 6.1 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi + Cellular model: 462g",
+          "normalizedValue": 462,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "weightG",
+          "catalogValue": 462,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_environment",
+          "sourceValue": "Apple's March 2022 product environmental report identifies the iPad Air (5th generation) enclosure material.",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Model-specific material is documented in Apple's product environmental report; recycled-content details are retained in the source record."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed technical specifications do not state an IP ingress-protection rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Nano-SIM and eSIM",
+          "normalizedValue": "Nano-SIM and eSIM",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM and eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple publishes a 5G/LTE/UMTS band table for model A2589; Apple also identifies A2591 as a Wi-Fi + Cellular variant but the reviewed spec does not give A2591's band table. The PH article does not specify the local part-number suffix.",
+          "normalizedValue": null,
+          "note": "Keep exact PH/A2591 band coverage unresolved. Do not automatically transfer A2589's table to A2591 or treat the listed bands as proof of a Philippine SKU."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "GPS/GNSS is listed for Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi + Cellular; 5G NR and LTE cellular data",
+          "normalizedValue": "Wi-Fi + Cellular; 5G/LTE",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular; 5G/LTE"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "802.11ax Wi-Fi 6; dual band (2.4/5GHz); HT80 with MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax); dual band; MIMO",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax); dual band; MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C with charging, native DisplayPort and USB 3.1 Gen 2 up to 10Gb/s",
+          "normalizedValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not list NFC in the reviewed iPad Air 5 specification.",
+          "normalizedValue": null,
+          "note": "NFC remains unrecorded; absence from this spec sheet is not treated as an explicit no."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Stereo speakers and dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer, ambient light sensor; digital compass and iBeacon micro-location",
+          "normalizedValue": "Touch ID; gyro; accelerometer; barometer; ambient-light sensor; digital compass; iBeacon",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Compatible with Magic Keyboard and Smart Keyboard Folio",
+          "normalizedValue": "Magic Keyboard; Smart Keyboard Folio",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Magic Keyboard; Smart Keyboard Folio"
+        }
+      ],
+      "modelCode": "A2589 / A2591",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Dated Philippine evidence: Beyond the Box preorder reported by 2022-04-01 and availability at Apple Philippines, Power Mac Center and retailers nationwide reported by Spot.ph on 2022-04-19. Exact first-sale date is not documented.",
+        "philippineAvailability": "Philippine preorder evidence by 2022-04-01 and local availability reported by 2022-04-19; neither source establishes the first authorized sale date.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact Apple storage, RAM, connectivity and model-family configurations reviewed. Dated Philippine availability and historical prices are sourced. Exact first-sale date, Philippine part-number suffix, current buyable price and A2591 cellular band table remain unresolved. Workbook study eligibility remains Pending.",
+        "catalogModel": "iPad Air 5th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad Air",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported Philippine availability by 2022-04-19; first sale date unknown",
+        "researchNotes": "Workbook row 112 is matched to Apple's iPad Air (5th generation, 2022). The catalog exposes four distinct 64GB/256GB Wi-Fi/Wi-Fi + Cellular configurations; the five finishes do not create separate hardware configurations. Apple maps Wi-Fi to A2588 and cellular to A2589/A2591, but Philippine price reports do not identify the unit's part-number suffix. Local sources report preorder availability by 2022-04-01 and retail availability by 2022-04-19. Prices are preserved as dated launch-period, October 2022 revised, and Power Mac Center page observations; no 2026 orderable stock was verified. Battery is retained in Apple's stated Wh, not converted to mAh. A matching Apple Support family illustration is preserved only as an image candidate because reuse rights were not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact first Philippine sale date is not documented",
+            "action": "Keep the date blank; retain dated preorder and by-date availability evidence."
+          },
+          {
+            "issue": "Philippine part-number suffix is not stated in local reports",
+            "action": "Do not claim A2588/A2589/A2591 as a confirmed PH SKU."
+          },
+          {
+            "issue": "Current new buyable price/stock is unverified",
+            "action": "Keep current price blank; do not treat sold-out pages or stale price tables as live offers."
+          },
+          {
+            "issue": "A2591 cellular band table is not shown on the reviewed Apple specification page",
+            "action": "Keep exact A2591/PH band coverage pending."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain exact-family Apple image candidate for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_a9930490a861ed",
+      "configurationId": "device_a9930490a861ed-256gb-wifi",
+      "brand": "Apple",
+      "model": "iPad Air 5th Gen",
+      "configuration": "256 GB / Wi-Fi",
+      "configurationLabel": "256 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad_air5_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ph/111887",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer technical specifications for iPad Air (5th generation)",
+          "note": "Apple lists 2022, 64GB/256GB, 10.9-inch Liquid Retina display, M1 and 8GB RAM, cameras/video, battery energy, Wi-Fi/Bluetooth, A2589 cellular bands, USB-C, physical measurements, sensors and Apple Pencil support."
+        },
+        {
+          "id": "apple_ipad_air5_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number and capacity identification",
+          "note": "Apple maps A2588 to iPad Air (5th generation) and A2589/A2591 to Wi-Fi + Cellular; Apple lists 64GB and 256GB. The PH price articles do not expose the suffix printed on a locally sold unit."
+        },
+        {
+          "id": "apple_ipad_air5_announcement",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2022/03/apple-introduces-the-most-powerful-and-versatile-ipad-air-ever/",
+          "publicationDate": "2022-03-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Product announcement, initial global availability, launch software and accessory support",
+          "note": "Apple announced the M1 iPad Air on 2022-03-08, opened orders 2022-03-11, and announced in-store availability from 2022-03-18. It describes 5G cellular models, iPadOS 15, accessories and product features."
+        },
+        {
+          "id": "apple_ipad_air5_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_Air_PER_March2022.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and material composition",
+          "note": "Apple's March 2022 iPad Air Product Environmental Report documents the 5th-generation model and its enclosure materials."
+        },
+        {
+          "id": "technobaboy_ipad_air5_ph_prices",
+          "publisher": "Technobaboy",
+          "url": "https://www.technobaboy.com/2022/03/09/ipad-air-5-2022-official-now-comes-with-m1-chip-5g-price-in-the-philippines/",
+          "publicationDate": "2022-03-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch-period configuration price report",
+          "note": "Published 2022-03-09, lists the four 64GB/256GB Wi-Fi/cellular PH prices one day after Apple announced the model. This is a secondary dated price report; it does not independently establish the exact first PH sale date or first-day official MSRP."
+        },
+        {
+          "id": "gadgetpilipinas_ipad_air5_ph_preorder",
+          "publisher": "Gadget Pilipinas / Beyond the Box",
+          "url": "https://www.gadgetpilipinas.net/2022/04/5th-gen-ipad-air-ph-beyond-the-box/",
+          "publicationDate": "2022-04-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated authorized-retailer PH preorder evidence",
+          "note": "Published 2022-04-01, reports Beyond the Box preorders through that evening and quotes SRP of PHP 37,990/46,990 by capacity. Its table does not identify Wi-Fi versus cellular, and these amounts differ from the 2022-03-09 and 2022-04-19 Philippine configuration reports; preserve them as configuration-ambiguous retailer price evidence."
+        },
+        {
+          "id": "spot_ipad_air5_ph_availability_prices",
+          "publisher": "Spot.ph",
+          "url": "https://www.spot.ph/shopping/the-latest-shopping/89068/apple-ipad-air-5-now-available-in-the-philippines-official-prices-a5092-20220419",
+          "publicationDate": "2022-04-19",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated report that exact PH configurations were available and local price list",
+          "note": "Published 2022-04-19, says iPad Air 5 was available in the Philippines from Apple's website, Power Mac Center's website and retailers nationwide; lists all four storage/connectivity prices. This supports availability by the publication date, not the first-sale date."
+        },
+        {
+          "id": "yugatech_ipad_air5_ph_price_increase",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-increases-ipad-air-5th-gen-ipad-9th-gen-prices-in-the-philippines/",
+          "publicationDate": "2022-10-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine retail price-increase report with prior and revised configuration prices",
+          "note": "Published 2022-10-25, reports that PH retail prices changed from PHP 35,990/44,990 Wi-Fi and 44,990/53,990 Wi-Fi + Cellular to PHP 39,990/49,990 Wi-Fi and 49,990/59,990 Wi-Fi + Cellular for 64GB/256GB respectively."
+        },
+        {
+          "id": "powermaccenter_ipad_air5_price_table",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/installment-options",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration price table observation; not treated as current buyable price",
+          "note": "The page's installment table displays retail prices for all four Air 5 configurations. Its linked installment validity text refers to 2024 and the page does not expose stock/orderability for these legacy models, so the listed values are retained as an undated stale page observation only."
+        },
+        {
+          "id": "istore_ipad_air5_listing",
+          "publisher": "iStore Philippines",
+          "url": "https://istore.ph/products/ipad-air-5th-generation",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-family retailer listing and stock-state cross-check",
+          "note": "The product page identifies iPad Air (5th Generation), 64GB, Wi-Fi and shows Sold out. Page price markup is ambiguous; no amount is promoted as a reliable current price."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "A2588",
+          "normalizedValue": "A2588",
+          "note": "Apple maps A2588 to the Wi-Fi model. The workbook's PH unit suffix is not supplied, so this is the Apple global Wi-Fi model mapping, not a verified local part number.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Apple announced 2022-03-08; orders began 2022-03-11 and initial in-store availability was announced for 2022-03-18.",
+          "normalizedValue": "2022-03-18",
+          "note": "Apple's launch release sets in-store availability from 2022-03-18. This is the announced initial global date, not the Philippine first-sale date.",
+          "unit": "date"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch / 8GB RAM / 256GB / Wi-Fi / A2588",
+          "normalizedValue": "10.9-inch / 8 GB RAM / 256 GB / Wi-Fi",
+          "note": "Apple lists 64GB and 256GB capacities, a single 8GB RAM amount, and separate Wi-Fi/cellular model numbers. Finish colors are not separate technical configurations. The PH-specific part-number suffix is not given in local sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "spot_ipad_air5_ph_availability_prices",
+          "sourceValue": "Beyond the Box preorder was reported on 2022-04-01; Spot.ph reported the device available in the Philippines on 2022-04-19. Neither source establishes the first authorized sale date.",
+          "normalizedValue": null,
+          "note": "Do not treat preorder opening or the first located availability report as the actual first-sale date. Keep the release-date field blank; dated PH availability by 2022-04-19 is separately recorded.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "technobaboy_ipad_air5_ph_prices",
+          "sourceValue": "A Philippine article published 2022-03-09 reports PHP 44,990 for 256 GB / Wi-Fi; primary Apple or retailer documentation confirming first-day official MSRP was not located.",
+          "normalizedValue": null,
+          "note": "Keep the official-launch-MSRP field blank. Retain dated PH configuration prices as secondary historical observations, not a verified first-day official MSRP.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "istore_ipad_air5_listing",
+          "sourceValue": "The reviewed iStore Philippines exact-family listing shows Sold out; the page's price markup is ambiguous. The Power Mac Center table does not verify stock/orderability and contains installment terms that expired in 2024.",
+          "normalizedValue": null,
+          "note": "No current buyable price verified. Keep the catalog's current price empty and retain any dated or stale retailer-page observations outside numeric current-price filtering.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch diagonal; 10.86 inches when measured as a rectangle",
+          "normalizedValue": 10.9,
+          "note": "Apple markets the panel as 10.9-inch; it specifies 10.86 inches when the rounded-corner panel is measured diagonally as a rectangle. Catalog stores the marketed screen size.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.9,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Liquid Retina, LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "Liquid Retina LED-backlit IPS LCD",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "2360 × 1640 pixels at 264 ppi",
+          "normalizedValue": "2360 x 1640",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's iPad Air 5 technical specifications do not state a display refresh-rate value.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded; it is not inferred from the absence of ProMotion.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "P3 wide color, True Tone, fully laminated, anti-reflective and fingerprint-resistant oleophobic coatings",
+          "normalizedValue": "P3; True Tone; fully laminated; anti-reflective; oleophobic coating",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple M1 chip",
+          "normalizedValue": "Apple M1",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple M1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed iPad Air 5 specifications do not disclose a semiconductor fabrication node.",
+          "normalizedValue": null,
+          "note": "No process node inferred from other M1 products or secondary estimates.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core CPU: 4 performance cores and 4 efficiency cores",
+          "normalizedValue": "8-core CPU (4 performance + 4 efficiency)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core CPU (4 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core GPU",
+          "normalizedValue": "8-core Apple GPU",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "gpu",
+          "catalogValue": "8-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Ships with iPadOS 15",
+          "normalizedValue": "iPadOS 15",
+          "note": "Apple's announcement describes iPadOS 15 at launch. This is not a claim about a current installed OS version.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS 15"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not publish a guaranteed support end date for this iPadOS device.",
+          "normalizedValue": null,
+          "note": "Support duration/end date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8GB RAM",
+          "normalizedValue": 8,
+          "note": "Apple lists 8GB RAM for the model; this amount applies to both supported storage capacities.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not identify the RAM technology/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Memory type not inferred."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "256GB",
+          "normalizedValue": 256,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not state the internal flash-storage interface or type.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not identify a memory-card slot or explicitly document internal-storage expansion.",
+          "normalizedValue": null,
+          "note": "Do not infer removable or expandable storage from the USB-C port."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8, 5× digital zoom, five-element lens, Focus Pixels autofocus, Smart HDR 3",
+          "normalizedValue": "12MP Wide rear camera, f/1.8",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12MP Wide rear camera, f/1.8",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not disclose the main camera sensor manufacturer or part number.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear 12MP Wide camera; the Ultra Wide module is front-facing.",
+          "normalizedValue": null,
+          "note": "No rear Ultra Wide camera is specified."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear Wide camera and no rear telephoto module.",
+          "normalizedValue": null,
+          "note": "No telephoto camera is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Ultra Wide front camera, ƒ/2.4, 122° field of view",
+          "normalizedValue": 12,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; 1080p at 25/30/60fps; 720p at 30fps; 1080p slow motion at 120/240fps. Front: 1080p at 25/30/60fps.",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Built-in 28.6Wh rechargeable lithium-polymer battery; mAh is not published",
+          "normalizedValue": 28.6,
+          "note": "Apple publishes watt-hours, not mAh. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.6,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C charging; a 20W USB-C power adapter is included. Maximum device input wattage is not stated.",
+          "normalizedValue": "USB-C charging; 20W adapter included; max device input not stated",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not state wireless or reverse charging support.",
+          "normalizedValue": null,
+          "note": "Charging capability is not inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "247.6 × 178.5 × 6.1 mm",
+          "normalizedValue": "247.6 x 178.5 x 6.1 mm",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "247.6 x 178.5 x 6.1 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi model: 461g",
+          "normalizedValue": 461,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "weightG",
+          "catalogValue": 461,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_environment",
+          "sourceValue": "Apple's March 2022 product environmental report identifies the iPad Air (5th generation) enclosure material.",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Model-specific material is documented in Apple's product environmental report; recycled-content details are retained in the source record."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed technical specifications do not state an IP ingress-protection rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "Wi-Fi-only model A2588; SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Apple identifies cellular models separately as A2589/A2591."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "Wi-Fi-only A2588 has no cellular radio",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi configuration."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists GPS/GNSS for Wi-Fi + Cellular models, but does not list built-in GPS/GNSS for the Wi-Fi configuration.",
+          "normalizedValue": null,
+          "note": "Do not claim GNSS on Wi-Fi A2588."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi model A2588",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "802.11ax Wi-Fi 6; dual band (2.4/5GHz); HT80 with MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax); dual band; MIMO",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax); dual band; MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C with charging, native DisplayPort and USB 3.1 Gen 2 up to 10Gb/s",
+          "normalizedValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not list NFC in the reviewed iPad Air 5 specification.",
+          "normalizedValue": null,
+          "note": "NFC remains unrecorded; absence from this spec sheet is not treated as an explicit no."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Stereo speakers and dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer, ambient light sensor; digital compass and iBeacon micro-location",
+          "normalizedValue": "Touch ID; gyro; accelerometer; barometer; ambient-light sensor; digital compass; iBeacon",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Compatible with Magic Keyboard and Smart Keyboard Folio",
+          "normalizedValue": "Magic Keyboard; Smart Keyboard Folio",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Magic Keyboard; Smart Keyboard Folio"
+        }
+      ],
+      "modelCode": "A2588",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Dated Philippine evidence: Beyond the Box preorder reported by 2022-04-01 and availability at Apple Philippines, Power Mac Center and retailers nationwide reported by Spot.ph on 2022-04-19. Exact first-sale date is not documented.",
+        "philippineAvailability": "Philippine preorder evidence by 2022-04-01 and local availability reported by 2022-04-19; neither source establishes the first authorized sale date.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact Apple storage, RAM, connectivity and model-family configurations reviewed. Dated Philippine availability and historical prices are sourced. Exact first-sale date, Philippine part-number suffix, current buyable price and A2591 cellular band table remain unresolved. Workbook study eligibility remains Pending.",
+        "catalogModel": "iPad Air 5th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad Air",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported Philippine availability by 2022-04-19; first sale date unknown",
+        "researchNotes": "Workbook row 112 is matched to Apple's iPad Air (5th generation, 2022). The catalog exposes four distinct 64GB/256GB Wi-Fi/Wi-Fi + Cellular configurations; the five finishes do not create separate hardware configurations. Apple maps Wi-Fi to A2588 and cellular to A2589/A2591, but Philippine price reports do not identify the unit's part-number suffix. Local sources report preorder availability by 2022-04-01 and retail availability by 2022-04-19. Prices are preserved as dated launch-period, October 2022 revised, and Power Mac Center page observations; no 2026 orderable stock was verified. Battery is retained in Apple's stated Wh, not converted to mAh. A matching Apple Support family illustration is preserved only as an image candidate because reuse rights were not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact first Philippine sale date is not documented",
+            "action": "Keep the date blank; retain dated preorder and by-date availability evidence."
+          },
+          {
+            "issue": "Philippine part-number suffix is not stated in local reports",
+            "action": "Do not claim A2588/A2589/A2591 as a confirmed PH SKU."
+          },
+          {
+            "issue": "Current new buyable price/stock is unverified",
+            "action": "Keep current price blank; do not treat sold-out pages or stale price tables as live offers."
+          },
+          {
+            "issue": "A2591 cellular band table is not shown on the reviewed Apple specification page",
+            "action": "Keep exact A2591/PH band coverage pending."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain exact-family Apple image candidate for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_a9930490a861ed",
+      "configurationId": "device_a9930490a861ed-256gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad Air 5th Gen",
+      "configuration": "256 GB / Wi-Fi + Cellular",
+      "configurationLabel": "256 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad_air5_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-ph/111887",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer technical specifications for iPad Air (5th generation)",
+          "note": "Apple lists 2022, 64GB/256GB, 10.9-inch Liquid Retina display, M1 and 8GB RAM, cameras/video, battery energy, Wi-Fi/Bluetooth, A2589 cellular bands, USB-C, physical measurements, sensors and Apple Pencil support."
+        },
+        {
+          "id": "apple_ipad_air5_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number and capacity identification",
+          "note": "Apple maps A2588 to iPad Air (5th generation) and A2589/A2591 to Wi-Fi + Cellular; Apple lists 64GB and 256GB. The PH price articles do not expose the suffix printed on a locally sold unit."
+        },
+        {
+          "id": "apple_ipad_air5_announcement",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2022/03/apple-introduces-the-most-powerful-and-versatile-ipad-air-ever/",
+          "publicationDate": "2022-03-08",
+          "accessDate": "2026-11-27",
+          "purpose": "Product announcement, initial global availability, launch software and accessory support",
+          "note": "Apple announced the M1 iPad Air on 2022-03-08, opened orders 2022-03-11, and announced in-store availability from 2022-03-18. It describes 5G cellular models, iPadOS 15, accessories and product features."
+        },
+        {
+          "id": "apple_ipad_air5_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_Air_PER_March2022.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and material composition",
+          "note": "Apple's March 2022 iPad Air Product Environmental Report documents the 5th-generation model and its enclosure materials."
+        },
+        {
+          "id": "technobaboy_ipad_air5_ph_prices",
+          "publisher": "Technobaboy",
+          "url": "https://www.technobaboy.com/2022/03/09/ipad-air-5-2022-official-now-comes-with-m1-chip-5g-price-in-the-philippines/",
+          "publicationDate": "2022-03-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch-period configuration price report",
+          "note": "Published 2022-03-09, lists the four 64GB/256GB Wi-Fi/cellular PH prices one day after Apple announced the model. This is a secondary dated price report; it does not independently establish the exact first PH sale date or first-day official MSRP."
+        },
+        {
+          "id": "gadgetpilipinas_ipad_air5_ph_preorder",
+          "publisher": "Gadget Pilipinas / Beyond the Box",
+          "url": "https://www.gadgetpilipinas.net/2022/04/5th-gen-ipad-air-ph-beyond-the-box/",
+          "publicationDate": "2022-04-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated authorized-retailer PH preorder evidence",
+          "note": "Published 2022-04-01, reports Beyond the Box preorders through that evening and quotes SRP of PHP 37,990/46,990 by capacity. Its table does not identify Wi-Fi versus cellular, and these amounts differ from the 2022-03-09 and 2022-04-19 Philippine configuration reports; preserve them as configuration-ambiguous retailer price evidence."
+        },
+        {
+          "id": "spot_ipad_air5_ph_availability_prices",
+          "publisher": "Spot.ph",
+          "url": "https://www.spot.ph/shopping/the-latest-shopping/89068/apple-ipad-air-5-now-available-in-the-philippines-official-prices-a5092-20220419",
+          "publicationDate": "2022-04-19",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated report that exact PH configurations were available and local price list",
+          "note": "Published 2022-04-19, says iPad Air 5 was available in the Philippines from Apple's website, Power Mac Center's website and retailers nationwide; lists all four storage/connectivity prices. This supports availability by the publication date, not the first-sale date."
+        },
+        {
+          "id": "yugatech_ipad_air5_ph_price_increase",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-increases-ipad-air-5th-gen-ipad-9th-gen-prices-in-the-philippines/",
+          "publicationDate": "2022-10-25",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine retail price-increase report with prior and revised configuration prices",
+          "note": "Published 2022-10-25, reports that PH retail prices changed from PHP 35,990/44,990 Wi-Fi and 44,990/53,990 Wi-Fi + Cellular to PHP 39,990/49,990 Wi-Fi and 49,990/59,990 Wi-Fi + Cellular for 64GB/256GB respectively."
+        },
+        {
+          "id": "powermaccenter_ipad_air5_price_table",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/installment-options",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration price table observation; not treated as current buyable price",
+          "note": "The page's installment table displays retail prices for all four Air 5 configurations. Its linked installment validity text refers to 2024 and the page does not expose stock/orderability for these legacy models, so the listed values are retained as an undated stale page observation only."
+        },
+        {
+          "id": "istore_ipad_air5_listing",
+          "publisher": "iStore Philippines",
+          "url": "https://istore.ph/products/ipad-air-5th-generation",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-family retailer listing and stock-state cross-check",
+          "note": "The product page identifies iPad Air (5th Generation), 64GB, Wi-Fi and shows Sold out. Page price markup is ambiguous; no amount is promoted as a reliable current price."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_model_ids",
+          "sourceValue": "A2589 / A2591",
+          "normalizedValue": "A2589 / A2591",
+          "note": "Apple identifies A2589 and A2591 as Wi-Fi + Cellular iPad Air (5th generation) models. The cited local price/availability sources do not identify which printed part-number suffix was sold in the Philippines.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Apple announced 2022-03-08; orders began 2022-03-11 and initial in-store availability was announced for 2022-03-18.",
+          "normalizedValue": "2022-03-18",
+          "note": "Apple's launch release sets in-store availability from 2022-03-18. This is the announced initial global date, not the Philippine first-sale date.",
+          "unit": "date"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch / 8GB RAM / 256GB / Wi-Fi + Cellular / A2589 / A2591",
+          "normalizedValue": "10.9-inch / 8 GB RAM / 256 GB / Wi-Fi + Cellular",
+          "note": "Apple lists 64GB and 256GB capacities, a single 8GB RAM amount, and separate Wi-Fi/cellular model numbers. Finish colors are not separate technical configurations. The PH-specific part-number suffix is not given in local sources.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "spot_ipad_air5_ph_availability_prices",
+          "sourceValue": "Beyond the Box preorder was reported on 2022-04-01; Spot.ph reported the device available in the Philippines on 2022-04-19. Neither source establishes the first authorized sale date.",
+          "normalizedValue": null,
+          "note": "Do not treat preorder opening or the first located availability report as the actual first-sale date. Keep the release-date field blank; dated PH availability by 2022-04-19 is separately recorded.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "technobaboy_ipad_air5_ph_prices",
+          "sourceValue": "A Philippine article published 2022-03-09 reports PHP 53,990 for 256 GB / Wi-Fi + Cellular; primary Apple or retailer documentation confirming first-day official MSRP was not located.",
+          "normalizedValue": null,
+          "note": "Keep the official-launch-MSRP field blank. Retain dated PH configuration prices as secondary historical observations, not a verified first-day official MSRP.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "istore_ipad_air5_listing",
+          "sourceValue": "The reviewed iStore Philippines exact-family listing shows Sold out; the page's price markup is ambiguous. The Power Mac Center table does not verify stock/orderability and contains installment terms that expired in 2024.",
+          "normalizedValue": null,
+          "note": "No current buyable price verified. Keep the catalog's current price empty and retain any dated or stale retailer-page observations outside numeric current-price filtering.",
+          "unit": "PHP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "10.9-inch diagonal; 10.86 inches when measured as a rectangle",
+          "normalizedValue": 10.9,
+          "note": "Apple markets the panel as 10.9-inch; it specifies 10.86 inches when the rounded-corner panel is measured diagonally as a rectangle. Catalog stores the marketed screen size.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.9,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Liquid Retina, LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "Liquid Retina LED-backlit IPS LCD",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "displayType",
+          "catalogValue": "Liquid Retina LED-backlit IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "2360 × 1640 pixels at 264 ppi",
+          "normalizedValue": "2360 x 1640",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's iPad Air 5 technical specifications do not state a display refresh-rate value.",
+          "normalizedValue": null,
+          "note": "Refresh rate remains unrecorded; it is not inferred from the absence of ProMotion.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "P3 wide color, True Tone, fully laminated, anti-reflective and fingerprint-resistant oleophobic coatings",
+          "normalizedValue": "P3; True Tone; fully laminated; anti-reflective; oleophobic coating",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple M1 chip",
+          "normalizedValue": "Apple M1",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple M1"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed iPad Air 5 specifications do not disclose a semiconductor fabrication node.",
+          "normalizedValue": null,
+          "note": "No process node inferred from other M1 products or secondary estimates.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core CPU: 4 performance cores and 4 efficiency cores",
+          "normalizedValue": "8-core CPU (4 performance + 4 efficiency)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cpu",
+          "catalogValue": "8-core CPU (4 performance + 4 efficiency)"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8-core GPU",
+          "normalizedValue": "8-core Apple GPU",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "gpu",
+          "catalogValue": "8-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Ships with iPadOS 15",
+          "normalizedValue": "iPadOS 15",
+          "note": "Apple's announcement describes iPadOS 15 at launch. This is not a claim about a current installed OS version.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS 15"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not publish a guaranteed support end date for this iPadOS device.",
+          "normalizedValue": null,
+          "note": "Support duration/end date not inferred."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "8GB RAM",
+          "normalizedValue": 8,
+          "note": "Apple lists 8GB RAM for the model; this amount applies to both supported storage capacities.",
+          "catalogKey": "ramGb",
+          "catalogValue": 8,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not identify the RAM technology/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Memory type not inferred."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "256GB",
+          "normalizedValue": 256,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not state the internal flash-storage interface or type.",
+          "normalizedValue": null,
+          "note": "Storage type not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not identify a memory-card slot or explicitly document internal-storage expansion.",
+          "normalizedValue": null,
+          "note": "Do not infer removable or expandable storage from the USB-C port."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8, 5× digital zoom, five-element lens, Focus Pixels autofocus, Smart HDR 3",
+          "normalizedValue": "12MP Wide rear camera, f/1.8",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12MP Wide rear camera, f/1.8",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not disclose the main camera sensor manufacturer or part number.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear 12MP Wide camera; the Ultra Wide module is front-facing.",
+          "normalizedValue": null,
+          "note": "No rear Ultra Wide camera is specified."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple lists one rear Wide camera and no rear telephoto module.",
+          "normalizedValue": null,
+          "note": "No telephoto camera is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "12MP Ultra Wide front camera, ƒ/2.4, 122° field of view",
+          "normalizedValue": 12,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rear: 4K at 24/25/30/60fps; 1080p at 25/30/60fps; 720p at 30fps; 1080p slow motion at 120/240fps. Front: 1080p at 25/30/60fps.",
+          "normalizedValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 4K/60fps; front 1080p/60fps; slow motion 1080p/240fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Built-in 28.6Wh rechargeable lithium-polymer battery; mAh is not published",
+          "normalizedValue": 28.6,
+          "note": "Apple publishes watt-hours, not mAh. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.6,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C charging; a 20W USB-C power adapter is included. Maximum device input wattage is not stated.",
+          "normalizedValue": "USB-C charging; 20W adapter included; max device input not stated",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed specifications do not state wireless or reverse charging support.",
+          "normalizedValue": null,
+          "note": "Charging capability is not inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "247.6 × 178.5 × 6.1 mm",
+          "normalizedValue": "247.6 x 178.5 x 6.1 mm",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "247.6 x 178.5 x 6.1 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi + Cellular model: 462g",
+          "normalizedValue": 462,
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "weightG",
+          "catalogValue": 462,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_environment",
+          "sourceValue": "Apple's March 2022 product environmental report identifies the iPad Air (5th generation) enclosure material.",
+          "normalizedValue": "Aluminum enclosure",
+          "note": "Model-specific material is documented in Apple's product environmental report; recycled-content details are retained in the source record."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple's reviewed technical specifications do not state an IP ingress-protection rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Nano-SIM and eSIM",
+          "normalizedValue": "Nano-SIM and eSIM",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM and eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple publishes a 5G/LTE/UMTS band table for model A2589; Apple also identifies A2591 as a Wi-Fi + Cellular variant but the reviewed spec does not give A2591's band table. The PH article does not specify the local part-number suffix.",
+          "normalizedValue": null,
+          "note": "Keep exact PH/A2591 band coverage unresolved. Do not automatically transfer A2589's table to A2591 or treat the listed bands as proof of a Philippine SKU."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "GPS/GNSS is listed for Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Wi-Fi + Cellular; 5G NR and LTE cellular data",
+          "normalizedValue": "Wi-Fi + Cellular; 5G/LTE",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular; 5G/LTE"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "802.11ax Wi-Fi 6; dual band (2.4/5GHz); HT80 with MIMO",
+          "normalizedValue": "Wi-Fi 6 (802.11ax); dual band; MIMO",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax); dual band; MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "USB-C with charging, native DisplayPort and USB 3.1 Gen 2 up to 10Gb/s",
+          "normalizedValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 3.1 Gen 2 up to 10Gb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple does not list NFC in the reviewed iPad Air 5 specification.",
+          "normalizedValue": null,
+          "note": "NFC remains unrecorded; absence from this spec sheet is not treated as an explicit no."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Stereo speakers and dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Touch ID, three-axis gyro, accelerometer, barometer, ambient light sensor; digital compass and iBeacon micro-location",
+          "normalizedValue": "Touch ID; gyro; accelerometer; barometer; ambient-light sensor; digital compass; iBeacon",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_specs",
+          "sourceValue": "Apple Pencil (2nd generation) and Apple Pencil (USB-C) supported",
+          "normalizedValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (2nd generation); Apple Pencil (USB-C)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_air5_announcement",
+          "sourceValue": "Compatible with Magic Keyboard and Smart Keyboard Folio",
+          "normalizedValue": "Magic Keyboard; Smart Keyboard Folio",
+          "note": "Exact iPad Air (5th generation) specification checked against the cited manufacturer source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Magic Keyboard; Smart Keyboard Folio"
+        }
+      ],
+      "modelCode": "A2589 / A2591",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Dated Philippine evidence: Beyond the Box preorder reported by 2022-04-01 and availability at Apple Philippines, Power Mac Center and retailers nationwide reported by Spot.ph on 2022-04-19. Exact first-sale date is not documented.",
+        "philippineAvailability": "Philippine preorder evidence by 2022-04-01 and local availability reported by 2022-04-19; neither source establishes the first authorized sale date.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact Apple storage, RAM, connectivity and model-family configurations reviewed. Dated Philippine availability and historical prices are sourced. Exact first-sale date, Philippine part-number suffix, current buyable price and A2591 cellular band table remain unresolved. Workbook study eligibility remains Pending.",
+        "catalogModel": "iPad Air 5th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad Air",
+        "philippineReleaseYear": 2022,
+        "philippineDateLabel": "Reported Philippine availability by 2022-04-19; first sale date unknown",
+        "researchNotes": "Workbook row 112 is matched to Apple's iPad Air (5th generation, 2022). The catalog exposes four distinct 64GB/256GB Wi-Fi/Wi-Fi + Cellular configurations; the five finishes do not create separate hardware configurations. Apple maps Wi-Fi to A2588 and cellular to A2589/A2591, but Philippine price reports do not identify the unit's part-number suffix. Local sources report preorder availability by 2022-04-01 and retail availability by 2022-04-19. Prices are preserved as dated launch-period, October 2022 revised, and Power Mac Center page observations; no 2026 orderable stock was verified. Battery is retained in Apple's stated Wh, not converted to mAh. A matching Apple Support family illustration is preserved only as an image candidate because reuse rights were not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact first Philippine sale date is not documented",
+            "action": "Keep the date blank; retain dated preorder and by-date availability evidence."
+          },
+          {
+            "issue": "Philippine part-number suffix is not stated in local reports",
+            "action": "Do not claim A2588/A2589/A2591 as a confirmed PH SKU."
+          },
+          {
+            "issue": "Current new buyable price/stock is unverified",
+            "action": "Keep current price blank; do not treat sold-out pages or stale price tables as live offers."
+          },
+          {
+            "issue": "A2591 cellular band table is not shown on the reviewed Apple specification page",
+            "action": "Keep exact A2591/PH band coverage pending."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Keep neutral placeholder and retain exact-family Apple image candidate for rights review."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook study scope."
           }
         ]
       }

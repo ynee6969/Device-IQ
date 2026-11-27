@@ -4252,5 +4252,19 @@
     "rightsCheckSourcePage": "https://support.apple.com/en-ie/111886",
     "observedAt": "2026-11-27",
     "altText": "Image unavailable for Apple iPad mini 6"
+  },
+  "device_a9930490a861ed": {
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Apple Support provides an exact-family iPad Air (5th generation) illustration, but no permission or reusable license to republish or hotlink it is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://support.apple.com/en-us/108043",
+    "assetUrl": null,
+    "candidateAssetUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+    "scope": "Apple Support product identification illustration for iPad Air (5th generation), shown in multiple finishes; exact family but not a storage/connectivity-specific unit.",
+    "publisher": "Apple",
+    "rightsTermsUrl": null,
+    "rightsCheck": "No reuse permission or license was found on the reviewed Apple Support page. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://support.apple.com/en-us/108043",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for Apple iPad Air 5th Gen"
   }
 }

@@ -668,6 +668,159 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_a9930490a861ed",
+      "model": "iPad Air 5th Gen",
+      "supersededConfigurationId": "device_a9930490a861ed-unrecorded",
+      "supersededAt": "2026-11-27",
+      "reason": "Replaced the model-level record with four exact Apple storage/connectivity configurations; the original 13-field review and source observations are preserved in this archive.",
+      "review": {
+        "deviceId": "device_a9930490a861ed",
+        "configurationId": "device_a9930490a861ed-unrecorded",
+        "brand": "Apple",
+        "model": "iPad Air 5th Gen",
+        "configurationLabel": "Configuration not recorded",
+        "sources": [
+          {
+            "id": "apple_ipad_air_5th_gen_tech_specs",
+            "publisher": "Apple Support",
+            "url": "https://support.apple.com/en-us/111887",
+            "publicationDate": "2022-01-01",
+            "accessDate": "2026-11-25",
+            "purpose": "Official manufacturer technical specifications",
+            "note": "Apple technical specifications for iPad Air 5th Gen; model-level values do not establish Philippine sales or the workbook's exact storage configuration."
+          }
+        ],
+        "fields": [
+          {
+            "fieldId": "display_size",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "10.86 in",
+            "normalizedValue": 10.86,
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "displayInches",
+            "catalogValue": 10.86,
+            "unit": "in"
+          },
+          {
+            "fieldId": "display_technology",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "LCD IPS",
+            "normalizedValue": "LCD IPS",
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "displayType",
+            "catalogValue": "LCD IPS"
+          },
+          {
+            "fieldId": "display_resolution",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "1640 x 2360",
+            "normalizedValue": "1640 x 2360",
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "resolution",
+            "catalogValue": "1640 x 2360"
+          },
+          {
+            "fieldId": "chipset",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "Apple M1",
+            "normalizedValue": "Apple M1",
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "chipset",
+            "catalogValue": "Apple M1"
+          },
+          {
+            "fieldId": "cpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "8-core CPU",
+            "normalizedValue": "8-core CPU",
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "cpu",
+            "catalogValue": "8-core CPU"
+          },
+          {
+            "fieldId": "gpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "8-core Apple GPU",
+            "normalizedValue": "8-core Apple GPU",
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "gpu",
+            "catalogValue": "8-core Apple GPU"
+          },
+          {
+            "fieldId": "ram_capacity",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "8 GB",
+            "normalizedValue": 8,
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "ramGb",
+            "catalogValue": 8,
+            "unit": "GB"
+          },
+          {
+            "fieldId": "front_camera",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "12 MP",
+            "normalizedValue": 12,
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "frontCameraMp",
+            "catalogValue": 12,
+            "unit": "MP"
+          },
+          {
+            "fieldId": "wifi",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "Wi-Fi 6 (802.11ax)",
+            "normalizedValue": "Wi-Fi 6 (802.11ax)",
+            "note": "Official Apple specifications for iPad Air 5th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "wifi",
+            "catalogValue": "Wi-Fi 6 (802.11ax)"
+          },
+          {
+            "fieldId": "weight",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "Wi-Fi: 461 g; Wi-Fi + Cellular: 462 g",
+            "normalizedValue": "Wi-Fi: 461 g; Wi-Fi + Cellular: 462 g",
+            "note": "Apple lists different weights by connectivity configuration. The inventory does not identify which connectivity option applies.",
+            "clearCatalogKey": "weightG"
+          },
+          {
+            "fieldId": "storage_capacity",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "64GB or 256GB",
+            "normalizedValue": "Manufacturer model options: 64GB or 256GB; inventory SKU not recorded.",
+            "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
+          },
+          {
+            "fieldId": "battery_capacity",
+            "status": "NOT_DISCLOSED",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
+            "normalizedValue": null,
+            "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
+          },
+          {
+            "fieldId": "philippine_release_date",
+            "status": "PENDING_VERIFICATION",
+            "sourceId": "apple_ipad_air_5th_gen_tech_specs",
+            "sourceValue": "Apple records worldwide year introduced as 2022; this is not a Philippine first-sale date.",
+            "normalizedValue": null,
+            "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
+          }
+        ]
+      }
     }
   ]
 }
