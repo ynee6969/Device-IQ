@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-27T11:43:45+08:00
+Generated: 2026-11-27T11:59:12+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -9,26 +9,26 @@ Generated: 2026-11-27T11:43:45+08:00
 | Metric | Actual result |
 | --- | ---: |
 | Models | 456 |
-| Configurations | 580 |
+| Configurations | 585 |
 | Models with manually verified source fields | 195 |
-| Configurations with manually verified source fields | 286 |
+| Configurations with manually verified source fields | 291 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
-| Models with all fields assessed | 9 |
+| Models with all fields assessed | 10 |
 | Specification-complete models | 0 |
-| Complete with disclosed gaps | 2 |
-| Incomplete models | 454 |
+| Complete with disclosed gaps | 3 |
+| Incomplete models | 453 |
 | Conflicting specification records | 126 |
-| Assessed specification fields | 8410 |
-| Verified specification fields | 7522 |
-| Unavailable fields | 596 |
-| Not applicable fields | 166 |
-| Pending verification fields | 18667 |
+| Assessed specification fields | 8693 |
+| Verified specification fields | 7719 |
+| Unavailable fields | 667 |
+| Not applicable fields | 181 |
+| Pending verification fields | 18629 |
 | Manually reviewed price candidates | 78 |
-| Assessment coverage | 31.06% |
-| Verified coverage | 27.78% |
+| Assessment coverage | 31.82% |
+| Verified coverage | 28.25% |
 | Candidate field observations | 5824 |
-| Candidate prices | 248 |
+| Candidate prices | 257 |
 | Candidate source links | 300 |
 | Image-matched models | 48 |
 | Models with image unavailable | 408 |
@@ -42,7 +42,7 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 | Category | Models | Configurations | Applicable field rows | Assessed | Verified | Pending | Assessment | Verified coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | smartphones | 288 | 389 | 17894 | 6271 | 5657 | 11623 | 35.05% | 31.61% |
-| tablets | 150 | 169 | 8281 | 1726 | 1454 | 6555 | 20.84% | 17.56% |
+| tablets | 150 | 174 | 8526 | 2009 | 1651 | 6517 | 23.56% | 19.36% |
 | laptops | 18 | 22 | 902 | 413 | 411 | 489 | 45.79% | 45.57% |
 
 ## Collection snapshot (candidate evidence, not verified facts)
@@ -51,10 +51,10 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 - Fetch attempts: 263; successful page extractions: 221.
 - Extracted pages by source type: `{'independent_ph_reference': 202, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 202, 'official': 19}`.
 - Fetch attempts by category: `{'smartphones': 190, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
-- Candidate field observations by source type: `{'independent_ph_reference': 5801, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144, 'historical_local_reported_srp': 1, 'dated_local_price_promotion': 1, 'historical_local_store_listing': 1, 'historical_local_price_list': 1, 'historical_local_launch_price': 1, 'historical_local_price_observation': 32, 'historical_local_launch_price_report': 5, 'historical_local_price_report': 1, 'current_official_store_listing': 2, 'manufacturer_parameter_page_price': 1, 'historical_local_promotion': 1, 'current_manufacturer_store_listing': 2}`.
-- Candidate prices: 248; discovery links: 300.
+- Candidate field observations by source type: `{'independent_ph_reference': 5801, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144, 'historical_local_reported_srp': 1, 'dated_local_price_promotion': 1, 'historical_local_store_listing': 1, 'historical_local_price_list': 1, 'historical_local_launch_price': 1, 'historical_local_price_observation': 32, 'historical_local_launch_price_report': 5, 'historical_local_price_report': 1, 'current_official_store_listing': 2, 'manufacturer_parameter_page_price': 1, 'historical_local_promotion': 1, 'current_manufacturer_store_listing': 8, 'historical_philippine_launch_price_report': 3}`.
+- Candidate prices: 257; discovery links: 300.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
-- 18667 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
+- 18629 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 
 ## Field backlog
 
@@ -62,24 +62,24 @@ Every category template field is enumerated in `research/enrichment/specificatio
 
 | Group | Applicable rows | Assessed | Verified | Pending |
 | --- | ---: | ---: | ---: | ---: |
-| Accessories | 338 | 84 | 74 | 254 |
-| Audio | 580 | 176 | 169 | 404 |
-| Battery | 2298 | 697 | 542 | 1601 |
-| Build | 2298 | 699 | 609 | 1599 |
-| Camera | 3370 | 1107 | 894 | 2263 |
-| Connectivity | 4185 | 1229 | 1153 | 2956 |
-| Display | 3502 | 1286 | 1210 | 2216 |
-| Identity | 1160 | 401 | 361 | 759 |
+| Accessories | 348 | 96 | 86 | 252 |
+| Audio | 585 | 182 | 175 | 403 |
+| Battery | 2318 | 720 | 554 | 1598 |
+| Build | 2318 | 722 | 629 | 1596 |
+| Camera | 3400 | 1142 | 917 | 2258 |
+| Connectivity | 4225 | 1276 | 1185 | 2949 |
+| Display | 3532 | 1319 | 1237 | 2213 |
+| Identity | 1170 | 413 | 373 | 757 |
 | Input | 44 | 7 | 7 | 37 |
-| Memory | 2922 | 955 | 885 | 1967 |
-| Other | 580 | 138 | 130 | 442 |
-| Philippine market | 1762 | 421 | 385 | 1341 |
-| Platform | 3480 | 1147 | 1050 | 2333 |
-| Release history | 558 | 63 | 53 | 495 |
+| Memory | 2947 | 984 | 890 | 1963 |
+| Other | 585 | 144 | 136 | 441 |
+| Philippine market | 1777 | 439 | 400 | 1338 |
+| Platform | 3510 | 1180 | 1071 | 2330 |
+| Release history | 563 | 69 | 59 | 494 |
 
 ## Priority list
 
-454 model records remain `SPECIFICATION_INCOMPLETE`. The list below is ordered by pending fields and missing current values, with exact configuration IDs so work can be assigned without merging variants.
+453 model records remain `SPECIFICATION_INCOMPLETE`. The list below is ordered by pending fields and missing current values, with exact configuration IDs so work can be assigned without merging variants.
 
 | Year (claimed) | Category | Brand | Model | Configuration | Record ID | Missing current values | Applicable fields | Status |
 | --- | --- | --- | --- | --- | --- | ---: | ---: | --- |
@@ -414,7 +414,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2021 | tablets | Apple | iPad 9th Gen | Configuration not recorded | `device_80a03073c65780-unrecorded` | 38 | 49 | SPECIFICATION_INCOMPLETE |
 | 2021 | tablets | Apple | iPad mini 6 | Configuration not recorded | `device_b3800bdea59d3d-unrecorded` | 38 | 49 | SPECIFICATION_INCOMPLETE |
 | 2022 | tablets | Apple | iPad 10th Gen | Configuration not recorded | `device_e4a50bfd310ec0-unrecorded` | 38 | 49 | SPECIFICATION_INCOMPLETE |
-| 2025 | tablets | Apple | iPad (A16/11th Gen) | Configuration not recorded | `device_73e4c3a19b8741-unrecorded` | 38 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Apple | iPad mini A20 Pro | 128GB Wi-Fi | `config_b3c69f6891ff28` | 38 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Apple | iPad mini A20 Pro | 256GB Wi-Fi | `config_1171e674caabc1` | 38 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Apple | iPad mini A20 Pro | 512GB Wi-Fi | `config_f7884a7190b8b4` | 38 | 49 | SPECIFICATION_INCOMPLETE |
@@ -656,7 +655,13 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2023 | tablets | ABC TECH | X10 Plus Study Buddy Tablet | 8 GB RAM / 128 GB storage | `device_01ffae05ba688a-8gb-128gb` | 22 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | ABC TECH | X8 Study Buddy Tablet | 2 GB RAM / 32 GB storage (4G LTE) | `device_87e79ad13fe93b-2gb-32gb` | 22 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | ABC TECH | X10 Study Buddy Tablet | 4 GB RAM / 64 GB storage | `device_2d3b3b3ff3d487-4gb-64gb` | 21 | 49 | SPECIFICATION_INCOMPLETE |
+| 2025 | tablets | Apple | iPad (A16/11th Gen) | 128 GB / Wi-Fi | `device_73e4c3a19b8741-128gb-wifi` | 15 | 49 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
+| 2025 | tablets | Apple | iPad (A16/11th Gen) | 256 GB / Wi-Fi | `device_73e4c3a19b8741-256gb-wifi` | 15 | 49 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
+| 2025 | tablets | Apple | iPad (A16/11th Gen) | 512 GB / Wi-Fi | `device_73e4c3a19b8741-512gb-wifi` | 15 | 49 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
 | 2023 | smartphones | ZTE | Blade V41 Vita 5G | 6 GB RAM / 128 GB storage (5G) | `device_bf5cf152c95ed1-6gb-128gb` | 14 | 46 | SPECIFICATION_INCOMPLETE |
+| 2025 | tablets | Apple | iPad (A16/11th Gen) | 128 GB / Wi-Fi + Cellular | `device_73e4c3a19b8741-128gb-wifi-cellular` | 14 | 49 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
+| 2025 | tablets | Apple | iPad (A16/11th Gen) | 256 GB / Wi-Fi + Cellular | `device_73e4c3a19b8741-256gb-wifi-cellular` | 14 | 49 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
+| 2025 | tablets | Apple | iPad (A16/11th Gen) | 512 GB / Wi-Fi + Cellular | `device_73e4c3a19b8741-512gb-wifi-cellular` | 14 | 49 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
 | 2023 | smartphones | ZTE | nubia Neo 5G | 8 GB RAM / 256 GB storage (5G) | `device_03f3856685042e-8gb-256gb` | 12 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | vivo | Y27 4G | 6 GB RAM / 128 GB storage (4G) | `device_6f256573a0fb54-auto-6gb-128gb` | 10 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | vivo | Y36 4G | 8 GB RAM / 256 GB storage (4G, SKU X1) | `device_d2f928e59b41f6-auto-8gb-256gb` | 8 | 46 | SPECIFICATION_INCOMPLETE |
@@ -667,7 +672,7 @@ Every category template field is enumerated in `research/enrichment/specificatio
 ## Philippine market and image coverage
 
 - Models with an exact-match catalog image carrying a reusable license: 48/456. The remaining 408 show the neutral unavailable-image placeholder.
-- Of those unavailable images, 52 require reuse permission, 60 have reuse rights that are not established, and 296 have no reliable exact-model match recorded.
+- Of those unavailable images, 52 require reuse permission, 61 have reuse rights that are not established, and 295 have no reliable exact-model match recorded.
 - The workbook copy's `IMAGE AUDIT` sheet records each image's source, credit, license, rights-check date, and the reason an image is unavailable. Images without documented reuse rights are not published.
 - Excluded master records: 3; held-out records/claims: 7. These are visible with explicit labels but stay outside eligible searches/recommendations.
 - The public site retains each record's existing verification and scope status. This specification audit does not upgrade Philippine availability status.

@@ -2829,13 +2829,16 @@
     "altText": "Image unavailable for ALLDOCUBE X Game Tablet"
   },
   "device_73e4c3a19b8741": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "Apple's exact-model Philippine specification page links to the iPad (A16) in four colors, but no reuse license, credit requirement or permission to republish/hotlink is documented. Keep the neutral placeholder.",
+    "sourcePage": "https://www.apple.com/ph/ipad-11/specs/",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://www.apple.com/v/ipad-11/specs/d/images/specs/finish__ff9ehlnqqxqy_large.jpg",
+    "scope": "Official Apple Philippines iPad (A16) product montage showing the exact model in its listed colors; no single storage/connectivity configuration is visually distinguishable.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
+    "rightsCheck": "Reviewed the official product page and linked image. No reuse permission or license was located. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://www.apple.com/ph/ipad-11/specs/",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for Apple iPad (A16/11th Gen)"
   },
   "device_5327f2410c22e5": {

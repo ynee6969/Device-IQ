@@ -89649,141 +89649,6 @@
       ]
     },
     {
-      "deviceId": "device_73e4c3a19b8741",
-      "configurationId": "device_73e4c3a19b8741-unrecorded",
-      "brand": "Apple",
-      "model": "iPad (A16/11th Gen)",
-      "configurationLabel": "Configuration not recorded",
-      "sources": [
-        {
-          "id": "apple_ipad_a16_11th_gen_tech_specs",
-          "publisher": "Apple Support",
-          "url": "https://support.apple.com/en-us/122240",
-          "publicationDate": "2025-01-01",
-          "accessDate": "2026-11-25",
-          "purpose": "Official manufacturer technical specifications",
-          "note": "Apple technical specifications for iPad (A16/11th Gen); model-level values do not establish Philippine sales or the workbook's exact storage configuration."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "10.86 in",
-          "normalizedValue": 10.86,
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayInches",
-          "catalogValue": 10.86,
-          "unit": "in"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "LCD IPS",
-          "normalizedValue": "LCD IPS",
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayType",
-          "catalogValue": "LCD IPS"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "1640 x 2360",
-          "normalizedValue": "1640 x 2360",
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "resolution",
-          "catalogValue": "1640 x 2360"
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "Apple A16",
-          "normalizedValue": "Apple A16",
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "chipset",
-          "catalogValue": "Apple A16"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "5-core CPU",
-          "normalizedValue": "5-core CPU",
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "cpu",
-          "catalogValue": "5-core CPU"
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "4-core Apple GPU",
-          "normalizedValue": "4-core Apple GPU",
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "gpu",
-          "catalogValue": "4-core Apple GPU"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "12 MP",
-          "normalizedValue": 12,
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 12,
-          "unit": "MP"
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "Wi-Fi 6 (802.11ax)",
-          "normalizedValue": "Wi-Fi 6 (802.11ax)",
-          "note": "Official Apple specifications for iPad (A16/11th Gen); this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 6 (802.11ax)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "Wi-Fi: 477 g; Wi-Fi + Cellular: 481 g",
-          "normalizedValue": "Wi-Fi: 477 g; Wi-Fi + Cellular: 481 g",
-          "note": "Apple lists different weights by connectivity configuration. The inventory does not identify which connectivity option applies.",
-          "clearCatalogKey": "weightG"
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "128GB, 256GB, or 512GB",
-          "normalizedValue": "Manufacturer model options: 128GB, 256GB, or 512GB; inventory SKU not recorded.",
-          "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "NOT_DISCLOSED",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
-          "normalizedValue": null,
-          "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
-        },
-        {
-          "fieldId": "philippine_release_date",
-          "status": "PENDING_VERIFICATION",
-          "sourceId": "apple_ipad_a16_11th_gen_tech_specs",
-          "sourceValue": "Apple records worldwide year introduced as 2025; this is not a Philippine first-sale date.",
-          "normalizedValue": null,
-          "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
-        }
-      ]
-    },
-    {
       "deviceId": "device_e4a50bfd310ec0",
       "configurationId": "device_e4a50bfd310ec0-unrecorded",
       "brand": "Apple",
@@ -176563,6 +176428,3503 @@
           {
             "issue": "Manufacturer and local sources disagree or use ambiguous wording on some specifications",
             "action": "Use exact-SKU primary evidence where clear; leave truly conflicting normalized values blank and retain candidate evidence."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_73e4c3a19b8741",
+      "configurationId": "device_73e4c3a19b8741-128gb-wifi",
+      "brand": "Apple",
+      "model": "iPad (A16/11th Gen)",
+      "configuration": "128 GB / Wi-Fi",
+      "configurationLabel": "128 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad_a16_ph_specs",
+          "publisher": "Apple Philippines",
+          "url": "https://www.apple.com/ph/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine manufacturer technical specifications for display, chip, cameras, connectivity, battery, accessories and supported capacities",
+          "note": "Apple Philippines lists 128GB, 256GB and 512GB capacities; an 11-inch Liquid Retina display (10.86-inch rectangle measurement), IPS, 2360×1640 at 264ppi, A16 with 5-core CPU/4-core GPU, cameras, Wi-Fi 6, Bluetooth 5.3, cellular/eSIM details, 28.93Wh battery, USB-C, GNSS on cellular models, sensors and supported accessories."
+        },
+        {
+          "id": "apple_ipad_a16_support_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/122240",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of detailed model specifications and Wi-Fi/cellular weights",
+          "note": "Apple's model-specific support page lists year introduced 2025; the same display, chip, camera and capacity specifications; Wi-Fi weight 477g and Wi-Fi + Cellular weight 481g; 28.93Wh lithium-polymer battery; and camera video modes."
+        },
+        {
+          "id": "apple_ipad_a16_current_128_wifi",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad/128gb-blue-wifi",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact storage/connectivity list price and current local product listing",
+          "note": "Apple Philippines buy page lists the 128 GB / Wi-Fi configuration at PHP 32,990 on 2026-11-27. This is a dated manufacturer-store list price; stock, delivery estimate and checkout completion were not verified."
+        },
+        {
+          "id": "apple_ipad_a16_buy_options",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of all exact configuration options, colors and prices",
+          "note": "Apple's Philippines buy page exposes all six storage/connectivity configurations: 128GB, 256GB and 512GB in Wi-Fi and Wi-Fi + Cellular. Current prices observed 2026-11-27 are PHP 32,990 / 39,990 / 53,990 for Wi-Fi and PHP 42,990 / 49,990 / 63,990 for Wi-Fi + Cellular. Four colors are available."
+        },
+        {
+          "id": "apple_ipad_a16_global_launch",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/",
+          "publicationDate": "2025-03-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model announcement and global availability date",
+          "note": "Apple announced iPad (A16) on 2025-03-04, opened pre-orders that day, and said it would begin arriving and reach Apple Stores/authorized resellers on 2025-03-12. It lists 128GB/256GB/512GB, four colors, and Wi-Fi/Wi-Fi + Cellular versions."
+        },
+        {
+          "id": "apple_ipad_a16_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-gb/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number mapping for Wi-Fi and Wi-Fi + Cellular models",
+          "note": "Apple's model identification page maps A3354 to iPad (A16) Wi-Fi and A3355 to iPad (A16) Wi-Fi + Cellular."
+        },
+        {
+          "id": "apple_ipad_a16_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_A16_PER_MAR2025.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and enclosure-material evidence",
+          "note": "Apple's iPad (A16) Product Environmental Report says the enclosure uses 100% recycled aluminum and the model contains 40% recycled content. The report describes the product configuration and launch-time environmental evaluation."
+        },
+        {
+          "id": "apple_ipad_a16_eu_product_info",
+          "publisher": "Apple Slovenia",
+          "url": "https://www.apple.com/si/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Apple EU product-information label for the exact A3354 Wi-Fi model, including ingress-protection classification",
+          "note": "The Apple EU energy/product-information label identifies iPad (A16) Wi-Fi model A3354 and lists IP42. The rating is applied only to the matching A3354 configurations; this evidence is not generalized to cellular model A3355."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_ph_launch",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/blogs/news/power-meets-portability-discover-the-next-gen-ipad-amp-mac-at-pmc",
+          "publicationDate": "2025-05-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine authorized-reseller availability report",
+          "note": "Power Mac Center's article dated 2025-05-09 says iPad (A16) is then available in Power Mac Center and The Loop stores and online. This is the first dated local authorized-retailer availability found in this review; it does not establish the earliest sale by every Philippine channel."
+        },
+        {
+          "id": "apple_ipad_a16_ph_launch_prices",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2025/03/ipad-2025-a16-ph-price.html",
+          "publicationDate": "2025-03-05",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine Apple Store launch-price report for Wi-Fi capacities",
+          "note": "Published 2025-03-05, GIZGUIDE reports Apple Philippines listing Wi-Fi iPad (A16) at PHP 24,990 (128GB), PHP 31,990 (256GB), and PHP 45,990 (512GB). It says authorized local retailers had not yet announced availability at that time; these are historical Apple PH online-list prices, not reseller stock claims."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_config",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/ipad-a16",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine authorized-reseller product description and accessory cross-check",
+          "note": "Power Mac Center's iPad A16 page describes the 10.86-inch display, Center Stage front camera, Wi-Fi 6 and 5G and accessory compatibility; it states Apple Pencil accessories are sold separately."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_model_ids",
+          "sourceValue": "A3354",
+          "normalizedValue": "A3354",
+          "note": "Apple maps this model number to the matching Wi-Fi or Wi-Fi + Cellular iPad (A16) model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "Global availability begins 2025-03-12",
+          "normalizedValue": "2025-03-12",
+          "unit": "date",
+          "note": "Apple Newsroom says the A16 iPad would begin arriving to customers and reach Apple Stores/authorized resellers from March 12, 2025."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_128_wifi",
+          "sourceValue": "128 GB / Wi-Fi",
+          "normalizedValue": "128 GB / Wi-Fi",
+          "note": "Exact capacity/connectivity option shown on Apple Philippines' current buy page; supported capacities and connectivity classes are separately identified by the manufacturer."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_ph_launch",
+          "sourceValue": "Power Mac Center says the model is now available in its Philippine stores and online on 2025-05-09",
+          "normalizedValue": "2025-05-09",
+          "unit": "date",
+          "note": "This is the first dated local authorized-retailer availability report found in this review, not a claim that no Philippine channel sold it earlier."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_ph_launch_prices",
+          "sourceValue": "PHP 24,990 Philippine Apple Store Wi-Fi list price reported 2025-03-05 for 128GB",
+          "normalizedValue": 24990,
+          "unit": "PHP",
+          "note": "GIZGUIDE reports the Philippine Apple Store listing price on 2025-03-05. Apple Newsroom itself did not publish a Philippine peso price; the value is attributed to the contemporaneous local report."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_128_wifi",
+          "sourceValue": "PHP 32,990 current Apple Philippines list price",
+          "normalizedValue": 32990,
+          "unit": "PHP",
+          "note": "Apple Philippines lists 128 GB / Wi-Fi at PHP 32,990 on 2026-11-27. Inventory/checkout status was not confirmed.",
+          "priceType": "Current official Apple Philippines Online Store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "11-inch marketed diagonal; 10.86 inches measured as a rectangle",
+          "normalizedValue": 10.86,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.86,
+          "unit": "in",
+          "note": "Apple's exact model page gives the 10.86-inch rectangular measurement and markets the display as 11-inch."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "LED-backlit Multi-Touch Liquid Retina display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "2360 × 1640 pixels at 264ppi",
+          "normalizedValue": "2360 x 1640",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's specification page does not state a numeric refresh rate for this display.",
+          "normalizedValue": null,
+          "unit": "Hz",
+          "note": "Apple's specification page does not state a numeric refresh rate for this display."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": 500,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple A16 chip",
+          "normalizedValue": "Apple A16",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A16"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a process-node value on the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "unit": "nm",
+          "note": "Apple does not publish a process-node value on the reviewed exact-model specifications."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5-core CPU",
+          "normalizedValue": "5-core CPU",
+          "catalogKey": "cpu",
+          "catalogValue": "5-core CPU"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "4-core GPU",
+          "normalizedValue": "4-core Apple GPU",
+          "catalogKey": "gpu",
+          "catalogValue": "4-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "iPadOS; launch version not stated on the current technical-specification page",
+          "normalizedValue": "iPadOS",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS",
+          "note": "Apple's product-specific technical page identifies iPadOS, but does not name the factory-installed launch build."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model.",
+          "normalizedValue": null,
+          "note": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted.",
+          "normalizedValue": null,
+          "unit": "GB",
+          "note": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "RAM type is not published by Apple for this model.",
+          "normalizedValue": null,
+          "note": "RAM type is not published by Apple for this model."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_128_wifi",
+          "sourceValue": "128GB storage",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature.",
+          "normalizedValue": null,
+          "note": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8; up to 5× digital zoom",
+          "normalizedValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish the rear camera sensor manufacturer or component identifier.",
+          "normalizedValue": null,
+          "note": "Apple does not publish the rear camera sensor manufacturer or component identifier."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_config",
+          "sourceValue": "12MP Ultra Wide front-facing Center Stage camera; no rear ultra-wide lens is listed",
+          "normalizedValue": "12 MP Ultra Wide front Center Stage; rear ultra-wide not listed",
+          "unit": "MP",
+          "note": "Power Mac Center calls the front-facing Center Stage module Ultra Wide. Apple lists one 12MP Wide rear camera; this field is explicitly labeled as a front camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No telephoto rear camera is listed",
+          "normalizedValue": null,
+          "note": "The complete rear camera specification lists one 12MP Wide camera and digital zoom; no telephoto module is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP landscape Center Stage camera, ƒ/2.4",
+          "normalizedValue": 12,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps.",
+          "normalizedValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "28.93Wh built-in rechargeable lithium-polymer battery; Apple does not state an mAh value",
+          "normalizedValue": 28.93,
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.93,
+          "unit": "Wh",
+          "note": "Exact energy rating from Apple. No mAh conversion is made without a published nominal voltage."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page.",
+          "normalizedValue": null,
+          "unit": "W",
+          "note": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging.",
+          "normalizedValue": null,
+          "note": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "248.6 × 179.5 × 7.0mm",
+          "normalizedValue": "248.6 x 179.5 x 7.0 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "248.6 x 179.5 x 7.0 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 477g; Wi-Fi + Cellular 481g",
+          "normalizedValue": 477,
+          "catalogKey": "weightG",
+          "catalogValue": 477,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_environment",
+          "sourceValue": "100% recycled aluminum enclosure and metal chassis; 15% recycled cover glass reported on Apple Philippines' product specification page",
+          "normalizedValue": "Aluminum enclosure and metal chassis (100% recycled aluminum); cover glass (15% recycled glass)",
+          "note": "Apple's product environmental report confirms recycled aluminum in the enclosure; Apple's local technical page supplies the cover-glass recycled content."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_eu_product_info",
+          "sourceValue": "IP42 on Apple EU product-information label for Wi-Fi model A3354",
+          "normalizedValue": "IP42",
+          "unit": "IP",
+          "note": "For the Wi-Fi A3354 variant only, Apple's EU product-information label identifies model A3354 and lists IP42. This regional manufacturer label is not generalized to A3355 cellular variants."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi model A3354; cellular SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Manufacturer distinguishes A3354 Wi-Fi from the separate A3355 Wi-Fi + Cellular model."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi model A3354 has no listed cellular radio",
+          "normalizedValue": null,
+          "note": "The manufacturer lists 5G/LTE only for the separate Wi-Fi + Cellular A3355 model."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "GPS/GNSS is listed only for Wi-Fi + Cellular models",
+          "normalizedValue": null,
+          "note": "Apple Philippines lists digital compass/Wi-Fi/iBeacon for all models and GPS/GNSS for Wi-Fi + Cellular models."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi-only variant A3354",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO, simultaneous dual band",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "USB-C with USB 2.0 data up to 480Mb/s and DisplayPort support",
+          "normalizedValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "NFC is not listed in the reviewed exact-model specification.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the reviewed exact-model specification."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Landscape stereo speakers and dual microphones; an analog 3.5mm jack is not listed",
+          "normalizedValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer and ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Supports Apple Pencil (USB-C) and Apple Pencil (1st generation; USB-C adapter required)",
+          "normalizedValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Magic Keyboard Folio compatible; sold separately",
+          "normalizedValue": "Apple Magic Keyboard Folio support; sold separately",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Magic Keyboard Folio support; sold separately"
+        }
+      ],
+      "modelCode": "A3354",
+      "replacementVariants": [
+        {
+          "id": "device_73e4c3a19b8741-128gb-wifi",
+          "label": "128 GB / Wi-Fi",
+          "modelCode": "A3354",
+          "notes": "Distinct Apple PH storage/connectivity option. Four color choices are listed by Apple but are not split because they share the same storage/connectivity configuration."
+        },
+        {
+          "id": "device_73e4c3a19b8741-256gb-wifi",
+          "label": "256 GB / Wi-Fi",
+          "modelCode": "A3354",
+          "notes": "Distinct Apple PH storage/connectivity option. Four color choices are listed by Apple but are not split because they share the same storage/connectivity configuration."
+        },
+        {
+          "id": "device_73e4c3a19b8741-512gb-wifi",
+          "label": "512 GB / Wi-Fi",
+          "modelCode": "A3354",
+          "notes": "Distinct Apple PH storage/connectivity option. Four color choices are listed by Apple but are not split because they share the same storage/connectivity configuration."
+        },
+        {
+          "id": "device_73e4c3a19b8741-128gb-wifi-cellular",
+          "label": "128 GB / Wi-Fi + Cellular",
+          "modelCode": "A3355",
+          "notes": "Distinct Apple PH storage/connectivity option. Four color choices are listed by Apple but are not split because they share the same storage/connectivity configuration."
+        },
+        {
+          "id": "device_73e4c3a19b8741-256gb-wifi-cellular",
+          "label": "256 GB / Wi-Fi + Cellular",
+          "modelCode": "A3355",
+          "notes": "Distinct Apple PH storage/connectivity option. Four color choices are listed by Apple but are not split because they share the same storage/connectivity configuration."
+        },
+        {
+          "id": "device_73e4c3a19b8741-512gb-wifi-cellular",
+          "label": "512 GB / Wi-Fi + Cellular",
+          "modelCode": "A3355",
+          "notes": "Distinct Apple PH storage/connectivity option. Four color choices are listed by Apple but are not split because they share the same storage/connectivity configuration."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Apple Philippines lists this exact iPad (A16) storage/connectivity option and price. Power Mac Center reported the model available in its stores and online on 2025-05-09. Current inventory/checkout status was not verified.",
+        "philippineAvailability": "First dated Philippine authorized-retailer availability report found: Power Mac Center said iPad (A16) was then available in stores and online on 2025-05-09. Apple Philippines currently lists the exact capacity/connectivity options.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; official Apple PH storage/connectivity options, exact model numbers and dated list prices verified. Philippine reseller availability reported 2025-05-09. RAM is not disclosed. Study eligibility remains Pending.",
+        "catalogModel": "iPad (A16/11th Gen)",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2025,
+        "philippineDateLabel": "First dated Philippine authorized-retailer availability report",
+        "researchNotes": "The workbook record iPad (A16/11th Gen) is matched to Apple's iPad (A16), announced 2025-03-04 with global availability beginning 2025-03-12. Apple's Philippine store offers separate 128 GB / Wi-Fi configurations in six total storage/connectivity combinations; this review keeps those configurations separate. Apple PH list price is PHP 32,990 observed 2026-11-27; current stock/checkout not verified. Power Mac Center reported local availability 2025-05-09. Apple does not publish RAM capacity or guaranteed OS support duration. Current device image has no documented reuse permission; neutral placeholder retained. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "RAM capacity is not disclosed by Apple",
+            "action": "Keep RAM blank; do not substitute third-party teardown estimates."
+          },
+          {
+            "issue": "Apple's current store price is listed but stock/checkout is not confirmed",
+            "action": "Display a dated list price without an in-stock claim."
+          },
+          {
+            "issue": "No Philippine launch-period price was found for Wi-Fi + Cellular configs",
+            "action": "Keep the historical price blank for those three variants."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope until thesis screening rules are applied."
+          },
+          {
+            "issue": "The official product image has no documented reuse license",
+            "action": "Keep the neutral placeholder and preserve the source page/asset for rights review."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_73e4c3a19b8741",
+      "configurationId": "device_73e4c3a19b8741-256gb-wifi",
+      "brand": "Apple",
+      "model": "iPad (A16/11th Gen)",
+      "configuration": "256 GB / Wi-Fi",
+      "configurationLabel": "256 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad_a16_ph_specs",
+          "publisher": "Apple Philippines",
+          "url": "https://www.apple.com/ph/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine manufacturer technical specifications for display, chip, cameras, connectivity, battery, accessories and supported capacities",
+          "note": "Apple Philippines lists 128GB, 256GB and 512GB capacities; an 11-inch Liquid Retina display (10.86-inch rectangle measurement), IPS, 2360×1640 at 264ppi, A16 with 5-core CPU/4-core GPU, cameras, Wi-Fi 6, Bluetooth 5.3, cellular/eSIM details, 28.93Wh battery, USB-C, GNSS on cellular models, sensors and supported accessories."
+        },
+        {
+          "id": "apple_ipad_a16_support_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/122240",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of detailed model specifications and Wi-Fi/cellular weights",
+          "note": "Apple's model-specific support page lists year introduced 2025; the same display, chip, camera and capacity specifications; Wi-Fi weight 477g and Wi-Fi + Cellular weight 481g; 28.93Wh lithium-polymer battery; and camera video modes."
+        },
+        {
+          "id": "apple_ipad_a16_current_256_wifi",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad/256gb-blue-wifi",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact storage/connectivity list price and current local product listing",
+          "note": "Apple Philippines buy page lists the 256 GB / Wi-Fi configuration at PHP 39,990 on 2026-11-27. This is a dated manufacturer-store list price; stock, delivery estimate and checkout completion were not verified."
+        },
+        {
+          "id": "apple_ipad_a16_buy_options",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of all exact configuration options, colors and prices",
+          "note": "Apple's Philippines buy page exposes all six storage/connectivity configurations: 128GB, 256GB and 512GB in Wi-Fi and Wi-Fi + Cellular. Current prices observed 2026-11-27 are PHP 32,990 / 39,990 / 53,990 for Wi-Fi and PHP 42,990 / 49,990 / 63,990 for Wi-Fi + Cellular. Four colors are available."
+        },
+        {
+          "id": "apple_ipad_a16_global_launch",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/",
+          "publicationDate": "2025-03-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model announcement and global availability date",
+          "note": "Apple announced iPad (A16) on 2025-03-04, opened pre-orders that day, and said it would begin arriving and reach Apple Stores/authorized resellers on 2025-03-12. It lists 128GB/256GB/512GB, four colors, and Wi-Fi/Wi-Fi + Cellular versions."
+        },
+        {
+          "id": "apple_ipad_a16_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-gb/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number mapping for Wi-Fi and Wi-Fi + Cellular models",
+          "note": "Apple's model identification page maps A3354 to iPad (A16) Wi-Fi and A3355 to iPad (A16) Wi-Fi + Cellular."
+        },
+        {
+          "id": "apple_ipad_a16_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_A16_PER_MAR2025.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and enclosure-material evidence",
+          "note": "Apple's iPad (A16) Product Environmental Report says the enclosure uses 100% recycled aluminum and the model contains 40% recycled content. The report describes the product configuration and launch-time environmental evaluation."
+        },
+        {
+          "id": "apple_ipad_a16_eu_product_info",
+          "publisher": "Apple Slovenia",
+          "url": "https://www.apple.com/si/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Apple EU product-information label for the exact A3354 Wi-Fi model, including ingress-protection classification",
+          "note": "The Apple EU energy/product-information label identifies iPad (A16) Wi-Fi model A3354 and lists IP42. The rating is applied only to the matching A3354 configurations; this evidence is not generalized to cellular model A3355."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_ph_launch",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/blogs/news/power-meets-portability-discover-the-next-gen-ipad-amp-mac-at-pmc",
+          "publicationDate": "2025-05-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine authorized-reseller availability report",
+          "note": "Power Mac Center's article dated 2025-05-09 says iPad (A16) is then available in Power Mac Center and The Loop stores and online. This is the first dated local authorized-retailer availability found in this review; it does not establish the earliest sale by every Philippine channel."
+        },
+        {
+          "id": "apple_ipad_a16_ph_launch_prices",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2025/03/ipad-2025-a16-ph-price.html",
+          "publicationDate": "2025-03-05",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine Apple Store launch-price report for Wi-Fi capacities",
+          "note": "Published 2025-03-05, GIZGUIDE reports Apple Philippines listing Wi-Fi iPad (A16) at PHP 24,990 (128GB), PHP 31,990 (256GB), and PHP 45,990 (512GB). It says authorized local retailers had not yet announced availability at that time; these are historical Apple PH online-list prices, not reseller stock claims."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_config",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/ipad-a16",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine authorized-reseller product description and accessory cross-check",
+          "note": "Power Mac Center's iPad A16 page describes the 10.86-inch display, Center Stage front camera, Wi-Fi 6 and 5G and accessory compatibility; it states Apple Pencil accessories are sold separately."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_model_ids",
+          "sourceValue": "A3354",
+          "normalizedValue": "A3354",
+          "note": "Apple maps this model number to the matching Wi-Fi or Wi-Fi + Cellular iPad (A16) model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "Global availability begins 2025-03-12",
+          "normalizedValue": "2025-03-12",
+          "unit": "date",
+          "note": "Apple Newsroom says the A16 iPad would begin arriving to customers and reach Apple Stores/authorized resellers from March 12, 2025."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_256_wifi",
+          "sourceValue": "256 GB / Wi-Fi",
+          "normalizedValue": "256 GB / Wi-Fi",
+          "note": "Exact capacity/connectivity option shown on Apple Philippines' current buy page; supported capacities and connectivity classes are separately identified by the manufacturer."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_ph_launch",
+          "sourceValue": "Power Mac Center says the model is now available in its Philippine stores and online on 2025-05-09",
+          "normalizedValue": "2025-05-09",
+          "unit": "date",
+          "note": "This is the first dated local authorized-retailer availability report found in this review, not a claim that no Philippine channel sold it earlier."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_ph_launch_prices",
+          "sourceValue": "PHP 31,990 Philippine Apple Store Wi-Fi list price reported 2025-03-05 for 256GB",
+          "normalizedValue": 31990,
+          "unit": "PHP",
+          "note": "GIZGUIDE reports the Philippine Apple Store listing price on 2025-03-05. Apple Newsroom itself did not publish a Philippine peso price; the value is attributed to the contemporaneous local report."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_256_wifi",
+          "sourceValue": "PHP 39,990 current Apple Philippines list price",
+          "normalizedValue": 39990,
+          "unit": "PHP",
+          "note": "Apple Philippines lists 256 GB / Wi-Fi at PHP 39,990 on 2026-11-27. Inventory/checkout status was not confirmed.",
+          "priceType": "Current official Apple Philippines Online Store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "11-inch marketed diagonal; 10.86 inches measured as a rectangle",
+          "normalizedValue": 10.86,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.86,
+          "unit": "in",
+          "note": "Apple's exact model page gives the 10.86-inch rectangular measurement and markets the display as 11-inch."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "LED-backlit Multi-Touch Liquid Retina display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "2360 × 1640 pixels at 264ppi",
+          "normalizedValue": "2360 x 1640",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's specification page does not state a numeric refresh rate for this display.",
+          "normalizedValue": null,
+          "unit": "Hz",
+          "note": "Apple's specification page does not state a numeric refresh rate for this display."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": 500,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple A16 chip",
+          "normalizedValue": "Apple A16",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A16"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a process-node value on the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "unit": "nm",
+          "note": "Apple does not publish a process-node value on the reviewed exact-model specifications."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5-core CPU",
+          "normalizedValue": "5-core CPU",
+          "catalogKey": "cpu",
+          "catalogValue": "5-core CPU"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "4-core GPU",
+          "normalizedValue": "4-core Apple GPU",
+          "catalogKey": "gpu",
+          "catalogValue": "4-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "iPadOS; launch version not stated on the current technical-specification page",
+          "normalizedValue": "iPadOS",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS",
+          "note": "Apple's product-specific technical page identifies iPadOS, but does not name the factory-installed launch build."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model.",
+          "normalizedValue": null,
+          "note": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted.",
+          "normalizedValue": null,
+          "unit": "GB",
+          "note": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "RAM type is not published by Apple for this model.",
+          "normalizedValue": null,
+          "note": "RAM type is not published by Apple for this model."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_256_wifi",
+          "sourceValue": "256GB storage",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature.",
+          "normalizedValue": null,
+          "note": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8; up to 5× digital zoom",
+          "normalizedValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish the rear camera sensor manufacturer or component identifier.",
+          "normalizedValue": null,
+          "note": "Apple does not publish the rear camera sensor manufacturer or component identifier."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_config",
+          "sourceValue": "12MP Ultra Wide front-facing Center Stage camera; no rear ultra-wide lens is listed",
+          "normalizedValue": "12 MP Ultra Wide front Center Stage; rear ultra-wide not listed",
+          "unit": "MP",
+          "note": "Power Mac Center calls the front-facing Center Stage module Ultra Wide. Apple lists one 12MP Wide rear camera; this field is explicitly labeled as a front camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No telephoto rear camera is listed",
+          "normalizedValue": null,
+          "note": "The complete rear camera specification lists one 12MP Wide camera and digital zoom; no telephoto module is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP landscape Center Stage camera, ƒ/2.4",
+          "normalizedValue": 12,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps.",
+          "normalizedValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "28.93Wh built-in rechargeable lithium-polymer battery; Apple does not state an mAh value",
+          "normalizedValue": 28.93,
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.93,
+          "unit": "Wh",
+          "note": "Exact energy rating from Apple. No mAh conversion is made without a published nominal voltage."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page.",
+          "normalizedValue": null,
+          "unit": "W",
+          "note": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging.",
+          "normalizedValue": null,
+          "note": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "248.6 × 179.5 × 7.0mm",
+          "normalizedValue": "248.6 x 179.5 x 7.0 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "248.6 x 179.5 x 7.0 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 477g; Wi-Fi + Cellular 481g",
+          "normalizedValue": 477,
+          "catalogKey": "weightG",
+          "catalogValue": 477,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_environment",
+          "sourceValue": "100% recycled aluminum enclosure and metal chassis; 15% recycled cover glass reported on Apple Philippines' product specification page",
+          "normalizedValue": "Aluminum enclosure and metal chassis (100% recycled aluminum); cover glass (15% recycled glass)",
+          "note": "Apple's product environmental report confirms recycled aluminum in the enclosure; Apple's local technical page supplies the cover-glass recycled content."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_eu_product_info",
+          "sourceValue": "IP42 on Apple EU product-information label for Wi-Fi model A3354",
+          "normalizedValue": "IP42",
+          "unit": "IP",
+          "note": "For the Wi-Fi A3354 variant only, Apple's EU product-information label identifies model A3354 and lists IP42. This regional manufacturer label is not generalized to A3355 cellular variants."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi model A3354; cellular SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Manufacturer distinguishes A3354 Wi-Fi from the separate A3355 Wi-Fi + Cellular model."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi model A3354 has no listed cellular radio",
+          "normalizedValue": null,
+          "note": "The manufacturer lists 5G/LTE only for the separate Wi-Fi + Cellular A3355 model."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "GPS/GNSS is listed only for Wi-Fi + Cellular models",
+          "normalizedValue": null,
+          "note": "Apple Philippines lists digital compass/Wi-Fi/iBeacon for all models and GPS/GNSS for Wi-Fi + Cellular models."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi-only variant A3354",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO, simultaneous dual band",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "USB-C with USB 2.0 data up to 480Mb/s and DisplayPort support",
+          "normalizedValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "NFC is not listed in the reviewed exact-model specification.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the reviewed exact-model specification."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Landscape stereo speakers and dual microphones; an analog 3.5mm jack is not listed",
+          "normalizedValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer and ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Supports Apple Pencil (USB-C) and Apple Pencil (1st generation; USB-C adapter required)",
+          "normalizedValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Magic Keyboard Folio compatible; sold separately",
+          "normalizedValue": "Apple Magic Keyboard Folio support; sold separately",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Magic Keyboard Folio support; sold separately"
+        }
+      ],
+      "modelCode": "A3354",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Apple Philippines lists this exact iPad (A16) storage/connectivity option and price. Power Mac Center reported the model available in its stores and online on 2025-05-09. Current inventory/checkout status was not verified.",
+        "philippineAvailability": "First dated Philippine authorized-retailer availability report found: Power Mac Center said iPad (A16) was then available in stores and online on 2025-05-09. Apple Philippines currently lists the exact capacity/connectivity options.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; official Apple PH storage/connectivity options, exact model numbers and dated list prices verified. Philippine reseller availability reported 2025-05-09. RAM is not disclosed. Study eligibility remains Pending.",
+        "catalogModel": "iPad (A16/11th Gen)",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2025,
+        "philippineDateLabel": "First dated Philippine authorized-retailer availability report",
+        "researchNotes": "The workbook record iPad (A16/11th Gen) is matched to Apple's iPad (A16), announced 2025-03-04 with global availability beginning 2025-03-12. Apple's Philippine store offers separate 256 GB / Wi-Fi configurations in six total storage/connectivity combinations; this review keeps those configurations separate. Apple PH list price is PHP 39,990 observed 2026-11-27; current stock/checkout not verified. Power Mac Center reported local availability 2025-05-09. Apple does not publish RAM capacity or guaranteed OS support duration. Current device image has no documented reuse permission; neutral placeholder retained. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "RAM capacity is not disclosed by Apple",
+            "action": "Keep RAM blank; do not substitute third-party teardown estimates."
+          },
+          {
+            "issue": "Apple's current store price is listed but stock/checkout is not confirmed",
+            "action": "Display a dated list price without an in-stock claim."
+          },
+          {
+            "issue": "No Philippine launch-period price was found for Wi-Fi + Cellular configs",
+            "action": "Keep the historical price blank for those three variants."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope until thesis screening rules are applied."
+          },
+          {
+            "issue": "The official product image has no documented reuse license",
+            "action": "Keep the neutral placeholder and preserve the source page/asset for rights review."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_73e4c3a19b8741",
+      "configurationId": "device_73e4c3a19b8741-512gb-wifi",
+      "brand": "Apple",
+      "model": "iPad (A16/11th Gen)",
+      "configuration": "512 GB / Wi-Fi",
+      "configurationLabel": "512 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad_a16_ph_specs",
+          "publisher": "Apple Philippines",
+          "url": "https://www.apple.com/ph/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine manufacturer technical specifications for display, chip, cameras, connectivity, battery, accessories and supported capacities",
+          "note": "Apple Philippines lists 128GB, 256GB and 512GB capacities; an 11-inch Liquid Retina display (10.86-inch rectangle measurement), IPS, 2360×1640 at 264ppi, A16 with 5-core CPU/4-core GPU, cameras, Wi-Fi 6, Bluetooth 5.3, cellular/eSIM details, 28.93Wh battery, USB-C, GNSS on cellular models, sensors and supported accessories."
+        },
+        {
+          "id": "apple_ipad_a16_support_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/122240",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of detailed model specifications and Wi-Fi/cellular weights",
+          "note": "Apple's model-specific support page lists year introduced 2025; the same display, chip, camera and capacity specifications; Wi-Fi weight 477g and Wi-Fi + Cellular weight 481g; 28.93Wh lithium-polymer battery; and camera video modes."
+        },
+        {
+          "id": "apple_ipad_a16_current_512_wifi",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad/512gb-blue-wifi",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact storage/connectivity list price and current local product listing",
+          "note": "Apple Philippines buy page lists the 512 GB / Wi-Fi configuration at PHP 53,990 on 2026-11-27. This is a dated manufacturer-store list price; stock, delivery estimate and checkout completion were not verified."
+        },
+        {
+          "id": "apple_ipad_a16_buy_options",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of all exact configuration options, colors and prices",
+          "note": "Apple's Philippines buy page exposes all six storage/connectivity configurations: 128GB, 256GB and 512GB in Wi-Fi and Wi-Fi + Cellular. Current prices observed 2026-11-27 are PHP 32,990 / 39,990 / 53,990 for Wi-Fi and PHP 42,990 / 49,990 / 63,990 for Wi-Fi + Cellular. Four colors are available."
+        },
+        {
+          "id": "apple_ipad_a16_global_launch",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/",
+          "publicationDate": "2025-03-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model announcement and global availability date",
+          "note": "Apple announced iPad (A16) on 2025-03-04, opened pre-orders that day, and said it would begin arriving and reach Apple Stores/authorized resellers on 2025-03-12. It lists 128GB/256GB/512GB, four colors, and Wi-Fi/Wi-Fi + Cellular versions."
+        },
+        {
+          "id": "apple_ipad_a16_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-gb/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number mapping for Wi-Fi and Wi-Fi + Cellular models",
+          "note": "Apple's model identification page maps A3354 to iPad (A16) Wi-Fi and A3355 to iPad (A16) Wi-Fi + Cellular."
+        },
+        {
+          "id": "apple_ipad_a16_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_A16_PER_MAR2025.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and enclosure-material evidence",
+          "note": "Apple's iPad (A16) Product Environmental Report says the enclosure uses 100% recycled aluminum and the model contains 40% recycled content. The report describes the product configuration and launch-time environmental evaluation."
+        },
+        {
+          "id": "apple_ipad_a16_eu_product_info",
+          "publisher": "Apple Slovenia",
+          "url": "https://www.apple.com/si/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Apple EU product-information label for the exact A3354 Wi-Fi model, including ingress-protection classification",
+          "note": "The Apple EU energy/product-information label identifies iPad (A16) Wi-Fi model A3354 and lists IP42. The rating is applied only to the matching A3354 configurations; this evidence is not generalized to cellular model A3355."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_ph_launch",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/blogs/news/power-meets-portability-discover-the-next-gen-ipad-amp-mac-at-pmc",
+          "publicationDate": "2025-05-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine authorized-reseller availability report",
+          "note": "Power Mac Center's article dated 2025-05-09 says iPad (A16) is then available in Power Mac Center and The Loop stores and online. This is the first dated local authorized-retailer availability found in this review; it does not establish the earliest sale by every Philippine channel."
+        },
+        {
+          "id": "apple_ipad_a16_ph_launch_prices",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2025/03/ipad-2025-a16-ph-price.html",
+          "publicationDate": "2025-03-05",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine Apple Store launch-price report for Wi-Fi capacities",
+          "note": "Published 2025-03-05, GIZGUIDE reports Apple Philippines listing Wi-Fi iPad (A16) at PHP 24,990 (128GB), PHP 31,990 (256GB), and PHP 45,990 (512GB). It says authorized local retailers had not yet announced availability at that time; these are historical Apple PH online-list prices, not reseller stock claims."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_config",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/ipad-a16",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine authorized-reseller product description and accessory cross-check",
+          "note": "Power Mac Center's iPad A16 page describes the 10.86-inch display, Center Stage front camera, Wi-Fi 6 and 5G and accessory compatibility; it states Apple Pencil accessories are sold separately."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_model_ids",
+          "sourceValue": "A3354",
+          "normalizedValue": "A3354",
+          "note": "Apple maps this model number to the matching Wi-Fi or Wi-Fi + Cellular iPad (A16) model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "Global availability begins 2025-03-12",
+          "normalizedValue": "2025-03-12",
+          "unit": "date",
+          "note": "Apple Newsroom says the A16 iPad would begin arriving to customers and reach Apple Stores/authorized resellers from March 12, 2025."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_512_wifi",
+          "sourceValue": "512 GB / Wi-Fi",
+          "normalizedValue": "512 GB / Wi-Fi",
+          "note": "Exact capacity/connectivity option shown on Apple Philippines' current buy page; supported capacities and connectivity classes are separately identified by the manufacturer."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_ph_launch",
+          "sourceValue": "Power Mac Center says the model is now available in its Philippine stores and online on 2025-05-09",
+          "normalizedValue": "2025-05-09",
+          "unit": "date",
+          "note": "This is the first dated local authorized-retailer availability report found in this review, not a claim that no Philippine channel sold it earlier."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_ph_launch_prices",
+          "sourceValue": "PHP 45,990 Philippine Apple Store Wi-Fi list price reported 2025-03-05 for 512GB",
+          "normalizedValue": 45990,
+          "unit": "PHP",
+          "note": "GIZGUIDE reports the Philippine Apple Store listing price on 2025-03-05. Apple Newsroom itself did not publish a Philippine peso price; the value is attributed to the contemporaneous local report."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_512_wifi",
+          "sourceValue": "PHP 53,990 current Apple Philippines list price",
+          "normalizedValue": 53990,
+          "unit": "PHP",
+          "note": "Apple Philippines lists 512 GB / Wi-Fi at PHP 53,990 on 2026-11-27. Inventory/checkout status was not confirmed.",
+          "priceType": "Current official Apple Philippines Online Store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "11-inch marketed diagonal; 10.86 inches measured as a rectangle",
+          "normalizedValue": 10.86,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.86,
+          "unit": "in",
+          "note": "Apple's exact model page gives the 10.86-inch rectangular measurement and markets the display as 11-inch."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "LED-backlit Multi-Touch Liquid Retina display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "2360 × 1640 pixels at 264ppi",
+          "normalizedValue": "2360 x 1640",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's specification page does not state a numeric refresh rate for this display.",
+          "normalizedValue": null,
+          "unit": "Hz",
+          "note": "Apple's specification page does not state a numeric refresh rate for this display."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": 500,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple A16 chip",
+          "normalizedValue": "Apple A16",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A16"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a process-node value on the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "unit": "nm",
+          "note": "Apple does not publish a process-node value on the reviewed exact-model specifications."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5-core CPU",
+          "normalizedValue": "5-core CPU",
+          "catalogKey": "cpu",
+          "catalogValue": "5-core CPU"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "4-core GPU",
+          "normalizedValue": "4-core Apple GPU",
+          "catalogKey": "gpu",
+          "catalogValue": "4-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "iPadOS; launch version not stated on the current technical-specification page",
+          "normalizedValue": "iPadOS",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS",
+          "note": "Apple's product-specific technical page identifies iPadOS, but does not name the factory-installed launch build."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model.",
+          "normalizedValue": null,
+          "note": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted.",
+          "normalizedValue": null,
+          "unit": "GB",
+          "note": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "RAM type is not published by Apple for this model.",
+          "normalizedValue": null,
+          "note": "RAM type is not published by Apple for this model."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_512_wifi",
+          "sourceValue": "512GB storage",
+          "normalizedValue": 512,
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature.",
+          "normalizedValue": null,
+          "note": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8; up to 5× digital zoom",
+          "normalizedValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish the rear camera sensor manufacturer or component identifier.",
+          "normalizedValue": null,
+          "note": "Apple does not publish the rear camera sensor manufacturer or component identifier."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_config",
+          "sourceValue": "12MP Ultra Wide front-facing Center Stage camera; no rear ultra-wide lens is listed",
+          "normalizedValue": "12 MP Ultra Wide front Center Stage; rear ultra-wide not listed",
+          "unit": "MP",
+          "note": "Power Mac Center calls the front-facing Center Stage module Ultra Wide. Apple lists one 12MP Wide rear camera; this field is explicitly labeled as a front camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No telephoto rear camera is listed",
+          "normalizedValue": null,
+          "note": "The complete rear camera specification lists one 12MP Wide camera and digital zoom; no telephoto module is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP landscape Center Stage camera, ƒ/2.4",
+          "normalizedValue": 12,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps.",
+          "normalizedValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "28.93Wh built-in rechargeable lithium-polymer battery; Apple does not state an mAh value",
+          "normalizedValue": 28.93,
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.93,
+          "unit": "Wh",
+          "note": "Exact energy rating from Apple. No mAh conversion is made without a published nominal voltage."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page.",
+          "normalizedValue": null,
+          "unit": "W",
+          "note": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging.",
+          "normalizedValue": null,
+          "note": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "248.6 × 179.5 × 7.0mm",
+          "normalizedValue": "248.6 x 179.5 x 7.0 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "248.6 x 179.5 x 7.0 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 477g; Wi-Fi + Cellular 481g",
+          "normalizedValue": 477,
+          "catalogKey": "weightG",
+          "catalogValue": 477,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_environment",
+          "sourceValue": "100% recycled aluminum enclosure and metal chassis; 15% recycled cover glass reported on Apple Philippines' product specification page",
+          "normalizedValue": "Aluminum enclosure and metal chassis (100% recycled aluminum); cover glass (15% recycled glass)",
+          "note": "Apple's product environmental report confirms recycled aluminum in the enclosure; Apple's local technical page supplies the cover-glass recycled content."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_eu_product_info",
+          "sourceValue": "IP42 on Apple EU product-information label for Wi-Fi model A3354",
+          "normalizedValue": "IP42",
+          "unit": "IP",
+          "note": "For the Wi-Fi A3354 variant only, Apple's EU product-information label identifies model A3354 and lists IP42. This regional manufacturer label is not generalized to A3355 cellular variants."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi model A3354; cellular SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Manufacturer distinguishes A3354 Wi-Fi from the separate A3355 Wi-Fi + Cellular model."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi model A3354 has no listed cellular radio",
+          "normalizedValue": null,
+          "note": "The manufacturer lists 5G/LTE only for the separate Wi-Fi + Cellular A3355 model."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "GPS/GNSS is listed only for Wi-Fi + Cellular models",
+          "normalizedValue": null,
+          "note": "Apple Philippines lists digital compass/Wi-Fi/iBeacon for all models and GPS/GNSS for Wi-Fi + Cellular models."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi-only variant A3354",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO, simultaneous dual band",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "USB-C with USB 2.0 data up to 480Mb/s and DisplayPort support",
+          "normalizedValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "NFC is not listed in the reviewed exact-model specification.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the reviewed exact-model specification."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Landscape stereo speakers and dual microphones; an analog 3.5mm jack is not listed",
+          "normalizedValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer and ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Supports Apple Pencil (USB-C) and Apple Pencil (1st generation; USB-C adapter required)",
+          "normalizedValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Magic Keyboard Folio compatible; sold separately",
+          "normalizedValue": "Apple Magic Keyboard Folio support; sold separately",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Magic Keyboard Folio support; sold separately"
+        }
+      ],
+      "modelCode": "A3354",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Apple Philippines lists this exact iPad (A16) storage/connectivity option and price. Power Mac Center reported the model available in its stores and online on 2025-05-09. Current inventory/checkout status was not verified.",
+        "philippineAvailability": "First dated Philippine authorized-retailer availability report found: Power Mac Center said iPad (A16) was then available in stores and online on 2025-05-09. Apple Philippines currently lists the exact capacity/connectivity options.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; official Apple PH storage/connectivity options, exact model numbers and dated list prices verified. Philippine reseller availability reported 2025-05-09. RAM is not disclosed. Study eligibility remains Pending.",
+        "catalogModel": "iPad (A16/11th Gen)",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2025,
+        "philippineDateLabel": "First dated Philippine authorized-retailer availability report",
+        "researchNotes": "The workbook record iPad (A16/11th Gen) is matched to Apple's iPad (A16), announced 2025-03-04 with global availability beginning 2025-03-12. Apple's Philippine store offers separate 512 GB / Wi-Fi configurations in six total storage/connectivity combinations; this review keeps those configurations separate. Apple PH list price is PHP 53,990 observed 2026-11-27; current stock/checkout not verified. Power Mac Center reported local availability 2025-05-09. Apple does not publish RAM capacity or guaranteed OS support duration. Current device image has no documented reuse permission; neutral placeholder retained. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "RAM capacity is not disclosed by Apple",
+            "action": "Keep RAM blank; do not substitute third-party teardown estimates."
+          },
+          {
+            "issue": "Apple's current store price is listed but stock/checkout is not confirmed",
+            "action": "Display a dated list price without an in-stock claim."
+          },
+          {
+            "issue": "No Philippine launch-period price was found for Wi-Fi + Cellular configs",
+            "action": "Keep the historical price blank for those three variants."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope until thesis screening rules are applied."
+          },
+          {
+            "issue": "The official product image has no documented reuse license",
+            "action": "Keep the neutral placeholder and preserve the source page/asset for rights review."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_73e4c3a19b8741",
+      "configurationId": "device_73e4c3a19b8741-128gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad (A16/11th Gen)",
+      "configuration": "128 GB / Wi-Fi + Cellular",
+      "configurationLabel": "128 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad_a16_ph_specs",
+          "publisher": "Apple Philippines",
+          "url": "https://www.apple.com/ph/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine manufacturer technical specifications for display, chip, cameras, connectivity, battery, accessories and supported capacities",
+          "note": "Apple Philippines lists 128GB, 256GB and 512GB capacities; an 11-inch Liquid Retina display (10.86-inch rectangle measurement), IPS, 2360×1640 at 264ppi, A16 with 5-core CPU/4-core GPU, cameras, Wi-Fi 6, Bluetooth 5.3, cellular/eSIM details, 28.93Wh battery, USB-C, GNSS on cellular models, sensors and supported accessories."
+        },
+        {
+          "id": "apple_ipad_a16_support_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/122240",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of detailed model specifications and Wi-Fi/cellular weights",
+          "note": "Apple's model-specific support page lists year introduced 2025; the same display, chip, camera and capacity specifications; Wi-Fi weight 477g and Wi-Fi + Cellular weight 481g; 28.93Wh lithium-polymer battery; and camera video modes."
+        },
+        {
+          "id": "apple_ipad_a16_current_128_wifi-cellular",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad/128gb-blue-wifi-cellular",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact storage/connectivity list price and current local product listing",
+          "note": "Apple Philippines buy page lists the 128 GB / Wi-Fi + Cellular configuration at PHP 42,990 on 2026-11-27. This is a dated manufacturer-store list price; stock, delivery estimate and checkout completion were not verified."
+        },
+        {
+          "id": "apple_ipad_a16_buy_options",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of all exact configuration options, colors and prices",
+          "note": "Apple's Philippines buy page exposes all six storage/connectivity configurations: 128GB, 256GB and 512GB in Wi-Fi and Wi-Fi + Cellular. Current prices observed 2026-11-27 are PHP 32,990 / 39,990 / 53,990 for Wi-Fi and PHP 42,990 / 49,990 / 63,990 for Wi-Fi + Cellular. Four colors are available."
+        },
+        {
+          "id": "apple_ipad_a16_global_launch",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/",
+          "publicationDate": "2025-03-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model announcement and global availability date",
+          "note": "Apple announced iPad (A16) on 2025-03-04, opened pre-orders that day, and said it would begin arriving and reach Apple Stores/authorized resellers on 2025-03-12. It lists 128GB/256GB/512GB, four colors, and Wi-Fi/Wi-Fi + Cellular versions."
+        },
+        {
+          "id": "apple_ipad_a16_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-gb/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number mapping for Wi-Fi and Wi-Fi + Cellular models",
+          "note": "Apple's model identification page maps A3354 to iPad (A16) Wi-Fi and A3355 to iPad (A16) Wi-Fi + Cellular."
+        },
+        {
+          "id": "apple_ipad_a16_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_A16_PER_MAR2025.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and enclosure-material evidence",
+          "note": "Apple's iPad (A16) Product Environmental Report says the enclosure uses 100% recycled aluminum and the model contains 40% recycled content. The report describes the product configuration and launch-time environmental evaluation."
+        },
+        {
+          "id": "apple_ipad_a16_eu_product_info",
+          "publisher": "Apple Slovenia",
+          "url": "https://www.apple.com/si/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Apple EU product-information label for the exact A3354 Wi-Fi model, including ingress-protection classification",
+          "note": "The Apple EU energy/product-information label identifies iPad (A16) Wi-Fi model A3354 and lists IP42. The rating is applied only to the matching A3354 configurations; this evidence is not generalized to cellular model A3355."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_ph_launch",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/blogs/news/power-meets-portability-discover-the-next-gen-ipad-amp-mac-at-pmc",
+          "publicationDate": "2025-05-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine authorized-reseller availability report",
+          "note": "Power Mac Center's article dated 2025-05-09 says iPad (A16) is then available in Power Mac Center and The Loop stores and online. This is the first dated local authorized-retailer availability found in this review; it does not establish the earliest sale by every Philippine channel."
+        },
+        {
+          "id": "apple_ipad_a16_ph_launch_prices",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2025/03/ipad-2025-a16-ph-price.html",
+          "publicationDate": "2025-03-05",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine Apple Store launch-price report for Wi-Fi capacities",
+          "note": "Published 2025-03-05, GIZGUIDE reports Apple Philippines listing Wi-Fi iPad (A16) at PHP 24,990 (128GB), PHP 31,990 (256GB), and PHP 45,990 (512GB). It says authorized local retailers had not yet announced availability at that time; these are historical Apple PH online-list prices, not reseller stock claims."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_config",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/ipad-a16",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine authorized-reseller product description and accessory cross-check",
+          "note": "Power Mac Center's iPad A16 page describes the 10.86-inch display, Center Stage front camera, Wi-Fi 6 and 5G and accessory compatibility; it states Apple Pencil accessories are sold separately."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_model_ids",
+          "sourceValue": "A3355",
+          "normalizedValue": "A3355",
+          "note": "Apple maps this model number to the matching Wi-Fi or Wi-Fi + Cellular iPad (A16) model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "Global availability begins 2025-03-12",
+          "normalizedValue": "2025-03-12",
+          "unit": "date",
+          "note": "Apple Newsroom says the A16 iPad would begin arriving to customers and reach Apple Stores/authorized resellers from March 12, 2025."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_128_wifi-cellular",
+          "sourceValue": "128 GB / Wi-Fi + Cellular",
+          "normalizedValue": "128 GB / Wi-Fi + Cellular",
+          "note": "Exact capacity/connectivity option shown on Apple Philippines' current buy page; supported capacities and connectivity classes are separately identified by the manufacturer."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_ph_launch",
+          "sourceValue": "Power Mac Center says the model is now available in its Philippine stores and online on 2025-05-09",
+          "normalizedValue": "2025-05-09",
+          "unit": "date",
+          "note": "This is the first dated local authorized-retailer availability report found in this review, not a claim that no Philippine channel sold it earlier."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "No launch-period Philippine peso list price for the Wi-Fi + Cellular configuration was found in the reviewed sources.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "No launch-period Philippine peso list price for the Wi-Fi + Cellular configuration was found in the reviewed sources."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_128_wifi-cellular",
+          "sourceValue": "PHP 42,990 current Apple Philippines list price",
+          "normalizedValue": 42990,
+          "unit": "PHP",
+          "note": "Apple Philippines lists 128 GB / Wi-Fi + Cellular at PHP 42,990 on 2026-11-27. Inventory/checkout status was not confirmed.",
+          "priceType": "Current official Apple Philippines Online Store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "11-inch marketed diagonal; 10.86 inches measured as a rectangle",
+          "normalizedValue": 10.86,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.86,
+          "unit": "in",
+          "note": "Apple's exact model page gives the 10.86-inch rectangular measurement and markets the display as 11-inch."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "LED-backlit Multi-Touch Liquid Retina display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "2360 × 1640 pixels at 264ppi",
+          "normalizedValue": "2360 x 1640",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's specification page does not state a numeric refresh rate for this display.",
+          "normalizedValue": null,
+          "unit": "Hz",
+          "note": "Apple's specification page does not state a numeric refresh rate for this display."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": 500,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple A16 chip",
+          "normalizedValue": "Apple A16",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A16"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a process-node value on the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "unit": "nm",
+          "note": "Apple does not publish a process-node value on the reviewed exact-model specifications."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5-core CPU",
+          "normalizedValue": "5-core CPU",
+          "catalogKey": "cpu",
+          "catalogValue": "5-core CPU"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "4-core GPU",
+          "normalizedValue": "4-core Apple GPU",
+          "catalogKey": "gpu",
+          "catalogValue": "4-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "iPadOS; launch version not stated on the current technical-specification page",
+          "normalizedValue": "iPadOS",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS",
+          "note": "Apple's product-specific technical page identifies iPadOS, but does not name the factory-installed launch build."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model.",
+          "normalizedValue": null,
+          "note": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted.",
+          "normalizedValue": null,
+          "unit": "GB",
+          "note": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "RAM type is not published by Apple for this model.",
+          "normalizedValue": null,
+          "note": "RAM type is not published by Apple for this model."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_128_wifi-cellular",
+          "sourceValue": "128GB storage",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature.",
+          "normalizedValue": null,
+          "note": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8; up to 5× digital zoom",
+          "normalizedValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish the rear camera sensor manufacturer or component identifier.",
+          "normalizedValue": null,
+          "note": "Apple does not publish the rear camera sensor manufacturer or component identifier."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_config",
+          "sourceValue": "12MP Ultra Wide front-facing Center Stage camera; no rear ultra-wide lens is listed",
+          "normalizedValue": "12 MP Ultra Wide front Center Stage; rear ultra-wide not listed",
+          "unit": "MP",
+          "note": "Power Mac Center calls the front-facing Center Stage module Ultra Wide. Apple lists one 12MP Wide rear camera; this field is explicitly labeled as a front camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No telephoto rear camera is listed",
+          "normalizedValue": null,
+          "note": "The complete rear camera specification lists one 12MP Wide camera and digital zoom; no telephoto module is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP landscape Center Stage camera, ƒ/2.4",
+          "normalizedValue": 12,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps.",
+          "normalizedValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "28.93Wh built-in rechargeable lithium-polymer battery; Apple does not state an mAh value",
+          "normalizedValue": 28.93,
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.93,
+          "unit": "Wh",
+          "note": "Exact energy rating from Apple. No mAh conversion is made without a published nominal voltage."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page.",
+          "normalizedValue": null,
+          "unit": "W",
+          "note": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging.",
+          "normalizedValue": null,
+          "note": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "248.6 × 179.5 × 7.0mm",
+          "normalizedValue": "248.6 x 179.5 x 7.0 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "248.6 x 179.5 x 7.0 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 477g; Wi-Fi + Cellular 481g",
+          "normalizedValue": 481,
+          "catalogKey": "weightG",
+          "catalogValue": 481,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_environment",
+          "sourceValue": "100% recycled aluminum enclosure and metal chassis; 15% recycled cover glass reported on Apple Philippines' product specification page",
+          "normalizedValue": "Aluminum enclosure and metal chassis (100% recycled aluminum); cover glass (15% recycled glass)",
+          "note": "Apple's product environmental report confirms recycled aluminum in the enclosure; Apple's local technical page supplies the cover-glass recycled content."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No IP rating for the A3355 Wi-Fi + Cellular model was found in the reviewed Philippine or manufacturer technical pages.",
+          "normalizedValue": null,
+          "note": "No IP rating for the A3355 Wi-Fi + Cellular model was found in the reviewed Philippine or manufacturer technical pages."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi + Cellular model A3355 uses eSIM; not compatible with physical SIM cards",
+          "normalizedValue": "eSIM only; no physical SIM",
+          "catalogKey": "sim",
+          "catalogValue": "eSIM only; no physical SIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5G NR model A3355 bands n1/n2/n3/n5/n7/n8/n12/n14/n20/n25/n26/n28/n29/n30/n38/n40/n41/n48/n66/n70/n71/n75/n76/n77/n78/n79; FDD-LTE bands 1/2/3/4/5/7/8/11/12/13/14/17/18/19/20/21/25/26/28/29/30/32/66/71; TD-LTE bands 34/38/39/40/41/42/48",
+          "normalizedValue": "5G NR and LTE bands listed by Apple for model A3355",
+          "note": "Apple Philippines lists these bands under cellular model A3355. Carrier deployment and local band use are separate from the device's supported bands."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "GPS/GNSS on Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS"
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi + Cellular variant; supports 5G/LTE and eSIM",
+          "normalizedValue": "Wi-Fi + Cellular 5G/LTE with eSIM",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular 5G/LTE with eSIM"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO, simultaneous dual band",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "USB-C with USB 2.0 data up to 480Mb/s and DisplayPort support",
+          "normalizedValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "NFC is not listed in the reviewed exact-model specification.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the reviewed exact-model specification."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Landscape stereo speakers and dual microphones; an analog 3.5mm jack is not listed",
+          "normalizedValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer and ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Supports Apple Pencil (USB-C) and Apple Pencil (1st generation; USB-C adapter required)",
+          "normalizedValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Magic Keyboard Folio compatible; sold separately",
+          "normalizedValue": "Apple Magic Keyboard Folio support; sold separately",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Magic Keyboard Folio support; sold separately"
+        }
+      ],
+      "modelCode": "A3355",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Apple Philippines lists this exact iPad (A16) storage/connectivity option and price. Power Mac Center reported the model available in its stores and online on 2025-05-09. Current inventory/checkout status was not verified.",
+        "philippineAvailability": "First dated Philippine authorized-retailer availability report found: Power Mac Center said iPad (A16) was then available in stores and online on 2025-05-09. Apple Philippines currently lists the exact capacity/connectivity options.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; official Apple PH storage/connectivity options, exact model numbers and dated list prices verified. Philippine reseller availability reported 2025-05-09. RAM is not disclosed. Study eligibility remains Pending.",
+        "catalogModel": "iPad (A16/11th Gen)",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2025,
+        "philippineDateLabel": "First dated Philippine authorized-retailer availability report",
+        "researchNotes": "The workbook record iPad (A16/11th Gen) is matched to Apple's iPad (A16), announced 2025-03-04 with global availability beginning 2025-03-12. Apple's Philippine store offers separate 128 GB / Wi-Fi + Cellular configurations in six total storage/connectivity combinations; this review keeps those configurations separate. Apple PH list price is PHP 42,990 observed 2026-11-27; current stock/checkout not verified. Power Mac Center reported local availability 2025-05-09. Apple does not publish RAM capacity or guaranteed OS support duration. Current device image has no documented reuse permission; neutral placeholder retained. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "RAM capacity is not disclosed by Apple",
+            "action": "Keep RAM blank; do not substitute third-party teardown estimates."
+          },
+          {
+            "issue": "Apple's current store price is listed but stock/checkout is not confirmed",
+            "action": "Display a dated list price without an in-stock claim."
+          },
+          {
+            "issue": "No Philippine launch-period price was found for Wi-Fi + Cellular configs",
+            "action": "Keep the historical price blank for those three variants."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope until thesis screening rules are applied."
+          },
+          {
+            "issue": "The official product image has no documented reuse license",
+            "action": "Keep the neutral placeholder and preserve the source page/asset for rights review."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_73e4c3a19b8741",
+      "configurationId": "device_73e4c3a19b8741-256gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad (A16/11th Gen)",
+      "configuration": "256 GB / Wi-Fi + Cellular",
+      "configurationLabel": "256 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad_a16_ph_specs",
+          "publisher": "Apple Philippines",
+          "url": "https://www.apple.com/ph/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine manufacturer technical specifications for display, chip, cameras, connectivity, battery, accessories and supported capacities",
+          "note": "Apple Philippines lists 128GB, 256GB and 512GB capacities; an 11-inch Liquid Retina display (10.86-inch rectangle measurement), IPS, 2360×1640 at 264ppi, A16 with 5-core CPU/4-core GPU, cameras, Wi-Fi 6, Bluetooth 5.3, cellular/eSIM details, 28.93Wh battery, USB-C, GNSS on cellular models, sensors and supported accessories."
+        },
+        {
+          "id": "apple_ipad_a16_support_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/122240",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of detailed model specifications and Wi-Fi/cellular weights",
+          "note": "Apple's model-specific support page lists year introduced 2025; the same display, chip, camera and capacity specifications; Wi-Fi weight 477g and Wi-Fi + Cellular weight 481g; 28.93Wh lithium-polymer battery; and camera video modes."
+        },
+        {
+          "id": "apple_ipad_a16_current_256_wifi-cellular",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad/256gb-blue-wifi-cellular",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact storage/connectivity list price and current local product listing",
+          "note": "Apple Philippines buy page lists the 256 GB / Wi-Fi + Cellular configuration at PHP 49,990 on 2026-11-27. This is a dated manufacturer-store list price; stock, delivery estimate and checkout completion were not verified."
+        },
+        {
+          "id": "apple_ipad_a16_buy_options",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of all exact configuration options, colors and prices",
+          "note": "Apple's Philippines buy page exposes all six storage/connectivity configurations: 128GB, 256GB and 512GB in Wi-Fi and Wi-Fi + Cellular. Current prices observed 2026-11-27 are PHP 32,990 / 39,990 / 53,990 for Wi-Fi and PHP 42,990 / 49,990 / 63,990 for Wi-Fi + Cellular. Four colors are available."
+        },
+        {
+          "id": "apple_ipad_a16_global_launch",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/",
+          "publicationDate": "2025-03-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model announcement and global availability date",
+          "note": "Apple announced iPad (A16) on 2025-03-04, opened pre-orders that day, and said it would begin arriving and reach Apple Stores/authorized resellers on 2025-03-12. It lists 128GB/256GB/512GB, four colors, and Wi-Fi/Wi-Fi + Cellular versions."
+        },
+        {
+          "id": "apple_ipad_a16_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-gb/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number mapping for Wi-Fi and Wi-Fi + Cellular models",
+          "note": "Apple's model identification page maps A3354 to iPad (A16) Wi-Fi and A3355 to iPad (A16) Wi-Fi + Cellular."
+        },
+        {
+          "id": "apple_ipad_a16_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_A16_PER_MAR2025.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and enclosure-material evidence",
+          "note": "Apple's iPad (A16) Product Environmental Report says the enclosure uses 100% recycled aluminum and the model contains 40% recycled content. The report describes the product configuration and launch-time environmental evaluation."
+        },
+        {
+          "id": "apple_ipad_a16_eu_product_info",
+          "publisher": "Apple Slovenia",
+          "url": "https://www.apple.com/si/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Apple EU product-information label for the exact A3354 Wi-Fi model, including ingress-protection classification",
+          "note": "The Apple EU energy/product-information label identifies iPad (A16) Wi-Fi model A3354 and lists IP42. The rating is applied only to the matching A3354 configurations; this evidence is not generalized to cellular model A3355."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_ph_launch",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/blogs/news/power-meets-portability-discover-the-next-gen-ipad-amp-mac-at-pmc",
+          "publicationDate": "2025-05-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine authorized-reseller availability report",
+          "note": "Power Mac Center's article dated 2025-05-09 says iPad (A16) is then available in Power Mac Center and The Loop stores and online. This is the first dated local authorized-retailer availability found in this review; it does not establish the earliest sale by every Philippine channel."
+        },
+        {
+          "id": "apple_ipad_a16_ph_launch_prices",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2025/03/ipad-2025-a16-ph-price.html",
+          "publicationDate": "2025-03-05",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine Apple Store launch-price report for Wi-Fi capacities",
+          "note": "Published 2025-03-05, GIZGUIDE reports Apple Philippines listing Wi-Fi iPad (A16) at PHP 24,990 (128GB), PHP 31,990 (256GB), and PHP 45,990 (512GB). It says authorized local retailers had not yet announced availability at that time; these are historical Apple PH online-list prices, not reseller stock claims."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_config",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/ipad-a16",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine authorized-reseller product description and accessory cross-check",
+          "note": "Power Mac Center's iPad A16 page describes the 10.86-inch display, Center Stage front camera, Wi-Fi 6 and 5G and accessory compatibility; it states Apple Pencil accessories are sold separately."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_model_ids",
+          "sourceValue": "A3355",
+          "normalizedValue": "A3355",
+          "note": "Apple maps this model number to the matching Wi-Fi or Wi-Fi + Cellular iPad (A16) model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "Global availability begins 2025-03-12",
+          "normalizedValue": "2025-03-12",
+          "unit": "date",
+          "note": "Apple Newsroom says the A16 iPad would begin arriving to customers and reach Apple Stores/authorized resellers from March 12, 2025."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_256_wifi-cellular",
+          "sourceValue": "256 GB / Wi-Fi + Cellular",
+          "normalizedValue": "256 GB / Wi-Fi + Cellular",
+          "note": "Exact capacity/connectivity option shown on Apple Philippines' current buy page; supported capacities and connectivity classes are separately identified by the manufacturer."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_ph_launch",
+          "sourceValue": "Power Mac Center says the model is now available in its Philippine stores and online on 2025-05-09",
+          "normalizedValue": "2025-05-09",
+          "unit": "date",
+          "note": "This is the first dated local authorized-retailer availability report found in this review, not a claim that no Philippine channel sold it earlier."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "No launch-period Philippine peso list price for the Wi-Fi + Cellular configuration was found in the reviewed sources.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "No launch-period Philippine peso list price for the Wi-Fi + Cellular configuration was found in the reviewed sources."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_256_wifi-cellular",
+          "sourceValue": "PHP 49,990 current Apple Philippines list price",
+          "normalizedValue": 49990,
+          "unit": "PHP",
+          "note": "Apple Philippines lists 256 GB / Wi-Fi + Cellular at PHP 49,990 on 2026-11-27. Inventory/checkout status was not confirmed.",
+          "priceType": "Current official Apple Philippines Online Store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "11-inch marketed diagonal; 10.86 inches measured as a rectangle",
+          "normalizedValue": 10.86,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.86,
+          "unit": "in",
+          "note": "Apple's exact model page gives the 10.86-inch rectangular measurement and markets the display as 11-inch."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "LED-backlit Multi-Touch Liquid Retina display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "2360 × 1640 pixels at 264ppi",
+          "normalizedValue": "2360 x 1640",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's specification page does not state a numeric refresh rate for this display.",
+          "normalizedValue": null,
+          "unit": "Hz",
+          "note": "Apple's specification page does not state a numeric refresh rate for this display."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": 500,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple A16 chip",
+          "normalizedValue": "Apple A16",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A16"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a process-node value on the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "unit": "nm",
+          "note": "Apple does not publish a process-node value on the reviewed exact-model specifications."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5-core CPU",
+          "normalizedValue": "5-core CPU",
+          "catalogKey": "cpu",
+          "catalogValue": "5-core CPU"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "4-core GPU",
+          "normalizedValue": "4-core Apple GPU",
+          "catalogKey": "gpu",
+          "catalogValue": "4-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "iPadOS; launch version not stated on the current technical-specification page",
+          "normalizedValue": "iPadOS",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS",
+          "note": "Apple's product-specific technical page identifies iPadOS, but does not name the factory-installed launch build."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model.",
+          "normalizedValue": null,
+          "note": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted.",
+          "normalizedValue": null,
+          "unit": "GB",
+          "note": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "RAM type is not published by Apple for this model.",
+          "normalizedValue": null,
+          "note": "RAM type is not published by Apple for this model."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_256_wifi-cellular",
+          "sourceValue": "256GB storage",
+          "normalizedValue": 256,
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature.",
+          "normalizedValue": null,
+          "note": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8; up to 5× digital zoom",
+          "normalizedValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish the rear camera sensor manufacturer or component identifier.",
+          "normalizedValue": null,
+          "note": "Apple does not publish the rear camera sensor manufacturer or component identifier."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_config",
+          "sourceValue": "12MP Ultra Wide front-facing Center Stage camera; no rear ultra-wide lens is listed",
+          "normalizedValue": "12 MP Ultra Wide front Center Stage; rear ultra-wide not listed",
+          "unit": "MP",
+          "note": "Power Mac Center calls the front-facing Center Stage module Ultra Wide. Apple lists one 12MP Wide rear camera; this field is explicitly labeled as a front camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No telephoto rear camera is listed",
+          "normalizedValue": null,
+          "note": "The complete rear camera specification lists one 12MP Wide camera and digital zoom; no telephoto module is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP landscape Center Stage camera, ƒ/2.4",
+          "normalizedValue": 12,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps.",
+          "normalizedValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "28.93Wh built-in rechargeable lithium-polymer battery; Apple does not state an mAh value",
+          "normalizedValue": 28.93,
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.93,
+          "unit": "Wh",
+          "note": "Exact energy rating from Apple. No mAh conversion is made without a published nominal voltage."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page.",
+          "normalizedValue": null,
+          "unit": "W",
+          "note": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging.",
+          "normalizedValue": null,
+          "note": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "248.6 × 179.5 × 7.0mm",
+          "normalizedValue": "248.6 x 179.5 x 7.0 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "248.6 x 179.5 x 7.0 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 477g; Wi-Fi + Cellular 481g",
+          "normalizedValue": 481,
+          "catalogKey": "weightG",
+          "catalogValue": 481,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_environment",
+          "sourceValue": "100% recycled aluminum enclosure and metal chassis; 15% recycled cover glass reported on Apple Philippines' product specification page",
+          "normalizedValue": "Aluminum enclosure and metal chassis (100% recycled aluminum); cover glass (15% recycled glass)",
+          "note": "Apple's product environmental report confirms recycled aluminum in the enclosure; Apple's local technical page supplies the cover-glass recycled content."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No IP rating for the A3355 Wi-Fi + Cellular model was found in the reviewed Philippine or manufacturer technical pages.",
+          "normalizedValue": null,
+          "note": "No IP rating for the A3355 Wi-Fi + Cellular model was found in the reviewed Philippine or manufacturer technical pages."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi + Cellular model A3355 uses eSIM; not compatible with physical SIM cards",
+          "normalizedValue": "eSIM only; no physical SIM",
+          "catalogKey": "sim",
+          "catalogValue": "eSIM only; no physical SIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5G NR model A3355 bands n1/n2/n3/n5/n7/n8/n12/n14/n20/n25/n26/n28/n29/n30/n38/n40/n41/n48/n66/n70/n71/n75/n76/n77/n78/n79; FDD-LTE bands 1/2/3/4/5/7/8/11/12/13/14/17/18/19/20/21/25/26/28/29/30/32/66/71; TD-LTE bands 34/38/39/40/41/42/48",
+          "normalizedValue": "5G NR and LTE bands listed by Apple for model A3355",
+          "note": "Apple Philippines lists these bands under cellular model A3355. Carrier deployment and local band use are separate from the device's supported bands."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "GPS/GNSS on Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS"
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi + Cellular variant; supports 5G/LTE and eSIM",
+          "normalizedValue": "Wi-Fi + Cellular 5G/LTE with eSIM",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular 5G/LTE with eSIM"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO, simultaneous dual band",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "USB-C with USB 2.0 data up to 480Mb/s and DisplayPort support",
+          "normalizedValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "NFC is not listed in the reviewed exact-model specification.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the reviewed exact-model specification."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Landscape stereo speakers and dual microphones; an analog 3.5mm jack is not listed",
+          "normalizedValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer and ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Supports Apple Pencil (USB-C) and Apple Pencil (1st generation; USB-C adapter required)",
+          "normalizedValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Magic Keyboard Folio compatible; sold separately",
+          "normalizedValue": "Apple Magic Keyboard Folio support; sold separately",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Magic Keyboard Folio support; sold separately"
+        }
+      ],
+      "modelCode": "A3355",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Apple Philippines lists this exact iPad (A16) storage/connectivity option and price. Power Mac Center reported the model available in its stores and online on 2025-05-09. Current inventory/checkout status was not verified.",
+        "philippineAvailability": "First dated Philippine authorized-retailer availability report found: Power Mac Center said iPad (A16) was then available in stores and online on 2025-05-09. Apple Philippines currently lists the exact capacity/connectivity options.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; official Apple PH storage/connectivity options, exact model numbers and dated list prices verified. Philippine reseller availability reported 2025-05-09. RAM is not disclosed. Study eligibility remains Pending.",
+        "catalogModel": "iPad (A16/11th Gen)",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2025,
+        "philippineDateLabel": "First dated Philippine authorized-retailer availability report",
+        "researchNotes": "The workbook record iPad (A16/11th Gen) is matched to Apple's iPad (A16), announced 2025-03-04 with global availability beginning 2025-03-12. Apple's Philippine store offers separate 256 GB / Wi-Fi + Cellular configurations in six total storage/connectivity combinations; this review keeps those configurations separate. Apple PH list price is PHP 49,990 observed 2026-11-27; current stock/checkout not verified. Power Mac Center reported local availability 2025-05-09. Apple does not publish RAM capacity or guaranteed OS support duration. Current device image has no documented reuse permission; neutral placeholder retained. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "RAM capacity is not disclosed by Apple",
+            "action": "Keep RAM blank; do not substitute third-party teardown estimates."
+          },
+          {
+            "issue": "Apple's current store price is listed but stock/checkout is not confirmed",
+            "action": "Display a dated list price without an in-stock claim."
+          },
+          {
+            "issue": "No Philippine launch-period price was found for Wi-Fi + Cellular configs",
+            "action": "Keep the historical price blank for those three variants."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope until thesis screening rules are applied."
+          },
+          {
+            "issue": "The official product image has no documented reuse license",
+            "action": "Keep the neutral placeholder and preserve the source page/asset for rights review."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_73e4c3a19b8741",
+      "configurationId": "device_73e4c3a19b8741-512gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad (A16/11th Gen)",
+      "configuration": "512 GB / Wi-Fi + Cellular",
+      "configurationLabel": "512 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad_a16_ph_specs",
+          "publisher": "Apple Philippines",
+          "url": "https://www.apple.com/ph/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine manufacturer technical specifications for display, chip, cameras, connectivity, battery, accessories and supported capacities",
+          "note": "Apple Philippines lists 128GB, 256GB and 512GB capacities; an 11-inch Liquid Retina display (10.86-inch rectangle measurement), IPS, 2360×1640 at 264ppi, A16 with 5-core CPU/4-core GPU, cameras, Wi-Fi 6, Bluetooth 5.3, cellular/eSIM details, 28.93Wh battery, USB-C, GNSS on cellular models, sensors and supported accessories."
+        },
+        {
+          "id": "apple_ipad_a16_support_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/122240",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of detailed model specifications and Wi-Fi/cellular weights",
+          "note": "Apple's model-specific support page lists year introduced 2025; the same display, chip, camera and capacity specifications; Wi-Fi weight 477g and Wi-Fi + Cellular weight 481g; 28.93Wh lithium-polymer battery; and camera video modes."
+        },
+        {
+          "id": "apple_ipad_a16_current_512_wifi-cellular",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad/512gb-blue-wifi-cellular",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact storage/connectivity list price and current local product listing",
+          "note": "Apple Philippines buy page lists the 512 GB / Wi-Fi + Cellular configuration at PHP 63,990 on 2026-11-27. This is a dated manufacturer-store list price; stock, delivery estimate and checkout completion were not verified."
+        },
+        {
+          "id": "apple_ipad_a16_buy_options",
+          "publisher": "Apple Philippines Online Store",
+          "url": "https://www.apple.com/ph/shop/buy-ipad/ipad",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Cross-check of all exact configuration options, colors and prices",
+          "note": "Apple's Philippines buy page exposes all six storage/connectivity configurations: 128GB, 256GB and 512GB in Wi-Fi and Wi-Fi + Cellular. Current prices observed 2026-11-27 are PHP 32,990 / 39,990 / 53,990 for Wi-Fi and PHP 42,990 / 49,990 / 63,990 for Wi-Fi + Cellular. Four colors are available."
+        },
+        {
+          "id": "apple_ipad_a16_global_launch",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/",
+          "publicationDate": "2025-03-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model announcement and global availability date",
+          "note": "Apple announced iPad (A16) on 2025-03-04, opened pre-orders that day, and said it would begin arriving and reach Apple Stores/authorized resellers on 2025-03-12. It lists 128GB/256GB/512GB, four colors, and Wi-Fi/Wi-Fi + Cellular versions."
+        },
+        {
+          "id": "apple_ipad_a16_model_ids",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-gb/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-number mapping for Wi-Fi and Wi-Fi + Cellular models",
+          "note": "Apple's model identification page maps A3354 to iPad (A16) Wi-Fi and A3355 to iPad (A16) Wi-Fi + Cellular."
+        },
+        {
+          "id": "apple_ipad_a16_environment",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/ph/environment/pdf/products/ipad/iPad_A16_PER_MAR2025.pdf",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-specific environmental report and enclosure-material evidence",
+          "note": "Apple's iPad (A16) Product Environmental Report says the enclosure uses 100% recycled aluminum and the model contains 40% recycled content. The report describes the product configuration and launch-time environmental evaluation."
+        },
+        {
+          "id": "apple_ipad_a16_eu_product_info",
+          "publisher": "Apple Slovenia",
+          "url": "https://www.apple.com/si/ipad-11/specs/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Apple EU product-information label for the exact A3354 Wi-Fi model, including ingress-protection classification",
+          "note": "The Apple EU energy/product-information label identifies iPad (A16) Wi-Fi model A3354 and lists IP42. The rating is applied only to the matching A3354 configurations; this evidence is not generalized to cellular model A3355."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_ph_launch",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/blogs/news/power-meets-portability-discover-the-next-gen-ipad-amp-mac-at-pmc",
+          "publicationDate": "2025-05-09",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine authorized-reseller availability report",
+          "note": "Power Mac Center's article dated 2025-05-09 says iPad (A16) is then available in Power Mac Center and The Loop stores and online. This is the first dated local authorized-retailer availability found in this review; it does not establish the earliest sale by every Philippine channel."
+        },
+        {
+          "id": "apple_ipad_a16_ph_launch_prices",
+          "publisher": "GIZGUIDE",
+          "url": "https://www.gizguide.com/2025/03/ipad-2025-a16-ph-price.html",
+          "publicationDate": "2025-03-05",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine Apple Store launch-price report for Wi-Fi capacities",
+          "note": "Published 2025-03-05, GIZGUIDE reports Apple Philippines listing Wi-Fi iPad (A16) at PHP 24,990 (128GB), PHP 31,990 (256GB), and PHP 45,990 (512GB). It says authorized local retailers had not yet announced availability at that time; these are historical Apple PH online-list prices, not reseller stock claims."
+        },
+        {
+          "id": "apple_ipad_a16_pmc_config",
+          "publisher": "Power Mac Center",
+          "url": "https://powermaccenter.com/pages/ipad-a16",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine authorized-reseller product description and accessory cross-check",
+          "note": "Power Mac Center's iPad A16 page describes the 10.86-inch display, Center Stage front camera, Wi-Fi 6 and 5G and accessory compatibility; it states Apple Pencil accessories are sold separately."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_model_ids",
+          "sourceValue": "A3355",
+          "normalizedValue": "A3355",
+          "note": "Apple maps this model number to the matching Wi-Fi or Wi-Fi + Cellular iPad (A16) model."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "Global availability begins 2025-03-12",
+          "normalizedValue": "2025-03-12",
+          "unit": "date",
+          "note": "Apple Newsroom says the A16 iPad would begin arriving to customers and reach Apple Stores/authorized resellers from March 12, 2025."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_512_wifi-cellular",
+          "sourceValue": "512 GB / Wi-Fi + Cellular",
+          "normalizedValue": "512 GB / Wi-Fi + Cellular",
+          "note": "Exact capacity/connectivity option shown on Apple Philippines' current buy page; supported capacities and connectivity classes are separately identified by the manufacturer."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_ph_launch",
+          "sourceValue": "Power Mac Center says the model is now available in its Philippine stores and online on 2025-05-09",
+          "normalizedValue": "2025-05-09",
+          "unit": "date",
+          "note": "This is the first dated local authorized-retailer availability report found in this review, not a claim that no Philippine channel sold it earlier."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_global_launch",
+          "sourceValue": "No launch-period Philippine peso list price for the Wi-Fi + Cellular configuration was found in the reviewed sources.",
+          "normalizedValue": null,
+          "unit": "PHP",
+          "note": "No launch-period Philippine peso list price for the Wi-Fi + Cellular configuration was found in the reviewed sources."
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_512_wifi-cellular",
+          "sourceValue": "PHP 63,990 current Apple Philippines list price",
+          "normalizedValue": 63990,
+          "unit": "PHP",
+          "note": "Apple Philippines lists 512 GB / Wi-Fi + Cellular at PHP 63,990 on 2026-11-27. Inventory/checkout status was not confirmed.",
+          "priceType": "Current official Apple Philippines Online Store list price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "11-inch marketed diagonal; 10.86 inches measured as a rectangle",
+          "normalizedValue": 10.86,
+          "catalogKey": "displayInches",
+          "catalogValue": 10.86,
+          "unit": "in",
+          "note": "Apple's exact model page gives the 10.86-inch rectangular measurement and markets the display as 11-inch."
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "LED-backlit Multi-Touch Liquid Retina display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "2360 × 1640 pixels at 264ppi",
+          "normalizedValue": "2360 x 1640",
+          "catalogKey": "resolution",
+          "catalogValue": "2360 x 1640"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's specification page does not state a numeric refresh rate for this display.",
+          "normalizedValue": null,
+          "unit": "Hz",
+          "note": "Apple's specification page does not state a numeric refresh rate for this display."
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": 500,
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple A16 chip",
+          "normalizedValue": "Apple A16",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A16"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a process-node value on the reviewed exact-model specifications.",
+          "normalizedValue": null,
+          "unit": "nm",
+          "note": "Apple does not publish a process-node value on the reviewed exact-model specifications."
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5-core CPU",
+          "normalizedValue": "5-core CPU",
+          "catalogKey": "cpu",
+          "catalogValue": "5-core CPU"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "4-core GPU",
+          "normalizedValue": "4-core Apple GPU",
+          "catalogKey": "gpu",
+          "catalogValue": "4-core Apple GPU"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "iPadOS; launch version not stated on the current technical-specification page",
+          "normalizedValue": "iPadOS",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS",
+          "note": "Apple's product-specific technical page identifies iPadOS, but does not name the factory-installed launch build."
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model.",
+          "normalizedValue": null,
+          "note": "Apple does not publish a guaranteed end date or minimum duration for OS/security updates for this model."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted.",
+          "normalizedValue": null,
+          "unit": "GB",
+          "note": "Apple's product-specific technical specifications and capacity selector do not publish RAM capacity; no third-party teardown value is substituted."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "RAM type is not published by Apple for this model.",
+          "normalizedValue": null,
+          "note": "RAM type is not published by Apple for this model."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_current_512_wifi-cellular",
+          "sourceValue": "512GB storage",
+          "normalizedValue": 512,
+          "catalogKey": "storageGb",
+          "catalogValue": 512,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources.",
+          "normalizedValue": null,
+          "note": "Apple lists capacity but does not identify the exact installed flash-storage technology in the reviewed sources."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature.",
+          "normalizedValue": null,
+          "note": "Apple specifies USB-C external display/data support but does not list an SD/microSD card expansion slot or an internal capacity-expansion feature."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP Wide rear camera, ƒ/1.8; up to 5× digital zoom",
+          "normalizedValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "12 MP Wide rear camera; ƒ/1.8; 5x digital zoom",
+          "unit": "MP"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple does not publish the rear camera sensor manufacturer or component identifier.",
+          "normalizedValue": null,
+          "note": "Apple does not publish the rear camera sensor manufacturer or component identifier."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "apple_ipad_a16_pmc_config",
+          "sourceValue": "12MP Ultra Wide front-facing Center Stage camera; no rear ultra-wide lens is listed",
+          "normalizedValue": "12 MP Ultra Wide front Center Stage; rear ultra-wide not listed",
+          "unit": "MP",
+          "note": "Power Mac Center calls the front-facing Center Stage module Ultra Wide. Apple lists one 12MP Wide rear camera; this field is explicitly labeled as a front camera."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No telephoto rear camera is listed",
+          "normalizedValue": null,
+          "note": "The complete rear camera specification lists one 12MP Wide camera and digital zoom; no telephoto module is specified."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "12MP landscape Center Stage camera, ƒ/2.4",
+          "normalizedValue": 12,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps.",
+          "normalizedValue": "Rear: 4K 24/25/30/60fps; 1080p 25/30/60fps; 720p 30/60fps; 1080p slow motion 120/240fps. Front: 1080p 25/30/60fps."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "28.93Wh built-in rechargeable lithium-polymer battery; Apple does not state an mAh value",
+          "normalizedValue": 28.93,
+          "catalogKey": "batteryWh",
+          "catalogValue": 28.93,
+          "unit": "Wh",
+          "note": "Exact energy rating from Apple. No mAh conversion is made without a published nominal voltage."
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page.",
+          "normalizedValue": null,
+          "unit": "W",
+          "note": "Apple includes a 20W USB-C power adapter and lists USB-C charging, but does not publish a maximum device input-wattage rating on the reviewed specification page."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging.",
+          "normalizedValue": null,
+          "note": "The reviewed official specifications list USB-C charging and do not disclose wireless or reverse charging."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "248.6 × 179.5 × 7.0mm",
+          "normalizedValue": "248.6 x 179.5 x 7.0 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "248.6 x 179.5 x 7.0 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 477g; Wi-Fi + Cellular 481g",
+          "normalizedValue": 481,
+          "catalogKey": "weightG",
+          "catalogValue": 481,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_environment",
+          "sourceValue": "100% recycled aluminum enclosure and metal chassis; 15% recycled cover glass reported on Apple Philippines' product specification page",
+          "normalizedValue": "Aluminum enclosure and metal chassis (100% recycled aluminum); cover glass (15% recycled glass)",
+          "note": "Apple's product environmental report confirms recycled aluminum in the enclosure; Apple's local technical page supplies the cover-glass recycled content."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "No IP rating for the A3355 Wi-Fi + Cellular model was found in the reviewed Philippine or manufacturer technical pages.",
+          "normalizedValue": null,
+          "note": "No IP rating for the A3355 Wi-Fi + Cellular model was found in the reviewed Philippine or manufacturer technical pages."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi + Cellular model A3355 uses eSIM; not compatible with physical SIM cards",
+          "normalizedValue": "eSIM only; no physical SIM",
+          "catalogKey": "sim",
+          "catalogValue": "eSIM only; no physical SIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "5G NR model A3355 bands n1/n2/n3/n5/n7/n8/n12/n14/n20/n25/n26/n28/n29/n30/n38/n40/n41/n48/n66/n70/n71/n75/n76/n77/n78/n79; FDD-LTE bands 1/2/3/4/5/7/8/11/12/13/14/17/18/19/20/21/25/26/28/29/30/32/66/71; TD-LTE bands 34/38/39/40/41/42/48",
+          "normalizedValue": "5G NR and LTE bands listed by Apple for model A3355",
+          "note": "Apple Philippines lists these bands under cellular model A3355. Carrier deployment and local band use are separate from the device's supported bands."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "GPS/GNSS on Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS"
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi + Cellular variant; supports 5G/LTE and eSIM",
+          "normalizedValue": "Wi-Fi + Cellular 5G/LTE with eSIM",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular 5G/LTE with eSIM"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Wi-Fi 6 (802.11ax), 2×2 MIMO, simultaneous dual band",
+          "normalizedValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6 (802.11ax), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3"
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "USB-C with USB 2.0 data up to 480Mb/s and DisplayPort support",
+          "normalizedValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort",
+          "catalogKey": "ports",
+          "catalogValue": "USB-C; USB 2.0 up to 480Mb/s; DisplayPort"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "NFC is not listed in the reviewed exact-model specification.",
+          "normalizedValue": null,
+          "note": "NFC is not listed in the reviewed exact-model specification."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Landscape stereo speakers and dual microphones; an analog 3.5mm jack is not listed",
+          "normalizedValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed",
+          "catalogKey": "sound",
+          "catalogValue": "Landscape stereo speakers; dual microphones; 3.5mm jack not listed"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer and ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor"
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Supports Apple Pencil (USB-C) and Apple Pencil (1st generation; USB-C adapter required)",
+          "normalizedValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (USB-C); Apple Pencil (1st generation, adapter required)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad_a16_ph_specs",
+          "sourceValue": "Magic Keyboard Folio compatible; sold separately",
+          "normalizedValue": "Apple Magic Keyboard Folio support; sold separately",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Magic Keyboard Folio support; sold separately"
+        }
+      ],
+      "modelCode": "A3355",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Apple Philippines lists this exact iPad (A16) storage/connectivity option and price. Power Mac Center reported the model available in its stores and online on 2025-05-09. Current inventory/checkout status was not verified.",
+        "philippineAvailability": "First dated Philippine authorized-retailer availability report found: Power Mac Center said iPad (A16) was then available in stores and online on 2025-05-09. Apple Philippines currently lists the exact capacity/connectivity options.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; official Apple PH storage/connectivity options, exact model numbers and dated list prices verified. Philippine reseller availability reported 2025-05-09. RAM is not disclosed. Study eligibility remains Pending.",
+        "catalogModel": "iPad (A16/11th Gen)",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2025,
+        "philippineDateLabel": "First dated Philippine authorized-retailer availability report",
+        "researchNotes": "The workbook record iPad (A16/11th Gen) is matched to Apple's iPad (A16), announced 2025-03-04 with global availability beginning 2025-03-12. Apple's Philippine store offers separate 512 GB / Wi-Fi + Cellular configurations in six total storage/connectivity combinations; this review keeps those configurations separate. Apple PH list price is PHP 63,990 observed 2026-11-27; current stock/checkout not verified. Power Mac Center reported local availability 2025-05-09. Apple does not publish RAM capacity or guaranteed OS support duration. Current device image has no documented reuse permission; neutral placeholder retained. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "RAM capacity is not disclosed by Apple",
+            "action": "Keep RAM blank; do not substitute third-party teardown estimates."
+          },
+          {
+            "issue": "Apple's current store price is listed but stock/checkout is not confirmed",
+            "action": "Display a dated list price without an in-stock claim."
+          },
+          {
+            "issue": "No Philippine launch-period price was found for Wi-Fi + Cellular configs",
+            "action": "Keep the historical price blank for those three variants."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope until thesis screening rules are applied."
+          },
+          {
+            "issue": "The official product image has no documented reuse license",
+            "action": "Keep the neutral placeholder and preserve the source page/asset for rights review."
           }
         ]
       }
