@@ -1,0 +1,106 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "brand": "DOOGEE",
+      "model_name": "T10",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.doogee.co.za/tablets/doogee-t10.html",
+      "result": "Exact DOOGEE T10 manufacturer product page reviewed for final model specifications."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+      "result": "Philippine launch coverage names T10 and reports local 8/128 configuration and PHP 9,499 SRP / PHP 8,399 promo."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.gadgetmatch.com/doogee-enters-the-philippines-with-t-series-tablets/",
+      "result": "Independent Philippine T10 launch/configuration and price cross-check."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.gsmarena.com/doogee_to_enter_the_tablet_market_with_the_t10-news-56254.php",
+      "result": "Exact-model pre-launch article; planned 2022-11-01 launch but early 430 g/UFS values differ from final manufacturer specs."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-doogee-t10",
+      "result": "Exact model profile reviewed; global-only information, with LPDDR4X conflict retained and no PH price inferred."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.notebookcheck.net/Doogee-T10-Tab.685999.0.html",
+      "result": "Exact-model technical table reviewed for 60 Hz, GPU, audio, dimensions, battery and final 570 g weight."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.pinoytechnoguide.com/",
+      "result": "Pinoy Techno Guide reference site searched for the exact DOOGEE T10; no exact model article was located in this pass."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://nanoreview.net/",
+      "result": "NanoReview reference site searched for the exact DOOGEE T10; no exact model profile was located in this pass."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.yugatech.com/doogee-gadget-price-list-philippines",
+      "result": "Current YugaTech price index dated 2026-11-26 has no exact T10 price row; no current price inferred."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "source_url": "https://www.doogee.com/policies/terms-of-service",
+      "result": "Official DOOGEE terms do not grant reuse of product images for business use without written permission; exact T10 image left unavailable."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "configuration_id": "device_6d0aa2c52b2ae3-ph-8gb-128gb-4g",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "4G LTE",
+      "configuration_match": "ph_8gb_physical_128gb_4g_lte_model_match_sku_unlisted",
+      "amount_php": 9499,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2023-09-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://hungrygeeks.com.ph/doogee-philippines-officially-launches-t10-t10s-and-t30-pro-tablets-starts-at-php7399/",
+      "source_kind": "historical_ph_launch_price",
+      "local_availability_verified": true,
+      "availability_status": "reported_launch_srp; not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Philippine launch reporting lists DOOGEE T10 SRP PHP 9,499 for the local model/configuration; numeric SKU was not stated."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "configuration_id": "device_6d0aa2c52b2ae3-ph-8gb-128gb-4g",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "4G LTE",
+      "configuration_match": "ph_8gb_physical_128gb_4g_lte_model_match_sku_unlisted",
+      "amount_php": 8399,
+      "price_type": "historical_ph_introductory_promo_2023-09-01_to_13",
+      "source_published_at": "2023-09-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://hungrygeeks.com.ph/doogee-philippines-officially-launches-t10-t10s-and-t30-pro-tablets-starts-at-php7399/",
+      "source_kind": "historical_ph_launch_promotion",
+      "local_availability_verified": true,
+      "availability_status": "expired_2023-09-13; not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Launch report lists the introductory PHP 8,399 price through September 13, 2023; this is a historical promotion, not a current offer."
+    }
+  ]
+}

@@ -1198,7 +1198,7 @@
       "brand": "DOOGEE",
       "model_name": "T10",
       "category": "tablets",
-      "status": "needs_source_discovery"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_258deabd12180c",
@@ -74481,6 +74481,42 @@
       "availability_status": "historical_model_network_price_context_not_exact_ram",
       "review_status": "VERIFIED",
       "excerpt": "Samsung Newsroom Philippines reported the FE+ 5G as available from PHP 39,990; the story does not state RAM/storage, so it is model/network context only."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "configuration_id": "device_6d0aa2c52b2ae3-ph-8gb-128gb-4g",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "4G LTE",
+      "configuration_match": "ph_8gb_physical_128gb_4g_lte_model_match_sku_unlisted",
+      "amount_php": 9499,
+      "price_type": "historical_ph_launch_srp",
+      "source_published_at": "2023-09-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://hungrygeeks.com.ph/doogee-philippines-officially-launches-t10-t10s-and-t30-pro-tablets-starts-at-php7399/",
+      "source_kind": "historical_ph_launch_price",
+      "local_availability_verified": true,
+      "availability_status": "reported_launch_srp; not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Philippine launch reporting lists DOOGEE T10 SRP PHP 9,499 for the local model/configuration; numeric SKU was not stated."
+    },
+    {
+      "device_id": "device_6d0aa2c52b2ae3",
+      "configuration_id": "device_6d0aa2c52b2ae3-ph-8gb-128gb-4g",
+      "variant_ram_gb": 8,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "4G LTE",
+      "configuration_match": "ph_8gb_physical_128gb_4g_lte_model_match_sku_unlisted",
+      "amount_php": 8399,
+      "price_type": "historical_ph_introductory_promo_2023-09-01_to_13",
+      "source_published_at": "2023-09-01",
+      "observed_at": "2026-11-27",
+      "source_url": "https://hungrygeeks.com.ph/doogee-philippines-officially-launches-t10-t10s-and-t30-pro-tablets-starts-at-php7399/",
+      "source_kind": "historical_ph_launch_promotion",
+      "local_availability_verified": true,
+      "availability_status": "expired_2023-09-13; not_current_price",
+      "review_status": "VERIFIED_SECONDARY",
+      "excerpt": "Launch report lists the introductory PHP 8,399 price through September 13, 2023; this is a historical promotion, not a current offer."
     }
   ],
   "discovery": [

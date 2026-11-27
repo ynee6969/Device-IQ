@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-27T16:55:32+08:00
+Generated: 2026-11-27T17:27:22+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -10,26 +10,26 @@ Generated: 2026-11-27T16:55:32+08:00
 | --- | ---: |
 | Models | 456 |
 | Configurations | 628 |
-| Models with manually verified source fields | 202 |
-| Configurations with manually verified source fields | 341 |
+| Models with manually verified source fields | 203 |
+| Configurations with manually verified source fields | 342 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
-| Models with all fields assessed | 10 |
+| Models with all fields assessed | 11 |
 | Specification-complete models | 0 |
 | Complete with disclosed gaps | 3 |
 | Incomplete models | 453 |
-| Conflicting specification records | 142 |
-| Assessed specification fields | 11201 |
-| Verified specification fields | 9656 |
-| Unavailable fields | 1090 |
+| Conflicting specification records | 144 |
+| Assessed specification fields | 11250 |
+| Verified specification fields | 9695 |
+| Unavailable fields | 1098 |
 | Not applicable fields | 313 |
-| Pending verification fields | 18228 |
+| Pending verification fields | 18179 |
 | Manually reviewed price candidates | 126 |
-| Assessment coverage | 38.06% |
-| Verified coverage | 32.81% |
-| Candidate field observations | 5824 |
-| Candidate prices | 445 |
-| Candidate source links | 300 |
+| Assessment coverage | 38.23% |
+| Verified coverage | 32.94% |
+| Candidate field observations | 5883 |
+| Candidate prices | 522 |
+| Candidate source links | 203 |
 | Image-matched models | 51 |
 | Models with image unavailable | 405 |
 | Excluded models | 3 |
@@ -42,19 +42,19 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 | Category | Models | Configurations | Applicable field rows | Assessed | Verified | Pending | Assessment | Verified coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | smartphones | 288 | 389 | 17894 | 6271 | 5657 | 11623 | 35.05% | 31.61% |
-| tablets | 150 | 217 | 10633 | 4517 | 3588 | 6116 | 42.48% | 33.74% |
+| tablets | 150 | 217 | 10633 | 4566 | 3627 | 6067 | 42.94% | 34.11% |
 | laptops | 18 | 22 | 902 | 413 | 411 | 489 | 45.79% | 45.57% |
 
 ## Collection snapshot (candidate evidence, not verified facts)
 
-- Snapshot timestamp: `2026-11-27`.
-- Fetch attempts: 263; successful page extractions: 221.
-- Extracted pages by source type: `{'independent_ph_reference': 202, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 202, 'official': 19}`.
-- Fetch attempts by category: `{'smartphones': 190, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
-- Candidate field observations by source type: `{'independent_ph_reference': 5801, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144, 'historical_local_reported_srp': 1, 'dated_local_price_promotion': 1, 'historical_local_store_listing': 1, 'historical_local_price_list': 1, 'historical_local_launch_price': 1, 'historical_local_price_observation': 32, 'historical_local_launch_price_report': 5, 'historical_local_price_report': 1, 'current_official_store_listing': 2, 'manufacturer_parameter_page_price': 1, 'historical_local_promotion': 1, 'current_manufacturer_store_listing': 8, 'historical_philippine_launch_price_report': 3, 'secondary_ph_market_price_list': 4, 'philippine_retailer_exact_configuration_listing': 2, 'retailer_exact_configuration_sold_out_listing': 1, 'dated_secondary_ph_market_availability_and_price': 8, 'philippine_retailer_listing_not_orderable_at_observation': 8, 'dated_secondary_ph_price_report_before_local_availability_date_announced': 20, 'dated_secondary_ph_price_and_local_availability_report': 20, 'dated_secondary_ph_launch_period_price_report': 4, 'dated_secondary_ph_availability_and_price_report': 4, 'dated_secondary_ph_price_change_report': 4, 'philippine_authorized_retailer_page_observation': 4, 'dated_authorized_retailer_preorder_report_configuration_ambiguous': 2, 'dated_philippine_launch_price_report': 2, 'dated_philippine_launch_price_cross_check': 2, 'dated_philippine_promo_price_report': 2, 'dated_philippine_promo_price_report_with_conflicting_window': 2, 'current_philippine_retailer_listing_stock_or_condition_not_confirmed': 2, 'philippine_price_aggregator_dated_retailer_quote': 1, 'official_samsung_ph_launch_price': 11, 'official_samsung_ph_discount_terms_arithmetic': 11, 'official_samsung_ph_preorder_price': 6, 'independent_ph_launch_price_report': 1, 'price_tracker_reports_official_samsung_lazmall_listing': 1, 'price_comparator_ansons_offer': 1, 'shopee_ph_sold_out_kimstore_listing': 1, 'official_samsung_ph_2023_campaign_cash_price': 2, 'official_samsung_ph_2025_srp': 2, 'official_samsung_ph_2025_expired_offer': 2, 'official_samsung_ph_2023_home_credit_cash_price': 1, 'official_samsung_ph_historical_campaign_price': 5, 'official_samsung_ph_current_srp': 2, 'official_samsung_ph_historical_srp': 1, 'official_samsung_ph_news_price_context': 1}`.
-- Candidate prices: 445; discovery links: 300.
+- Snapshot timestamp: `2026-11-26T12:43:51+08:00`.
+- Fetch attempts: 265; successful page extractions: 223.
+- Extracted pages by source type: `{'independent_ph_reference': 204, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 204, 'official': 19}`.
+- Fetch attempts by category: `{'smartphones': 192, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
+- Candidate field observations by source type: `{'independent_ph_reference': 6135, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144}`.
+- Candidate prices: 522; discovery links: 203.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
-- 18228 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
+- 18179 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 
 ## Field backlog
 
@@ -62,20 +62,20 @@ Every category template field is enumerated in `research/enrichment/specificatio
 
 | Group | Applicable rows | Assessed | Verified | Pending |
 | --- | ---: | ---: | ---: | ---: |
-| Accessories | 434 | 206 | 192 | 228 |
-| Audio | 628 | 237 | 230 | 391 |
-| Battery | 2490 | 931 | 703 | 1559 |
-| Build | 2490 | 938 | 805 | 1552 |
-| Camera | 3658 | 1468 | 1109 | 2190 |
-| Connectivity | 4569 | 1696 | 1504 | 2873 |
-| Display | 3790 | 1636 | 1520 | 2154 |
-| Identity | 1256 | 521 | 481 | 735 |
+| Accessories | 434 | 208 | 194 | 226 |
+| Audio | 628 | 238 | 231 | 390 |
+| Battery | 2490 | 935 | 706 | 1555 |
+| Build | 2490 | 942 | 808 | 1548 |
+| Camera | 3658 | 1474 | 1112 | 2184 |
+| Connectivity | 4569 | 1704 | 1511 | 2865 |
+| Display | 3790 | 1642 | 1525 | 2148 |
+| Identity | 1256 | 523 | 483 | 733 |
 | Input | 44 | 7 | 7 | 37 |
-| Memory | 3162 | 1251 | 1047 | 1911 |
-| Other | 628 | 199 | 191 | 429 |
-| Philippine market | 1906 | 492 | 451 | 1414 |
-| Platform | 3768 | 1495 | 1304 | 2273 |
-| Release history | 606 | 124 | 112 | 482 |
+| Memory | 3162 | 1256 | 1051 | 1906 |
+| Other | 628 | 200 | 192 | 428 |
+| Philippine market | 1906 | 495 | 453 | 1411 |
+| Platform | 3768 | 1501 | 1309 | 2267 |
+| Release history | 606 | 125 | 113 | 481 |
 
 ## Priority list
 
@@ -83,7 +83,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 
 | Year (claimed) | Category | Brand | Model | Configuration | Record ID | Missing current values | Applicable fields | Status |
 | --- | --- | --- | --- | --- | --- | ---: | ---: | --- |
-| 2023 | tablets | DOOGEE | T10 | Configuration not recorded | `device_6d0aa2c52b2ae3-unrecorded` | 48 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | DOOGEE | T20 Ultra | Configuration not recorded | `device_6e3c9bac9e1aee-unrecorded` | 48 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | DOOGEE | T20mini Pro | Configuration not recorded | `device_2789997925aa9f-unrecorded` | 48 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | DOOGEE | T30 Pro | Configuration not recorded | `device_d9ff705b937a45-unrecorded` | 48 | 49 | SPECIFICATION_INCOMPLETE |
@@ -706,6 +705,7 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2025 | tablets | Apple | iPad (A16/11th Gen) | 512 GB / Wi-Fi + Cellular | `device_73e4c3a19b8741-512gb-wifi-cellular` | 14 | 49 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
 | 2023 | smartphones | ZTE | nubia Neo 5G | 8 GB RAM / 256 GB storage (5G) | `device_03f3856685042e-8gb-256gb` | 12 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | vivo | Y27 4G | 6 GB RAM / 128 GB storage (4G) | `device_6f256573a0fb54-auto-6gb-128gb` | 10 | 46 | SPECIFICATION_INCOMPLETE |
+| 2023 | tablets | DOOGEE | T10 | 8 GB RAM / 128 GB storage · 4G LTE (Philippine configuration; SKU not recorded) | `device_6d0aa2c52b2ae3-ph-8gb-128gb-4g` | 10 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | vivo | Y36 4G | 8 GB RAM / 256 GB storage (4G, SKU X1) | `device_d2f928e59b41f6-auto-8gb-256gb` | 8 | 46 | SPECIFICATION_INCOMPLETE |
 | 2021 | smartphones | Motorola | Moto G50 | 4 GB RAM / 128 GB storage | `device_195cb093808ae0-4gb-128gb-ph` | 6 | 46 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
 | 2021 | smartphones | Motorola | Edge 20 Pro | 12 GB RAM / 256 GB storage | `device_cef4dc913ac418-12gb-256gb-ph` | 5 | 46 | SPECIFICATION_COMPLETE_WITH_DISCLOSED_GAPS |
@@ -715,7 +715,7 @@ Every category template field is enumerated in `research/enrichment/specificatio
 ## Philippine market and image coverage
 
 - Models with an exact-match catalog image carrying a reusable license: 51/456. The remaining 405 show the neutral unavailable-image placeholder.
-- Of those unavailable images, 49 require reuse permission, 62 have reuse rights that are not established, and 294 have no reliable exact-model match recorded.
+- Of those unavailable images, 50 require reuse permission, 62 have reuse rights that are not established, and 293 have no reliable exact-model match recorded.
 - The workbook copy's `IMAGE AUDIT` sheet records each image's source, credit, license, rights-check date, and the reason an image is unavailable. Images without documented reuse rights are not published.
 - Excluded master records: 3; held-out records/claims: 7. These are visible with explicit labels but stay outside eligible searches/recommendations.
 - The public site retains each record's existing verification and scope status. This specification audit does not upgrade Philippine availability status.

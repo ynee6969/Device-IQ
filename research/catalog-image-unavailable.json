@@ -2945,13 +2945,13 @@
     "altText": "Image unavailable for CHUWI Hi10 Max"
   },
   "device_6d0aa2c52b2ae3": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
-    "assetUrl": null,
-    "scope": null,
-    "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
+    "status": "REUSE_PERMISSION_REQUIRED",
+    "reason": "DOOGEE's exact-model product page shows the DOOGEE T10. The brand's terms prohibit copying/reproducing site content or using product images for business use without written permission; no reusable license or permission was found. Keep the neutral placeholder.",
+    "sourcePage": "https://www.doogee.co.za/tablets/doogee-t10.html",
+    "assetUrl": "https://www.doogee.co.za/assets/t10/t10-slate.png",
+    "scope": "DOOGEE T10 Space Gray product image; image is model-level and does not identify a local numeric SKU.",
+    "rightsTermsUrl": "https://www.doogee.com/policies/terms-of-service",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for DOOGEE T10"
   },
   "device_258deabd12180c": {

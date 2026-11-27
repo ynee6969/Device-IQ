@@ -44805,43 +44805,212 @@
     "brand": "DOOGEE",
     "model": "T10",
     "manufacturer": null,
-    "productLine": null,
+    "productLine": "DOOGEE T-series tablets",
     "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "releaseDate": "2022-11-01",
+    "philippineAvailabilityDate": "2023-09-01",
+    "philippineDateLabel": "Reported Philippine launch/online availability date",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-27",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Exact DOOGEE T10 and PH 8/128 LTE model match supported by manufacturer and Philippine launch sources; current price, numeric PH SKU and several technical details unresolved; workbook scope remains Pending.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "YugaTech and GadgetMatch identify DOOGEE T10 at the Philippine launch with 8 GB physical RAM / 128 GB storage; YugaTech links to the local DOOGEE Lazada listing, and Hungry Geeks reports the official Lazada store open for purchase. This supports Philippine availability for the reported 8/128 LTE model in September 2023, but no numeric local SKU or exact first transaction time is documented. It does not verify current stock.",
+    "availabilityStatus": "Dated Philippine launch coverage identifies DOOGEE T10 availability through the official online store from 2023-09-01. Historical introductory pricing ended 2023-09-13. No current price or stock observation was found.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 172 matches the exact DOOGEE T10 model, not the similar T10S, T10 Pro, or T30 Pro. Philippine launch sources identify one local 8 GB physical / 128 GB LTE configuration, with no numeric SKU. The 7 GB memory extension is virtual and not counted as physical RAM. The global launch is reported as 2022-11-01; Philippine launch coverage is dated 2023-09-01. Current Philippine price/stock, exact regional SKU, CPU cluster clock, and RAM generation suffix remain unresolved. The workbook eligibility value remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "No numeric Philippine model code or authorized local SKU was found",
+        "action": "Keep modelCode and SKU blank; retain only the source-backed 8/128 LTE configuration."
+      },
+      {
+        "issue": "No current exact-model Philippine price or stock observation was located",
+        "action": "Keep current price blank; do not use the discontinued/estimated currency-converted listing."
+      },
+      {
+        "issue": "DOOGEE and YugaTech differ on Cortex-A55 maximum clock; DOOGEE and Kimovil differ on LPDDR4 versus LPDDR4X",
+        "action": "Keep CPU cluster-clock and RAM-type fields in CONFLICTING_INFORMATION until exact local evidence resolves them."
+      },
+      {
+        "issue": "Some published preview specifications differ from the final manufacturer page",
+        "action": "Use final DOOGEE eMMC / 570 g values and retain the pre-launch GSMArena discrepancy in source notes."
+      },
+      {
+        "issue": "Display cover material, video modes, NFC, exact LTE bands, eSIM and ingress rating are not disclosed in reviewed sources",
+        "action": "Leave those claims blank or marked Not disclosed; do not infer from similar models or the chipset."
+      },
+      {
+        "issue": "DOOGEE product imagery is exact but reuse terms require written permission for business use",
+        "action": "Keep the neutral placeholder unless reusable permission or a license is obtained."
+      },
+      {
+        "issue": "Study eligibility remains Pending in the supplied workbook",
+        "action": "Preserve the workbook's scope status; research verification does not change eligibility."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "DOOGEE South Africa (manufacturer regional site)",
+        "url": "https://www.doogee.co.za/tablets/doogee-t10.html",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Exact-model manufacturer product page and hardware specifications",
+        "note": "DOOGEE's T10 page identifies the exact model and gives the product's display, T606 processor, memory, storage, battery, camera, connectivity, build, accessory support, and Android 12 details. It is a regional/global technical source, not proof of Philippine sale or a regional SKU."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-09-01",
+        "purpose": "Philippine launch, local 8 GB / 128 GB configuration, local specifications and launch SRP",
+        "note": "Published 2023-09-01. Names the DOOGEE T10 at the Philippine launch, links to its DOOGEE Lazada listing, reports 8 GB physical plus 7 GB virtual RAM / 128 GB, and lists PHP 9,499 SRP / PHP 8,399 introductory price. Its spec table differs from DOOGEE on A55 clock and does not identify a regional SKU."
+      },
+      {
+        "organization": "GadgetMatch Philippines",
+        "url": "https://www.gadgetmatch.com/doogee-enters-the-philippines-with-t-series-tablets/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-09-04",
+        "purpose": "Independent Philippine model/configuration and price cross-check",
+        "note": "Published 2023-09-04. Separately lists T10 8 GB RAM / 128 GB storage, LTE capability, Android 12, 13 MP rear / 8 MP front cameras, 8,300 mAh, PHP 8,399 promo and PHP 9,499 SRP. It does not identify a numeric local SKU or current price."
+      },
+      {
+        "organization": "Hungry Geeks Philippines",
+        "url": "https://hungrygeeks.com.ph/doogee-philippines-officially-launches-t10-t10s-and-t30-pro-tablets-starts-at-php7399/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-09-01",
+        "purpose": "Local launch campaign dates and DOOGEE official-store availability",
+        "note": "Published 2023-09-01. Reports the official DOOGEE Lazada store was open for purchase at launch, gives the T10 PHP 9,499 SRP and PHP 8,399 introductory offer through September 13, 2023, and says offline partner stores would start September 28. This is launch-era reporting, not present stock evidence."
+      },
+      {
+        "organization": "GSMArena",
+        "url": "https://www.gsmarena.com/doogee_to_enter_the_tablet_market_with_the_t10-news-56254.php",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2022-10-22",
+        "purpose": "Pre-launch exact-model reporting and discrepancy review",
+        "note": "Published 2022-10-22, before the T10's reported global launch. GSMArena previewed the T10 and said November 1 was planned; some preview values (430 g and UFS storage) differ from final DOOGEE product specifications. Pre-launch values are not promoted as final hardware."
+      },
+      {
+        "organization": "Gizmochina",
+        "url": "https://www.gizmochina.com/2022/11/01/doogee-enters-the-tablet-industry-with-the-launch-of-the-doogee-t10-tablet-specs-price-availability/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2022-11-01",
+        "purpose": "Global release date and exact-model launch cross-check",
+        "note": "Published 2022-11-01. Reports that DOOGEE launched the exact T10 globally on November 1, 2022. This establishes a reported global date only; it is not Philippine-sale evidence."
+      },
+      {
+        "organization": "Hartware",
+        "url": "https://www.hartware.de/2022/11/01/doogees-first-tablet-t10-will-refresh-you-with-ultimate-entertainment/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2022-11-01",
+        "purpose": "Independent exact-model launch and configuration cross-check",
+        "note": "Published 2022-11-01. Reports global T10 release, 8 GB physical plus extended RAM, 128 GB storage, 8,300 mAh and 18 W charging. It is a secondary model-level source."
+      },
+      {
+        "organization": "Kimovil",
+        "url": "https://www.kimovil.com/en/where-to-buy-doogee-t10",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Secondary exact-model global specification cross-check",
+        "note": "The exact T10 profile lists Global 8 GB / 128 GB; its global price feed is not a Philippine price. It reports eMMC storage, dimensions, 570 g, display and camera details, but differs from DOOGEE on LPDDR4X versus LPDDR4 and does not verify a local SKU."
+      },
+      {
+        "organization": "Notebookcheck",
+        "url": "https://www.notebookcheck.net/Doogee-T10-Tab.685999.0.html",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Independent exact-model technical cross-check",
+        "note": "The exact T10 model page lists 60 Hz display, Mali-G57 MP1, eMMC storage, 3.5 mm audio, LTE/Wi-Fi 5, Bluetooth 5.0, 570 g, 8,300 mAh Li-polymer battery and Android 12. It is not Philippine variant, sale, or price evidence."
+      },
+      {
+        "organization": "YugaTech Philippines",
+        "url": "https://www.yugatech.com/doogee-gadget-price-list-philippines",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2026-11-26",
+        "purpose": "Current Philippine price search as of 2026-11-27",
+        "note": "The YugaTech Philippine price index was updated 2026-11-26 and its current DOOGEE rows do not list the T10. This absence is not proof that no seller has stock; it supplies no current T10 price."
+      },
+      {
+        "organization": "MobileMall Philippines",
+        "url": "https://philippines.mobilemall.co/doogee-t10",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Review and rejection of an estimated PH price candidate",
+        "note": "The current search result labels the T10 discontinued and marks its PHP amount as estimated/converted rather than an observed authorized Philippine offer. That estimate is not used as a current price."
+      },
+      {
+        "organization": "DOOGEE",
+        "url": "https://www.doogee.com/policies/terms-of-service",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Image reuse terms for the exact-model official product image",
+        "note": "DOOGEE's site terms say website images/materials may not be used for business use without written permission and describe unauthorized reproduction/distribution as prohibited. No reuse permission or open license was located; the exact image is therefore not republished."
+      }
+    ],
     "variants": [
       {
-        "id": "device_6d0aa2c52b2ae3-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
+        "id": "device_6d0aa2c52b2ae3-ph-8gb-128gb-4g",
+        "label": "8 GB RAM / 128 GB storage · 4G LTE (Philippine configuration; SKU not recorded)",
+        "specs": {
+          "displayInches": 10.1,
+          "displayType": "IPS LCD",
+          "resolution": "1920 x 1200",
+          "refreshHz": 60,
+          "chipset": "Unisoc T606",
+          "cpu": null,
+          "gpu": "ARM Mali-G57 MP1",
+          "os": "Android 12",
+          "ramGb": 8,
+          "ramType": null,
+          "storageGb": 128,
+          "storageType": "eMMC; generation not stated by DOOGEE",
+          "frontCameraMp": 8,
+          "batteryMah": 8300,
+          "chargingW": 18,
+          "dimensions": "242.3 x 161.1 x 7.5 mm",
+          "weightG": 570,
+          "sim": "Dual SIM; shared SIM/microSD tray; eSIM not recorded",
+          "cellular": "GSM / HSPA / 4G LTE; exact Philippine bands not recorded",
+          "wifi": "Wi-Fi 5 (802.11ac), dual-band",
+          "ports": "USB Type-C; USB 2.0",
+          "sound": "Dual stereo speakers; 3.5 mm audio jack",
+          "stylus": "Stylus supported; model/package inclusion not recorded",
+          "keyboard": "Detachable keyboard supported; sold separately"
+        },
+        "specSources": {
+          "displayInches": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "displayType": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "resolution": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "refreshHz": "https://www.notebookcheck.net/Doogee-T10-Tab.685999.0.html",
+          "chipset": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "gpu": "https://www.notebookcheck.net/Doogee-T10-Tab.685999.0.html",
+          "os": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+          "ramGb": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+          "storageGb": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+          "storageType": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "frontCameraMp": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "batteryMah": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "chargingW": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "dimensions": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+          "weightG": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "sim": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+          "cellular": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+          "wifi": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "ports": "https://www.yugatech.com/toys-gadgets/doogee-philippines-relaunched/",
+          "sound": "https://www.notebookcheck.net/Doogee-T10-Tab.685999.0.html",
+          "stylus": "https://www.doogee.co.za/tablets/doogee-t10.html",
+          "keyboard": "https://www.doogee.co.za/tablets/doogee-t10.html"
+        },
         "pricePhp": null,
         "priceCondition": null,
         "priceType": null,
         "priceObservedAt": null,
         "priceSourceUrl": null,
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Philippine launch reporting identifies 8 GB physical RAM / 128 GB storage and LTE; a numeric local SKU is not recorded.",
         "sku": null,
         "modelCode": null,
         "workbookRow": null
