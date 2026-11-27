@@ -1,6 +1,6 @@
 # DeviceIQ Research Progress
 
-Updated: 2026-11-27T11:22:44+08:00
+Updated: 2026-11-27T11:31:38+08:00
 
 > Claimed research year is not a verified Philippine release year. Inventory presence does not establish release eligibility.
 
@@ -10,17 +10,17 @@ Updated: 2026-11-27T11:22:44+08:00
 | --- | ---: |
 | Device models | 456 |
 | Configurations | 580 |
-| Models with manually verified source fields | 192 |
-| Configurations with manually verified source fields | 283 |
+| Models with manually verified source fields | 193 |
+| Configurations with manually verified source fields | 284 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
-| Models with all fields assessed | 6 |
+| Models with all fields assessed | 7 |
 | Specification-complete models | 0 |
 | Incomplete models | 454 |
 | Applicable field assignments | 27077 |
-| Fields assessed | 8263 |
-| Verified fields | 7440 |
-| Pending fields | 18814 |
+| Fields assessed | 8312 |
+| Verified fields | 7467 |
+| Pending fields | 18765 |
 | PTG extracted pages | 202 |
 | Official extracted pages | 19 |
 | Independent technical source pages (NanoReview/Kimovil/Notebookcheck) | 0 |
@@ -107,7 +107,7 @@ The table counts the existing records and this run's review state; it does not m
 | 2023 | smartphones | itel | 3 | 1 | 3 | 0 | 0 | 3 | 26 | 26 | 112 | 2 | 1 | 1 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | realme | 2 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 184 | 2 | 0 | 0 | 0 | 0 | 2 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | smartphones | vivo | 2 | 2 | 2 | 0 | 0 | 2 | 92 | 74 | 0 | 2 | 2 | 0 | 0 | 1 | 1 | PARTIAL_WITH_PENDING_FIELDS |
-| 2023 | tablets | ABC TECH | 3 | 0 | 3 | 0 | 0 | 3 | 0 | 0 | 147 | 0 | 0 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
+| 2023 | tablets | ABC TECH | 3 | 1 | 3 | 0 | 0 | 3 | 49 | 27 | 98 | 0 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | tablets | DOOGEE | 6 | 0 | 6 | 0 | 0 | 6 | 1 | 1 | 293 | 1 | 1 | 0 | 0 | 0 | 6 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | tablets | HONOR | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 48 | 1 | 1 | 0 | 0 | 0 | 1 | PARTIAL_WITH_PENDING_FIELDS |
 | 2023 | tablets | Huawei | 3 | 0 | 3 | 0 | 0 | 3 | 1 | 1 | 146 | 1 | 1 | 0 | 0 | 0 | 3 | PARTIAL_WITH_PENDING_FIELDS |

@@ -2790,14 +2790,17 @@
     "altText": "Image unavailable for ABC TECH X10+"
   },
   "device_87e79ad13fe93b": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "ABC Tech's official product page links to an exact X8 Study Buddy Tablet image, but no image reuse license or permission to republish/hotlink is documented. Keep the neutral placeholder.",
+    "sourcePage": "https://abctech.ph/products/abc-tech-x8",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://abctech.ph/cdn/shop/files/X8CHARCOALBLACK_1024x1024_crop_center.png?v=1743659224",
+    "scope": "Official ABC TECH X8 Study Buddy Tablet product image, charcoal-black product listing; exact SKU association is through the official product page.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
-    "altText": "Image unavailable for ABC TECH X8"
+    "rightsCheck": "Reviewed the official product page and linked image. No image reuse license or credit/permission terms were found on the product page. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://abctech.ph/products/abc-tech-x8",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for ABC TECH X8 Study Buddy Tablet"
   },
   "exclude_be9fee75a80eeb": {
     "status": "NO_RELIABLE_MATCH",

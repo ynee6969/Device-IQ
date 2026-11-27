@@ -1177,7 +1177,7 @@
       "brand": "ABC TECH",
       "model_name": "X8",
       "category": "tablets",
-      "status": "needs_source_discovery"
+      "status": "manually_reviewed"
     },
     {
       "device_id": "device_2d3b3b3ff3d487",

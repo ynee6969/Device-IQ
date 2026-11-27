@@ -40211,47 +40211,164 @@
     "recordType": "device",
     "category": "tablets",
     "brand": "ABC TECH",
-    "model": "X8",
-    "manufacturer": null,
-    "productLine": null,
-    "modelNumber": null,
-    "releaseDate": null,
-    "philippineAvailabilityDate": null,
-    "philippineDateLabel": "Philippine availability date",
-    "philippineReleaseYear": null,
+    "model": "X8 Study Buddy Tablet",
+    "manufacturer": "ABC Tech Ventures Inc.",
+    "productLine": "Study Buddy",
+    "modelNumber": "X8-CB-8I-232",
+    "releaseDate": "2023-07-28",
+    "philippineAvailabilityDate": "2023-07-28",
+    "philippineDateLabel": "Manufacturer-reported Philippine release date",
+    "philippineReleaseYear": 2023,
     "claimedReleaseYear": 2023,
-    "localEvidenceObservedAt": null,
-    "verificationStatus": "PENDING_VERIFICATION",
+    "localEvidenceObservedAt": "2026-11-27",
+    "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
     "scopeStatus": "Pending",
-    "qualityFlag": "Missing manufacturer",
+    "qualityFlag": "Manually reviewed; exact manufacturer SKU, 2GB/32GB configuration and Philippine availability verified; panel technology/resolution unresolved; current official listed price observed; stock not confirmed.",
     "exclusionReason": null,
     "exclusionEvidence": null,
-    "philippineAvailability": "Not recorded",
-    "availabilityStatus": "Not verified",
+    "philippineAvailability": "Verified Philippine release of ABC TECH X8 Study Buddy Tablet, 2GB/32GB, dated 2023-07-28; exact-SKU listing remains on the official Philippine site.",
+    "availabilityStatus": "Verified Philippine launch and current manufacturer-store listing: ABC TECH X8 Study Buddy Tablet (official SKU X8-CB-8I-232), 2GB/32GB. ABC Tech's site lists PHP 4,899 when checked 2026-11-27; add-to-cart is shown, but stock/checkout was not verified.",
     "discontinued": null,
-    "researchNotes": "Preliminary research claim only; no linked Philippine source supplied.",
+    "researchNotes": "Workbook row 169 labeled ABC TECH X8 is matched to the Filipino-owned ABC Tech Ventures Inc. product named X8 Study Buddy Tablet and official SKU X8-CB-8I-232. The verified configuration is 2GB RAM/32GB storage with dual-SIM LTE reported by local coverage. The manufacturer page's current display pixel resolution and panel type conflict with a 2023 local specification listing; both fields remain blank and cited. The official page lists PHP 4,899, but current stock/checkout is not verified. An exact official product image is identified, but reuse permission is undocumented, so the neutral placeholder remains. Study scope remains Pending.",
     "openIssues": [
       {
-        "issue": "Preliminary example only",
-        "action": "Verify against a manufacturer or authorized Philippine source"
+        "issue": "Manufacturer and Philippine media reports conflict on exact pixel resolution",
+        "action": "Keep normalized resolution blank and retain both source values."
+      },
+      {
+        "issue": "Manufacturer pages say TN/IPS or IPS; exact panel technology on this SKU is unclear",
+        "action": "Keep normalized panel type blank until the manufacturer identifies the SKU's panel."
+      },
+      {
+        "issue": "Current official listed price is PHP 4,899, but stock/checkout was not confirmed",
+        "action": "Display the dated official listing price without an in-stock claim."
+      },
+      {
+        "issue": "Study eligibility remains Pending",
+        "action": "Keep workbook eligibility unchanged until the study screening rule is applied."
+      },
+      {
+        "issue": "Official product imagery has no documented reuse license",
+        "action": "Keep the neutral unavailable-image placeholder and preserve the source asset URL for rights review."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "organization": "ABC Tech Ventures Inc.",
+        "url": "https://abctech.ph/products/abc-tech-x8",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Manufacturer product page, exact model/SKU, current listing price and primary specifications",
+        "note": "The ABC Tech product page identifies ABC TECH X8 Study Buddy Tablet, SKU X8-CB-8I-232, current listed price PHP 4,899, 8-inch display, 2GB RAM, 32GB storage, 9863 octa-core solution, Android 12, 800×1280 TN/IPS display, GPS, 5MP front camera, 8MP rear camera, 4000mAh battery and 195×120mm body dimensions (thickness not given). Add-to-cart is shown; stock/checkout was not confirmed."
+      },
+      {
+        "organization": "ABC Tech Ventures Inc.",
+        "url": "https://abctech.ph/",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Official brand identity, catalog and Philippine selling channels",
+        "note": "Official site advertises ABC TECH X8 with an 8-inch IPS display, 2GB+32GB and 4000mAh; lists the X8 at PHP 4,899 and offers delivery to NCR, Luzon, Visayas and Mindanao. The site's second product description says TN/IPS, so display type remains unresolved."
+      },
+      {
+        "organization": "ABC Tech Ventures Inc. / MB TechNews",
+        "url": "https://abctech.ph/blogs/news/abc-tech-hub-grand-launching",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-07-28",
+        "purpose": "Manufacturer-published Philippine product launch and launch configuration",
+        "note": "Company blog dated 2023-07-28 says ABC Tech released its X8, X10 and X10 Plus tablet line on July 28. It identifies X8 as 8 inches, 32GB storage, 8MP rear and 5MP front camera. It is a company-hosted launch story authored by MB TechNews."
+      },
+      {
+        "organization": "GIZGUIDE",
+        "url": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-08-15",
+        "purpose": "Contemporaneous Philippine price and technical cross-check",
+        "note": "Article dated 2023-08-15 reports the X8 at PHP 5,999, 8-inch IPS panel, 1920×1200 resolution, UNISOC SC9863, 2GB/32GB, 4000mAh with 10W charge, Android 12, Wi-Fi 4, 4G LTE, Bluetooth 5.0, dual SIM, USB-C, headphone jack and listed sensors. Its reported pixel resolution conflicts with the manufacturer's current 800×1280 product description."
+      },
+      {
+        "organization": "Unbox Diaries",
+        "url": "https://unboxdiaries.com/abc-tech-launches-new-x8-x10-and-x10-plus-tablets/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-08-01",
+        "purpose": "Independent Philippine launch, configuration and price cross-check",
+        "note": "Article dated 2023-08-01 reports the ABC Tech X8 at 8 inches, IPS, 2GB/32GB, Android 12, 4000mAh, 8MP rear, 5MP front and PHP 5,999. It does not publish exact display pixels or a model SKU."
+      },
+      {
+        "organization": "Curlydianne / MB TechNews",
+        "url": "https://www.curlydianne.com/2023/07/abc-tech-affordable-tablets/",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-07-30",
+        "purpose": "Philippine launch story and exact camera/configuration cross-check",
+        "note": "Article dated 2023-07-30 identifies ABC Tech Ventures Inc. and the X8 as its newly launched 8-inch, 32GB tablet with 8MP rear and 5MP front camera. It does not provide a model SKU or full hardware table."
+      },
+      {
+        "organization": "Philstar.com",
+        "url": "https://qa.philstar.com/business/technology/2023/05/19/2267477/ndc-taps-filipino-tablet-provider-digitize-pinoy-students/amp",
+        "observedAt": "2026-11-27",
+        "publishedAt": "2023-05-19",
+        "purpose": "Independent company and Philippine-market identity verification",
+        "note": "Philstar's 2023-05-19 profile identifies ABC Tech Ventures, its tablet business and Philippine educational-market activity. It says the brand planned a July release of its then-new general-public tablet line. This company-level coverage does not independently specify the X8 hardware."
+      },
+      {
+        "organization": "UNISOC",
+        "url": "https://www.unisoc.com/en/product/SmartPhone/9863A",
+        "observedAt": "2026-11-27",
+        "publishedAt": null,
+        "purpose": "Primary chipset specification cross-check",
+        "note": "UNISOC's official SC9863A page lists an octa-core Cortex-A55 CPU up to 1.6GHz, 28nm process options, PowerVR GE8322 GPU, LPDDR3/LPDDR4X support, eMMC 5.1 support, LTE, GNSS, Wi-Fi b/g/n and Bluetooth 4.2. These are component capabilities, not proof that every option or radio is configured in the X8."
+      }
+    ],
     "variants": [
       {
-        "id": "device_87e79ad13fe93b-unrecorded",
-        "label": "Configuration not recorded",
-        "specs": {},
-        "specSources": {},
-        "pricePhp": null,
-        "priceCondition": null,
-        "priceType": null,
-        "priceObservedAt": null,
-        "priceSourceUrl": null,
+        "id": "device_87e79ad13fe93b-2gb-32gb",
+        "label": "2 GB RAM / 32 GB storage (4G LTE)",
+        "specs": {
+          "displayInches": 8.0,
+          "displayType": null,
+          "resolution": null,
+          "chipset": "UNISOC SC9863",
+          "cpu": "8x Cortex-A55 up to 1.6GHz",
+          "gpu": "PowerVR GE8322",
+          "os": "Android 12",
+          "ramGb": 2,
+          "storageGb": 32,
+          "rearCameraMp": 8,
+          "frontCameraMp": 5,
+          "batteryMah": 4000,
+          "chargingW": 10,
+          "dimensions": "195 × 120 × thickness not recorded",
+          "sim": "Dual SIM; eSIM not recorded",
+          "wifi": "Wi-Fi 4 (802.11 b/g/n)",
+          "ports": "USB Type-C; data version not recorded",
+          "sound": "Built-in speakers and microphone; 3.5mm audio jack"
+        },
+        "specSources": {
+          "displayInches": "https://abctech.ph/products/abc-tech-x8",
+          "chipset": "https://www.unisoc.com/en/product/SmartPhone/9863A",
+          "cpu": "https://www.unisoc.com/en/product/SmartPhone/9863A",
+          "gpu": "https://www.unisoc.com/en/product/SmartPhone/9863A",
+          "os": "https://abctech.ph/products/abc-tech-x8",
+          "ramGb": "https://abctech.ph/products/abc-tech-x8",
+          "storageGb": "https://abctech.ph/products/abc-tech-x8",
+          "rearCameraMp": "https://abctech.ph/products/abc-tech-x8",
+          "frontCameraMp": "https://abctech.ph/products/abc-tech-x8",
+          "batteryMah": "https://abctech.ph/products/abc-tech-x8",
+          "chargingW": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+          "dimensions": "https://abctech.ph/products/abc-tech-x8",
+          "sim": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+          "wifi": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+          "ports": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html",
+          "sound": "https://www.gizguide.com/2023/08/abc-tech-x8-x10-x10plus-ph.html"
+        },
+        "pricePhp": 4899,
+        "priceCondition": "new",
+        "priceType": "Current official Philippine manufacturer-store list price",
+        "priceObservedAt": "2026-11-27",
+        "priceSourceUrl": "https://abctech.ph/products/abc-tech-x8",
         "listingStatus": "Not verified",
-        "notes": null,
+        "notes": "Observed on 2026-11-27 on ABC Tech's official exact-SKU page. Page shows Add to Cart and nationwide delivery estimates; actual stock/checkout completion was not verified.",
         "sku": null,
-        "modelCode": null,
+        "modelCode": "X8-CB-8I-232",
         "workbookRow": null
       }
     ],
