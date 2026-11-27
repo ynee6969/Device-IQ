@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-26",
+  "reviewedAt": "2026-11-27",
   "records": [
     {
       "deviceId": "device_a41c76670e8533",
@@ -18379,190 +18379,6 @@
           "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
           "catalogKey": "wifi",
           "catalogValue": "Wi-Fi 802.11 b/g/n/ac (dual band)"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_6f256573a0fb54",
-      "configurationId": "device_6f256573a0fb54-auto-6gb-128gb",
-      "brand": "vivo",
-      "model": "Y27",
-      "configurationLabel": "6 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "candidate_713c8963471188",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y27",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "ram_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "RAM: 6 GB",
-          "normalizedValue": 6,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "ramGb",
-          "catalogValue": 6
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Storage: 128GB",
-          "normalizedValue": 128,
-          "note": "Exact RAM/storage value appears in the same accepted source page as the matching configuration pair.",
-          "unit": "GB",
-          "catalogKey": "storageGb",
-          "catalogValue": 128
-        },
-        {
-          "fieldId": "configuration",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Exact configuration 6 GB RAM / 128 GB storage is stated by the source.",
-          "normalizedValue": "6 GB RAM / 128 GB storage",
-          "note": "Configuration evidence matches RAM and storage as an exact pair."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": 5000,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "mAh",
-          "catalogKey": "batteryMah",
-          "catalogValue": 5000
-        },
-        {
-          "fieldId": "bluetooth",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Bluetooth: Bluetooth 5.0",
-          "normalizedValue": "Bluetooth 5.0",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "wired_charging",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Charging: 44W Fast Charging (vivo FlashCharge, 29% in 15 minutes) Charging",
-          "normalizedValue": 44,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "W",
-          "catalogKey": "chargingW",
-          "catalogValue": 44
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Chipset: MediaTek Helio G85",
-          "normalizedValue": "MediaTek Helio G85",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "chipset",
-          "catalogValue": "MediaTek Helio G85"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "CPU: Octa Core CPU2x Cortex-A75 @ 2.0GHz + 6x Cortex-A55 @ 1.8GHz",
-          "normalizedValue": "Octa Core CPU2x Cortex-A75 @ 2.0GHz + 6x Cortex-A55 @ 1.8GHz",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cpu",
-          "catalogValue": "Octa Core CPU2x Cortex-A75 @ 2.0GHz + 6x Cortex-A55 @ 1.8GHz"
-        },
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 60Hz Refresh Rate, 600 nits peak brightness, and notch",
-          "normalizedValue": 6.64,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "in",
-          "catalogKey": "displayInches",
-          "catalogValue": 6.64
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "GPU: Mali-G52 MC2",
-          "normalizedValue": "Mali-G52 MC2",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "gpu",
-          "catalogValue": "Mali-G52 MC2"
-        },
-        {
-          "fieldId": "nfc",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "NFC: No",
-          "normalizedValue": "No",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "operating_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "OS: Android 13 with Funtouch OS 13",
-          "normalizedValue": "Android 13 with Funtouch OS 13",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "os",
-          "catalogValue": "Android 13 with Funtouch OS 13"
-        },
-        {
-          "fieldId": "rear_camera_system",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "normalizedValue": "Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "sim_esim",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "SIM Card: Dual SIM (Nano-SIM)",
-          "normalizedValue": "Dual SIM (Nano-SIM)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sim",
-          "catalogValue": "Dual SIM (Nano-SIM)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Weight: 190 g",
-          "normalizedValue": 190,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "g",
-          "catalogKey": "weightG",
-          "catalogValue": 190
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Wi-Fi: Wi-Fi 802.11 b/g/n/ac (dual band)",
-          "normalizedValue": "Wi-Fi 802.11 b/g/n/ac (dual band)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 802.11 b/g/n/ac (dual band)"
-        }
-      ],
-      "replacementVariants": [
-        {
-          "id": "device_6f256573a0fb54-auto-6gb-128gb",
-          "label": "6 GB RAM / 128 GB storage"
         }
       ]
     },
@@ -60359,163 +60175,6 @@
           "status": "VERIFIED_SECONDARY",
           "sourceId": "candidate_f37600e742552e",
           "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)AI Lens-LED Flash -Up to 1080p video recording",
-          "normalizedValue": "Up to 1080p video recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "video",
-          "catalogValue": "Up to 1080p video recording"
-        }
-      ]
-    },
-    {
-      "deviceId": "device_6f256573a0fb54",
-      "configurationId": "device_6f256573a0fb54-auto-6gb-128gb",
-      "brand": "vivo",
-      "model": "Y27",
-      "configurationLabel": "6 GB RAM / 128 GB storage",
-      "sources": [
-        {
-          "id": "candidate_713c8963471188",
-          "publisher": "Pinoy Techno Guide",
-          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y27",
-          "publicationDate": null,
-          "accessDate": "2026-11-25",
-          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
-          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "audio",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Sound: 3.5mm Audio Jack",
-          "normalizedValue": "3.5mm Audio Jack",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "sound",
-          "catalogValue": "3.5mm Audio Jack"
-        },
-        {
-          "fieldId": "battery_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Battery: 5000 mAh Li-Po Battery (Non-removable)",
-          "normalizedValue": "Li-Po Battery (Non-removable)",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "cellular_bands",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Cellular: 4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
-          "normalizedValue": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "cellular",
-          "catalogValue": "4G LTE, 3G HSPA+, 2G EDGE & GPRS Networks"
-        },
-        {
-          "fieldId": "display_brightness",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 60Hz Refresh Rate, 600 nits peak brightness, and notch",
-          "normalizedValue": "600 nits",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "nits"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 60Hz Refresh Rate, 600 nits peak brightness, and notch",
-          "normalizedValue": "IPS LCD",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "displayType",
-          "catalogValue": "IPS LCD"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Front Camera: 8 Megapixels (f/2.0 Aperture) -Up to 1080p video recording",
-          "normalizedValue": 8,
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "MP",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 8
-        },
-        {
-          "fieldId": "gnss",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Location: GPS, GLONASS, GALILEO, BeiDou, QZSS",
-          "normalizedValue": "GPS, GLONASS, GALILEO, BeiDou, QZSS",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "ingress_protection",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Durability: IP54 splash resistance",
-          "normalizedValue": "IP54 splash resistance",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "main_camera_sensor",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "normalizedValue": "50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "materials",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Build Materials: Glass front, Polycarbonate back",
-          "normalizedValue": "Glass front, Polycarbonate back",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "display_refresh_rate",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 60Hz Refresh Rate, 600 nits peak brightness, and notch",
-          "normalizedValue": "60",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "unit": "Hz",
-          "catalogKey": "refreshHz",
-          "catalogValue": "60"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Display: 6.64-inch FHD+ IPS LCD Display (1080 x 2388 Pixels 395 ppi) with 19.9:9 Aspect Ratio, 60Hz Refresh Rate, 600 nits peak brightness, and notch",
-          "normalizedValue": "1080 x 2388",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
-          "catalogKey": "resolution",
-          "catalogValue": "1080 x 2388"
-        },
-        {
-          "fieldId": "sensors",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Sensors: Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "normalizedValue": "Compass, Ambient Light Sensor, Proximity Sensor, Accelerometer",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "storage_expansion",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Expansion: Expandable up to 1TB via microSD",
-          "normalizedValue": "Expandable up to 1TB via microSD",
-          "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability."
-        },
-        {
-          "fieldId": "video_recording",
-          "status": "VERIFIED_SECONDARY",
-          "sourceId": "candidate_713c8963471188",
-          "sourceValue": "Rear Camera: Dual Cameras: 50MP Main Camera (f/1.8 Aperture, Autofocus)2MP Depth Sensor-LED Flash -Up to 1080p video recording",
           "normalizedValue": "Up to 1080p video recording",
           "note": "Exact-model technical value reviewed from an accepted source page. This model-level field is not a claim of Philippine sale availability.",
           "catalogKey": "video",
@@ -172810,6 +172469,593 @@
         }
       ],
       "modelCode": "SM-F946B/DS"
+    },
+    {
+      "deviceId": "device_6f256573a0fb54",
+      "configurationId": "device_6f256573a0fb54-auto-6gb-128gb",
+      "brand": "vivo",
+      "model": "Y27 4G",
+      "configurationLabel": "6 GB RAM / 128 GB storage (4G)",
+      "sources": [
+        {
+          "id": "candidate_713c8963471188",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y27",
+          "publicationDate": null,
+          "accessDate": "2026-11-25",
+          "purpose": "Exact-model specification evidence; configuration-sensitive values are matched separately.",
+          "note": "The collector accepted the page after an exact model heading/title match. Local availability and unrelated variants are not inferred."
+        },
+        {
+          "id": "vivo_y27_ph_specs",
+          "publisher": "vivo Philippines",
+          "url": "https://www.vivo.com/ph/products/param/y27",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer specifications",
+          "note": "Philippine Y27 specification page; the online store separately distinguishes 4G and 5G selections."
+        },
+        {
+          "id": "vivo_y27_ph_overview",
+          "publisher": "vivo Philippines",
+          "url": "https://www.vivo.com/ph/products/y27",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer product overview",
+          "note": "Official Y27 overview confirms local color/design, display brightness, battery, charging, extended RAM and IP54 caveats."
+        },
+        {
+          "id": "vivo_y27_ph_store",
+          "publisher": "vivo Philippines E-Store",
+          "url": "https://shop.vivo.com/ph/product/2061?skuId=8160",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact Philippine SKU, specification and dated price",
+          "note": "Checked 2026-11-27. The selected item is Sea Blue, 6 GB + 128 GB (4G), SKU X1, listed at PHP 7,999; the page does not state stock."
+        },
+        {
+          "id": "vivo_y27_global_launch",
+          "publisher": "vivo India Newsroom",
+          "url": "https://vivonewsroom.in/press-release/vivo-launches-y27-with-stylish-design-and-44w-flashcharge/",
+          "publicationDate": "2023-07-20",
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer launch announcement",
+          "note": "Official release dated 2023-07-20 says the Y27 6 GB + 128 GB went on sale in India that day; this is not Philippine availability evidence."
+        },
+        {
+          "id": "vivo_y27_ph_launch",
+          "publisher": "Technobaboy",
+          "url": "https://www.technobaboy.com/2023/08/22/vivo-y27-price-philippines/",
+          "publicationDate": "2023-08-22",
+          "accessDate": "2026-11-27",
+          "purpose": "Contemporaneous Philippine launch and local configuration",
+          "note": "Reports a Philippine launch on 2023-08-19 at PHP 8,999 and a 6 GB + 128 GB 4G LTE variant; it also identifies the 2 MP module as depth. Its OIS claim is not carried without manufacturer confirmation."
+        },
+        {
+          "id": "vivo_y27_ptg_ph",
+          "publisher": "Pinoy Techno Guide",
+          "url": "https://www.pinoytechnoguide.com/smartphones/vivo-y27/amp",
+          "publicationDate": "2023-08-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Philippine price, advertised early-bird date and specifications",
+          "note": "Philippine Y27 page dated 2023-08-14 reports the 6 GB / 128 GB model, PHP 8,999 official price, an early-bird offer starting 2023-08-15, microSD expansion and supporting specifications."
+        },
+        {
+          "id": "vivo_y27_gsmarena",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/vivo_y27-12430.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Independent exact-model specification cross-check",
+          "note": "Identifies the vivo Y27 as model V2249 and provides display, connectivity, audio and release details. Used only for exact-model facts not fully stated by the Philippine product page."
+        },
+        {
+          "id": "vivo_y27_tra_model_code",
+          "publisher": "Egyptian National Telecom Regulatory Authority",
+          "url": "https://www.tra.gov.eg/wp-content/uploads/2025/09/Type-Approved-List.pdf",
+          "publicationDate": "2025-09-01",
+          "accessDate": "2026-11-27",
+          "purpose": "Regulatory model-code cross-check",
+          "note": "Type-approved equipment list pairs VIVO V2249 with Y27. This supports model identity only, not Philippine market eligibility."
+        },
+        {
+          "id": "mediatek_helio_g85",
+          "publisher": "MediaTek",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chipset specifications",
+          "note": "Manufacturer chipset page lists the Helio G85 CPU architecture, GPU, memory interface capability, Wi-Fi and positioning capabilities; device-specific implementation is not inferred from chipset maxima."
+        },
+        {
+          "id": "mediatek_helio_g85_pdf",
+          "publisher": "MediaTek",
+          "url": "https://i.mediatek.com/hubfs/MediaTek-Helio-G85-Infographic.pdf?hsLang=en",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Chipset process node cross-check",
+          "note": "Official Helio G85 infographic lists a 12 nm manufacturing process."
+        },
+        {
+          "id": "vivo_y27_price_drop",
+          "publisher": "INQUIRER BrandRoom",
+          "url": "https://technology.inquirer.net/131278/price-drop-alert-vivo-y27-now-more-affordable-at-php-7999",
+          "publicationDate": "2024-01-15",
+          "accessDate": "2026-11-27",
+          "purpose": "Historical Philippine price change",
+          "note": "Vivo-supplied BrandRoom article reports the Y27 price drop to PHP 7,999 in January 2024; retained as a historical snapshot, not as a current stock claim."
+        },
+        {
+          "id": "vivo_y27_image_page",
+          "publisher": "vivo Türkiye",
+          "url": "https://www.vivo.com/tr/products/param/y27",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model image identity review",
+          "note": "Official product page image depicts the Y27 4G in Sea Blue. The asset is not copied or hotlinked because this product-page image has no documented reuse permission."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_store",
+          "sourceValue": "6 GB installed RAM; up to 6 GB Extended RAM is software-based",
+          "normalizedValue": 6,
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB",
+          "note": "Catalog RAM is the physical 6 GB configuration only. vivo's 6 GB Extended RAM is software-backed and is not added to installed RAM."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_store",
+          "sourceValue": "128 GB",
+          "normalizedValue": 128,
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_store",
+          "sourceValue": "6GB+128GB (4G); selected Y27 Sea Blue 6GB+128GB (4G), SKU X1",
+          "normalizedValue": "6 GB RAM / 128 GB storage",
+          "note": "Exact Philippine 4G SKU matched. The separate 6GB+128GB (5G) selector is excluded; up to 6 GB extended RAM is software memory, not a second physical-RAM variant."
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "5000 mAh (typical)",
+          "normalizedValue": 5000,
+          "catalogKey": "batteryMah",
+          "catalogValue": 5000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Bluetooth 5.0",
+          "normalizedValue": "Bluetooth 5.0"
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "44 W FlashCharge",
+          "normalizedValue": 44,
+          "catalogKey": "chargingW",
+          "catalogValue": 44,
+          "unit": "W"
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "MediaTek Helio G85",
+          "normalizedValue": "MediaTek Helio G85",
+          "catalogKey": "chipset",
+          "catalogValue": "MediaTek Helio G85"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "mediatek_helio_g85",
+          "sourceValue": "2× Arm Cortex-A75 up to 2.0 GHz + 6× Arm Cortex-A55 up to 1.8 GHz",
+          "normalizedValue": "2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.8 GHz",
+          "catalogKey": "cpu",
+          "catalogValue": "2x Cortex-A75 up to 2.0 GHz + 6x Cortex-A55 up to 1.8 GHz",
+          "note": "MediaTek's Helio G85 specifications; the Y27 chipset itself is confirmed by vivo Philippines.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "6.64-inch",
+          "normalizedValue": 6.64,
+          "catalogKey": "displayInches",
+          "catalogValue": 6.64,
+          "unit": "in"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "mediatek_helio_g85",
+          "sourceValue": "Arm Mali-G52 MC2",
+          "normalizedValue": "Arm Mali-G52 MC2",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G52 MC2",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_gsmarena",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact-model secondary specification. The reviewed Philippine manufacturer table does not separately list NFC."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Funtouch OS 13 (based on Android 13)",
+          "normalizedValue": "Android 13 / Funtouch OS 13",
+          "catalogKey": "os",
+          "catalogValue": "Android 13 / Funtouch OS 13",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_global_launch",
+          "sourceValue": "50 MP main camera + 2 MP bokeh camera; Philippine launch coverage describes the auxiliary module as depth",
+          "normalizedValue": "50 MP main + 2 MP bokeh/depth auxiliary camera",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 50,
+          "unit": "MP",
+          "note": "The two-module 50+2 MP system is confirmed. The catalog's numeric rear-camera summary stores the main sensor resolution (50 MP). OIS is omitted because it is not confirmed by manufacturer specifications.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "1 nano-SIM + 1 nano-SIM + 1 microSD; Dual SIM Dual Standby; eSIM not listed",
+          "normalizedValue": "Dual nano-SIM, dual standby + microSD; eSIM not recorded",
+          "catalogKey": "sim",
+          "catalogValue": "Dual nano-SIM, dual standby + microSD; eSIM not recorded",
+          "note": "This is the Y27 4G card-slot layout. It is kept distinct from the 5G selection on the store page.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_store",
+          "sourceValue": "190 g",
+          "normalizedValue": 190,
+          "catalogKey": "weightG",
+          "catalogValue": 190,
+          "unit": "g"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Wi-Fi 2.4 GHz / 5 GHz",
+          "normalizedValue": "Dual-band Wi-Fi (2.4 GHz / 5 GHz)",
+          "catalogKey": "wifi",
+          "catalogValue": "Dual-band Wi-Fi (2.4 GHz / 5 GHz)",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_tra_model_code",
+          "sourceValue": "VIVO V2249 / Y27",
+          "normalizedValue": "V2249",
+          "note": "The workbook's Y27 record matches the 4G model V2249; the separate Y27 5G option is not merged into this record."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_global_launch",
+          "sourceValue": "vivo India announced sale availability on 2023-07-20",
+          "normalizedValue": "2023-07-20",
+          "note": "This is the manufacturer's first identified sale date in India, not a claim that every market launched simultaneously."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_ph_launch",
+          "sourceValue": "Launched in the Philippines on August 19, 2023; PTG separately reported an online early-bird offer starting August 15, 2023.",
+          "normalizedValue": "2023-08-19",
+          "note": "Stored as the reported Philippine launch date. The earlier PTG date refers to an advertised online promotion; the two reports are not treated as contradictory."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_ph_launch",
+          "sourceValue": "PHP 8,999 at the Philippine launch for the 6 GB / 128 GB Y27",
+          "normalizedValue": 8999,
+          "unit": "PHP",
+          "note": "Contemporaneous Philippine launch coverage reports PHP 8,999. This is historical launch pricing, not the current listing.",
+          "priceType": "historical_ph_launch_suggested_retail_price",
+          "priceObservedAt": "2023-08-19",
+          "priceCondition": "new"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_store",
+          "sourceValue": "PHP 7,999 incl. taxes; selected Sea Blue, 6GB+128GB (4G), SKU X1; observed 2026-11-27",
+          "normalizedValue": 7999,
+          "unit": "PHP",
+          "note": "Dated official e-store list price for the exact 4G configuration. The page did not establish stock or checkout availability; do not label as in stock.",
+          "priceType": "current_official_store_list_price",
+          "priceObservedAt": "2026-11-27",
+          "priceCondition": "new",
+          "listingStatus": "Not verified"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_gsmarena",
+          "sourceValue": "IPS LCD",
+          "normalizedValue": "IPS LCD",
+          "catalogKey": "displayType",
+          "catalogValue": "IPS LCD",
+          "note": "The Philippine manufacturer page specifies LCD; exact-model secondary references further identify IPS LCD."
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "2388 × 1080 (FHD+)",
+          "normalizedValue": "1080 x 2388",
+          "catalogKey": "resolution",
+          "catalogValue": "1080 x 2388"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_gsmarena",
+          "sourceValue": "60 Hz",
+          "normalizedValue": "60",
+          "catalogKey": "refreshHz",
+          "catalogValue": "60",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_overview",
+          "sourceValue": "600 nits local peak brightness",
+          "normalizedValue": 600,
+          "unit": "nits",
+          "note": "vivo describes this as local peak brightness; it is not relabeled as a full-screen sustained brightness."
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Screen protection is not specified on the reviewed Philippine Y27 specification page.",
+          "normalizedValue": null,
+          "note": "No exact Y27 4G value was published in the reviewed manufacturer and accepted reference material; left blank."
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "mediatek_helio_g85_pdf",
+          "sourceValue": "12 nm",
+          "normalizedValue": 12,
+          "unit": "nm"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "No published OS or security update support period was found in the reviewed manufacturer material.",
+          "normalizedValue": null,
+          "note": "No exact Y27 4G value was published in the reviewed manufacturer and accepted reference material; left blank."
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "The installed RAM type for the Y27 4G is not specified; chipset memory capabilities are not treated as proof of the device's installed RAM type.",
+          "normalizedValue": null,
+          "note": "No exact Y27 4G value was published in the reviewed manufacturer and accepted reference material; left blank."
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "The type of internal 128 GB storage is not specified for this configuration.",
+          "normalizedValue": null,
+          "note": "No exact Y27 4G value was published in the reviewed manufacturer and accepted reference material; left blank."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_ptg_ph",
+          "sourceValue": "Expandable by microSD card up to 1 TB",
+          "normalizedValue": "microSD card up to 1 TB",
+          "note": "The Philippine manufacturer spec confirms the dedicated microSD slot; PTG provides the 1 TB maximum."
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "The manufacturer specifies camera resolution and aperture but does not name the main camera sensor model.",
+          "normalizedValue": null,
+          "note": "No exact Y27 4G value was published in the reviewed manufacturer and accepted reference material; left blank."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "vivo_y27_global_launch",
+          "sourceValue": "The published rear camera system lists a 50 MP main module and a 2 MP bokeh/depth auxiliary module; no ultrawide module is listed.",
+          "normalizedValue": null,
+          "note": "Not applicable to the documented two-camera rear system; no ultrawide camera is listed."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "vivo_y27_global_launch",
+          "sourceValue": "The published rear camera system lists a 50 MP main module and a 2 MP bokeh/depth auxiliary module; no telephoto module is listed.",
+          "normalizedValue": null,
+          "note": "Not applicable to the documented two-camera rear system; no telephoto camera is listed."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Front camera: 8 MP, f/2.0",
+          "normalizedValue": 8,
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 8,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_ptg_ph",
+          "sourceValue": "Up to 1080p video recording",
+          "normalizedValue": "Up to 1080p; frame rate not recorded",
+          "catalogKey": "video",
+          "catalogValue": "Up to 1080p; frame rate not recorded",
+          "note": "The manufacturer page lists MP4 video recording but not resolution; PTG gives up to 1080p. No frame rate is inferred.",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Battery chemistry and serviceability are not specified in the reviewed manufacturer material.",
+          "normalizedValue": null,
+          "note": "No exact Y27 4G value was published in the reviewed manufacturer and accepted reference material; left blank."
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Wireless or reverse charging is not specified in the reviewed manufacturer material; no unsupported 0 W value is assigned.",
+          "normalizedValue": null,
+          "note": "No exact Y27 4G value was published in the reviewed manufacturer and accepted reference material; left blank."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_store",
+          "sourceValue": "164.06 × 76.17 × 8.07 mm",
+          "normalizedValue": "164.06 x 76.17 x 8.07 mm",
+          "catalogKey": "dimensions",
+          "catalogValue": "164.06 x 76.17 x 8.07 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "materials",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "vivo_y27_ph_store",
+          "sourceValue": "Philippine store lists body material as 2.5D Plastic; vivo India's launch release describes a 2.5D glass body/glass finishes.",
+          "normalizedValue": null,
+          "note": "Regional manufacturer descriptions conflict. The exact frame/back material of the Philippine SKU is not resolved, so no material value is published."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_overview",
+          "sourceValue": "IP54 dust and water resistance; vivo says the phone is not professional waterproof equipment and the rating applies under normal use.",
+          "normalizedValue": "IP54",
+          "note": "Preserve the manufacturer's normal-use caveat; do not describe the phone as waterproof."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "2G GSM 850/900/1800 MHz; 3G WCDMA B1/B5/B8; 4G FDD-LTE B1/B3/B5/B7/B8/B20/B28; 4G TDD-LTE B38/B40/B41",
+          "normalizedValue": "2G GSM 850/900/1800; 3G B1/B5/B8; 4G FDD B1/B3/B5/B7/B8/B20/B28; TDD B38/B40/B41",
+          "catalogKey": "cellular",
+          "catalogValue": "2G GSM 850/900/1800; 3G B1/B5/B8; 4G FDD B1/B3/B5/B7/B8/B20/B28; TDD B38/B40/B41",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Type-C; OTG supported; data transfer standard not stated",
+          "normalizedValue": "USB Type-C; OTG supported; data standard not recorded",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; OTG supported; data standard not recorded"
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "GPS, BeiDou, GLONASS, Galileo and QZSS",
+          "normalizedValue": "GPS, BeiDou, GLONASS, Galileo, QZSS"
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "vivo_y27_ptg_ph",
+          "sourceValue": "3.5 mm audio jack; speaker configuration not recorded",
+          "normalizedValue": "3.5 mm headphone jack; speaker configuration not recorded",
+          "catalogKey": "sound",
+          "catalogValue": "3.5 mm headphone jack; speaker configuration not recorded",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "vivo_y27_ph_specs",
+          "sourceValue": "Accelerometer, ambient light sensor, proximity sensor, e-compass and side-mounted fingerprint sensor",
+          "normalizedValue": "Accelerometer; ambient light; proximity; e-compass; side fingerprint"
+        }
+      ],
+      "replacementVariants": [
+        {
+          "id": "device_6f256573a0fb54-auto-6gb-128gb",
+          "label": "6 GB RAM / 128 GB storage"
+        }
+      ],
+      "modelCode": "V2249",
+      "sku": "X1",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "Contemporaneous Philippine coverage reports the Y27 4G launched on 2023-08-19 at PHP 8,999 and available from vivo's website and physical stores. PTG reported an official online early-bird offer starting 2023-08-15. Current stock is not verified.",
+        "philippineAvailability": "Verified Philippine availability: vivo Y27 4G (V2249), 6 GB / 128 GB; local launch reported 2023-08-19.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Manually reviewed; exact PH 4G configuration matched; current stock and study eligibility remain unresolved.",
+        "catalogModel": "Y27 4G",
+        "manufacturer": "vivo",
+        "productLine": "Y",
+        "modelNumber": "V2249",
+        "philippineReleaseYear": 2023,
+        "philippineDateLabel": "Reported Philippine launch date",
+        "researchNotes": "Workbook row 165 labeled Y27 is matched to the Philippine vivo Y27 4G, model V2249, with one 6 GB / 128 GB configuration. The official store also displays a distinct 5G selector; that model is not merged here. Workbook study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Current store stock is not stated",
+            "action": "Show the 2026-11-27 listed price as a dated observation, not as an in-stock offer."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Keep workbook eligibility unchanged until the thesis screening rule is applied."
+          },
+          {
+            "issue": "Regional body-material descriptions conflict",
+            "action": "Leave material composition unresolved in the public spec audit."
+          }
+        ]
+      },
+      "configuration": "6 GB RAM / 128 GB storage"
     }
   ]
 }

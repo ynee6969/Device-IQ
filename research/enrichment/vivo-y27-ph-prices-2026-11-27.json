@@ -1,0 +1,128 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_6f256573a0fb54",
+      "brand": "vivo",
+      "model_name": "Y27 4G",
+      "category": "smartphones",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.vivo.com/ph/products/param/y27",
+      "result": "Philippine Y27 specification page; the online store separately distinguishes 4G and 5G selections."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.vivo.com/ph/products/y27",
+      "result": "Official Y27 overview confirms local color/design, display brightness, battery, charging, extended RAM and IP54 caveats."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://shop.vivo.com/ph/product/2061?skuId=8160",
+      "result": "Checked 2026-11-27. The selected item is Sea Blue, 6 GB + 128 GB (4G), SKU X1, listed at PHP 7,999; the page does not state stock."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://vivonewsroom.in/press-release/vivo-launches-y27-with-stylish-design-and-44w-flashcharge/",
+      "result": "Official release dated 2023-07-20 says the Y27 6 GB + 128 GB went on sale in India that day; this is not Philippine availability evidence."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.technobaboy.com/2023/08/22/vivo-y27-price-philippines/",
+      "result": "Reports a Philippine launch on 2023-08-19 at PHP 8,999 and a 6 GB + 128 GB 4G LTE variant; it also identifies the 2 MP module as depth. Its OIS claim is not carried without manufacturer confirmation."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.pinoytechnoguide.com/smartphones/vivo-y27/amp",
+      "result": "Philippine Y27 page dated 2023-08-14 reports the 6 GB / 128 GB model, PHP 8,999 official price, an early-bird offer starting 2023-08-15, microSD expansion and supporting specifications."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.gsmarena.com/vivo_y27-12430.php",
+      "result": "Identifies the vivo Y27 as model V2249 and provides display, connectivity, audio and release details. Used only for exact-model facts not fully stated by the Philippine product page."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.tra.gov.eg/wp-content/uploads/2025/09/Type-Approved-List.pdf",
+      "result": "Type-approved equipment list pairs VIVO V2249 with Y27. This supports model identity only, not Philippine market eligibility."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.mediatek.com/products/smartphones/mediatek-helio-g85",
+      "result": "Manufacturer chipset page lists the Helio G85 CPU architecture, GPU, memory interface capability, Wi-Fi and positioning capabilities; device-specific implementation is not inferred from chipset maxima."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://i.mediatek.com/hubfs/MediaTek-Helio-G85-Infographic.pdf?hsLang=en",
+      "result": "Official Helio G85 infographic lists a 12 nm manufacturing process."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://technology.inquirer.net/131278/price-drop-alert-vivo-y27-now-more-affordable-at-php-7999",
+      "result": "Vivo-supplied BrandRoom article reports the Y27 price drop to PHP 7,999 in January 2024; retained as a historical snapshot, not as a current stock claim."
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "source_url": "https://www.vivo.com/tr/products/param/y27",
+      "result": "Official product page image depicts the Y27 4G in Sea Blue. The asset is not copied or hotlinked because this product-page image has no documented reuse permission."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_6f256573a0fb54",
+      "amount_php": 8999,
+      "configuration_id": "device_6f256573a0fb54-auto-6gb-128gb",
+      "configuration_match": "exact_ph_y27_4g_v2249_6gb_128gb",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "price_type": "historical_ph_launch_suggested_retail_price",
+      "source_published_at": "2023-08-22",
+      "excerpt": "Philippine launch coverage reports the 6 GB / 128 GB Y27 at PHP 8,999; the article says the model launched on 2023-08-19.",
+      "source_url": "https://www.technobaboy.com/2023/08/22/vivo-y27-price-philippines/",
+      "source_kind": "historical_local_launch_price_report",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "historical_launch_price_not_current"
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "amount_php": 7999,
+      "configuration_id": "device_6f256573a0fb54-auto-6gb-128gb",
+      "configuration_match": "exact_ph_y27_4g_v2249_6gb_128gb",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "price_type": "historical_price_drop_report",
+      "source_published_at": "2024-01-15",
+      "excerpt": "INQUIRER BrandRoom reported a vivo Y27 price reduction to PHP 7,999 in January 2024.",
+      "source_url": "https://technology.inquirer.net/131278/price-drop-alert-vivo-y27-now-more-affordable-at-php-7999",
+      "source_kind": "historical_local_price_report",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "historical_price_not_current"
+    },
+    {
+      "device_id": "device_6f256573a0fb54",
+      "amount_php": 7999,
+      "configuration_id": "device_6f256573a0fb54-auto-6gb-128gb",
+      "configuration_match": "exact_selected_ph_y27_4g_v2249_6gb_128gb_sku_x1",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "price_type": "current_official_store_list_price",
+      "source_published_at": null,
+      "excerpt": "Official Philippine e-store showed PHP 7,999 incl. taxes for selected Y27 Sea Blue 6GB+128GB (4G), SKU X1, on 2026-11-27; stock was not stated.",
+      "source_url": "https://shop.vivo.com/ph/product/2061?skuId=8160",
+      "source_kind": "current_official_store_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "listed_stock_not_verified"
+    }
+  ]
+}

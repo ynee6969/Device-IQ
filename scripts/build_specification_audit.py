@@ -28,7 +28,7 @@ PUBLIC_AUDIT = ROOT / "lib/catalog/specification-audit.json"
 REPORT = ROOT / "DEVICEIQ_SPECIFICATION_COMPLETENESS_REPORT.md"
 PROGRESS = ROOT / "DEVICEIQ_RESEARCH_PROGRESS.md"
 DEFAULT_WORKBOOK = Path.home() / "Downloads/DeviceIQ_Philippine_Device_Inventory_2021-2026.xlsx"
-WORKBOOK_COPY = ROOT / "outputs/deviceiq-inventory-2026-11-25/DeviceIQ_Philippine_Device_Inventory_2021-2026_ENRICHMENT_AUDIT.xlsx"
+WORKBOOK_COPY = ROOT / "outputs/deviceiq-inventory-2026-11-27/DeviceIQ_Philippine_Device_Inventory_2021-2026_ENRICHMENT_AUDIT.xlsx"
 
 
 def field(field_id: str, label: str, group: str, unit: str = "", catalog_key: str = "") -> dict:
@@ -342,8 +342,14 @@ def main():
     manual_source_by_id = {}
     manual_reviewed_device_ids = set()
     for manual_record in manual_reviews.get("records", []):
-        manual_reviewed_device_ids.add(manual_record["deviceId"])
         sources = {s["id"]: s for s in manual_record.get("sources", [])}
+        has_human_source_review = any(
+            field.get("status") in VERIFIED_STATUSES
+            and not str(field.get("sourceId", "")).startswith("candidate_")
+            for field in manual_record.get("fields", [])
+        )
+        if has_human_source_review:
+            manual_reviewed_device_ids.add(manual_record["deviceId"])
         for source in sources.values():
             manual_source_by_id[source["id"]] = source
         for reviewed_field in manual_record.get("fields", []):
@@ -379,7 +385,11 @@ def main():
     manually_verified_configurations = {
         (record["deviceId"], record["configurationId"])
         for record in manual_reviews.get("records", [])
-        if any(field.get("status") in VERIFIED_STATUSES for field in record.get("fields", []))
+        if any(
+            field.get("status") in VERIFIED_STATUSES
+            and not str(field.get("sourceId", "")).startswith("candidate_")
+            for field in record.get("fields", [])
+        )
     }
     manually_verified_models = {device_id for device_id, _ in manually_verified_configurations}
     laptop_device_ids = {d["id"] for d in device_rows if d.get("category") == "laptops"}
@@ -467,7 +477,35 @@ def main():
                             "review_status": manual_candidate.get("reviewStatus", STATUS_PENDING),
                             "local_availability_verified": bool(manual_candidate.get("localAvailabilityVerified", False)),
                         })
-                    if manual_field.get("status") in VERIFIED_STATUSES:
+                    auto_candidate_review = (
+                        manual_field.get("status") in VERIFIED_STATUSES
+                        and str(manual_field.get("sourceId", "")).startswith("candidate_")
+                    )
+                    if auto_candidate_review:
+                        verification_status = STATUS_PENDING
+                        confidence_level = "UNREVIEWED"
+                        original_source_value = clean(manual_field.get("sourceValue"))
+                        normalized_value = clean(manual_field.get("normalizedValue"))
+                        value_text = normalized_value
+                        audit_unit = manual_field.get("unit") or audit_unit
+                        source_id = manual_source["id"]
+                        source_url = manual_source["url"]
+                        source_record = manual_source
+                        publication_date = manual_source.get("publicationDate")
+                        access_date = manual_source.get("accessDate")
+                        notes = "Automatically matched source candidate; this exact field has not been manually reviewed and remains pending."
+                        if normalized_value is not None and not any(
+                            clean(item.get("value")) == normalized_value and item.get("source_url") == source_url
+                            for item in candidate_evidence
+                        ):
+                            candidate_evidence.append({
+                                "value": normalized_value, "unit": manual_field.get("unit"),
+                                "source_url": source_url, "source_kind": "automated_source_candidate",
+                                "observed_at": access_date, "excerpt": original_source_value,
+                                "configuration_match": "automatic_model_or_variant_match_needs_manual_review",
+                                "review_status": STATUS_PENDING, "local_availability_verified": False,
+                            })
+                    elif manual_field.get("status") in VERIFIED_STATUSES:
                         verification_status = manual_field["status"]
                         confidence_level = "HIGH_MANUFACTURER_PRIMARY" if manual_field["status"] == "VERIFIED" else "MEDIUM_SECONDARY_SOURCE"
                         original_source_value = clean(manual_field.get("sourceValue"))

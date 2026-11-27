@@ -2581,14 +2581,17 @@
     "altText": "Image unavailable for vivo Y18"
   },
   "device_6f256573a0fb54": {
-    "status": "NO_RELIABLE_MATCH",
-    "reason": "No reliable exact-model image with documented reuse rights is currently assigned.",
-    "sourcePage": null,
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact vivo Y27 4G Sea Blue image is present on the official vivo Türkiye product page, but the Philippine catalog's permission to republish or hotlink that product-page image is not documented. Keep the neutral placeholder.",
+    "sourcePage": "https://www.vivo.com/tr/products/param/y27",
     "assetUrl": null,
-    "scope": null,
+    "candidateAssetUrl": "https://de-gdpr-exstatic-vivofs.vivo.com/sFhAQhTYYDsNOJz1/1690190469584/f033c326e5a8d2c58bb240f08fbc02dc.png",
+    "scope": "Exact vivo Y27 4G (V2249), Sea Blue; image identity matches the model, but reuse rights are not established.",
     "rightsTermsUrl": null,
-    "observedAt": "2026-11-26",
-    "altText": "Image unavailable for vivo Y27"
+    "rightsCheck": "The vivo Newsroom download notice on the India launch release is limited to newsroom media assets and requires agreement at download; it does not establish reuse permission for this separate vivo.com product-page image. No download gate was bypassed.",
+    "rightsCheckSourcePage": "https://vivonewsroom.in/press-release/vivo-launches-y27-with-stylish-design-and-44w-flashcharge/",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for vivo Y27 4G"
   },
   "device_423537c0dfcff7": {
     "status": "NO_RELIABLE_MATCH",
