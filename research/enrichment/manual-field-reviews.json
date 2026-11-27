@@ -89649,141 +89649,6 @@
       ]
     },
     {
-      "deviceId": "device_80a03073c65780",
-      "configurationId": "device_80a03073c65780-unrecorded",
-      "brand": "Apple",
-      "model": "iPad 9th Gen",
-      "configurationLabel": "Configuration not recorded",
-      "sources": [
-        {
-          "id": "apple_ipad_9th_gen_tech_specs",
-          "publisher": "Apple Support",
-          "url": "https://support.apple.com/en-us/111898",
-          "publicationDate": "2021-01-01",
-          "accessDate": "2026-11-25",
-          "purpose": "Official manufacturer technical specifications",
-          "note": "Apple technical specifications for iPad 9th Gen; model-level values do not establish Philippine sales or the workbook's exact storage configuration."
-        }
-      ],
-      "fields": [
-        {
-          "fieldId": "display_size",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "10.2 in",
-          "normalizedValue": 10.2,
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayInches",
-          "catalogValue": 10.2,
-          "unit": "in"
-        },
-        {
-          "fieldId": "display_technology",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "LCD IPS",
-          "normalizedValue": "LCD IPS",
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "displayType",
-          "catalogValue": "LCD IPS"
-        },
-        {
-          "fieldId": "display_resolution",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "1620 x 2160",
-          "normalizedValue": "1620 x 2160",
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "resolution",
-          "catalogValue": "1620 x 2160"
-        },
-        {
-          "fieldId": "chipset",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "Apple A13 Bionic",
-          "normalizedValue": "Apple A13 Bionic",
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "chipset",
-          "catalogValue": "Apple A13 Bionic"
-        },
-        {
-          "fieldId": "cpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "6-core CPU",
-          "normalizedValue": "6-core CPU",
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "cpu",
-          "catalogValue": "6-core CPU"
-        },
-        {
-          "fieldId": "gpu",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "4-core Apple GPU",
-          "normalizedValue": "4-core Apple GPU",
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "gpu",
-          "catalogValue": "4-core Apple GPU"
-        },
-        {
-          "fieldId": "front_camera",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "12 MP",
-          "normalizedValue": 12,
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "frontCameraMp",
-          "catalogValue": 12,
-          "unit": "MP"
-        },
-        {
-          "fieldId": "wifi",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "Wi-Fi 5 (802.11ac)",
-          "normalizedValue": "Wi-Fi 5 (802.11ac)",
-          "note": "Official Apple specifications for iPad 9th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
-          "catalogKey": "wifi",
-          "catalogValue": "Wi-Fi 5 (802.11ac)"
-        },
-        {
-          "fieldId": "weight",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "Wi-Fi: 487 g; Wi-Fi + Cellular: 498 g",
-          "normalizedValue": "Wi-Fi: 487 g; Wi-Fi + Cellular: 498 g",
-          "note": "Apple lists different weights by connectivity configuration. The inventory does not identify which connectivity option applies.",
-          "clearCatalogKey": "weightG"
-        },
-        {
-          "fieldId": "storage_capacity",
-          "status": "VERIFIED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "64GB or 256GB",
-          "normalizedValue": "Manufacturer model options: 64GB or 256GB; inventory SKU not recorded.",
-          "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
-        },
-        {
-          "fieldId": "battery_capacity",
-          "status": "NOT_DISCLOSED",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
-          "normalizedValue": null,
-          "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
-        },
-        {
-          "fieldId": "philippine_release_date",
-          "status": "PENDING_VERIFICATION",
-          "sourceId": "apple_ipad_9th_gen_tech_specs",
-          "sourceValue": "Apple records worldwide year introduced as 2021; this is not a Philippine first-sale date.",
-          "normalizedValue": null,
-          "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
-        }
-      ]
-    },
-    {
       "deviceId": "device_a9930490a861ed",
       "configurationId": "device_a9930490a861ed-unrecorded",
       "brand": "Apple",
@@ -182050,6 +181915,2172 @@
           {
             "issue": "Study eligibility remains Pending",
             "action": "Preserve workbook study scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_80a03073c65780",
+      "configurationId": "device_80a03073c65780-64gb-wifi",
+      "brand": "Apple",
+      "model": "iPad 9th Gen",
+      "configuration": "64 GB / Wi-Fi",
+      "configurationLabel": "64 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad9_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/111898",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad (9th generation)",
+          "note": "Apple lists capacities, display, A13 Bionic, cameras, battery energy, dimensions and weights by connectivity, Wi-Fi, audio, ports, SIM features, sensors and accessories."
+        },
+        {
+          "id": "apple_ipad9_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2602 as iPad (9th generation) and A2604 as Wi-Fi + Cellular; A2603 is North America only and A2605 is China mainland only. Capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad9_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apples-most-popular-ipad-delivers-even-more-performance-and-advanced-features/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, launch OS and product overview",
+          "note": "Apple announced iPad (9th generation) on 2021-09-14 and said store availability in initial markets begins 2021-09-24. It shipped with iPadOS 15 and supports Apple Pencil (1st generation) and Smart Keyboard."
+        },
+        {
+          "id": "yugatech_ipad9_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad is now available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says they can be purchased on Apple Philippines, and lists four prices. This is a dated availability report, not proof of the first transaction date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad9_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as a buyable current price",
+          "note": "The page displays exact iPad 9th Gen variants and prices with Add controls, but marks the store CLOSED and says it is outside delivery range. Current stock/orderability is therefore not verified; prices are retained as page-listed observations only."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "A2602",
+          "normalizedValue": "A2602",
+          "note": "Apple maps A2602 to iPad (9th generation) and A2604 to its Wi-Fi + Cellular model; A2603 and A2605 are explicitly regional models and are not assigned to these PH configurations."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's announcement gives 2021-09-14 as the announcement date and says store availability in initial markets begins 2021-09-24. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "64GB / Wi-Fi; model A2602",
+          "normalizedValue": "64 GB / Wi-Fi / A2602",
+          "note": "Apple identifies separate 64GB and 256GB capacities and distinguishes A2602 Wi-Fi from A2604 Wi-Fi + Cellular. Color is not a separate technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that the 2021 iPad was now available in the Philippines; no exact first-sale date is stated.",
+          "normalizedValue": null,
+          "note": "Retain the exact Philippine first-sale date as unrecorded. The dated report proves availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "PHP 19,990 (64GB, Wi-Fi) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 19990,
+          "note": "Contemporaneous secondary Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says the device can be purchased from Apple Philippines. It does not label the amount as the exact first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad9_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 25,490 for 64 GB / Wi-Fi on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page labels its store CLOSED and says delivery is unavailable for the selected location. Preserve as a dated retailer listing observation only; do not treat this as an available/current buyable price or use it for numeric filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "10.2-inch diagonal",
+          "normalizedValue": 10.2,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.2,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "2160-by-1620 pixels",
+          "normalizedValue": "2160 x 1620",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2160 x 1620"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a refresh rate in the technical specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate is not inferred.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "A13 Bionic chip",
+          "normalizedValue": "Apple A13 Bionic",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A13 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's technical specifications do not state a semiconductor process node.",
+          "normalizedValue": null,
+          "note": "Process node is not inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state CPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No CPU core configuration inferred."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state GPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No GPU core configuration inferred."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform. iPadOS 15 is the original launch version; a current software version is not asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date for iPadOS support on this page.",
+          "normalizedValue": null,
+          "note": "Do not infer an end-of-support date."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "64GB",
+          "normalizedValue": 64,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type is not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not document an external storage expansion option on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "Expansion capability remains unrecorded rather than inferred from omission."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "8MP Wide camera, ƒ/2.4",
+          "normalizedValue": "8 MP Wide rear camera; f/2.4",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "8 MP Wide rear camera; f/2.4"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not identify the rear image sensor manufacturer or model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "The rear camera is an 8MP Wide camera; no rear Ultra Wide camera is listed.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera on this model is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rear: 1080p at 25/30fps and 720p at 30fps; rear slow-motion 720p at 120fps; front: 1080p at 25/30/60fps",
+          "normalizedValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Built-in 32.4Wh rechargeable lithium-polymer battery; Apple does not list mAh",
+          "normalizedValue": 32.4,
+          "note": "Apple publishes energy in watt-hours, not milliampere-hours. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 32.4,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple states charging via power adapter or USB-C to computer; it does not state maximum input wattage. A 20W USB-C adapter is listed in the box.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not treated as device charging-rate specification.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wireless/reverse charging is not specified on the reviewed Apple page.",
+          "normalizedValue": null,
+          "note": "No capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "250.6 × 174.1 × 7.5 mm",
+          "normalizedValue": "250.6 x 174.1 x 7.5 mm",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "250.6 x 174.1 x 7.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi: 487g; Wi-Fi + Cellular: 498g",
+          "normalizedValue": 487,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 487,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not identify chassis material composition.",
+          "normalizedValue": null,
+          "note": "Material claims not inferred."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "Wi-Fi-only model A2602; cellular SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Apple distinguishes A2602 Wi-Fi from A2604 Wi-Fi + Cellular."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "Wi-Fi-only A2602 has no cellular radio",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi configuration."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple lists GPS/GNSS for Wi-Fi + Cellular models only",
+          "normalizedValue": null,
+          "note": "No GPS/GNSS feature is claimed for Wi-Fi-only A2602."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi model A2602",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi 5 (802.11ac), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Bluetooth 4.2",
+          "normalizedValue": "Bluetooth 4.2",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Lightning connector",
+          "normalizedValue": "Lightning",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "Lightning"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "NFC is not stated in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC capability not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Stereo speakers; dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer, ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple Pencil (1st generation)",
+          "normalizedValue": "Apple Pencil (1st generation)",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (1st generation)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Smart Keyboard support; accessory sold separately",
+          "normalizedValue": "Apple Smart Keyboard support; sold separately",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Smart Keyboard support; sold separately"
+        }
+      ],
+      "modelCode": "A2602",
+      "replacementVariants": [
+        {
+          "id": "device_80a03073c65780-64gb-wifi",
+          "label": "64 GB / Wi-Fi",
+          "modelCode": "A2602",
+          "notes": "Distinct Apple storage/connectivity configuration; finish color is not split."
+        },
+        {
+          "id": "device_80a03073c65780-256gb-wifi",
+          "label": "256 GB / Wi-Fi",
+          "modelCode": "A2602",
+          "notes": "Distinct Apple storage/connectivity configuration; finish color is not split."
+        },
+        {
+          "id": "device_80a03073c65780-64gb-wifi-cellular",
+          "label": "64 GB / Wi-Fi + Cellular",
+          "modelCode": "A2604",
+          "notes": "Distinct Apple storage/connectivity configuration; finish color is not split."
+        },
+        {
+          "id": "device_80a03073c65780-256gb-wifi-cellular",
+          "label": "256 GB / Wi-Fi + Cellular",
+          "modelCode": "A2604",
+          "notes": "Distinct Apple storage/connectivity configuration; finish color is not split."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says iPad (2021) was available in the Philippines and could be purchased on Apple Philippines. The article lists this exact storage/connectivity price but does not identify the first-sale date. Current retailer page observation is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to Apple Philippines purchase; the exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad 9th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad 9th Gen entry is matched to Apple's 2021 iPad (9th generation), with distinct 64GB/256GB Wi-Fi (A2602) and Wi-Fi + Cellular (A2604) configurations. YugaTech reported Philippine availability on 2021-10-10 and gave contemporaneous prices for all four. Exact first-sale date remains unknown. Pick.A.Roo currently displays a closed store/out-of-range banner; its page prices are recorded as non-orderable observations, not current buyable prices. Apple does not disclose RAM or mAh battery capacity. The exact-model Apple diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep exact date blank; retain only the dated 2021-10-10 availability report."
+          },
+          {
+            "issue": "A2604-specific cellular band list is not distinguished on Apple's displayed spec page",
+            "action": "Do not attribute A2603 North America bands to A2604."
+          },
+          {
+            "issue": "RAM, RAM type, storage type, current buyable price and stock are not verified",
+            "action": "Keep values unrecorded; preserve the closed/out-of-range retailer listing as a dated observation."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Use neutral placeholder and retain official exact-family image source metadata."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_80a03073c65780",
+      "configurationId": "device_80a03073c65780-256gb-wifi",
+      "brand": "Apple",
+      "model": "iPad 9th Gen",
+      "configuration": "256 GB / Wi-Fi",
+      "configurationLabel": "256 GB / Wi-Fi",
+      "sources": [
+        {
+          "id": "apple_ipad9_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/111898",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad (9th generation)",
+          "note": "Apple lists capacities, display, A13 Bionic, cameras, battery energy, dimensions and weights by connectivity, Wi-Fi, audio, ports, SIM features, sensors and accessories."
+        },
+        {
+          "id": "apple_ipad9_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2602 as iPad (9th generation) and A2604 as Wi-Fi + Cellular; A2603 is North America only and A2605 is China mainland only. Capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad9_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apples-most-popular-ipad-delivers-even-more-performance-and-advanced-features/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, launch OS and product overview",
+          "note": "Apple announced iPad (9th generation) on 2021-09-14 and said store availability in initial markets begins 2021-09-24. It shipped with iPadOS 15 and supports Apple Pencil (1st generation) and Smart Keyboard."
+        },
+        {
+          "id": "yugatech_ipad9_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad is now available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says they can be purchased on Apple Philippines, and lists four prices. This is a dated availability report, not proof of the first transaction date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad9_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as a buyable current price",
+          "note": "The page displays exact iPad 9th Gen variants and prices with Add controls, but marks the store CLOSED and says it is outside delivery range. Current stock/orderability is therefore not verified; prices are retained as page-listed observations only."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "A2602",
+          "normalizedValue": "A2602",
+          "note": "Apple maps A2602 to iPad (9th generation) and A2604 to its Wi-Fi + Cellular model; A2603 and A2605 are explicitly regional models and are not assigned to these PH configurations."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's announcement gives 2021-09-14 as the announcement date and says store availability in initial markets begins 2021-09-24. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "256GB / Wi-Fi; model A2602",
+          "normalizedValue": "256 GB / Wi-Fi / A2602",
+          "note": "Apple identifies separate 64GB and 256GB capacities and distinguishes A2602 Wi-Fi from A2604 Wi-Fi + Cellular. Color is not a separate technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that the 2021 iPad was now available in the Philippines; no exact first-sale date is stated.",
+          "normalizedValue": null,
+          "note": "Retain the exact Philippine first-sale date as unrecorded. The dated report proves availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "PHP 28,990 (256GB, Wi-Fi) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 28990,
+          "note": "Contemporaneous secondary Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says the device can be purchased from Apple Philippines. It does not label the amount as the exact first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad9_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 34,490 for 256 GB / Wi-Fi on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page labels its store CLOSED and says delivery is unavailable for the selected location. Preserve as a dated retailer listing observation only; do not treat this as an available/current buyable price or use it for numeric filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "10.2-inch diagonal",
+          "normalizedValue": 10.2,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.2,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "2160-by-1620 pixels",
+          "normalizedValue": "2160 x 1620",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2160 x 1620"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a refresh rate in the technical specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate is not inferred.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "A13 Bionic chip",
+          "normalizedValue": "Apple A13 Bionic",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A13 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's technical specifications do not state a semiconductor process node.",
+          "normalizedValue": null,
+          "note": "Process node is not inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state CPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No CPU core configuration inferred."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state GPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No GPU core configuration inferred."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform. iPadOS 15 is the original launch version; a current software version is not asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date for iPadOS support on this page.",
+          "normalizedValue": null,
+          "note": "Do not infer an end-of-support date."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "256GB",
+          "normalizedValue": 256,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type is not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not document an external storage expansion option on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "Expansion capability remains unrecorded rather than inferred from omission."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "8MP Wide camera, ƒ/2.4",
+          "normalizedValue": "8 MP Wide rear camera; f/2.4",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "8 MP Wide rear camera; f/2.4"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not identify the rear image sensor manufacturer or model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "The rear camera is an 8MP Wide camera; no rear Ultra Wide camera is listed.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera on this model is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rear: 1080p at 25/30fps and 720p at 30fps; rear slow-motion 720p at 120fps; front: 1080p at 25/30/60fps",
+          "normalizedValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Built-in 32.4Wh rechargeable lithium-polymer battery; Apple does not list mAh",
+          "normalizedValue": 32.4,
+          "note": "Apple publishes energy in watt-hours, not milliampere-hours. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 32.4,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple states charging via power adapter or USB-C to computer; it does not state maximum input wattage. A 20W USB-C adapter is listed in the box.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not treated as device charging-rate specification.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wireless/reverse charging is not specified on the reviewed Apple page.",
+          "normalizedValue": null,
+          "note": "No capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "250.6 × 174.1 × 7.5 mm",
+          "normalizedValue": "250.6 x 174.1 x 7.5 mm",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "250.6 x 174.1 x 7.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi: 487g; Wi-Fi + Cellular: 498g",
+          "normalizedValue": 487,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 487,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not identify chassis material composition.",
+          "normalizedValue": null,
+          "note": "Material claims not inferred."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "Wi-Fi-only model A2602; cellular SIM/eSIM is not applicable",
+          "normalizedValue": null,
+          "note": "Apple distinguishes A2602 Wi-Fi from A2604 Wi-Fi + Cellular."
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "Wi-Fi-only A2602 has no cellular radio",
+          "normalizedValue": null,
+          "note": "Cellular bands are not applicable to this Wi-Fi configuration."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple lists GPS/GNSS for Wi-Fi + Cellular models only",
+          "normalizedValue": null,
+          "note": "No GPS/GNSS feature is claimed for Wi-Fi-only A2602."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi model A2602",
+          "normalizedValue": "Wi-Fi only; no cellular modem",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only; no cellular modem"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi 5 (802.11ac), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Bluetooth 4.2",
+          "normalizedValue": "Bluetooth 4.2",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Lightning connector",
+          "normalizedValue": "Lightning",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "Lightning"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "NFC is not stated in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC capability not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Stereo speakers; dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer, ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple Pencil (1st generation)",
+          "normalizedValue": "Apple Pencil (1st generation)",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (1st generation)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Smart Keyboard support; accessory sold separately",
+          "normalizedValue": "Apple Smart Keyboard support; sold separately",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Smart Keyboard support; sold separately"
+        }
+      ],
+      "modelCode": "A2602",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says iPad (2021) was available in the Philippines and could be purchased on Apple Philippines. The article lists this exact storage/connectivity price but does not identify the first-sale date. Current retailer page observation is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to Apple Philippines purchase; the exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad 9th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad 9th Gen entry is matched to Apple's 2021 iPad (9th generation), with distinct 64GB/256GB Wi-Fi (A2602) and Wi-Fi + Cellular (A2604) configurations. YugaTech reported Philippine availability on 2021-10-10 and gave contemporaneous prices for all four. Exact first-sale date remains unknown. Pick.A.Roo currently displays a closed store/out-of-range banner; its page prices are recorded as non-orderable observations, not current buyable prices. Apple does not disclose RAM or mAh battery capacity. The exact-model Apple diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep exact date blank; retain only the dated 2021-10-10 availability report."
+          },
+          {
+            "issue": "A2604-specific cellular band list is not distinguished on Apple's displayed spec page",
+            "action": "Do not attribute A2603 North America bands to A2604."
+          },
+          {
+            "issue": "RAM, RAM type, storage type, current buyable price and stock are not verified",
+            "action": "Keep values unrecorded; preserve the closed/out-of-range retailer listing as a dated observation."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Use neutral placeholder and retain official exact-family image source metadata."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_80a03073c65780",
+      "configurationId": "device_80a03073c65780-64gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad 9th Gen",
+      "configuration": "64 GB / Wi-Fi + Cellular",
+      "configurationLabel": "64 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad9_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/111898",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad (9th generation)",
+          "note": "Apple lists capacities, display, A13 Bionic, cameras, battery energy, dimensions and weights by connectivity, Wi-Fi, audio, ports, SIM features, sensors and accessories."
+        },
+        {
+          "id": "apple_ipad9_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2602 as iPad (9th generation) and A2604 as Wi-Fi + Cellular; A2603 is North America only and A2605 is China mainland only. Capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad9_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apples-most-popular-ipad-delivers-even-more-performance-and-advanced-features/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, launch OS and product overview",
+          "note": "Apple announced iPad (9th generation) on 2021-09-14 and said store availability in initial markets begins 2021-09-24. It shipped with iPadOS 15 and supports Apple Pencil (1st generation) and Smart Keyboard."
+        },
+        {
+          "id": "yugatech_ipad9_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad is now available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says they can be purchased on Apple Philippines, and lists four prices. This is a dated availability report, not proof of the first transaction date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad9_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as a buyable current price",
+          "note": "The page displays exact iPad 9th Gen variants and prices with Add controls, but marks the store CLOSED and says it is outside delivery range. Current stock/orderability is therefore not verified; prices are retained as page-listed observations only."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "A2604",
+          "normalizedValue": "A2604",
+          "note": "Apple maps A2602 to iPad (9th generation) and A2604 to its Wi-Fi + Cellular model; A2603 and A2605 are explicitly regional models and are not assigned to these PH configurations."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's announcement gives 2021-09-14 as the announcement date and says store availability in initial markets begins 2021-09-24. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "64GB / Wi-Fi + Cellular; model A2604",
+          "normalizedValue": "64 GB / Wi-Fi + Cellular / A2604",
+          "note": "Apple identifies separate 64GB and 256GB capacities and distinguishes A2602 Wi-Fi from A2604 Wi-Fi + Cellular. Color is not a separate technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that the 2021 iPad was now available in the Philippines; no exact first-sale date is stated.",
+          "normalizedValue": null,
+          "note": "Retain the exact Philippine first-sale date as unrecorded. The dated report proves availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "PHP 27,990 (64GB, Wi-Fi + Cellular) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 27990,
+          "note": "Contemporaneous secondary Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says the device can be purchased from Apple Philippines. It does not label the amount as the exact first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad9_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 33,990 for 64 GB / Wi-Fi + Cellular on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page labels its store CLOSED and says delivery is unavailable for the selected location. Preserve as a dated retailer listing observation only; do not treat this as an available/current buyable price or use it for numeric filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "10.2-inch diagonal",
+          "normalizedValue": 10.2,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.2,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "2160-by-1620 pixels",
+          "normalizedValue": "2160 x 1620",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2160 x 1620"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a refresh rate in the technical specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate is not inferred.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "A13 Bionic chip",
+          "normalizedValue": "Apple A13 Bionic",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A13 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's technical specifications do not state a semiconductor process node.",
+          "normalizedValue": null,
+          "note": "Process node is not inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state CPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No CPU core configuration inferred."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state GPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No GPU core configuration inferred."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform. iPadOS 15 is the original launch version; a current software version is not asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date for iPadOS support on this page.",
+          "normalizedValue": null,
+          "note": "Do not infer an end-of-support date."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "64GB",
+          "normalizedValue": 64,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 64,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type is not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not document an external storage expansion option on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "Expansion capability remains unrecorded rather than inferred from omission."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "8MP Wide camera, ƒ/2.4",
+          "normalizedValue": "8 MP Wide rear camera; f/2.4",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "8 MP Wide rear camera; f/2.4"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not identify the rear image sensor manufacturer or model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "The rear camera is an 8MP Wide camera; no rear Ultra Wide camera is listed.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera on this model is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rear: 1080p at 25/30fps and 720p at 30fps; rear slow-motion 720p at 120fps; front: 1080p at 25/30/60fps",
+          "normalizedValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Built-in 32.4Wh rechargeable lithium-polymer battery; Apple does not list mAh",
+          "normalizedValue": 32.4,
+          "note": "Apple publishes energy in watt-hours, not milliampere-hours. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 32.4,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple states charging via power adapter or USB-C to computer; it does not state maximum input wattage. A 20W USB-C adapter is listed in the box.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not treated as device charging-rate specification.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wireless/reverse charging is not specified on the reviewed Apple page.",
+          "normalizedValue": null,
+          "note": "No capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "250.6 × 174.1 × 7.5 mm",
+          "normalizedValue": "250.6 x 174.1 x 7.5 mm",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "250.6 x 174.1 x 7.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi: 487g; Wi-Fi + Cellular: 498g",
+          "normalizedValue": 498,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 498,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not identify chassis material composition.",
+          "normalizedValue": null,
+          "note": "Material claims not inferred."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular models list Nano-SIM and eSIM",
+          "normalizedValue": "Nano-SIM and eSIM",
+          "note": "Apple's technical specification lists Nano-SIM/eSIM for the Wi-Fi + Cellular family; it does not provide A2604-specific SIM details in the rendered table.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM and eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple lists UMTS and LTE bands under model A2603 (North America); this record is model A2604.",
+          "normalizedValue": null,
+          "note": "Do not assign A2603's region-specific bands to A2604. Exact A2604 supported band list remains unverified."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "GPS/GNSS on Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular model A2604; cellular radio",
+          "normalizedValue": "Wi-Fi + Cellular; LTE",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular; LTE"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi 5 (802.11ac), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Bluetooth 4.2",
+          "normalizedValue": "Bluetooth 4.2",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Lightning connector",
+          "normalizedValue": "Lightning",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "Lightning"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "NFC is not stated in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC capability not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Stereo speakers; dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer, ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple Pencil (1st generation)",
+          "normalizedValue": "Apple Pencil (1st generation)",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (1st generation)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Smart Keyboard support; accessory sold separately",
+          "normalizedValue": "Apple Smart Keyboard support; sold separately",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Smart Keyboard support; sold separately"
+        }
+      ],
+      "modelCode": "A2604",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says iPad (2021) was available in the Philippines and could be purchased on Apple Philippines. The article lists this exact storage/connectivity price but does not identify the first-sale date. Current retailer page observation is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to Apple Philippines purchase; the exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad 9th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad 9th Gen entry is matched to Apple's 2021 iPad (9th generation), with distinct 64GB/256GB Wi-Fi (A2602) and Wi-Fi + Cellular (A2604) configurations. YugaTech reported Philippine availability on 2021-10-10 and gave contemporaneous prices for all four. Exact first-sale date remains unknown. Pick.A.Roo currently displays a closed store/out-of-range banner; its page prices are recorded as non-orderable observations, not current buyable prices. Apple does not disclose RAM or mAh battery capacity. The exact-model Apple diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep exact date blank; retain only the dated 2021-10-10 availability report."
+          },
+          {
+            "issue": "A2604-specific cellular band list is not distinguished on Apple's displayed spec page",
+            "action": "Do not attribute A2603 North America bands to A2604."
+          },
+          {
+            "issue": "RAM, RAM type, storage type, current buyable price and stock are not verified",
+            "action": "Keep values unrecorded; preserve the closed/out-of-range retailer listing as a dated observation."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Use neutral placeholder and retain official exact-family image source metadata."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_80a03073c65780",
+      "configurationId": "device_80a03073c65780-256gb-wifi-cellular",
+      "brand": "Apple",
+      "model": "iPad 9th Gen",
+      "configuration": "256 GB / Wi-Fi + Cellular",
+      "configurationLabel": "256 GB / Wi-Fi + Cellular",
+      "sources": [
+        {
+          "id": "apple_ipad9_tech_specs",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/111898",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Technical specifications for iPad (9th generation)",
+          "note": "Apple lists capacities, display, A13 Bionic, cameras, battery energy, dimensions and weights by connectivity, Wi-Fi, audio, ports, SIM features, sensors and accessories."
+        },
+        {
+          "id": "apple_ipad9_model_identification",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/108043",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact model number, generation, capacity and connectivity mapping",
+          "note": "Apple identifies A2602 as iPad (9th generation) and A2604 as Wi-Fi + Cellular; A2603 is North America only and A2605 is China mainland only. Capacities are 64GB and 256GB."
+        },
+        {
+          "id": "apple_ipad9_newsroom",
+          "publisher": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/09/apples-most-popular-ipad-delivers-even-more-performance-and-advanced-features/",
+          "publicationDate": "2021-09-14",
+          "accessDate": "2026-11-27",
+          "purpose": "Announcement, initial-market availability, launch OS and product overview",
+          "note": "Apple announced iPad (9th generation) on 2021-09-14 and said store availability in initial markets begins 2021-09-24. It shipped with iPadOS 15 and supports Apple Pencil (1st generation) and Smart Keyboard."
+        },
+        {
+          "id": "yugatech_ipad9_ph",
+          "publisher": "YugaTech",
+          "url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+          "publicationDate": "2021-10-10",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine availability and configuration prices",
+          "note": "Article dated 2021-10-10 says the 2021 iPad is now available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says they can be purchased on Apple Philippines, and lists four prices. This is a dated availability report, not proof of the first transaction date."
+        },
+        {
+          "id": "pickaroo_pmc_ipad9_listing",
+          "publisher": "Pick.A.Roo / Power Mac Center - SM City Pampanga",
+          "url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact configuration retailer-listing price cross-check; not used as a buyable current price",
+          "note": "The page displays exact iPad 9th Gen variants and prices with Add controls, but marks the store CLOSED and says it is outside delivery range. Current stock/orderability is therefore not verified; prices are retained as page-listed observations only."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_model_identification",
+          "sourceValue": "A2604",
+          "normalizedValue": "A2604",
+          "note": "Apple maps A2602 to iPad (9th generation) and A2604 to its Wi-Fi + Cellular model; A2603 and A2605 are explicitly regional models and are not assigned to these PH configurations."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Announced 2021-09-14; store availability in initial markets from 2021-09-24",
+          "normalizedValue": "2021-09-24",
+          "note": "Apple's announcement gives 2021-09-14 as the announcement date and says store availability in initial markets begins 2021-09-24. This is not the Philippine availability date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "256GB / Wi-Fi + Cellular; model A2604",
+          "normalizedValue": "256 GB / Wi-Fi + Cellular / A2604",
+          "note": "Apple identifies separate 64GB and 256GB capacities and distinguishes A2602 Wi-Fi from A2604 Wi-Fi + Cellular. Color is not a separate technical configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "YugaTech reported on 2021-10-10 that the 2021 iPad was now available in the Philippines; no exact first-sale date is stated.",
+          "normalizedValue": null,
+          "note": "Retain the exact Philippine first-sale date as unrecorded. The dated report proves availability by 2021-10-10, not the date sales first began."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "yugatech_ipad9_ph",
+          "sourceValue": "PHP 36,990 (256GB, Wi-Fi + Cellular) in YugaTech's 2021-10-10 PH availability article",
+          "normalizedValue": 36990,
+          "note": "Contemporaneous secondary Philippine report dated 2021-10-10 lists this exact storage/connectivity price and says the device can be purchased from Apple Philippines. It does not label the amount as the exact first-day MSRP.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "pickaroo_pmc_ipad9_listing",
+          "sourceValue": "A Power Mac Center listing displayed PHP 42,490 for 256 GB / Wi-Fi + Cellular on the reviewed page.",
+          "normalizedValue": null,
+          "note": "The page labels its store CLOSED and says delivery is unavailable for the selected location. Preserve as a dated retailer listing observation only; do not treat this as an available/current buyable price or use it for numeric filtering.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "10.2-inch diagonal",
+          "normalizedValue": 10.2,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.2,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "LED-backlit Multi-Touch display with IPS technology",
+          "normalizedValue": "LED-backlit Multi-Touch IPS LCD",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "LED-backlit Multi-Touch IPS LCD"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "2160-by-1620 pixels",
+          "normalizedValue": "2160 x 1620",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2160 x 1620"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a refresh rate in the technical specifications.",
+          "normalizedValue": null,
+          "note": "Refresh rate is not inferred.",
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "500 nits",
+          "normalizedValue": "500 nits",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Fingerprint-resistant oleophobic coating",
+          "normalizedValue": "Fingerprint-resistant oleophobic coating",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "A13 Bionic chip",
+          "normalizedValue": "Apple A13 Bionic",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Apple A13 Bionic"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's technical specifications do not state a semiconductor process node.",
+          "normalizedValue": null,
+          "note": "Process node is not inferred.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state CPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No CPU core configuration inferred."
+        },
+        {
+          "fieldId": "gpu",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple identifies the A13 Bionic chip but does not state GPU core count/configuration on this specification page.",
+          "normalizedValue": null,
+          "note": "No GPU core configuration inferred."
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Ships with iPadOS 15; Apple Support describes the platform as iPadOS",
+          "normalizedValue": "iPadOS",
+          "note": "iPadOS is the platform. iPadOS 15 is the original launch version; a current software version is not asserted.",
+          "catalogKey": "os",
+          "catalogValue": "iPadOS"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not publish a guaranteed end date for iPadOS support on this page.",
+          "normalizedValue": null,
+          "note": "Do not infer an end-of-support date."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM capacity in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "RAM remains unrecorded; no estimate substituted.",
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state RAM type in the reviewed technical specifications.",
+          "normalizedValue": null,
+          "note": "Memory type remains unrecorded."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "256GB",
+          "normalizedValue": 256,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 256,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not state a flash-storage interface/type in the reviewed specification.",
+          "normalizedValue": null,
+          "note": "Storage type is not inferred."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not document an external storage expansion option on the reviewed specification page.",
+          "normalizedValue": null,
+          "note": "Expansion capability remains unrecorded rather than inferred from omission."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "8MP Wide camera, ƒ/2.4",
+          "normalizedValue": "8 MP Wide rear camera; f/2.4",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": "8 MP Wide rear camera; f/2.4"
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple does not identify the rear image sensor manufacturer or model.",
+          "normalizedValue": null,
+          "note": "Sensor make/model not disclosed."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "The rear camera is an 8MP Wide camera; no rear Ultra Wide camera is listed.",
+          "normalizedValue": null,
+          "note": "The Ultra Wide camera on this model is front-facing."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "No telephoto rear camera is listed.",
+          "normalizedValue": null,
+          "note": "Apple specifies a single Wide rear camera."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "12MP Ultra Wide camera, 122-degree field of view, ƒ/2.4",
+          "normalizedValue": 12,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP"
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rear: 1080p at 25/30fps and 720p at 30fps; rear slow-motion 720p at 120fps; front: 1080p at 25/30/60fps",
+          "normalizedValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear 1080p/30fps; front 1080p/60fps; slow motion 720p/120fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Built-in 32.4Wh rechargeable lithium-polymer battery; Apple does not list mAh",
+          "normalizedValue": 32.4,
+          "note": "Apple publishes energy in watt-hours, not milliampere-hours. No mAh conversion is made without a published nominal voltage.",
+          "catalogKey": "batteryWh",
+          "catalogValue": 32.4,
+          "unit": "Wh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Rechargeable lithium-polymer battery",
+          "normalizedValue": "Lithium-polymer",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple states charging via power adapter or USB-C to computer; it does not state maximum input wattage. A 20W USB-C adapter is listed in the box.",
+          "normalizedValue": null,
+          "note": "Included adapter wattage is not treated as device charging-rate specification.",
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wireless/reverse charging is not specified on the reviewed Apple page.",
+          "normalizedValue": null,
+          "note": "No capability inferred from omission."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "250.6 × 174.1 × 7.5 mm",
+          "normalizedValue": "250.6 x 174.1 x 7.5 mm",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "250.6 x 174.1 x 7.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi: 487g; Wi-Fi + Cellular: 498g",
+          "normalizedValue": 498,
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "weightG",
+          "catalogValue": 498,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not identify chassis material composition.",
+          "normalizedValue": null,
+          "note": "Material claims not inferred."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple's reviewed technical specification does not state an IP water/dust rating.",
+          "normalizedValue": null,
+          "note": "No IP rating inferred."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular models list Nano-SIM and eSIM",
+          "normalizedValue": "Nano-SIM and eSIM",
+          "note": "Apple's technical specification lists Nano-SIM/eSIM for the Wi-Fi + Cellular family; it does not provide A2604-specific SIM details in the rendered table.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM and eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple lists UMTS and LTE bands under model A2603 (North America); this record is model A2604.",
+          "normalizedValue": null,
+          "note": "Do not assign A2603's region-specific bands to A2604. Exact A2604 supported band list remains unverified."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "GPS/GNSS on Wi-Fi + Cellular models",
+          "normalizedValue": "GPS/GNSS",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi + Cellular model A2604; cellular radio",
+          "normalizedValue": "Wi-Fi + Cellular; LTE",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi + Cellular; LTE"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Wi-Fi 5 (802.11ac), 2×2 MIMO",
+          "normalizedValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 5 (802.11ac), 2x2 MIMO"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Bluetooth 4.2",
+          "normalizedValue": "Bluetooth 4.2",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Lightning connector",
+          "normalizedValue": "Lightning",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "Lightning"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "NFC is not stated in Apple's reviewed technical specification.",
+          "normalizedValue": null,
+          "note": "NFC capability not inferred."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Stereo speakers; dual microphones",
+          "normalizedValue": "Stereo speakers; dual microphones",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "sound",
+          "catalogValue": "Stereo speakers; dual microphones"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Touch ID, three-axis gyroscope, accelerometer, barometer, ambient-light sensor",
+          "normalizedValue": "Touch ID; three-axis gyroscope; accelerometer; barometer; ambient-light sensor",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_tech_specs",
+          "sourceValue": "Apple Pencil (1st generation)",
+          "normalizedValue": "Apple Pencil (1st generation)",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "Apple Pencil (1st generation)"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "apple_ipad9_newsroom",
+          "sourceValue": "Smart Keyboard support; accessory sold separately",
+          "normalizedValue": "Apple Smart Keyboard support; sold separately",
+          "note": "Exact iPad (9th generation) model fact checked against the cited source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Apple Smart Keyboard support; sold separately"
+        }
+      ],
+      "modelCode": "A2604",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_AUTHORIZED_AVAILABILITY",
+        "availabilityStatus": "YugaTech's 2021-10-10 report says iPad (2021) was available in the Philippines and could be purchased on Apple Philippines. The article lists this exact storage/connectivity price but does not identify the first-sale date. Current retailer page observation is marked closed/out of delivery range.",
+        "philippineAvailability": "Dated Philippine availability is supported by a 2021-10-10 local report that linked to Apple Philippines purchase; the exact first-sale date is not recorded.",
+        "observedAt": "2026-11-27",
+        "qualityFlag": "Exact model/configuration matching reviewed against Apple model identification and technical specifications. Philippine availability supported by a dated report. Exact first-sale date, present stock and current buyable price remain unverified. Study eligibility remains Pending.",
+        "catalogModel": "iPad 9th Gen",
+        "manufacturer": "Apple Inc.",
+        "productLine": "iPad",
+        "philippineReleaseYear": 2021,
+        "philippineDateLabel": "Dated Philippine availability report; not first-sale date",
+        "researchNotes": "The workbook's iPad 9th Gen entry is matched to Apple's 2021 iPad (9th generation), with distinct 64GB/256GB Wi-Fi (A2602) and Wi-Fi + Cellular (A2604) configurations. YugaTech reported Philippine availability on 2021-10-10 and gave contemporaneous prices for all four. Exact first-sale date remains unknown. Pick.A.Roo currently displays a closed store/out-of-range banner; its page prices are recorded as non-orderable observations, not current buyable prices. Apple does not disclose RAM or mAh battery capacity. The exact-model Apple diagram is not reused because image rights are not established. Study scope remains Pending.",
+        "openIssues": [
+          {
+            "issue": "Exact Philippine first-sale date is not documented",
+            "action": "Keep exact date blank; retain only the dated 2021-10-10 availability report."
+          },
+          {
+            "issue": "A2604-specific cellular band list is not distinguished on Apple's displayed spec page",
+            "action": "Do not attribute A2603 North America bands to A2604."
+          },
+          {
+            "issue": "RAM, RAM type, storage type, current buyable price and stock are not verified",
+            "action": "Keep values unrecorded; preserve the closed/out-of-range retailer listing as a dated observation."
+          },
+          {
+            "issue": "Image reuse rights are not established",
+            "action": "Use neutral placeholder and retain official exact-family image source metadata."
+          },
+          {
+            "issue": "Study eligibility remains Pending",
+            "action": "Preserve workbook scope."
           }
         ]
       }

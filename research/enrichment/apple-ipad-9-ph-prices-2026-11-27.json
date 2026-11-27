@@ -1,0 +1,183 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_80a03073c65780",
+      "brand": "Apple",
+      "model_name": "iPad 9th Gen",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_80a03073c65780",
+      "source_url": "https://support.apple.com/en-us/111898",
+      "source_kind": "Technical specifications for iPad (9th generation)",
+      "status": "reviewed",
+      "result": "Apple lists capacities, display, A13 Bionic, cameras, battery energy, dimensions and weights by connectivity, Wi-Fi, audio, ports, SIM features, sensors and accessories."
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "source_url": "https://support.apple.com/en-us/108043",
+      "source_kind": "Exact model number, generation, capacity and connectivity mapping",
+      "status": "reviewed",
+      "result": "Apple identifies A2602 as iPad (9th generation) and A2604 as Wi-Fi + Cellular; A2603 is North America only and A2605 is China mainland only. Capacities are 64GB and 256GB."
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "source_url": "https://www.apple.com/newsroom/2021/09/apples-most-popular-ipad-delivers-even-more-performance-and-advanced-features/",
+      "source_kind": "Announcement, initial-market availability, launch OS and product overview",
+      "status": "reviewed",
+      "result": "Apple announced iPad (9th generation) on 2021-09-14 and said store availability in initial markets begins 2021-09-24. It shipped with iPadOS 15 and supports Apple Pencil (1st generation) and Smart Keyboard."
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "Dated Philippine availability and configuration prices",
+      "status": "reviewed",
+      "result": "Article dated 2021-10-10 says the 2021 iPad is now available in the Philippines, lists 64GB/256GB Wi-Fi and cellular configurations, says they can be purchased on Apple Philippines, and lists four prices. This is a dated availability report, not proof of the first transaction date."
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "Exact configuration retailer-listing price cross-check; not used as a buyable current price",
+      "status": "reviewed",
+      "result": "The page displays exact iPad 9th Gen variants and prices with Add controls, but marks the store CLOSED and says it is outside delivery range. Current stock/orderability is therefore not verified; prices are retained as page-listed observations only."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 19990,
+      "configuration_id": "device_80a03073c65780-64gb-wifi",
+      "configuration_match": "exact_apple_ipad9_64gb_wifi_ph_2021",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability gives PHP 19,990 for 64GB Wi-Fi; first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 25490,
+      "configuration_id": "device_80a03073c65780-64gb-wifi",
+      "configuration_match": "exact_apple_ipad9_64gb_wifi_pickaroo_page_listing",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displayed PHP 25,490 for this exact configuration with Add controls, but marks store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 28990,
+      "configuration_id": "device_80a03073c65780-256gb-wifi",
+      "configuration_match": "exact_apple_ipad9_256gb_wifi_ph_2021",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability gives PHP 28,990 for 256GB Wi-Fi; first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 34490,
+      "configuration_id": "device_80a03073c65780-256gb-wifi",
+      "configuration_match": "exact_apple_ipad9_256gb_wifi_pickaroo_page_listing",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displayed PHP 34,490 for this exact configuration with Add controls, but marks store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 27990,
+      "configuration_id": "device_80a03073c65780-64gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad9_64gb_wifi_cellular_ph_2021",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability gives PHP 27,990 for 64GB Wi-Fi + Cellular; first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 33990,
+      "configuration_id": "device_80a03073c65780-64gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad9_64gb_wifi_cellular_pickaroo_page_listing",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displayed PHP 33,990 for this exact configuration with Add controls, but marks store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 36990,
+      "configuration_id": "device_80a03073c65780-256gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad9_256gb_wifi_cellular_ph_2021",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "historical_ph_listing_price_not_confirmed_first_day_msrp",
+      "source_published_at": "2021-10-10",
+      "excerpt": "YugaTech's 2021-10-10 article reporting Philippine availability gives PHP 36,990 for 256GB Wi-Fi + Cellular; first-sale-day MSRP is not specified.",
+      "source_url": "https://www.yugatech.com/personal-computing/apple-ipad-2021-ipad-mini-2021-now-available-in-the-philippines/",
+      "source_kind": "dated_secondary_ph_market_availability_and_price",
+      "observed_at": "2021-10-10",
+      "local_availability_verified": true,
+      "availability_status": "reported_available_in_ph_by_2021_10_10_exact_first_sale_unknown"
+    },
+    {
+      "device_id": "device_80a03073c65780",
+      "amount_php": 42490,
+      "configuration_id": "device_80a03073c65780-256gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad9_256gb_wifi_cellular_pickaroo_page_listing",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "retailer_page_price_store_closed_delivery_unavailable_not_buyable",
+      "source_published_at": null,
+      "excerpt": "Pick.A.Roo / Power Mac Center page displayed PHP 42,490 for this exact configuration with Add controls, but marks store CLOSED and outside the selected delivery range. Not a current buyable price.",
+      "source_url": "https://pickaroo.com/power-mac-center/products/power-mac-center-sm-city-pampanga?group=682-ipad&list=True",
+      "source_kind": "philippine_retailer_listing_not_orderable_at_observation",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "store_closed_delivery_unavailable_current_stock_not_verified"
+    }
+  ]
+}

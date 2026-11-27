@@ -4203,5 +4203,18 @@
     "rightsCheckSourcePage": "https://support.apple.com/en-us/111840",
     "observedAt": "2026-11-27",
     "altText": "Image unavailable for Apple iPad 10th Gen"
+  },
+  "device_80a03073c65780": {
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact-family Apple Support diagram was located, but it is not a standalone product photograph and no permission or reusable license to republish or hotlink it is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://support.apple.com/en-us/111898",
+    "assetUrl": null,
+    "candidateAssetUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111898_sp849-ipad-9gen-480.png",
+    "scope": "Official Apple Support diagram for iPad (9th generation); exact model family, not specific to one storage/connectivity configuration.",
+    "rightsTermsUrl": null,
+    "rightsCheck": "No reuse permission or license was found on the reviewed page. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://support.apple.com/en-us/111898",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for Apple iPad 9th Gen"
   }
 }
