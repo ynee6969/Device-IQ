@@ -208905,6 +208905,1318 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_33bf4ec88cc229",
+      "configurationId": "device_33bf4ec88cc229-sm-x510n-6gb-128gb-wifi-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9 FE",
+      "configuration": "6 GB RAM / 128 GB storage · Wi-Fi · Gray",
+      "configurationLabel": "6 GB RAM / 128 GB storage · Wi-Fi · Gray",
+      "sources": [
+        {
+          "id": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-wifi-gray-128gb-sm-x510nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact Wi-Fi 6 GB / 128 GB Philippine SKU, product features and specifications",
+          "note": "Official Philippine page identifies Gray Wi-Fi SKU SM-X510NZAAXTC and lists its 6 GB RAM, 128 GB storage, dimensions, display, cameras, Wi-Fi, USB, battery, weight and sensors."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 5G 6 GB / 128 GB Philippine SKU, product features and specifications",
+          "note": "Official Philippine page identifies Gray 5G SKU SM-X516BZAA XTC and lists its 6 GB RAM, 128 GB storage, cellular bands, dimensions, display, cameras, Wi-Fi, USB, battery, weight and sensors."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_launch_availability",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+          "publicationDate": "2023-10-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch and availability of the Galaxy Tab S9 FE series",
+          "note": "Samsung Philippines announced local availability beginning October 20, 2023, and stated the series started at PHP 26,990. The launch statement is series-level; exact SKU pricing comes from Samsung's own offer listing."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_2023_cash_prices",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-fe-series-home-credit/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Dated official Philippine cash price for exact 6 GB / 128 GB Wi-Fi and 5G configurations",
+          "note": "Samsung Philippines' 2023 campaign table lists PHP 26,990 for the Galaxy Tab S9 FE Wi-Fi 6 GB + 128 GB and PHP 31,990 for the 5G 6 GB + 128 GB. Campaign page does not expose an exact publication day."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_2025_trade_in_prices",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+          "publicationDate": "2025-07-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Expired 2025 Philippine network-level SRP and promotional price observations",
+          "note": "Samsung listed Wi-Fi SRP PHP 28,990 / offer PHP 26,990 and 5G SRP PHP 33,990 / offer PHP 31,990, with the offer period July 11–September 30, 2025. This table does not identify RAM/storage, so these observations are model/network-level only and are not attached to a configuration."
+        },
+        {
+          "id": "samsung_tab_s9_fe_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+          "publicationDate": "2023-10-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Global announcement and selected-market general availability date",
+          "note": "Samsung announced the FE series on October 4, 2023 and said the Tab S9 FE series would be available in selected markets starting October 5, 2023. The latter is a global selected-market date, not a Philippine release date."
+        },
+        {
+          "id": "samsung_exynos_1380_official_specs",
+          "publisher": "Samsung Semiconductor",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1380/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exynos 1380 process node, CPU architecture and GPU specifications",
+          "note": "Samsung lists 5 nm process, four Cortex-A78 cores at 2.4 GHz, four Cortex-A55 cores at 2.0 GHz and Mali-G68 graphics with five cores. The Tab S9 FE manufacturer pages identify Exynos 1380."
+        },
+        {
+          "id": "samsung_tab_s9_fe_us_launch_specs",
+          "publisher": "Samsung Newsroom US",
+          "url": "https://news.samsung.com/us/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-galaxy-buds-fe-bring-standout-features-to-even-more-users/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-family cross-check for launch OS, stereo speakers, memory options and 45 W charging",
+          "note": "Samsung lists Android 13, 6/128 and 8/256 memory options, two FE cameras, 8,000 mAh battery, Wi-Fi 6, Bluetooth 5.3 and wired charging requiring a separately sold 45 W wall charger. US carrier and availability notes are not treated as Philippine evidence."
+        },
+        {
+          "id": "samsung_tab_s9_fe_samsung_de_comparison",
+          "publisher": "Samsung Germany Support",
+          "url": "https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-vs-galaxy-tab-s9fe/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-family comparison for SM-X510N / SM-X516B, charging and wireless-charging capability",
+          "note": "Samsung's comparison identifies SM-X510N as Wi-Fi and SM-X516B as cellular; it lists 45 W Super Fast Charging and states inductive charging is unsupported. Regional source is used only for shared model-family hardware, not local sale or price."
+        },
+        {
+          "id": "nanoreview_tab_s9_fe_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9-fe",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary specification cross-check for display protection, RAM/storage type, charging and battery chemistry",
+          "note": "NanoReview lists Corning Gorilla Glass 3, LPDDR4X, UFS 2.2, 45 W charging, no wireless charging and Li-Ion chemistry. These are secondary claims; the Li-Ion battery chemistry conflicts with Kimovil and is withheld."
+        },
+        {
+          "id": "kimovil_tab_s9_fe_specs",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s9-fe",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary specification and configuration cross-check",
+          "note": "Kimovil lists 6/128 Wi-Fi, 8/256 Wi-Fi, 6/128 5G and 8/256 5G variants and reports Li-Polymer battery chemistry. Its battery chemistry conflicts with NanoReview; global configuration listings do not establish Philippine sales."
+        },
+        {
+          "id": "gsmarena_tab_s9_fe_specs_access_attempt",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_tab_s9_fe-12517.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Attempted independent specification cross-check",
+          "note": "Direct access returned HTTP 402 Payment Required. No protection was bypassed and no specification values were copied from this page."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_product_image_candidate",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model product-image match and source page reviewed; asset not reused",
+          "note": "Samsung product imagery depicts the Galaxy Tab S9 FE, but the page does not grant reuse permission for the public catalog."
+        },
+        {
+          "id": "samsung_mobile_press_image_terms",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/terms",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-image reuse rights review",
+          "note": "Samsung Mobile Press terms identify images as Samsung or licensor property and limit copying/downloading to personal, informational and non-commercial use. The terms do not authorize reuse in this public product catalog."
+        },
+        {
+          "id": "commons_tab_s9_fe_taken_with_category",
+          "publisher": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/Category:Taken_with_Samsung_Galaxy_Tab_S9_FE",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Search for reusable exact-model product photography",
+          "note": "The reviewed category contains scene photographs taken with a Galaxy Tab S9 FE, not product photographs of the device. No suitable exact-model openly licensed product image was found."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "SM-X510N",
+          "normalizedValue": "SM-X510N",
+          "note": "Exact Samsung Philippines Gray SKU SM-X510NZAAXTC identifies model SM-X510N and 6 GB / 128 GB; this is the locally evidenced configuration."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_global_launch",
+          "sourceValue": "Samsung announced the FE series 2023-10-04; selected-market availability began 2023-10-05",
+          "normalizedValue": "2023-10-05",
+          "note": "October 5, 2023 is Samsung's selected-market availability date. It is not used as the Philippine launch date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "6 GB RAM / 128 GB storage · Wi-Fi · Gray",
+          "normalizedValue": "6 GB RAM / 128 GB storage · Wi-Fi · Gray",
+          "note": "Exact Samsung Philippines Gray SKU SM-X510NZAAXTC identifies model SM-X510N and 6 GB / 128 GB; this is the locally evidenced configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_launch_availability",
+          "sourceValue": "Samsung Philippines stated the Galaxy Tab S9 FE series would be available locally starting 2023-10-20",
+          "normalizedValue": "2023-10-20",
+          "note": "Samsung Philippines gave October 20, 2023 as the start of local availability; this is the official series launch date, not an inference from global release timing."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_2023_cash_prices",
+          "sourceValue": "Samsung Philippines lists PHP 26,990 cash price for Galaxy Tab S9 FE 6 GB / 128 GB Wi-Fi",
+          "normalizedValue": 26990,
+          "note": "Historical local price from Samsung's 2023 campaign table for this exact 6 GB / 128 GB configuration; not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "No current exact-SKU Philippine cash price was verifiable on 2026-11-27.",
+          "normalizedValue": null,
+          "note": "The Samsung Philippines product page supplies specifications but no current numeric offer. The dated 2023 prices and expired 2025 promotion are kept as history, not treated as current.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "10.9 inches full rectangle (10.8 inches accounting for rounded corners)",
+          "normalizedValue": 10.9,
+          "note": "Samsung measures the panel at 10.9 inches diagonally across the full rectangle; rounded-corner measurement is 10.8 inches.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.9,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "TFT display",
+          "normalizedValue": "TFT",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "TFT"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "2304 x 1440 (WUXGA+)",
+          "normalizedValue": "2304 x 1440",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2304 x 1440"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Adaptive refresh rate up to 90 Hz",
+          "normalizedValue": 90,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Maximum brightness 600 nits; outdoor brightness 720 nits in High Brightness Mode",
+          "normalizedValue": 600,
+          "note": "Samsung Philippines states a 600-nit maximum and 720-nit outdoor High Brightness Mode; the catalog value records maximum brightness.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "Corning Gorilla Glass 3",
+          "normalizedValue": "Corning Gorilla Glass 3",
+          "note": "NanoReview lists Gorilla Glass 3; Samsung's Philippine specification page does not name a display-glass revision. Secondary-source claim only."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Samsung Exynos 1380",
+          "normalizedValue": "Samsung Exynos 1380",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Samsung Exynos 1380"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1380_official_specs",
+          "sourceValue": "Samsung Semiconductor lists Exynos 1380 on 5 nm FinFET",
+          "normalizedValue": 5,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1380_official_specs",
+          "sourceValue": "4 x Arm Cortex-A78 up to 2.4 GHz + 4 x Arm Cortex-A55 up to 2.0 GHz",
+          "normalizedValue": "Octa-core: 4 x Cortex-A78 up to 2.4 GHz + 4 x Cortex-A55 up to 2.0 GHz",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 4 x Cortex-A78 up to 2.4 GHz + 4 x Cortex-A55 up to 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1380_official_specs",
+          "sourceValue": "Arm Mali-G68 GPU with five cores",
+          "normalizedValue": "Arm Mali-G68 MP5",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G68 MP5"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_us_launch_specs",
+          "sourceValue": "Android 13 at launch",
+          "normalizedValue": "Android 13",
+          "note": "Samsung's launch specification table lists Android 13; later installed versions are not substituted for launch OS.",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_global_launch",
+          "sourceValue": "Four generations of Android OS upgrades and five years of security updates",
+          "normalizedValue": "Up to 4 OS generations; 5 years of security updates",
+          "note": "Samsung's launch-era policy; this does not claim that all future updates remain active indefinitely."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "6 GB",
+          "normalizedValue": 6,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X",
+          "note": "NanoReview lists LPDDR4X; Samsung's local SKU specification page does not publish RAM technology type."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "128 GB internal storage",
+          "normalizedValue": 128,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "UFS 2.2",
+          "normalizedValue": "UFS 2.2",
+          "note": "NanoReview lists UFS 2.2; Samsung's local SKU specification page does not identify the storage interface."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "MicroSD card support up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Single 8 MP autofocus rear camera",
+          "normalizedValue": 8,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 8,
+          "unit": "MP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Samsung does not identify the camera sensor component in the reviewed specifications.",
+          "normalizedValue": null,
+          "note": "Resolution and autofocus are documented; no sensor part number or lens aperture is inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Samsung lists one 8 MP rear camera and no rear ultra-wide module",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Samsung lists one 8 MP rear camera and no telephoto module",
+          "normalizedValue": "No telephoto camera",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "12 MP front ultra-wide camera",
+          "normalizedValue": 12,
+          "note": "Samsung identifies the 12 MP front camera; the FE model-family launch specification identifies it as ultra-wide.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Rear video up to UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "8,000 mAh typical capacity",
+          "normalizedValue": 8000,
+          "note": "Samsung labels 8,000 mAh as typical capacity; a rated/minimum value is not supplied in the reviewed Philippine page.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "NanoReview says Li-Ion; Kimovil says Li-Polymer; Samsung does not disclose cell chemistry.",
+          "normalizedValue": null,
+          "note": "The two secondary sources disagree and Samsung does not specify chemistry. No battery chemistry is selected.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9-fe",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists Li-Ion battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 FE model family; exact battery sample/configuration not independently stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Li-Polymer",
+              "sourceUrl": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s9-fe",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "Kimovil lists Li-Polymer battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 FE model family; exact battery sample/configuration not independently stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_us_launch_specs",
+          "sourceValue": "Wired charging supported with a separately sold 45 W wall charger",
+          "normalizedValue": 45,
+          "note": "Samsung's launch materials require a 45 W wall charger, sold separately; the adapter is not asserted to be in-box.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s9_fe_samsung_de_comparison",
+          "sourceValue": "Samsung states inductive charging is not supported",
+          "normalizedValue": "No wireless charging",
+          "note": "Samsung's model-family comparison identifies SM-X510N and SM-X516B and states inductive charging is unsupported."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "165.8 x 254.3 x 6.5 mm",
+          "normalizedValue": "165.8 x 254.3 x 6.5 mm",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.8 x 254.3 x 6.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "523 g (Wi-Fi model)",
+          "normalizedValue": 523,
+          "note": "Samsung's Philippines SKU pages list 523 g for Wi-Fi and 524 g for 5G.",
+          "catalogKey": "weightG",
+          "catalogValue": 523,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Full-metal frame",
+          "normalizedValue": "Full-metal frame",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Wi-Fi-only model; no SIM or eSIM",
+          "normalizedValue": "No SIM; Wi-Fi only",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "sim",
+          "catalogValue": "No SIM; Wi-Fi only"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Not applicable: this exact SM-X510N SKU is Wi-Fi-only.",
+          "normalizedValue": null,
+          "note": "No cellular modem or cellular frequency bands are specified for the Wi-Fi-only model."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Wi-Fi-only variant",
+          "normalizedValue": "Wi-Fi only",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "Wi-Fi only"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), 2.4 GHz and 5 GHz",
+          "normalizedValue": "Wi-Fi 6",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "USB Type-C, USB 2.0",
+          "normalizedValue": "USB Type-C; USB 2.0",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_us_launch_specs",
+          "sourceValue": "Dual stereo speakers with Dolby Atmos",
+          "normalizedValue": "Dual stereo speakers; Dolby Atmos",
+          "note": "Samsung's model-family launch specification lists dual speakers and Dolby Atmos; no 3.5 mm audio jack is listed on the local SKU page.",
+          "catalogKey": "sound",
+          "catalogValue": "Dual stereo speakers; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyroscope, geomagnetic sensor, Hall sensor and light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_launch_availability",
+          "sourceValue": "S Pen included in the box; S Pen Creator Edition sold separately",
+          "normalizedValue": "S Pen included",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "sourceValue": "Book Cover Keyboard supported and sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X510N",
+      "sku": "SM-X510NZAAXTC",
+      "replacementVariants": [
+        {
+          "id": "device_33bf4ec88cc229-sm-x510n-6gb-128gb-wifi-ph",
+          "label": "6 GB RAM / 128 GB storage · Wi-Fi · Gray",
+          "sku": "SM-X510NZAAXTC",
+          "modelCode": "SM-X510N",
+          "notes": "Exact Gray Wi-Fi SKU identified on Samsung Philippines' local product page."
+        },
+        {
+          "id": "device_33bf4ec88cc229-sm-x516b-6gb-128gb-5g-ph",
+          "label": "6 GB RAM / 128 GB storage · 5G · Gray",
+          "sku": "SM-X516BZAA XTC",
+          "modelCode": "SM-X516B",
+          "notes": "Exact Gray 5G SKU identified on Samsung Philippines' local product page."
+        }
+      ],
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+        "availabilityStatus": "Philippine availability officially announced from 2023-10-20; exact 6/128 Wi-Fi and 6/128 5G SKUs listed locally.",
+        "philippineAvailabilityDate": "2023-10-20",
+        "philippineDateLabel": "Philippine launch date",
+        "philippineAvailability": "Samsung Philippines announced availability beginning October 20, 2023. Exact local Samsung SKU pages and 2023 Samsung campaign pricing were found for 6 GB / 128 GB Wi-Fi (SM-X510NZAAXTC) and 6 GB / 128 GB 5G (SM-X516BZAA XTC). Samsung's PH product page mentions up to 256 GB but explicitly warns that 256 GB availability varies by region; no exact PH 8/256 SKU or local price was verified, so it is not added as a confirmed local configuration.",
+        "observedAt": "2026-11-27",
+        "philippineReleaseYear": 2023,
+        "catalogModel": "Galaxy Tab S9 FE",
+        "qualityFlag": "Two exact 6/128 Philippine SKUs verified; local 8/256 availability and current price remain unresolved.",
+        "openIssues": [
+          {
+            "issue": "Samsung Philippines describes an option up to 256 GB but warns that its availability varies by country, region or carrier; no exact local 8 GB / 256 GB SKU or price was found.",
+            "action": "Do not list 8/256 as a verified Philippine SKU until an exact local SKU, authorized local listing or dated local configuration-specific price is found."
+          },
+          {
+            "issue": "No current numeric price for either exact 6/128 SKU was exposed by Samsung Philippines on the review date.",
+            "action": "Keep current price blank; retain historical local prices and dated expired promotions separately."
+          }
+        ]
+      }
+    },
+    {
+      "deviceId": "device_33bf4ec88cc229",
+      "configurationId": "device_33bf4ec88cc229-sm-x516b-6gb-128gb-5g-ph",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9 FE",
+      "configuration": "6 GB RAM / 128 GB storage · 5G · Gray",
+      "configurationLabel": "6 GB RAM / 128 GB storage · 5G · Gray",
+      "sources": [
+        {
+          "id": "samsung_tab_s9_fe_ph_wifi_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-wifi-gray-128gb-sm-x510nzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact Wi-Fi 6 GB / 128 GB Philippine SKU, product features and specifications",
+          "note": "Official Philippine page identifies Gray Wi-Fi SKU SM-X510NZAAXTC and lists its 6 GB RAM, 128 GB storage, dimensions, display, cameras, Wi-Fi, USB, battery, weight and sensors."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact 5G 6 GB / 128 GB Philippine SKU, product features and specifications",
+          "note": "Official Philippine page identifies Gray 5G SKU SM-X516BZAA XTC and lists its 6 GB RAM, 128 GB storage, cellular bands, dimensions, display, cameras, Wi-Fi, USB, battery, weight and sensors."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_launch_availability",
+          "publisher": "Samsung Newsroom Philippines",
+          "url": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+          "publicationDate": "2023-10-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Dated Philippine launch and availability of the Galaxy Tab S9 FE series",
+          "note": "Samsung Philippines announced local availability beginning October 20, 2023, and stated the series started at PHP 26,990. The launch statement is series-level; exact SKU pricing comes from Samsung's own offer listing."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_2023_cash_prices",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-fe-series-home-credit/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Dated official Philippine cash price for exact 6 GB / 128 GB Wi-Fi and 5G configurations",
+          "note": "Samsung Philippines' 2023 campaign table lists PHP 26,990 for the Galaxy Tab S9 FE Wi-Fi 6 GB + 128 GB and PHP 31,990 for the 5G 6 GB + 128 GB. Campaign page does not expose an exact publication day."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_2025_trade_in_prices",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+          "publicationDate": "2025-07-11",
+          "accessDate": "2026-11-27",
+          "purpose": "Expired 2025 Philippine network-level SRP and promotional price observations",
+          "note": "Samsung listed Wi-Fi SRP PHP 28,990 / offer PHP 26,990 and 5G SRP PHP 33,990 / offer PHP 31,990, with the offer period July 11–September 30, 2025. This table does not identify RAM/storage, so these observations are model/network-level only and are not attached to a configuration."
+        },
+        {
+          "id": "samsung_tab_s9_fe_global_launch",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+          "publicationDate": "2023-10-04",
+          "accessDate": "2026-11-27",
+          "purpose": "Global announcement and selected-market general availability date",
+          "note": "Samsung announced the FE series on October 4, 2023 and said the Tab S9 FE series would be available in selected markets starting October 5, 2023. The latter is a global selected-market date, not a Philippine release date."
+        },
+        {
+          "id": "samsung_exynos_1380_official_specs",
+          "publisher": "Samsung Semiconductor",
+          "url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1380/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exynos 1380 process node, CPU architecture and GPU specifications",
+          "note": "Samsung lists 5 nm process, four Cortex-A78 cores at 2.4 GHz, four Cortex-A55 cores at 2.0 GHz and Mali-G68 graphics with five cores. The Tab S9 FE manufacturer pages identify Exynos 1380."
+        },
+        {
+          "id": "samsung_tab_s9_fe_us_launch_specs",
+          "publisher": "Samsung Newsroom US",
+          "url": "https://news.samsung.com/us/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-galaxy-buds-fe-bring-standout-features-to-even-more-users/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-family cross-check for launch OS, stereo speakers, memory options and 45 W charging",
+          "note": "Samsung lists Android 13, 6/128 and 8/256 memory options, two FE cameras, 8,000 mAh battery, Wi-Fi 6, Bluetooth 5.3 and wired charging requiring a separately sold 45 W wall charger. US carrier and availability notes are not treated as Philippine evidence."
+        },
+        {
+          "id": "samsung_tab_s9_fe_samsung_de_comparison",
+          "publisher": "Samsung Germany Support",
+          "url": "https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-vs-galaxy-tab-s9fe/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Manufacturer model-family comparison for SM-X510N / SM-X516B, charging and wireless-charging capability",
+          "note": "Samsung's comparison identifies SM-X510N as Wi-Fi and SM-X516B as cellular; it lists 45 W Super Fast Charging and states inductive charging is unsupported. Regional source is used only for shared model-family hardware, not local sale or price."
+        },
+        {
+          "id": "nanoreview_tab_s9_fe_specs",
+          "publisher": "NanoReview",
+          "url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9-fe",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary specification cross-check for display protection, RAM/storage type, charging and battery chemistry",
+          "note": "NanoReview lists Corning Gorilla Glass 3, LPDDR4X, UFS 2.2, 45 W charging, no wireless charging and Li-Ion chemistry. These are secondary claims; the Li-Ion battery chemistry conflicts with Kimovil and is withheld."
+        },
+        {
+          "id": "kimovil_tab_s9_fe_specs",
+          "publisher": "Kimovil",
+          "url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s9-fe",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Secondary specification and configuration cross-check",
+          "note": "Kimovil lists 6/128 Wi-Fi, 8/256 Wi-Fi, 6/128 5G and 8/256 5G variants and reports Li-Polymer battery chemistry. Its battery chemistry conflicts with NanoReview; global configuration listings do not establish Philippine sales."
+        },
+        {
+          "id": "gsmarena_tab_s9_fe_specs_access_attempt",
+          "publisher": "GSMArena",
+          "url": "https://www.gsmarena.com/samsung_galaxy_tab_s9_fe-12517.php",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Attempted independent specification cross-check",
+          "note": "Direct access returned HTTP 402 Payment Required. No protection was bypassed and no specification values were copied from this page."
+        },
+        {
+          "id": "samsung_tab_s9_fe_ph_product_image_candidate",
+          "publisher": "Samsung Philippines",
+          "url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Exact-model product-image match and source page reviewed; asset not reused",
+          "note": "Samsung product imagery depicts the Galaxy Tab S9 FE, but the page does not grant reuse permission for the public catalog."
+        },
+        {
+          "id": "samsung_mobile_press_image_terms",
+          "publisher": "Samsung Mobile Press",
+          "url": "https://www.samsungmobilepress.com/terms",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Product-image reuse rights review",
+          "note": "Samsung Mobile Press terms identify images as Samsung or licensor property and limit copying/downloading to personal, informational and non-commercial use. The terms do not authorize reuse in this public product catalog."
+        },
+        {
+          "id": "commons_tab_s9_fe_taken_with_category",
+          "publisher": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/Category:Taken_with_Samsung_Galaxy_Tab_S9_FE",
+          "publicationDate": null,
+          "accessDate": "2026-11-27",
+          "purpose": "Search for reusable exact-model product photography",
+          "note": "The reviewed category contains scene photographs taken with a Galaxy Tab S9 FE, not product photographs of the device. No suitable exact-model openly licensed product image was found."
+        }
+      ],
+      "fields": [
+        {
+          "fieldId": "model_number",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "SM-X516B",
+          "normalizedValue": "SM-X516B",
+          "note": "Exact Samsung Philippines Gray SKU SM-X516BZAA XTC identifies model SM-X516B and 6 GB / 128 GB; this is the locally evidenced configuration."
+        },
+        {
+          "fieldId": "global_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_global_launch",
+          "sourceValue": "Samsung announced the FE series 2023-10-04; selected-market availability began 2023-10-05",
+          "normalizedValue": "2023-10-05",
+          "note": "October 5, 2023 is Samsung's selected-market availability date. It is not used as the Philippine launch date."
+        },
+        {
+          "fieldId": "configuration",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "6 GB RAM / 128 GB storage · 5G · Gray",
+          "normalizedValue": "6 GB RAM / 128 GB storage · 5G · Gray",
+          "note": "Exact Samsung Philippines Gray SKU SM-X516BZAA XTC identifies model SM-X516B and 6 GB / 128 GB; this is the locally evidenced configuration."
+        },
+        {
+          "fieldId": "philippine_release_date",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_launch_availability",
+          "sourceValue": "Samsung Philippines stated the Galaxy Tab S9 FE series would be available locally starting 2023-10-20",
+          "normalizedValue": "2023-10-20",
+          "note": "Samsung Philippines gave October 20, 2023 as the start of local availability; this is the official series launch date, not an inference from global release timing."
+        },
+        {
+          "fieldId": "official_launch_price_php",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_2023_cash_prices",
+          "sourceValue": "Samsung Philippines lists PHP 31,990 cash price for Galaxy Tab S9 FE 6 GB / 128 GB 5G",
+          "normalizedValue": 31990,
+          "note": "Historical local price from Samsung's 2023 campaign table for this exact 6 GB / 128 GB configuration; not a current offer.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "current_price_php",
+          "status": "PENDING_VERIFICATION",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "No current exact-SKU Philippine cash price was verifiable on 2026-11-27.",
+          "normalizedValue": null,
+          "note": "The Samsung Philippines product page supplies specifications but no current numeric offer. The dated 2023 prices and expired 2025 promotion are kept as history, not treated as current.",
+          "unit": "PHP"
+        },
+        {
+          "fieldId": "display_size",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "10.9 inches full rectangle (10.8 inches accounting for rounded corners)",
+          "normalizedValue": 10.9,
+          "note": "Samsung measures the panel at 10.9 inches diagonally across the full rectangle; rounded-corner measurement is 10.8 inches.",
+          "catalogKey": "displayInches",
+          "catalogValue": 10.9,
+          "unit": "in"
+        },
+        {
+          "fieldId": "display_technology",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "TFT display",
+          "normalizedValue": "TFT",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "displayType",
+          "catalogValue": "TFT"
+        },
+        {
+          "fieldId": "display_resolution",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "2304 x 1440 (WUXGA+)",
+          "normalizedValue": "2304 x 1440",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "resolution",
+          "catalogValue": "2304 x 1440"
+        },
+        {
+          "fieldId": "display_refresh_rate",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Adaptive refresh rate up to 90 Hz",
+          "normalizedValue": 90,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "refreshHz",
+          "catalogValue": 90,
+          "unit": "Hz"
+        },
+        {
+          "fieldId": "display_brightness",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Maximum brightness 600 nits; outdoor brightness 720 nits in High Brightness Mode",
+          "normalizedValue": 600,
+          "note": "Samsung Philippines states a 600-nit maximum and 720-nit outdoor High Brightness Mode; the catalog value records maximum brightness.",
+          "unit": "nits"
+        },
+        {
+          "fieldId": "display_protection",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "Corning Gorilla Glass 3",
+          "normalizedValue": "Corning Gorilla Glass 3",
+          "note": "NanoReview lists Gorilla Glass 3; Samsung's Philippine specification page does not name a display-glass revision. Secondary-source claim only."
+        },
+        {
+          "fieldId": "chipset",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Samsung Exynos 1380",
+          "normalizedValue": "Samsung Exynos 1380",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "chipset",
+          "catalogValue": "Samsung Exynos 1380"
+        },
+        {
+          "fieldId": "process_node",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1380_official_specs",
+          "sourceValue": "Samsung Semiconductor lists Exynos 1380 on 5 nm FinFET",
+          "normalizedValue": 5,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "unit": "nm"
+        },
+        {
+          "fieldId": "cpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1380_official_specs",
+          "sourceValue": "4 x Arm Cortex-A78 up to 2.4 GHz + 4 x Arm Cortex-A55 up to 2.0 GHz",
+          "normalizedValue": "Octa-core: 4 x Cortex-A78 up to 2.4 GHz + 4 x Cortex-A55 up to 2.0 GHz",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "cpu",
+          "catalogValue": "Octa-core: 4 x Cortex-A78 up to 2.4 GHz + 4 x Cortex-A55 up to 2.0 GHz"
+        },
+        {
+          "fieldId": "gpu",
+          "status": "VERIFIED",
+          "sourceId": "samsung_exynos_1380_official_specs",
+          "sourceValue": "Arm Mali-G68 GPU with five cores",
+          "normalizedValue": "Arm Mali-G68 MP5",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "gpu",
+          "catalogValue": "Arm Mali-G68 MP5"
+        },
+        {
+          "fieldId": "operating_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_us_launch_specs",
+          "sourceValue": "Android 13 at launch",
+          "normalizedValue": "Android 13",
+          "note": "Samsung's launch specification table lists Android 13; later installed versions are not substituted for launch OS.",
+          "catalogKey": "os",
+          "catalogValue": "Android 13"
+        },
+        {
+          "fieldId": "os_support",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_global_launch",
+          "sourceValue": "Four generations of Android OS upgrades and five years of security updates",
+          "normalizedValue": "Up to 4 OS generations; 5 years of security updates",
+          "note": "Samsung's launch-era policy; this does not claim that all future updates remain active indefinitely."
+        },
+        {
+          "fieldId": "ram_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "6 GB",
+          "normalizedValue": 6,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "ramGb",
+          "catalogValue": 6,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "ram_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "LPDDR4X",
+          "normalizedValue": "LPDDR4X",
+          "note": "NanoReview lists LPDDR4X; Samsung's local SKU specification page does not publish RAM technology type."
+        },
+        {
+          "fieldId": "storage_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "128 GB internal storage",
+          "normalizedValue": 128,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "storageGb",
+          "catalogValue": 128,
+          "unit": "GB"
+        },
+        {
+          "fieldId": "storage_type",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "UFS 2.2",
+          "normalizedValue": "UFS 2.2",
+          "note": "NanoReview lists UFS 2.2; Samsung's local SKU specification page does not identify the storage interface."
+        },
+        {
+          "fieldId": "storage_expansion",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "MicroSD card support up to 1 TB",
+          "normalizedValue": "microSD up to 1 TB",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "rear_camera_system",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Single 8 MP autofocus rear camera",
+          "normalizedValue": 8,
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "rearCameraMp",
+          "catalogValue": 8,
+          "unit": "MP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "main_camera_sensor",
+          "status": "NOT_DISCLOSED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Samsung does not identify the camera sensor component in the reviewed specifications.",
+          "normalizedValue": null,
+          "note": "Resolution and autofocus are documented; no sensor part number or lens aperture is inferred."
+        },
+        {
+          "fieldId": "ultrawide_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Samsung lists one 8 MP rear camera and no rear ultra-wide module",
+          "normalizedValue": "No rear ultra-wide camera",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "telephoto_camera",
+          "status": "NOT_APPLICABLE",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Samsung lists one 8 MP rear camera and no telephoto module",
+          "normalizedValue": "No telephoto camera",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "front_camera",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "12 MP front ultra-wide camera",
+          "normalizedValue": 12,
+          "note": "Samsung identifies the 12 MP front camera; the FE model-family launch specification identifies it as ultra-wide.",
+          "catalogKey": "frontCameraMp",
+          "catalogValue": 12,
+          "unit": "MP",
+          "replaceExisting": true
+        },
+        {
+          "fieldId": "video_recording",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Rear video up to UHD 4K (3840 x 2160) at 30 fps",
+          "normalizedValue": "Rear video up to 4K / 30 fps",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "video",
+          "catalogValue": "Rear video up to 4K / 30 fps"
+        },
+        {
+          "fieldId": "battery_capacity",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "8,000 mAh typical capacity",
+          "normalizedValue": 8000,
+          "note": "Samsung labels 8,000 mAh as typical capacity; a rated/minimum value is not supplied in the reviewed Philippine page.",
+          "catalogKey": "batteryMah",
+          "catalogValue": 8000,
+          "unit": "mAh"
+        },
+        {
+          "fieldId": "battery_technology",
+          "status": "CONFLICTING_INFORMATION",
+          "sourceId": "nanoreview_tab_s9_fe_specs",
+          "sourceValue": "NanoReview says Li-Ion; Kimovil says Li-Polymer; Samsung does not disclose cell chemistry.",
+          "normalizedValue": null,
+          "note": "The two secondary sources disagree and Samsung does not specify chemistry. No battery chemistry is selected.",
+          "candidateEvidence": [
+            {
+              "value": "Li-Ion",
+              "sourceUrl": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9-fe",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "NanoReview lists Li-Ion battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 FE model family; exact battery sample/configuration not independently stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            },
+            {
+              "value": "Li-Polymer",
+              "sourceUrl": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s9-fe",
+              "sourceKind": "independent_specification",
+              "observedAt": "2026-11-27",
+              "excerpt": "Kimovil lists Li-Polymer battery chemistry.",
+              "configurationMatch": "Galaxy Tab S9 FE model family; exact battery sample/configuration not independently stated",
+              "reviewStatus": "CONFLICTING_INFORMATION",
+              "localAvailabilityVerified": false
+            }
+          ]
+        },
+        {
+          "fieldId": "wired_charging",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_us_launch_specs",
+          "sourceValue": "Wired charging supported with a separately sold 45 W wall charger",
+          "normalizedValue": 45,
+          "note": "Samsung's launch materials require a 45 W wall charger, sold separately; the adapter is not asserted to be in-box.",
+          "catalogKey": "chargingW",
+          "catalogValue": 45,
+          "unit": "W"
+        },
+        {
+          "fieldId": "wireless_charging",
+          "status": "VERIFIED_SECONDARY",
+          "sourceId": "samsung_tab_s9_fe_samsung_de_comparison",
+          "sourceValue": "Samsung states inductive charging is not supported",
+          "normalizedValue": "No wireless charging",
+          "note": "Samsung's model-family comparison identifies SM-X510N and SM-X516B and states inductive charging is unsupported."
+        },
+        {
+          "fieldId": "dimensions",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "165.8 x 254.3 x 6.5 mm",
+          "normalizedValue": "165.8 x 254.3 x 6.5 mm",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "dimensions",
+          "catalogValue": "165.8 x 254.3 x 6.5 mm",
+          "unit": "mm"
+        },
+        {
+          "fieldId": "weight",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "524 g (5G model)",
+          "normalizedValue": 524,
+          "note": "Samsung's Philippines SKU pages list 523 g for Wi-Fi and 524 g for 5G.",
+          "catalogKey": "weightG",
+          "catalogValue": 524,
+          "unit": "g"
+        },
+        {
+          "fieldId": "materials",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Full-metal frame",
+          "normalizedValue": "Full-metal frame",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "ingress_protection",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "IP68",
+          "normalizedValue": "IP68",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "sim_esim",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Samsung Philippines advertises Dual SIM with eSIM on the Tab S9 FE cellular model family",
+          "normalizedValue": "Nano-SIM + eSIM",
+          "note": "Samsung's local 5G product page advertises eSIM/Dual SIM. Function availability may vary by country, region or carrier.",
+          "catalogKey": "sim",
+          "catalogValue": "Nano-SIM + eSIM"
+        },
+        {
+          "fieldId": "cellular_bands",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "2G GSM 850/900/1800/1900; 3G UMTS B1/B2/B4/B5/B8; 4G FDD LTE B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B20/B26/B28/B32/B66; 4G TDD LTE B38/B40/B41; 5G FDD Sub-6 n1/n3/n5/n7/n8/n20/n28/n66; 5G TDD Sub-6 n38/n40/n41/n77/n78",
+          "normalizedValue": "2G GSM 850/900/1800/1900; 3G UMTS B1/B2/B4/B5/B8; 4G FDD LTE B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B20/B26/B28/B32/B66; 4G TDD LTE B38/B40/B41; 5G FDD Sub-6 n1/n3/n5/n7/n8/n20/n28/n66; 5G TDD Sub-6 n38/n40/n41/n77/n78",
+          "note": "Band list copied from the exact Samsung Philippines SM-X516B 5G product specification page."
+        },
+        {
+          "fieldId": "tablet_cellular_variant",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "5G cellular variant",
+          "normalizedValue": "5G cellular",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "cellular",
+          "catalogValue": "5G cellular"
+        },
+        {
+          "fieldId": "wifi",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), 2.4 GHz and 5 GHz",
+          "normalizedValue": "Wi-Fi 6",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "wifi",
+          "catalogValue": "Wi-Fi 6"
+        },
+        {
+          "fieldId": "bluetooth",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Bluetooth 5.3",
+          "normalizedValue": "Bluetooth 5.3",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "usb",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "USB Type-C, USB 2.0",
+          "normalizedValue": "USB Type-C; USB 2.0",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "ports",
+          "catalogValue": "USB Type-C; USB 2.0"
+        },
+        {
+          "fieldId": "nfc",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "NFC: No",
+          "normalizedValue": "No NFC",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "gnss",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "GPS, GLONASS, BeiDou, Galileo and QZSS",
+          "normalizedValue": "GPS; GLONASS; BeiDou; Galileo; QZSS",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "audio",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_us_launch_specs",
+          "sourceValue": "Dual stereo speakers with Dolby Atmos",
+          "normalizedValue": "Dual stereo speakers; Dolby Atmos",
+          "note": "Samsung's model-family launch specification lists dual speakers and Dolby Atmos; no 3.5 mm audio jack is listed on the local SKU page.",
+          "catalogKey": "sound",
+          "catalogValue": "Dual stereo speakers; Dolby Atmos"
+        },
+        {
+          "fieldId": "sensors",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Accelerometer, fingerprint sensor, gyroscope, geomagnetic sensor, Hall sensor and light sensor",
+          "normalizedValue": "Accelerometer; fingerprint; gyroscope; geomagnetic; Hall; light",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source."
+        },
+        {
+          "fieldId": "tablet_stylus",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_launch_availability",
+          "sourceValue": "S Pen included in the box; S Pen Creator Edition sold separately",
+          "normalizedValue": "S Pen included",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "stylus",
+          "catalogValue": "S Pen included"
+        },
+        {
+          "fieldId": "tablet_keyboard",
+          "status": "VERIFIED",
+          "sourceId": "samsung_tab_s9_fe_ph_5g_128_specs",
+          "sourceValue": "Book Cover Keyboard supported and sold separately",
+          "normalizedValue": "Book Cover Keyboard supported; sold separately",
+          "note": "Exact Philippine product model and 6 GB / 128 GB configuration checked against the cited source.",
+          "catalogKey": "keyboard",
+          "catalogValue": "Book Cover Keyboard supported; sold separately"
+        }
+      ],
+      "modelCode": "SM-X516B",
+      "sku": "SM-X516BZAA XTC",
+      "availabilityEvidence": {
+        "verificationStatus": "VERIFIED_OFFICIAL_LAUNCH",
+        "availabilityStatus": "Philippine availability officially announced from 2023-10-20; exact 6/128 Wi-Fi and 6/128 5G SKUs listed locally.",
+        "philippineAvailabilityDate": "2023-10-20",
+        "philippineDateLabel": "Philippine launch date",
+        "philippineAvailability": "Samsung Philippines announced availability beginning October 20, 2023. Exact local Samsung SKU pages and 2023 Samsung campaign pricing were found for 6 GB / 128 GB Wi-Fi (SM-X510NZAAXTC) and 6 GB / 128 GB 5G (SM-X516BZAA XTC). Samsung's PH product page mentions up to 256 GB but explicitly warns that 256 GB availability varies by region; no exact PH 8/256 SKU or local price was verified, so it is not added as a confirmed local configuration.",
+        "observedAt": "2026-11-27",
+        "philippineReleaseYear": 2023,
+        "catalogModel": "Galaxy Tab S9 FE",
+        "qualityFlag": "Two exact 6/128 Philippine SKUs verified; local 8/256 availability and current price remain unresolved.",
+        "openIssues": [
+          {
+            "issue": "Samsung Philippines describes an option up to 256 GB but warns that its availability varies by country, region or carrier; no exact local 8 GB / 256 GB SKU or price was found.",
+            "action": "Do not list 8/256 as a verified Philippine SKU until an exact local SKU, authorized local listing or dated local configuration-specific price is found."
+          },
+          {
+            "issue": "No current numeric price for either exact 6/128 SKU was exposed by Samsung Philippines on the review date.",
+            "action": "Keep current price blank; retain historical local prices and dated expired promotions separately."
+          }
+        ]
+      }
     }
   ]
 }

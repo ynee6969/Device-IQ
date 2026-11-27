@@ -3856,12 +3856,12 @@
   },
   "device_33bf4ec88cc229": {
     "status": "REUSE_PERMISSION_REQUIRED",
-    "reason": "Samsung states that its site content remains Samsung/licensor property and grants no reuse license for this use.",
+    "reason": "No exact-model product image with reuse permission was identified. Samsung Mobile Press terms restrict site materials to personal, informational and non-commercial use; Wikimedia Commons search results were photographs taken with the Tab S9 FE rather than product photos.",
     "sourcePage": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
     "assetUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x516bzaaxtc/gallery/ph-galaxy-tab-s9-fe-sm-x516-sm-x516bzaaxtc-thumb-538474968",
-    "scope": "Exact model; pictured colors may vary",
-    "rightsTermsUrl": "https://www.samsung.com/ph/business/info/legal/",
-    "observedAt": "2026-11-26",
+    "scope": "Samsung Galaxy Tab S9 FE; no image reused because an exact-model product-image license was not cleared.",
+    "rightsTermsUrl": "https://www.samsungmobilepress.com/terms",
+    "observedAt": "2026-11-27",
     "altText": "Image unavailable for Samsung Galaxy Tab S9 FE"
   },
   "device_ca40d8c136e83b": {

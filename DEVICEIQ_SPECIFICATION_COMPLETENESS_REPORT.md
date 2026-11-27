@@ -1,6 +1,6 @@
 # DeviceIQ Specification Completeness Report
 
-Generated: 2026-11-27T15:17:01+08:00
+Generated: 2026-11-27T15:34:34+08:00
 
 > Research status only. The workbook and catalog are provisional research inputs, not a complete or fully verified census of Philippine releases.
 
@@ -9,27 +9,27 @@ Generated: 2026-11-27T15:17:01+08:00
 | Metric | Actual result |
 | --- | ---: |
 | Models | 456 |
-| Configurations | 625 |
-| Models with manually verified source fields | 199 |
-| Configurations with manually verified source fields | 335 |
+| Configurations | 626 |
+| Models with manually verified source fields | 200 |
+| Configurations with manually verified source fields | 337 |
 | Laptop models with official-source reviews | 18/18 |
 | Laptop configurations with reviewed source fields | 22 |
 | Models with all fields assessed | 10 |
 | Specification-complete models | 0 |
 | Complete with disclosed gaps | 3 |
 | Incomplete models | 453 |
-| Conflicting specification records | 134 |
-| Assessed specification fields | 10917 |
-| Verified specification fields | 9401 |
-| Unavailable fields | 1082 |
-| Not applicable fields | 300 |
-| Pending verification fields | 18365 |
-| Manually reviewed price candidates | 122 |
-| Assessment coverage | 37.28% |
-| Verified coverage | 32.11% |
-| Candidate field observations | 5824 |
-| Candidate prices | 425 |
-| Candidate source links | 300 |
+| Conflicting specification records | 136 |
+| Assessed specification fields | 11013 |
+| Verified specification fields | 9488 |
+| Unavailable fields | 1084 |
+| Not applicable fields | 305 |
+| Pending verification fields | 18318 |
+| Manually reviewed price candidates | 124 |
+| Assessment coverage | 37.55% |
+| Verified coverage | 32.35% |
+| Candidate field observations | 5883 |
+| Candidate prices | 520 |
+| Candidate source links | 203 |
 | Image-matched models | 49 |
 | Models with image unavailable | 407 |
 | Excluded models | 3 |
@@ -42,19 +42,19 @@ Assessment coverage = fields with a reviewed status / applicable field rows. Ver
 | Category | Models | Configurations | Applicable field rows | Assessed | Verified | Pending | Assessment | Verified coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | smartphones | 288 | 389 | 17894 | 6271 | 5657 | 11623 | 35.05% | 31.61% |
-| tablets | 150 | 214 | 10486 | 4233 | 3333 | 6253 | 40.37% | 31.79% |
+| tablets | 150 | 215 | 10535 | 4329 | 3420 | 6206 | 41.09% | 32.46% |
 | laptops | 18 | 22 | 902 | 413 | 411 | 489 | 45.79% | 45.57% |
 
 ## Collection snapshot (candidate evidence, not verified facts)
 
-- Snapshot timestamp: `2026-11-27`.
-- Fetch attempts: 263; successful page extractions: 221.
-- Extracted pages by source type: `{'independent_ph_reference': 202, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 202, 'official': 19}`.
-- Fetch attempts by category: `{'smartphones': 190, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
-- Candidate field observations by source type: `{'independent_ph_reference': 5801, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144, 'historical_local_reported_srp': 1, 'dated_local_price_promotion': 1, 'historical_local_store_listing': 1, 'historical_local_price_list': 1, 'historical_local_launch_price': 1, 'historical_local_price_observation': 32, 'historical_local_launch_price_report': 5, 'historical_local_price_report': 1, 'current_official_store_listing': 2, 'manufacturer_parameter_page_price': 1, 'historical_local_promotion': 1, 'current_manufacturer_store_listing': 8, 'historical_philippine_launch_price_report': 3, 'secondary_ph_market_price_list': 4, 'philippine_retailer_exact_configuration_listing': 2, 'retailer_exact_configuration_sold_out_listing': 1, 'dated_secondary_ph_market_availability_and_price': 8, 'philippine_retailer_listing_not_orderable_at_observation': 8, 'dated_secondary_ph_price_report_before_local_availability_date_announced': 20, 'dated_secondary_ph_price_and_local_availability_report': 20, 'dated_secondary_ph_launch_period_price_report': 4, 'dated_secondary_ph_availability_and_price_report': 4, 'dated_secondary_ph_price_change_report': 4, 'philippine_authorized_retailer_page_observation': 4, 'dated_authorized_retailer_preorder_report_configuration_ambiguous': 2, 'dated_philippine_launch_price_report': 2, 'dated_philippine_launch_price_cross_check': 2, 'dated_philippine_promo_price_report': 2, 'dated_philippine_promo_price_report_with_conflicting_window': 2, 'current_philippine_retailer_listing_stock_or_condition_not_confirmed': 2, 'philippine_price_aggregator_dated_retailer_quote': 1, 'official_samsung_ph_launch_price': 11, 'official_samsung_ph_discount_terms_arithmetic': 11, 'official_samsung_ph_preorder_price': 6, 'independent_ph_launch_price_report': 1, 'price_tracker_reports_official_samsung_lazmall_listing': 1, 'price_comparator_ansons_offer': 1, 'shopee_ph_sold_out_kimstore_listing': 1}`.
-- Candidate prices: 425; discovery links: 300.
+- Snapshot timestamp: `2026-11-26T12:43:51+08:00`.
+- Fetch attempts: 265; successful page extractions: 223.
+- Extracted pages by source type: `{'independent_ph_reference': 204, 'official': 19}`; extracted models by source type: `{'independent_ph_reference': 204, 'official': 19}`.
+- Fetch attempts by category: `{'smartphones': 192, 'tablets': 55, 'laptops': 18}`; unsuccessful attempts by category: `{'smartphones': 15, 'tablets': 9, 'laptops': 18}`.
+- Candidate field observations by source type: `{'independent_ph_reference': 6135, 'automated_source_candidate': 145, 'local_technology_publication': 6, 'manufacturer_primary_philippines': 2, 'secondary_philippines': 4, 'official': 144}`.
+- Candidate prices: 520; discovery links: 203.
 - Source observations are promoted only when the fetched page passes an exact-model check and the field is safe to share across configurations. Unmatched, conflicting, variant-specific, price, and Philippine-availability claims remain candidates until reviewed.
-- 18365 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
+- 18318 applicable fields remain pending because no sufficiently matched source was recorded, a source does not establish the exact variant/region, or the available result is still only a candidate. A blank is not treated as zero or as a negative specification.
 
 ## Field backlog
 
@@ -62,20 +62,20 @@ Every category template field is enumerated in `research/enrichment/specificatio
 
 | Group | Applicable rows | Assessed | Verified | Pending |
 | --- | ---: | ---: | ---: | ---: |
-| Accessories | 428 | 194 | 180 | 234 |
-| Audio | 625 | 231 | 224 | 394 |
-| Battery | 2478 | 907 | 685 | 1571 |
-| Build | 2478 | 914 | 781 | 1564 |
-| Camera | 3640 | 1432 | 1089 | 2208 |
-| Connectivity | 4545 | 1648 | 1459 | 2897 |
-| Display | 3772 | 1600 | 1488 | 2172 |
-| Identity | 1250 | 509 | 469 | 741 |
+| Accessories | 430 | 198 | 184 | 232 |
+| Audio | 626 | 233 | 226 | 393 |
+| Battery | 2482 | 915 | 691 | 1567 |
+| Build | 2482 | 922 | 789 | 1560 |
+| Camera | 3646 | 1444 | 1095 | 2202 |
+| Connectivity | 4553 | 1664 | 1474 | 2889 |
+| Display | 3778 | 1612 | 1500 | 2166 |
+| Identity | 1252 | 513 | 473 | 739 |
 | Input | 44 | 7 | 7 | 37 |
-| Memory | 3147 | 1223 | 1019 | 1924 |
-| Other | 625 | 193 | 185 | 432 |
-| Philippine market | 1897 | 482 | 441 | 1415 |
-| Platform | 3750 | 1459 | 1268 | 2291 |
-| Release history | 603 | 118 | 106 | 485 |
+| Memory | 3152 | 1233 | 1029 | 1919 |
+| Other | 626 | 195 | 187 | 431 |
+| Philippine market | 1900 | 486 | 445 | 1414 |
+| Platform | 3756 | 1471 | 1280 | 2285 |
+| Release history | 604 | 120 | 108 | 484 |
 
 ## Priority list
 
@@ -148,7 +148,6 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2026 | tablets | TechLife | Pad Neo SE | Configuration not recorded | `device_1535d8a05f2fa1-unrecorded` | 48 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | TechLife | Pad Plus 2 | Configuration not recorded | `device_9d4cf39af3e3ef-unrecorded` | 48 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | itel | VistaTab 12 | Configuration not recorded | `device_3a0c056003bdcb-unrecorded` | 48 | 49 | SPECIFICATION_INCOMPLETE |
-| 2023 | tablets | Samsung | Galaxy Tab S9 FE | Configuration not recorded | `device_33bf4ec88cc229-unrecorded` | 47 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | Samsung | Galaxy Tab S9 FE+ | Configuration not recorded | `device_ca40d8c136e83b-unrecorded` | 47 | 49 | SPECIFICATION_INCOMPLETE |
 | 2025 | tablets | Samsung | Galaxy Tab S10 FE+ | Configuration not recorded | `device_8a813e7f0aaaae-unrecorded` | 47 | 49 | SPECIFICATION_INCOMPLETE |
 | 2026 | tablets | Samsung | Galaxy Tab S12 Ultra | Configuration not recorded | `device_3c3b3adfeb221f-unrecorded` | 47 | 49 | SPECIFICATION_INCOMPLETE |
@@ -685,10 +684,12 @@ Every category template field is enumerated in `research/enrichment/specificatio
 | 2023 | smartphones | Samsung | Z Flip5 | 8 GB RAM / 512 GB storage | `device_8d098d93ab5f47-ph-8gb-512gb` | 4 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | Samsung | Galaxy Tab S9 | 8 GB RAM / 128 GB storage · Wi-Fi | `device_7867f6ebccc2fa-sm-x710-8gb-128gb-wifi-ph` | 4 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | Samsung | Galaxy Tab S9 | 12 GB RAM / 256 GB storage · Wi-Fi | `device_7867f6ebccc2fa-sm-x710-12gb-256gb-wifi-ph` | 4 | 49 | SPECIFICATION_INCOMPLETE |
+| 2023 | tablets | Samsung | Galaxy Tab S9 FE | 6 GB RAM / 128 GB storage · Wi-Fi · Gray | `device_33bf4ec88cc229-sm-x510n-6gb-128gb-wifi-ph` | 4 | 49 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | Samsung | Z Fold5 | 12 GB RAM / 256 GB storage | `device_8b71a65802ab50-ph-12gb-256gb` | 3 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | Samsung | Z Fold5 | 12 GB RAM / 512 GB storage | `device_8b71a65802ab50-ph-12gb-512gb` | 3 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | smartphones | Samsung | Z Fold5 | 12 GB RAM / 1 TB storage | `device_8b71a65802ab50-ph-12gb-1tb` | 3 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | Samsung | Galaxy Tab S9 | 12 GB RAM / 256 GB storage · 5G | `device_7867f6ebccc2fa-sm-x716b-12gb-256gb-5g-ph` | 3 | 49 | SPECIFICATION_INCOMPLETE |
+| 2023 | tablets | Samsung | Galaxy Tab S9 FE | 6 GB RAM / 128 GB storage · 5G · Gray | `device_33bf4ec88cc229-sm-x516b-6gb-128gb-5g-ph` | 3 | 49 | SPECIFICATION_INCOMPLETE |
 | Unassigned | smartphones | Xiaomi | 15 | 12 GB RAM / 256 GB storage | `config_058cc95f012890` | 2 | 46 | SPECIFICATION_INCOMPLETE |
 | Unassigned | smartphones | Xiaomi | 15 | 12 GB RAM / 512 GB storage | `device_ab1ddec763e1d7-12gb-512gb` | 2 | 46 | SPECIFICATION_INCOMPLETE |
 | 2023 | tablets | ABC TECH | X10 Plus Study Buddy Tablet | 8 GB RAM / 128 GB storage | `device_01ffae05ba688a-8gb-128gb` | 22 | 49 | SPECIFICATION_INCOMPLETE |

@@ -1,0 +1,233 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "brand": "Samsung",
+      "model_name": "Galaxy Tab S9 FE",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-wifi-gray-128gb-sm-x510nzaaxtc/",
+      "source_kind": "Exact Wi-Fi 6 GB / 128 GB Philippine SKU, product features and specifications",
+      "status": "reviewed",
+      "result": "Official Philippine page identifies Gray Wi-Fi SKU SM-X510NZAAXTC and lists its 6 GB RAM, 128 GB storage, dimensions, display, cameras, Wi-Fi, USB, battery, weight and sensors."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
+      "source_kind": "Exact 5G 6 GB / 128 GB Philippine SKU, product features and specifications",
+      "status": "reviewed",
+      "result": "Official Philippine page identifies Gray 5G SKU SM-X516BZAA XTC and lists its 6 GB RAM, 128 GB storage, cellular bands, dimensions, display, cameras, Wi-Fi, USB, battery, weight and sensors."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://news.samsung.com/ph/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+      "source_kind": "Dated Philippine launch and availability of the Galaxy Tab S9 FE series",
+      "status": "reviewed",
+      "result": "Samsung Philippines announced local availability beginning October 20, 2023, and stated the series started at PHP 26,990. The launch statement is series-level; exact SKU pricing comes from Samsung's own offer listing."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-fe-series-home-credit/",
+      "source_kind": "Dated official Philippine cash price for exact 6 GB / 128 GB Wi-Fi and 5G configurations",
+      "status": "reviewed",
+      "result": "Samsung Philippines' 2023 campaign table lists PHP 26,990 for the Galaxy Tab S9 FE Wi-Fi 6 GB + 128 GB and PHP 31,990 for the 5G 6 GB + 128 GB. Campaign page does not expose an exact publication day."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "Expired 2025 Philippine network-level SRP and promotional price observations",
+      "status": "reviewed",
+      "result": "Samsung listed Wi-Fi SRP PHP 28,990 / offer PHP 26,990 and 5G SRP PHP 33,990 / offer PHP 31,990, with the offer period July 11–September 30, 2025. This table does not identify RAM/storage, so these observations are model/network-level only and are not attached to a configuration."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://news.samsung.com/global/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-and-galaxy-buds-fe-bring-standout-features-to-even-more-users",
+      "source_kind": "Global announcement and selected-market general availability date",
+      "status": "reviewed",
+      "result": "Samsung announced the FE series on October 4, 2023 and said the Tab S9 FE series would be available in selected markets starting October 5, 2023. The latter is a global selected-market date, not a Philippine release date."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1380/",
+      "source_kind": "Exynos 1380 process node, CPU architecture and GPU specifications",
+      "status": "reviewed",
+      "result": "Samsung lists 5 nm process, four Cortex-A78 cores at 2.4 GHz, four Cortex-A55 cores at 2.0 GHz and Mali-G68 graphics with five cores. The Tab S9 FE manufacturer pages identify Exynos 1380."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://news.samsung.com/us/samsung-galaxy-s23-fe-galaxy-tab-s9-fe-galaxy-buds-fe-bring-standout-features-to-even-more-users/",
+      "source_kind": "Manufacturer model-family cross-check for launch OS, stereo speakers, memory options and 45 W charging",
+      "status": "reviewed",
+      "result": "Samsung lists Android 13, 6/128 and 8/256 memory options, two FE cameras, 8,000 mAh battery, Wi-Fi 6, Bluetooth 5.3 and wired charging requiring a separately sold 45 W wall charger. US carrier and availability notes are not treated as Philippine evidence."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-vs-galaxy-tab-s9fe/",
+      "source_kind": "Manufacturer model-family comparison for SM-X510N / SM-X516B, charging and wireless-charging capability",
+      "status": "reviewed",
+      "result": "Samsung's comparison identifies SM-X510N as Wi-Fi and SM-X516B as cellular; it lists 45 W Super Fast Charging and states inductive charging is unsupported. Regional source is used only for shared model-family hardware, not local sale or price."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://nanoreview.net/en/tablet/samsung-galaxy-tab-s9-fe",
+      "source_kind": "Secondary specification cross-check for display protection, RAM/storage type, charging and battery chemistry",
+      "status": "reviewed",
+      "result": "NanoReview lists Corning Gorilla Glass 3, LPDDR4X, UFS 2.2, 45 W charging, no wireless charging and Li-Ion chemistry. These are secondary claims; the Li-Ion battery chemistry conflicts with Kimovil and is withheld."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.kimovil.com/en/where-to-buy-samsung-galaxy-tab-s9-fe",
+      "source_kind": "Secondary specification and configuration cross-check",
+      "status": "reviewed",
+      "result": "Kimovil lists 6/128 Wi-Fi, 8/256 Wi-Fi, 6/128 5G and 8/256 5G variants and reports Li-Polymer battery chemistry. Its battery chemistry conflicts with NanoReview; global configuration listings do not establish Philippine sales."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.gsmarena.com/samsung_galaxy_tab_s9_fe-12517.php",
+      "source_kind": "Attempted independent specification cross-check",
+      "status": "reviewed",
+      "result": "Direct access returned HTTP 402 Payment Required. No protection was bypassed and no specification values were copied from this page."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.samsung.com/ph/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaxtc/",
+      "source_kind": "Exact-model product-image match and source page reviewed; asset not reused",
+      "status": "reviewed",
+      "result": "Samsung product imagery depicts the Galaxy Tab S9 FE, but the page does not grant reuse permission for the public catalog."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://www.samsungmobilepress.com/terms",
+      "source_kind": "Product-image reuse rights review",
+      "status": "reviewed",
+      "result": "Samsung Mobile Press terms identify images as Samsung or licensor property and limit copying/downloading to personal, informational and non-commercial use. The terms do not authorize reuse in this public product catalog."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "source_url": "https://commons.wikimedia.org/wiki/Category:Taken_with_Samsung_Galaxy_Tab_S9_FE",
+      "source_kind": "Search for reusable exact-model product photography",
+      "status": "reviewed",
+      "result": "The reviewed category contains scene photographs taken with a Galaxy Tab S9 FE, not product photographs of the device. No suitable exact-model openly licensed product image was found."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "configuration_id": "device_33bf4ec88cc229-sm-x510n-6gb-128gb-wifi-ph",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "exact_6gb_128gb_wifi",
+      "amount_php": 26990,
+      "price_type": "historical_ph_official_2023_cash_price_exact_configuration",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-fe-series-home-credit/",
+      "source_kind": "official_samsung_ph_2023_campaign_cash_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_2023_campaign_cash_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' 2023 campaign lists PHP 26,990 for the Galaxy Tab S9 FE 6 GB / 128 GB Wi-Fi configuration. This is a historical campaign cash price, not a current offer."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "configuration_id": "device_33bf4ec88cc229-sm-x516b-6gb-128gb-5g-ph",
+      "variant_ram_gb": 6,
+      "variant_storage_gb": 128,
+      "variant_connectivity": "5G",
+      "configuration_match": "exact_6gb_128gb_5g",
+      "amount_php": 31990,
+      "price_type": "historical_ph_official_2023_cash_price_exact_configuration",
+      "source_published_at": null,
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2023/galaxy-fe-series-home-credit/",
+      "source_kind": "official_samsung_ph_2023_campaign_cash_price",
+      "local_availability_verified": true,
+      "availability_status": "historical_2023_campaign_cash_price_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines' 2023 campaign lists PHP 31,990 for the Galaxy Tab S9 FE 6 GB / 128 GB 5G configuration. This is a historical campaign cash price, not a current offer."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "model_network_wifi_ram_storage_unspecified",
+      "amount_php": 28990,
+      "price_type": "historical_2025_ph_official_srp_network_configuration_unspecified",
+      "source_published_at": "2025-07-11",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "official_samsung_ph_2025_srp",
+      "local_availability_verified": true,
+      "availability_status": "historical_network_level_srp_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines listed PHP 28,990 SRP for Galaxy Tab S9 FE Wi-Fi during its 2025 trade-in promotion; RAM/storage not specified."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "Wi-Fi",
+      "configuration_match": "model_network_wifi_ram_storage_unspecified",
+      "amount_php": 26990,
+      "price_type": "expired_2025_ph_official_promo_network_configuration_unspecified",
+      "source_published_at": "2025-07-11",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "official_samsung_ph_2025_expired_offer",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_07_11_to_2025_09_30_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines listed PHP 26,990 promotional price for Galaxy Tab S9 FE Wi-Fi, valid July 11–September 30, 2025; RAM/storage not specified and the offer is expired."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "5G",
+      "configuration_match": "model_network_5g_ram_storage_unspecified",
+      "amount_php": 33990,
+      "price_type": "historical_2025_ph_official_srp_network_configuration_unspecified",
+      "source_published_at": "2025-07-11",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "official_samsung_ph_2025_srp",
+      "local_availability_verified": true,
+      "availability_status": "historical_network_level_srp_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines listed PHP 33,990 SRP for Galaxy Tab S9 FE 5G during its 2025 trade-in promotion; RAM/storage not specified."
+    },
+    {
+      "device_id": "device_33bf4ec88cc229",
+      "configuration_id": null,
+      "variant_ram_gb": null,
+      "variant_storage_gb": null,
+      "variant_connectivity": "5G",
+      "configuration_match": "model_network_5g_ram_storage_unspecified",
+      "amount_php": 31990,
+      "price_type": "expired_2025_ph_official_promo_network_configuration_unspecified",
+      "source_published_at": "2025-07-11",
+      "observed_at": "2026-11-27",
+      "source_url": "https://www.samsung.com/ph/offer/offline/2025/galaxy-tab-trade-in/",
+      "source_kind": "official_samsung_ph_2025_expired_offer",
+      "local_availability_verified": true,
+      "availability_status": "expired_2025_07_11_to_2025_09_30_not_current",
+      "review_status": "VERIFIED",
+      "excerpt": "Samsung Philippines listed PHP 31,990 promotional price for Galaxy Tab S9 FE 5G, valid July 11–September 30, 2025; RAM/storage not specified and the offer is expired."
+    }
+  ]
+}

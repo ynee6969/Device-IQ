@@ -68,8 +68,21 @@ passed++;
 assert.equal(publicDevices.length, 463);
 assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) =>
   publicDevices.filter((device) => device.category === category).length), [292, 153, 18]);
-assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [386, 214, 22]);
-assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 632);
+assert.deepEqual(["smartphones", "tablets", "laptops"].map((category) => publicRows(category).length), [386, 215, 22]);
+assert.equal(publicDevices.reduce((count, device) => count + device.variants.length, 0), 633);
+const galaxyTabS9Fe = publicDevices.find((device) => device.id === "device_33bf4ec88cc229");
+assert.ok(galaxyTabS9Fe);
+assert.equal(galaxyTabS9Fe.scopeStatus, "Included");
+assert.equal(galaxyTabS9Fe.verificationStatus, "VERIFIED_OFFICIAL_LAUNCH");
+assert.equal(galaxyTabS9Fe.philippineAvailabilityDate, "2023-10-20");
+assert.deepEqual(galaxyTabS9Fe.variants.map((variant) => [variant.sku, variant.specs.ramGb, variant.specs.storageGb, variant.specs.cellular]), [
+  ["SM-X510NZAAXTC", 6, 128, "Wi-Fi only"],
+  ["SM-X516BZAA XTC", 6, 128, "5G cellular"],
+]);
+assert.deepEqual(galaxyTabS9Fe.variants.map((variant) => [variant.specs.rearCameraMp, variant.specs.frontCameraMp]), [[8, 12], [8, 12]]);
+assert.ok(galaxyTabS9Fe.variants.every((variant) => variant.pricePhp === null));
+assert.equal(galaxyTabS9Fe.imageId, null);
+assert.ok((galaxyTabS9Fe.openIssues ?? []).some((issue) => (issue.issue ?? "").includes("256 GB")));
 const nokiaG42 = publicDevices.find((device) => device.id === "device_9ba373722ace11");
 assert.ok(nokiaG42);
 assert.equal(nokiaG42.workbookRow, 149);
