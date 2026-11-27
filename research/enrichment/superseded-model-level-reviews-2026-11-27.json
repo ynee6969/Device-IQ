@@ -141,6 +141,148 @@
           }
         ]
       }
+    },
+    {
+      "deviceId": "device_e4a50bfd310ec0",
+      "model": "iPad 10th Gen",
+      "supersededConfigurationId": "device_e4a50bfd310ec0-unrecorded",
+      "supersededAt": "2026-11-27",
+      "reason": "Replaced one model-level placeholder with four exact Apple storage/connectivity configurations; underlying source observations are preserved.",
+      "review": {
+        "deviceId": "device_e4a50bfd310ec0",
+        "configurationId": "device_e4a50bfd310ec0-unrecorded",
+        "brand": "Apple",
+        "model": "iPad 10th Gen",
+        "configurationLabel": "Configuration not recorded",
+        "sources": [
+          {
+            "id": "apple_ipad_10th_gen_tech_specs",
+            "publisher": "Apple Support",
+            "url": "https://support.apple.com/en-us/111840",
+            "publicationDate": "2022-01-01",
+            "accessDate": "2026-11-25",
+            "purpose": "Official manufacturer technical specifications",
+            "note": "Apple technical specifications for iPad 10th Gen; model-level values do not establish Philippine sales or the workbook's exact storage configuration."
+          }
+        ],
+        "fields": [
+          {
+            "fieldId": "display_size",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "10.86 in",
+            "normalizedValue": 10.86,
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "displayInches",
+            "catalogValue": 10.86,
+            "unit": "in"
+          },
+          {
+            "fieldId": "display_technology",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "LCD IPS",
+            "normalizedValue": "LCD IPS",
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "displayType",
+            "catalogValue": "LCD IPS"
+          },
+          {
+            "fieldId": "display_resolution",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "1640 x 2360",
+            "normalizedValue": "1640 x 2360",
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "resolution",
+            "catalogValue": "1640 x 2360"
+          },
+          {
+            "fieldId": "chipset",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "Apple A14 Bionic",
+            "normalizedValue": "Apple A14 Bionic",
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "chipset",
+            "catalogValue": "Apple A14 Bionic"
+          },
+          {
+            "fieldId": "cpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "6-core CPU",
+            "normalizedValue": "6-core CPU",
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "cpu",
+            "catalogValue": "6-core CPU"
+          },
+          {
+            "fieldId": "gpu",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "4-core Apple GPU",
+            "normalizedValue": "4-core Apple GPU",
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "gpu",
+            "catalogValue": "4-core Apple GPU"
+          },
+          {
+            "fieldId": "front_camera",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "12 MP",
+            "normalizedValue": 12,
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "frontCameraMp",
+            "catalogValue": 12,
+            "unit": "MP"
+          },
+          {
+            "fieldId": "wifi",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "Wi-Fi 6 (802.11ax)",
+            "normalizedValue": "Wi-Fi 6 (802.11ax)",
+            "note": "Official Apple specifications for iPad 10th Gen; this is a model-level fact. The exact workbook variant is Configuration not recorded.",
+            "catalogKey": "wifi",
+            "catalogValue": "Wi-Fi 6 (802.11ax)"
+          },
+          {
+            "fieldId": "weight",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "Wi-Fi: 477 g; Wi-Fi + Cellular: 481 g",
+            "normalizedValue": "Wi-Fi: 477 g; Wi-Fi + Cellular: 481 g",
+            "note": "Apple lists different weights by connectivity configuration. The inventory does not identify which connectivity option applies.",
+            "clearCatalogKey": "weightG"
+          },
+          {
+            "fieldId": "storage_capacity",
+            "status": "VERIFIED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "64GB or 256GB",
+            "normalizedValue": "Manufacturer model options: 64GB or 256GB; inventory SKU not recorded.",
+            "note": "Apple lists these model-level storage choices. This does not identify which storage configuration the inventory record represents."
+          },
+          {
+            "fieldId": "battery_capacity",
+            "status": "NOT_DISCLOSED",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "Apple's public technical specification page reports runtime, not battery mAh capacity.",
+            "normalizedValue": null,
+            "note": "Not disclosed as an mAh capacity in the cited Apple technical specification; no battery capacity is inferred."
+          },
+          {
+            "fieldId": "philippine_release_date",
+            "status": "PENDING_VERIFICATION",
+            "sourceId": "apple_ipad_10th_gen_tech_specs",
+            "sourceValue": "Apple records worldwide year introduced as 2022; this is not a Philippine first-sale date.",
+            "normalizedValue": null,
+            "note": "Worldwide model introduction does not establish the first Philippine sale date. Keep the local date unrecorded."
+          }
+        ]
+      }
     }
   ]
 }

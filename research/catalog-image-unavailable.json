@@ -4190,5 +4190,18 @@
     "rightsTermsUrl": null,
     "observedAt": "2026-11-26",
     "altText": "Image unavailable for vivo V21 5G"
+  },
+  "device_e4a50bfd310ec0": {
+    "status": "REUSE_RIGHTS_NOT_ESTABLISHED",
+    "reason": "An exact-model Apple Support diagram was located. It is not a product photograph, and no permission or reusable license to republish or hotlink it is recorded. Keep the neutral placeholder.",
+    "sourcePage": "https://support.apple.com/en-us/111840",
+    "assetUrl": null,
+    "candidateAssetUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111840_sp884-ipad-10gen-960.png",
+    "scope": "Official Apple Support diagram for iPad (10th generation); exact family match, but not a product photo and not specific to one storage/connectivity configuration.",
+    "rightsTermsUrl": null,
+    "rightsCheck": "No reuse permission or license for this image was found in the reviewed page. Do not download or hotlink.",
+    "rightsCheckSourcePage": "https://support.apple.com/en-us/111840",
+    "observedAt": "2026-11-27",
+    "altText": "Image unavailable for Apple iPad 10th Gen"
   }
 }

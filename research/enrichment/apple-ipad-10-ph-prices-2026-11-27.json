@@ -1,0 +1,181 @@
+{
+  "run_at": "2026-11-27",
+  "inventory_count": 456,
+  "selected_count": 1,
+  "models": [
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "brand": "Apple",
+      "model_name": "iPad 10th Gen",
+      "category": "tablets",
+      "status": "manually_reviewed"
+    }
+  ],
+  "fetches": [],
+  "observations": [],
+  "discovery": [
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "source_url": "https://support.apple.com/en-us/111840",
+      "source_kind": "Exact model technical specifications and storage/cellular differences",
+      "status": "reviewed",
+      "result": "Apple lists 64GB and 256GB, A14 Bionic, display, cameras, battery energy, dimensions, weights by connectivity, wireless, ports, sensors and accessories."
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "source_url": "https://support.apple.com/en-us/108043",
+      "source_kind": "Exact model-number and connectivity mapping",
+      "status": "reviewed",
+      "result": "Apple identifies A2696 as iPad (10th generation) and A2757 as the Wi-Fi + Cellular configuration; capacities are 64GB and 256GB."
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "source_url": "https://www.apple.com/newsroom/2022/10/apple-unveils-completely-redesigned-ipad-in-four-vibrant-colors/",
+      "source_kind": "Announcement, global availability schedule, product features and original OS",
+      "status": "reviewed",
+      "result": "Apple announced the model on 2022-10-18, said store availability in initial markets begins 2022-10-26, and lists the 64GB/256GB capacities, A14, cameras, Wi-Fi 6, cellular 5G and iPadOS 16 at launch."
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "source_url": "https://www.yugatech.com/personal-computing/tablet-prices-in-the-philippines-2022/",
+      "source_kind": "Dated Philippine market-listing evidence and 2022 local list prices",
+      "status": "reviewed",
+      "result": "The 2022 Philippines tablet price list, published 2022-11-21, states its listed products were officially launched in the Philippines during 2022 and gives all four exact iPad 10th Gen storage/connectivity prices. It does not give an exact first-sale date."
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "source_url": "https://iwarehouse.ph/products/50-apple-ipad-10th-gen-wifi",
+      "source_kind": "Dated current local retailer listing for exact 64GB Wi-Fi configuration",
+      "status": "reviewed",
+      "result": "Product page identifies brand-new iPad 10th Gen, Silver, 64GB, Wi-Fi; cash price PHP 25,490, SRP PHP 29,990, with availability shown at one Cadiz City location. Stock is informational and should be confirmed with the store."
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "source_url": "https://www.greentelcom.ph/shop/tablets/apple-ipad-10th-gen-wifi-cellular-64gb/",
+      "source_kind": "Dated local retailer listing for exact 64GB Wi-Fi + Cellular configuration",
+      "status": "reviewed",
+      "result": "Product page identifies the exact 64GB Wi-Fi + Cellular model and shows PHP 34,990 against PHP 35,990 with Add to cart/Buy Now controls. The page also reports zero sold and does not explicitly confirm stock; price is a retailer listing, not an in-stock guarantee."
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "source_url": "https://ecommerce.datablitz.com.ph/collections/ipad-10th-gen-wifi",
+      "source_kind": "Cross-check of Wi-Fi model prices and stock labels",
+      "status": "reviewed",
+      "result": "The page lists 64GB Wi-Fi at PHP 19,950 and 256GB Wi-Fi at PHP 30,450, but both configurations are labeled Sold out. These are retained as sold-out observations and not treated as current buyable prices."
+    }
+  ],
+  "prices": [
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "amount_php": 29990,
+      "configuration_id": "device_e4a50bfd310ec0-64gb-wifi",
+      "configuration_match": "exact_apple_ipad10_64gb_wifi_ph_2022",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "historical_reported_ph_2022_list_price",
+      "source_published_at": "2022-11-21",
+      "excerpt": "YugaTech's Philippines 2022 tablet price list gives PHP 29,990 for the 64GB WiFi option; article says listed devices were officially launched in PH during 2022 but does not give a first-sale day.",
+      "source_url": "https://www.yugatech.com/personal-computing/tablet-prices-in-the-philippines-2022/",
+      "source_kind": "secondary_ph_market_price_list",
+      "observed_at": "2022-11-21",
+      "local_availability_verified": true,
+      "availability_status": "ph_market_list_reports_official_local_launch_in_2022_exact_day_unknown"
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "amount_php": 25490,
+      "configuration_id": "device_e4a50bfd310ec0-64gb-wifi",
+      "configuration_match": "exact_apple_ipad10_64gb_wifi_retailer_listing",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "current_dated_local_retailer_listing",
+      "source_published_at": null,
+      "excerpt": "PHP 25,490 cash price; new 64GB Wi-Fi unit shown available at one store location. The retailer warns to confirm branch stock.",
+      "source_url": "https://iwarehouse.ph/products/50-apple-ipad-10th-gen-wifi",
+      "source_kind": "philippine_retailer_exact_configuration_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": true,
+      "availability_status": "single_store_location_shown_confirm_stock"
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "amount_php": 39990,
+      "configuration_id": "device_e4a50bfd310ec0-256gb-wifi",
+      "configuration_match": "exact_apple_ipad10_256gb_wifi_ph_2022",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "historical_reported_ph_2022_list_price",
+      "source_published_at": "2022-11-21",
+      "excerpt": "YugaTech's Philippines 2022 tablet price list gives PHP 39,990 for the 256GB WiFi option; article says listed devices were officially launched in PH during 2022 but does not give a first-sale day.",
+      "source_url": "https://www.yugatech.com/personal-computing/tablet-prices-in-the-philippines-2022/",
+      "source_kind": "secondary_ph_market_price_list",
+      "observed_at": "2022-11-21",
+      "local_availability_verified": true,
+      "availability_status": "ph_market_list_reports_official_local_launch_in_2022_exact_day_unknown"
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "amount_php": 39990,
+      "configuration_id": "device_e4a50bfd310ec0-64gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad10_64gb_wifi_cellular_ph_2022",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "historical_reported_ph_2022_list_price",
+      "source_published_at": "2022-11-21",
+      "excerpt": "YugaTech's Philippines 2022 tablet price list gives PHP 39,990 for the 64GB Cell. option; article says listed devices were officially launched in PH during 2022 but does not give a first-sale day.",
+      "source_url": "https://www.yugatech.com/personal-computing/tablet-prices-in-the-philippines-2022/",
+      "source_kind": "secondary_ph_market_price_list",
+      "observed_at": "2022-11-21",
+      "local_availability_verified": true,
+      "availability_status": "ph_market_list_reports_official_local_launch_in_2022_exact_day_unknown"
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "amount_php": 34990,
+      "configuration_id": "device_e4a50bfd310ec0-64gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad10_64gb_wifi_cellular_retailer_listing",
+      "variant_storage_gb": 64,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "current_dated_local_retailer_listing",
+      "source_published_at": null,
+      "excerpt": "PHP 34,990 promotional listing (was PHP 35,990); product page has purchase controls, reports zero sold, and does not explicitly confirm stock.",
+      "source_url": "https://www.greentelcom.ph/shop/tablets/apple-ipad-10th-gen-wifi-cellular-64gb/",
+      "source_kind": "philippine_retailer_exact_configuration_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "listed_stock_unconfirmed"
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "amount_php": 49990,
+      "configuration_id": "device_e4a50bfd310ec0-256gb-wifi-cellular",
+      "configuration_match": "exact_apple_ipad10_256gb_wifi_cellular_ph_2022",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi + Cellular",
+      "price_type": "historical_reported_ph_2022_list_price",
+      "source_published_at": "2022-11-21",
+      "excerpt": "YugaTech's Philippines 2022 tablet price list gives PHP 49,990 for the 256GB Cell. option; article says listed devices were officially launched in PH during 2022 but does not give a first-sale day.",
+      "source_url": "https://www.yugatech.com/personal-computing/tablet-prices-in-the-philippines-2022/",
+      "source_kind": "secondary_ph_market_price_list",
+      "observed_at": "2022-11-21",
+      "local_availability_verified": true,
+      "availability_status": "ph_market_list_reports_official_local_launch_in_2022_exact_day_unknown"
+    },
+    {
+      "device_id": "device_e4a50bfd310ec0",
+      "amount_php": 30450,
+      "configuration_id": "device_e4a50bfd310ec0-256gb-wifi",
+      "configuration_match": "exact_apple_ipad10_256gb_wifi_datablitz_sold_out_listing",
+      "variant_storage_gb": 256,
+      "variant_connectivity": "Wi-Fi",
+      "price_type": "retailer_listing_sold_out_not_current_buyable_price",
+      "source_published_at": null,
+      "excerpt": "DataBlitz listed this exact 256GB Wi-Fi configuration at PHP 30,450 but marked the product sold out on the observed collection page. Not used as the catalog's current price.",
+      "source_url": "https://ecommerce.datablitz.com.ph/collections/ipad-10th-gen-wifi",
+      "source_kind": "retailer_exact_configuration_sold_out_listing",
+      "observed_at": "2026-11-27",
+      "local_availability_verified": false,
+      "availability_status": "sold_out_at_observation_not_currently_buyable"
+    }
+  ]
+}
